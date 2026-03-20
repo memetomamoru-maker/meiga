@@ -1,0 +1,1023 @@
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent;}
+:root{
+  --cream:#f5f0e8;--warm:#ede4d3;--stone:#e2d8c8;
+  --gold:#b8956a;--gold-l:#d4b896;--gold-d:#8a6a3a;
+  --ink:#2a2016;--ink-m:#7a6550;--ink-l:#b0997e;
+  --fd:#4a2e10;--fm:#7a5420;--fl:#c8a060;
+  --dur:.5s;--ease:cubic-bezier(.76,0,.24,1);
+}
+body{background:var(--cream);overflow:hidden;font-family:'Cormorant Garamond',Georgia,serif;}
+
+#app{
+  position:relative;width:100%;height:640px;
+  background:var(--cream);overflow:hidden;
+  display:flex;flex-direction:column;
+}
+/* 壁テクスチャ */
+#app::before{
+  content:'';position:absolute;inset:0;pointer-events:none;z-index:0;
+  background:
+    repeating-linear-gradient(0deg,transparent,transparent 39px,rgba(180,150,100,.06) 39px,rgba(180,150,100,.06) 40px),
+    repeating-linear-gradient(90deg,transparent,transparent 39px,rgba(180,150,100,.04) 39px,rgba(180,150,100,.04) 40px);
+}
+
+/* ── ヘッダー ── */
+#hd{
+  position:relative;z-index:300;
+  display:flex;align-items:center;justify-content:space-between;
+  padding:11px 16px 9px;
+  border-bottom:1px solid rgba(184,149,106,.2);
+  background:rgba(245,240,232,.96);
+  backdrop-filter:blur(8px);
+  flex-shrink:0;
+}
+.logo{font-size:11px;letter-spacing:.22em;color:var(--ink-m);font-style:italic;font-weight:300;}
+.logo b{color:var(--gold-d);font-weight:400;font-style:normal;letter-spacing:.05em;}
+.hd-r{display:flex;gap:6px;align-items:center;}
+
+.hbtn{
+  height:28px;padding:0 10px;
+  background:transparent;border:1px solid rgba(184,149,106,.3);
+  color:var(--ink-m);font-family:'Cormorant Garamond',serif;
+  font-size:11px;letter-spacing:.1em;cursor:pointer;
+  transition:all .16s;display:flex;align-items:center;gap:4px;white-space:nowrap;
+}
+.hbtn:hover{background:rgba(184,149,106,.1);border-color:var(--gold);}
+.hbtn-round{width:28px;height:28px;padding:0;border-radius:50%;justify-content:center;font-size:13px;position:relative;}
+.bdg{
+  position:absolute;top:-4px;right:-4px;min-width:14px;height:14px;
+  background:var(--gold);border-radius:7px;font-size:7px;color:#fff;
+  display:none;align-items:center;justify-content:center;font-family:sans-serif;padding:0 3px;
+}
+.bdg.on{display:flex;}
+
+/* ── デッキ（メイン表示エリア） ── */
+#dw{
+  position:relative;flex:1;overflow:hidden;touch-action:none;
+  /* 壁の背景色 */
+  background:var(--warm);
+}
+
+/* ── カード ── */
+.card{
+  position:absolute;inset:0;
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  will-change:transform,opacity;
+  transform:translateY(110%);
+  transition:transform var(--dur) var(--ease), opacity calc(var(--dur)*.7) ease;
+  opacity:0;
+  padding:0;
+}
+.card.cur{transform:translateY(0);opacity:1;}
+.card.above{transform:translateY(-110%);opacity:0;}
+.card.drag{transition:none;}
+
+/* 釘 */
+.nail{
+  width:8px;height:8px;border-radius:50%;flex-shrink:0;
+  background:radial-gradient(circle at 35% 32%,#d8d8d8 0%,#909090 50%,#606060 100%);
+  box-shadow:0 1px 4px rgba(0,0,0,.35),inset 0 1px 0 rgba(255,255,255,.4);
+  z-index:2;position:relative;
+}
+/* ひも */
+.wire{
+  width:70px;height:18px;flex-shrink:0;
+  border-top:1.5px solid rgba(90,55,20,.32);
+  border-radius:50% 50% 0 0/100% 100% 0 0;
+  margin-bottom:-1px;position:relative;z-index:1;
+}
+
+/* 額縁ラッパー */
+.frame-wrap{
+  position:relative;flex-shrink:0;
+  /* カードの高さに対して最大幅を計算 */
+  width:min(300px, calc(100vw - 40px));
+}
+/* 木製額縁（外） */
+.frame-wrap::before{
+  content:'';position:absolute;
+  inset:-13px;
+  background:linear-gradient(145deg,
+    var(--fl) 0%,#a07838 18%,var(--fm) 30%,
+    var(--fd) 45%,#6a4418 55%,
+    var(--fm) 70%,#b08840 82%,var(--fl) 100%);
+  border-radius:2px;
+  box-shadow:
+    0 8px 30px rgba(30,18,6,.28),
+    0 2px 8px rgba(30,18,6,.18),
+    inset 0 1px 0 rgba(255,255,255,.22),
+    inset 0 -1px 0 rgba(0,0,0,.15);
+}
+/* マット（内側の白いパス）  */
+.frame-wrap::after{
+  content:'';position:absolute;
+  inset:-3px;
+  background:var(--stone);
+  box-shadow:inset 0 0 0 1px rgba(184,149,106,.25),inset 0 0 8px rgba(0,0,0,.06);
+}
+
+/* 絵画本体（CSS描画） */
+.painting{
+  position:relative;z-index:1;
+  width:100%;
+  /* アスペクト比は各作品のdata属性で上書き */
+  display:block;overflow:hidden;
+}
+
+/* 壁への影 */
+.frame-shadow{
+  position:absolute;bottom:-20px;left:-5%;width:110%;height:20px;
+  background:radial-gradient(ellipse at 50% 0%,rgba(30,18,6,.2) 0%,transparent 70%);
+  filter:blur(6px);
+  pointer-events:none;z-index:0;
+}
+
+/* カード上のメタ情報バッジ */
+.card-num{
+  position:absolute;top:8px;left:14px;z-index:10;
+  font-size:9px;letter-spacing:.15em;color:var(--ink-l);font-style:italic;
+}
+.style-tag{
+  position:absolute;top:8px;right:14px;z-index:10;
+  font-size:9px;letter-spacing:.1em;color:var(--ink-m);
+  border:1px solid rgba(184,149,106,.3);padding:2px 8px;
+  background:rgba(245,240,232,.88);backdrop-filter:blur(4px);
+}
+
+/* スワイプヒント */
+#shi{
+  position:absolute;bottom:10px;left:50%;transform:translateX(-50%);
+  z-index:10;display:flex;flex-direction:column;align-items:center;gap:4px;
+  pointer-events:none;opacity:0;
+  animation:shia 3.5s ease 1.5s 1 forwards;
+}
+@keyframes shia{
+  0%{opacity:0;transform:translateX(-50%) translateY(0)}
+  15%{opacity:.5}72%{opacity:.5;transform:translateX(-50%) translateY(-8px)}
+  100%{opacity:0;transform:translateX(-50%) translateY(-16px)}
+}
+.shi-l{width:1px;height:18px;background:linear-gradient(to top,var(--gold-l),transparent);}
+.shi-t{font-size:8px;letter-spacing:.3em;color:var(--ink-l);font-style:italic;}
+
+/* ── アクションバー ── */
+#ab{
+  position:relative;z-index:200;
+  background:rgba(245,240,232,.98);
+  border-top:1px solid rgba(184,149,106,.18);
+  flex-shrink:0;
+}
+.ab-i{display:flex;align-items:center;padding:8px 14px 12px;gap:10px;}
+.ab-info{flex:1;min-width:0;}
+.ab-t{font-size:14px;color:var(--ink);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;letter-spacing:.02em;}
+.ab-s{font-size:10px;color:var(--ink-l);margin-top:2px;font-style:italic;letter-spacing:.07em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.ab-btns{display:flex;gap:6px;flex-shrink:0;}
+.sbtn{
+  height:32px;padding:0 10px;background:transparent;
+  border:1px solid rgba(184,149,106,.32);color:var(--ink-m);
+  font-family:'Cormorant Garamond',serif;font-size:11px;letter-spacing:.08em;
+  cursor:pointer;transition:all .16s;white-space:nowrap;
+}
+.sbtn:hover{background:rgba(184,149,106,.1);}
+.hrtbtn{
+  width:32px;height:32px;border-radius:50%;background:transparent;
+  border:1px solid rgba(184,149,106,.32);color:var(--ink-l);
+  cursor:pointer;display:flex;align-items:center;justify-content:center;transition:all .2s;
+}
+.hrtbtn:hover{border-color:var(--gold);color:var(--gold);}
+.hrtbtn.lk{background:rgba(180,70,70,.07);border-color:rgba(180,70,70,.42);color:rgba(180,70,70,.9);}
+.hrtbtn.lk #hico{fill:rgba(180,70,70,.9);stroke:rgba(180,70,70,.9);}
+@keyframes hb{0%{transform:scale(1)}20%{transform:scale(1.35)}40%{transform:scale(.9)}60%{transform:scale(1.12)}100%{transform:scale(1)}}
+.hrtbtn.bt #hico{animation:hb .42s ease forwards;}
+
+/* ── トースト ── */
+#toast{
+  position:absolute;bottom:68px;left:50%;transform:translateX(-50%);z-index:500;
+  background:var(--ink);color:var(--cream);font-size:11px;letter-spacing:.1em;
+  padding:7px 16px;white-space:nowrap;pointer-events:none;opacity:0;
+}
+@keyframes tf{0%{opacity:0;transform:translateX(-50%) translateY(5px)}15%{opacity:1}80%{opacity:1}100%{opacity:0;transform:translateX(-50%) translateY(-4px)}}
+#toast.show{animation:tf 1.8s ease forwards;}
+
+/* ── フィルタードロワー ── */
+#fd{position:absolute;inset:0;z-index:600;pointer-events:none;}
+#fd.open{pointer-events:all;}
+#fdb{position:absolute;inset:0;background:rgba(42,32,22,.28);opacity:0;transition:opacity .28s;}
+#fd.open #fdb{opacity:1;}
+#fdp{
+  position:absolute;top:0;right:0;bottom:0;width:min(268px,83vw);
+  background:var(--cream);border-left:1px solid rgba(184,149,106,.2);
+  transform:translateX(100%);transition:transform .38s var(--ease);
+  display:flex;flex-direction:column;overflow:hidden;
+}
+#fd.open #fdp{transform:translateX(0);}
+.fdh{padding:16px 18px 13px;border-bottom:1px solid rgba(184,149,106,.15);font-size:10px;letter-spacing:.22em;color:var(--ink-m);font-style:italic;flex-shrink:0;}
+.fdbody{flex:1;overflow-y:auto;padding:14px 18px 36px;}
+.fds{margin-bottom:18px;}
+.fdl{font-size:9px;letter-spacing:.22em;color:var(--gold-d);text-transform:uppercase;margin-bottom:8px;display:flex;align-items:center;gap:7px;}
+.fdl::after{content:'';flex:1;height:1px;background:rgba(184,149,106,.2);}
+.pw{display:flex;flex-wrap:wrap;gap:5px;}
+.pill{
+  background:transparent;border:1px solid rgba(184,149,106,.26);color:var(--ink-m);
+  font-family:'Cormorant Garamond',serif;font-size:11px;padding:4px 10px;
+  cursor:pointer;transition:all .13s;letter-spacing:.05em;
+}
+.pill:hover{border-color:var(--gold);}
+.pill.on{background:var(--gold);color:#fff;border-color:var(--gold);}
+.fd-cnt{font-size:10px;color:var(--ink-l);font-style:italic;margin-bottom:14px;letter-spacing:.05em;}
+
+/* ── ギャラリー ── */
+#gp{position:absolute;inset:0;z-index:600;background:var(--cream);transform:translateY(100%);transition:transform .42s var(--ease);display:flex;flex-direction:column;overflow:hidden;}
+#gp.open{transform:translateY(0);}
+.gph{display:flex;align-items:center;justify-content:space-between;padding:13px 16px;border-bottom:1px solid rgba(184,149,106,.18);flex-shrink:0;}
+.gpt{font-size:13px;letter-spacing:.2em;color:var(--ink-m);font-style:italic;}
+.gpc{background:transparent;border:1px solid rgba(184,149,106,.26);color:var(--ink-m);font-size:11px;width:28px;height:28px;cursor:pointer;display:flex;align-items:center;justify-content:center;}
+.gpb{flex:1;overflow-y:auto;padding:18px 14px;}
+.gwall{
+  background:
+    repeating-linear-gradient(0deg,transparent,transparent 59px,rgba(184,149,106,.06) 59px,rgba(184,149,106,.06) 60px),
+    repeating-linear-gradient(90deg,transparent,transparent 59px,rgba(184,149,106,.06) 59px,rgba(184,149,106,.06) 60px);
+  background-color:var(--warm);
+  border:1px solid rgba(184,149,106,.15);min-height:180px;padding:28px 14px 20px;
+}
+.gg{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;}
+.gi{position:relative;display:flex;flex-direction:column;align-items:center;gap:5px;}
+.giwire{width:36px;height:12px;border-top:1px solid rgba(90,55,20,.28);border-radius:50% 50% 0 0/100% 100% 0 0;}
+.gif{position:relative;width:100%;aspect-ratio:3/4;overflow:hidden;}
+.gif::before{content:'';position:absolute;inset:-4px;background:linear-gradient(140deg,var(--fl) 0%,var(--fm) 30%,var(--fd) 50%,var(--fm) 70%,var(--fl) 100%);box-shadow:1px 3px 8px rgba(30,18,6,.18);}
+.gif-inner{position:relative;z-index:1;width:100%;height:100%;}
+.gilbl{font-size:8px;color:var(--ink-l);font-style:italic;letter-spacing:.04em;text-align:center;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:100%;padding:0 2px;}
+.ge{text-align:center;padding:52px 0;font-style:italic;font-size:12px;color:var(--ink-l);letter-spacing:.1em;line-height:2.4;}
+</style>
+
+<div id="app">
+  <div id="hd">
+    <div class="logo">名画収集館 <b>·</b> MEIGA</div>
+    <div class="hd-r">
+      <button class="hbtn" id="btn-filter">≡&nbsp;カテゴリ</button>
+      <button class="hbtn hbtn-round" id="btn-gal">🖼<span class="bdg" id="bdg"></span></button>
+    </div>
+  </div>
+
+  <div id="dw">
+    <div id="shi"><div class="shi-l"></div><div class="shi-t">上にスワイプ</div></div>
+  </div>
+
+  <div id="ab">
+    <div class="ab-i">
+      <div class="ab-info">
+        <div class="ab-t" id="abt">—</div>
+        <div class="ab-s" id="abs">—</div>
+      </div>
+      <div class="ab-btns">
+        <button class="sbtn" id="btn-share">𝕏 シェア</button>
+        <button class="hrtbtn" id="bh">
+          <svg id="hico" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div id="toast"></div>
+
+  <div id="fd">
+    <div id="fdb"></div>
+    <div id="fdp">
+      <div class="fdh">— カテゴリで絞り込む —</div>
+      <div class="fdbody" id="fdbody"></div>
+    </div>
+  </div>
+
+  <div id="gp">
+    <div class="gph"><div class="gpt">My Gallery</div><button class="gpc" id="gpc">✕</button></div>
+    <div class="gpb"><div class="gwall"><div id="gg" class="gg"></div><div id="ge" class="ge">♡ した絵画がここに飾られます</div></div></div>
+  </div>
+</div>
+
+<script>
+(function(){
+
+// 各絵画の色彩・パターンを丁寧に設計
+const DB = [
+  {id:1, title:'モナ・リザ',            artist:'Leonardo da Vinci',     year:1503, century:'16世紀', style:'ルネサンス',
+   ratio:'2/3', // w/h
+   bg:'#7a6548',
+   layers:[
+     {type:'sky',   y:0,  h:42, c:'#c8b890'},
+     {type:'land',  y:42, h:58, c:'#6a5838'},
+     {type:'figure',x:28, y:18, w:44, h:70, c:'#3a2818', c2:'#c8a870'},
+     {type:'oval',  x:30, y:14, rx:20, ry:22, c:'#d4b888'},
+   ]},
+  {id:2, title:'真珠の耳飾りの少女',  artist:'Johannes Vermeer',      year:1665, century:'17世紀', style:'バロック',
+   ratio:'2/3',
+   bg:'#1a1a1a',
+   layers:[
+     {type:'figure',x:15, y:5,  w:70, h:88, c:'#2a2a2a', c2:'#c8a060'},
+     {type:'oval',  x:25, y:6,  rx:25, ry:28, c:'#e0c898'},
+     {type:'pearl', x:43, y:72, r:4,   c:'#e8e0d0'},
+     {type:'wrap',  x:20, y:0,  w:60, h:40, c:'#1a2a4a'},
+   ]},
+  {id:3, title:'星月夜',              artist:'Vincent van Gogh',      year:1889, century:'19世紀', style:'ポスト印象派',
+   ratio:'4/3',
+   bg:'#0d1a3a',
+   layers:[
+     {type:'swirl1',c:'#1a3a7a'},
+     {type:'swirl2',c:'#2a5aaa'},
+     {type:'moon',  x:82, y:12, r:10, c:'#f0e060'},
+     {type:'hill',  y:72, c:'#0a1428'},
+     {type:'village',y:65,c:'#1a2a40'},
+     {type:'cypress',x:8, y:30, c:'#0a1520'},
+   ]},
+  {id:4, title:'睡蓮',               artist:'Claude Monet',          year:1906, century:'20世紀', style:'印象派',
+   ratio:'4/3',
+   bg:'#3a6050',
+   layers:[
+     {type:'water1',c:'#2a5048'},
+     {type:'water2',c:'#507868'},
+     {type:'lily1', x:20, y:50, rx:18, ry:8, c:'#e8f0d8'},
+     {type:'lily2', x:60, y:65, rx:14, ry:6, c:'#f0e8d0'},
+     {type:'lily3', x:45, y:35, rx:10, ry:5, c:'#e0e8c8'},
+     {type:'flower1',x:26,y:44,r:5,c:'#e8b0a0'},
+     {type:'flower2',x:66,y:58,r:4,c:'#f0c8b0'},
+   ]},
+  {id:5, title:'叫び',               artist:'Edvard Munch',          year:1893, century:'19世紀', style:'表現主義',
+   ratio:'3/4',
+   bg:'#c84820',
+   layers:[
+     {type:'sky-red',c:'#e06020'},
+     {type:'fjord',  c:'#2040a0'},
+     {type:'bridge', c:'#3a2010'},
+     {type:'figure2',x:38, y:28, c:'#f0e0c0'},
+   ]},
+  {id:6, title:'牛乳を注ぐ女',        artist:'Johannes Vermeer',      year:1658, century:'17世紀', style:'バロック',
+   ratio:'3/4',
+   bg:'#c8a860',
+   layers:[
+     {type:'wall',  c:'#d8c090'},
+     {type:'figure',x:20, y:15, w:60, h:75, c:'#3a2808', c2:'#4a6828'},
+     {type:'table', y:72, c:'#8a5828'},
+     {type:'window',x:0,  y:0,  w:35, h:45, c:'#d8e8f0'},
+   ]},
+  {id:7, title:'ひまわり',            artist:'Vincent van Gogh',      year:1888, century:'19世紀', style:'ポスト印象派',
+   ratio:'3/4',
+   bg:'#e8d050',
+   layers:[
+     {type:'vase',  x:30, y:50, w:40, h:45, c:'#2a60a0'},
+     {type:'sun1',  x:50, y:25, r:18, c:'#e8a010'},
+     {type:'sun2',  x:25, y:40, r:12, c:'#f0c020'},
+     {type:'sun3',  x:70, y:35, r:10, c:'#d09008'},
+     {type:'sun4',  x:40, y:55, r:8,  c:'#c07808'},
+   ]},
+  {id:8, title:'印象・日の出',         artist:'Claude Monet',          year:1872, century:'19世紀', style:'印象派',
+   ratio:'4/3',
+   bg:'#203050',
+   layers:[
+     {type:'dawn',  c:'#506080'},
+     {type:'sun-o', x:38, y:38, r:12, c:'#e05010'},
+     {type:'water3',c:'#304060'},
+     {type:'boat1', x:20, y:72, c:'#0a1020'},
+     {type:'boat2', x:55, y:68, c:'#0a1020'},
+   ]},
+  {id:9, title:'接吻',               artist:'Gustav Klimt',          year:1908, century:'20世紀', style:'アール・ヌーヴォー',
+   ratio:'1/1',
+   bg:'#8a6010',
+   layers:[
+     {type:'gold1', c:'#c89020'},
+     {type:'gold2', c:'#e0b030'},
+     {type:'figure',x:25, y:8,  w:50, h:80, c:'#c09020'},
+     {type:'head1', x:38, y:5,  r:12, c:'#e8c890'},
+     {type:'head2', x:50, y:12, r:10, c:'#d0a870'},
+     {type:'flower3',x:30,y:75, c:'#e8d060'},
+   ]},
+  {id:10, title:'夜警',              artist:'Rembrandt van Rijn',    year:1642, century:'17世紀', style:'バロック',
+   ratio:'5/4',
+   bg:'#1a1008',
+   layers:[
+     {type:'dark1', c:'#2a1808'},
+     {type:'light1',x:25, y:20, rx:30,ry:40, c:'#c89040', op:.3},
+     {type:'figure',x:18, y:15, w:20, h:75, c:'#0a0808', c2:'#c89040'},
+     {type:'figure',x:42, y:15, w:18, h:75, c:'#f0e060', c2:'#2a1808'},
+     {type:'gun',   x:10, y:55, w:45, h:5,  c:'#8a6020'},
+   ]},
+  {id:11, title:'グラン・ジャット島の日曜日', artist:'Georges Seurat', year:1886, century:'19世紀', style:'ポスト印象派',
+   ratio:'5/3',
+   bg:'#6a9050',
+   layers:[
+     {type:'grass', c:'#7aaa58'},
+     {type:'water4',y:55, c:'#5880b0'},
+     {type:'tree1', x:0,  y:0, c:'#3a6030'},
+     {type:'tree1', x:78, y:5, c:'#2a5028'},
+     {type:'dot1',  c:'#507838'},
+   ]},
+  {id:12, title:'ムーラン・ド・ラ・ギャレット', artist:'Pierre-Auguste Renoir', year:1876, century:'19世紀', style:'印象派',
+   ratio:'4/3',
+   bg:'#8080a0',
+   layers:[
+     {type:'crowd', c:'#6878a0'},
+     {type:'light2',x:50, y:0, r:40, c:'#f0e8d8', op:.2},
+     {type:'figure',x:20, y:30, w:12,h:50, c:'#1a1a2a',c2:'#d0c0e0'},
+     {type:'figure',x:40, y:35, w:10,h:45, c:'#1a1a2a',c2:'#c0b0d0'},
+     {type:'figure',x:60, y:32, w:11,h:48, c:'#1a1a2a',c2:'#e0d0f0'},
+   ]},
+  {id:13, title:'ヴィーナスの誕生',    artist:'Sandro Botticelli',    year:1485, century:'15世紀', style:'ルネサンス',
+   ratio:'5/3',
+   bg:'#7aaabf',
+   layers:[
+     {type:'sea',   c:'#6090a8'},
+     {type:'sky2',  c:'#a0c8d8'},
+     {type:'figure',x:40, y:15, w:20, h:70, c:'#e8d0b0', c2:'#f0e8c8'},
+     {type:'shell', x:32, y:55, rx:18,ry:12,c:'#f0e0c8'},
+     {type:'wind',  x:0,  y:30, w:35, h:30, c:'#c8d8e0'},
+   ]},
+  {id:14, title:'神奈川沖浪裏',       artist:'葛飾北斎',              year:1831, century:'19世紀', style:'浮世絵',
+   ratio:'4/3',
+   bg:'#1a4a8a',
+   layers:[
+     {type:'wave1', c:'#2860a8'},
+     {type:'wave2', c:'#3878c0'},
+     {type:'foam',  c:'#e8f0f8'},
+     {type:'fuji',  x:64, y:42, c:'#f8f0e8'},
+     {type:'boat1', x:25, y:62, c:'#2a3018'},
+     {type:'boat2', x:50, y:58, c:'#2a3018'},
+   ]},
+  {id:15, title:'凱風快晴（赤富士）',  artist:'葛飾北斎',              year:1831, century:'19世紀', style:'浮世絵',
+   ratio:'4/3',
+   bg:'#88c0d8',
+   layers:[
+     {type:'sky3',  c:'#a8d0e8'},
+     {type:'fuji2', x:20, y:20, c:'#c84010'},
+     {type:'forest',y:72, c:'#2a6020'},
+   ]},
+  {id:16, title:'踊りの稽古',         artist:'Edgar Degas',           year:1874, century:'19世紀', style:'印象派',
+   ratio:'4/3',
+   bg:'#c0b8d0',
+   layers:[
+     {type:'floor', c:'#d8c898'},
+     {type:'wall2', c:'#e0d8e8'},
+     {type:'dancer',x:20, y:20, w:10, h:60, c:'#f8f0f8', c2:'#e0d0f0'},
+     {type:'dancer',x:38, y:15, w:10, h:65, c:'#f8f0f8', c2:'#d0c0e8'},
+     {type:'dancer',x:56, y:18, w:10, h:62, c:'#f8f0f8', c2:'#e8d8f8'},
+     {type:'dancer',x:72, y:22, w:10, h:58, c:'#f8f0f8', c2:'#d8c8e8'},
+   ]},
+  {id:17, title:'草上の昼食',         artist:'Édouard Manet',         year:1863, century:'19世紀', style:'印象派',
+   ratio:'4/3',
+   bg:'#4a6838',
+   layers:[
+     {type:'forest2',c:'#3a5828'},
+     {type:'figure', x:58,y:5, w:18,h:60, c:'#e8d8c0'},
+     {type:'figure', x:50,y:45,w:22,h:50, c:'#e8d8c0'},
+     {type:'figure', x:20,y:35,w:18,h:55, c:'#1a1a1a',c2:'#2a3a50'},
+     {type:'figure', x:35,y:40,w:16,h:50, c:'#2a2018'},
+   ]},
+  {id:18, title:'アテナイの学堂',      artist:'Raphael',               year:1511, century:'16世紀', style:'ルネサンス',
+   ratio:'5/3',
+   bg:'#c8b880',
+   layers:[
+     {type:'arch1', c:'#d8c898'},
+     {type:'arch2', c:'#c0a870'},
+     {type:'crowd2',c:'#8a7050'},
+     {type:'steps', y:75, c:'#d0bc88'},
+   ]},
+  {id:19, title:'大橋・あたけの夕立',  artist:'歌川広重',              year:1857, century:'19世紀', style:'浮世絵',
+   ratio:'4/3',
+   bg:'#283858',
+   layers:[
+     {type:'rain',  c:'#384868'},
+     {type:'bridge2',y:55,c:'#1a2838'},
+     {type:'water5',y:72,c:'#1a2838'},
+     {type:'rain-lines',c:'#8898b8'},
+   ]},
+  {id:20, title:'コンポジションVIII', artist:'Wassily Kandinsky',     year:1923, century:'20世紀', style:'抽象絵画',
+   ratio:'3/2',
+   bg:'#f0e8d8',
+   layers:[
+     {type:'abstract1',c:'#e82020'},
+     {type:'abstract2',c:'#2050c0'},
+     {type:'abstract3',c:'#e8c020'},
+     {type:'abstract4',c:'#208040'},
+   ]},
+  {id:21, title:'ひまわり（黄色）',    artist:'Vincent van Gogh',      year:1889, century:'19世紀', style:'ポスト印象派',
+   ratio:'3/4',
+   bg:'#e8c838',
+   layers:[
+     {type:'vase2', x:28, y:52, w:44, h:48, c:'#4878b8'},
+     {type:'sun1',  x:48, y:18, r:20, c:'#d89008'},
+     {type:'sun2',  x:22, y:35, r:14, c:'#f0b820'},
+     {type:'sun3',  x:72, y:30, r:12, c:'#c87808'},
+   ]},
+  {id:22, title:'ぶらんこ',           artist:'Pierre-Auguste Renoir', year:1876, century:'19世紀', style:'印象派',
+   ratio:'3/4',
+   bg:'#6a9040',
+   layers:[
+     {type:'forest3',c:'#507830'},
+     {type:'light3', x:50,y:0,r:60,c:'#f0e8d0',op:.15},
+     {type:'figure', x:38,y:20,w:14,h:60,c:'#f0e8e0',c2:'#d8c8d0'},
+     {type:'figure', x:58,y:35,w:12,h:50,c:'#1a1a1a',c2:'#283060'},
+   ]},
+  {id:23, title:'春（プリマヴェーラ）', artist:'Sandro Botticelli',   year:1482, century:'15世紀', style:'ルネサンス',
+   ratio:'5/3',
+   bg:'#3a6028',
+   layers:[
+     {type:'grove',  c:'#2a5018'},
+     {type:'figure', x:45,y:10,w:12,h:80,c:'#e8d8b0',c2:'#f0e8c8'},
+     {type:'figure', x:28,y:15,w:10,h:75,c:'#e0d0a8',c2:'#d0c898'},
+     {type:'figure', x:62,y:15,w:10,h:75,c:'#e8d8b0',c2:'#d8c8a0'},
+     {type:'flower4',c:'#e8c060'},
+   ]},
+  {id:24, title:'自画像',             artist:'Rembrandt van Rijn',   year:1659, century:'17世紀', style:'バロック',
+   ratio:'3/4',
+   bg:'#1a1008',
+   layers:[
+     {type:'dark2',  c:'#201408'},
+     {type:'light4', x:30,y:10,rx:25,ry:30,c:'#c88040',op:.4},
+     {type:'oval2',  x:28,y:8,rx:22,ry:26,c:'#d8a870'},
+     {type:'collar', x:22,y:60,w:56,h:30,c:'#e8e0d8'},
+   ]},
+  {id:25, title:'接吻（クリムト）',   artist:'Gustav Klimt',         year:1907, century:'20世紀', style:'アール・ヌーヴォー',
+   ratio:'1/1',
+   bg:'#604808',
+   layers:[
+     {type:'gold3',  c:'#b08018'},
+     {type:'gold4',  c:'#d0a028'},
+     {type:'figure2',x:22,y:5,w:56,h:85,c:'#b89020'},
+     {type:'head3',  x:40,y:4,r:13,c:'#e8c890'},
+     {type:'head4',  x:54,y:10,r:11,c:'#d0a870'},
+   ]},
+];
+
+const centuries=[...new Set(DB.map(p=>p.century))].sort();
+const styles   =[...new Set(DB.map(p=>p.style))].sort();
+const artists  =[...new Set(DB.map(p=>p.artist))].sort();
+
+const dw  = document.getElementById('dw');
+const abt = document.getElementById('abt');
+const abs = document.getElementById('abs');
+const bh  = document.getElementById('bh');
+const bdg = document.getElementById('bdg');
+const toastEl = document.getElementById('toast');
+
+let filter={century:'all',style:'all',artist:'all'};
+let queue=[],cards=[],pointer=0;
+let liked=[];
+try{liked=JSON.parse(localStorage.getItem('meiga_v7')||'[]');}catch(e){}
+
+function save(){try{localStorage.setItem('meiga_v7',JSON.stringify(liked));}catch(e){}}
+function upBdg(){bdg.textContent=liked.length;liked.length>0?bdg.classList.add('on'):bdg.classList.remove('on');}
+upBdg();
+function toast(msg){toastEl.textContent=msg;toastEl.classList.remove('show');void toastEl.offsetWidth;toastEl.classList.add('show');}
+
+// ── SVGで絵画を生成 ──
+function makeSvgPainting(p){
+  const [numW, numH] = p.ratio.split('/').map(Number);
+  const W=200, H=Math.round(W*numH/numW);
+
+  const svg=document.createElementNS('http://www.w3.org/2000/svg','svg');
+  svg.setAttribute('viewBox',`0 0 ${W} ${H}`);
+  svg.setAttribute('width','100%');
+  svg.setAttribute('height','100%');
+  svg.style.cssText='display:block;';
+
+  // 背景
+  const bg=document.createElementNS('http://www.w3.org/2000/svg','rect');
+  bg.setAttribute('width',W);bg.setAttribute('height',H);bg.setAttribute('fill',p.bg);
+  svg.appendChild(bg);
+
+  // レイヤー描画
+  p.layers.forEach(l=>{
+    const op=l.op||1;
+    if(l.type==='sky'||l.type==='sky2'||l.type==='sky3'){
+      const r=rect(0,0,W,H*(l.h||45)/100,l.c,op);svg.appendChild(r);
+    } else if(l.type==='land'||l.type==='grass'||l.type==='floor'||l.type==='wall'||l.type==='wall2'){
+      const y=l.y?H*l.y/100:H*.5;
+      const r=rect(0,y,W,H-y,l.c,op);svg.appendChild(r);
+    } else if(l.type==='figure'||l.type==='dancer'||l.type==='vase'||l.type==='vase2'){
+      const x=W*l.x/100,y=H*l.y/100,w=W*l.w/100,h=H*l.h/100;
+      svg.appendChild(rect(x,y,w,h,l.c,op));
+      if(l.c2){// 衣装/装飾ライン
+        for(let i=0;i<3;i++){svg.appendChild(rect(x+w*.1+i*w*.2,y+h*.2,w*.15,h*.5,l.c2,.5));}
+      }
+    } else if(l.type==='oval'||l.type==='oval2'||l.type==='head1'||l.type==='head2'||l.type==='head3'||l.type==='head4'){
+      const cx=l.x?W*l.x/100:W*.5,cy=l.y?H*l.y/100:H*.5;
+      const rx=l.rx?W*l.rx/100:(l.r?W*l.r/100:W*.15);
+      const ry=l.ry?H*l.ry/100:(l.r?H*l.r/100:H*.18);
+      svg.appendChild(ellipse(cx,cy,rx,ry,l.c,op));
+    } else if(l.type==='pearl'||l.type==='moon'||l.type==='sun-o'){
+      const cx=W*l.x/100,cy=H*l.y/100,r=W*l.r/100;
+      svg.appendChild(circle(cx,cy,r,l.c,op));
+      if(l.type==='moon'){// 光輪
+        svg.appendChild(circle(cx,cy,r*2.2,l.c,.12));
+      }
+    } else if(l.type==='water'||l.type==='water1'||l.type==='water2'||l.type==='water3'||l.type==='water4'||l.type==='water5'){
+      const y=l.y?H*l.y/100:H*.5;
+      svg.appendChild(rect(0,y,W,H-y,l.c,op));
+      // さざ波
+      for(let i=0;i<5;i++){
+        const e=ellipse(W*(.1+i*.18),y+H*.04,W*.12,H*.015,l.type==='water1'?'#80c0a0':'#4888c0',.2);
+        svg.appendChild(e);
+      }
+    } else if(l.type==='swirl1'||l.type==='swirl2'){
+      for(let i=0;i<7;i++){
+        const e=ellipse(W*.5,H*(i*.12+.05),W*.4+i*5,H*.06,l.c,.25+i*.03);
+        svg.appendChild(e);
+      }
+    } else if(l.type==='wave1'||l.type==='wave2'){
+      for(let i=0;i<5;i++){
+        const e=ellipse(W*(i*.22+.1),H*(.3+i*.05),W*.25,H*.18,l.c,.4);
+        svg.appendChild(e);
+      }
+    } else if(l.type==='foam'){
+      for(let i=0;i<12;i++){
+        const e=ellipse(W*(i*.09+.02),H*(.22+i*.02),W*.06,H*.04,l.c,.6);
+        svg.appendChild(e);
+      }
+    } else if(l.type==='fuji'){
+      const pts=`${W*l.x/100},${H} ${W*(l.x+20)/100},${H*.42} ${W*(l.x+30)/100},${H}`;
+      const poly=document.createElementNS('http://www.w3.org/2000/svg','polygon');
+      poly.setAttribute('points',pts);poly.setAttribute('fill',l.c);
+      svg.appendChild(poly);
+    } else if(l.type==='fuji2'){
+      const pts=`${W*l.x/100},${H*.95} ${W*(l.x+35)/100},${H*l.y/100} ${W*(l.x+60)/100},${H*.95}`;
+      const poly=document.createElementNS('http://www.w3.org/2000/svg','polygon');
+      poly.setAttribute('points',pts);poly.setAttribute('fill',l.c);svg.appendChild(poly);
+      // 山頂の雪
+      const pts2=`${W*(l.x+30)/100},${H*l.y/100} ${W*(l.x+20)/100},${H*(l.y+12)/100} ${W*(l.x+40)/100},${H*(l.y+12)/100}`;
+      const poly2=document.createElementNS('http://www.w3.org/2000/svg','polygon');
+      poly2.setAttribute('points',pts2);poly2.setAttribute('fill','#f8f0e8');svg.appendChild(poly2);
+    } else if(l.type==='hill'){
+      const e=ellipse(W*.5,H*(l.y/100+.2),W*.7,H*.2,l.c,op);svg.appendChild(e);
+    } else if(l.type==='village'){
+      for(let i=0;i<8;i++){
+        const x=W*(i*.11+.08),y=H*l.y/100;
+        svg.appendChild(rect(x,y,W*.04,H*.12,l.c,.9));
+        const pts=`${x},${y} ${x+W*.04},${y} ${x+W*.02},${y-H*.04}`;
+        const roof=document.createElementNS('http://www.w3.org/2000/svg','polygon');
+        roof.setAttribute('points',pts);roof.setAttribute('fill','#0a1020');svg.appendChild(roof);
+      }
+    } else if(l.type==='cypress'){
+      for(let i=0;i<3;i++){
+        const x=W*(l.x/100+i*.05),y=H*l.y/100;
+        svg.appendChild(rect(x,y,W*.03,H*.35,l.c,.9));
+      }
+    } else if(l.type==='tree1'){
+      const x=W*l.x/100;
+      svg.appendChild(rect(x+W*.04,H*.4,W*.02,H*.6,l.c,.9));
+      svg.appendChild(ellipse(x+W*.05,H*.25,W*.08,H*.22,l.c,.9));
+    } else if(l.type==='bridge'||l.type==='bridge2'){
+      const y=l.y?H*l.y/100:H*.6;
+      svg.appendChild(rect(0,y,W,H*.08,l.c,op));
+    } else if(l.type==='boat1'||l.type==='boat2'){
+      const x=W*(l.x||20)/100,y=H*(l.y||70)/100;
+      const pts=`${x},${y} ${x+W*.12},${y} ${x+W*.1},${y+H*.04} ${x+W*.02},${y+H*.04}`;
+      const poly=document.createElementNS('http://www.w3.org/2000/svg','polygon');
+      poly.setAttribute('points',pts);poly.setAttribute('fill',l.c);svg.appendChild(poly);
+    } else if(l.type==='arch1'||l.type==='arch2'){
+      // アーチ型建築
+      for(let i=0;i<5;i++){
+        const x=W*(i*.2);
+        const path=document.createElementNS('http://www.w3.org/2000/svg','path');
+        path.setAttribute('d',`M${x},${H} L${x},${H*.3} Q${x+W*.1},${H*.1} ${x+W*.2},${H*.3} L${x+W*.2},${H}`);
+        path.setAttribute('fill','none');path.setAttribute('stroke',l.c);path.setAttribute('stroke-width','2');path.setAttribute('opacity','0.5');
+        svg.appendChild(path);
+      }
+    } else if(l.type==='steps'){
+      for(let i=0;i<4;i++){
+        svg.appendChild(rect(W*(i*.03),H*(l.y/100+i*.015),W*(1-i*.06),H*.015,l.c,.7));
+      }
+    } else if(l.type==='sun1'||l.type==='sun2'||l.type==='sun3'||l.type==='sun4'){
+      const cx=W*(l.x||50)/100,cy=H*(l.y||30)/100,r=W*(l.r||12)/100;
+      svg.appendChild(circle(cx,cy,r*1.4,l.c,.3));
+      svg.appendChild(circle(cx,cy,r,l.c,1));
+      // 花びら
+      for(let i=0;i<8;i++){
+        const a=i*Math.PI/4, px=cx+Math.cos(a)*r*1.8, py=cy+Math.sin(a)*r*1.8;
+        svg.appendChild(ellipse(px,py,r*.5,r*.3,l.c,.7));
+      }
+    } else if(l.type==='flower1'||l.type==='flower2'||l.type==='flower3'||l.type==='flower4'){
+      const cx=W*(l.x||50)/100,cy=H*(l.y||50)/100,r=W*.025;
+      svg.appendChild(circle(cx,cy,r*1.8,l.c,.5));
+      svg.appendChild(circle(cx,cy,r,l.c,1));
+    } else if(l.type==='lily1'||l.type==='lily2'||l.type==='lily3'){
+      const cx=W*l.x/100,cy=H*l.y/100;
+      svg.appendChild(ellipse(cx,cy,W*l.rx/100,H*l.ry/100,l.c,.7));
+    } else if(l.type==='rain'||l.type==='rain-lines'){
+      for(let i=0;i<20;i++){
+        const line=document.createElementNS('http://www.w3.org/2000/svg','line');
+        line.setAttribute('x1',W*(i*.05+Math.random()*.04));line.setAttribute('y1','0');
+        line.setAttribute('x2',W*(i*.05+Math.random()*.04-0.02));line.setAttribute('y2',H+'');
+        line.setAttribute('stroke',l.c);line.setAttribute('stroke-width','0.8');line.setAttribute('opacity','0.4');
+        svg.appendChild(line);
+      }
+    } else if(l.type==='gold1'||l.type==='gold2'||l.type==='gold3'||l.type==='gold4'){
+      for(let i=0;i<6;i++){
+        svg.appendChild(ellipse(W*(i*.18+.05),H*(i*.14+.05),W*.12,H*.1,l.c,.2));
+      }
+    } else if(l.type==='abstract1'||l.type==='abstract2'||l.type==='abstract3'||l.type==='abstract4'){
+      const shapes2=[
+        {x:W*.1,y:H*.1,r:W*.12},{x:W*.6,y:H*.3,r:W*.08},
+        {x:W*.3,y:H*.6,r:W*.1},{x:W*.75,y:H*.65,r:W*.06},
+      ];
+      shapes2.forEach((s,si)=>{
+        if(si===parseInt(l.type.slice(-1))-1){
+          svg.appendChild(circle(s.x,s.y,s.r,l.c,.7));
+          const line=document.createElementNS('http://www.w3.org/2000/svg','line');
+          line.setAttribute('x1',s.x);line.setAttribute('y1',s.y);
+          line.setAttribute('x2',s.x+W*.2);line.setAttribute('y2',s.y+H*.1);
+          line.setAttribute('stroke',l.c);line.setAttribute('stroke-width','2');line.setAttribute('opacity','0.6');
+          svg.appendChild(line);
+        }
+      });
+    } else if(l.type==='dawn'){
+      for(let i=0;i<5;i++){
+        svg.appendChild(rect(0,H*(i*.2),W,H*.2,l.c,(i*.08+.1)));
+      }
+    } else if(l.type==='sky-red'){
+      for(let i=0;i<8;i++){
+        svg.appendChild(ellipse(W*(i*.13+.05),H*.15,W*.18,H*.12,l.c,.3+i*.03));
+      }
+    } else if(l.type==='fjord'){
+      svg.appendChild(rect(0,H*.4,W,H*.6,l.c,.7));
+    } else if(l.type==='figure2'){
+      // 叫びの人物
+      const cx=W*l.x/100,cy=H*l.y/100;
+      svg.appendChild(ellipse(cx,cy-H*.06,W*.08,H*.08,l.c,.9));
+      svg.appendChild(rect(cx-W*.06,cy,W*.12,H*.35,l.c,.7));
+      // 手
+      svg.appendChild(ellipse(cx-W*.1,cy-H*.04,W*.04,H*.06,l.c,.6));
+      svg.appendChild(ellipse(cx+W*.1,cy-H*.04,W*.04,H*.06,l.c,.6));
+    } else if(l.type==='forest'||l.type==='forest2'||l.type==='forest3'){
+      for(let i=0;i<12;i++){
+        const x=W*(i*.09+Math.random()*.04),y=H*(Math.random()*.1);
+        svg.appendChild(rect(x,y,W*.015,H*.4,l.c,.5));
+        svg.appendChild(ellipse(x+W*.008,y,W*.04,H*.08,l.c,.5));
+      }
+    } else if(l.type==='grove'){
+      for(let i=0;i<8;i++){
+        const x=W*(i*.13+.02),y=0;
+        svg.appendChild(rect(x+W*.015,y,W*.02,H*.8,l.c,.6));
+        svg.appendChild(ellipse(x+W*.025,y,W*.06,H*.15,l.c,.6));
+      }
+    } else if(l.type==='crowd'||l.type==='crowd2'||l.type==='dot1'){
+      for(let i=0;i<25;i++){
+        svg.appendChild(circle(W*(Math.random()),H*(.3+Math.random()*.6),W*.015,l.c,.4));
+      }
+    } else if(l.type==='light1'||l.type==='light2'||l.type==='light3'||l.type==='light4'){
+      const cx=l.x?W*l.x/100:W*.5,cy=l.y?H*l.y/100:H*.3;
+      const rx=l.rx?W*l.rx/100:(l.r?W*l.r/100:W*.3);
+      const ry=l.ry?H*l.ry/100:(l.r?H*l.r/100:H*.35);
+      svg.appendChild(ellipse(cx,cy,rx,ry,l.c,l.op||.3));
+    } else if(l.type==='dark1'||l.type==='dark2'){
+      svg.appendChild(rect(0,0,W,H,l.c,.4));
+    } else if(l.type==='gun'){
+      const x=W*l.x/100,y=H*l.y/100,w=W*l.w/100,h=H*l.h/100;
+      svg.appendChild(rect(x,y,w,h,l.c,.8));
+    } else if(l.type==='collar'){
+      const x=W*l.x/100,y=H*l.y/100,w=W*l.w/100,h=H*l.h/100;
+      svg.appendChild(rect(x,y,w,h,l.c,.85));
+    } else if(l.type==='wrap'){
+      const x=W*l.x/100,y=H*l.y/100,w=W*l.w/100,h=H*l.h/100;
+      svg.appendChild(rect(x,y,w,h,l.c,.7));
+    } else if(l.type==='table'){
+      svg.appendChild(rect(0,H*l.y/100,W,H-H*l.y/100,l.c,.9));
+    } else if(l.type==='window'){
+      const x=W*l.x/100,y=H*l.y/100,w=W*l.w/100,h=H*l.h/100;
+      svg.appendChild(rect(x,y,w,h,l.c,.5));
+      svg.appendChild(rect(x+w*.48,y,w*.04,h,l.c,.4)); // 縦桟
+      svg.appendChild(rect(x,y+h*.48,w,h*.04,l.c,.4)); // 横桟
+    } else if(l.type==='shell'){
+      svg.appendChild(ellipse(W*l.x/100,H*l.y/100,W*l.rx/100,H*l.ry/100,l.c,.7));
+    } else if(l.type==='wind'){
+      const x=W*l.x/100,y=H*l.y/100,w=W*l.w/100,h=H*l.h/100;
+      svg.appendChild(ellipse(x+w*.5,y+h*.5,w*.5,h*.5,l.c,.4));
+    }
+  });
+
+  // ノイズフィルタ（油絵感）
+  const defs=document.createElementNS('http://www.w3.org/2000/svg','defs');
+  defs.innerHTML=`<filter id="noise${p.id}"><feTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="3" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feBlend in="SourceGraphic" mode="overlay" result="blend"/><feComposite in="blend" in2="SourceGraphic" operator="atop"/></filter>`;
+  svg.insertBefore(defs,svg.firstChild);
+  const noiseRect=rect(0,0,W,H,'transparent',1);
+  noiseRect.setAttribute('filter',`url(#noise${p.id})`);noiseRect.setAttribute('opacity','.05');
+  svg.appendChild(noiseRect);
+
+  return svg;
+}
+
+function rect(x,y,w,h,fill,op=1){
+  const r=document.createElementNS('http://www.w3.org/2000/svg','rect');
+  r.setAttribute('x',x);r.setAttribute('y',y);r.setAttribute('width',w);r.setAttribute('height',h);
+  r.setAttribute('fill',fill);r.setAttribute('opacity',op);
+  return r;
+}
+function circle(cx,cy,r,fill,op=1){
+  const c=document.createElementNS('http://www.w3.org/2000/svg','circle');
+  c.setAttribute('cx',cx);c.setAttribute('cy',cy);c.setAttribute('r',r);
+  c.setAttribute('fill',fill);c.setAttribute('opacity',op);
+  return c;
+}
+function ellipse(cx,cy,rx,ry,fill,op=1){
+  const e=document.createElementNS('http://www.w3.org/2000/svg','ellipse');
+  e.setAttribute('cx',cx);e.setAttribute('cy',cy);e.setAttribute('rx',rx);e.setAttribute('ry',ry);
+  e.setAttribute('fill',fill);e.setAttribute('opacity',op);
+  return e;
+}
+
+// ── カード生成 ──
+function makeCard(p,idx,total){
+  const card=document.createElement('div');
+  card.className='card';card._p=p;
+
+  const num=document.createElement('div');num.className='card-num';num.textContent=`${idx+1} / ${total}`;
+  const stag=document.createElement('div');stag.className='style-tag';stag.textContent=p.style;
+
+  const nail=document.createElement('div');nail.className='nail';
+  const wire=document.createElement('div');wire.className='wire';
+
+  // アスペクト比からサイズ計算
+  const fw=document.createElement('div');fw.className='frame-wrap';
+  const [nw,nh]=p.ratio.split('/').map(Number);
+  // デッキの高さを元にフレームサイズを計算
+  fw.style.aspectRatio=p.ratio;
+
+  const painting=document.createElement('div');painting.className='painting';
+  painting.style.aspectRatio=p.ratio;
+  const svg=makeSvgPainting(p);
+  painting.appendChild(svg);
+  fw.appendChild(painting);
+
+  const shadow=document.createElement('div');shadow.className='frame-shadow';
+
+  card.appendChild(num);card.appendChild(stag);
+  card.appendChild(nail);card.appendChild(wire);card.appendChild(fw);card.appendChild(shadow);
+  return card;
+}
+
+function buildQueue(){
+  let res=DB.filter(p=>{
+    if(filter.century!=='all'&&p.century!==filter.century)return false;
+    if(filter.style  !=='all'&&p.style  !==filter.style  )return false;
+    if(filter.artist !=='all'&&p.artist !==filter.artist )return false;
+    return true;
+  });
+  if(res.length===0){toast('該当する作品がありません');return false;}
+  queue=[...res].sort(()=>Math.random()-.5);
+  return true;
+}
+
+function clearDeck(){cards.forEach(c=>c.el.remove());cards=[];pointer=0;}
+
+function init(){
+  clearDeck();
+  if(!buildQueue())return;
+  for(let i=0;i<Math.min(3,queue.length);i++){
+    const el=makeCard(queue[i],i,queue.length);
+    dw.appendChild(el);cards.push({el,data:queue[i]});
+  }
+  pointer=Math.min(3,queue.length);
+  updateStack();
+}
+
+function updateStack(){
+  cards.forEach(({el},i)=>{
+    el.classList.remove('cur','above','drag');
+    if(i===0){el.classList.add('cur');el.style.transform='';el.style.opacity='';updateMeta(el._p);}
+    else{el.style.transform='translateY(110%)';el.style.opacity='0';el.style.transition='';}
+  });
+}
+function updateMeta(p){
+  if(!p)return;
+  abt.textContent=p.title;
+  abs.textContent=`${p.artist}  ·  ${p.year}  ·  ${p.century}`;
+  bh.classList.toggle('lk',liked.some(x=>x.id===p.id));
+}
+
+// スワイプ
+let isDrag=false,startY=0,diffY=0;
+const THRESH=46;
+dw.addEventListener('mousedown',e=>start(e.clientY));
+dw.addEventListener('touchstart',e=>start(e.touches[0].clientY),{passive:true});
+window.addEventListener('mousemove',e=>{if(isDrag)move(e.clientY);});
+window.addEventListener('touchmove',e=>{if(isDrag)move(e.touches[0].clientY);},{passive:true});
+window.addEventListener('mouseup',end);window.addEventListener('touchend',end);
+function start(y){if(!cards.length)return;isDrag=true;startY=y;diffY=0;cards[0].el.classList.add('drag');}
+function move(y){
+  if(!isDrag||!cards.length)return;
+  diffY=y-startY;
+  const dy=Math.min(0,diffY);
+  cards[0].el.style.transform=`translateY(${dy*.38}px)`;
+  if(cards.length>1){
+    const prog=Math.min(Math.abs(dy)/(THRESH*1.5),1);
+    cards[1].el.style.transition='none';
+    cards[1].el.style.transform=`translateY(${(1-prog)*110}%)`;
+    cards[1].el.style.opacity=String(prog);
+  }
+}
+function end(){
+  if(!isDrag)return;isDrag=false;if(!cards.length)return;
+  cards[0].el.classList.remove('drag');cards[0].el.style.transition='';
+  if(diffY<-THRESH){goNext();}
+  else{
+    cards[0].el.style.transform='';
+    if(cards.length>1){cards[1].el.style.transition='';cards[1].el.style.transform='translateY(110%)';cards[1].el.style.opacity='0';}
+  }
+}
+function goNext(){
+  if(!cards.length)return;
+  const cur=cards[0].el;
+  cur.style.transition=`transform .5s cubic-bezier(.76,0,.24,1),opacity .38s ease`;
+  cur.classList.add('above');
+  setTimeout(()=>cur.remove(),560);
+  cards.shift();
+  if(pointer<queue.length){
+    const el=makeCard(queue[pointer],pointer,queue.length);
+    dw.appendChild(el);cards.push({el,data:queue[pointer]});pointer++;
+  }
+  if(cards.length===0){toast('全作品を鑑賞しました。シャッフル中…');setTimeout(()=>init(),1200);return;}
+  updateStack();
+}
+document.addEventListener('keydown',e=>{if(e.key==='ArrowDown'||e.key===' ')goNext();});
+
+// ハート
+bh.addEventListener('click',()=>{
+  if(!cards.length)return;
+  const p=cards[0].data;
+  const i=liked.findIndex(x=>x.id===p.id);
+  if(i>=0){liked.splice(i,1);bh.classList.remove('lk');toast('解除しました');}
+  else{
+    liked.push(p);bh.classList.add('lk');
+    bh.classList.remove('bt');void bh.offsetWidth;bh.classList.add('bt');
+    toast('ギャラリーに追加しました');
+  }
+  save();upBdg();
+});
+
+// シェア
+document.getElementById('btn-share').addEventListener('click',()=>{
+  if(!cards.length)return;
+  const p=cards[0].data;
+  const t=`「${p.title}」\n${p.artist}（${p.year}）\n\n#名画収集館 #名画 #art`;
+  window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(t)}`,'_blank','noopener');
+});
+
+// フィルター
+const fd=document.getElementById('fd');
+document.getElementById('btn-filter').addEventListener('click',()=>{fd.classList.add('open');buildFD();});
+document.getElementById('fdb').addEventListener('click',()=>fd.classList.remove('open'));
+function buildFD(){
+  const body=document.getElementById('fdbody');body.innerHTML='';
+  const cnt=DB.filter(p=>{
+    if(filter.century!=='all'&&p.century!==filter.century)return false;
+    if(filter.style!=='all'&&p.style!==filter.style)return false;
+    if(filter.artist!=='all'&&p.artist!==filter.artist)return false;
+    return true;
+  }).length;
+  const cd=document.createElement('div');cd.className='fd-cnt';cd.textContent=`現在 ${cnt} 作品が対象`;
+  body.appendChild(cd);
+  function sec(label,key,vals){
+    const s=document.createElement('div');s.className='fds';
+    const l=document.createElement('div');l.className='fdl';l.textContent=label;
+    const pw=document.createElement('div');pw.className='pw';
+    const all=document.createElement('button');
+    all.className='pill'+(filter[key]==='all'?' on':'');all.textContent='すべて';
+    all.onclick=()=>{filter[key]='all';init();fd.classList.remove('open');};pw.appendChild(all);
+    vals.forEach(v=>{
+      const pill=document.createElement('button');
+      pill.className='pill'+(filter[key]===v?' on':'');pill.textContent=v;
+      pill.onclick=()=>{filter[key]=v;init();fd.classList.remove('open');};pw.appendChild(pill);
+    });
+    s.appendChild(l);s.appendChild(pw);body.appendChild(s);
+  }
+  sec('世紀','century',centuries);sec('画派','style',styles);sec('画家','artist',artists);
+}
+
+// ギャラリー
+const gp=document.getElementById('gp');
+document.getElementById('btn-gal').addEventListener('click',()=>{gp.classList.add('open');renderGallery();});
+document.getElementById('gpc').addEventListener('click',()=>gp.classList.remove('open'));
+function renderGallery(){
+  const gg=document.getElementById('gg'),ge=document.getElementById('ge');
+  gg.innerHTML='';
+  if(liked.length===0){ge.style.display='block';gg.style.display='none';return;}
+  ge.style.display='none';gg.style.display='grid';
+  liked.forEach(p=>{
+    const item=document.createElement('div');item.className='gi';
+    const wire=document.createElement('div');wire.className='giwire';
+    const frame=document.createElement('div');frame.className='gif';
+    const inner=document.createElement('div');inner.className='gif-inner';
+    // ミニSVG
+    const miniSvg=makeSvgPainting(p);
+    inner.appendChild(miniSvg);
+    frame.appendChild(inner);
+    const lbl=document.createElement('div');lbl.className='gilbl';lbl.textContent=p.title;
+    item.appendChild(wire);item.appendChild(frame);item.appendChild(lbl);
+    item.title=`${p.title} — ${p.artist} (${p.year})`;
+    gg.appendChild(item);
+  });
+}
+
+init();
+})();
+</script>
