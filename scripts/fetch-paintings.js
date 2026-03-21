@@ -160,11 +160,22 @@ const ARTIC_IDS = [
   66039,20522,5357,5353,28024,184362,155999,81558,45404,34116,
   21907,561,512,212474,212252,210442,209437,209425,111634,21727,
   203128,146696,146683,146694,146693,146688,146685,55905,146692,146691,
+  // バッチ5 (page11〜20 新規100件)
+  43060,28961,244180,158472,73216,234003,193067,185357,185180,185001,
+  22525,187050,42802,42185,32295,221842,221135,195401,193023,21366,
+  251697,250596,221143,151323,25655,257404,190500,158431,117317,208272,
+  176,173,162,158,155,283,254,182872,96051,87650,
+  10006,9961,9949,5618,4183,252541,251894,204511,204509,198126,
+  196669,184498,82410,46271,9696,242485,234433,230687,154124,86930,
+  64599,50735,21038,50745,50743,113098,81574,81572,50766,50747,
+  2848,115974,111478,56905,14523,182504,158382,50768,3551,149537,
+  113084,84088,20101,14318,14309,147853,14317,113080,113076,50756,
+  14511,14506,14498,14493,14313,113074,113078,113070,112165,50764,
 ];
 
 const MET_DEPT_IDS = [11,14];
 
-function fetchJson(url,ms){if(!ms)ms=10000;return new Promise(function(resolve){var t=setTimeout(function(){resolve(null);},ms);var req=https.get(url,{headers:{'User-Agent':'meiga-bot/10.0'}},function(res){if(res.statusCode!==200){clearTimeout(t);res.resume();resolve(null);return;}var body='';res.on('data',function(d){body+=d;});res.on('end',function(){clearTimeout(t);try{resolve(JSON.parse(body));}catch(e){resolve(null);}});res.on('error',function(){clearTimeout(t);resolve(null);});});req.on('error',function(){clearTimeout(t);resolve(null);});});}
+function fetchJson(url,ms){if(!ms)ms=10000;return new Promise(function(resolve){var t=setTimeout(function(){resolve(null);},ms);var req=https.get(url,{headers:{'User-Agent':'meiga-bot/11.0'}},function(res){if(res.statusCode!==200){clearTimeout(t);res.resume();resolve(null);return;}var body='';res.on('data',function(d){body+=d;});res.on('end',function(){clearTimeout(t);try{resolve(JSON.parse(body));}catch(e){resolve(null);}});res.on('error',function(){clearTimeout(t);resolve(null);});});req.on('error',function(){clearTimeout(t);resolve(null);});});}
 function sleep(ms){return new Promise(function(r){setTimeout(r,ms);});}
 function shuffle(a){return a.slice().sort(function(){return Math.random()-0.5;});}
 function jt(en){return TITLE_JA[en]||en;}
@@ -182,7 +193,7 @@ function toARTIC(d){
 }
 
 async function main(){
-  console.log('=== fetch-paintings.js v10 ===');
+  console.log('=== fetch-paintings.js v11 ===');
   var flds='id,title,artist_display,date_end,image_id,is_public_domain';
   var artic=[];
   var uniqueIds=[...new Set(ARTIC_IDS)];
