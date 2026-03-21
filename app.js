@@ -1,5 +1,5 @@
 // app.js — 名画収集館
-// シカゴ美術館 ARTIC API / artworks エンドポイント（シンプルGET・動作確認済み形式）
+// 静的データ（paintings.js）を優先表示 + ARTICから動的補充
 
 (function () {
 
@@ -60,12 +60,13 @@
     artists   = [...new Set(allPaintings.map(p => p.artist))].filter(Boolean).sort();
   }
 
-  // ── ARTIC API 取得（/artworks シンプルGET）────────
-  async function fetchPage(page) {
+  // ── ARTIC から追加取得 ────────────────────────────
+  async function fetchARTICPage(page) {
     const url = `${API_BASE}/artworks?fields=${FIELDS}&limit=100&page=${page}`;
     const res  = await fetch(url);
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const data = await res.json();
+    const existing = new Set(allPaintings.map(p => p.image));
 
     return (data.data || [])
       .filter(d => d.image_id && d.is_public_domain)
@@ -78,33 +79,36 @@
         style:   d.style_title || '絵画',
         museum:  'シカゴ美術館',
         image:   imgUrl(d.image_id),
-      }));
+      }))
+      .filter(p => !existing.has(p.image)); // 重複除外
   }
 
   // ── 初回ロード ─────────────────────────────────────
   async function initialLoad() {
-    showLoadingCard();
-    try {
-      const first = await fetchPage(1);
-      allPaintings = first;
+    // まず静的データで即起動
+    if (typeof STATIC_PAINTINGS !== 'undefined' && STATIC_PAINTINGS.length > 0) {
+      allPaintings = [...STATIC_PAINTINGS];
       updateFilterOptions();
       removeLoadingCard();
       initDeck();
-      // バックグラウンドで追加取得
-      for (let p = 2; p <= 8; p++) {
-        fetchPage(p).then(more => {
-          allPaintings = allPaintings.concat(more);
-          updateFilterOptions();
-        }).catch(() => {});
+    } else {
+      showLoadingCard();
+    }
+
+    // バックグラウンドでARTICから追加取得
+    for (let p = 1; p <= 8; p++) {
+      try {
+        const more = await fetchARTICPage(p);
+        allPaintings = allPaintings.concat(more);
+        updateFilterOptions();
+      } catch(e) {
+        break;
       }
-    } catch(e) {
-      removeLoadingCard();
-      showToast('読み込みに失敗しました。リロードしてください。');
-      console.error('ARTIC fetch error:', e);
     }
   }
 
   function showLoadingCard() {
+    if (document.getElementById('loading-card')) return;
     const c = document.createElement('div');
     c.className = 'card cur';
     c.id = 'loading-card';
@@ -164,7 +168,7 @@
 
     const stag = document.createElement('div');
     stag.className = 'style-tag';
-    stag.textContent = p.century;
+    stag.textContent = p.style;
 
     const nail = document.createElement('div'); nail.className = 'nail';
     const wire = document.createElement('div'); wire.className = 'wire';
@@ -181,7 +185,10 @@
     img.className = 'painting-img';
     img.alt = p.title;
     img.onload  = () => { img.classList.add('loaded'); ph.style.display = 'none'; };
-    img.onerror = () => { ph.innerHTML = `<div class="ph-title" style="opacity:.35;">${p.title}</div>`; };
+    img.onerror = () => {
+      // 画像取得失敗時はスタイルタグのみ表示
+      ph.innerHTML = `<div class="ph-title" style="opacity:.35;">${p.title}</div>`;
+    };
     img.src = p.image;
     fw.appendChild(img);
 
@@ -295,9 +302,9 @@
   bh.addEventListener('click', () => {
     if (!cards.length) return;
     const p = cards[0].data;
-    const i = liked.findIndex(x => x.id === p.id);
-    if (i >= 0) {
-      liked.splice(i, 1); bh.classList.remove('lk'); showToast('解除しました');
+    const idx = liked.findIndex(x => x.id === p.id);
+    if (idx >= 0) {
+      liked.splice(idx, 1); bh.classList.remove('lk'); showToast('解除しました');
     } else {
       liked.push(p); bh.classList.add('lk');
       bh.classList.remove('bt'); void bh.offsetWidth; bh.classList.add('bt');
