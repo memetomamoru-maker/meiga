@@ -1,6 +1,5 @@
-// api/paintings.js — Vercel Serverless Function
-// MET Museum API（CC0・無料・著作権なし）をサーバー側で叩く
-// ブラウザは /api/paintings を呼ぶだけでOK
+// api/paintings.js
+// MET Museum APIから作品を取得するVercel Serverless Function
 
 const MET_BASE = 'https://collectionapi.metmuseum.org/public/collection/v1';
 
@@ -14,80 +13,60 @@ function toCentury(year) {
   return '20世紀';
 }
 
-// 有名作品のobject IDリスト（MET公式で確認済み）
 const FEATURED_IDS = [
-  436535,  // モネ 睡蓮
-  437329,  // ゴッホ 糸杉
-  436121,  // スーラ
-  459055,  // ゴッホ 自画像
-  436532,  // セザンヌ
-  437984,  // ルノワール
-  11417,   // フェルメール 水差しを持つ女
-  437853,  // ゴッホ ひまわり
-  436947,  // ドガ 踊り子
-  436105,  // ゴッホ
-  435882,  // モネ
-  438722,  // ゴーギャン
-  436944,  // ゴッホ
-  437645,  // ドガ
-  436528,  // モネ
+  436535, 437329, 436121, 459055, 436532,
+  437984, 11417,  437853, 436947, 436105,
+  435882, 438722, 436944, 437645, 436528,
 ];
 
 module.exports = async (req, res) => {
   res.setHeader('Access-Control-Allow-Origin', '*');
-  res.setHeader('Cache-Control', 's-maxage=300, stale-while-revalidate');
+  res.setHeader('Cache-Control', 's-maxage=3600, stale-while-revalidate=86400');
 
   try {
-    // まず有名作品を取得
-    const featuredResults = [];
-    for (const id of FEATURED_IDS) {
-      try {
-        const r = await fetch(`${MET_BASE}/objects/${id}`);
-        const d = await r.json();
-        if (d.isPublicDomain && d.primaryImageSmall) {
-          featuredResults.push({
-            id: `met-${d.objectID}`,
-            title: d.title || '無題',
-            artist: d.artistDisplayName || '作者不詳',
-            year: d.objectEndDate || 0,
-            century: toCentury(d.objectEndDate),
-            style: d.classification || '絵画',
-            museum: 'メトロポリタン美術館',
-            image: d.primaryImageSmall,
-          });
-        }
-      } catch(e) {}
-    }
+    // 1. 有名作品を並列で取得
+    const featuredPromises = FEATURED_IDS.map(id =>
+      fetch(`${MET_BASE}/objects/${id}`).then(r => r.json()).catch(() => null)
+    );
 
-    // 追加でランダム取得
+    // 2. ランダム作品のIDリストを取得
     const searchRes = await fetch(
       `${MET_BASE}/search?hasImages=true&isPublicDomain=true&q=painting&medium=Paintings&departmentId=11`
     );
     const searchData = await searchRes.json();
-    const allIds = (searchData.objectIDs || []).sort(() => Math.random() - 0.5).slice(0, 100);
 
-    const randomResults = [];
-    for (const id of allIds) {
-      if (randomResults.length >= 35) break;
-      try {
-        const r = await fetch(`${MET_BASE}/objects/${id}`);
-        const d = await r.json();
-        if (d.isPublicDomain && d.primaryImageSmall && d.title) {
-          randomResults.push({
-            id: `met-${d.objectID}`,
-            title: d.title,
-            artist: d.artistDisplayName || '作者不詳',
-            year: d.objectEndDate || 0,
-            century: toCentury(d.objectEndDate),
-            style: d.classification || '絵画',
-            museum: 'メトロポリタン美術館',
-            image: d.primaryImageSmall,
-          });
-        }
-      } catch(e) {}
-    }
+    // タイムアウトを防ぐため20件に制限
+    const allIds = (searchData.objectIDs || []).sort(() => Math.random() - 0.5).slice(0, 20);
 
-    const paintings = [...featuredResults, ...randomResults];
+    // 3. ランダム作品を並列で取得
+    const randomPromises = allIds.map(id =>
+      fetch(`${MET_BASE}/objects/${id}`).then(r => r.json()).catch(() => null)
+    );
+
+    // すべてのAPIリクエストを並列で完了
+    const featuredResultsData = await Promise.all(featuredPromises);
+    const randomResultsData   = await Promise.all(randomPromises);
+
+    const processItem = (d) => {
+      if (d && d.isPublicDomain && d.primaryImageSmall) {
+        return {
+          id:      `met-${d.objectID}`,
+          title:   d.title || '無題',
+          artist:  d.artistDisplayName || '作者不詳',
+          year:    d.objectEndDate || 0,
+          century: toCentury(d.objectEndDate),
+          style:   d.classification || '絵画',
+          museum:  'メトロポリタン美術館',
+          image:   d.primaryImageSmall,
+        };
+      }
+      return null;
+    };
+
+    const featuredResults = featuredResultsData.map(processItem).filter(Boolean);
+    const randomResults   = randomResultsData.map(processItem).filter(Boolean);
+    const paintings       = [...featuredResults, ...randomResults];
+
     return res.status(200).json({ paintings });
 
   } catch(e) {
