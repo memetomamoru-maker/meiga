@@ -358,23 +358,25 @@ module.exports = async (req, res) => {
   res.setHeader('Cache-Control', 's-maxage=3600, stale-while-revalidate=86400');
 
   try {
-    // ── ARTIC固定（一括取得）────────────────────────────────
-    const articPromise = fetch(
-      `${ARTIC}/artworks?ids=${[...new Set(ARTIC_IDS)].join(',')}&fields=id,title,artist_display,date_end,style_title,image_id,is_public_domain`
-    ).then(r => r.json()).catch(() => ({ data: [] }));
+    // ── ARTIC固定（一括取得、タイムアウト付き）────────────────
+    const articPromise = get(
+      `${ARTIC}/artworks?ids=${[...new Set(ARTIC_IDS)].join(',')}&fields=id,title,artist_display,date_end,style_title,image_id,is_public_domain`,
+      8000
+    ).then(d => d || { data: [] }).catch(() => ({ data: [] }));
 
     // ── MET固定（並列）──────────────────────────────────────
     const metFixedPromises = [...new Set(MET_IDS)].map(id => get(`${MET}/objects/${id}`, 6000));
 
     // ── MET動的検索（3クエリ選択 × 最大35件ずつ）──────────────
-    const picked = [...QUERIES].sort(() => Math.random() - .5).slice(0, 3);
-    const searchResults = await Promise.all(picked.map(q => get(q, 7000)));
+    // 動的検索: 2クエリ × 30件 = 60件（Vercel 10秒制限に収まる量）
+    const picked = [...QUERIES].sort(() => Math.random() - .5).slice(0, 2);
+    const searchResults = await Promise.all(picked.map(q => get(q, 6000)));
     const dynIds = [...new Set(
       searchResults.flatMap(d => (d && d.objectIDs) || [])
-    )].sort(() => Math.random() - .5).slice(0, 105); // 3クエリ × 35件
-    const metDynPromises = dynIds.map(id => get(`${MET}/objects/${id}`, 5000));
+    )].sort(() => Math.random() - .5).slice(0, 60);
+    const metDynPromises = dynIds.map(id => get(`${MET}/objects/${id}`, 4000));
 
-    // 全部並列で待つ
+    // 全部並列で待つ（ARTIC一括 + MET固定 + MET動的）
     const [articData, metFixed, metDyn] = await Promise.all([
       articPromise,
       Promise.all(metFixedPromises),
