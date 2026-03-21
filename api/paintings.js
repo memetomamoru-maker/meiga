@@ -259,7 +259,7 @@ module.exports = async (req, res) => {
   try {
     // ── Step1: ARTIC一括 + MET検索クエリ3つ を同時に投げる（4リクエスト）
     const shuffle = arr => [...arr].sort(() => Math.random() - .5);
-    const pickedQ = shuffle(MET_QUERIES).slice(0, 3);
+    const pickedQ = shuffle(MET_QUERIES).slice(0, 4); // 4クエリで多様なIDを収集
 
     const [articRaw, ...searchRaws] = await Promise.all([
       get(`${ARTIC}/artworks?ids=${ARTIC_IDS.join(',')}&fields=id,title,artist_display,date_end,style_title,image_id,is_public_domain`, 8000),
@@ -268,9 +268,9 @@ module.exports = async (req, res) => {
 
     // ── Step2: MET検索結果からIDを収集してシャッフル、40件だけ個別取得
     const allIds = [...new Set(searchRaws.flatMap(d => (d && d.objectIDs) || []))];
-    const picked40 = shuffle(allIds).slice(0, 40);
-
-    const metObjects = await Promise.all(picked40.map(id => get(`${MET}/objects/${id}`, 5000)));
+    // 50件 × タイムアウト3秒 = 確実に3秒以内（3クエリで合計150件のIDプール）
+    const picked50 = shuffle(allIds).slice(0, 50);
+    const metObjects = await Promise.all(picked50.map(id => get(`${MET}/objects/${id}`, 3000)));
 
     // ── Step3: 変換・重複除去
     const artic = ((articRaw && articRaw.data) || []).map(toARTIC).filter(Boolean);
