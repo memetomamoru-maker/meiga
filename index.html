@@ -13,14 +13,14 @@
 <meta property="og:description" content="名画の世界をスワイプで旅するアプリ。パブリックドメイン作品を無料で。">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://meiga.vercel.app/">
-<meta property="og:image" content="https://meiga.vercel.app/ogp.jpg">
+<meta property="og:image" content="https://meiga.vercel.app/ogp.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://meiga.vercel.app/ogp.jpg">
+<meta name="twitter:image" content="https://meiga.vercel.app/ogp.png">
 <link rel="icon" href="./icon.svg" type="image/svg+xml">
-<link rel="apple-touch-icon" href="./apple-touch-icon.jpg">
-<link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.jpg">
+<link rel="apple-touch-icon" href="./apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
 <link rel="manifest" href="./manifest.json">
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Noto+Serif+JP:wght@300;400&family=EB+Garamond:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
 <style>
@@ -52,8 +52,6 @@ body{font-family:'Cormorant Garamond','Noto Serif JP',Georgia,serif}
 }
 
 /* ── SVGフィルター定義（木目テクスチャ）── */
-.svg-defs{position:absolute;width:0;height:0}
-
 /* ── ヘッダー ── */
 #hd{
   position:relative;z-index:300;
@@ -124,44 +122,84 @@ body{font-family:'Cormorant Garamond','Noto Serif JP',Georgia,serif}
   max-height:calc(100vh - 180px);
 }
 
-/* 外側フレーム（木目SVGフィルター適用） */
+/* 外側フレーム：本格ウォルナット調多層モールディング */
 .frame-wrap::before{
-  content:'';position:absolute;inset:-18px;
-  border-radius:3px;
+  content:'';position:absolute;inset:-24px;
+  border-radius:2px;
   background:
-    linear-gradient(145deg,
-      #d4943a 0%,#a06020 8%,
-      #6b3a10 18%,#8b5020 28%,
-      #4a2208 40%,#7a4018 50%,
-      #4a2208 60%,#8b5020 72%,
-      #6b3a10 82%,#a06020 92%,
-      #d4943a 100%
+    /* 木目の細かい縦縞 */
+    repeating-linear-gradient(
+      89.5deg,
+      transparent 0px, transparent 2px,
+      rgba(0,0,0,.045) 2px, rgba(0,0,0,.045) 3px,
+      transparent 3px, transparent 7px,
+      rgba(200,140,30,.035) 7px, rgba(200,140,30,.035) 8px
+    ),
+    /* ウォルナット木目の横断面（上下の面） */
+    linear-gradient(to bottom,
+      #f0c060 0px,   /* 最上端：強いハイライト */
+      #c08030 1px,
+      #884010 4px,
+      #5a2a08 9px,
+      #7a4818 16px,
+      #9a6428 24px,
+      #6a3c10 34px,
+      #4a2408 46px,
+      #5e3414 52px,
+      #7a5020 58px,
+      #9a6830 62px,
+      #5a3010 68px,
+      #4a2408 76px,
+      #6a4010 84px,
+      #8a5c28 90px,
+      #7a4818 96px,
+      #5a2a08 100px,
+      #884010 104px,
+      #c08030 107px,
+      #f0c060 109px   /* 最下端：強いハイライト */
     );
-  filter:url(#woodGrain);
   box-shadow:
-    0 14px 48px rgba(10,5,0,.55),
-    0 4px 14px rgba(10,5,0,.32),
-    inset 0 1.5px 0 rgba(255,220,120,.45),
-    inset 0 -1px 0 rgba(0,0,0,.5),
-    inset 1.5px 0 0 rgba(255,200,80,.25),
-    inset -1.5px 0 0 rgba(0,0,0,.4);
+    /* ドロップシャドウ（深み・立体感） */
+    0 22px 64px rgba(6,3,0,.7),
+    0 8px 24px rgba(6,3,0,.45),
+    0 2px 6px rgba(6,3,0,.35),
+    /* 外縁の金彩ライン */
+    0 0 0 1px rgba(240,195,75,.7),
+    /* 内側の立体的な陰影 */
+    inset 0 0 0 1.5px rgba(0,0,0,.45),
+    inset 3px 3px 8px rgba(0,0,0,.25),
+    inset -3px -3px 8px rgba(0,0,0,.3),
+    inset 0 4px 6px rgba(0,0,0,.2),
+    inset 0 -4px 6px rgba(0,0,0,.25);
 }
 
-/* 内側マット */
+/* 内側マット（クリーム色の高品質マット） */
 .frame-wrap::after{
-  content:'';position:absolute;inset:-4px;background:var(--mat);
+  content:'';position:absolute;inset:-6px;
+  background:linear-gradient(145deg,
+    #ece7dc 0%, #f4efe5 25%, #f8f3ea 50%, #f2ede2 75%, #ebe5d9 100%
+  );
   box-shadow:
-    inset 2px 2px 6px rgba(0,0,0,.12),
-    inset -1px -1px 4px rgba(255,255,255,.15),
-    inset 0 0 0 1px rgba(180,140,80,.2),
-    inset 0 0 0 3px rgba(200,180,140,.08);
+    inset 2px 2px 5px rgba(0,0,0,.13),
+    inset -1px -1px 3px rgba(255,255,255,.55),
+    inset 0 0 0 1px rgba(155,125,75,.2),
+    inset 0 0 0 3px rgba(200,175,130,.1);
 }
 
 /* 額縁装飾ライン（内側） */
 .frame-inner-line{
-  position:absolute;inset:-16px;border-radius:2px;pointer-events:none;z-index:2;
-  border:1px solid rgba(255,200,80,.2);
-  box-shadow:inset 0 0 0 3px rgba(0,0,0,.25);
+  position:absolute;inset:-20px;border-radius:1px;
+  pointer-events:none;z-index:3;
+  /* 多重の装飾ライン（内側から） */
+  box-shadow:
+    /* 内縁のゴールドライン */
+    0 0 0 1px rgba(215,165,55,.5),
+    0 0 0 2px rgba(40,20,4,.7),
+    0 0 0 3.5px rgba(195,145,45,.4),
+    0 0 0 5px rgba(20,10,2,.5),
+    /* 外縁のアクセント */
+    0 0 0 6px rgba(175,125,35,.3),
+    0 0 0 7px rgba(10,5,0,.4);
 }
 
 .painting-img{
@@ -193,10 +231,10 @@ body{font-family:'Cormorant Garamond','Noto Serif JP',Georgia,serif}
   font-size:8.5px;letter-spacing:.18em;color:var(--ink-l);font-style:italic;font-family:'EB Garamond',serif
 }
 .style-tag{
-  position:absolute;top:8px;left:50%;transform:translateX(-50%);z-index:10;
+  position:absolute;top:8px;right:14px;z-index:10;
   font-size:8px;letter-spacing:.1em;color:var(--ink-m);
-  border:1px solid rgba(184,137,90,.22);padding:2px 8px;
-  background:rgba(247,242,233,.92);backdrop-filter:blur(4px);
+  border:1px solid rgba(184,137,90,.2);padding:2px 8px;
+  background:rgba(240,234,218,.95);
   font-family:'EB Garamond',serif;white-space:nowrap;
 }
 
@@ -407,34 +445,45 @@ body{font-family:'Cormorant Garamond','Noto Serif JP',Georgia,serif}
   /* 額縁を外側に出すためoverflowをvisibleに */
   overflow:visible;
 }
-/* 木目額縁：外側のボーダー要素 */
 .gif::before{
   content:'';
   position:absolute;
-  inset:-8px;
+  inset:-9px;
   z-index:0;
   border-radius:2px;
-  background:linear-gradient(145deg,
-    #d4943a 0%, #9a6020 12%,
-    #5a3010 28%, #8a5020 42%,
-    #3a1a08 50%,
-    #8a5020 58%, #5a3010 72%,
-    #9a6020 88%, #d4943a 100%
-  );
-  filter:url(#woodGrainSm);
+  background:
+    repeating-linear-gradient(
+      89.5deg,
+      transparent 0px, transparent 2px,
+      rgba(0,0,0,.045) 2px, rgba(0,0,0,.045) 3px,
+      transparent 3px, transparent 6px,
+      rgba(200,140,30,.03) 6px, rgba(200,140,30,.03) 7px
+    ),
+    linear-gradient(to bottom,
+      #e8b848 0px, #b87828 2px, #7a4010 6px,
+      #4e2808 12px, #6a4018 20px, #8a5c28 26px,
+      #4e2808 34px, #6a3c10 40px, #9a6428 46px,
+      #6a4018 50px, #4e2808 54px, #8a5c28 60px,
+      #7a4010 64px, #b87828 67px, #e8b848 69px
+    );
   box-shadow:
-    0 4px 16px rgba(0,0,0,.55),
-    inset 0 1px 0 rgba(255,220,100,.3),
-    inset 0 -1px 0 rgba(0,0,0,.4);
+    0 6px 20px rgba(6,3,0,.6),
+    0 2px 6px rgba(6,3,0,.38),
+    0 0 0 1px rgba(228,182,65,.6),
+    inset 0 0 0 1.5px rgba(0,0,0,.4),
+    inset 2px 2px 5px rgba(0,0,0,.2),
+    inset -2px -2px 5px rgba(0,0,0,.25);
   pointer-events:none;
 }
-/* マット（内側の白いボーダー） */
 .gif::after{
   content:'';
   position:absolute;
   inset:-3px;
   z-index:1;
-  background:var(--mat);
+  background:linear-gradient(145deg, #ece7dc, #f4efe5, #ebe5d9);
+  box-shadow:
+    inset 1px 1px 3px rgba(0,0,0,.11),
+    inset 0 0 0 1px rgba(155,125,75,.16);
   pointer-events:none;
 }
 /* 画像エリア（クリッピング用ラッパー） */
@@ -524,19 +573,7 @@ body{font-family:'Cormorant Garamond','Noto Serif JP',Georgia,serif}
 </head>
 <body>
 
-<!-- SVGフィルター（木目テクスチャ）-->
-<svg class="svg-defs" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <filter id="woodGrain" x="-5%" y="-5%" width="110%" height="110%" color-interpolation-filters="sRGB">
-      <feTurbulence type="fractalNoise" baseFrequency="0.012 0.75" numOctaves="4" seed="3" result="noise"/>
-      <feDisplacementMap in="SourceGraphic" in2="noise" scale="8" xChannelSelector="R" yChannelSelector="G"/>
-    </filter>
-    <filter id="woodGrainSm" x="-5%" y="-5%" width="110%" height="110%" color-interpolation-filters="sRGB">
-      <feTurbulence type="fractalNoise" baseFrequency="0.018 0.8" numOctaves="3" seed="5" result="noise"/>
-      <feDisplacementMap in="SourceGraphic" in2="noise" scale="5" xChannelSelector="R" yChannelSelector="G"/>
-    </filter>
-  </defs>
-</svg>
+
 
 <div id="app">
 
@@ -592,13 +629,6 @@ body{font-family:'Cormorant Garamond','Noto Serif JP',Georgia,serif}
         <div class="ab-s" id="abs">—</div>
       </div>
       <div class="ab-btns">
-        <button class="sbtn" id="btn-save-img" title="画像を保存" aria-label="画像を保存">
-          <svg width="11" height="11" viewBox="0 0 11 11" fill="none" aria-hidden="true">
-            <path d="M5.5 1v6M3 5.5l2.5 2.5L8 5.5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M1 9h9" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
-          </svg>
-          保存
-        </button>
         <button class="sbtn" id="btn-share" title="シェア" aria-label="シェア">
           <svg width="11" height="10" viewBox="0 0 11 10" fill="none" aria-hidden="true">
             <path d="M8.5 1L10 2.5 8.5 4M10 2.5H6.5C4.5 2.5 3 4 3 6v1" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>

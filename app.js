@@ -383,25 +383,6 @@
     window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(t)}`, '_blank', 'noopener,noreferrer');
   });
 
-  // ── 画像保存 ─────────────────────────────────────────────
-  document.getElementById('btn-save-img').addEventListener('click', async () => {
-    const p = queue[cursor]; if (!p) return;
-    try {
-      showToast('画像を保存中...');
-      const res = await fetch(p.image);
-      const blob = await res.blob();
-      const a = document.createElement('a');
-      a.href = URL.createObjectURL(blob);
-      a.download = `meiga_${p.title.replace(/[^\w\u3040-\u9FFF]/g, '_')}.jpg`;
-      a.click();
-      URL.revokeObjectURL(a.href);
-      showToast('保存しました');
-    } catch(e) {
-      // フォールバック：画像URLを新タブで開く
-      window.open(p.image, '_blank');
-      showToast('新しいタブで画像を開きました');
-    }
-  });
 
   // ── フィルタードロワー ─────────────────────────────────────
   const fd = document.getElementById('fd');
@@ -467,11 +448,8 @@
         pill.textContent = v;
         pill.onclick = () => {
           filter[key] = v;
-          updateFilterFooter();
-          buildFilterUI();
           renderDeck();
-          // フィルター選択後もドロワーを開いたままにする（がっかり感解消）
-          // ※ユーザーが明示的に閉じるまで開いたまま
+          fd.classList.remove('open');
         };
         pw.appendChild(pill);
       });
