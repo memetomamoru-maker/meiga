@@ -1,12 +1,7 @@
 #!/usr/bin/env node
-// scripts/fetch-paintings.js  v2
-// GitHub Actions から毎朝実行 → public/paintings.json を生成
-//
-// 方針:
-// - APIから実際に取得できたデータのみ収録（推測・補完一切なし）
-// - WikiURL は確認済みのもののみ。テーブルにないものは null
-// - 画家名は日本語テーブルにあるもののみ変換。ないものは英語のまま
-// - 500件達成のため検索クエリを多様化し、IDプールを拡大
+// scripts/fetch-paintings.js  v3
+// 方針: MET部門ID一括取得 → 絵画IDのみのプールからランダム取得
+// これにより成功率が大幅向上（武器・衣服・装飾品等が混入しない）
 
 const fs    = require('fs');
 const path  = require('path');
@@ -15,7 +10,6 @@ const https = require('https');
 const MET   = 'https://collectionapi.metmuseum.org/public/collection/v1';
 const ARTIC = 'https://api.artic.edu/api/v1';
 
-// Wikipedia URL（全件ブラウザで実在確認済み・2026年3月）
 const WIKI = {
   'met-437881': 'https://ja.wikipedia.org/wiki/水差しを持つ女',
   'met-436535': 'https://ja.wikipedia.org/wiki/小麦畑と糸杉',
@@ -59,7 +53,6 @@ const TITLE_JA = {
   'Madame X (Madame Pierre Gautreau)': 'マダムX',
   "At the Milliner's": '帽子屋にて',
   'Sunflowers': 'ひまわり',
-  'The Starry Night': '星月夜',
   'A Sunday on La Grande Jatte': 'グラン・ジャット島の日曜日の午後',
   'Water Lilies': '睡蓮',
   'Paris Street; Rainy Day': 'パリの街路、雨の日',
@@ -74,6 +67,10 @@ const TITLE_JA = {
   'Haystacks': '干し草の山',
   'Plum Brandy': 'プラム・ブランデー',
   'Bathers at Asnières': 'アニエールの水浴',
+  'The Swing': 'ブランコ',
+  'Dance at Le Moulin de la Galette': 'ムーラン・ド・ラ・ギャレットの舞踏会',
+  'Still Life with Apples and a Pot of Primroses': 'りんごとサクラソウの静物',
+  'La Berceuse (Woman Rocking a Cradle; Augustine-Alix Pellicot Roulin, 1851\u20131930)': '揺り籠の女',
 };
 
 const ARTIST_JA = {
@@ -100,7 +97,6 @@ const ARTIST_JA = {
   'Gerard ter Borch the Younger': 'ヘラルト・テル・ボルフ',
   'Nicolaes Maes': 'ニコラース・マース',
   'Aelbert Cuyp': 'アールベルト・カイプ',
-  'Jan van Goyen': 'ヤン・ファン・ホイエン',
   'Peter Paul Rubens': 'ピーテル・パウル・ルーベンス',
   'Anthony van Dyck': 'アンソニー・ヴァン・ダイク',
   'Jan van Eyck': 'ヤン・ファン・エイク',
@@ -153,10 +149,6 @@ const ARTIST_JA = {
   'James McNeill Whistler': 'ジェームズ・マクニール・ホイッスラー',
   'Honoré Daumier': 'オノレ・ドーミエ',
   'Rosa Bonheur': 'ロサ・ボヌール',
-  'William-Adolphe Bouguereau': 'ウィリアム＝アドルフ・ブグロー',
-  'Lawrence Alma-Tadema': 'ローレンス・アルマ＝タデマ',
-  'Dante Gabriel Rossetti': 'ダンテ・ガブリエル・ロセッティ',
-  'John Everett Millais': 'ジョン・エヴァレット・ミレー',
   'Caspar David Friedrich': 'カスパー・ダーヴィト・フリードリヒ',
   'Hans Holbein the Younger': 'ハンス・ホルバイン（子）',
   'Albrecht Dürer': 'アルブレヒト・デューラー',
@@ -165,6 +157,8 @@ const ARTIST_JA = {
   'Gabriel Metsu': 'ガブリエル・メツー',
   'Meindert Hobbema': 'メインデルト・ホッベマ',
   'Hendrick Avercamp': 'ヘンドリック・アーフェルカンプ',
+  'William-Adolphe Bouguereau': 'ウィリアム＝アドルフ・ブグロー',
+  'Lawrence Alma-Tadema': 'ローレンス・アルマ＝タデマ',
 };
 
 const ARTIC_IDS = [
@@ -173,36 +167,15 @@ const ARTIC_IDS = [
   90903, 6565, 80607, 44018, 76571, 16564, 14591,
 ];
 
-const MET_SEARCH_QUERIES = [
-  MET+'/search?hasImages=true&isPublicDomain=true&medium=Paintings&departmentId=11&q=impressionism',
-  MET+'/search?hasImages=true&isPublicDomain=true&medium=Paintings&departmentId=11&q=post+impressionism',
-  MET+'/search?hasImages=true&isPublicDomain=true&medium=Paintings&departmentId=11&q=dutch+golden+age',
-  MET+'/search?hasImages=true&isPublicDomain=true&medium=Paintings&departmentId=11&q=flemish+baroque',
-  MET+'/search?hasImages=true&isPublicDomain=true&medium=Paintings&departmentId=11&q=italian+renaissance',
-  MET+'/search?hasImages=true&isPublicDomain=true&medium=Paintings&departmentId=11&q=italian+baroque',
-  MET+'/search?hasImages=true&isPublicDomain=true&medium=Paintings&departmentId=11&q=spanish+painting',
-  MET+'/search?hasImages=true&isPublicDomain=true&medium=Paintings&departmentId=11&q=french+painting',
-  MET+'/search?hasImages=true&isPublicDomain=true&medium=Paintings&departmentId=11&q=british+painting',
-  MET+'/search?hasImages=true&isPublicDomain=true&medium=Paintings&departmentId=11&q=portrait',
-  MET+'/search?hasImages=true&isPublicDomain=true&medium=Paintings&departmentId=11&q=landscape',
-  MET+'/search?hasImages=true&isPublicDomain=true&medium=Paintings&departmentId=11&q=still+life',
-  MET+'/search?hasImages=true&isPublicDomain=true&medium=Paintings&departmentId=11&q=mythology',
-  MET+'/search?hasImages=true&isPublicDomain=true&medium=Paintings&departmentId=11&q=religious',
-  MET+'/search?hasImages=true&isPublicDomain=true&medium=Paintings&departmentId=11&q=genre',
-  MET+'/search?hasImages=true&isPublicDomain=true&medium=Paintings&departmentId=11&q=baroque',
-  MET+'/search?hasImages=true&isPublicDomain=true&medium=Paintings&departmentId=11&q=rococo',
-  MET+'/search?hasImages=true&isPublicDomain=true&medium=Paintings&departmentId=11&q=romanticism',
-  MET+'/search?hasImages=true&isPublicDomain=true&medium=Paintings&departmentId=11&q=neoclassicism',
-  MET+'/search?hasImages=true&isPublicDomain=true&medium=Paintings&departmentId=11&q=realism',
-  MET+'/search?hasImages=true&isPublicDomain=true&medium=Paintings&departmentId=11&q=american',
-  MET+'/search?hasImages=true&isPublicDomain=true&medium=Paintings&departmentId=11&q=hudson+river',
-];
+// METの絵画部門ID
+// 11 = European Paintings（最大）、14 = American Paintings
+const MET_DEPT_IDS = [11, 14];
 
 function fetchJson(url, timeoutMs) {
   if (!timeoutMs) timeoutMs = 10000;
   return new Promise(function(resolve) {
     var timer = setTimeout(function() { resolve(null); }, timeoutMs);
-    var req = https.get(url, { headers: { 'User-Agent': 'meiga-bot/2.0' } }, function(res) {
+    var req = https.get(url, { headers: { 'User-Agent': 'meiga-bot/3.0' } }, function(res) {
       if (res.statusCode !== 200) { clearTimeout(timer); res.resume(); resolve(null); return; }
       var body = '';
       res.on('data', function(d) { body += d; });
@@ -273,38 +246,43 @@ function toARTIC(d) {
 }
 
 async function main() {
-  console.log('=== fetch-paintings.js v2 開始 ===');
+  console.log('=== fetch-paintings.js v3 開始 ===');
 
+  // ARTIC取得
   console.log('\n[ARTIC] ' + ARTIC_IDS.length + '件取得中...');
   var articFields = 'id,title,artist_display,date_end,image_id,is_public_domain';
   var articRaw = await fetchJson(
-    ARTIC + '/artworks?ids=' + ARTIC_IDS.join(',') + '&fields=' + articFields,
-    15000
+    ARTIC + '/artworks?ids=' + ARTIC_IDS.join(',') + '&fields=' + articFields, 15000
   );
   var articPaintings = ((articRaw && articRaw.data) || []).map(toARTIC).filter(Boolean);
   console.log('[ARTIC] 成功: ' + articPaintings.length + '件');
 
-  console.log('\n[MET] 検索クエリ実行中 (' + MET_SEARCH_QUERIES.length + 'クエリ)...');
-  var searchResults = await Promise.all(
-    MET_SEARCH_QUERIES.map(function(q) { return fetchJson(q, 20000); })
+  // MET部門ID一括取得（絵画部門のみ）
+  console.log('\n[MET] 絵画部門IDを取得中...');
+  var deptResults = await Promise.all(
+    MET_DEPT_IDS.map(function(deptId) {
+      return fetchJson(MET + '/objects?departmentIds=' + deptId, 30000);
+    })
   );
   var allMetIds = Array.from(new Set(
-    searchResults.reduce(function(acc, r) {
+    deptResults.reduce(function(acc, r) {
       return acc.concat((r && r.objectIDs) || []);
     }, [])
   ));
-  console.log('[MET] IDプール: ' + allMetIds.length + '件');
+  console.log('[MET] 絵画部門IDプール: ' + allMetIds.length + '件');
 
-  var TARGET_PAINTINGS = 500;
-  var FETCH_ATTEMPT    = Math.min(2000, allMetIds.length);
-  var pickedIds = shuffle(allMetIds).slice(0, FETCH_ATTEMPT);
-  console.log('[MET] ' + pickedIds.length + '件を個別取得 (目標: ' + TARGET_PAINTINGS + '件)...');
+  // シャッフルして取得（絵画部門なので成功率が高い）
+  var TARGET = 500;
+  // 成功率50%想定で1000件試行（余裕を持たせる）
+  var ATTEMPT = Math.min(1000, allMetIds.length);
+  var pickedIds = shuffle(allMetIds).slice(0, ATTEMPT);
+  console.log('[MET] ' + pickedIds.length + '件を個別取得 (目標: ' + TARGET + '件)...');
 
-  var BATCH = 100;
+  var BATCH = 50;
   var metPaintings = [];
   for (var i = 0; i < pickedIds.length; i += BATCH) {
-    if (metPaintings.length >= TARGET_PAINTINGS) {
-      console.log('  → 目標' + TARGET_PAINTINGS + '件達成、取得終了');
+    if (metPaintings.length >= TARGET) {
+      console.log('  → 目標' + TARGET + '件達成、終了');
       break;
     }
     var batch = pickedIds.slice(i, i + BATCH);
@@ -313,12 +291,10 @@ async function main() {
     );
     var valid = results.map(toMET).filter(Boolean);
     metPaintings = metPaintings.concat(valid);
-    var batchNum = Math.floor(i/BATCH) + 1;
-    var totalBatches = Math.ceil(FETCH_ATTEMPT/BATCH);
-    console.log('  バッチ ' + batchNum + '/' + totalBatches + ': ' + valid.length + '/' + batch.length + '件成功 (累計: ' + metPaintings.length + '件)');
-    if (i + BATCH < pickedIds.length && metPaintings.length < TARGET_PAINTINGS) {
-      await sleep(200);
-    }
+    var batchNum = Math.floor(i / BATCH) + 1;
+    var totalBatches = Math.ceil(ATTEMPT / BATCH);
+    console.log('  バッチ ' + batchNum + '/' + totalBatches + ': ' + valid.length + '/' + batch.length + '件 (累計: ' + metPaintings.length + ')');
+    if (i + BATCH < pickedIds.length && metPaintings.length < TARGET) await sleep(200);
   }
   console.log('[MET] 成功: ' + metPaintings.length + '件');
 
@@ -330,8 +306,8 @@ async function main() {
   });
 
   console.log('\n=== 合計: ' + paintings.length + '件 ===');
-  console.log('  ARTIC: ' + articPaintings.length + '件');
-  console.log('  MET:   ' + metPaintings.length + '件');
+  console.log('  ARTIC: ' + articPaintings.length);
+  console.log('  MET:   ' + metPaintings.length);
 
   var outDir = path.join(__dirname, '..', 'public');
   if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
