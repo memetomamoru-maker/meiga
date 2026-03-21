@@ -224,6 +224,12 @@
     img.onload  = () => { img.classList.add('loaded'); ph.style.display = 'none'; };
     img.onerror = () => { ph.innerHTML = `<div class="ph-title" style="opacity:.5">${p.title}</div>`; };
     img.src = p.image;
+    // タップ/クリックで拡大
+    img.style.cursor = 'zoom-in';
+    img.addEventListener('click', (e) => {
+      e.stopPropagation();
+      openLightbox(p);
+    });
     fw.appendChild(img);
 
     const shadow = document.createElement('div'); shadow.className = 'frame-shadow';
@@ -549,6 +555,37 @@
       grid.appendChild(item);
     });
   }
+
+  // ── ライトボックス（絵の拡大表示）──────────────────────────
+  function openLightbox(p) {
+    const lb = document.getElementById('lightbox');
+    const lbImg = document.getElementById('lb-img');
+    const lbTitle = document.getElementById('lb-title');
+    const lbSub = document.getElementById('lb-sub');
+    if (!lb) return;
+    lbImg.src = '';
+    // primaryImageSmallより大きいURLを生成（METはweb-large、ARTICは1200px）
+    const bigUrl = p.image
+      .replace('/web-large/', '/original/')  // MET: originalサイズ
+      .replace('/full/843,/', '/full/1200,/'); // ARTIC: 1200px
+    lbImg.src = bigUrl;
+    lbImg.onerror = () => { lbImg.src = p.image; }; // フォールバック
+    lbTitle.textContent = p.title;
+    lbSub.textContent = `${p.artist}  ·  ${p.year || '年代不明'}  ·  ${p.museum}`;
+    lb.classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+  function closeLightbox() {
+    const lb = document.getElementById('lightbox');
+    if (lb) lb.classList.remove('open');
+    document.body.style.overflow = '';
+  }
+  document.getElementById('lightbox')?.addEventListener('click', (e) => {
+    if (e.target.id === 'lightbox' || e.target.id === 'lb-close') closeLightbox();
+  });
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') closeLightbox();
+  }, true);
 
   updateBadge();
   initialLoad();
