@@ -3,7 +3,6 @@
 
 (function () {
 
-  // ── DOM ──────────────────────────────────────────
   const dw      = document.getElementById('dw');
   const abt     = document.getElementById('abt');
   const abs     = document.getElementById('abs');
@@ -11,33 +10,24 @@
   const bdg     = document.getElementById('bdg');
   const toastEl = document.getElementById('toast');
 
-  // ── State ─────────────────────────────────────────
   let allPaintings = [];
-  let queue   = [];
-  let cursor  = 0;
-  let liked   = [];
-  let filter  = { century: 'all', style: 'all', artist: 'all' };
+  let queue  = [];
+  let cursor = 0;
+  let liked  = [];
+  let filter = { century: 'all', style: 'all', artist: 'all' };
   let centuries = [], styles = [], artists = [];
-
-  let curCard  = null;
-  let nextCard = null;
-  let prevCard = null;
+  let curCard = null, nextCard = null, prevCard = null;
 
   try { liked = JSON.parse(localStorage.getItem('meiga_liked') || '[]'); } catch(e) {}
 
-  // ── ユーティリティ ─────────────────────────────────
-  function save() {
-    try { localStorage.setItem('meiga_liked', JSON.stringify(liked)); } catch(e) {}
-  }
+  function save() { try { localStorage.setItem('meiga_liked', JSON.stringify(liked)); } catch(e) {} }
   function updateBadge() {
     bdg.textContent = liked.length;
     liked.length > 0 ? bdg.classList.add('on') : bdg.classList.remove('on');
   }
   function showToast(msg) {
     toastEl.textContent = msg;
-    toastEl.classList.remove('show');
-    void toastEl.offsetWidth;
-    toastEl.classList.add('show');
+    toastEl.classList.remove('show'); void toastEl.offsetWidth; toastEl.classList.add('show');
   }
   function updateFilterOptions() {
     centuries = [...new Set(allPaintings.map(p => p.century))].sort();
@@ -45,47 +35,48 @@
     artists   = [...new Set(allPaintings.map(p => p.artist))].filter(Boolean).sort();
   }
 
-  // ── MET API取得（Vercel Function経由）───────────────
-  let currentPage = 1;
-  let isFetching  = false;
-
+  // ── API取得 ────────────────────────────────────────
   async function fetchPaintings() {
-    if (isFetching) return;
-    isFetching = true;
+    // 10秒タイムアウト付き
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 10000);
     try {
-      const res = await fetch(`/api/paintings?page=${currentPage}`);
+      const res = await fetch('/api/paintings', { signal: controller.signal });
+      clearTimeout(timeout);
       const data = await res.json();
       if (data.paintings && data.paintings.length > 0) {
-        allPaintings = allPaintings.concat(data.paintings);
+        allPaintings = data.paintings;
         updateFilterOptions();
-        currentPage++;
+        return true;
       }
     } catch(e) {
-      console.error('API fetch error:', e);
+      clearTimeout(timeout);
+      console.error('API error:', e);
     }
-    isFetching = false;
+    return false;
   }
 
-  // ── 初回ロード ─────────────────────────────────────
+  // ── 起動 ──────────────────────────────────────────
   async function initialLoad() {
     showLoadingCard();
-    await fetchPaintings();
+    const ok = await fetchPaintings();
     removeLoadingCard();
 
-    if (allPaintings.length === 0) {
-      showToast('作品を読み込めませんでした。リロードしてください。');
+    if (!ok || allPaintings.length === 0) {
+      // APIが失敗したらエラー表示
+      const errCard = document.createElement('div');
+      errCard.className = 'card cur';
+      errCard.innerHTML = `
+        <div style="display:flex;flex-direction:column;align-items:center;gap:12px;color:var(--ink-m);padding:24px;text-align:center;">
+          <div style="font-size:14px;">読み込みに失敗しました</div>
+          <button onclick="location.reload()" style="padding:8px 20px;border:1px solid var(--gold);background:transparent;cursor:pointer;font-family:inherit;font-size:12px;color:var(--ink-m);">リロード</button>
+        </div>`;
+      dw.appendChild(errCard);
       return;
     }
 
     buildQueue();
     renderDeck();
-
-    // バックグラウンドで追加取得
-    setTimeout(async () => {
-      for (let i = 0; i < 5; i++) {
-        await fetchPaintings();
-      }
-    }, 2000);
   }
 
   function showLoadingCard() {
@@ -100,11 +91,9 @@
     dw.appendChild(c);
   }
   function removeLoadingCard() {
-    const c = document.getElementById('loading-card');
-    if (c) c.remove();
+    const c = document.getElementById('loading-card'); if (c) c.remove();
   }
 
-  // ── キュー構築 ────────────────────────────────────
   function buildQueue() {
     const res = allPaintings.filter(p => {
       if (filter.century !== 'all' && p.century !== filter.century) return false;
@@ -113,22 +102,18 @@
       return true;
     });
     if (!res.length) { showToast('該当する作品がありません'); return false; }
-    queue  = [...res].sort(() => Math.random() - .5);
+    queue = [...res].sort(() => Math.random() - .5);
     cursor = 0;
     return true;
   }
 
-  // ── デッキ描画 ────────────────────────────────────
   function renderDeck() {
     dw.querySelectorAll('.card').forEach(c => c.remove());
     curCard = prevCard = nextCard = null;
-
     if (!buildQueue()) return;
-
     curCard = makeCard(queue[cursor], cursor);
     curCard.classList.add('cur');
     dw.appendChild(curCard);
-
     if (cursor + 1 < queue.length) {
       nextCard = makeCard(queue[cursor + 1], cursor + 1);
       nextCard.style.cssText = 'transform:translateY(110%);opacity:0;transition:none;';
@@ -137,14 +122,12 @@
     updateMeta();
   }
 
-  // ── カード生成 ────────────────────────────────────
   function makeCard(p, idx) {
     if (!p) return null;
     const card = document.createElement('div');
-    card.className = 'card';
-    card._p = p;
+    card.className = 'card'; card._p = p;
 
-    const num  = document.createElement('div');
+    const num = document.createElement('div');
     num.className = 'card-num';
     num.textContent = `${idx + 1} / ${queue.length}`;
 
@@ -154,9 +137,7 @@
 
     const nail = document.createElement('div'); nail.className = 'nail';
     const wire = document.createElement('div'); wire.className = 'wire';
-
-    const fw = document.createElement('div');
-    fw.className = 'frame-wrap';
+    const fw   = document.createElement('div'); fw.className = 'frame-wrap';
 
     const ph = document.createElement('div');
     ph.className = 'painting-placeholder';
@@ -164,16 +145,13 @@
     fw.appendChild(ph);
 
     const img = document.createElement('img');
-    img.className = 'painting-img';
-    img.alt = p.title;
+    img.className = 'painting-img'; img.alt = p.title;
     img.onload  = () => { img.classList.add('loaded'); ph.style.display = 'none'; };
     img.onerror = () => { ph.innerHTML = `<div class="ph-title" style="opacity:.4">${p.title}</div>`; };
     img.src = p.image;
     fw.appendChild(img);
 
-    const shadow = document.createElement('div');
-    shadow.className = 'frame-shadow';
-
+    const shadow = document.createElement('div'); shadow.className = 'frame-shadow';
     card.appendChild(num); card.appendChild(stag);
     card.appendChild(nail); card.appendChild(wire);
     card.appendChild(fw); card.appendChild(shadow);
@@ -181,14 +159,13 @@
   }
 
   function updateMeta() {
-    const p = queue[cursor];
-    if (!p) return;
+    const p = queue[cursor]; if (!p) return;
     abt.textContent = p.title;
     abs.textContent = `${p.artist}  ·  ${p.year || '年不明'}  ·  ${p.museum}`;
     bh.classList.toggle('lk', liked.some(x => x.id === p.id));
   }
 
-  // ── スワイプ ──────────────────────────────────────
+  // スワイプ
   let isDrag = false, startY = 0, diffY = 0;
   const THRESH = 50;
 
@@ -221,13 +198,11 @@
     }
   }
   function onEnd() {
-    if (!isDrag) return;
-    isDrag = false;
+    if (!isDrag) return; isDrag = false;
     if (!curCard) return;
-    curCard.classList.remove('drag');
-    curCard.style.transition = '';
-    if (diffY < -THRESH) goNext();
-    else if (diffY > THRESH) goPrev();
+    curCard.classList.remove('drag'); curCard.style.transition = '';
+    if      (diffY < -THRESH) goNext();
+    else if (diffY >  THRESH) goPrev();
     else {
       curCard.style.transform = '';
       if (nextCard) { nextCard.style.transition = ''; nextCard.style.transform = 'translateY(110%)'; nextCard.style.opacity = '0'; }
@@ -235,99 +210,59 @@
     }
   }
 
-  // ── 次へ ──────────────────────────────────────────
   function goNext() {
-    if (cursor >= queue.length - 1) {
-      // キューを使い切ったらシャッフルして継続
-      showToast('シャッフルして最初から…');
-      setTimeout(() => renderDeck(), 800);
-      return;
-    }
+    if (cursor >= queue.length - 1) { showToast('シャッフルして最初から…'); setTimeout(() => renderDeck(), 800); return; }
     const DUR = '.48s', EASE = 'cubic-bezier(.76,0,.24,1)';
     if (prevCard) prevCard.remove();
-
     curCard.classList.remove('cur');
     curCard.style.transition = `transform ${DUR} ${EASE}, opacity .35s ease`;
-    curCard.style.transform  = 'translateY(-110%)';
-    curCard.style.opacity    = '0';
-    prevCard = curCard;
-
-    curCard = nextCard;
-    cursor++;
-
+    curCard.style.transform = 'translateY(-110%)'; curCard.style.opacity = '0';
+    prevCard = curCard; curCard = nextCard; cursor++;
     if (curCard) {
       curCard.style.transition = `transform ${DUR} ${EASE}, opacity .35s ease`;
-      curCard.classList.add('cur');
-      curCard.style.transform = 'translateY(0)';
-      curCard.style.opacity   = '1';
+      curCard.classList.add('cur'); curCard.style.transform = 'translateY(0)'; curCard.style.opacity = '1';
     }
-
     if (cursor + 1 < queue.length) {
       nextCard = makeCard(queue[cursor + 1], cursor + 1);
       nextCard.style.cssText = 'transform:translateY(110%);opacity:0;transition:none;';
       dw.appendChild(nextCard);
-    } else {
-      nextCard = null;
-      // 残り少なくなったら追加取得
-      fetchPaintings().then(() => updateFilterOptions());
-    }
+    } else { nextCard = null; }
     updateMeta();
   }
 
-  // ── 前へ ──────────────────────────────────────────
   function goPrev() {
-    if (cursor <= 0) {
-      showToast('最初の作品です');
-      curCard.style.transform = '';
-      return;
-    }
+    if (cursor <= 0) { showToast('最初の作品です'); curCard.style.transform = ''; return; }
     const DUR = '.48s', EASE = 'cubic-bezier(.76,0,.24,1)';
     if (nextCard) nextCard.remove();
-
     curCard.classList.remove('cur');
     curCard.style.transition = `transform ${DUR} ${EASE}, opacity .35s ease`;
-    curCard.style.transform  = 'translateY(110%)';
-    curCard.style.opacity    = '0';
-    nextCard = curCard;
-
-    curCard = prevCard;
-    cursor--;
-
+    curCard.style.transform = 'translateY(110%)'; curCard.style.opacity = '0';
+    nextCard = curCard; curCard = prevCard; cursor--;
     if (curCard) {
       curCard.style.transition = `transform ${DUR} ${EASE}, opacity .35s ease`;
-      curCard.classList.add('cur');
-      curCard.style.transform = 'translateY(0)';
-      curCard.style.opacity   = '1';
+      curCard.classList.add('cur'); curCard.style.transform = 'translateY(0)'; curCard.style.opacity = '1';
     }
-
     if (cursor - 1 >= 0) {
       prevCard = makeCard(queue[cursor - 1], cursor - 1);
       prevCard.style.cssText = 'transform:translateY(-110%);opacity:0;transition:none;';
       dw.insertBefore(prevCard, curCard);
-    } else {
-      prevCard = null;
-    }
+    } else { prevCard = null; }
     updateMeta();
   }
 
-  // キーボード・ホイール
   document.addEventListener('keydown', e => {
     if (e.key === 'ArrowDown' || e.key === ' ') { e.preventDefault(); goNext(); }
     if (e.key === 'ArrowUp') { e.preventDefault(); goPrev(); }
   });
   dw.addEventListener('wheel', e => {
-    if (e.deltaY > 0) goNext();
-    else if (e.deltaY < 0) goPrev();
+    if (e.deltaY > 0) goNext(); else if (e.deltaY < 0) goPrev();
   }, { passive: true });
 
-  // ── ハート ────────────────────────────────────────
   bh.addEventListener('click', () => {
-    const p = queue[cursor];
-    if (!p) return;
+    const p = queue[cursor]; if (!p) return;
     const idx = liked.findIndex(x => x.id === p.id);
-    if (idx >= 0) {
-      liked.splice(idx, 1); bh.classList.remove('lk'); showToast('解除しました');
-    } else {
+    if (idx >= 0) { liked.splice(idx, 1); bh.classList.remove('lk'); showToast('解除しました'); }
+    else {
       liked.push(p); bh.classList.add('lk');
       bh.classList.remove('bt'); void bh.offsetWidth; bh.classList.add('bt');
       showToast('ギャラリーに追加しました');
@@ -335,88 +270,62 @@
     save(); updateBadge();
   });
 
-  // ── シェア ────────────────────────────────────────
   document.getElementById('btn-share').addEventListener('click', () => {
-    const p = queue[cursor];
-    if (!p) return;
+    const p = queue[cursor]; if (!p) return;
     const t = `「${p.title}」\n${p.artist}（${p.year || ''}）\n${p.museum}\n\n#名画収集館 #名画 #art`;
     window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(t)}`, '_blank', 'noopener');
   });
 
-  // ── フィルタードロワー ─────────────────────────────
   const fd = document.getElementById('fd');
-  document.getElementById('btn-filter').addEventListener('click', () => {
-    fd.classList.add('open'); buildFilterUI();
-  });
+  document.getElementById('btn-filter').addEventListener('click', () => { fd.classList.add('open'); buildFilterUI(); });
   document.getElementById('fdb').addEventListener('click', () => fd.classList.remove('open'));
 
   function buildFilterUI() {
-    const body = document.getElementById('fdbody');
-    body.innerHTML = '';
+    const body = document.getElementById('fdbody'); body.innerHTML = '';
     const cnt = allPaintings.filter(p => {
       if (filter.century !== 'all' && p.century !== filter.century) return false;
       if (filter.style   !== 'all' && p.style   !== filter.style)   return false;
       if (filter.artist  !== 'all' && p.artist  !== filter.artist)  return false;
       return true;
     }).length;
-    const cd = document.createElement('div');
-    cd.className = 'fd-cnt';
-    cd.textContent = `現在 ${cnt} 作品が対象`;
-    body.appendChild(cd);
-
+    const cd = document.createElement('div'); cd.className = 'fd-cnt'; cd.textContent = `現在 ${cnt} 作品が対象`; body.appendChild(cd);
     function sec(label, key, vals) {
-      const s   = document.createElement('div'); s.className = 'fds';
+      const s = document.createElement('div'); s.className = 'fds';
       const lbl = document.createElement('div'); lbl.className = 'fdl'; lbl.textContent = label;
-      const pw  = document.createElement('div'); pw.className = 'pw';
+      const pw = document.createElement('div'); pw.className = 'pw';
       const all = document.createElement('button');
-      all.className = 'pill' + (filter[key] === 'all' ? ' on' : '');
-      all.textContent = 'すべて';
-      all.onclick = () => { filter[key] = 'all'; renderDeck(); fd.classList.remove('open'); };
-      pw.appendChild(all);
+      all.className = 'pill' + (filter[key] === 'all' ? ' on' : ''); all.textContent = 'すべて';
+      all.onclick = () => { filter[key] = 'all'; renderDeck(); fd.classList.remove('open'); }; pw.appendChild(all);
       vals.slice(0, 30).forEach(v => {
         const pill = document.createElement('button');
-        pill.className = 'pill' + (filter[key] === v ? ' on' : '');
-        pill.textContent = v;
-        pill.onclick = () => { filter[key] = v; renderDeck(); fd.classList.remove('open'); };
-        pw.appendChild(pill);
+        pill.className = 'pill' + (filter[key] === v ? ' on' : ''); pill.textContent = v;
+        pill.onclick = () => { filter[key] = v; renderDeck(); fd.classList.remove('open'); }; pw.appendChild(pill);
       });
       s.appendChild(lbl); s.appendChild(pw); body.appendChild(s);
     }
-    sec('世紀',     'century', centuries);
-    sec('スタイル', 'style',   styles);
-    sec('画家',     'artist',  artists);
+    sec('世紀', 'century', centuries); sec('スタイル', 'style', styles); sec('画家', 'artist', artists);
   }
 
-  // ── ギャラリー ────────────────────────────────────
   const gp = document.getElementById('gp');
-  document.getElementById('btn-gal').addEventListener('click', () => {
-    gp.classList.add('open'); renderGallery();
-  });
+  document.getElementById('btn-gal').addEventListener('click', () => { gp.classList.add('open'); renderGallery(); });
   document.getElementById('gpc').addEventListener('click', () => gp.classList.remove('open'));
 
   function renderGallery() {
-    const grid  = document.getElementById('gg');
-    const empty = document.getElementById('ge');
+    const grid = document.getElementById('gg'), empty = document.getElementById('ge');
     grid.innerHTML = '';
-    if (!liked.length) {
-      empty.style.display = 'block'; grid.style.display = 'none'; return;
-    }
+    if (!liked.length) { empty.style.display = 'block'; grid.style.display = 'none'; return; }
     empty.style.display = 'none'; grid.style.display = 'grid';
     liked.forEach(p => {
-      const item  = document.createElement('div'); item.className = 'gi';
-      const wire  = document.createElement('div'); wire.className = 'giwire';
+      const item = document.createElement('div'); item.className = 'gi';
+      const wire = document.createElement('div'); wire.className = 'giwire';
       const frame = document.createElement('div'); frame.className = 'gif';
-      const img   = document.createElement('img');
-      img.src = p.image; img.alt = p.title;
+      const img = document.createElement('img'); img.src = p.image; img.alt = p.title;
       const lbl = document.createElement('div'); lbl.className = 'gilbl'; lbl.textContent = p.title;
-      frame.appendChild(img);
-      item.appendChild(wire); item.appendChild(frame); item.appendChild(lbl);
-      item.title = `${p.title} — ${p.artist} (${p.year})`;
-      grid.appendChild(item);
+      frame.appendChild(img); item.appendChild(wire); item.appendChild(frame); item.appendChild(lbl);
+      item.title = `${p.title} — ${p.artist} (${p.year})`; grid.appendChild(item);
     });
   }
 
-  // ── 起動 ──────────────────────────────────────────
   updateBadge();
   initialLoad();
 
