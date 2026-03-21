@@ -140,63 +140,22 @@ body{font-family:'Cormorant Garamond','Noto Serif JP',Georgia,serif}
   content:'';position:absolute;inset:-24px;
   border-radius:2px;
   background:
-    /* 木目の細かい縦縞 */
-    repeating-linear-gradient(
-      89.5deg,
-      transparent 0px, transparent 2px,
-      rgba(0,0,0,.045) 2px, rgba(0,0,0,.045) 3px,
-      transparent 3px, transparent 7px,
-      rgba(200,140,30,.035) 7px, rgba(200,140,30,.035) 8px
-    ),
-    /* ウォルナット木目の横断面（上下の面） */
-    linear-gradient(to bottom,
-      #f0c060 0px,   /* 最上端：強いハイライト */
-      #c08030 1px,
-      #884010 4px,
-      #5a2a08 9px,
-      #7a4818 16px,
-      #9a6428 24px,
-      #6a3c10 34px,
-      #4a2408 46px,
-      #5e3414 52px,
-      #7a5020 58px,
-      #9a6830 62px,
-      #5a3010 68px,
-      #4a2408 76px,
-      #6a4010 84px,
-      #8a5c28 90px,
-      #7a4818 96px,
-      #5a2a08 100px,
-      #884010 104px,
-      #c08030 107px,
-      #f0c060 109px   /* 最下端：強いハイライト */
-    );
-  box-shadow:
-    /* ドロップシャドウ（深み・立体感） */
-    0 22px 64px rgba(6,3,0,.7),
-    0 8px 24px rgba(6,3,0,.45),
-    0 2px 6px rgba(6,3,0,.35),
-    /* 外縁の金彩ライン */
-    0 0 0 1px rgba(240,195,75,.7),
-    /* 内側の立体的な陰影 */
-    inset 0 0 0 1.5px rgba(0,0,0,.45),
-    inset 3px 3px 8px rgba(0,0,0,.25),
-    inset -3px -3px 8px rgba(0,0,0,.3),
-    inset 0 4px 6px rgba(0,0,0,.2),
-    inset 0 -4px 6px rgba(0,0,0,.25);
+    repeating-linear-gradient(89.5deg,transparent 0px,transparent 3px,rgba(255,255,255,.015) 3px,rgba(255,255,255,.015) 4px,transparent 4px,transparent 8px),
+    linear-gradient(to bottom,#2a2a2a 0%,#1a1a1a 20%,#141414 50%,#1a1a1a 80%,#2a2a2a 100%);
+  box-shadow:inset 0 2px 8px rgba(0,0,0,.7),inset 0 -2px 8px rgba(0,0,0,.7),inset 2px 0 8px rgba(0,0,0,.5),inset -2px 0 8px rgba(0,0,0,.5);
 }
 
 /* 内側マット（クリーム色の高品質マット） */
 .frame-wrap::after{
   content:'';position:absolute;inset:-6px;
   background:linear-gradient(145deg,
-    #ece7dc 0%, #f4efe5 25%, #f8f3ea 50%, #f2ede2 75%, #ebe5d9 100%
+    #1a1a1a 0%, #222222 25%, #242424 50%, #1e1e1e 75%, #181818 100%
   );
   box-shadow:
-    inset 2px 2px 5px rgba(0,0,0,.13),
-    inset -1px -1px 3px rgba(255,255,255,.55),
-    inset 0 0 0 1px rgba(155,125,75,.2),
-    inset 0 0 0 3px rgba(200,175,130,.1);
+    inset 2px 2px 6px rgba(0,0,0,.6),
+    inset -1px -1px 4px rgba(255,255,255,.04),
+    inset 0 0 0 1px rgba(255,255,255,.06),
+    inset 0 0 0 3px rgba(0,0,0,.4);
 }
 
 /* 額縁装飾ライン（内側） */
@@ -206,12 +165,12 @@ body{font-family:'Cormorant Garamond','Noto Serif JP',Georgia,serif}
   /* 多重の装飾ライン（内側から） */
   box-shadow:
     /* 内縁のゴールドライン */
-    0 0 0 1px rgba(215,165,55,.5),
+    0 0 0 1px rgba(200,200,200,.15),
     0 0 0 2px rgba(40,20,4,.7),
-    0 0 0 3.5px rgba(195,145,45,.4),
+    0 0 0 3.5px rgba(180,180,180,.1),
     0 0 0 5px rgba(20,10,2,.5),
     /* 外縁のアクセント */
-    0 0 0 6px rgba(175,125,35,.3),
+    0 0 0 6px rgba(160,160,160,.08),
     0 0 0 7px rgba(10,5,0,.4);
 }
 
@@ -442,7 +401,7 @@ body{font-family:'Cormorant Garamond','Noto Serif JP',Georgia,serif}
 
 /* ── ギャラリー ── */
 #gp{
-  position:absolute;inset:0;z-index:600;background:rgba(20,12,5,.98);
+  position:absolute;inset:0;z-index:600;background:rgba(8,20,12,.98);
   transform:translateY(100%);transition:transform .42s var(--ease);
   display:flex;flex-direction:column;overflow:hidden;backdrop-filter:blur(16px);
 }
@@ -520,7 +479,7 @@ body{font-family:'Cormorant Garamond','Noto Serif JP',Georgia,serif}
   position:absolute;
   inset:-3px;
   z-index:1;
-  background:linear-gradient(145deg, #ece7dc, #f4efe5, #ebe5d9);
+  background:linear-gradient(145deg, #1a1a1a, #222222, #181818);
   box-shadow:
     inset 1px 1px 3px rgba(0,0,0,.11),
     inset 0 0 0 1px rgba(155,125,75,.16);
@@ -635,7 +594,7 @@ body{font-family:'Cormorant Garamond','Noto Serif JP',Georgia,serif}
 }
 #lb-inner::after{
   content:'';position:absolute;inset:-4px;
-  background:linear-gradient(145deg,#ece7dc,#f4efe5,#ebe5d9);
+  background:linear-gradient(145deg,#1a1a1a,#222222,#181818);
   box-shadow:inset 1px 1px 3px rgba(0,0,0,.12);
 }
 #lb-img{
