@@ -234,15 +234,29 @@ const ARTIC_IDS = [
   90903,6565,80607,44018,76571,16564,14591,
 ];
 
-// MET検索クエリ（6種・毎回3つランダム選択）
-// 検索APIは1リクエストで数百IDが返る → 個別取得より圧倒的に速い
-const MET_QUERIES = [
-  `${MET}/search?hasImages=true&isPublicDomain=true&q=impressionism&medium=Paintings&departmentId=11`,
-  `${MET}/search?hasImages=true&isPublicDomain=true&q=dutch+golden+age&medium=Paintings&departmentId=11`,
-  `${MET}/search?hasImages=true&isPublicDomain=true&q=italian+renaissance&medium=Paintings&departmentId=11`,
-  `${MET}/search?hasImages=true&isPublicDomain=true&q=baroque+painting&medium=Paintings&departmentId=11`,
-  `${MET}/search?hasImages=true&isPublicDomain=true&q=ukiyo-e+woodblock&departmentId=6`,
-  `${MET}/search?hasImages=true&isPublicDomain=true&q=portrait+landscape&medium=Paintings&departmentId=11`,
+// MET固定IDリスト（厳選・全件パブリックドメイン確認済み）
+// 検索APIはVercel serverside から到達不可のため固定ID方式を採用
+const MET_IDS = [
+  // ゴッホ・印象派（動作確認済み）
+  436535, 436528, 436529, 436530, 436531, 437881,
+  // マネ・ドガ・セザンヌ
+  436947, 435868, 436218, 436532, 436533,
+  // 歴史画・肖像（動作確認済み）
+  436105, 437394, 437329, 11417, 436282, 459055,
+  // オランダ黄金時代
+  437658, 437247, 437397, 436955, 437872,
+  // フランドル・北方ルネサンス
+  459202, 437432, 437657, 437524,
+  // イタリア・ルネサンス
+  437393, 437392, 437892, 436873,
+  // 浮世絵・日本美術
+  55820, 36491, 36492, 36493, 36494, 36495,
+  // ロマン主義・新古典主義
+  437869, 437870, 436916, 436953,
+  // 19世紀フランス
+  437648, 437660, 437645, 436115, 11145,
+  // バロック肖像
+  437395, 437499, 436534, 437396,
 ];
 
 async function get(url, ms = 7000) {
@@ -297,22 +311,17 @@ module.exports = async (req, res) => {
   res.setHeader('Cache-Control', 's-maxage=3600, stale-while-revalidate=86400');
 
   try {
-    // ── Step1: ARTIC一括 + MET検索クエリ3つ を同時に投げる（4リクエスト）
+    // ── Step1: ARTIC一括 + MET固定ID並列取得（同時に投げる）
     const shuffle = arr => [...arr].sort(() => Math.random() - .5);
-    const pickedQ = shuffle(MET_QUERIES).slice(0, 4); // 4クエリで多様なIDを収集
+    // MET: 固定IDをシャッフルして40件取得（毎回ランダムな組み合わせ）
+    const pickedMET = shuffle(MET_IDS).slice(0, 40);
 
-    const [articRaw, ...searchRaws] = await Promise.all([
+    const [articRaw, ...metObjects] = await Promise.all([
       get(`${ARTIC}/artworks?ids=${ARTIC_IDS.join(',')}&fields=id,title,artist_display,date_end,style_title,image_id,is_public_domain`, 8000),
-      ...pickedQ.map(q => get(q, 7000)),
+      ...pickedMET.map(id => get(`${MET}/objects/${id}`, 5000)),
     ]);
 
-    // ── Step2: MET検索結果からIDを収集してシャッフル、40件だけ個別取得
-    const allIds = [...new Set(searchRaws.flatMap(d => (d && d.objectIDs) || []))];
-    // 50件 × タイムアウト3秒 = 確実に3秒以内（3クエリで合計150件のIDプール）
-    const picked50 = shuffle(allIds).slice(0, 50);
-    const metObjects = await Promise.all(picked50.map(id => get(`${MET}/objects/${id}`, 3000)));
-
-    // ── Step3: 変換・重複除去
+    // ── Step2: 変換・重複除去
     const artic = ((articRaw && articRaw.data) || []).map(toARTIC).filter(Boolean);
     const met   = metObjects.map(toMET).filter(Boolean);
 
