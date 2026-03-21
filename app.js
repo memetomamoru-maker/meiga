@@ -262,8 +262,8 @@
   function updateMeta() {
     const p = queue[cursor]; if (!p) return;
     abt.textContent = p.title;
-    // 作品名クリックでWikipedia/美術館ページへ
-    const link = p.wikiUrl || p.museumUrl;
+    // 作品名クリック: museumUrlを優先（確実に存在）、なければwikiUrl
+    const link = p.museumUrl || p.wikiUrl;
     if (link) {
       abt.style.cursor = 'pointer';
       abt.title = '詳細を見る';
@@ -282,7 +282,7 @@
 
   // ── スワイプ ─────────────────────────────────────────────
   let isDrag = false, startY = 0, diffY = 0, startTime = 0;
-  const THRESH = 50, RESIST = 0.58; // 閾値を少し下げて反応よく、抵抗を上げて指に追従
+  const THRESH = 40, RESIST = 0.35; // 閾値低め・抵抗少なめ → 軽くてキビキビした反応
 
   dw.addEventListener('mousedown', e => { e.preventDefault(); onStart(e.clientY); });
   dw.addEventListener('touchstart', e => onStart(e.touches[0].clientY), { passive: true });
@@ -331,7 +331,7 @@
   function snapBack() {
     if (!curCard) return;
     // curCardをスプリングで元の位置に戻す
-    curCard.style.transition = 'transform 0.5s cubic-bezier(.34,1.4,.64,1)'; // より自然なバウンスバック
+    curCard.style.transition = 'transform 0.3s cubic-bezier(.34,1.4,.64,1)';
     curCard.style.transform  = 'translateY(0)';
     curCard.style.opacity    = '1';
     // next/prevを完全に画面外に戻す（中途半端な位置に残さない）
@@ -346,11 +346,11 @@
       prevCard.style.opacity    = '0';
     }
     // アニメーション完了後にisAnimatingをfalseに（重要）
-    setTimeout(() => { isAnimating = false; }, 520);
+    setTimeout(() => { isAnimating = false; }, 280);
   }
 
   // スワイプアニメーション: ゆっくり優雅に（美術館体験らしく）
-  const DUR = '0.62s', EASE = 'cubic-bezier(.16,1,.3,1)'; // expo-out: 素早く動き出しゆっくり止まる
+  const DUR = '0.52s', EASE = 'cubic-bezier(.16,1,.3,1)'; // expo-out
 
   function goNext() {
     if (!curCard || isAnimating) return;
@@ -367,7 +367,7 @@
       dw.appendChild(nextCard);
     } else { nextCard = null; }
     updateMeta(); updateNavButtons();
-    setTimeout(() => { isAnimating = false; }, 640);
+    setTimeout(() => { isAnimating = false; }, 380); // アニメーション中でも早めに次を受付
   }
 
   function goPrev() {
@@ -385,7 +385,7 @@
       dw.insertBefore(prevCard, curCard);
     } else { prevCard = null; }
     updateMeta(); updateNavButtons();
-    setTimeout(() => { isAnimating = false; }, 640);
+    setTimeout(() => { isAnimating = false; }, 380); // アニメーション中でも早めに次を受付
   }
 
   // ── キーボード・ホイール ──────────────────────────────────
@@ -563,7 +563,7 @@
       // ギャラリー内作品名クリックで詳細へ
       const lbl = document.createElement('div'); lbl.className = 'gilbl'; lbl.textContent = p.title;
       const sub = document.createElement('div'); sub.className = 'gilsub'; sub.textContent = p.artist;
-      const link = p.wikiUrl || p.museumUrl;
+      const link = p.museumUrl || p.wikiUrl;
       if (link) {
         item.style.cursor = 'pointer';
         item.addEventListener('click', (e) => {
