@@ -13,8 +13,8 @@
   let queue  = [];
   let cursor = 0;
   let liked  = [];
-  let filter = { century: 'all', style: 'all', artist: 'all' };
-  let centuries = [], styles = [], artists = [];
+  let filter = { century: 'all', style: 'all' };
+  let centuries = [], styles = [];
   let curCard = null, nextCard = null, prevCard = null;
   let isAnimating = false;
 
@@ -99,8 +99,6 @@
     styles = [...new Set(allPaintings.map(p => p.style))]
       .filter(s => s && s !== '絵画' && s !== 'Paintings' && s !== 'Oil on canvas' && s.length < 25)
       .sort();
-    artists = [...new Set(allPaintings.map(p => p.artist))].filter(Boolean)
-      .sort((a, b) => a.localeCompare(b, 'ja'));
   }
 
   // ── API取得（リトライ付き）────────────────────────────────
@@ -182,12 +180,11 @@
     const filtered = allPaintings.filter(p => {
       if (filter.century !== 'all' && p.century !== filter.century) return false;
       if (filter.style   !== 'all' && p.style   !== filter.style)   return false;
-      if (filter.artist  !== 'all' && p.artist  !== filter.artist)  return false;
       return true;
     });
     if (!filtered.length) { showToast('該当する作品がありません'); return false; }
 
-    if (filter.century === 'all' && filter.style === 'all' && filter.artist === 'all') {
+    if (filter.century === 'all' && filter.style === 'all') {
       queue = [...filtered];
     } else {
       queue = [...filtered].sort(() => Math.random() - .5);
@@ -436,7 +433,7 @@
   document.getElementById('fdb').addEventListener('click', () => fd.classList.remove('open'));
   document.getElementById('fdb2').addEventListener('click', () => fd.classList.remove('open'));
   document.getElementById('fd-reset-btn').addEventListener('click', () => {
-    filter = { century: 'all', style: 'all', artist: 'all' };
+    filter = { century: 'all', style: 'all' };
     renderDeck(); fd.classList.remove('open');
   });
 
@@ -444,16 +441,15 @@
     const count = allPaintings.filter(p => {
       if (filter.century !== 'all' && p.century !== filter.century) return false;
       if (filter.style   !== 'all' && p.style   !== filter.style)   return false;
-      if (filter.artist  !== 'all' && p.artist  !== filter.artist)  return false;
       return true;
     }).length;
     const lbl = document.getElementById('fd-cnt-label');
     const rst = document.getElementById('fd-reset-btn');
     if (lbl) lbl.textContent = `${count} 作品が対象`;
-    if (rst) rst.disabled = filter.century === 'all' && filter.style === 'all' && filter.artist === 'all';
+    if (rst) rst.disabled = filter.century === 'all' && filter.style === 'all';
   }
 
-  const sectionState = { century: true, style: false, artist: false };
+  const sectionState = { century: true, style: false };
 
   function buildFilterUI() {
     updateFilterFooter();
@@ -513,7 +509,6 @@
 
     sec('時代・世紀', 'century', centuries, '🏛');
     sec('画派・スタイル', 'style', styles, '🎨');
-    sec('画家', 'artist', artists, '👤');
   }
 
   // ── ギャラリー ────────────────────────────────────────────
