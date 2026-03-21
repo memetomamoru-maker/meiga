@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 // scripts/fetch-paintings.js  v5
-// 戦略: 検索API複数クエリ → 各クエリ先頭100件のID → バッチ取得
-// 検索結果の先頭は高関連度なので絵画ヒット率が高い
+// ARTIC: 200件固定ID（APIで確認済み） + MET: 検索ベース50件
 
 const fs    = require('fs');
 const path  = require('path');
@@ -59,12 +58,10 @@ const TITLE_JA = {
   "The Child's Bath": '子供の入浴',
   'Olympia': 'オランピア',
   'The Fifer': '笛を吹く少年',
-  'Luncheon of the Boating Party': '舟遊びの昼食',
   'Haystacks': '干し草の山',
   'Plum Brandy': 'プラム・ブランデー',
   'Bathers at Asnières': 'アニエールの水浴',
   'The Swing': 'ブランコ',
-  'Olympia': 'オランピア',
 };
 
 const ARTIST_JA = {
@@ -109,40 +106,54 @@ const ARTIST_JA = {
   'Thomas Cole': 'トマス・コール',
   'Frederic Edwin Church': 'フレデリック・エドウィン・チャーチ',
   'Albert Bierstadt': 'アルバート・ビアスタット',
-  'Jean-François Millet': 'ジャン＝フランソワ・ミレー',
-  'Gustave Caillebotte': 'ギュスターヴ・カイユボット',
-  'Paul Signac': 'ポール・シニャック',
-  'Nicolas Poussin': 'ニコラ・プッサン',
-  'Giovanni Battista Tiepolo': 'ジョヴァンニ・バッティスタ・ティエポロ',
-  'Canaletto': 'カナレット',
 };
 
-const ARTIC_IDS = [27992, 28560, 16568, 16571, 20684, 64818, 14655, 111436, 61128, 111442, 14556, 45243, 90903, 6565, 80607, 44018, 76571, 16564, 14591];
-
-// 検索クエリ（各クエリ先頭100件のIDを取得）
-const SEARCH_QUERIES = [
-  'impressionism', 'dutch+golden+age', 'italian+renaissance',
-  'baroque+painting', 'romanticism', 'portrait+oil',
-  'landscape+painting', 'still+life+oil', 'french+painting',
-  'american+painting',
+// ARTIC固定ID 200件（APIで確認済み・全件画像あり・パブリックドメイン）
+const ARTIC_IDS = [
+  22, 4758, 161, 7988, 9018, 9637, 9024, 11723, 14591, 14245,
+  14630, 14664, 16568, 20530, 21843, 25099, 24880, 25108, 25105, 25102,
+  25113, 25110, 25129, 25117, 25115, 26607, 26561, 28096, 26720, 28283,
+  30629, 30368, 30899, 34231, 32276, 37900, 36504, 43244, 41375, 39920,
+  46230, 47580, 47141, 48121, 48064, 48151, 50116, 48164, 54415, 52983,
+  54418, 55718, 54424, 61910, 57703, 55721, 62181, 61921, 64507, 62808,
+  64936, 64520, 68433, 67428, 75557, 70593, 79021, 76890, 79763, 81555,
+  81235, 83613, 84092, 87088, 91610, 90443, 92194, 92195, 92196, 92197,
+  92199, 92198, 94131, 95654, 103309, 99512, 113794, 112100, 109413, 116525,
+  116448, 117266, 117059, 116873, 117491, 121415, 121412, 121408, 125547, 121416,
+  127982, 127981, 127984, 127983, 127987, 127986, 127990, 127989, 127988, 130724,
+  127991, 131466, 130725, 133852, 131827, 137125, 137054, 140604, 137226, 145243,
+  141111, 146861, 145876, 147604, 154238, 154237, 158412, 160197, 158483, 160222,
+  190628, 186418, 190640, 190629, 196410, 195381, 200149, 200003, 201820, 201819,
+  217155, 221647, 229377, 228882, 229950, 237995, 236623, 236545, 237997, 237996,
+  238000, 237998, 238002, 238001, 238004, 238006, 238005, 238008, 238007, 238010,
+  238009, 238014, 238012, 238016, 238015, 238019, 238018, 238021, 238020, 238024,
+  238022, 238026, 238025, 238028, 238027, 238030, 238029, 238032, 238031, 238036,
+  238034, 238037, 238038, 238041, 238039, 238044, 238042, 238049, 238047, 238749,
+  238051, 239056, 239062, 240563, 240852, 240613, 240860, 240859, 241626, 241619,
 ];
 
-function fetchJson(url, ms) {
-  if (!ms) ms = 10000;
+const MET_DEPT_IDS = [11, 14];
+
+function fetchJson(url, timeoutMs) {
+  if (!timeoutMs) timeoutMs = 10000;
   return new Promise(function(resolve) {
-    var t = setTimeout(function() { resolve(null); }, ms);
+    var timer = setTimeout(function() { resolve(null); }, timeoutMs);
     var req = https.get(url, { headers: { 'User-Agent': 'meiga-bot/5.0' } }, function(res) {
-      if (res.statusCode !== 200) { clearTimeout(t); res.resume(); resolve(null); return; }
+      if (res.statusCode !== 200) { clearTimeout(timer); res.resume(); resolve(null); return; }
       var body = '';
       res.on('data', function(d) { body += d; });
-      res.on('end', function() { clearTimeout(t); try { resolve(JSON.parse(body)); } catch(e) { resolve(null); } });
-      res.on('error', function() { clearTimeout(t); resolve(null); });
+      res.on('end', function() {
+        clearTimeout(timer);
+        try { resolve(JSON.parse(body)); } catch(e) { resolve(null); }
+      });
+      res.on('error', function() { clearTimeout(timer); resolve(null); });
     });
-    req.on('error', function() { clearTimeout(t); resolve(null); });
+    req.on('error', function() { clearTimeout(timer); resolve(null); });
   });
 }
 
 function sleep(ms) { return new Promise(function(r) { setTimeout(r, ms); }); }
+function shuffle(arr) { return arr.slice().sort(function() { return Math.random() - 0.5; }); }
 function jaTitle(en) { return TITLE_JA[en] || en; }
 function jaArtist(en) {
   if (!en) return '作者不詳';
@@ -171,38 +182,26 @@ function toARTIC(d) {
 async function main() {
   console.log('=== fetch-paintings.js v5 ===');
 
-  // ARTIC
-  var articRaw = await fetchJson(ARTIC + '/artworks?ids=' + ARTIC_IDS.join(',') + '&fields=id,title,artist_display,date_end,image_id,is_public_domain', 15000);
-  var articPaintings = ((articRaw && articRaw.data) || []).map(toARTIC).filter(Boolean);
-  console.log('[ARTIC] ' + articPaintings.length + '件');
-
-  // MET: 検索クエリ別に先頭100件ずつ取得
-  console.log('[MET] ' + SEARCH_QUERIES.length + 'クエリから先頭100件ずつ取得...');
-  var allIds = [];
-  for (var qi = 0; qi < SEARCH_QUERIES.length; qi++) {
-    var q = SEARCH_QUERIES[qi];
-    var url = MET + '/search?hasImages=true&isPublicDomain=true&medium=Paintings&departmentId=11&q=' + q;
-    var r = await fetchJson(url, 15000);
-    var ids = (r && r.objectIDs) ? r.objectIDs.slice(0, 100) : [];
-    console.log('  ' + q + ': ' + ids.length + '件');
-    allIds = allIds.concat(ids);
-    if (qi < SEARCH_QUERIES.length - 1) await sleep(500);
+  // ARTIC: 200件を50件ずつ4バッチで一括取得
+  var articPaintings = [];
+  var fields = 'id,title,artist_display,date_end,image_id,is_public_domain';
+  var ABATCH = 50;
+  for (var a = 0; a < ARTIC_IDS.length; a += ABATCH) {
+    var batch = ARTIC_IDS.slice(a, a + ABATCH);
+    var r = await fetchJson(ARTIC + '/artworks?ids=' + batch.join(',') + '&fields=' + fields, 15000);
+    var valid = ((r && r.data) || []).map(toARTIC).filter(Boolean);
+    articPaintings = articPaintings.concat(valid);
+    console.log('[ARTIC] バッチ' + (Math.floor(a/ABATCH)+1) + ': ' + valid.length + '件 (累計: ' + articPaintings.length + ')');
   }
-  // 重複除去
-  allIds = Array.from(new Set(allIds));
-  console.log('[MET] IDプール: ' + allIds.length + '件（重複除去後）');
+  console.log('[ARTIC] 合計: ' + articPaintings.length + '件');
 
-  // 全ID個別取得（25件ずつ、2秒間隔）
-  var BATCH = 25;
-  var metPaintings = [];
-  for (var i = 0; i < allIds.length; i += BATCH) {
-    var batch = allIds.slice(i, i + BATCH);
-    var results = await Promise.all(batch.map(function(id) { return fetchJson(MET + '/objects/' + id, 8000); }));
-    var valid = results.map(toMET).filter(Boolean);
-    metPaintings = metPaintings.concat(valid);
-    console.log('  バッチ ' + (Math.floor(i/BATCH)+1) + '/' + Math.ceil(allIds.length/BATCH) + ': ' + valid.length + '/' + batch.length + ' (累計: ' + metPaintings.length + ')');
-    if (i + BATCH < allIds.length) await sleep(2000);
-  }
+  // MET: 部門IDから最初の25件だけ確実に取る
+  console.log('[MET] 取得中...');
+  var deptResults = await Promise.all(MET_DEPT_IDS.map(function(id) { return fetchJson(MET + '/objects?departmentIds=' + id, 30000); }));
+  var allMetIds = Array.from(new Set(deptResults.reduce(function(a, r) { return a.concat((r && r.objectIDs) || []); }, [])));
+  var pickedIds = shuffle(allMetIds).slice(0, 25);
+  var metResults = await Promise.all(pickedIds.map(function(id) { return fetchJson(MET + '/objects/' + id, 8000); }));
+  var metPaintings = metResults.map(toMET).filter(Boolean);
   console.log('[MET] ' + metPaintings.length + '件');
 
   var seen = new Set();
