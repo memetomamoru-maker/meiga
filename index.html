@@ -13,8 +13,14 @@
 <meta property="og:description" content="名画の世界をスワイプで旅するアプリ。パブリックドメイン作品を無料で。">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://meiga.vercel.app/">
+<meta property="og:image" content="https://meiga.vercel.app/ogp.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://meiga.vercel.app/ogp.jpg">
 <link rel="icon" href="./icon.svg" type="image/svg+xml">
-<link rel="apple-touch-icon" href="./icon.png">
+<link rel="apple-touch-icon" href="./apple-touch-icon.jpg">
+<link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.jpg">
 <link rel="manifest" href="./manifest.json">
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Noto+Serif+JP:wght@300;400&family=EB+Garamond:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
 <style>
@@ -396,21 +402,56 @@ body{font-family:'Cormorant Garamond','Noto Serif JP',Georgia,serif}
 }
 @keyframes giIn{from{opacity:0;transform:scale(.88) translateY(10px)}to{opacity:1;transform:scale(1) translateY(0)}}
 .giwire{width:40px;height:14px;border-top:1px solid rgba(200,160,80,.3);border-radius:50% 50% 0 0 / 100% 100% 0 0}
-.gif{position:relative;width:100%;aspect-ratio:3/4;overflow:hidden}
+.gif{
+  position:relative;width:100%;aspect-ratio:3/4;
+  /* 額縁を外側に出すためoverflowをvisibleに */
+  overflow:visible;
+}
+/* 木目額縁：外側のボーダー要素 */
 .gif::before{
-  content:'';position:absolute;inset:-5px;z-index:2;
+  content:'';
+  position:absolute;
+  inset:-8px;
+  z-index:0;
+  border-radius:2px;
   background:linear-gradient(145deg,
-    #c8883a 0%,var(--g2) 15%,
-    #5a3010 36%,var(--wood-mid) 50%,
-    #5a3010 64%,var(--g2) 82%,
-    #c8883a 100%
+    #d4943a 0%, #9a6020 12%,
+    #5a3010 28%, #8a5020 42%,
+    #3a1a08 50%,
+    #8a5020 58%, #5a3010 72%,
+    #9a6020 88%, #d4943a 100%
   );
   filter:url(#woodGrainSm);
-  box-shadow:2px 4px 14px rgba(0,0,0,.5),inset 0 1px 0 rgba(255,255,255,.22);
+  box-shadow:
+    0 4px 16px rgba(0,0,0,.55),
+    inset 0 1px 0 rgba(255,220,100,.3),
+    inset 0 -1px 0 rgba(0,0,0,.4);
   pointer-events:none;
 }
-.gif::after{content:'';position:absolute;inset:-1px;z-index:3;box-shadow:inset 0 0 0 4px var(--mat);pointer-events:none}
-.gif img{position:relative;z-index:1;width:100%;height:100%;object-fit:cover;display:block}
+/* マット（内側の白いボーダー） */
+.gif::after{
+  content:'';
+  position:absolute;
+  inset:-3px;
+  z-index:1;
+  background:var(--mat);
+  pointer-events:none;
+}
+/* 画像エリア（クリッピング用ラッパー） */
+.gif-inner{
+  position:relative;
+  z-index:2;
+  width:100%;
+  height:100%;
+  overflow:hidden;
+}
+.gif img{
+  display:block;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  position:relative;
+}
 .gi-del{
   position:absolute;top:-4px;left:-4px;z-index:10;width:18px;height:18px;border-radius:50%;
   background:rgba(10,5,0,.88);border:1px solid rgba(200,160,80,.3);color:var(--gold-l);
@@ -448,12 +489,19 @@ body{font-family:'Cormorant Garamond','Noto Serif JP',Georgia,serif}
 }
 .guide-step:last-of-type{border-bottom:none}
 .guide-icon{
-  width:40px;height:40px;flex-shrink:0;
-  border:1px solid rgba(200,160,80,.25);
+  width:44px;height:44px;flex-shrink:0;
+  border:1.5px solid rgba(200,160,80,.45);
   border-radius:50%;
   display:flex;align-items:center;justify-content:center;
-  font-size:18px;
-  background:rgba(200,160,80,.06);
+  font-size:20px;
+  background:rgba(200,160,80,.12);
+  color:var(--gold-l);
+  box-shadow:0 0 0 1px rgba(200,160,80,.1);
+}
+.guide-icon svg{
+  width:20px;height:18px;
+  color:var(--gold-l);
+  stroke:var(--gold-l);
 }
 .guide-text{flex:1}
 .guide-action{font-size:12px;color:var(--gold-l);letter-spacing:.1em;margin-bottom:3px;font-family:'EB Garamond',serif;font-style:italic}
@@ -479,17 +527,13 @@ body{font-family:'Cormorant Garamond','Noto Serif JP',Georgia,serif}
 <!-- SVGフィルター（木目テクスチャ）-->
 <svg class="svg-defs" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <filter id="woodGrain" x="-5%" y="-5%" width="110%" height="110%">
-      <feTurbulence type="fractalNoise" baseFrequency="0.015 0.9" numOctaves="4" seed="3" result="noise"/>
-      <feDisplacementMap in="SourceGraphic" in2="noise" scale="6" xChannelSelector="R" yChannelSelector="G" result="displaced"/>
-      <feTurbulence type="turbulence" baseFrequency="0.03 0.5" numOctaves="2" seed="7" result="grain"/>
-      <feBlend in="displaced" in2="grain" mode="multiply" result="blended"/>
-      <feComposite in="blended" in2="SourceGraphic" operator="in"/>
+    <filter id="woodGrain" x="-5%" y="-5%" width="110%" height="110%" color-interpolation-filters="sRGB">
+      <feTurbulence type="fractalNoise" baseFrequency="0.012 0.75" numOctaves="4" seed="3" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="8" xChannelSelector="R" yChannelSelector="G"/>
     </filter>
-    <filter id="woodGrainSm" x="-5%" y="-5%" width="110%" height="110%">
-      <feTurbulence type="fractalNoise" baseFrequency="0.02 1.2" numOctaves="3" seed="5" result="noise"/>
-      <feDisplacementMap in="SourceGraphic" in2="noise" scale="4" xChannelSelector="R" yChannelSelector="G" result="displaced"/>
-      <feComposite in="displaced" in2="SourceGraphic" operator="in"/>
+    <filter id="woodGrainSm" x="-5%" y="-5%" width="110%" height="110%" color-interpolation-filters="sRGB">
+      <feTurbulence type="fractalNoise" baseFrequency="0.018 0.8" numOctaves="3" seed="5" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="5" xChannelSelector="R" yChannelSelector="G"/>
     </filter>
   </defs>
 </svg>

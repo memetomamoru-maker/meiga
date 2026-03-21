@@ -1,0 +1,33 @@
+{
+  "name": "名画収集館",
+  "short_name": "名画収集館",
+  "description": "世界の名画をスワイプして旅するアプリ。パブリックドメイン作品を無料で。",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1a1208",
+  "theme_color": "#1a1208",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "./icon.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-192.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg",
+      "purpose": "maskable"
+    },
+    {
+      "src": "./icon-512.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["lifestyle", "entertainment"],
+  "lang": "ja",
+  "dir": "ltr"
+}
