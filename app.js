@@ -379,12 +379,19 @@
     if (e.key === 'ArrowUp') { e.preventDefault(); goPrev(); }
     if (e.key === 'Escape') { document.getElementById('fd').classList.remove('open'); document.getElementById('gp').classList.remove('open'); hideGuide(); }
   });
+  // マジックマウス対策:
+  // マジックマウスは1スワイプで細かいdeltaYイベントを大量に連射する
+  // 対策: 最初のイベントで即発火 → 1200ms間完全ブロック（アニメーション460ms + 余裕）
   let wheelThrottle = false;
   dw.addEventListener('wheel', e => {
     e.preventDefault();
-    if (wheelThrottle) return; wheelThrottle = true;
+    if (wheelThrottle) return;
+    // deltaYが極小（慣性の残り）は無視
+    if (Math.abs(e.deltaY) < 5) return;
+    wheelThrottle = true;
     if (e.deltaY > 0) goNext(); else goPrev();
-    setTimeout(() => { wheelThrottle = false; }, 520);
+    // 1200msブロック: アニメーション完了(460ms) + マジックマウスの慣性スクロール終了を待つ
+    setTimeout(() => { wheelThrottle = false; }, 1200);
   }, { passive: false });
 
   document.getElementById('btn-prev').addEventListener('click', goPrev);
