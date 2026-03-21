@@ -1,6 +1,6 @@
 #!/usr/bin/env node
-// fetch-paintings.js  v7
-// ARTIC固定200件（全バッチ確認済み） + MET25件
+// fetch-paintings.js  v8
+// ARTIC固定200件（全バッチAPIで確認済み） + MET25件
 
 const fs = require('fs');
 const path = require('path');
@@ -31,7 +31,6 @@ const WIKI = {
   'met-437329':'https://ja.wikipedia.org/wiki/サビーニーの女たちの略奪',
   'met-436947':'https://ja.wikipedia.org/wiki/ボート遊び_(マネ)',
 };
-
 const TITLE_JA = {
   'Wheat Field with Cypresses':'小麦畑と糸杉','Irises':'アイリス','Boating':'ボート遊び',
   'A Woman Asleep':'眠る女','Young Woman with a Water Pitcher':'水差しを持つ女',
@@ -47,7 +46,6 @@ const TITLE_JA = {
   "The Child's Bath":'子供の入浴','Olympia':'オランピア','The Fifer':'笛を吹く少年',
   'Haystacks':'干し草の山','Plum Brandy':'プラム・ブランデー',
 };
-
 const ARTIST_JA = {
   'Vincent van Gogh':'フィンセント・ファン・ゴッホ','Claude Monet':'クロード・モネ',
   'Pierre-Auguste Renoir':'ピエール＝オーギュスト・ルノワール','Edgar Degas':'エドガー・ドガ',
@@ -70,107 +68,70 @@ const ARTIST_JA = {
   'Thomas Cole':'トマス・コール','Frederic Edwin Church':'フレデリック・エドウィン・チャーチ',
 };
 
-// バッチ1(p1前半)・バッチ2(p1後半)・バッチ3(p2前半)は確認済み
-// バッチ4はp2後半が使えなかったのでp3前半に差し替え
+// バッチ1〜3: page1前半〜page2前半（確認済み）
+// バッチ4: page4〜8から取得した確実に使えるID 50件
 const ARTIC_IDS = [
-  // バッチ1: page1前半 50件
+  // バッチ1 (page1 前半50件)
   22,4758,161,7988,9018,9637,9024,11723,14591,14245,
   14630,14664,16568,20530,21843,25099,24880,25108,25105,25102,
   25113,25110,25129,25117,25115,26607,26561,28096,26720,28283,
   30629,30368,30899,34231,32276,37900,36504,43244,41375,39920,
   46230,47580,47141,48121,48064,48151,50116,48164,54415,52983,
-  // バッチ2: page1後半 50件
+  // バッチ2 (page1 後半50件)
   54418,55718,54424,61910,57703,55721,62181,61921,64507,62808,
   64936,64520,68433,67428,75557,70593,79021,76890,79763,81555,
   81235,83613,84092,87088,91610,90443,92194,92195,92196,92197,
   92199,92198,94131,95654,103309,99512,113794,112100,109413,116525,
   116448,117266,117059,116873,117491,121415,121412,121408,125547,121416,
-  // バッチ3: page2前半 50件
+  // バッチ3 (page2 前半50件)
   127982,127981,127984,127983,127987,127986,127990,127989,127988,130724,
   127991,131466,130725,133852,131827,137125,137054,140604,137226,145243,
   141111,146861,145876,147604,154238,154237,158412,160197,158483,160222,
   190628,186418,190640,190629,196410,195381,200149,200003,201820,201819,
-  217155,221647,229377,228882,229950,236623,236545,229950,228882,217155,
-  // バッチ4: page3前半 50件（page2後半は使えないIDだったので差し替え）
-  242554,242557,242556,244623,244382,250820,250740,252909,253998,252910,
-  255779,254119,258232,257352,259173,260119,260118,260117,260591,260580,
-  261478,260599,261735,261734,261736,261739,261738,266874,262846,266892,
-  266891,267204,266910,269967,269966,270002,270618,270584,271969,271714,
-  272154,272045,272029,273560,152836,61724,189294,133456,133369,129323,
+  217155,221647,229377,228882,229950,236623,236545,237995,237997,237996,
+  // バッチ4 (page4〜8から確認済みID 50件)
+  229343,154496,111377,93811,93809,199002,180545,126981,198809,185162,
+  181719,74967,72801,36300,5375,119084,230193,120275,111629,61146,
+  61141,61139,52283,43774,656,239462,208143,188629,90589,86812,
+  75101,37716,148112,148111,28869,15468,12000,879,228827,223896,
+  111659,104094,104031,45356,16622,229406,229371,229363,229351,105213,
 ];
 
-const MET_DEPT_IDS = [11, 14];
+const MET_DEPT_IDS = [11,14];
 
-function fetchJson(url, ms) {
-  if (!ms) ms = 10000;
-  return new Promise(function(resolve) {
-    var t = setTimeout(function() { resolve(null); }, ms);
-    var req = https.get(url, { headers: { 'User-Agent': 'meiga-bot/7.0' } }, function(res) {
-      if (res.statusCode !== 200) { clearTimeout(t); res.resume(); resolve(null); return; }
-      var body = '';
-      res.on('data', function(d) { body += d; });
-      res.on('end', function() { clearTimeout(t); try { resolve(JSON.parse(body)); } catch(e) { resolve(null); } });
-      res.on('error', function() { clearTimeout(t); resolve(null); });
-    });
-    req.on('error', function() { clearTimeout(t); resolve(null); });
-  });
-}
+function fetchJson(url,ms){if(!ms)ms=10000;return new Promise(function(resolve){var t=setTimeout(function(){resolve(null);},ms);var req=https.get(url,{headers:{'User-Agent':'meiga-bot/8.0'}},function(res){if(res.statusCode!==200){clearTimeout(t);res.resume();resolve(null);return;}var body='';res.on('data',function(d){body+=d;});res.on('end',function(){clearTimeout(t);try{resolve(JSON.parse(body));}catch(e){resolve(null);}});res.on('error',function(){clearTimeout(t);resolve(null);});});req.on('error',function(){clearTimeout(t);resolve(null);});});}
+function sleep(ms){return new Promise(function(r){setTimeout(r,ms);});}
+function shuffle(a){return a.slice().sort(function(){return Math.random()-0.5;});}
+function jt(en){return TITLE_JA[en]||en;}
+function ja(en){if(!en)return'作者不詳';if(ARTIST_JA[en])return ARTIST_JA[en];var s=en.replace(/\s*\([^)]*\)/g,'').trim();return ARTIST_JA[s]||s||'作者不詳';}
+function cy(y){if(!y||y<=0)return'不明';if(y<=1700)return'〜17世紀';if(y<=1900)return'18〜19世紀';return'20世紀';}
+function toMET(d){if(!d||!d.isPublicDomain||!d.primaryImageSmall||!d.objectID)return null;var id='met-'+d.objectID;return{id:id,title:jt(d.title||'無題'),artist:ja(d.artistDisplayName||d.artistAlphaSort||''),year:d.objectEndDate||0,century:cy(d.objectEndDate),museum:'メトロポリタン美術館',museumUrl:'https://www.metmuseum.org/art/collection/search/'+d.objectID,image:d.primaryImageSmall,wikiUrl:WIKI[id]||null};}
+function toARTIC(d){if(!d||!d.is_public_domain||!d.image_id||!d.id)return null;var ar=(d.artist_display||'').split('\n')[0].replace(/\s*\([^)]*\)/g,'').split(',')[0].trim();var id='artic-'+d.id;return{id:id,title:jt(d.title||'無題'),artist:ja(ar),year:d.date_end||0,century:cy(d.date_end),museum:'シカゴ美術館',museumUrl:'https://www.artic.edu/artworks/'+d.id,image:'https://www.artic.edu/iiif/2/'+d.image_id+'/full/843,/0/default.jpg',wikiUrl:WIKI[id]||null};}
 
-function sleep(ms) { return new Promise(function(r) { setTimeout(r, ms); }); }
-function shuffle(a) { return a.slice().sort(function() { return Math.random() - 0.5; }); }
-function jt(en) { return TITLE_JA[en] || en; }
-function ja(en) {
-  if (!en) return '作者不詳';
-  if (ARTIST_JA[en]) return ARTIST_JA[en];
-  var s = en.replace(/\s*\([^)]*\)/g, '').trim();
-  return ARTIST_JA[s] || s || '作者不詳';
-}
-function cy(y) {
-  if (!y || y <= 0) return '不明';
-  if (y <= 1700) return '〜17世紀';
-  if (y <= 1900) return '18〜19世紀';
-  return '20世紀';
-}
-function toMET(d) {
-  if (!d || !d.isPublicDomain || !d.primaryImageSmall || !d.objectID) return null;
-  var id = 'met-' + d.objectID;
-  return { id: id, title: jt(d.title || '無題'), artist: ja(d.artistDisplayName || d.artistAlphaSort || ''), year: d.objectEndDate || 0, century: cy(d.objectEndDate), museum: 'メトロポリタン美術館', museumUrl: 'https://www.metmuseum.org/art/collection/search/' + d.objectID, image: d.primaryImageSmall, wikiUrl: WIKI[id] || null };
-}
-function toARTIC(d) {
-  if (!d || !d.is_public_domain || !d.image_id || !d.id) return null;
-  var ar = (d.artist_display || '').split('\n')[0].replace(/\s*\([^)]*\)/g, '').split(',')[0].trim();
-  var id = 'artic-' + d.id;
-  return { id: id, title: jt(d.title || '無題'), artist: ja(ar), year: d.date_end || 0, century: cy(d.date_end), museum: 'シカゴ美術館', museumUrl: 'https://www.artic.edu/artworks/' + d.id, image: 'https://www.artic.edu/iiif/2/' + d.image_id + '/full/843,/0/default.jpg', wikiUrl: WIKI[id] || null };
-}
-
-async function main() {
-  console.log('=== fetch-paintings.js v7 ===');
-  var flds = 'id,title,artist_display,date_end,image_id,is_public_domain';
-  var artic = [];
-
-  for (var a = 0; a < ARTIC_IDS.length; a += 50) {
-    var ids = [...new Set(ARTIC_IDS.slice(a, a + 50))]; // 重複除去
-    var r = await fetchJson(ARTIC + '/artworks?ids=' + ids.join(',') + '&fields=' + flds + '&limit=50', 15000);
-    var v = ((r && r.data) || []).map(toARTIC).filter(Boolean);
-    artic = artic.concat(v);
-    console.log('[ARTIC] バッチ' + (Math.floor(a / 50) + 1) + ': ' + v.length + '件 累計:' + artic.length);
+async function main(){
+  console.log('=== fetch-paintings.js v8 ===');
+  var flds='id,title,artist_display,date_end,image_id,is_public_domain';
+  var artic=[];
+  for(var a=0;a<ARTIC_IDS.length;a+=50){
+    var ids=[...new Set(ARTIC_IDS.slice(a,a+50))];
+    var r=await fetchJson(ARTIC+'/artworks?ids='+ids.join(',')+'&fields='+flds+'&limit=50',15000);
+    var v=((r&&r.data)||[]).map(toARTIC).filter(Boolean);
+    artic=artic.concat(v);
+    console.log('[ARTIC] バッチ'+(Math.floor(a/50)+1)+': '+v.length+'件 累計:'+artic.length);
   }
-
-  var dr = await Promise.all(MET_DEPT_IDS.map(function(id) { return fetchJson(MET + '/objects?departmentIds=' + id, 30000); }));
-  var mids = Array.from(new Set(dr.reduce(function(acc, r) { return acc.concat((r && r.objectIDs) || []); }, [])));
-  var picked = shuffle(mids).slice(0, 25);
-  var mr = await Promise.all(picked.map(function(id) { return fetchJson(MET + '/objects/' + id, 8000); }));
-  var met = mr.map(toMET).filter(Boolean);
-  console.log('[MET] ' + met.length + '件');
-
-  var seen = new Set();
-  var all = artic.concat(met).filter(function(p) { if (seen.has(p.id)) return false; seen.add(p.id); return true; });
-  console.log('=== 合計: ' + all.length + '件 ===');
-
-  var od = path.join(__dirname, '..', 'public');
-  if (!fs.existsSync(od)) fs.mkdirSync(od, { recursive: true });
-  var op = path.join(od, 'paintings.json');
-  fs.writeFileSync(op, JSON.stringify({ generated: new Date().toISOString(), total: all.length, sources: { artic: artic.length, met: met.length }, paintings: all }, null, 2), 'utf8');
-  console.log('OK ' + op + ' (' + (fs.statSync(op).size / 1024).toFixed(1) + ' KB)');
+  var dr=await Promise.all(MET_DEPT_IDS.map(function(id){return fetchJson(MET+'/objects?departmentIds='+id,30000);}));
+  var mids=Array.from(new Set(dr.reduce(function(acc,r){return acc.concat((r&&r.objectIDs)||[]);},[])));
+  var picked=shuffle(mids).slice(0,25);
+  var mr=await Promise.all(picked.map(function(id){return fetchJson(MET+'/objects/'+id,8000);}));
+  var met=mr.map(toMET).filter(Boolean);
+  console.log('[MET] '+met.length+'件');
+  var seen=new Set();
+  var all=artic.concat(met).filter(function(p){if(seen.has(p.id))return false;seen.add(p.id);return true;});
+  console.log('=== 合計: '+all.length+'件 ===');
+  var od=path.join(__dirname,'..','public');
+  if(!fs.existsSync(od))fs.mkdirSync(od,{recursive:true});
+  var op=path.join(od,'paintings.json');
+  fs.writeFileSync(op,JSON.stringify({generated:new Date().toISOString(),total:all.length,sources:{artic:artic.length,met:met.length},paintings:all},null,2),'utf8');
+  console.log('OK '+op+' ('+(fs.statSync(op).size/1024).toFixed(1)+' KB)');
 }
-main().catch(function(e) { console.error(e); process.exit(1); });
+main().catch(function(e){console.error(e);process.exit(1);});
