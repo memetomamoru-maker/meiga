@@ -161,7 +161,7 @@ const ARTIST_JA = {
   'Lawrence Alma-Tadema': 'ローレンス・アルマ＝タデマ',
 };
 
-const ARTIC_IDS = [
+const ARTIC_IDS = 
   27992, 28560, 16568, 16571, 20684, 64818,
   14655, 111436, 61128, 111442, 14556, 45243,
   90903, 6565, 80607, 44018, 76571, 16564, 14591,
@@ -278,7 +278,7 @@ async function main() {
   var pickedIds = shuffle(allMetIds).slice(0, ATTEMPT);
   console.log('[MET] ' + pickedIds.length + '件を個別取得 (目標: ' + TARGET + '件)...');
 
-  var BATCH = 50;
+  var BATCH = 25;
   var metPaintings = [];
   for (var i = 0; i < pickedIds.length; i += BATCH) {
     if (metPaintings.length >= TARGET) {
@@ -294,7 +294,7 @@ async function main() {
     var batchNum = Math.floor(i / BATCH) + 1;
     var totalBatches = Math.ceil(ATTEMPT / BATCH);
     console.log('  バッチ ' + batchNum + '/' + totalBatches + ': ' + valid.length + '/' + batch.length + '件 (累計: ' + metPaintings.length + ')');
-    if (i + BATCH < pickedIds.length && metPaintings.length < TARGET) await sleep(200);
+    if (i + BATCH < pickedIds.length && metPaintings.length < TARGET) await sleep(1000);
   }
   console.log('[MET] 成功: ' + metPaintings.length + '件');
 
