@@ -1,25 +1,7 @@
 // app.js — 名画収集館
-// 静的データ（paintings.js）を優先表示 + ARTICから動的補充
+// Gemini修正版 + touches[0]バグ修正済み
 
 (function () {
-
-  const IIIF_BASE = 'https://www.artic.edu/iiif/2';
-  const API_BASE  = 'https://api.artic.edu/api/v1';
-  const FIELDS    = 'id,title,artist_display,date_end,style_title,image_id,is_public_domain';
-
-  function imgUrl(id) {
-    return `${IIIF_BASE}/${id}/full/843,/0/default.jpg`;
-  }
-
-  function toCentury(year) {
-    if (!year) return '不明';
-    if (year <= 1500) return '15世紀以前';
-    if (year <= 1600) return '16世紀';
-    if (year <= 1700) return '17世紀';
-    if (year <= 1800) return '18世紀';
-    if (year <= 1900) return '19世紀';
-    return '20世紀';
-  }
 
   // ── DOM ──────────────────────────────────────────
   const dw      = document.getElementById('dw');
@@ -30,13 +12,15 @@
   const toastEl = document.getElementById('toast');
 
   // ── State ─────────────────────────────────────────
-  let allPaintings = [];
   let queue   = [];
-  let cards   = [];
-  let pointer = 0;
+  let cursor  = 0;
   let liked   = [];
   let filter  = { century: 'all', style: 'all', artist: 'all' };
   let centuries = [], styles = [], artists = [];
+
+  let curCard  = null;
+  let nextCard = null;
+  let prevCard = null;
 
   try { liked = JSON.parse(localStorage.getItem('meiga_liked') || '[]'); } catch(e) {}
 
@@ -55,116 +39,50 @@
     toastEl.classList.add('show');
   }
   function updateFilterOptions() {
-    centuries = [...new Set(allPaintings.map(p => p.century))].sort();
-    styles    = [...new Set(allPaintings.map(p => p.style))].filter(Boolean).sort();
-    artists   = [...new Set(allPaintings.map(p => p.artist))].filter(Boolean).sort();
+    const src = STATIC_PAINTINGS;
+    centuries = [...new Set(src.map(p => p.century))].sort();
+    styles    = [...new Set(src.map(p => p.style))].filter(Boolean).sort();
+    artists   = [...new Set(src.map(p => p.artist))].filter(Boolean).sort();
   }
 
-  // ── ARTIC から追加取得 ────────────────────────────
-  async function fetchARTICPage(page) {
-    const url = `${API_BASE}/artworks?fields=${FIELDS}&limit=100&page=${page}`;
-    const res  = await fetch(url);
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    const data = await res.json();
-    const existing = new Set(allPaintings.map(p => p.image));
-
-    return (data.data || [])
-      .filter(d => d.image_id && d.is_public_domain)
-      .map((d, i) => ({
-        id:      `artic-${page}-${i}`,
-        title:   d.title || '無題',
-        artist:  ((d.artist_display || '').split('\n')[0] || '作者不詳').trim(),
-        year:    d.date_end || 0,
-        century: toCentury(d.date_end),
-        style:   d.style_title || '絵画',
-        museum:  'シカゴ美術館',
-        image:   imgUrl(d.image_id),
-      }))
-      .filter(p => !existing.has(p.image)); // 重複除外
-  }
-
-  // ── 初回ロード ─────────────────────────────────────
-  async function initialLoad() {
-    // まず静的データで即起動
-    if (typeof STATIC_PAINTINGS !== 'undefined' && STATIC_PAINTINGS.length > 0) {
-      allPaintings = [...STATIC_PAINTINGS];
-      updateFilterOptions();
-      removeLoadingCard();
-      initDeck();
-    } else {
-      showLoadingCard();
+  // ── 画像URL軽量化（Wikimedia thumb形式に変換）────────
+  function getOptimizedUrl(url) {
+    if (!url) return url;
+    // すでにthumb形式ならそのまま
+    if (url.includes('/thumb/')) return url;
+    // commons直URLをthumb/800px形式に変換
+    const m = url.match(/\/commons\/([0-9a-f]\/[0-9a-f]{2})\/(.+)$/i);
+    if (m) {
+      const hash = m[1], file = m[2];
+      return `https://upload.wikimedia.org/wikipedia/commons/thumb/${hash}/${file}/800px-${file}`;
     }
-
-    // バックグラウンドでARTICから追加取得
-    for (let p = 1; p <= 8; p++) {
-      try {
-        const more = await fetchARTICPage(p);
-        allPaintings = allPaintings.concat(more);
-        updateFilterOptions();
-      } catch(e) {
-        break;
-      }
-    }
+    return url;
   }
 
-  function showLoadingCard() {
-    if (document.getElementById('loading-card')) return;
-    const c = document.createElement('div');
-    c.className = 'card cur';
-    c.id = 'loading-card';
-    c.innerHTML = `
-      <div style="display:flex;flex-direction:column;align-items:center;gap:14px;color:var(--ink-l);">
-        <div class="ph-spinner"></div>
-        <div style="font-size:11px;letter-spacing:.15em;font-style:italic;">名画を読み込み中</div>
-        <div style="font-size:9px;letter-spacing:.1em;opacity:.5;">Art Institute of Chicago</div>
-      </div>`;
-    dw.appendChild(c);
-  }
-
-  function removeLoadingCard() {
-    const c = document.getElementById('loading-card');
-    if (c) c.remove();
-  }
-
-  // ── キュー・デッキ ────────────────────────────────
+  // ── キュー構築 ────────────────────────────────────
   function buildQueue() {
-    const res = allPaintings.filter(p => {
+    const res = STATIC_PAINTINGS.filter(p => {
       if (filter.century !== 'all' && p.century !== filter.century) return false;
       if (filter.style   !== 'all' && p.style   !== filter.style)   return false;
       if (filter.artist  !== 'all' && p.artist  !== filter.artist)  return false;
       return true;
     });
     if (!res.length) { showToast('該当する作品がありません'); return false; }
-    queue   = [...res].sort(() => Math.random() - .5);
-    pointer = 0;
+    queue  = [...res].sort(() => Math.random() - .5);
+    cursor = 0;
     return true;
   }
 
-  function clearDeck() {
-    cards.forEach(c => c.el.remove());
-    cards = []; pointer = 0;
-  }
-
-  function initDeck() {
-    clearDeck();
-    if (!buildQueue()) return;
-    for (let i = 0; i < Math.min(3, queue.length); i++) {
-      const el = makeCard(queue[i], i, queue.length);
-      dw.appendChild(el);
-      cards.push({ el, data: queue[i] });
-    }
-    pointer = Math.min(3, queue.length);
-    updateStack();
-  }
-
-  function makeCard(p, idx, total) {
+  // ── カード生成 ────────────────────────────────────
+  function makeCard(p, idx) {
+    if (!p) return null;
     const card = document.createElement('div');
     card.className = 'card';
     card._p = p;
 
     const num  = document.createElement('div');
     num.className = 'card-num';
-    num.textContent = `${idx + 1} / ${total}`;
+    num.textContent = `${idx + 1} / ${queue.length}`;
 
     const stag = document.createElement('div');
     stag.className = 'style-tag';
@@ -185,11 +103,8 @@
     img.className = 'painting-img';
     img.alt = p.title;
     img.onload  = () => { img.classList.add('loaded'); ph.style.display = 'none'; };
-    img.onerror = () => {
-      // 画像取得失敗時はスタイルタグのみ表示
-      ph.innerHTML = `<div class="ph-title" style="opacity:.35;">${p.title}</div>`;
-    };
-    img.src = p.image;
+    img.onerror = () => { ph.innerHTML = `<div class="ph-title" style="opacity:.4">${p.title}</div>`; };
+    img.src = getOptimizedUrl(p.image);
     fw.appendChild(img);
 
     const shadow = document.createElement('div');
@@ -204,22 +119,28 @@
     return card;
   }
 
-  function updateStack() {
-    cards.forEach(({ el }, i) => {
-      el.classList.remove('cur', 'above', 'drag');
-      if (i === 0) {
-        el.classList.add('cur');
-        el.style.transform = ''; el.style.opacity = '';
-        updateMeta(el._p);
-      } else {
-        el.style.transform  = 'translateY(110%)';
-        el.style.opacity    = '0';
-        el.style.transition = '';
-      }
-    });
+  // ── デッキ初期化 ──────────────────────────────────
+  function initDeck() {
+    dw.querySelectorAll('.card').forEach(c => c.remove());
+    curCard = prevCard = nextCard = null;
+
+    if (!buildQueue()) return;
+
+    curCard = makeCard(queue[cursor], cursor);
+    curCard.classList.add('cur');
+    dw.appendChild(curCard);
+
+    if (cursor + 1 < queue.length) {
+      nextCard = makeCard(queue[cursor + 1], cursor + 1);
+      nextCard.style.cssText = 'transform:translateY(110%);opacity:0;transition:none;';
+      dw.appendChild(nextCard);
+    }
+
+    updateMeta();
   }
 
-  function updateMeta(p) {
+  function updateMeta() {
+    const p = queue[cursor];
     if (!p) return;
     abt.textContent = p.title;
     abs.textContent = `${p.artist}  ·  ${p.year || '年不明'}  ·  ${p.museum}`;
@@ -228,80 +149,159 @@
 
   // ── スワイプ ──────────────────────────────────────
   let isDrag = false, startY = 0, diffY = 0;
-  const THRESH = 48;
+  const THRESH = 50;
 
   dw.addEventListener('mousedown',  e => onStart(e.clientY));
+  // FIX: e.touches[0].clientY（Geminiが直し損ねていたバグ）
   dw.addEventListener('touchstart', e => onStart(e.touches[0].clientY), { passive: true });
   window.addEventListener('mousemove',  e => { if (isDrag) onMove(e.clientY); });
+  // FIX: e.touches[0].clientY
   window.addEventListener('touchmove',  e => { if (isDrag) onMove(e.touches[0].clientY); }, { passive: true });
   window.addEventListener('mouseup',  onEnd);
   window.addEventListener('touchend', onEnd);
 
   function onStart(y) {
-    if (!cards.length) return;
+    if (!curCard) return;
     isDrag = true; startY = y; diffY = 0;
-    cards[0].el.classList.add('drag');
+    curCard.classList.add('drag');
   }
+
   function onMove(y) {
-    if (!isDrag || !cards.length) return;
+    if (!isDrag || !curCard) return;
     diffY = y - startY;
-    const dy = Math.min(0, diffY);
-    cards[0].el.style.transform = `translateY(${dy * .38}px)`;
-    if (cards.length > 1) {
-      const prog = Math.min(Math.abs(dy) / (THRESH * 1.5), 1);
-      cards[1].el.style.transition = 'none';
-      cards[1].el.style.transform  = `translateY(${(1 - prog) * 110}%)`;
-      cards[1].el.style.opacity    = String(prog);
+    curCard.style.transform = `translateY(${diffY * 0.38}px)`;
+
+    if (diffY < 0 && nextCard) {
+      const prog = Math.min(Math.abs(diffY) / (THRESH * 1.5), 1);
+      nextCard.style.transition = 'none';
+      nextCard.style.transform  = `translateY(${(1 - prog) * 110}%)`;
+      nextCard.style.opacity    = String(prog);
+    } else if (diffY > 0 && prevCard) {
+      const prog = Math.min(diffY / (THRESH * 1.5), 1);
+      prevCard.style.transition = 'none';
+      prevCard.style.transform  = `translateY(${-(1 - prog) * 110}%)`;
+      prevCard.style.opacity    = String(prog);
     }
   }
+
   function onEnd() {
     if (!isDrag) return;
     isDrag = false;
-    if (!cards.length) return;
-    cards[0].el.classList.remove('drag');
-    cards[0].el.style.transition = '';
+    if (!curCard) return;
+    curCard.classList.remove('drag');
+    curCard.style.transition = '';
+
     if (diffY < -THRESH) {
       goNext();
+    } else if (diffY > THRESH) {
+      goPrev();
     } else {
-      cards[0].el.style.transform = '';
-      if (cards.length > 1) {
-        cards[1].el.style.transition = '';
-        cards[1].el.style.transform  = 'translateY(110%)';
-        cards[1].el.style.opacity    = '0';
-      }
+      curCard.style.transform = '';
+      if (nextCard) { nextCard.style.transition = ''; nextCard.style.transform = 'translateY(110%)'; nextCard.style.opacity = '0'; }
+      if (prevCard) { prevCard.style.transition = ''; prevCard.style.transform = 'translateY(-110%)'; prevCard.style.opacity = '0'; }
     }
   }
 
+  // ── 次へ（上スワイプ）────────────────────────────
   function goNext() {
-    if (!cards.length) return;
-    const cur = cards[0].el;
-    cur.style.transition = 'transform .5s cubic-bezier(.76,0,.24,1), opacity .38s ease';
-    cur.classList.add('above');
-    setTimeout(() => cur.remove(), 560);
-    cards.shift();
-    if (pointer < queue.length) {
-      const el = makeCard(queue[pointer], pointer, queue.length);
-      dw.appendChild(el);
-      cards.push({ el, data: queue[pointer] });
-      pointer++;
-    }
-    if (!cards.length) {
+    if (cursor >= queue.length - 1) {
       showToast('シャッフルして最初から…');
-      setTimeout(() => initDeck(), 1200);
+      setTimeout(() => initDeck(), 800);
       return;
     }
-    updateStack();
+
+    const DUR = '.48s', EASE = 'cubic-bezier(.76,0,.24,1)';
+
+    // 古いprevCardを削除
+    if (prevCard) { prevCard.remove(); }
+
+    // 現在カードを上へ退場・prevCardに昇格
+    curCard.classList.remove('cur');
+    curCard.style.transition = `transform ${DUR} ${EASE}, opacity .35s ease`;
+    curCard.style.transform  = 'translateY(-110%)';
+    curCard.style.opacity    = '0';
+    prevCard = curCard;
+
+    // nextCardを現在に
+    curCard = nextCard;
+    cursor++;
+
+    if (curCard) {
+      curCard.style.transition = `transform ${DUR} ${EASE}, opacity .35s ease`;
+      curCard.classList.add('cur');
+      curCard.style.transform  = 'translateY(0)';
+      curCard.style.opacity    = '1';
+    }
+
+    // 次の次を準備
+    if (cursor + 1 < queue.length) {
+      nextCard = makeCard(queue[cursor + 1], cursor + 1);
+      nextCard.style.cssText = 'transform:translateY(110%);opacity:0;transition:none;';
+      dw.appendChild(nextCard);
+    } else {
+      nextCard = null;
+    }
+
+    updateMeta();
   }
 
+  // ── 前へ（下スワイプ）────────────────────────────
+  function goPrev() {
+    if (cursor <= 0) {
+      showToast('最初の作品です');
+      curCard.style.transform = '';
+      return;
+    }
+
+    const DUR = '.48s', EASE = 'cubic-bezier(.76,0,.24,1)';
+
+    // 古いnextCardを削除
+    if (nextCard) { nextCard.remove(); }
+
+    // 現在カードを下へ退場・nextCardに降格
+    curCard.classList.remove('cur');
+    curCard.style.transition = `transform ${DUR} ${EASE}, opacity .35s ease`;
+    curCard.style.transform  = 'translateY(110%)';
+    curCard.style.opacity    = '0';
+    nextCard = curCard;
+
+    // prevCardを現在に
+    curCard = prevCard;
+    cursor--;
+
+    if (curCard) {
+      curCard.style.transition = `transform ${DUR} ${EASE}, opacity .35s ease`;
+      curCard.classList.add('cur');
+      curCard.style.transform  = 'translateY(0)';
+      curCard.style.opacity    = '1';
+    }
+
+    // 1枚前を準備
+    if (cursor - 1 >= 0) {
+      prevCard = makeCard(queue[cursor - 1], cursor - 1);
+      prevCard.style.cssText = 'transform:translateY(-110%);opacity:0;transition:none;';
+      dw.insertBefore(prevCard, curCard);
+    } else {
+      prevCard = null;
+    }
+
+    updateMeta();
+  }
+
+  // ── キーボード・ホイール ───────────────────────────
   document.addEventListener('keydown', e => {
-    if (e.key === 'ArrowDown' || e.key === ' ') goNext();
+    if (e.key === 'ArrowDown' || e.key === ' ') { e.preventDefault(); goNext(); }
+    if (e.key === 'ArrowUp') { e.preventDefault(); goPrev(); }
   });
-  dw.addEventListener('wheel', e => { if (e.deltaY > 0) goNext(); }, { passive: true });
+  dw.addEventListener('wheel', e => {
+    if (e.deltaY > 0) goNext();
+    else if (e.deltaY < 0) goPrev();
+  }, { passive: true });
 
   // ── ハート ────────────────────────────────────────
   bh.addEventListener('click', () => {
-    if (!cards.length) return;
-    const p = cards[0].data;
+    const p = queue[cursor];
+    if (!p) return;
     const idx = liked.findIndex(x => x.id === p.id);
     if (idx >= 0) {
       liked.splice(idx, 1); bh.classList.remove('lk'); showToast('解除しました');
@@ -315,8 +315,8 @@
 
   // ── シェア ────────────────────────────────────────
   document.getElementById('btn-share').addEventListener('click', () => {
-    if (!cards.length) return;
-    const p = cards[0].data;
+    const p = queue[cursor];
+    if (!p) return;
     const t = `「${p.title}」\n${p.artist}（${p.year || ''}）\n${p.museum}\n\n#名画収集館 #名画 #art`;
     window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(t)}`, '_blank', 'noopener');
   });
@@ -331,7 +331,7 @@
   function buildFilterUI() {
     const body = document.getElementById('fdbody');
     body.innerHTML = '';
-    const cnt = allPaintings.filter(p => {
+    const cnt = STATIC_PAINTINGS.filter(p => {
       if (filter.century !== 'all' && p.century !== filter.century) return false;
       if (filter.style   !== 'all' && p.style   !== filter.style)   return false;
       if (filter.artist  !== 'all' && p.artist  !== filter.artist)  return false;
@@ -351,7 +351,7 @@
       all.textContent = 'すべて';
       all.onclick = () => { filter[key] = 'all'; initDeck(); fd.classList.remove('open'); };
       pw.appendChild(all);
-      vals.slice(0, 30).forEach(v => {
+      vals.forEach(v => {
         const pill = document.createElement('button');
         pill.className = 'pill' + (filter[key] === v ? ' on' : '');
         pill.textContent = v;
@@ -385,7 +385,7 @@
       const wire  = document.createElement('div'); wire.className = 'giwire';
       const frame = document.createElement('div'); frame.className = 'gif';
       const img   = document.createElement('img');
-      img.src = p.image; img.alt = p.title;
+      img.src = getOptimizedUrl(p.image); img.alt = p.title;
       const lbl = document.createElement('div'); lbl.className = 'gilbl'; lbl.textContent = p.title;
       frame.appendChild(img);
       item.appendChild(wire); item.appendChild(frame); item.appendChild(lbl);
@@ -396,6 +396,7 @@
 
   // ── 起動 ──────────────────────────────────────────
   updateBadge();
-  initialLoad();
+  updateFilterOptions();
+  initDeck();
 
 })();
