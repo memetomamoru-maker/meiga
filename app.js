@@ -45,16 +45,18 @@
     artists   = [...new Set(src.map(p => p.artist))].filter(Boolean).sort();
   }
 
-  // ── 画像URL軽量化（Wikimedia thumb形式に変換）────────
+  // ── 画像URL（Special:Redirect形式はそのまま、古い直URLは変換）──
   function getOptimizedUrl(url) {
     if (!url) return url;
-    // すでにthumb形式ならそのまま
-    if (url.includes('/thumb/')) return url;
-    // commons直URLをthumb/800px形式に変換
-    const m = url.match(/\/commons\/([0-9a-f]\/[0-9a-f]{2})\/(.+)$/i);
+    // Special:Redirect形式はそのままOK
+    if (url.includes('Special:Redirect')) return url;
+    // ARTICのURLはそのまま
+    if (url.includes('artic.edu')) return url;
+    // 古いupload.wikimedia直URLをSpecial:Redirect形式に変換
+    const m = url.match(/\/commons(?:\/thumb)?\/[0-9a-f]\/[0-9a-f]{2}\/(.+?)(?:\/\d+px-.+)?$/i);
     if (m) {
-      const hash = m[1], file = m[2];
-      return `https://upload.wikimedia.org/wikipedia/commons/thumb/${hash}/${file}/800px-${file}`;
+      const file = m[1];
+      return `https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/${file}&width=800`;
     }
     return url;
   }

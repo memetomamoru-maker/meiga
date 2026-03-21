@@ -4,7 +4,7 @@
 
 const IIIF = 'https://www.artic.edu/iiif/2';
 const artic = (id) => `${IIIF}/${id}/full/843,/0/default.jpg`;
-const wiki  = (path) => `https://upload.wikimedia.org/wikipedia/commons/${path}`;
+const wiki  = (path) => { const f = path.split('/').pop(); return `https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/${f}&width=800`; };
 
 const STATIC_PAINTINGS = [
 
