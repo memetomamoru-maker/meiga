@@ -274,7 +274,9 @@
   function onStart(y) {
     if (!curCard || isAnimating) return;
     isDrag = true; startY = y; diffY = 0; startTime = Date.now();
+    // transitionをnoneにする前に現在位置を取得（途中キャンセル対応）
     curCard.style.transition = 'none';
+    curCard.style.transform  = 'translateY(0)';
   }
   function onMove(y) {
     if (!isDrag || !curCard) return;
@@ -293,21 +295,37 @@
     }
   }
   function onEnd() {
-    if (!isDrag) return; isDrag = false; if (!curCard) return;
-    const elapsed = Date.now() - startTime;
+    if (!isDrag) return;
+    isDrag = false;
+    if (!curCard) return;
+    const elapsed = Math.max(1, Date.now() - startTime);
     const velocity = Math.abs(diffY) / elapsed; // px/ms
-    // 速度閾値でも判定（高速スワイプ対応 + 遅い誤操作防止）
-    const isSwipe = Math.abs(diffY) > THRESH || (velocity > 0.5 && Math.abs(diffY) > 20);
     if      (diffY < -THRESH || (diffY < -20 && velocity > 0.5)) goNext();
     else if (diffY >  THRESH || (diffY >  20 && velocity > 0.5)) goPrev();
-    else snapBack();
+    else {
+      isAnimating = true; // snapBack中は入力をブロック
+      snapBack();
+    }
   }
   function snapBack() {
     if (!curCard) return;
-    curCard.style.transition = 'transform 0.28s cubic-bezier(.34,1.56,.64,1)';
+    // curCardをスプリングで元の位置に戻す
+    curCard.style.transition = 'transform 0.32s cubic-bezier(.34,1.56,.64,1)';
     curCard.style.transform  = 'translateY(0)';
-    if (nextCard) { nextCard.style.transition = 'transform 0.28s ease,opacity 0.28s ease'; nextCard.style.transform = 'translateY(110%)'; nextCard.style.opacity = '0'; }
-    if (prevCard) { prevCard.style.transition = 'transform 0.28s ease,opacity 0.28s ease'; prevCard.style.transform = 'translateY(-110%)'; prevCard.style.opacity = '0'; }
+    curCard.style.opacity    = '1';
+    // next/prevを完全に画面外に戻す（中途半端な位置に残さない）
+    if (nextCard) {
+      nextCard.style.transition = 'transform 0.28s ease, opacity 0.28s ease';
+      nextCard.style.transform  = 'translateY(110%)';
+      nextCard.style.opacity    = '0';
+    }
+    if (prevCard) {
+      prevCard.style.transition = 'transform 0.28s ease, opacity 0.28s ease';
+      prevCard.style.transform  = 'translateY(-110%)';
+      prevCard.style.opacity    = '0';
+    }
+    // アニメーション完了後にisAnimatingをfalseに（重要）
+    setTimeout(() => { isAnimating = false; }, 350);
   }
 
   const DUR = '0.42s', EASE = 'cubic-bezier(.55,0,.1,1)';
