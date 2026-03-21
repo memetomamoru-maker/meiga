@@ -282,7 +282,7 @@
 
   // ── スワイプ ─────────────────────────────────────────────
   let isDrag = false, startY = 0, diffY = 0, startTime = 0;
-  const THRESH = 55, RESIST = 0.42;
+  const THRESH = 50, RESIST = 0.58; // 閾値を少し下げて反応よく、抵抗を上げて指に追従
 
   dw.addEventListener('mousedown', e => { e.preventDefault(); onStart(e.clientY); });
   dw.addEventListener('touchstart', e => onStart(e.touches[0].clientY), { passive: true });
@@ -307,12 +307,12 @@
       const prog = Math.min(Math.abs(diffY) / (THRESH * 1.8), 1);
       nextCard.style.transition = 'none';
       nextCard.style.transform  = `translateY(${(1 - prog) * 110}%)`;
-      nextCard.style.opacity    = String(prog * 0.9);
+      nextCard.style.opacity    = String(Math.min(prog * 1.1, 0.98)); // より早く見える
     } else if (diffY > 0 && prevCard) {
       const prog = Math.min(diffY / (THRESH * 1.8), 1);
       prevCard.style.transition = 'none';
       prevCard.style.transform  = `translateY(${-(1 - prog) * 110}%)`;
-      prevCard.style.opacity    = String(prog * 0.9);
+      prevCard.style.opacity    = String(Math.min(prog * 1.1, 0.98));
     }
   }
   function onEnd() {
@@ -331,7 +331,7 @@
   function snapBack() {
     if (!curCard) return;
     // curCardをスプリングで元の位置に戻す
-    curCard.style.transition = 'transform 0.32s cubic-bezier(.34,1.56,.64,1)';
+    curCard.style.transition = 'transform 0.5s cubic-bezier(.34,1.4,.64,1)'; // より自然なバウンスバック
     curCard.style.transform  = 'translateY(0)';
     curCard.style.opacity    = '1';
     // next/prevを完全に画面外に戻す（中途半端な位置に残さない）
@@ -346,10 +346,11 @@
       prevCard.style.opacity    = '0';
     }
     // アニメーション完了後にisAnimatingをfalseに（重要）
-    setTimeout(() => { isAnimating = false; }, 350);
+    setTimeout(() => { isAnimating = false; }, 520);
   }
 
-  const DUR = '0.42s', EASE = 'cubic-bezier(.55,0,.1,1)';
+  // スワイプアニメーション: ゆっくり優雅に（美術館体験らしく）
+  const DUR = '0.62s', EASE = 'cubic-bezier(.16,1,.3,1)'; // expo-out: 素早く動き出しゆっくり止まる
 
   function goNext() {
     if (!curCard || isAnimating) return;
@@ -366,7 +367,7 @@
       dw.appendChild(nextCard);
     } else { nextCard = null; }
     updateMeta(); updateNavButtons();
-    setTimeout(() => { isAnimating = false; }, 460);
+    setTimeout(() => { isAnimating = false; }, 640);
   }
 
   function goPrev() {
@@ -384,7 +385,7 @@
       dw.insertBefore(prevCard, curCard);
     } else { prevCard = null; }
     updateMeta(); updateNavButtons();
-    setTimeout(() => { isAnimating = false; }, 460);
+    setTimeout(() => { isAnimating = false; }, 640);
   }
 
   // ── キーボード・ホイール ──────────────────────────────────
