@@ -258,12 +258,7 @@
     bh.classList.toggle('lk', liked.some(x => x.id === p.id));
   }
 
-  function updateNavButtons() {
-    const bp = document.getElementById('btn-prev');
-    const bn = document.getElementById('btn-next');
-    if (bp) bp.style.opacity = cursor <= 0 ? '0.3' : '1';
-    if (bn) bn.style.opacity = cursor >= queue.length - 1 ? '0.3' : '1';
-  }
+  function updateNavButtons() {} // nav-btn非表示のため空
 
   // ── スワイプ ─────────────────────────────────────────────
   let isDrag = false, startY = 0, diffY = 0, startTime = 0;
@@ -394,8 +389,7 @@
     setTimeout(() => { wheelThrottle = false; }, 1200);
   }, { passive: false });
 
-  document.getElementById('btn-prev').addEventListener('click', goPrev);
-  document.getElementById('btn-next').addEventListener('click', goNext);
+  // btn-prev/btn-next は非表示のため不要（キーボード・ホイール・スワイプで操作）
 
   // ── ハート ───────────────────────────────────────────────
   bh.addEventListener('click', () => {
