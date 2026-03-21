@@ -493,20 +493,19 @@
       const wire  = document.createElement('div'); wire.className = 'giwire';
       const frame = document.createElement('div'); frame.className = 'gif';
 
+      // gif-innerでimgを包む（z-index管理のため）
+      const inner = document.createElement('div'); inner.className = 'gif-inner';
       const img = document.createElement('img');
       img.alt = p.title; img.loading = 'lazy';
-      // ギャラリーで画像が出ない問題：img.srcを明示的にセット
-      img.src = '';
+      img.src = p.image;  // 直接セット（遅延不要）
       img.addEventListener('error', () => {
-        // エラー時はプレースホルダー
         img.style.display = 'none';
         const ph2 = document.createElement('div');
-        ph2.style.cssText = 'position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:9px;color:var(--ink-l);padding:4px;text-align:center;font-style:italic;';
+        ph2.style.cssText = 'width:100%;height:100%;display:flex;align-items:center;justify-content:center;font-size:9px;color:var(--ink-l);padding:4px;text-align:center;font-style:italic;background:var(--parchment);';
         ph2.textContent = p.title;
-        frame.appendChild(ph2);
+        inner.appendChild(ph2);
       });
-      // 少し遅延させてsrcをセット（キャッシュ問題回避）
-      requestAnimationFrame(() => { img.src = p.image; });
+      inner.appendChild(img);
 
       const del = document.createElement('button'); del.className = 'gi-del'; del.innerHTML = '×'; del.title = '削除';
       del.onclick = e => {
@@ -530,7 +529,7 @@
         });
       }
 
-      frame.appendChild(img); frame.appendChild(del);
+      frame.appendChild(inner); frame.appendChild(del);
       item.appendChild(wire); item.appendChild(frame); item.appendChild(lbl); item.appendChild(sub);
       grid.appendChild(item);
     });
