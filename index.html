@@ -465,24 +465,25 @@ body{font-family:'Cormorant Garamond','Noto Serif JP',Georgia,serif}
   background-color:rgba(26,16,6,.96);
   padding:20px 14px 36px;
 }
-#gg{display:grid;grid-template-columns:repeat(2,1fr);gap:20px 16px;width:100%}
+#gg{display:grid;grid-template-columns:repeat(2,1fr);gap:36px 8px;width:100%}
 /* PC幅では3列に */
 @media(min-width:480px){
-  #gg{grid-template-columns:repeat(3,1fr);gap:16px 12px;}
+  #gg{grid-template-columns:repeat(3,1fr);gap:32px 8px;}
 }
 .gi{
-  position:relative;display:flex;flex-direction:column;align-items:center;gap:5px;
+  position:relative;display:flex;flex-direction:column;align-items:center;gap:6px;
   animation:giIn .3s var(--spring) backwards;
   cursor:pointer;
-  /* ラベルのスペースを確保 */
-  padding-bottom:2px;
+  /* 額縁のはみ出し(9px)を左右で吸収 */
+  padding:0 10px 4px;
 }
 @keyframes giIn{from{opacity:0;transform:scale(.88) translateY(10px)}to{opacity:1;transform:scale(1) translateY(0)}}
 .giwire{width:40px;height:14px;border-top:1px solid rgba(200,160,80,.3);border-radius:50% 50% 0 0 / 100% 100% 0 0}
 .gif{
   position:relative;width:100%;aspect-ratio:3/4;
-  /* 額縁を外側に出すためoverflowをvisibleに */
   overflow:visible;
+  /* 上下の額縁はみ出し(9px)分の余白 → ラベルが絵に被らない */
+  margin-bottom:12px;
 }
 .gif::before{
   content:'';
@@ -830,7 +831,7 @@ body{font-family:'Cormorant Garamond','Noto Serif JP',Georgia,serif}
         <div class="guide-icon" aria-hidden="true">🔗</div>
         <div class="guide-text">
           <div class="guide-action">作品名タップで詳細へ</div>
-          <div class="guide-desc">作品名をタップするとWikipedia等の詳細ページへ移動します。</div>
+          <div class="guide-desc">作品名をタップすると美術館や作品の詳細情報を確認できます。</div>
         </div>
       </div>
     </div>
