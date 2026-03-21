@@ -453,10 +453,16 @@ body{font-family:'Cormorant Garamond','Noto Serif JP',Georgia,serif}
   padding:20px 14px 36px;
 }
 #gg{display:grid;grid-template-columns:repeat(2,1fr);gap:20px 16px;width:100%}
+/* PC幅では3列に */
+@media(min-width:480px){
+  #gg{grid-template-columns:repeat(3,1fr);gap:16px 12px;}
+}
 .gi{
   position:relative;display:flex;flex-direction:column;align-items:center;gap:5px;
   animation:giIn .3s var(--spring) backwards;
   cursor:pointer;
+  /* ラベルのスペースを確保 */
+  padding-bottom:2px;
 }
 @keyframes giIn{from{opacity:0;transform:scale(.88) translateY(10px)}to{opacity:1;transform:scale(1) translateY(0)}}
 .giwire{width:40px;height:14px;border-top:1px solid rgba(200,160,80,.3);border-radius:50% 50% 0 0 / 100% 100% 0 0}
@@ -529,8 +535,8 @@ body{font-family:'Cormorant Garamond','Noto Serif JP',Georgia,serif}
 }
 .gi:hover .gi-del{display:flex}
 .gi-del:hover{background:rgba(160,40,40,.88);border-color:rgba(200,80,80,.5);color:#ff9090}
-.gilbl{font-size:9px;color:var(--gold-l);font-style:italic;letter-spacing:.04em;text-align:center;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:100%;padding:0 2px;font-family:'EB Garamond',serif}
-.gilsub{font-size:7.5px;color:var(--ink-l);letter-spacing:.04em;text-align:center;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:100%;font-style:italic;margin-top:-2px}
+.gilbl{font-size:10px;color:var(--gold-l);font-style:italic;letter-spacing:.04em;text-align:center;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:100%;padding:0 4px;font-family:'EB Garamond',serif;margin-top:2px;}
+.gilsub{font-size:8px;color:var(--ink-l);letter-spacing:.04em;text-align:center;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:100%;font-style:italic;margin-top:1px;padding:0 4px;}
 .ge{text-align:center;padding:64px 24px;font-style:italic;font-size:12px;color:var(--ink-l);letter-spacing:.12em;line-height:2.8;font-family:'EB Garamond',serif}
 
 /* ── 使い方ガイド ── */

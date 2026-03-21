@@ -19,6 +19,26 @@
   let isAnimating = false;
 
   try { liked = JSON.parse(localStorage.getItem('meiga_liked') || '[]'); } catch(e) { liked = []; }
+
+  // 旧データのマイグレーション（artistの "(French" 等を除去、museumUrlがないものを補完）
+  liked = liked.map(p => {
+    // artist名から "(French, 1840–..." 等を除去
+    if (p.artist && p.artist.includes('(')) {
+      p.artist = p.artist.replace(/\s*\([^)]*\)/g, '').split(',')[0].trim();
+    }
+    // museumUrlがない旧データを補完
+    if (!p.museumUrl) {
+      if (p.id && p.id.startsWith('met-')) {
+        const metId = p.id.replace('met-', '');
+        p.museumUrl = `https://www.metmuseum.org/art/collection/search/${metId}`;
+      } else if (p.id && p.id.startsWith('artic-')) {
+        const articId = p.id.replace('artic-', '');
+        p.museumUrl = `https://www.artic.edu/artworks/${articId}`;
+      }
+    }
+    return p;
+  });
+  try { localStorage.setItem('meiga_liked', JSON.stringify(liked)); } catch(e) {}
   function save() { try { localStorage.setItem('meiga_liked', JSON.stringify(liked)); } catch(e) {} }
 
   function updateBadge() {
