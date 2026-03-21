@@ -6,39 +6,47 @@
 <style>
 * { box-sizing: border-box; margin: 0; padding: 0; }
 body { font-family: sans-serif; font-size: 13px; background: #f5f0e8; padding: 16px; }
-#summary { background: #fff; padding: 12px 16px; margin-bottom: 16px; border-radius: 4px; border: 1px solid #ddd; font-size: 14px; }
-.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 10px; }
+#summary { background: #fff; padding: 12px 16px; margin-bottom: 16px; border-radius: 4px; border: 1px solid #ddd; font-size: 14px; font-weight: bold; }
+#ng-list { background: #fff5f5; padding: 12px 16px; margin-bottom: 16px; border-radius: 4px; border: 1px solid #ffcccc; display: none; }
+#ng-list h3 { color: #cc0000; margin-bottom: 8px; }
+#ng-list li { font-size: 11px; color: #cc0000; margin-bottom: 4px; word-break: break-all; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 8px; }
 .item { background: #fff; border: 2px solid #ddd; border-radius: 4px; padding: 6px; }
 .item.ok { border-color: #4a9a4a; }
 .item.ng { border-color: #cc3333; background: #fff0f0; }
-.thumb { width: 100%; height: 90px; object-fit: contain; background: #eee; display: block; }
-.name { font-size: 10px; margin-top: 4px; color: #444; line-height: 1.3; }
-.item.ng .name { color: #cc3333; font-weight: bold; }
+.thumb { width: 100%; height: 80px; object-fit: contain; background: #eee; display: block; }
+.name { font-size: 9px; margin-top: 4px; color: #444; line-height: 1.3; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.item.ng .name { color: #cc0000; font-weight: bold; }
 .status { font-size: 9px; color: #888; }
 .item.ok .status { color: #4a9a4a; }
-.item.ng .status { color: #cc3333; }
+.item.ng .status { color: #cc0000; }
 </style>
 </head>
 <body>
-<div id="summary">読み込み中... <span id="prog"></span></div>
+<div id="summary">チェック中...</div>
+<div id="ng-list"><h3>NG一覧（表示できない作品）</h3><ul id="ng-ul"></ul></div>
 <div class="grid" id="grid"></div>
 <script src="./paintings.js"></script>
 <script>
 let ok = 0, ng = 0, done = 0;
-const total = PAINTINGS.length;
+const total = STATIC_PAINTINGS.length;
 const grid = document.getElementById('grid');
 const summary = document.getElementById('summary');
+const ngList = document.getElementById('ng-list');
+const ngUl = document.getElementById('ng-ul');
+
+// Special:Redirect形式に変換
+const wiki = (path) => {
+  const f = path.split('/').pop();
+  return `https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/${f}&width=800`;
+};
 
 function updateSummary() {
-  summary.innerHTML = `
-    全${total}件中 ${done}件チェック完了 ／
-    <span style="color:#4a9a4a">✓ 表示OK: ${ok}件</span> ／
-    <span style="color:#cc3333">✗ 表示NG: ${ng}件</span>
-    ${done < total ? '（チェック中...）' : '　← 完了！'}
-  `;
+  summary.textContent = `全${total}件中 ${done}件完了 ／ ✓ OK: ${ok}件 ／ ✗ NG: ${ng}件 ${done < total ? '（チェック中...）' : '← 完了！'}`;
+  if (ng > 0) ngList.style.display = 'block';
 }
 
-PAINTINGS.forEach(p => {
+STATIC_PAINTINGS.forEach(p => {
   const item = document.createElement('div');
   item.className = 'item';
 
@@ -52,7 +60,7 @@ PAINTINGS.forEach(p => {
 
   const status = document.createElement('div');
   status.className = 'status';
-  status.textContent = '読み込み中...';
+  status.textContent = '...';
 
   img.onload = () => {
     item.classList.add('ok');
@@ -62,13 +70,16 @@ PAINTINGS.forEach(p => {
   };
   img.onerror = () => {
     item.classList.add('ng');
-    status.textContent = '✗ NG（表示不可）';
+    status.textContent = '✗ NG';
     img.style.display = 'none';
     ng++; done++;
+    // NG一覧に追加
+    const li = document.createElement('li');
+    li.textContent = `${p.id}: ${p.title} (${p.artist}) → ${img.src}`;
+    ngUl.appendChild(li);
     updateSummary();
   };
 
-  // 画像セットは最後（onload/onerrorの後）
   img.src = p.image;
 
   item.appendChild(img);
