@@ -1,11 +1,8 @@
 // api/paintings.js — Vercel Serverless Function
-// MET Museum API（CC0・完全無料・著作権問題なし）をサーバー側で叩く
-// ブラウザからCORSなしで /api/paintings?page=1 で呼び出せる
+// MET Museum API（CC0・無料・著作権なし）をサーバー側で叩く
+// ブラウザは /api/paintings を呼ぶだけでOK
 
-export const config = { runtime: 'edge' };
-
-const MET_SEARCH = 'https://collectionapi.metmuseum.org/public/collection/v1/search?hasImages=true&isPublicDomain=true&q=painting&medium=Paintings&departmentId=11';
-const MET_OBJECT = 'https://collectionapi.metmuseum.org/public/collection/v1/objects/';
+const MET_BASE = 'https://collectionapi.metmuseum.org/public/collection/v1';
 
 function toCentury(year) {
   if (!year) return '不明';
@@ -17,53 +14,83 @@ function toCentury(year) {
   return '20世紀';
 }
 
-export default async function handler(req) {
-  const url = new URL(req.url);
-  const page = parseInt(url.searchParams.get('page') || '1');
-  const PER_PAGE = 50;
+// 有名作品のobject IDリスト（MET公式で確認済み）
+const FEATURED_IDS = [
+  436535,  // モネ 睡蓮
+  437329,  // ゴッホ 糸杉
+  436121,  // スーラ
+  459055,  // ゴッホ 自画像
+  436532,  // セザンヌ
+  437984,  // ルノワール
+  11417,   // フェルメール 水差しを持つ女
+  437853,  // ゴッホ ひまわり
+  436947,  // ドガ 踊り子
+  436105,  // ゴッホ
+  435882,  // モネ
+  438722,  // ゴーギャン
+  436944,  // ゴッホ
+  437645,  // ドガ
+  436528,  // モネ
+];
+
+module.exports = async (req, res) => {
+  res.setHeader('Access-Control-Allow-Origin', '*');
+  res.setHeader('Cache-Control', 's-maxage=300, stale-while-revalidate');
 
   try {
-    // 全IDを取得
-    const searchRes = await fetch(MET_SEARCH);
-    const searchData = await searchRes.json();
-    const allIds = searchData.objectIDs || [];
-
-    // ページ分割してランダムに選ぶ（毎回シャッフル）
-    const shuffled = allIds.sort(() => Math.random() - 0.5);
-    const startIdx = ((page - 1) * PER_PAGE) % shuffled.length;
-    const ids = shuffled.slice(startIdx, startIdx + PER_PAGE * 3); // 3倍取って絞る
-
-    const paintings = [];
-    for (const id of ids) {
-      if (paintings.length >= PER_PAGE) break;
+    // まず有名作品を取得
+    const featuredResults = [];
+    for (const id of FEATURED_IDS) {
       try {
-        const r = await fetch(MET_OBJECT + id);
+        const r = await fetch(`${MET_BASE}/objects/${id}`);
         const d = await r.json();
-        if (!d.isPublicDomain || !d.primaryImageSmall || !d.title) continue;
-        paintings.push({
-          id:      `met-${d.objectID}`,
-          title:   d.title,
-          artist:  d.artistDisplayName || '作者不詳',
-          year:    d.objectEndDate || 0,
-          century: toCentury(d.objectEndDate),
-          style:   d.classification || '絵画',
-          museum:  'メトロポリタン美術館',
-          image:   d.primaryImageSmall,
-        });
-      } catch (e) {}
+        if (d.isPublicDomain && d.primaryImageSmall) {
+          featuredResults.push({
+            id: `met-${d.objectID}`,
+            title: d.title || '無題',
+            artist: d.artistDisplayName || '作者不詳',
+            year: d.objectEndDate || 0,
+            century: toCentury(d.objectEndDate),
+            style: d.classification || '絵画',
+            museum: 'メトロポリタン美術館',
+            image: d.primaryImageSmall,
+          });
+        }
+      } catch(e) {}
     }
 
-    return new Response(JSON.stringify({ paintings }), {
-      headers: {
-        'Content-Type': 'application/json',
-        'Access-Control-Allow-Origin': '*',
-        'Cache-Control': 's-maxage=600',
-      },
-    });
-  } catch (e) {
-    return new Response(JSON.stringify({ error: e.message, paintings: [] }), {
-      status: 500,
-      headers: { 'Content-Type': 'application/json' },
-    });
+    // 追加でランダム取得
+    const searchRes = await fetch(
+      `${MET_BASE}/search?hasImages=true&isPublicDomain=true&q=painting&medium=Paintings&departmentId=11`
+    );
+    const searchData = await searchRes.json();
+    const allIds = (searchData.objectIDs || []).sort(() => Math.random() - 0.5).slice(0, 100);
+
+    const randomResults = [];
+    for (const id of allIds) {
+      if (randomResults.length >= 35) break;
+      try {
+        const r = await fetch(`${MET_BASE}/objects/${id}`);
+        const d = await r.json();
+        if (d.isPublicDomain && d.primaryImageSmall && d.title) {
+          randomResults.push({
+            id: `met-${d.objectID}`,
+            title: d.title,
+            artist: d.artistDisplayName || '作者不詳',
+            year: d.objectEndDate || 0,
+            century: toCentury(d.objectEndDate),
+            style: d.classification || '絵画',
+            museum: 'メトロポリタン美術館',
+            image: d.primaryImageSmall,
+          });
+        }
+      } catch(e) {}
+    }
+
+    const paintings = [...featuredResults, ...randomResults];
+    return res.status(200).json({ paintings });
+
+  } catch(e) {
+    return res.status(500).json({ error: e.message, paintings: [] });
   }
-}
+};
