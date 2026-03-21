@@ -83,23 +83,38 @@
       .sort((a, b) => a.localeCompare(b, 'ja'));
   }
 
-  // ── API取得 ──────────────────────────────────────────────
+  // ── API取得（リトライ付き）────────────────────────────────
   async function fetchPaintings() {
-    const controller = new AbortController();
-    const timeout = setTimeout(() => controller.abort(), 14000);
-    try {
-      const res = await fetch('/api/paintings', { signal: controller.signal });
-      clearTimeout(timeout);
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      const data = await res.json();
-      if (data.paintings && data.paintings.length > 0) {
-        allPaintings = data.paintings;
-        updateFilterOptions();
-        return true;
+    const MAX_RETRY = 3;
+    for (let attempt = 1; attempt <= MAX_RETRY; attempt++) {
+      const controller = new AbortController();
+      // 1回目は14秒、2回目以降は20秒待つ（cold start対策）
+      const timeoutMs = attempt === 1 ? 14000 : 20000;
+      const timeout = setTimeout(() => controller.abort(), timeoutMs);
+      try {
+        const res = await fetch('/api/paintings', { signal: controller.signal });
+        clearTimeout(timeout);
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        const data = await res.json();
+        if (data.paintings && data.paintings.length > 0) {
+          allPaintings = data.paintings;
+          updateFilterOptions();
+          return true;
+        }
+      } catch(e) {
+        clearTimeout(timeout);
+        console.error(`API fetch error (attempt ${attempt}/${MAX_RETRY}):`, e);
+        if (attempt < MAX_RETRY) {
+          // ローディングメッセージを更新
+          const loadingCard = document.getElementById('loading-card');
+          if (loadingCard) {
+            const msg = loadingCard.querySelector('div > div:last-child');
+            if (msg) msg.textContent = `接続中... (${attempt + 1}/${MAX_RETRY})`;
+          }
+          // 1秒待ってリトライ
+          await new Promise(r => setTimeout(r, 1000));
+        }
       }
-    } catch(e) {
-      clearTimeout(timeout);
-      console.error('API fetch error:', e);
     }
     return false;
   }
@@ -115,9 +130,13 @@
       errCard.className = 'card cur';
       errCard.innerHTML = `<div style="display:flex;flex-direction:column;align-items:center;gap:14px;color:var(--ink-m);padding:24px;text-align:center;">
         <div style="font-size:13px;font-style:italic;">読み込みに失敗しました</div>
-        <button onclick="location.reload()" style="padding:9px 22px;border:1px solid var(--gold);background:transparent;cursor:pointer;font-family:inherit;font-size:11px;color:var(--gold);letter-spacing:.1em;">再読み込み</button>
+        <button id="retry-btn" style="padding:9px 22px;border:1px solid var(--gold);background:transparent;cursor:pointer;font-family:inherit;font-size:11px;color:var(--gold);letter-spacing:.1em;">再読み込み</button>
       </div>`;
       dw.appendChild(errCard);
+      document.getElementById('retry-btn').addEventListener('click', () => {
+        errCard.remove();
+        initialLoad();
+      });
       return;
     }
 
