@@ -339,7 +339,12 @@ module.exports = async (req, res) => {
 
     const processARTIC = (d) => {
       if (!d || !d.image_id || !d.is_public_domain) return null;
-      const artistRaw = (d.artist_display || '作者不詳').split('\n')[0].split(',')[0].trim();
+      // "Vincent van Gogh (Dutch, 1853–1890)" → "Vincent van Gogh" に正規化
+      const artistRaw = (d.artist_display || '作者不詳')
+        .split('\n')[0]
+        .replace(/\s*\([^)]*\)/g, '')  // (Dutch, 1853–1890) などを除去
+        .split(',')[0]
+        .trim();
       const id = `artic-${d.id}`;
       return {
         id,
