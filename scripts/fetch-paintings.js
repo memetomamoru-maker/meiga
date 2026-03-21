@@ -183,7 +183,7 @@ async function main() {
     var valid = results.map(toMET).filter(Boolean);
     metPaintings = metPaintings.concat(valid);
     console.log('  バッチ ' + (Math.floor(i/BATCH)+1) + '/' + Math.ceil(ATTEMPT/BATCH) + ': ' + valid.length + '/' + batch.length + ' (累計: ' + metPaintings.length + ')');
-    if (i + BATCH < pickedIds.length && metPaintings.length < TARGET) await sleep(1000);
+    if (i + BATCH < pickedIds.length && metPaintings.length < TARGET) await sleep(2000);
   }
   console.log('[MET] ' + metPaintings.length + '件');
 
