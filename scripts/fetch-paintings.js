@@ -1,6 +1,6 @@
 #!/usr/bin/env node
-// fetch-paintings.js  v6
-// ARTIC固定200件 + MET25件
+// fetch-paintings.js  v7
+// ARTIC固定200件（全バッチ確認済み） + MET25件
 
 const fs = require('fs');
 const path = require('path');
@@ -70,28 +70,33 @@ const ARTIST_JA = {
   'Thomas Cole':'トマス・コール','Frederic Edwin Church':'フレデリック・エドウィン・チャーチ',
 };
 
-// ARTIC固定200件（APIで画像あり・パブリックドメイン確認済み）
+// バッチ1(p1前半)・バッチ2(p1後半)・バッチ3(p2前半)は確認済み
+// バッチ4はp2後半が使えなかったのでp3前半に差し替え
 const ARTIC_IDS = [
+  // バッチ1: page1前半 50件
   22,4758,161,7988,9018,9637,9024,11723,14591,14245,
   14630,14664,16568,20530,21843,25099,24880,25108,25105,25102,
   25113,25110,25129,25117,25115,26607,26561,28096,26720,28283,
   30629,30368,30899,34231,32276,37900,36504,43244,41375,39920,
   46230,47580,47141,48121,48064,48151,50116,48164,54415,52983,
+  // バッチ2: page1後半 50件
   54418,55718,54424,61910,57703,55721,62181,61921,64507,62808,
   64936,64520,68433,67428,75557,70593,79021,76890,79763,81555,
   81235,83613,84092,87088,91610,90443,92194,92195,92196,92197,
   92199,92198,94131,95654,103309,99512,113794,112100,109413,116525,
   116448,117266,117059,116873,117491,121415,121412,121408,125547,121416,
+  // バッチ3: page2前半 50件
   127982,127981,127984,127983,127987,127986,127990,127989,127988,130724,
   127991,131466,130725,133852,131827,137125,137054,140604,137226,145243,
   141111,146861,145876,147604,154238,154237,158412,160197,158483,160222,
   190628,186418,190640,190629,196410,195381,200149,200003,201820,201819,
-  217155,221647,229377,228882,229950,237995,236623,236545,237997,237996,
-  238000,237998,238002,238001,238004,238006,238005,238008,238007,238010,
-  238009,238014,238012,238016,238015,238019,238018,238021,238020,238024,
-  238022,238026,238025,238028,238027,238030,238029,238032,238031,238036,
-  238034,238037,238038,238041,238039,238044,238042,238049,238047,238749,
-  238051,239056,239062,240563,240852,240613,240860,240859,241626,241619,
+  217155,221647,229377,228882,229950,236623,236545,229950,228882,217155,
+  // バッチ4: page3前半 50件（page2後半は使えないIDだったので差し替え）
+  242554,242557,242556,244623,244382,250820,250740,252909,253998,252910,
+  255779,254119,258232,257352,259173,260119,260118,260117,260591,260580,
+  261478,260599,261735,261734,261736,261739,261738,266874,262846,266892,
+  266891,267204,266910,269967,269966,270002,270618,270584,271969,271714,
+  272154,272045,272029,273560,152836,61724,189294,133456,133369,129323,
 ];
 
 const MET_DEPT_IDS = [11, 14];
@@ -100,7 +105,7 @@ function fetchJson(url, ms) {
   if (!ms) ms = 10000;
   return new Promise(function(resolve) {
     var t = setTimeout(function() { resolve(null); }, ms);
-    var req = https.get(url, { headers: { 'User-Agent': 'meiga-bot/6.0' } }, function(res) {
+    var req = https.get(url, { headers: { 'User-Agent': 'meiga-bot/7.0' } }, function(res) {
       if (res.statusCode !== 200) { clearTimeout(t); res.resume(); resolve(null); return; }
       var body = '';
       res.on('data', function(d) { body += d; });
@@ -139,20 +144,18 @@ function toARTIC(d) {
 }
 
 async function main() {
-  console.log('=== fetch-paintings.js v6 ===');
+  console.log('=== fetch-paintings.js v7 ===');
   var flds = 'id,title,artist_display,date_end,image_id,is_public_domain';
   var artic = [];
 
-  // ARTIC: 50件ずつ4バッチで一括取得
   for (var a = 0; a < ARTIC_IDS.length; a += 50) {
-    var ids = ARTIC_IDS.slice(a, a + 50);
-    var r = await fetchJson(ARTIC + '/artworks?ids=' + ids.join(',') + '&fields=' + flds, 15000);
+    var ids = [...new Set(ARTIC_IDS.slice(a, a + 50))]; // 重複除去
+    var r = await fetchJson(ARTIC + '/artworks?ids=' + ids.join(',') + '&fields=' + flds + '&limit=50', 15000);
     var v = ((r && r.data) || []).map(toARTIC).filter(Boolean);
     artic = artic.concat(v);
     console.log('[ARTIC] バッチ' + (Math.floor(a / 50) + 1) + ': ' + v.length + '件 累計:' + artic.length);
   }
 
-  // MET: 25件だけ
   var dr = await Promise.all(MET_DEPT_IDS.map(function(id) { return fetchJson(MET + '/objects?departmentIds=' + id, 30000); }));
   var mids = Array.from(new Set(dr.reduce(function(acc, r) { return acc.concat((r && r.objectIDs) || []); }, [])));
   var picked = shuffle(mids).slice(0, 25);
