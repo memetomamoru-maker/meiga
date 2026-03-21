@@ -1,6 +1,6 @@
 #!/usr/bin/env node
-// fetch-paintings.js  v8
-// ARTIC固定200件（全バッチAPIで確認済み） + MET25件
+// fetch-paintings.js  v10
+// ARTIC 250件（日本美術除外フィルター込み） + MET 25件 → 目標200件
 
 const fs = require('fs');
 const path = require('path');
@@ -31,6 +31,7 @@ const WIKI = {
   'met-437329':'https://ja.wikipedia.org/wiki/サビーニーの女たちの略奪',
   'met-436947':'https://ja.wikipedia.org/wiki/ボート遊び_(マネ)',
 };
+
 const TITLE_JA = {
   'Wheat Field with Cypresses':'小麦畑と糸杉','Irises':'アイリス','Boating':'ボート遊び',
   'A Woman Asleep':'眠る女','Young Woman with a Water Pitcher':'水差しを持つ女',
@@ -45,80 +46,155 @@ const TITLE_JA = {
   'At the Moulin Rouge':'ムーラン・ルージュにて','Two Sisters (On the Terrace)':'二人の姉妹',
   "The Child's Bath":'子供の入浴','Olympia':'オランピア','The Fifer':'笛を吹く少年',
   'Haystacks':'干し草の山','Plum Brandy':'プラム・ブランデー',
+  'Stoke-by-Nayland':'ストーク・バイ・ネイランド',
+  'Woman at Her Toilette':'化粧する女','Woman Reading':'読書する女性',
+  'Venice, Palazzo Dario':'ヴェネツィア、パラッツォ・ダリオ',
+  'Moulin de la Galette':'ムーラン・ド・ラ・ギャレット',
+  'Self-Portrait':'自画像','Portrait of a Lady':'貴婦人の肖像',
+  'Portrait of a Man':'男性の肖像','Portrait of a Woman':'女性の肖像',
+  'Landscape':'風景画','Still Life':'静物','Flowers in a Vase':'花瓶の花',
+  'Madonna and Child':'聖母子','The Holy Family':'聖家族',
+  'The Crucifixion':'磔刑','The Adoration of the Magi':'東方三博士の礼拝',
+  'Luncheon of the Boating Party':'舟遊びの昼食',
+  'Dance at Le Moulin de la Galette':'ムーラン・ド・ラ・ギャレットの舞踏会',
+  'The Swing':'ブランコ','By the Seashore':'海辺にて',
+  'Woman with a Parasol':'パラソルを持つ女',
+  'Young Girls at the Piano':'ピアノを弾く少女たち',
+  'Bathers at Asnières':'アニエールの水浴',
+  'Banks of the Seine':'セーヌ川の岸辺',
+  'Stacks of Wheat (End of Summer)':'干し草の積み重ね（夏の終わり）',
+  'On the Bank of the Seine, Bennecourt':'セーヌ河畔、ベンヌクール',
+  'The Bedroom':'寝室','Interior':'室内','Reading':'読書',
+  'The Gleaners':'落ち穂拾い','The Angelus':'晩鐘',
+  'Liberty Leading the People':'民衆を導く自由の女神',
+  'The Raft of the Medusa':'メデューズ号の筏',
+  'The Fighting Temeraire':'戦艦テメレール号',
+  'The Hay Wain':'干し草車',
+  'Arrangement in Grey and Black No. 1':'灰色と黒のアレンジメント第1番',
+  'Venus and Cupid':'ヴィーナスとキューピッド','Bacchus':'バッカス',
+  'The Birth of Venus':'ヴィーナスの誕生','Primavera':'春',
+  'Girl with a Pearl Earring':'真珠の耳飾りの少女',
+  'The Milkmaid':'牛乳を注ぐ女','Las Meninas':'ラス・メニーナス',
+  'Still Life with Flowers':'花の静物画','Still Life with Fruit':'果物の静物画',
+  'Autumn Landscape':'秋の風景','Winter Landscape':'冬の風景',
+  'River Landscape':'川の風景','Italian Landscape':'イタリアの風景',
+  'The Bridge':'橋','The Kitchen':'台所','Breakfast':'朝食',
+  'After the Bath':'入浴の後','Woman Bathing':'入浴する女性',
+  'The Ballet Class':'バレエの稽古','Dancers in Pink':'ピンクの衣装のダンサーたち',
+  'In a Café':'カフェにて','The Absinthe Drinker':'アブサンを飲む人',
+  'Saint John the Baptist':'洗礼者ヨハネ','Saint Jerome':'聖ヒエロニムス',
+  'Perseus and Andromeda':'ペルセウスとアンドロメダ',
+  'Diana the Huntress':'狩猟のディアナ','The Three Graces':'三美神',
+  'The Death of Marat':'マラーの死','Saturn Devouring His Son':'我が子を食らうサトゥルヌス',
 };
+
 const ARTIST_JA = {
   'Vincent van Gogh':'フィンセント・ファン・ゴッホ','Claude Monet':'クロード・モネ',
   'Pierre-Auguste Renoir':'ピエール＝オーギュスト・ルノワール','Edgar Degas':'エドガー・ドガ',
   'Édouard Manet':'エドゥアール・マネ','Paul Cézanne':'ポール・セザンヌ',
   'Paul Gauguin':'ポール・ゴーギャン','Georges Seurat':'ジョルジュ・スーラ',
+  'Georges-Pierre Seurat':'ジョルジュ・スーラ',
   'Henri de Toulouse-Lautrec':'アンリ・ド・トゥールーズ＝ロートレック',
   'Mary Cassatt':'メアリー・カサット','Berthe Morisot':'ベルト・モリゾ',
   'Camille Pissarro':'カミーユ・ピサロ','Alfred Sisley':'アルフレッド・シスレー',
+  'Gustave Caillebotte':'ギュスターヴ・カイユボット',
   'Rembrandt van Rijn':'レンブラント・ファン・レイン','Johannes Vermeer':'ヨハネス・フェルメール',
   'Jan Steen':'ヤン・ステーン','Frans Hals':'フランス・ハルス',
+  'Jacob van Ruisdael':'ヤーコブ・ファン・ロイスダール',
   'Peter Paul Rubens':'ピーテル・パウル・ルーベンス','Anthony van Dyck':'アンソニー・ヴァン・ダイク',
   'Jan van Eyck':'ヤン・ファン・エイク','Hans Memling':'ハンス・メムリング',
-  'Raphael':'ラファエロ','Titian':'ティツィアーノ','Caravaggio':'カラヴァッジョ',
+  'Hieronymus Bosch':'ヒエロニムス・ボス','Pieter Bruegel the Elder':'ピーテル・ブリューゲル（父）',
+  'Leonardo da Vinci':'レオナルド・ダ・ヴィンチ','Raphael':'ラファエロ',
+  'Sandro Botticelli':'サンドロ・ボッティチェッリ',
+  'Titian':'ティツィアーノ','Tintoretto':'ティントレット','Paolo Veronese':'パオロ・ヴェロネーゼ',
+  'Caravaggio':'カラヴァッジョ','Artemisia Gentileschi':'アルテミジア・ジェンティレスキ',
   'Francisco Goya':'フランシスコ・ゴヤ','Diego Velázquez':'ディエゴ・ベラスケス',
-  'El Greco':'エル・グレコ','Jacques-Louis David':'ジャック＝ルイ・ダヴィッド',
-  'Eugène Delacroix':'ウジェーヌ・ドラクロワ','Gustave Courbet':'ギュスターヴ・クールベ',
+  'El Greco':'エル・グレコ','Bartolomé Esteban Murillo':'バルトロメ・エステバン・ムリーリョ',
+  'Jacques-Louis David':'ジャック＝ルイ・ダヴィッド',
+  'Eugène Delacroix':'ウジェーヌ・ドラクロワ',
+  'Jean-Auguste-Dominique Ingres':'ジャン＝オーギュスト＝ドミニク・アングル',
+  'Théodore Géricault':'テオドール・ジェリコー',
+  'Jean-Baptiste-Camille Corot':'ジャン＝バティスト＝カミーユ・コロー',
+  'Gustave Courbet':'ギュスターヴ・クールベ','Jean-François Millet':'ジャン＝フランソワ・ミレー',
   'William Turner':'ジョゼフ・マロード・ウィリアム・ターナー',
+  'John Constable':'ジョン・コンスタブル','Thomas Gainsborough':'トマス・ゲインズバラ',
   'John Singer Sargent':'ジョン・シンガー・サージェント',
-  'Winslow Homer':'ウィンスロー・ホーマー','Emanuel Leutze':'エマニュエル・ロイツェ',
-  'Thomas Cole':'トマス・コール','Frederic Edwin Church':'フレデリック・エドウィン・チャーチ',
+  'Winslow Homer':'ウィンスロー・ホーマー','Thomas Eakins':'トマス・エイキンズ',
+  'Emanuel Leutze':'エマニュエル・ロイツェ','Thomas Cole':'トマス・コール',
+  'Frederic Edwin Church':'フレデリック・エドウィン・チャーチ',
+  'Albert Bierstadt':'アルバート・ビアスタット',
+  'James McNeill Whistler':'ジェームズ・マクニール・ホイッスラー',
+  'Nicolas Poussin':'ニコラ・プッサン','Claude Lorrain':'クロード・ロラン',
+  'Giovanni Battista Tiepolo':'ジョヴァンニ・バッティスタ・ティエポロ',
+  'Canaletto':'カナレット',
 };
 
-// バッチ1〜3: page1前半〜page2前半（確認済み）
-// バッチ4: page4〜8から取得した確実に使えるID 50件
+// 合計250件のARTIC ID（日本美術はtoARTIC関数内でフィルター）
 const ARTIC_IDS = [
-  // バッチ1 (page1 前半50件)
+  // バッチ1 (page1前半 50件)
   22,4758,161,7988,9018,9637,9024,11723,14591,14245,
   14630,14664,16568,20530,21843,25099,24880,25108,25105,25102,
   25113,25110,25129,25117,25115,26607,26561,28096,26720,28283,
   30629,30368,30899,34231,32276,37900,36504,43244,41375,39920,
   46230,47580,47141,48121,48064,48151,50116,48164,54415,52983,
-  // バッチ2 (page1 後半50件)
+  // バッチ2 (page1後半 50件)
   54418,55718,54424,61910,57703,55721,62181,61921,64507,62808,
   64936,64520,68433,67428,75557,70593,79021,76890,79763,81555,
   81235,83613,84092,87088,91610,90443,92194,92195,92196,92197,
   92199,92198,94131,95654,103309,99512,113794,112100,109413,116525,
   116448,117266,117059,116873,117491,121415,121412,121408,125547,121416,
-  // バッチ3 (page2 前半50件)
+  // バッチ3 (page2前半 50件)
   127982,127981,127984,127983,127987,127986,127990,127989,127988,130724,
   127991,131466,130725,133852,131827,137125,137054,140604,137226,145243,
   141111,146861,145876,147604,154238,154237,158412,160197,158483,160222,
   190628,186418,190640,190629,196410,195381,200149,200003,201820,201819,
   217155,221647,229377,228882,229950,236623,236545,237995,237997,237996,
-  // バッチ4 (page4〜8から確認済みID 50件)
+  // バッチ4 (page4〜10 新規100件)
   229343,154496,111377,93811,93809,199002,180545,126981,198809,185162,
   181719,74967,72801,36300,5375,119084,230193,120275,111629,61146,
   61141,61139,52283,43774,656,239462,208143,188629,90589,86812,
   75101,37716,148112,148111,28869,15468,12000,879,228827,223896,
-  111659,104094,104031,45356,16622,229406,229371,229363,229351,105213,
+  111659,104094,104031,45356,16622,28560,229406,229371,229363,229351,
+  180498,80062,45369,45363,217536,121186,111628,88793,43771,20684,
+  135128,135127,64339,38919,212983,153194,25825,192603,159136,141835,
+  66039,20522,5357,5353,28024,184362,155999,81558,45404,34116,
+  21907,561,512,212474,212252,210442,209437,209425,111634,21727,
+  203128,146696,146683,146694,146693,146688,146685,55905,146692,146691,
 ];
 
 const MET_DEPT_IDS = [11,14];
 
-function fetchJson(url,ms){if(!ms)ms=10000;return new Promise(function(resolve){var t=setTimeout(function(){resolve(null);},ms);var req=https.get(url,{headers:{'User-Agent':'meiga-bot/8.0'}},function(res){if(res.statusCode!==200){clearTimeout(t);res.resume();resolve(null);return;}var body='';res.on('data',function(d){body+=d;});res.on('end',function(){clearTimeout(t);try{resolve(JSON.parse(body));}catch(e){resolve(null);}});res.on('error',function(){clearTimeout(t);resolve(null);});});req.on('error',function(){clearTimeout(t);resolve(null);});});}
+function fetchJson(url,ms){if(!ms)ms=10000;return new Promise(function(resolve){var t=setTimeout(function(){resolve(null);},ms);var req=https.get(url,{headers:{'User-Agent':'meiga-bot/10.0'}},function(res){if(res.statusCode!==200){clearTimeout(t);res.resume();resolve(null);return;}var body='';res.on('data',function(d){body+=d;});res.on('end',function(){clearTimeout(t);try{resolve(JSON.parse(body));}catch(e){resolve(null);}});res.on('error',function(){clearTimeout(t);resolve(null);});});req.on('error',function(){clearTimeout(t);resolve(null);});});}
 function sleep(ms){return new Promise(function(r){setTimeout(r,ms);});}
 function shuffle(a){return a.slice().sort(function(){return Math.random()-0.5;});}
 function jt(en){return TITLE_JA[en]||en;}
 function ja(en){if(!en)return'作者不詳';if(ARTIST_JA[en])return ARTIST_JA[en];var s=en.replace(/\s*\([^)]*\)/g,'').trim();return ARTIST_JA[s]||s||'作者不詳';}
 function cy(y){if(!y||y<=0)return'不明';if(y<=1700)return'〜17世紀';if(y<=1900)return'18〜19世紀';return'20世紀';}
 function toMET(d){if(!d||!d.isPublicDomain||!d.primaryImageSmall||!d.objectID)return null;var id='met-'+d.objectID;return{id:id,title:jt(d.title||'無題'),artist:ja(d.artistDisplayName||d.artistAlphaSort||''),year:d.objectEndDate||0,century:cy(d.objectEndDate),museum:'メトロポリタン美術館',museumUrl:'https://www.metmuseum.org/art/collection/search/'+d.objectID,image:d.primaryImageSmall,wikiUrl:WIKI[id]||null};}
-function toARTIC(d){if(!d||!d.is_public_domain||!d.image_id||!d.id)return null;var ar=(d.artist_display||'').split('\n')[0].replace(/\s*\([^)]*\)/g,'').split(',')[0].trim();var id='artic-'+d.id;return{id:id,title:jt(d.title||'無題'),artist:ja(ar),year:d.date_end||0,century:cy(d.date_end),museum:'シカゴ美術館',museumUrl:'https://www.artic.edu/artworks/'+d.id,image:'https://www.artic.edu/iiif/2/'+d.image_id+'/full/843,/0/default.jpg',wikiUrl:WIKI[id]||null};}
+function toARTIC(d){
+  if(!d||!d.is_public_domain||!d.image_id||!d.id)return null;
+  var ar=(d.artist_display||'').split('\n')[0].replace(/\s*\([^)]*\)/g,'').split(',')[0].trim();
+  // 日本美術を除外
+  var jaNames=['Hokusai','Hiroshige','Utamaro','Kuniyoshi','Kunisada','Toyokuni','Harunobu','Kiyonaga','Sharaku','Yoshitoshi','Utagawa','Kitagawa'];
+  for(var i=0;i<jaNames.length;i++){if(ar.includes(jaNames[i]))return null;}
+  var id='artic-'+d.id;
+  return{id:id,title:jt(d.title||'無題'),artist:ja(ar),year:d.date_end||0,century:cy(d.date_end),museum:'シカゴ美術館',museumUrl:'https://www.artic.edu/artworks/'+d.id,image:'https://www.artic.edu/iiif/2/'+d.image_id+'/full/843,/0/default.jpg',wikiUrl:WIKI[id]||null};
+}
 
 async function main(){
-  console.log('=== fetch-paintings.js v8 ===');
+  console.log('=== fetch-paintings.js v10 ===');
   var flds='id,title,artist_display,date_end,image_id,is_public_domain';
   var artic=[];
-  for(var a=0;a<ARTIC_IDS.length;a+=50){
-    var ids=[...new Set(ARTIC_IDS.slice(a,a+50))];
+  var uniqueIds=[...new Set(ARTIC_IDS)];
+  console.log('[ARTIC] ユニークID: '+uniqueIds.length+'件');
+  for(var a=0;a<uniqueIds.length;a+=50){
+    var ids=uniqueIds.slice(a,a+50);
     var r=await fetchJson(ARTIC+'/artworks?ids='+ids.join(',')+'&fields='+flds+'&limit=50',15000);
     var v=((r&&r.data)||[]).map(toARTIC).filter(Boolean);
     artic=artic.concat(v);
     console.log('[ARTIC] バッチ'+(Math.floor(a/50)+1)+': '+v.length+'件 累計:'+artic.length);
   }
+  console.log('[ARTIC] 合計: '+artic.length+'件（日本美術除外済み）');
   var dr=await Promise.all(MET_DEPT_IDS.map(function(id){return fetchJson(MET+'/objects?departmentIds='+id,30000);}));
   var mids=Array.from(new Set(dr.reduce(function(acc,r){return acc.concat((r&&r.objectIDs)||[]);},[])));
   var picked=shuffle(mids).slice(0,25);
