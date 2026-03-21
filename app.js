@@ -1,10 +1,11 @@
 // app.js — 名画収集館
-// シカゴ美術館 ARTIC API からパブリックドメイン絵画を動的取得
+// シカゴ美術館 ARTIC API / artworks エンドポイント（シンプルGET・動作確認済み形式）
 
 (function () {
 
   const IIIF_BASE = 'https://www.artic.edu/iiif/2';
   const API_BASE  = 'https://api.artic.edu/api/v1';
+  const FIELDS    = 'id,title,artist_display,date_end,style_title,image_id,is_public_domain';
 
   function imgUrl(id) {
     return `${IIIF_BASE}/${id}/full/843,/0/default.jpg`;
@@ -59,38 +60,22 @@
     artists   = [...new Set(allPaintings.map(p => p.artist))].filter(Boolean).sort();
   }
 
-  // ── ARTIC API 取得（Gemini指摘：POST + JSONボディ形式）──
+  // ── ARTIC API 取得（/artworks シンプルGET）────────
   async function fetchPage(page) {
-    const url = `${API_BASE}/artworks/search?fields=id,title,artist_display,date_end,style_title,image_id&limit=100&page=${page}`;
-
-    const res = await fetch(url, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        query: {
-          bool: {
-            must: [
-              { term: { is_public_domain: true } },
-              { term: { artwork_type_title: 'Painting' } }
-            ]
-          }
-        }
-      })
-    });
-
+    const url = `${API_BASE}/artworks?fields=${FIELDS}&limit=100&page=${page}`;
+    const res  = await fetch(url);
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const data = await res.json();
 
     return (data.data || [])
-      .filter(d => d.image_id)
+      .filter(d => d.image_id && d.is_public_domain)
       .map((d, i) => ({
         id:      `artic-${page}-${i}`,
         title:   d.title || '無題',
-        // FIX: split('\n')は配列を返すので[0]で取得してからtrim()
         artist:  ((d.artist_display || '').split('\n')[0] || '作者不詳').trim(),
         year:    d.date_end || 0,
         century: toCentury(d.date_end),
-        style:   d.style_title || 'Painting',
+        style:   d.style_title || '絵画',
         museum:  'シカゴ美術館',
         image:   imgUrl(d.image_id),
       }));
@@ -106,7 +91,7 @@
       removeLoadingCard();
       initDeck();
       // バックグラウンドで追加取得
-      for (let p = 2; p <= 6; p++) {
+      for (let p = 2; p <= 8; p++) {
         fetchPage(p).then(more => {
           allPaintings = allPaintings.concat(more);
           updateFilterOptions();
@@ -239,25 +224,21 @@
   const THRESH = 48;
 
   dw.addEventListener('mousedown',  e => onStart(e.clientY));
-  // FIX: e.touches[0].clientY（インデックス必要）
   dw.addEventListener('touchstart', e => onStart(e.touches[0].clientY), { passive: true });
-  window.addEventListener('mousemove', e => { if (isDrag) onMove(e.clientY); });
-  // FIX: e.touches[0].clientY
-  window.addEventListener('touchmove', e => { if (isDrag) onMove(e.touches[0].clientY); }, { passive: true });
+  window.addEventListener('mousemove',  e => { if (isDrag) onMove(e.clientY); });
+  window.addEventListener('touchmove',  e => { if (isDrag) onMove(e.touches[0].clientY); }, { passive: true });
   window.addEventListener('mouseup',  onEnd);
   window.addEventListener('touchend', onEnd);
 
   function onStart(y) {
     if (!cards.length) return;
     isDrag = true; startY = y; diffY = 0;
-    // FIX: cards[0].el（cardsは配列）
     cards[0].el.classList.add('drag');
   }
   function onMove(y) {
     if (!isDrag || !cards.length) return;
     diffY = y - startY;
     const dy = Math.min(0, diffY);
-    // FIX: cards[0].el
     cards[0].el.style.transform = `translateY(${dy * .38}px)`;
     if (cards.length > 1) {
       const prog = Math.min(Math.abs(dy) / (THRESH * 1.5), 1);
@@ -270,7 +251,6 @@
     if (!isDrag) return;
     isDrag = false;
     if (!cards.length) return;
-    // FIX: cards[0].el
     cards[0].el.classList.remove('drag');
     cards[0].el.style.transition = '';
     if (diffY < -THRESH) {
@@ -287,7 +267,6 @@
 
   function goNext() {
     if (!cards.length) return;
-    // FIX: cards[0].el
     const cur = cards[0].el;
     cur.style.transition = 'transform .5s cubic-bezier(.76,0,.24,1), opacity .38s ease';
     cur.classList.add('above');
@@ -315,7 +294,6 @@
   // ── ハート ────────────────────────────────────────
   bh.addEventListener('click', () => {
     if (!cards.length) return;
-    // FIX: cards[0].data
     const p = cards[0].data;
     const i = liked.findIndex(x => x.id === p.id);
     if (i >= 0) {
@@ -331,7 +309,6 @@
   // ── シェア ────────────────────────────────────────
   document.getElementById('btn-share').addEventListener('click', () => {
     if (!cards.length) return;
-    // FIX: cards[0].data
     const p = cards[0].data;
     const t = `「${p.title}」\n${p.artist}（${p.year || ''}）\n${p.museum}\n\n#名画収集館 #名画 #art`;
     window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(t)}`, '_blank', 'noopener');
