@@ -131,6 +131,39 @@ const ARTIST_JA = {
   'Henri Rousseau':'アンリ・ルソー',
   'Gerard David':'ヘラルト・ダヴィト',
   'Théodore Rousseau':'テオドール・ルソー',
+  'Carlo Maratti':'カルロ・マラッタ',
+  'Cecco del Caravaggio (Francesco Buoneri)':'チェッコ・デル・カラヴァッジョ',
+  'Christian Wilhelm Ernst Dietrich':'C.W.E.ディートリヒ',
+  'Christoffer Wilhelm Eckersberg':'エッカースベア',
+  'Claude Guy Hallé':'クロード・ギー・アレ',
+  'Cosimo Rosselli':'コジモ・ロッセッリ',
+  'Fra Carnevale (Bartolomeo di Giovanni Corradini)':'フラ・カルネヴァーレ',
+  'Francesco Granacci (Francesco di Andrea di Marco)':'フランチェスコ・グラナッチ',
+  'Frans Hals':'フランス・ハルス',
+  'Gerard ter Borch the Younger':'ヘラルト・テル・ボルフ',
+  'Giovanni Battista Tiepolo':'ジョヴァンニ・バッティスタ・ティエポロ',
+  'Jacques de Gheyn II':'ヤーコブ・デ・ヘイン2世',
+  'Jean Bellegambe':'ジャン・ベルガンブ',
+  'Juan de Flandes':'フアン・デ・フランデス',
+  'Luis de Morales':'ルイス・デ・モラレス',
+  'Léon Bonnat':'レオン・ボナ',
+  'Netherlandish (Brussels) Painter':'ネーデルラント派',
+  'North Netherlandish (Bruges) Painter':'ネーデルラント派',
+  'South Netherlandish Painter':'南ネーデルラント派',
+  'Nicolaes Maes':'ニコラース・マース',
+  'Paul Cezanne':'ポール・セザンヌ',
+  'Quinten Massys':'クエンティン・マサイス',
+  'Salvator Rosa':'サルヴァトール・ローザ',
+  'Thomas Gainsborough':'トマス・ゲインズバラ',
+  'Velázquez':'ディエゴ・ベラスケス',
+  'Velázquez (Diego Rodríguez de Silva y Velázquez)':'ディエゴ・ベラスケス',
+  'Jan Steen':'ヤン・ステーン',
+  'Aelbert Cuyp':'アールベルト・カイプ',
+  'Jacob van Ruisdael':'ヤーコブ・ファン・ロイスダール',
+  'Adriaen van Ostade':'アドリアーン・ファン・オスターデ',
+  'Jan van Goyen':'ヤン・ファン・ホイエン',
+  'Joos van Cleve':'ヨース・ファン・クレーフェ',
+  'Petrus Christus':'ペトルス・クリストゥス',
 };
 
 const STYLE_JA = {
@@ -174,7 +207,14 @@ const WIKI = {
 };
 
 function jaTitle(en)  { return TITLE_JA[en]  || en; }
-function jaArtist(en) { return ARTIST_JA[en] || en; }
+function jaArtist(en) {
+  if (ARTIST_JA[en]) return ARTIST_JA[en];
+  // 括弧を除去して再試行
+  const stripped = en.replace(/\s*\([^)]*\)/g, '').trim();
+  if (ARTIST_JA[stripped]) return ARTIST_JA[stripped];
+  // それでも長い名前（25文字超）は括弧前だけ返す
+  return stripped.length > 30 ? stripped.split(' ').slice(0, 3).join(' ') : stripped;
+}
 function jaStyle(en)  { return STYLE_JA[en]  || (en && en.length < 25 ? en : '絵画'); }
 function toCentury(y) {
   if (!y) return '不明';
