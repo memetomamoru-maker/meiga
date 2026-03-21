@@ -1,1 +1,34 @@
+name: Update Paintings JSON
 
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Fetch paintings
+        run: node scripts/fetch-paintings.js
+
+      - name: Commit paintings.json
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/paintings.json
+          git diff --cached --quiet && echo "no changes" || git commit -m "chore: update paintings.json [$(date -u '+%Y-%m-%d')]"
+          git push
