@@ -1,7 +1,6 @@
 #!/usr/bin/env node
-// fetch-paintings.js  v9
-// ARTICをキーワード検索で西洋絵画のみ取得 → タイトルも取得済みなので英語表示最小化
-// MET固定ID（確認済み有名作品）を追加
+// fetch-paintings.js  v8
+// ARTIC固定200件（全バッチAPIで確認済み） + MET25件
 
 const fs = require('fs');
 const path = require('path');
@@ -9,7 +8,6 @@ const https = require('https');
 const ARTIC = 'https://api.artic.edu/api/v1';
 const MET   = 'https://collectionapi.metmuseum.org/public/collection/v1';
 
-// Wiki確認済みのみ
 const WIKI = {
   'artic-27992':'https://ja.wikipedia.org/wiki/グラン・ジャット島の日曜日の午後',
   'artic-28560':'https://ja.wikipedia.org/wiki/ファン・ゴッホの寝室',
@@ -33,8 +31,6 @@ const WIKI = {
   'met-437329':'https://ja.wikipedia.org/wiki/サビーニーの女たちの略奪',
   'met-436947':'https://ja.wikipedia.org/wiki/ボート遊び_(マネ)',
 };
-
-// 日本語タイトル変換テーブル
 const TITLE_JA = {
   'Wheat Field with Cypresses':'小麦畑と糸杉','Irises':'アイリス','Boating':'ボート遊び',
   'A Woman Asleep':'眠る女','Young Woman with a Water Pitcher':'水差しを持つ女',
@@ -49,37 +45,7 @@ const TITLE_JA = {
   'At the Moulin Rouge':'ムーラン・ルージュにて','Two Sisters (On the Terrace)':'二人の姉妹',
   "The Child's Bath":'子供の入浴','Olympia':'オランピア','The Fifer':'笛を吹く少年',
   'Haystacks':'干し草の山','Plum Brandy':'プラム・ブランデー',
-  'Stacks of Wheat (End of Summer)':'干し草の積み重ね（夏の終わり）',
-  'On the Bank of the Seine, Bennecourt':'セーヌ河畔、ベンヌクール',
-  'Breakfast':'朝食','The Artist\'s Bedroom in Arles':'アルルの寝室',
-  'The Bedroom':'寝室','Seurat\'s La Grande Jatte':'スーラの大ジャット島',
-  'Bathers at Asnières':'アニエールの水浴',
-  'The Seine at La Grande Jatte in the Spring':'春のラ・グランド・ジャット島のセーヌ',
-  'Portrait of a Lady':'貴婦人の肖像','Portrait of a Man':'男性の肖像',
-  'Self-Portrait':'自画像','Woman Reading':'読書する女性',
-  'Landscape':'風景','River Landscape':'川の風景',
-  'Still Life with Flowers':'花の静物','Still Life with Fruit':'果物の静物',
-  'The Artist\'s Mother':'芸術家の母','Village Road':'村の道',
-  'Autumn Landscape':'秋の風景','Winter Landscape':'冬の風景',
-  'The Holy Family':'聖家族','Madonna and Child':'聖母子',
-  'Venus and Cupid':'ヴィーナスとキューピッド','Bacchus':'バッカス',
-  'The Crucifixion':'磔刑','The Resurrection':'復活',
-  'The Adoration of the Magi':'東方三博士の礼拝','The Last Supper':'最後の晩餐',
-  'Saint Jerome':'聖ヒエロニムス','Saint Sebastian':'聖セバスティアヌス',
-  'Luncheon of the Boating Party':'舟遊びの昼食',
-  'Dance at Le Moulin de la Galette':'ムーラン・ド・ラ・ギャレットの舞踏会',
-  'La Grenouillère':'ラ・グルヌイエール',
-  'Le Moulin de la Galette':'ムーラン・ド・ラ・ギャレット',
-  'By the Seashore':'海辺にて','Woman with a Parasol':'パラソルを持つ女',
-  'Young Girls at the Piano':'ピアノを弾く少女たち','Reading':'読書',
-  'The Swing':'ブランコ','Interior':'室内','The Bridge':'橋',
-  'Return from the Conference':'会議からの帰り',
-  'Banks of the Seine':'セーヌ川の岸辺',
-  'Path Through the Wheat':'麦畑の小道',
-  'Moulin Rouge: La Goulue':'ムーラン・ルージュ：ラ・グーリュ',
-  'Jane Avril Leaving the Moulin Rouge':'ムーラン・ルージュを去るジェーヌ・アヴリル',
 };
-
 const ARTIST_JA = {
   'Vincent van Gogh':'フィンセント・ファン・ゴッホ','Claude Monet':'クロード・モネ',
   'Pierre-Auguste Renoir':'ピエール＝オーギュスト・ルノワール','Edgar Degas':'エドガー・ドガ',
@@ -88,48 +54,52 @@ const ARTIST_JA = {
   'Henri de Toulouse-Lautrec':'アンリ・ド・トゥールーズ＝ロートレック',
   'Mary Cassatt':'メアリー・カサット','Berthe Morisot':'ベルト・モリゾ',
   'Camille Pissarro':'カミーユ・ピサロ','Alfred Sisley':'アルフレッド・シスレー',
-  'Gustave Caillebotte':'ギュスターヴ・カイユボット',
   'Rembrandt van Rijn':'レンブラント・ファン・レイン','Johannes Vermeer':'ヨハネス・フェルメール',
   'Jan Steen':'ヤン・ステーン','Frans Hals':'フランス・ハルス',
   'Peter Paul Rubens':'ピーテル・パウル・ルーベンス','Anthony van Dyck':'アンソニー・ヴァン・ダイク',
   'Jan van Eyck':'ヤン・ファン・エイク','Hans Memling':'ハンス・メムリング',
-  'Hieronymus Bosch':'ヒエロニムス・ボス','Pieter Bruegel the Elder':'ピーテル・ブリューゲル（父）',
   'Raphael':'ラファエロ','Titian':'ティツィアーノ','Caravaggio':'カラヴァッジョ',
-  'Leonardo da Vinci':'レオナルド・ダ・ヴィンチ','Sandro Botticelli':'サンドロ・ボッティチェッリ',
   'Francisco Goya':'フランシスコ・ゴヤ','Diego Velázquez':'ディエゴ・ベラスケス',
   'El Greco':'エル・グレコ','Jacques-Louis David':'ジャック＝ルイ・ダヴィッド',
   'Eugène Delacroix':'ウジェーヌ・ドラクロワ','Gustave Courbet':'ギュスターヴ・クールベ',
-  'Jean-François Millet':'ジャン＝フランソワ・ミレー',
   'William Turner':'ジョゼフ・マロード・ウィリアム・ターナー',
-  'John Constable':'ジョン・コンスタブル','Thomas Gainsborough':'トマス・ゲインズバラ',
   'John Singer Sargent':'ジョン・シンガー・サージェント',
   'Winslow Homer':'ウィンスロー・ホーマー','Emanuel Leutze':'エマニュエル・ロイツェ',
   'Thomas Cole':'トマス・コール','Frederic Edwin Church':'フレデリック・エドウィン・チャーチ',
-  'Georges-Pierre Seurat':'ジョルジュ・スーラ',
 };
 
-// ARTICキーワード検索クエリ（西洋絵画のみ）
-const ARTIC_QUERIES = [
-  'impressionist france oil painting',
-  'post impressionist oil painting',
-  'dutch golden age oil painting',
-  'italian renaissance oil painting',
-  'baroque european oil painting',
-  'french romantic realist painting',
-  'american landscape oil painting',
-  'portrait european oil painting',
-];
-
-// MET確認済み有名作品ID（画像・パブリックドメイン確認済み）
-const MET_FIXED = [
-  437881,436535,436528,436105,436282,437394,11417,435868,
-  436218,459055,437329,436947,438722,435650,437133,436305,
-  436121,435869,437984,459202,436524,437654,
+// バッチ1〜3: page1前半〜page2前半（確認済み）
+// バッチ4: page4〜8から取得した確実に使えるID 50件
+const ARTIC_IDS = [
+  // バッチ1 (page1 前半50件)
+  22,4758,161,7988,9018,9637,9024,11723,14591,14245,
+  14630,14664,16568,20530,21843,25099,24880,25108,25105,25102,
+  25113,25110,25129,25117,25115,26607,26561,28096,26720,28283,
+  30629,30368,30899,34231,32276,37900,36504,43244,41375,39920,
+  46230,47580,47141,48121,48064,48151,50116,48164,54415,52983,
+  // バッチ2 (page1 後半50件)
+  54418,55718,54424,61910,57703,55721,62181,61921,64507,62808,
+  64936,64520,68433,67428,75557,70593,79021,76890,79763,81555,
+  81235,83613,84092,87088,91610,90443,92194,92195,92196,92197,
+  92199,92198,94131,95654,103309,99512,113794,112100,109413,116525,
+  116448,117266,117059,116873,117491,121415,121412,121408,125547,121416,
+  // バッチ3 (page2 前半50件)
+  127982,127981,127984,127983,127987,127986,127990,127989,127988,130724,
+  127991,131466,130725,133852,131827,137125,137054,140604,137226,145243,
+  141111,146861,145876,147604,154238,154237,158412,160197,158483,160222,
+  190628,186418,190640,190629,196410,195381,200149,200003,201820,201819,
+  217155,221647,229377,228882,229950,236623,236545,237995,237997,237996,
+  // バッチ4 (page4〜8から確認済みID 50件)
+  229343,154496,111377,93811,93809,199002,180545,126981,198809,185162,
+  181719,74967,72801,36300,5375,119084,230193,120275,111629,61146,
+  61141,61139,52283,43774,656,239462,208143,188629,90589,86812,
+  75101,37716,148112,148111,28869,15468,12000,879,228827,223896,
+  111659,104094,104031,45356,16622,229406,229371,229363,229351,105213,
 ];
 
 const MET_DEPT_IDS = [11,14];
 
-function fetchJson(url,ms){if(!ms)ms=10000;return new Promise(function(resolve){var t=setTimeout(function(){resolve(null);},ms);var req=https.get(url,{headers:{'User-Agent':'meiga-bot/9.0'}},function(res){if(res.statusCode!==200){clearTimeout(t);res.resume();resolve(null);return;}var body='';res.on('data',function(d){body+=d;});res.on('end',function(){clearTimeout(t);try{resolve(JSON.parse(body));}catch(e){resolve(null);}});res.on('error',function(){clearTimeout(t);resolve(null);});});req.on('error',function(){clearTimeout(t);resolve(null);});});}
+function fetchJson(url,ms){if(!ms)ms=10000;return new Promise(function(resolve){var t=setTimeout(function(){resolve(null);},ms);var req=https.get(url,{headers:{'User-Agent':'meiga-bot/8.0'}},function(res){if(res.statusCode!==200){clearTimeout(t);res.resume();resolve(null);return;}var body='';res.on('data',function(d){body+=d;});res.on('end',function(){clearTimeout(t);try{resolve(JSON.parse(body));}catch(e){resolve(null);}});res.on('error',function(){clearTimeout(t);resolve(null);});});req.on('error',function(){clearTimeout(t);resolve(null);});});}
 function sleep(ms){return new Promise(function(r){setTimeout(r,ms);});}
 function shuffle(a){return a.slice().sort(function(){return Math.random()-0.5;});}
 function jt(en){return TITLE_JA[en]||en;}
@@ -139,46 +109,25 @@ function toMET(d){if(!d||!d.isPublicDomain||!d.primaryImageSmall||!d.objectID)re
 function toARTIC(d){if(!d||!d.is_public_domain||!d.image_id||!d.id)return null;var ar=(d.artist_display||'').split('\n')[0].replace(/\s*\([^)]*\)/g,'').split(',')[0].trim();var id='artic-'+d.id;return{id:id,title:jt(d.title||'無題'),artist:ja(ar),year:d.date_end||0,century:cy(d.date_end),museum:'シカゴ美術館',museumUrl:'https://www.artic.edu/artworks/'+d.id,image:'https://www.artic.edu/iiif/2/'+d.image_id+'/full/843,/0/default.jpg',wikiUrl:WIKI[id]||null};}
 
 async function main(){
-  console.log('=== fetch-paintings.js v9 ===');
+  console.log('=== fetch-paintings.js v8 ===');
   var flds='id,title,artist_display,date_end,image_id,is_public_domain';
-
-  // ARTIC: キーワード検索で西洋絵画ID収集
-  console.log('[ARTIC] キーワード検索中...');
-  var searchResults = await Promise.all(ARTIC_QUERIES.map(function(q){
-    var url=ARTIC+'/artworks/search?q='+encodeURIComponent(q)+'&query[term][is_public_domain]=true&query[term][artwork_type_title]=Painting&fields=id&limit=25';
-    return fetchJson(url,15000);
-  }));
-  var articIds=Array.from(new Set(searchResults.reduce(function(acc,r){return acc.concat((r&&r.data||[]).map(function(p){return p.id;}));},[])));
-  console.log('[ARTIC] IDプール: '+articIds.length+'件');
-
-  // 50件ずつバッチ取得
   var artic=[];
-  for(var a=0;a<articIds.length;a+=50){
-    var ids=articIds.slice(a,a+50);
+  for(var a=0;a<ARTIC_IDS.length;a+=50){
+    var ids=[...new Set(ARTIC_IDS.slice(a,a+50))];
     var r=await fetchJson(ARTIC+'/artworks?ids='+ids.join(',')+'&fields='+flds+'&limit=50',15000);
     var v=((r&&r.data)||[]).map(toARTIC).filter(Boolean);
     artic=artic.concat(v);
     console.log('[ARTIC] バッチ'+(Math.floor(a/50)+1)+': '+v.length+'件 累計:'+artic.length);
   }
-
-  // MET固定有名作品
-  console.log('[MET] 固定ID '+MET_FIXED.length+'件取得中...');
-  var metFixed=await Promise.all(MET_FIXED.map(function(id){return fetchJson(MET+'/objects/'+id,8000);}));
-  var met=metFixed.map(toMET).filter(Boolean);
-  console.log('[MET] 固定: '+met.length+'件');
-
-  // MET部門からランダム追加
   var dr=await Promise.all(MET_DEPT_IDS.map(function(id){return fetchJson(MET+'/objects?departmentIds='+id,30000);}));
   var mids=Array.from(new Set(dr.reduce(function(acc,r){return acc.concat((r&&r.objectIDs)||[]);},[])));
   var picked=shuffle(mids).slice(0,25);
   var mr=await Promise.all(picked.map(function(id){return fetchJson(MET+'/objects/'+id,8000);}));
-  met=met.concat(mr.map(toMET).filter(Boolean));
-  console.log('[MET] 合計: '+met.length+'件');
-
+  var met=mr.map(toMET).filter(Boolean);
+  console.log('[MET] '+met.length+'件');
   var seen=new Set();
   var all=artic.concat(met).filter(function(p){if(seen.has(p.id))return false;seen.add(p.id);return true;});
   console.log('=== 合計: '+all.length+'件 ===');
-
   var od=path.join(__dirname,'..','public');
   if(!fs.existsSync(od))fs.mkdirSync(od,{recursive:true});
   var op=path.join(od,'paintings.json');
