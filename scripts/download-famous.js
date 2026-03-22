@@ -6,7 +6,7 @@ const fs   = require('fs');
 const path = require('path');
 const https = require('https');
 
-const OUT_IMG  = path.join(__dirname, '..', 'public', 'images', 'famous');
+const OUT_IMG  = path.join(__dirname, '..', 'images', 'famous');
 const OUT_JSON = path.join(__dirname, '..', 'public', 'famous100.json');
 
 if (!fs.existsSync(OUT_IMG)) fs.mkdirSync(OUT_IMG, { recursive: true });
