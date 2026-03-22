@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// fetch-paintings.js  v29
+// fetch-paintings.js  v30
 // ARTIC 750件投入（日本美術・非絵画フィルター込み） → 目標500件
 // 版権: MET・ARTIC ともにCC0（商用含む完全自由）確認済み
 
@@ -189,7 +189,7 @@ const ARTIC_IDS = [
 
 const MET_DEPT_IDS = [11,14];
 
-function fetchJson(url,ms){if(!ms)ms=10000;return new Promise(function(resolve){var t=setTimeout(function(){resolve(null);},ms);var req=https.get(url,{headers:{'User-Agent':'meiga-bot/29.0'}},function(res){if(res.statusCode!==200){clearTimeout(t);res.resume();resolve(null);return;}var body='';res.on('data',function(d){body+=d;});res.on('end',function(){clearTimeout(t);try{resolve(JSON.parse(body));}catch(e){resolve(null);}});res.on('error',function(){clearTimeout(t);resolve(null);});});req.on('error',function(){clearTimeout(t);resolve(null);});});}
+function fetchJson(url,ms){if(!ms)ms=10000;return new Promise(function(resolve){var t=setTimeout(function(){resolve(null);},ms);var req=https.get(url,{headers:{'User-Agent':'meiga-bot/30.0'}},function(res){if(res.statusCode!==200){clearTimeout(t);res.resume();resolve(null);return;}var body='';res.on('data',function(d){body+=d;});res.on('end',function(){clearTimeout(t);try{resolve(JSON.parse(body));}catch(e){resolve(null);}});res.on('error',function(){clearTimeout(t);resolve(null);});});req.on('error',function(){clearTimeout(t);resolve(null);});});}
 function sleep(ms){return new Promise(function(r){setTimeout(r,ms);});}
 function shuffle(a){return a.slice().sort(function(){return Math.random()-0.5;});}
 function jt(en){return TITLE_JA[en]||en;}
@@ -261,7 +261,7 @@ function toARTIC(d){
 }
 
 async function main(){
-  console.log('=== fetch-paintings.js v29 ===');
+  console.log('=== fetch-paintings.js v30 ===');
   var flds='id,title,artist_display,date_end,image_id,is_public_domain,medium_display';
   var artic=[];
   var uniqueIds=[...new Set(ARTIC_IDS)];
@@ -274,6 +274,16 @@ async function main(){
     console.log('[ARTIC] バッチ'+(Math.floor(a/50)+1)+': '+v.length+'件 累計:'+artic.length);
   }
   console.log('[ARTIC] 合計: '+artic.length+'件');
+
+  // ARTIC有名作家を個別に確実取得（バッチで弾かれる対策）
+  var ARTIC_FAMOUS=[27943,19339,60812,16496,34461];  // ゴーギャン
+  var articFamousData=await Promise.all(ARTIC_FAMOUS.map(function(id){
+    return fetchJson(ARTIC+'/artworks/'+id+'?fields=id,title,artist_display,date_end,image_id,is_public_domain,medium_display',8000)
+      .then(function(r){return r&&r.data?r.data:null;});
+  }));
+  var articFamousFiltered=articFamousData.map(toARTIC).filter(Boolean);
+  console.log('[ARTIC Famous] '+articFamousFiltered.length+'件');
+  artic=artic.concat(articFamousFiltered);
 
   // MET有名作家固定ID（確認済み: pd=true, 画像あり）
   var met=[];
