@@ -75,7 +75,13 @@
   if (skipGuide) {
     hideGuide();
   } else {
-    showGuide();
+    // hidden状態からtransitionなしで即表示（フレームを1つ待つ）
+    setTimeout(() => {
+      guide.style.transition = 'none';
+      showGuide();
+      void guide.offsetWidth;
+      guide.style.transition = '';
+    }, 0);
   }
 
   // ── ホーム画面追加バナー ────────────────────────────────────

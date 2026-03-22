@@ -813,30 +813,71 @@ body{font-family:'Cormorant Garamond','Noto Serif JP',Georgia,serif}
 
 <script src="./app.js"></script>
 <script>
-/* ピンチズーム for lightbox */
+/* ピンチズーム＋パン for lightbox */
 (function(){
-  var lb=document.getElementById('lightbox');
-  var img=document.getElementById('lb-img');
-  if(!lb||!img)return;
-  var scale=1,startDist=0,startScale=1;
-  function dist(t){var dx=t[0].clientX-t[1].clientX,dy=t[0].clientY-t[1].clientY;return Math.sqrt(dx*dx+dy*dy);}
-  lb.addEventListener('touchstart',function(e){
-    if(e.touches.length===2){e.preventDefault();startDist=dist(e.touches);startScale=scale;}
-  },{passive:false});
-  lb.addEventListener('touchmove',function(e){
+  var lb  = document.getElementById('lightbox');
+  var img = document.getElementById('lb-img');
+  if(!lb||!img) return;
+
+  var scale=1, tx=0, ty=0;
+  var startDist=0, startScale=1;
+  var startTx=0, startTy=0;
+  var panStartX=0, panStartY=0;
+  var isPanning=false;
+
+  function dist(t){ var dx=t[0].clientX-t[1].clientX, dy=t[0].clientY-t[1].clientY; return Math.sqrt(dx*dx+dy*dy); }
+  function midpoint(t){ return { x:(t[0].clientX+t[1].clientX)/2, y:(t[0].clientY+t[1].clientY)/2 }; }
+
+  function applyTransform(){
+    img.style.transform = 'scale('+scale+') translate('+tx+'px,'+ty+'px)';
+    img.style.transformOrigin = 'center center';
+  }
+
+  function resetTransform(){
+    scale=1; tx=0; ty=0;
+    img.style.transform = '';
+  }
+
+  lb.addEventListener('touchstart', function(e){
     if(e.touches.length===2){
       e.preventDefault();
-      var d=dist(e.touches);
-      scale=Math.min(Math.max(startScale*(d/startDist),1),4);
-      img.style.transform='scale('+scale+')';
-      img.style.transformOrigin='center center';
+      startDist  = dist(e.touches);
+      startScale = scale;
+      startTx    = tx;
+      startTy    = ty;
+      isPanning  = false;
+    } else if(e.touches.length===1 && scale>1.05){
+      isPanning  = true;
+      panStartX  = e.touches[0].clientX - tx*scale;
+      panStartY  = e.touches[0].clientY - ty*scale;
     }
   },{passive:false});
-  lb.addEventListener('touchend',function(e){
-    if(e.touches.length<2&&scale<1.05){scale=1;img.style.transform='scale(1)';}
+
+  lb.addEventListener('touchmove', function(e){
+    if(e.touches.length===2){
+      e.preventDefault();
+      var d = dist(e.touches);
+      scale = Math.min(Math.max(startScale*(d/startDist), 1), 4);
+      applyTransform();
+    } else if(e.touches.length===1 && isPanning && scale>1.05){
+      e.preventDefault();
+      tx = (e.touches[0].clientX - panStartX) / scale;
+      ty = (e.touches[0].clientY - panStartY) / scale;
+      applyTransform();
+    }
+  },{passive:false});
+
+  lb.addEventListener('touchend', function(e){
+    if(e.touches.length < 2) isPanning = false;
+    if(e.touches.length===0 && scale < 1.05) resetTransform();
   });
-  var lbClose=document.getElementById('lb-close');
-  if(lbClose)lbClose.addEventListener('click',function(){scale=1;img.style.transform='scale(1)';});
+
+  // 閉じたらリセット
+  var lbClose = document.getElementById('lb-close');
+  if(lbClose) lbClose.addEventListener('click', resetTransform);
+  lb.addEventListener('click', function(e){
+    if(e.target.id==='lightbox') resetTransform();
+  });
 })();
 </script>
 </body>
