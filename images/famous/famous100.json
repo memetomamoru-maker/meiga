@@ -75,7 +75,7 @@
       "century": "16世紀",
       "theme": "歴史画",
       "museum": "バチカン美術館",
-      "museumUrl": "https://www.museivaticani.va",
+      "museumUrl": "https://www.museivaticani.va/content/museivaticani/en/collezioni/musei/stanze-di-raffaello/stanza-della-segnatura/scuola-di-atene.html",
       "wikiUrl": "https://ja.wikipedia.org/wiki/アテナイの学堂",
       "image": "/images/famous/school_of_athens.jpg",
       "isFamous": true
@@ -166,7 +166,7 @@
       "century": "17世紀",
       "theme": "宗教画",
       "museum": "国立古代美術館",
-      "museumUrl": "https://www.barberinicorsini.org",
+      "museumUrl": "https://barberinicorsini.org/en/opera/judith-beheading-holofernes/",
       "wikiUrl": "https://ja.wikipedia.org/wiki/ホロフェルネスの首を斬るユディト_(カラヴァッジョ)",
       "image": "/images/famous/judith_holofernes.jpg",
       "isFamous": true
@@ -192,7 +192,7 @@
       "century": "19世紀",
       "theme": "人物画",
       "museum": "プラド美術館",
-      "museumUrl": "https://www.museodelprado.es",
+      "museumUrl": "https://ja.wikipedia.org/wiki/裸のマハ",
       "wikiUrl": "https://ja.wikipedia.org/wiki/裸のマハ",
       "image": "/images/famous/maja_desnuda.jpg",
       "isFamous": true
@@ -244,7 +244,7 @@
       "century": "19世紀",
       "theme": "風景画",
       "museum": "ハンブルク美術館",
-      "museumUrl": "https://www.hamburger-kunsthalle.de",
+      "museumUrl": "https://www.hamburger-kunsthalle.de/sammlung-online/caspar-david-friedrich/wanderer-ueber-dem-nebelmeer",
       "wikiUrl": "https://ja.wikipedia.org/wiki/カスパー・ダーヴィト・フリードリヒ",
       "image": "/images/famous/wanderer_fog.jpg",
       "isFamous": true
@@ -283,7 +283,7 @@
       "century": "19世紀",
       "theme": "風景画",
       "museum": "マルモッタン・モネ美術館",
-      "museumUrl": "https://www.marmottan.fr",
+      "museumUrl": "https://ja.wikipedia.org/wiki/印象・日の出",
       "wikiUrl": "https://ja.wikipedia.org/wiki/印象・日の出",
       "image": "/images/famous/impression_sunrise.jpg",
       "isFamous": true
@@ -335,7 +335,7 @@
       "century": "19世紀",
       "theme": "日常",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu",
+      "museumUrl": "https://www.artic.edu/artworks/27992/a-sunday-on-la-grande-jatte-1884",
       "wikiUrl": "https://ja.wikipedia.org/wiki/グランド・ジャット島の日曜日の午後",
       "image": "/images/famous/grande_jatte.jpg",
       "isFamous": true
@@ -452,7 +452,7 @@
       "century": "19世紀",
       "theme": "人物画",
       "museum": "ノルウェー国立美術館",
-      "museumUrl": "https://www.nasjonalmuseet.no",
+      "museumUrl": "https://www.nasjonalmuseet.no/en/collection/object/NG.M.00939",
       "wikiUrl": "https://ja.wikipedia.org/wiki/叫び_(エドヴァルド・ムンク)",
       "image": "/images/famous/the_scream.jpg",
       "isFamous": true
@@ -465,7 +465,7 @@
       "century": "20世紀",
       "theme": "人物画",
       "museum": "ベルヴェデーレ宮殿",
-      "museumUrl": "https://www.belvedere.at",
+      "museumUrl": "https://www.belvedere.at/en/kiss-gustav-klimt",
       "wikiUrl": "https://ja.wikipedia.org/wiki/接吻_(クリムト)",
       "image": "/images/famous/kiss_klimt.jpg",
       "isFamous": true
@@ -491,7 +491,7 @@
       "century": "20世紀",
       "theme": "人物画",
       "museum": "ノイエ・ギャラリー",
-      "museumUrl": "https://www.neuegalerie.org",
+      "museumUrl": "https://ja.wikipedia.org/wiki/アデーレ・ブロッホ＝バウアーの肖像_I",
       "wikiUrl": "https://ja.wikipedia.org/wiki/アデーレ・ブロッホ＝バウアーの肖像_I",
       "image": "/images/famous/adele_klimt.jpg",
       "isFamous": true
@@ -504,7 +504,7 @@
       "century": "19世紀",
       "theme": "歴史画",
       "museum": "メトロポリタン美術館",
-      "museumUrl": "https://www.metmuseum.org",
+      "museumUrl": "https://ja.wikipedia.org/wiki/デラウェア川を渡るワシントン",
       "wikiUrl": "https://ja.wikipedia.org/wiki/デラウェア川を渡るワシントン",
       "image": "/images/famous/washington_crossing.jpg",
       "isFamous": true
@@ -569,7 +569,7 @@
       "century": "17世紀",
       "theme": "人物画",
       "museum": "マウリッツハイス美術館",
-      "museumUrl": "https://www.mauritshuis.nl",
+      "museumUrl": "https://ja.wikipedia.org/wiki/テュルプ博士の解剖学講義",
       "wikiUrl": "https://ja.wikipedia.org/wiki/テュルプ博士の解剖学講義",
       "image": "/images/famous/anatomy_lesson.jpg",
       "isFamous": true
@@ -582,7 +582,7 @@
       "century": "19世紀",
       "theme": "日常",
       "museum": "ボストン美術館",
-      "museumUrl": "https://www.mfa.org",
+      "museumUrl": "https://ja.wikipedia.org/wiki/メアリー・カサット",
       "wikiUrl": "https://ja.wikipedia.org/wiki/メアリー・カサット",
       "image": "/images/famous/persistence_memory.jpg",
       "isFamous": true
@@ -595,7 +595,7 @@
       "century": "19世紀",
       "theme": "日常",
       "museum": "ナショナル・ギャラリー",
-      "museumUrl": "https://www.nationalgallery.org.uk",
+      "museumUrl": "https://ja.wikipedia.org/wiki/ベルト・モリゾ",
       "wikiUrl": "https://ja.wikipedia.org/wiki/ベルト・モリゾ",
       "image": "/images/famous/morisot_summer.jpg",
       "isFamous": true
@@ -634,7 +634,7 @@
       "century": "20世紀",
       "theme": "幻想",
       "museum": "バーゼル美術館",
-      "museumUrl": "https://kunstmuseumbasel.ch",
+      "museumUrl": "https://ja.wikipedia.org/wiki/パウル・クレー",
       "wikiUrl": "https://ja.wikipedia.org/wiki/パウル・クレー",
       "image": "/images/famous/senecio_klee.jpg",
       "isFamous": true
