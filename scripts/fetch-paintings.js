@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// fetch-paintings.js  v25
+// fetch-paintings.js  v26
 // ARTIC 750件投入（日本美術・非絵画フィルター込み） → 目標500件
 // 版権: MET・ARTIC ともにCC0（商用含む完全自由）確認済み
 
@@ -189,7 +189,7 @@ const ARTIC_IDS = [
 
 const MET_DEPT_IDS = [11,14];
 
-function fetchJson(url,ms){if(!ms)ms=10000;return new Promise(function(resolve){var t=setTimeout(function(){resolve(null);},ms);var req=https.get(url,{headers:{'User-Agent':'meiga-bot/25.0'}},function(res){if(res.statusCode!==200){clearTimeout(t);res.resume();resolve(null);return;}var body='';res.on('data',function(d){body+=d;});res.on('end',function(){clearTimeout(t);try{resolve(JSON.parse(body));}catch(e){resolve(null);}});res.on('error',function(){clearTimeout(t);resolve(null);});});req.on('error',function(){clearTimeout(t);resolve(null);});});}
+function fetchJson(url,ms){if(!ms)ms=10000;return new Promise(function(resolve){var t=setTimeout(function(){resolve(null);},ms);var req=https.get(url,{headers:{'User-Agent':'meiga-bot/26.0'}},function(res){if(res.statusCode!==200){clearTimeout(t);res.resume();resolve(null);return;}var body='';res.on('data',function(d){body+=d;});res.on('end',function(){clearTimeout(t);try{resolve(JSON.parse(body));}catch(e){resolve(null);}});res.on('error',function(){clearTimeout(t);resolve(null);});});req.on('error',function(){clearTimeout(t);resolve(null);});});}
 function sleep(ms){return new Promise(function(r){setTimeout(r,ms);});}
 function shuffle(a){return a.slice().sort(function(){return Math.random()-0.5;});}
 function jt(en){return TITLE_JA[en]||en;}
@@ -248,7 +248,7 @@ function toARTIC(d){
   if(isNonPaintingTitle(d.title))return null;
   if(!isMediumOk(d.medium_display))return null;
   // 確認済み非絵画IDをブラックリスト除外
-  var BLACKLIST=[30629,46230,117059,116873,46271,31955,36730,36590,36172,36487,36860,10482,36485];
+  var BLACKLIST=[30629,46230,117059,116873,46271,31955,36730,36590,36172,36487,36860,10482,36485,11223,11222,49197];
   if(BLACKLIST.indexOf(d.id)>=0)return null;
   var ar=(d.artist_display||'').split('\n')[0].replace(/\s*\([^)]*\)/g,'').split(',')[0].trim();
   // 日本美術を除外
@@ -259,7 +259,7 @@ function toARTIC(d){
 }
 
 async function main(){
-  console.log('=== fetch-paintings.js v25 ===');
+  console.log('=== fetch-paintings.js v26 ===');
   var flds='id,title,artist_display,date_end,image_id,is_public_domain,medium_display';
   var artic=[];
   var uniqueIds=[...new Set(ARTIC_IDS)];
