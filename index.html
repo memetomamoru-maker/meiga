@@ -286,18 +286,23 @@ body{font-family:'Cormorant Garamond','Noto Serif JP',Georgia,serif}
 @keyframes hb{0%{transform:scale(1)}22%{transform:scale(1.4)}44%{transform:scale(.88)}66%{transform:scale(1.14)}100%{transform:scale(1)}}
 .hrtbtn.bt #hico{animation:hb .45s ease forwards}
 
-/* クレジット行 */
-.ab-credit{
-  display:flex;align-items:center;justify-content:center;
-  padding:0 14px 8px;gap:6px;
+/* ドロワー内 copyright */
+.fd-credit{
+  padding:10px 18px 14px;
+  border-top:1px solid rgba(200,160,80,.08);
+  text-align:center;
+  flex-shrink:0;
 }
-.ab-credit a{
-  font-size:8px;color:rgba(160,128,96,.4);letter-spacing:.12em;
-  font-family:'EB Garamond',serif;font-style:italic;text-decoration:none;
+.fd-credit-link{
+  font-size:11px;
+  font-family:'EB Garamond',serif;
+  font-style:italic;
+  letter-spacing:.12em;
+  color:rgba(160,128,96,.5);
+  text-decoration:none;
   transition:color .18s;
 }
-.ab-credit a:hover{color:var(--gold-l)}
-.ab-credit-sep{color:rgba(160,128,96,.3);font-size:8px}
+.fd-credit-link:hover{color:var(--gold-l)}
 
 /* ── トースト ── */
 #toast{
@@ -705,11 +710,7 @@ body{font-family:'Cormorant Garamond','Noto Serif JP',Georgia,serif}
         </button>
       </div>
     </div>
-    <div class="ab-credit">
-      <a href="https://note.com/memetomamoru" target="_blank" rel="noopener">芽芽斗守</a>
-      <span class="ab-credit-sep">·</span>
-      <a href="https://note.com/memetomamoru" target="_blank" rel="noopener">note.com/memetomamoru</a>
-    </div>
+
   </div>
 
   <div id="toast"></div>
@@ -726,6 +727,11 @@ body{font-family:'Cormorant Garamond','Noto Serif JP',Georgia,serif}
       <div class="fd-footer">
         <div class="fd-cnt" id="fd-cnt-label">全作品を表示中</div>
         <button class="fd-reset" id="fd-reset-btn" disabled>リセット</button>
+      </div>
+      <div class="fd-credit">
+        <a href="https://note.com/memetomamoru" target="_blank" rel="noopener" class="fd-credit-link">
+          © <span id="copy-year"></span> memetomamoru
+        </a>
       </div>
     </div>
   </div>
