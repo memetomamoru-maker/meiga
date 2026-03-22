@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// fetch-paintings.js  v16
+// fetch-paintings.js  v20
 // ARTIC 750件投入（日本美術・非絵画フィルター込み） → 目標500件
 // 版権: MET・ARTIC ともにCC0（商用含む完全自由）確認済み
 
@@ -182,11 +182,14 @@ const ARTIC_IDS = [
   100351,59847,14624,6005,144969,895,87643,25865,64996,5848,14572,84709,14586,51130,39560,79349,16564,138,889,15708,19336,4796,28862,25812,20579,154121,81535,16549,81539,109314,191564,44739,116101,4783,16554,81533,103139,8980,44017,57996,20545,44742,111656,65811,16499,65916,14556,193664,16584,15705,
   27949,97933,8969,16544,62042,59002,15401,4887,44892,133859,27984,20701,95183,877,885,64957,13487,81557,81545,111318,14574,20535,663,110782,62460,71573,4749,2166,146701,160030,62371,86998,16617,117700,65925,65920,65930,66042,4575,24684,111617,53495,20199,95998,886,497,16347,61616,8953,110507,
   110673,100350,887,23972,100342,111649,27764,110242,16327,184371,897,119264,21682,864,43211,27310,16362,22857,893,81503,109435,65891,111404,111447,16380,16377,22880,111450,16500,97937,111448,16484,65875,16340,111441,81467,16621,111407,64969,80082,4586,107114,60292,60296,60290,16610,16613,107106,107110,107112,
+  // バッチ12（oil on canvas検索page4-8 確認済み追加100件）
+  896,64920,95654,867,81512,153799,16551,28849,65509,18951,16398,14561,57051,64724,87467,111317,21934,873,512,44018,65821,14591,14650,76571,100191,81505,57048,93394,81551,81546,75507,111559,59927,45240,97910,81566,27307,14634,5349,110541,96559,100352,84076,879,111620,21907,14647,14630,111059,16600,
+  26650,68792,16622,5304,8987,80499,64489,51577,890,25832,109926,120172,67362,109938,100829,16560,16488,16629,11434,111623,27138,59798,153798,891,4758,72801,110867,20530,65845,44816,16579,109220,111428,81552,17161,27987,87515,110663,88632,81548,39542,111736,222002,81540,45829,57050,16633,64729,2179,16542,
 ];
 
 const MET_DEPT_IDS = [11,14];
 
-function fetchJson(url,ms){if(!ms)ms=10000;return new Promise(function(resolve){var t=setTimeout(function(){resolve(null);},ms);var req=https.get(url,{headers:{'User-Agent':'meiga-bot/16.0'}},function(res){if(res.statusCode!==200){clearTimeout(t);res.resume();resolve(null);return;}var body='';res.on('data',function(d){body+=d;});res.on('end',function(){clearTimeout(t);try{resolve(JSON.parse(body));}catch(e){resolve(null);}});res.on('error',function(){clearTimeout(t);resolve(null);});});req.on('error',function(){clearTimeout(t);resolve(null);});});}
+function fetchJson(url,ms){if(!ms)ms=10000;return new Promise(function(resolve){var t=setTimeout(function(){resolve(null);},ms);var req=https.get(url,{headers:{'User-Agent':'meiga-bot/20.0'}},function(res){if(res.statusCode!==200){clearTimeout(t);res.resume();resolve(null);return;}var body='';res.on('data',function(d){body+=d;});res.on('end',function(){clearTimeout(t);try{resolve(JSON.parse(body));}catch(e){resolve(null);}});res.on('error',function(){clearTimeout(t);resolve(null);});});req.on('error',function(){clearTimeout(t);resolve(null);});});}
 function sleep(ms){return new Promise(function(r){setTimeout(r,ms);});}
 function shuffle(a){return a.slice().sort(function(){return Math.random()-0.5;});}
 function jt(en){return TITLE_JA[en]||en;}
@@ -196,9 +199,39 @@ function cy(y){if(!y||y<=0)return'不明';if(y<=1700)return'〜17世紀';if(y<=1
 // isNonPainting → isNonPaintingTitle に統合済み
 
 function toMET(d){if(!d||!d.isPublicDomain||!d.primaryImageSmall||!d.objectID)return null;if(isNonPaintingTitle(d.title))return null;var id='met-'+d.objectID;return{id:id,title:jt(d.title||'無題'),artist:ja(d.artistDisplayName||d.artistAlphaSort||''),year:d.objectEndDate||0,century:cy(d.objectEndDate),museum:'メトロポリタン美術館',museumUrl:'https://www.metmuseum.org/art/collection/search/'+d.objectID,image:d.primaryImageSmall,wikiUrl:WIKI[id]||null};}
+// 絵画素材キーワード
+var PAINTING_MEDIA=['oil','watercolor','tempera','acrylic','gouache','fresco','encaustic','pastel','distemper','casein','enamel on','paint'];
+// 絵画には絶対使わない素材（実データで確認済み）
+// NG: wood/gold/ivory は「oil on wood panel」「gold leaf on panel」に含まれるので除外不可
+var NON_PAINTING_MEDIA=[
+  // 写真・版画
+  'photograph','gelatin','albumen','collotype','daguerreotype',
+  'lithograph','etching','engraving','woodblock','woodcut','drypoint',
+  'aquatint','mezzotint','screenprint',
+  // 金属工芸
+  'bronze','iron','steel','copper alloy','silver alloy','gilt copper',
+  'fritware','stoneware','earthenware','faience','majolica',
+  // ガラス・石
+  'blown glass','molded glass','rock crystal','marble','granite','limestone',
+  // テキスタイル（linen/silk単体は絵画の支持体にも使う → 「on linen」「on silk」なら除外しない）
+  'tapestry','embroidery','needlework','woven',
+];
+
+function isMediumOk(medium) {
+  if(!medium) return true; // mediumなしは通す（タイトルフィルターに任せる）
+  var m = medium.toLowerCase();
+  // 非絵画素材が含まれていたらNG
+  for(var i=0;i<NON_PAINTING_MEDIA.length;i++){if(m.includes(NON_PAINTING_MEDIA[i]))return false;}
+  return true;
+}
+
 function toARTIC(d){
   if(!d||!d.is_public_domain||!d.image_id||!d.id)return null;
   if(isNonPaintingTitle(d.title))return null;
+  if(!isMediumOk(d.medium_display))return null;
+  // 確認済み非絵画IDをブラックリスト除外
+  var BLACKLIST=[30629,46230,117059,116873,46271,31955,36730,36590,36172,36487,36860,10482,36485];
+  if(BLACKLIST.indexOf(d.id)>=0)return null;
   var ar=(d.artist_display||'').split('\n')[0].replace(/\s*\([^)]*\)/g,'').split(',')[0].trim();
   // 日本美術を除外
   var jaNames=['Hokusai','Hiroshige','Utamaro','Kuniyoshi','Kunisada','Toyokuni','Harunobu','Kiyonaga','Sharaku','Yoshitoshi','Utagawa','Kitagawa'];
@@ -208,8 +241,8 @@ function toARTIC(d){
 }
 
 async function main(){
-  console.log('=== fetch-paintings.js v16 ===');
-  var flds='id,title,artist_display,date_end,image_id,is_public_domain';
+  console.log('=== fetch-paintings.js v20 ===');
+  var flds='id,title,artist_display,date_end,image_id,is_public_domain,medium_display';
   var artic=[];
   var uniqueIds=[...new Set(ARTIC_IDS)];
   console.log('[ARTIC] ユニークID: '+uniqueIds.length+'件');
