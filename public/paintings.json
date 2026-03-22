@@ -1,9 +1,9 @@
 {
-  "generated": "2026-03-22T03:08:34.523Z",
-  "total": 357,
+  "generated": "2026-03-22T03:24:04.201Z",
+  "total": 358,
   "sources": {
-    "artic": 342,
-    "met": 15
+    "artic": 347,
+    "met": 11
   },
   "paintings": [
     {
@@ -3769,6 +3769,61 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-27943",
+      "title": "Mahana no atua (Day of the God)",
+      "artist": "ポール・ゴーギャン",
+      "year": 1894,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/27943",
+      "image": "https://www.artic.edu/iiif/2/a4bef587-48a4-d186-813d-f297441b1ab3/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-19339",
+      "title": "Arlésiennes (Mistral)",
+      "artist": "ポール・ゴーギャン",
+      "year": 1888,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/19339",
+      "image": "https://www.artic.edu/iiif/2/ae6ac285-6887-dd76-4570-d379c786dfae/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-60812",
+      "title": "Merahi metua no Tehamana (Tehamana Has Many Parents or The Ancestors of Tehamana)",
+      "artist": "ポール・ゴーギャン",
+      "year": 1893,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/60812",
+      "image": "https://www.artic.edu/iiif/2/48268fc7-2eb4-ded6-1293-e91f27b66478/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-16496",
+      "title": "No te aha oe riri (Why Are You Angry?)",
+      "artist": "ポール・ゴーギャン",
+      "year": 1896,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/16496",
+      "image": "https://www.artic.edu/iiif/2/2adb35ce-8e94-cda5-210e-b04d488bbdc8/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-34461",
+      "title": "Polynesian Woman with Children",
+      "artist": "ポール・ゴーギャン",
+      "year": 1901,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/34461",
+      "image": "https://www.artic.edu/iiif/2/cc5cdb81-14cf-27e9-eda8-94c08244ebaa/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "met-435876",
       "title": "Madame Cézanne (Hortense Fiquet, 1850–1922) in a Red Dress",
       "artist": "ポール・セザンヌ",
@@ -3846,91 +3901,47 @@
       "wikiUrl": null
     },
     {
-      "id": "met-437084",
-      "title": "Landscape with a Battle between Two Rams",
-      "artist": "Jan Miel",
-      "year": 1645,
+      "id": "met-437335",
+      "title": "Madonna and Child with Saints",
+      "artist": "Priamo della Quercia",
+      "year": 1467,
       "century": "〜17世紀",
       "museum": "メトロポリタン美術館",
-      "museumUrl": "https://www.metmuseum.org/art/collection/search/437084",
-      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP369419.jpg",
+      "museumUrl": "https://www.metmuseum.org/art/collection/search/437335",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/ep41.100.35.bw.R.jpg",
       "wikiUrl": null
     },
     {
-      "id": "met-443199",
-      "title": "Iskandarnama (Book of Alexander)",
-      "artist": "Nizami",
-      "year": 1791,
+      "id": "met-438103",
+      "title": "Campo Sant'Angelo, Venice",
+      "artist": "カナレット",
+      "year": 1739,
       "century": "18〜19世紀",
       "museum": "メトロポリタン美術館",
-      "museumUrl": "https://www.metmuseum.org/art/collection/search/443199",
-      "image": "https://images.metmuseum.org/CRDImages/is/web-large/sf89-2-2154-21r.jpg",
+      "museumUrl": "https://www.metmuseum.org/art/collection/search/438103",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-19650-001.jpg",
       "wikiUrl": null
     },
     {
-      "id": "met-435645",
-      "title": "聖母子",
-      "artist": "Jacopo Bellini",
-      "year": 1449,
-      "century": "〜17世紀",
-      "museum": "メトロポリタン美術館",
-      "museumUrl": "https://www.metmuseum.org/art/collection/search/435645",
-      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP255395.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "met-437582",
-      "title": "Robert Shurlock (1772–1847)",
-      "artist": "John Russell",
-      "year": 1801,
+      "id": "met-436963",
+      "title": "Strawberries",
+      "artist": "Edouard Manet",
+      "year": 1882,
       "century": "18〜19世紀",
       "museum": "メトロポリタン美術館",
-      "museumUrl": "https://www.metmuseum.org/art/collection/search/437582",
-      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP161648.jpg",
+      "museumUrl": "https://www.metmuseum.org/art/collection/search/436963",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/ep56.230.1.R.jpg",
       "wikiUrl": null
     },
     {
-      "id": "met-657683",
-      "title": "The Lamentation",
-      "artist": "Ludovico Mazzolino",
-      "year": 1516,
-      "century": "〜17世紀",
-      "museum": "メトロポリタン美術館",
-      "museumUrl": "https://www.metmuseum.org/art/collection/search/657683",
-      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP333085.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "met-437503",
-      "title": "Mrs. George Horsley (Charlotte Mary Talbot, died 1828)",
-      "artist": "John Westbrooke Chandler",
-      "year": 1807,
+      "id": "met-438381",
+      "title": "View from the Quai d'Orsay",
+      "artist": "Johan Barthold Jongkind",
+      "year": 1854,
       "century": "18〜19世紀",
       "museum": "メトロポリタン美術館",
-      "museumUrl": "https://www.metmuseum.org/art/collection/search/437503",
-      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP162149.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "met-436246",
-      "title": "Portrait of an Italian Woman",
-      "artist": "German Painter",
-      "year": 1599,
-      "century": "〜17世紀",
-      "museum": "メトロポリタン美術館",
-      "museumUrl": "https://www.metmuseum.org/art/collection/search/436246",
-      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP280389.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "met-437530",
-      "title": "Portrait of a Man, Possibly an Architect or Geographer",
-      "artist": "ピーテル・パウル・ルーベンス",
-      "year": 1597,
-      "century": "〜17世紀",
-      "museum": "メトロポリタン美術館",
-      "museumUrl": "https://www.metmuseum.org/art/collection/search/437530",
-      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DT8854.jpg",
+      "museumUrl": "https://www.metmuseum.org/art/collection/search/438381",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DT5338.jpg",
       "wikiUrl": null
     }
   ]
