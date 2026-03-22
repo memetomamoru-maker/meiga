@@ -1,9 +1,9 @@
 {
-  "generated": "2026-03-22T02:29:49.446Z",
-  "total": 349,
+  "generated": "2026-03-22T02:43:18.477Z",
+  "total": 348,
   "sources": {
-    "artic": 345,
-    "met": 4
+    "artic": 342,
+    "met": 6
   },
   "paintings": [
     {
@@ -909,28 +909,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-11223",
-      "title": "風景画",
-      "artist": "Unkoku Toeki",
-      "year": 1633,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/11223",
-      "image": "https://www.artic.edu/iiif/2/6a2db59c-5435-5b08-5d7e-dafa8a88b7e8/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-11222",
-      "title": "Landscapes",
-      "artist": "Unkoku Toeki",
-      "year": 1650,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/11222",
-      "image": "https://www.artic.edu/iiif/2/f6d1d37b-eb62-3f65-79cc-c4354ccbab21/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-278674",
       "title": "Toilette of the Law Clerk",
       "artist": "Philibert-Louis Debucourt",
@@ -972,17 +950,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/107939",
       "image": "https://www.artic.edu/iiif/2/68415b1d-baec-303a-1c09-4c6b7ccb575c/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-49197",
-      "title": "Album Page with Calligraphic Specimen",
-      "artist": "Attributed to Mir 'Ali Heravi",
-      "year": 1750,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/49197",
-      "image": "https://www.artic.edu/iiif/2/ec276c8a-607c-10a1-3538-007549884a95/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -3802,47 +3769,69 @@
       "wikiUrl": null
     },
     {
-      "id": "met-438665",
-      "title": "Pope Gregory XVI Visiting the Church of San Benedetto at Subiaco",
-      "artist": "Jean-François Montessuy",
-      "year": 1843,
+      "id": "met-436002",
+      "title": "Woman with a Parrot",
+      "artist": "ギュスターヴ・クールベ",
+      "year": 1866,
       "century": "18〜19世紀",
       "museum": "メトロポリタン美術館",
-      "museumUrl": "https://www.metmuseum.org/art/collection/search/438665",
-      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP169610.jpg",
+      "museumUrl": "https://www.metmuseum.org/art/collection/search/436002",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-17680-001.jpg",
       "wikiUrl": null
     },
     {
-      "id": "met-436693",
-      "title": "A Musical Gathering at the Court of the Elector Karl Albrecht of Bavaria",
-      "artist": "Peter Jacob Horemans",
-      "year": 1730,
-      "century": "18〜19世紀",
-      "museum": "メトロポリタン美術館",
-      "museumUrl": "https://www.metmuseum.org/art/collection/search/436693",
-      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-22706-001.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "met-436545",
-      "title": "Manuel Osorio Manrique de Zuñiga (1784–1792)",
-      "artist": "Goya",
-      "year": 1788,
-      "century": "18〜19世紀",
-      "museum": "メトロポリタン美術館",
-      "museumUrl": "https://www.metmuseum.org/art/collection/search/436545",
-      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP287624.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "met-437019",
-      "title": "Madonna and Child Enthroned",
-      "artist": "Master of Monte Oliveto",
-      "year": 1325,
+      "id": "met-436309",
+      "title": "Bearded Man with a Velvet Cap",
+      "artist": "Govert Flinck",
+      "year": 1645,
       "century": "〜17世紀",
       "museum": "メトロポリタン美術館",
-      "museumUrl": "https://www.metmuseum.org/art/collection/search/437019",
-      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP368117a.jpg",
+      "museumUrl": "https://www.metmuseum.org/art/collection/search/436309",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP136267.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "met-436772",
+      "title": "The Sheepfold",
+      "artist": "Charles Jacque",
+      "year": 1857,
+      "century": "18〜19世紀",
+      "museum": "メトロポリタン美術館",
+      "museumUrl": "https://www.metmuseum.org/art/collection/search/436772",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-22553-001.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "met-436965",
+      "title": "The Monet Family in Their Garden at Argenteuil",
+      "artist": "Edouard Manet",
+      "year": 1874,
+      "century": "18〜19世紀",
+      "museum": "メトロポリタン美術館",
+      "museumUrl": "https://www.metmuseum.org/art/collection/search/436965",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-25465-001.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "met-436985",
+      "title": "男性の肖像",
+      "artist": "Quinten Massys",
+      "year": 1530,
+      "century": "〜17世紀",
+      "museum": "メトロポリタン美術館",
+      "museumUrl": "https://www.metmuseum.org/art/collection/search/436985",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DT280221.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "met-450594",
+      "title": "Seated Dervish",
+      "artist": "作者不詳",
+      "year": 1599,
+      "century": "〜17世紀",
+      "museum": "メトロポリタン美術館",
+      "museumUrl": "https://www.metmuseum.org/art/collection/search/450594",
+      "image": "https://images.metmuseum.org/CRDImages/is/web-large/sf45-174-12-r.jpg",
       "wikiUrl": null
     }
   ]
