@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// fetch-paintings.js  v21
+// fetch-paintings.js  v22
 // ARTIC 750件投入（日本美術・非絵画フィルター込み） → 目標500件
 // 版権: MET・ARTIC ともにCC0（商用含む完全自由）確認済み
 
@@ -189,7 +189,7 @@ const ARTIC_IDS = [
 
 const MET_DEPT_IDS = [11,14];
 
-function fetchJson(url,ms){if(!ms)ms=10000;return new Promise(function(resolve){var t=setTimeout(function(){resolve(null);},ms);var req=https.get(url,{headers:{'User-Agent':'meiga-bot/21.0'}},function(res){if(res.statusCode!==200){clearTimeout(t);res.resume();resolve(null);return;}var body='';res.on('data',function(d){body+=d;});res.on('end',function(){clearTimeout(t);try{resolve(JSON.parse(body));}catch(e){resolve(null);}});res.on('error',function(){clearTimeout(t);resolve(null);});});req.on('error',function(){clearTimeout(t);resolve(null);});});}
+function fetchJson(url,ms){if(!ms)ms=10000;return new Promise(function(resolve){var t=setTimeout(function(){resolve(null);},ms);var req=https.get(url,{headers:{'User-Agent':'meiga-bot/22.0'}},function(res){if(res.statusCode!==200){clearTimeout(t);res.resume();resolve(null);return;}var body='';res.on('data',function(d){body+=d;});res.on('end',function(){clearTimeout(t);try{resolve(JSON.parse(body));}catch(e){resolve(null);}});res.on('error',function(){clearTimeout(t);resolve(null);});});req.on('error',function(){clearTimeout(t);resolve(null);});});}
 function sleep(ms){return new Promise(function(r){setTimeout(r,ms);});}
 function shuffle(a){return a.slice().sort(function(){return Math.random()-0.5;});}
 function jt(en){return TITLE_JA[en]||en;}
@@ -218,11 +218,14 @@ var NON_PAINTING_MEDIA=[
 ];
 
 function isMediumOk(medium) {
-  if(!medium) return true; // mediumなしは通す（タイトルフィルターに任せる）
+  // ポジティブフィルター: 絵具素材が含まれているものだけ通す
+  if(!medium) return false;
   var m = medium.toLowerCase();
-  // 非絵画素材が含まれていたらNG
-  for(var i=0;i<NON_PAINTING_MEDIA.length;i++){if(m.includes(NON_PAINTING_MEDIA[i]))return false;}
-  return true;
+  var OK=['oil on','oil and ','oil paint','watercolor','water color','gouache',
+    'tempera','fresco','secco','acrylic','pastel','encaustic','distemper',
+    'casein','paint on','painted on','painted in','ink on','brush and ink'];
+  for(var i=0;i<OK.length;i++){if(m.includes(OK[i]))return true;}
+  return false;
 }
 
 function toARTIC(d){
@@ -241,7 +244,7 @@ function toARTIC(d){
 }
 
 async function main(){
-  console.log('=== fetch-paintings.js v21 ===');
+  console.log('=== fetch-paintings.js v22 ===');
   var flds='id,title,artist_display,date_end,image_id,is_public_domain,medium_display';
   var artic=[];
   var uniqueIds=[...new Set(ARTIC_IDS)];
