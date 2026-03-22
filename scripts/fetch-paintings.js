@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// fetch-paintings.js  v23
+// fetch-paintings.js  v25
 // ARTIC 750件投入（日本美術・非絵画フィルター込み） → 目標500件
 // 版権: MET・ARTIC ともにCC0（商用含む完全自由）確認済み
 
@@ -189,7 +189,7 @@ const ARTIC_IDS = [
 
 const MET_DEPT_IDS = [11,14];
 
-function fetchJson(url,ms){if(!ms)ms=10000;return new Promise(function(resolve){var t=setTimeout(function(){resolve(null);},ms);var req=https.get(url,{headers:{'User-Agent':'meiga-bot/23.0'}},function(res){if(res.statusCode!==200){clearTimeout(t);res.resume();resolve(null);return;}var body='';res.on('data',function(d){body+=d;});res.on('end',function(){clearTimeout(t);try{resolve(JSON.parse(body));}catch(e){resolve(null);}});res.on('error',function(){clearTimeout(t);resolve(null);});});req.on('error',function(){clearTimeout(t);resolve(null);});});}
+function fetchJson(url,ms){if(!ms)ms=10000;return new Promise(function(resolve){var t=setTimeout(function(){resolve(null);},ms);var req=https.get(url,{headers:{'User-Agent':'meiga-bot/25.0'}},function(res){if(res.statusCode!==200){clearTimeout(t);res.resume();resolve(null);return;}var body='';res.on('data',function(d){body+=d;});res.on('end',function(){clearTimeout(t);try{resolve(JSON.parse(body));}catch(e){resolve(null);}});res.on('error',function(){clearTimeout(t);resolve(null);});});req.on('error',function(){clearTimeout(t);resolve(null);});});}
 function sleep(ms){return new Promise(function(r){setTimeout(r,ms);});}
 function shuffle(a){return a.slice().sort(function(){return Math.random()-0.5;});}
 function jt(en){return TITLE_JA[en]||en;}
@@ -198,7 +198,17 @@ function cy(y){if(!y||y<=0)return'不明';if(y<=1700)return'〜17世紀';if(y<=1
 
 // isNonPainting → isNonPaintingTitle に統合済み
 
-function toMET(d){if(!d||!d.isPublicDomain||!d.primaryImageSmall||!d.objectID)return null;if(isNonPaintingTitle(d.title))return null;var id='met-'+d.objectID;return{id:id,title:jt(d.title||'無題'),artist:ja(d.artistDisplayName||d.artistAlphaSort||''),year:d.objectEndDate||0,century:cy(d.objectEndDate),museum:'メトロポリタン美術館',museumUrl:'https://www.metmuseum.org/art/collection/search/'+d.objectID,image:d.primaryImageSmall,wikiUrl:WIKI[id]||null};}
+function toMET(d){
+  if(!d||!d.isPublicDomain||!d.primaryImageSmall||!d.objectID)return null;
+  if(isNonPaintingTitle(d.title))return null;
+  // classificationが明示的にPaintingsでない場合はmediumチェック
+  var cls=(d.classification||'').toLowerCase();
+  if(cls && cls!=='paintings' && !isMediumOk(d.medium))return null;
+  // classificationがPaintingsでも素材が明らかに非絵画なら除外
+  if(cls && cls!=='paintings' && cls!=='') {
+    var nonPaintingCls=['stone','metal','textile','ceramics','arms and armor','glass','jewelry','musical instruments','costume accessories'];
+    for(var i=0;i<nonPaintingCls.length;i++){if(cls.includes(nonPaintingCls[i]))return null;}
+  }var id='met-'+d.objectID;return{id:id,title:jt(d.title||'無題'),artist:ja(d.artistDisplayName||d.artistAlphaSort||''),year:d.objectEndDate||0,century:cy(d.objectEndDate),museum:'メトロポリタン美術館',museumUrl:'https://www.metmuseum.org/art/collection/search/'+d.objectID,image:d.primaryImageSmall,wikiUrl:WIKI[id]||null};}
 // 絵画素材キーワード
 var PAINTING_MEDIA=['oil','watercolor','tempera','acrylic','gouache','fresco','encaustic','pastel','distemper','casein','enamel on','paint'];
 // 絵画には絶対使わない素材（実データで確認済み）
@@ -249,7 +259,7 @@ function toARTIC(d){
 }
 
 async function main(){
-  console.log('=== fetch-paintings.js v23 ===');
+  console.log('=== fetch-paintings.js v25 ===');
   var flds='id,title,artist_display,date_end,image_id,is_public_domain,medium_display';
   var artic=[];
   var uniqueIds=[...new Set(ARTIC_IDS)];
