@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// fetch-paintings.js  v22
+// fetch-paintings.js  v23
 // ARTIC 750件投入（日本美術・非絵画フィルター込み） → 目標500件
 // 版権: MET・ARTIC ともにCC0（商用含む完全自由）確認済み
 
@@ -189,7 +189,7 @@ const ARTIC_IDS = [
 
 const MET_DEPT_IDS = [11,14];
 
-function fetchJson(url,ms){if(!ms)ms=10000;return new Promise(function(resolve){var t=setTimeout(function(){resolve(null);},ms);var req=https.get(url,{headers:{'User-Agent':'meiga-bot/22.0'}},function(res){if(res.statusCode!==200){clearTimeout(t);res.resume();resolve(null);return;}var body='';res.on('data',function(d){body+=d;});res.on('end',function(){clearTimeout(t);try{resolve(JSON.parse(body));}catch(e){resolve(null);}});res.on('error',function(){clearTimeout(t);resolve(null);});});req.on('error',function(){clearTimeout(t);resolve(null);});});}
+function fetchJson(url,ms){if(!ms)ms=10000;return new Promise(function(resolve){var t=setTimeout(function(){resolve(null);},ms);var req=https.get(url,{headers:{'User-Agent':'meiga-bot/23.0'}},function(res){if(res.statusCode!==200){clearTimeout(t);res.resume();resolve(null);return;}var body='';res.on('data',function(d){body+=d;});res.on('end',function(){clearTimeout(t);try{resolve(JSON.parse(body));}catch(e){resolve(null);}});res.on('error',function(){clearTimeout(t);resolve(null);});});req.on('error',function(){clearTimeout(t);resolve(null);});});}
 function sleep(ms){return new Promise(function(r){setTimeout(r,ms);});}
 function shuffle(a){return a.slice().sort(function(){return Math.random()-0.5;});}
 function jt(en){return TITLE_JA[en]||en;}
@@ -215,6 +215,11 @@ var NON_PAINTING_MEDIA=[
   'blown glass','molded glass','rock crystal','marble','granite','limestone',
   // テキスタイル（linen/silk単体は絵画の支持体にも使う → 「on linen」「on silk」なら除外しない）
   'tapestry','embroidery','needlework','woven',
+  // バッチ13（oil on canvas/panel検索 確認済み追加200件）
+  59784,81516,49651,51541,111730,110776,210893,27943,100489,94127,105887,53064,65937,93780,44829,150054,71191,97909,90333,36525,111418,10550,53213,70118,105600,44775,5502,159770,72180,156072,160031,16367,45267,110879,243872,27962,105604,87531,111746,2823,76212,102227,151108,64979,13745,111637,78591,11312,58984,88374,
+  110798,131884,100061,12888,15279,105462,2158,154495,61642,18743,95993,97884,12658,55621,50306,24315,117477,79586,110871,33212,20534,44826,46092,75974,81521,110561,71971,53061,59779,131407,22194,4896,111062,40549,160032,159722,31285,90024,31173,28857,19200,4092,75393,121628,81507,16490,72864,8097,19339,60812,
+  110872,15486,81519,64007,59858,55380,81562,5288,69003,49702,64754,51582,20597,39954,16494,198905,146272,72398,49422,139907,97890,79765,16496,97292,59809,69844,64740,217534,28136,156596,53067,69538,111632,4791,29395,79037,153797,120104,16376,27309,111657,86298,16648,81522,27163,16394,145808,93783,209942,235046,
+  15714,72375,24674,57854,111646,186425,60809,27170,96621,44831,60812,97903,64490,81528,111662,81508,85694,85674,81531,11301,64483,97388,16634,64745,105467,93791,71944,22186,53070,15394,111061,15393,15391,10553,186379,97895,64730,16644,16640,72862,186391,15719,8093,64975,16370,8089,81561,
 ];
 
 function isMediumOk(medium) {
@@ -244,7 +249,7 @@ function toARTIC(d){
 }
 
 async function main(){
-  console.log('=== fetch-paintings.js v22 ===');
+  console.log('=== fetch-paintings.js v23 ===');
   var flds='id,title,artist_display,date_end,image_id,is_public_domain,medium_display';
   var artic=[];
   var uniqueIds=[...new Set(ARTIC_IDS)];
