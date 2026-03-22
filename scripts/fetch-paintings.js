@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// fetch-paintings.js  v12
+// fetch-paintings.js  v14
 // ARTIC 750件投入（日本美術・非絵画フィルター込み） → 目標500件
 // 版権: MET・ARTIC ともにCC0（商用含む完全自由）確認済み
 
@@ -128,14 +128,33 @@ const ARTIST_JA = {
 
 // 絵画以外を除外するキーワード（タイトルに含まれていたら除外）
 const NON_PAINTING_KEYWORDS = [
+  // 器・陶器類
   'cup','vase','bowl','vessel','plate','jar','urn','jug','pitcher','flask',
-  'bust','statue','figurine','statuette','relief','coin','medal','medallion',
-  'textile','tapestry','embroidery','lace','fabric','weaving',
+  'ewer','bottle','cup','basin','censer','incense','teapot',
+  'celadon','porcelain','ceramic','glaze','stoneware','earthenware',
   'skyphos','kylix','amphora','krater','lekythos','oinochoe','pyxis',
-  'sculpture','carving','mask','helmet','armor','sword','dagger',
-  'print','woodblock','etching','engraving','lithograph',
-  'photograph','daguerreotype',
+  // 立体作品
+  'bust','statue','figurine','statuette','relief','sculpture','carving',
+  'mask','helmet','armor','sword','dagger','coin','medal','medallion',
+  // テキスタイル
+  'textile','tapestry','embroidery','lace','fabric','weaving',
+  // 版画・印刷物
+  'print','woodblock','etching','engraving','lithograph','photograph','daguerreotype',
+  'from views','from twelve','months of flowers','title page',
+  // 建築・風景版画（絵画でないもの）
+  'view of the villa','view of the remains','view of the grand',
+  'from views of rome','from views of',
 ];
+
+// タイトルが非絵画かチェック（部分一致）
+function isNonPaintingTitle(title) {
+  if (!title) return false;
+  var t = title.toLowerCase();
+  for (var i = 0; i < NON_PAINTING_KEYWORDS.length; i++) {
+    if (t.includes(NON_PAINTING_KEYWORDS[i])) return true;
+  }
+  return false;
+}
 
 // ARTIC 固定ID（バッチ1〜5: 349件 + バッチ6〜9: 新規400件 = 合計749件）
 const ARTIC_IDS = [
@@ -152,31 +171,29 @@ const ARTIC_IDS = [
   249071,74514,47947,249085,249083,249080,249079,249088,249084,249070,250775,250774,250773,249108,249106,249081,249078,250772,250771,249089,249087,249086,249082,249077,249074,249072,94133,236371,150059,91893,91376,30947,12829,229015,158608,111030,111436,109458,102080,55887,257989,186659,184108,105800,84553,65202,18754,189597,135681,
   94841,74646,18751,835,261733,261731,261730,261729,261728,261727,261726,261725,261724,261723,261722,261721,261720,261719,261718,261717,261716,261715,261714,261713,261712,261711,261710,261709,261708,261707,261706,261705,261704,261703,261702,261701,261700,261699,261698,261697,261696,261695,261694,261693,261692,261691,261690,261689,261688,261687,
   261686,261685,261684,261683,261682,261681,261680,261679,261678,261677,261676,261675,261674,261673,261672,261671,261670,261669,261668,261667,261666,261665,261664,261663,261662,261661,261660,261659,261658,261657,261656,261655,261654,261653,261652,261651,261650,261649,261648,261647,261646,261645,261644,261643,261642,261641,261640,261639,261638,261637,
+
+  // バッチ10 (page41〜60 新規200件)
+  160229,181478,185775,216794,250450,250453,250451,262117,265263,212830,129513,117310,2949,67012,67010,66996,66994,66985,66983,66980,66976,66973,66971,66969,67007,77063,274883,54793,248769,110663,20891,19109,23443,22553,23905,23868,24001,23941,25093,24393,88904,25761,110739,89685,88999,13690,13671,22938,22823,88295,
+  47519,36111,81083,77331,77328,81212,81185,81469,81216,130581,13192,150278,42068,197413,64447,13948,88612,90446,182994,76868,52244,11238,11223,11222,80175,12947,49000,257616,257677,257600,257561,130764,130756,257471,241788,130754,20016,20801,269865,279901,278674,269866,280905,279903,282836,281985,282838,282837,282843,282842,
+  282840,143474,143473,143476,143475,106557,64489,70551,74507,40616,47188,109228,49708,107939,93779,28881,59435,143469,143470,143471,143472,44610,143468,48657,106245,250533,275637,36730,36590,106240,36172,106243,36487,36860,10482,274552,149385,59097,106239,49197,131901,60426,16156,16159,131900,262319,43081,254135,108853,74699,
+  251175,106210,106209,275847,252362,275845,275843,275841,275839,275837,275835,275833,275831,275829,275827,252357,252356,252359,252358,36485,60543,106207,60497,74706,110648,74697,85665,85659,106205,110648,106203,60503,72992,60447,106204,60503,60499,60449,252354,252353,36480,252352,252351,36470,252350,252349,252348,252347,252346,252345,
 ];
 
 const MET_DEPT_IDS = [11,14];
 
-function fetchJson(url,ms){if(!ms)ms=10000;return new Promise(function(resolve){var t=setTimeout(function(){resolve(null);},ms);var req=https.get(url,{headers:{'User-Agent':'meiga-bot/12.0'}},function(res){if(res.statusCode!==200){clearTimeout(t);res.resume();resolve(null);return;}var body='';res.on('data',function(d){body+=d;});res.on('end',function(){clearTimeout(t);try{resolve(JSON.parse(body));}catch(e){resolve(null);}});res.on('error',function(){clearTimeout(t);resolve(null);});});req.on('error',function(){clearTimeout(t);resolve(null);});});}
+function fetchJson(url,ms){if(!ms)ms=10000;return new Promise(function(resolve){var t=setTimeout(function(){resolve(null);},ms);var req=https.get(url,{headers:{'User-Agent':'meiga-bot/14.0'}},function(res){if(res.statusCode!==200){clearTimeout(t);res.resume();resolve(null);return;}var body='';res.on('data',function(d){body+=d;});res.on('end',function(){clearTimeout(t);try{resolve(JSON.parse(body));}catch(e){resolve(null);}});res.on('error',function(){clearTimeout(t);resolve(null);});});req.on('error',function(){clearTimeout(t);resolve(null);});});}
 function sleep(ms){return new Promise(function(r){setTimeout(r,ms);});}
 function shuffle(a){return a.slice().sort(function(){return Math.random()-0.5;});}
 function jt(en){return TITLE_JA[en]||en;}
 function ja(en){if(!en)return'作者不詳';if(ARTIST_JA[en])return ARTIST_JA[en];var s=en.replace(/\s*\([^)]*\)/g,'').trim();return ARTIST_JA[s]||s||'作者不詳';}
 function cy(y){if(!y||y<=0)return'不明';if(y<=1700)return'〜17世紀';if(y<=1900)return'18〜19世紀';return'20世紀';}
 
-// 絵画以外を除外
-function isNonPainting(title) {
-  if (!title) return false;
-  var t = title.toLowerCase();
-  for (var i = 0; i < NON_PAINTING_KEYWORDS.length; i++) {
-    if (t.includes(NON_PAINTING_KEYWORDS[i])) return true;
-  }
-  return false;
-}
+// isNonPainting → isNonPaintingTitle に統合済み
 
-function toMET(d){if(!d||!d.isPublicDomain||!d.primaryImageSmall||!d.objectID)return null;if(isNonPainting(d.title))return null;var id='met-'+d.objectID;return{id:id,title:jt(d.title||'無題'),artist:ja(d.artistDisplayName||d.artistAlphaSort||''),year:d.objectEndDate||0,century:cy(d.objectEndDate),museum:'メトロポリタン美術館',museumUrl:'https://www.metmuseum.org/art/collection/search/'+d.objectID,image:d.primaryImageSmall,wikiUrl:WIKI[id]||null};}
+function toMET(d){if(!d||!d.isPublicDomain||!d.primaryImageSmall||!d.objectID)return null;if(isNonPaintingTitle(d.title))return null;var id='met-'+d.objectID;return{id:id,title:jt(d.title||'無題'),artist:ja(d.artistDisplayName||d.artistAlphaSort||''),year:d.objectEndDate||0,century:cy(d.objectEndDate),museum:'メトロポリタン美術館',museumUrl:'https://www.metmuseum.org/art/collection/search/'+d.objectID,image:d.primaryImageSmall,wikiUrl:WIKI[id]||null};}
 function toARTIC(d){
   if(!d||!d.is_public_domain||!d.image_id||!d.id)return null;
-  if(isNonPainting(d.title))return null;
+  if(isNonPaintingTitle(d.title))return null;
   var ar=(d.artist_display||'').split('\n')[0].replace(/\s*\([^)]*\)/g,'').split(',')[0].trim();
   // 日本美術を除外
   var jaNames=['Hokusai','Hiroshige','Utamaro','Kuniyoshi','Kunisada','Toyokuni','Harunobu','Kiyonaga','Sharaku','Yoshitoshi','Utagawa','Kitagawa'];
@@ -186,7 +203,7 @@ function toARTIC(d){
 }
 
 async function main(){
-  console.log('=== fetch-paintings.js v12 ===');
+  console.log('=== fetch-paintings.js v14 ===');
   var flds='id,title,artist_display,date_end,image_id,is_public_domain';
   var artic=[];
   var uniqueIds=[...new Set(ARTIC_IDS)];
