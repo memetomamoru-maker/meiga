@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// fetch-paintings.js  v31
+// fetch-paintings.js  v32
 // ARTIC 750件投入（日本美術・非絵画フィルター込み） → 目標500件
 // 版権: MET・ARTIC ともにCC0（商用含む完全自由）確認済み
 
@@ -187,9 +187,9 @@ const ARTIC_IDS = [
   26650,68792,16622,5304,8987,80499,64489,51577,890,25832,109926,120172,67362,109938,100829,16560,16488,16629,11434,111623,27138,59798,153798,891,4758,72801,110867,20530,65845,44816,16579,109220,111428,81552,17161,27987,87515,110663,88632,81548,39542,111736,222002,81540,45829,57050,16633,64729,2179,16542,
 ];
 
-const MET_DEPT_IDS = [11,14];
+// MET固定ID方式に変更（ランダム取得廃止）
 
-function fetchJson(url,ms){if(!ms)ms=10000;return new Promise(function(resolve){var t=setTimeout(function(){resolve(null);},ms);var req=https.get(url,{headers:{'User-Agent':'meiga-bot/31.0'}},function(res){if(res.statusCode!==200){clearTimeout(t);res.resume();resolve(null);return;}var body='';res.on('data',function(d){body+=d;});res.on('end',function(){clearTimeout(t);try{resolve(JSON.parse(body));}catch(e){resolve(null);}});res.on('error',function(){clearTimeout(t);resolve(null);});});req.on('error',function(){clearTimeout(t);resolve(null);});});}
+function fetchJson(url,ms){if(!ms)ms=10000;return new Promise(function(resolve){var t=setTimeout(function(){resolve(null);},ms);var req=https.get(url,{headers:{'User-Agent':'meiga-bot/32.0'}},function(res){if(res.statusCode!==200){clearTimeout(t);res.resume();resolve(null);return;}var body='';res.on('data',function(d){body+=d;});res.on('end',function(){clearTimeout(t);try{resolve(JSON.parse(body));}catch(e){resolve(null);}});res.on('error',function(){clearTimeout(t);resolve(null);});});req.on('error',function(){clearTimeout(t);resolve(null);});});}
 function sleep(ms){return new Promise(function(r){setTimeout(r,ms);});}
 function shuffle(a){return a.slice().sort(function(){return Math.random()-0.5;});}
 function jt(en){return TITLE_JA[en]||en;}
@@ -264,7 +264,7 @@ function toARTIC(d){
 }
 
 async function main(){
-  console.log('=== fetch-paintings.js v31 ===');
+  console.log('=== fetch-paintings.js v32 ===');
   var flds='id,title,artist_display,date_end,image_id,is_public_domain,medium_display';
   var artic=[];
   var uniqueIds=[...new Set(ARTIC_IDS)];
@@ -296,11 +296,14 @@ async function main(){
   console.log('[MET Famous] '+metFamous.length+'件');
   met=met.concat(metFamous);
 
-  var dr=await Promise.all(MET_DEPT_IDS.map(function(id){return fetchJson(MET+'/objects?departmentIds='+id,30000);}));
-  var mids=Array.from(new Set(dr.reduce(function(acc,r){return acc.concat((r&&r.objectIDs)||[]);},[])));
-  var picked=shuffle(mids).slice(0,25);
-  var mr=await Promise.all(picked.map(function(id){return fetchJson(MET+'/objects/'+id,8000);}));
-  met=met.concat(mr.map(toMET).filter(Boolean));
+  // MET追加確認済みID（classification=Paintings または medium確認済み）
+  var MET_EXTRA=[
+    437394, 436947, 437329, 436218, 459055, 436105, 436282, 11417, 435868, 437881,
+    436535, 436528, 438722, 435650, 437133, 436305, 436121, 435869, 437984, 459202,
+    436524, 437654, 436803,
+  ];
+  var metExtraData=await Promise.all(MET_EXTRA.map(function(id){return fetchJson(MET+'/objects/'+id,8000);}));
+  met=met.concat(metExtraData.map(toMET).filter(Boolean));
   console.log('[MET] '+met.length+'件');
 
   var seen=new Set();
