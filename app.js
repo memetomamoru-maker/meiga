@@ -321,20 +321,28 @@
     const p = queue[cursor];
     if (!p) return;
     abt.textContent = p.title;
-    // famousのフィールド確認済み: museumUrl と wikiUrl の両方が存在する
     const link = p.museumUrl || p.wikiUrl || null;
+    const linkIcon = document.getElementById('ab-link-icon');
     if (link) {
       abt.style.cursor = 'pointer';
       abt.title = '詳細を見る';
       abt.onclick = () => window.open(link, '_blank', 'noopener,noreferrer');
       abt.classList.add('abt-link');
+      if (linkIcon) linkIcon.style.display = 'block';
     } else {
       abt.style.cursor = 'default';
       abt.onclick = null;
       abt.classList.remove('abt-link');
+      if (linkIcon) linkIcon.style.display = 'none';
     }
     abs.textContent = `${p.artist} · ${p.year || '年代不明'} · ${p.museum}`;
     bh.classList.toggle('lk', liked.some(x => x.id === p.id));
+    const fill = document.getElementById('progress-fill');
+    if (fill && queue.length > 1) {
+      fill.style.width = `${(cursor / (queue.length - 1)) * 100}%`;
+    } else if (fill) {
+      fill.style.width = '100%';
+    }
   }
   function updateNavButtons() {}
 
@@ -552,7 +560,7 @@
 
   // ── フィルタードロワー ──────────────────────────────────────
   const fd = document.getElementById('fd');
-  document.getElementById('btn-filter').addEventListener('click', () => { fd.classList.add('open'); buildFilterUI(); });
+  document.getElementById('btn-filter').addEventListener('click', () => { fd.classList.add('open'); buildTodayCard(); buildFilterUI(); });
   document.getElementById('fdb').addEventListener('click', () => fd.classList.remove('open'));
   document.getElementById('fdb2').addEventListener('click', () => fd.classList.remove('open'));
   document.getElementById('fd-reset-btn').addEventListener('click', () => {
@@ -707,6 +715,33 @@
     document.getElementById('gp').classList.remove('open');
     hideGuide();
   }, true);
+
+  // ── 今日の一枚カード（フィルタードロワー内）────────────────
+  function buildTodayCard() {
+    if (!allPaintings.length) return;
+    const d = new Date();
+    const seed = d.getFullYear() * 10000 + (d.getMonth() + 1) * 100 + d.getDate();
+    const p = allPaintings[seed % allPaintings.length];
+    const months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+    const dateStr = `${months[d.getMonth()]} ${d.getDate()}, ${d.getFullYear()}`;
+    const elDate   = document.getElementById('fd-today-date');
+    const elTitle  = document.getElementById('fd-today-title');
+    const elArtist = document.getElementById('fd-today-artist');
+    if (elDate)   elDate.textContent   = dateStr;
+    if (elTitle)  elTitle.textContent  = p.title;
+    if (elArtist) elArtist.textContent = `${p.artist}（${p.year || '年代不明'}）`;
+    const btn = document.getElementById('fd-today-btn');
+    if (btn) {
+      btn.onclick = () => {
+        fd.classList.remove('open');
+        document.getElementById('btn-today').click();
+      };
+    }
+  }
+
+  // ── Copyright年を動的にセット ──────────────────────────────
+  const copyYearEl = document.getElementById('copy-year');
+  if (copyYearEl) copyYearEl.textContent = new Date().getFullYear();
 
   updateBadge();
   initialLoad();
