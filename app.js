@@ -110,6 +110,22 @@
       .sort();
   }
 
+  // ── famous100.json取得（APIが死んでも確実に表示）────────────
+  async function fetchFamous() {
+    try {
+      const res = await fetch('/api/famous');
+      if (!res.ok) return [];
+      const data = await res.json();
+      return (data.paintings || []).map(p => ({
+        ...p,
+        style: p.theme || '名画100選',
+      }));
+    } catch(e) {
+      console.warn('famous100.json load failed:', e);
+      return [];
+    }
+  }
+
   // ── API取得（リトライ付き）──────────────────────────────────
   async function fetchPaintings() {
     const MAX_RETRY = 3;
@@ -146,9 +162,19 @@
   // ── 起動 ────────────────────────────────────────────────────
   async function initialLoad() {
     showLoadingCard();
-    const ok = await fetchPaintings();
+    // famous100とAPIを並列取得
+    const [famousResult, apiOk] = await Promise.all([fetchFamous(), fetchPaintings()]);
+
+    // famous100をallPaintingsに重複なしで先頭に追加
+    if (famousResult.length > 0) {
+      const existingIds = new Set(allPaintings.map(p => p.id));
+      const newFamous = famousResult.filter(p => !existingIds.has(p.id));
+      allPaintings = [...newFamous, ...allPaintings];
+      updateFilterOptions();
+    }
+
     removeLoadingCard();
-    if (!ok || allPaintings.length === 0) {
+    if (allPaintings.length === 0) {
       const errCard = document.createElement('div');
       errCard.className = 'card cur';
       errCard.innerHTML = `<div style="display:flex;flex-direction:column;align-items:center;gap:14px;color:var(--ink-m);padding:24px;text-align:center;">
