@@ -1,0 +1,31 @@
+name: Download Famous 100 Images
+
+on:
+  workflow_dispatch:
+
+jobs:
+  download:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Download famous 100 images
+        run: node scripts/download-famous.js
+
+      - name: Commit images and JSON
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/images/famous/ public/famous100.json
+          git diff --cached --quiet && echo "no changes" || git commit -m "feat: add famous100 images and JSON [$(date -u '+%Y-%m-%d')]"
+          git push
