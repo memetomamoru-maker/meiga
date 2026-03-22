@@ -192,7 +192,7 @@
       "century": "19世紀",
       "theme": "人物画",
       "museum": "プラド美術館",
-      "museumUrl": "https://ja.wikipedia.org/wiki/裸のマハ",
+      "museumUrl": "https://www.museodelprado.es/en/the-collection/art-work/the-naked-maja/65953b93-323e-48fe-98cb-9d4b15852b18",
       "wikiUrl": "https://ja.wikipedia.org/wiki/裸のマハ",
       "image": "/images/famous/maja_desnuda.jpg",
       "isFamous": true
@@ -283,7 +283,7 @@
       "century": "19世紀",
       "theme": "風景画",
       "museum": "マルモッタン・モネ美術館",
-      "museumUrl": "https://ja.wikipedia.org/wiki/印象・日の出",
+      "museumUrl": "https://www.marmottan.fr/en/notice/4014/",
       "wikiUrl": "https://ja.wikipedia.org/wiki/印象・日の出",
       "image": "/images/famous/impression_sunrise.jpg",
       "isFamous": true
@@ -491,7 +491,7 @@
       "century": "20世紀",
       "theme": "人物画",
       "museum": "ノイエ・ギャラリー",
-      "museumUrl": "https://ja.wikipedia.org/wiki/アデーレ・ブロッホ＝バウアーの肖像_I",
+      "museumUrl": "https://www.neuegalerie.org/womaningold",
       "wikiUrl": "https://ja.wikipedia.org/wiki/アデーレ・ブロッホ＝バウアーの肖像_I",
       "image": "/images/famous/adele_klimt.jpg",
       "isFamous": true
@@ -504,7 +504,7 @@
       "century": "19世紀",
       "theme": "歴史画",
       "museum": "メトロポリタン美術館",
-      "museumUrl": "https://ja.wikipedia.org/wiki/デラウェア川を渡るワシントン",
+      "museumUrl": "https://www.metmuseum.org/art/collection/search/11417",
       "wikiUrl": "https://ja.wikipedia.org/wiki/デラウェア川を渡るワシントン",
       "image": "/images/famous/washington_crossing.jpg",
       "isFamous": true
@@ -569,7 +569,7 @@
       "century": "17世紀",
       "theme": "人物画",
       "museum": "マウリッツハイス美術館",
-      "museumUrl": "https://ja.wikipedia.org/wiki/テュルプ博士の解剖学講義",
+      "museumUrl": "https://www.mauritshuis.nl/en/our-collection/artworks/146-the-anatomy-lesson-of-dr-nicolaes-tulp",
       "wikiUrl": "https://ja.wikipedia.org/wiki/テュルプ博士の解剖学講義",
       "image": "/images/famous/anatomy_lesson.jpg",
       "isFamous": true
@@ -582,7 +582,7 @@
       "century": "19世紀",
       "theme": "日常",
       "museum": "ボストン美術館",
-      "museumUrl": "https://ja.wikipedia.org/wiki/メアリー・カサット",
+      "museumUrl": "https://collections.mfa.org/objects/31365/in-the-loge",
       "wikiUrl": "https://ja.wikipedia.org/wiki/メアリー・カサット",
       "image": "/images/famous/persistence_memory.jpg",
       "isFamous": true
@@ -595,7 +595,7 @@
       "century": "19世紀",
       "theme": "日常",
       "museum": "ナショナル・ギャラリー",
-      "museumUrl": "https://ja.wikipedia.org/wiki/ベルト・モリゾ",
+      "museumUrl": "https://www.nationalgallery.org.uk/paintings/berthe-morisot-summer-s-day",
       "wikiUrl": "https://ja.wikipedia.org/wiki/ベルト・モリゾ",
       "image": "/images/famous/morisot_summer.jpg",
       "isFamous": true
