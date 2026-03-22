@@ -14,7 +14,7 @@
   let cursor = 0;
   let liked  = [];
   let filter = { century: 'all', style: 'all' };
-  let centuries = [], styles = [];
+  let centuries = [], styles = [], artists = [];
   let curCard = null, nextCard = null, prevCard = null;
   let isAnimating = false;
 
@@ -68,6 +68,17 @@
     try { localStorage.setItem('meiga_guide_skip', '1'); } catch(e) {}
   });
   btnGuideOpen.addEventListener('click', () => showGuide());
+  // 今日の一枚
+  document.getElementById('btn-today').addEventListener('click', () => {
+    if (!allPaintings.length) return;
+    const d = new Date();
+    const seed = d.getFullYear() * 10000 + (d.getMonth()+1) * 100 + d.getDate();
+    curCard = seed % allPaintings.length;
+    renderCard(curCard);
+    const btn = document.getElementById('btn-today');
+    btn.classList.add('active');
+    setTimeout(() => btn.classList.remove('active'), 1200);
+  });
 
   const skipGuide = (() => {
     try { return localStorage.getItem('meiga_guide_skip') === '1'; } catch(e) { return false; }
@@ -108,6 +119,8 @@
     styles = [...new Set(allPaintings.map(p => p.style))]
       .filter(s => s && s !== '絵画' && s !== 'Paintings' && s !== 'Oil on canvas' && s.length < 25)
       .sort();
+  
+    artists = [...new Set(allPaintings.map(p => p.artist))].filter(Boolean).sort();
   }
 
   // ── famous100.json取得（APIが死んでも確実に表示）────────────
@@ -532,6 +545,7 @@
     }
     sec('時代・世紀', 'century', centuries, '🏛');
     sec('画派・スタイル', 'style', styles, '🎨');
+    sec('画家', 'artist', artists, '🖌');
   }
 
   // ── ギャラリー ──────────────────────────────────────────────
