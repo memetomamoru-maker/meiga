@@ -13,7 +13,7 @@
   let queue = [];
   let cursor = 0;
   let liked  = [];
-  let filter = { century: 'all', style: 'all' };
+  let filter = { century: 'all', style: 'all', artist: 'all' };
   let centuries = [], styles = [], artists = [];
   let curCard = null, nextCard = null, prevCard = null;
   let isAnimating = false;
@@ -73,8 +73,13 @@
     if (!allPaintings.length) return;
     const d = new Date();
     const seed = d.getFullYear() * 10000 + (d.getMonth()+1) * 100 + d.getDate();
-    curCard = seed % allPaintings.length;
-    renderCard(curCard);
+    const target = allPaintings[seed % allPaintings.length];
+    // フィルターをリセットして今日の作品を表示
+    filter = { century: 'all', style: 'all', artist: 'all' };
+    buildQueue();
+    const idx = queue.findIndex(p => p.id === target.id || p.objectID === target.objectID);
+    if (idx >= 0) cursor = idx;
+    renderDeck();
     const btn = document.getElementById('btn-today');
     btn.classList.add('active');
     setTimeout(() => btn.classList.remove('active'), 1200);
@@ -225,6 +230,7 @@
     const filtered = allPaintings.filter(p => {
       if (filter.century !== 'all' && p.century !== filter.century) return false;
       if (filter.style !== 'all' && p.style !== filter.style) return false;
+      if (filter.artist !== 'all' && p.artist !== filter.artist) return false;
       return true;
     });
     if (!filtered.length) { showToast('該当する作品がありません'); return false; }
@@ -483,7 +489,7 @@
   document.getElementById('fdb').addEventListener('click', () => fd.classList.remove('open'));
   document.getElementById('fdb2').addEventListener('click', () => fd.classList.remove('open'));
   document.getElementById('fd-reset-btn').addEventListener('click', () => {
-    filter = { century: 'all', style: 'all' };
+    filter = { century: 'all', style: 'all', artist: 'all' };
     renderDeck();
     fd.classList.remove('open');
   });
@@ -492,6 +498,7 @@
     const count = allPaintings.filter(p => {
       if (filter.century !== 'all' && p.century !== filter.century) return false;
       if (filter.style !== 'all' && p.style !== filter.style) return false;
+      if (filter.artist !== 'all' && p.artist !== filter.artist) return false;
       return true;
     }).length;
     const lbl = document.getElementById('fd-cnt-label');
@@ -500,7 +507,7 @@
     if (rst) rst.disabled = filter.century === 'all' && filter.style === 'all';
   }
 
-  const sectionState = { century: true, style: false };
+  const sectionState = { century: true, style: false, artist: false };
   function buildFilterUI() {
     updateFilterFooter();
     const body = document.getElementById('fdbody');
