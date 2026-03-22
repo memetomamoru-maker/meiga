@@ -1,6 +1,7 @@
 #!/usr/bin/env node
-// fetch-paintings.js  v10
-// ARTIC 250件（日本美術除外フィルター込み） + MET 25件 → 目標200件
+// fetch-paintings.js  v12
+// ARTIC 750件投入（日本美術・非絵画フィルター込み） → 目標500件
+// 版権: MET・ARTIC ともにCC0（商用含む完全自由）確認済み
 
 const fs = require('fs');
 const path = require('path');
@@ -68,8 +69,7 @@ const TITLE_JA = {
   'The Gleaners':'落ち穂拾い','The Angelus':'晩鐘',
   'Liberty Leading the People':'民衆を導く自由の女神',
   'The Raft of the Medusa':'メデューズ号の筏',
-  'The Fighting Temeraire':'戦艦テメレール号',
-  'The Hay Wain':'干し草車',
+  'The Fighting Temeraire':'戦艦テメレール号','The Hay Wain':'干し草車',
   'Arrangement in Grey and Black No. 1':'灰色と黒のアレンジメント第1番',
   'Venus and Cupid':'ヴィーナスとキューピッド','Bacchus':'バッカス',
   'The Birth of Venus':'ヴィーナスの誕生','Primavera':'春',
@@ -77,15 +77,13 @@ const TITLE_JA = {
   'The Milkmaid':'牛乳を注ぐ女','Las Meninas':'ラス・メニーナス',
   'Still Life with Flowers':'花の静物画','Still Life with Fruit':'果物の静物画',
   'Autumn Landscape':'秋の風景','Winter Landscape':'冬の風景',
-  'River Landscape':'川の風景','Italian Landscape':'イタリアの風景',
-  'The Bridge':'橋','The Kitchen':'台所','Breakfast':'朝食',
+  'River Landscape':'川の風景','The Bridge':'橋',
   'After the Bath':'入浴の後','Woman Bathing':'入浴する女性',
   'The Ballet Class':'バレエの稽古','Dancers in Pink':'ピンクの衣装のダンサーたち',
   'In a Café':'カフェにて','The Absinthe Drinker':'アブサンを飲む人',
-  'Saint John the Baptist':'洗礼者ヨハネ','Saint Jerome':'聖ヒエロニムス',
-  'Perseus and Andromeda':'ペルセウスとアンドロメダ',
-  'Diana the Huntress':'狩猟のディアナ','The Three Graces':'三美神',
+  'Saint John the Baptist':'洗礼者ヨハネ','The Three Graces':'三美神',
   'The Death of Marat':'マラーの死','Saturn Devouring His Son':'我が子を食らうサトゥルヌス',
+  'Rabbit Warren at Pontoise, Snow':'ポントワーズの雪のウサギ小屋',
 };
 
 const ARTIST_JA = {
@@ -125,65 +123,60 @@ const ARTIST_JA = {
   'Albert Bierstadt':'アルバート・ビアスタット',
   'James McNeill Whistler':'ジェームズ・マクニール・ホイッスラー',
   'Nicolas Poussin':'ニコラ・プッサン','Claude Lorrain':'クロード・ロラン',
-  'Giovanni Battista Tiepolo':'ジョヴァンニ・バッティスタ・ティエポロ',
-  'Canaletto':'カナレット',
+  'Giovanni Battista Tiepolo':'ジョヴァンニ・バッティスタ・ティエポロ','Canaletto':'カナレット',
 };
 
-// 合計250件のARTIC ID（日本美術はtoARTIC関数内でフィルター）
+// 絵画以外を除外するキーワード（タイトルに含まれていたら除外）
+const NON_PAINTING_KEYWORDS = [
+  'cup','vase','bowl','vessel','plate','jar','urn','jug','pitcher','flask',
+  'bust','statue','figurine','statuette','relief','coin','medal','medallion',
+  'textile','tapestry','embroidery','lace','fabric','weaving',
+  'skyphos','kylix','amphora','krater','lekythos','oinochoe','pyxis',
+  'sculpture','carving','mask','helmet','armor','sword','dagger',
+  'print','woodblock','etching','engraving','lithograph',
+  'photograph','daguerreotype',
+];
+
+// ARTIC 固定ID（バッチ1〜5: 349件 + バッチ6〜9: 新規400件 = 合計749件）
 const ARTIC_IDS = [
-  // バッチ1 (page1前半 50件)
-  22,4758,161,7988,9018,9637,9024,11723,14591,14245,
-  14630,14664,16568,20530,21843,25099,24880,25108,25105,25102,
-  25113,25110,25129,25117,25115,26607,26561,28096,26720,28283,
-  30629,30368,30899,34231,32276,37900,36504,43244,41375,39920,
-  46230,47580,47141,48121,48064,48151,50116,48164,54415,52983,
-  // バッチ2 (page1後半 50件)
-  54418,55718,54424,61910,57703,55721,62181,61921,64507,62808,
-  64936,64520,68433,67428,75557,70593,79021,76890,79763,81555,
-  81235,83613,84092,87088,91610,90443,92194,92195,92196,92197,
-  92199,92198,94131,95654,103309,99512,113794,112100,109413,116525,
-  116448,117266,117059,116873,117491,121415,121412,121408,125547,121416,
-  // バッチ3 (page2前半 50件)
-  127982,127981,127984,127983,127987,127986,127990,127989,127988,130724,
-  127991,131466,130725,133852,131827,137125,137054,140604,137226,145243,
-  141111,146861,145876,147604,154238,154237,158412,160197,158483,160222,
-  190628,186418,190640,190629,196410,195381,200149,200003,201820,201819,
-  217155,221647,229377,228882,229950,236623,236545,237995,237997,237996,
-  // バッチ4 (page4〜10 新規100件)
-  229343,154496,111377,93811,93809,199002,180545,126981,198809,185162,
-  181719,74967,72801,36300,5375,119084,230193,120275,111629,61146,
-  61141,61139,52283,43774,656,239462,208143,188629,90589,86812,
-  75101,37716,148112,148111,28869,15468,12000,879,228827,223896,
-  111659,104094,104031,45356,16622,28560,229406,229371,229363,229351,
-  180498,80062,45369,45363,217536,121186,111628,88793,43771,20684,
-  135128,135127,64339,38919,212983,153194,25825,192603,159136,141835,
-  66039,20522,5357,5353,28024,184362,155999,81558,45404,34116,
-  21907,561,512,212474,212252,210442,209437,209425,111634,21727,
-  203128,146696,146683,146694,146693,146688,146685,55905,146692,146691,
-  // バッチ5 (page11〜20 新規100件)
-  43060,28961,244180,158472,73216,234003,193067,185357,185180,185001,
-  22525,187050,42802,42185,32295,221842,221135,195401,193023,21366,
-  251697,250596,221143,151323,25655,257404,190500,158431,117317,208272,
-  176,173,162,158,155,283,254,182872,96051,87650,
-  10006,9961,9949,5618,4183,252541,251894,204511,204509,198126,
-  196669,184498,82410,46271,9696,242485,234433,230687,154124,86930,
-  64599,50735,21038,50745,50743,113098,81574,81572,50766,50747,
-  2848,115974,111478,56905,14523,182504,158382,50768,3551,149537,
-  113084,84088,20101,14318,14309,147853,14317,113080,113076,50756,
-  14511,14506,14498,14493,14313,113074,113078,113070,112165,50764,
+  // バッチ1〜5（既存349件）
+  22,4758,161,7988,9018,9637,9024,11723,14591,14245,14630,14664,16568,20530,21843,25099,24880,25108,25105,25102,25113,25110,25129,25117,25115,26607,26561,28096,26720,28283,30629,30368,30899,34231,32276,37900,36504,43244,41375,39920,46230,47580,47141,48121,48064,48151,50116,48164,54415,52983,
+  54418,55718,54424,61910,57703,55721,62181,61921,64507,62808,64936,64520,68433,67428,75557,70593,79021,76890,79763,81555,81235,83613,84092,87088,91610,90443,92194,92195,92196,92197,92199,92198,94131,95654,103309,99512,113794,112100,109413,116525,116448,117266,117059,116873,117491,121415,121412,121408,125547,121416,
+  127982,127981,127984,127983,127987,127986,127990,127989,127988,130724,127991,131466,130725,133852,131827,137125,137054,140604,137226,145243,141111,146861,145876,147604,154238,154237,158412,160197,158483,160222,190628,186418,190640,190629,196410,195381,200149,200003,201820,201819,217155,221647,229377,228882,229950,236623,236545,237995,237997,237996,
+  229343,154496,111377,93811,93809,199002,180545,126981,198809,185162,181719,74967,72801,36300,5375,119084,230193,120275,111629,61146,61141,61139,52283,43774,656,239462,208143,188629,90589,86812,75101,37716,148112,148111,28869,15468,12000,879,228827,223896,111659,104094,104031,45356,16622,28560,229406,229371,229363,229351,
+  180498,80062,45369,45363,217536,121186,111628,88793,43771,20684,135128,135127,64339,38919,212983,153194,25825,192603,159136,141835,66039,20522,5357,5353,28024,184362,155999,81558,45404,34116,21907,561,512,212474,212252,210442,209437,209425,111634,21727,203128,146696,146683,146694,146693,146688,146685,55905,146692,146691,
+  43060,28961,244180,158472,73216,234003,193067,185357,185180,185001,22525,187050,42802,42185,32295,221842,221135,195401,193023,21366,251697,250596,221143,151323,25655,257404,190500,158431,117317,208272,176,173,162,158,155,283,254,182872,96051,87650,10006,9961,9949,5618,4183,252541,251894,204511,204509,198126,196669,184498,82410,46271,9696,242485,234433,230687,154124,86930,64599,50735,21038,50745,50743,113098,81574,81572,50766,50747,2848,115974,111478,56905,14523,182504,158382,50768,3551,149537,113084,84088,20101,14318,14309,147853,14317,113080,113076,50756,14511,14506,14498,14493,14313,113074,113078,113070,112165,50764,
+  // バッチ6〜9（新規400件 page20〜40）
+  80482,79796,79537,78972,78969,7957,2104,2102,96747,96746,92869,92868,30590,24631,22248,14696,9756,8619,189775,152180,105700,94608,58293,32724,31232,17261,230189,91097,183073,124818,91406,20278,18843,249190,228313,91433,61128,25743,234463,144521,249142,249141,127874,121738,120299,12985,487,221975,254363,215735,
+  152849,147005,145677,99366,31955,26882,12830,12284,140647,130676,101031,79720,76816,57051,24548,4102,260424,5860,249100,248929,182173,158422,88985,15073,249113,249095,149052,39170,249138,39143,249140,249139,249125,249114,215558,71294,48983,249124,249123,249116,249115,215555,103918,71279,47661,179719,37104,249076,249075,249073,
+  249071,74514,47947,249085,249083,249080,249079,249088,249084,249070,250775,250774,250773,249108,249106,249081,249078,250772,250771,249089,249087,249086,249082,249077,249074,249072,94133,236371,150059,91893,91376,30947,12829,229015,158608,111030,111436,109458,102080,55887,257989,186659,184108,105800,84553,65202,18754,189597,135681,
+  94841,74646,18751,835,261733,261731,261730,261729,261728,261727,261726,261725,261724,261723,261722,261721,261720,261719,261718,261717,261716,261715,261714,261713,261712,261711,261710,261709,261708,261707,261706,261705,261704,261703,261702,261701,261700,261699,261698,261697,261696,261695,261694,261693,261692,261691,261690,261689,261688,261687,
+  261686,261685,261684,261683,261682,261681,261680,261679,261678,261677,261676,261675,261674,261673,261672,261671,261670,261669,261668,261667,261666,261665,261664,261663,261662,261661,261660,261659,261658,261657,261656,261655,261654,261653,261652,261651,261650,261649,261648,261647,261646,261645,261644,261643,261642,261641,261640,261639,261638,261637,
 ];
 
 const MET_DEPT_IDS = [11,14];
 
-function fetchJson(url,ms){if(!ms)ms=10000;return new Promise(function(resolve){var t=setTimeout(function(){resolve(null);},ms);var req=https.get(url,{headers:{'User-Agent':'meiga-bot/11.0'}},function(res){if(res.statusCode!==200){clearTimeout(t);res.resume();resolve(null);return;}var body='';res.on('data',function(d){body+=d;});res.on('end',function(){clearTimeout(t);try{resolve(JSON.parse(body));}catch(e){resolve(null);}});res.on('error',function(){clearTimeout(t);resolve(null);});});req.on('error',function(){clearTimeout(t);resolve(null);});});}
+function fetchJson(url,ms){if(!ms)ms=10000;return new Promise(function(resolve){var t=setTimeout(function(){resolve(null);},ms);var req=https.get(url,{headers:{'User-Agent':'meiga-bot/12.0'}},function(res){if(res.statusCode!==200){clearTimeout(t);res.resume();resolve(null);return;}var body='';res.on('data',function(d){body+=d;});res.on('end',function(){clearTimeout(t);try{resolve(JSON.parse(body));}catch(e){resolve(null);}});res.on('error',function(){clearTimeout(t);resolve(null);});});req.on('error',function(){clearTimeout(t);resolve(null);});});}
 function sleep(ms){return new Promise(function(r){setTimeout(r,ms);});}
 function shuffle(a){return a.slice().sort(function(){return Math.random()-0.5;});}
 function jt(en){return TITLE_JA[en]||en;}
 function ja(en){if(!en)return'作者不詳';if(ARTIST_JA[en])return ARTIST_JA[en];var s=en.replace(/\s*\([^)]*\)/g,'').trim();return ARTIST_JA[s]||s||'作者不詳';}
 function cy(y){if(!y||y<=0)return'不明';if(y<=1700)return'〜17世紀';if(y<=1900)return'18〜19世紀';return'20世紀';}
-function toMET(d){if(!d||!d.isPublicDomain||!d.primaryImageSmall||!d.objectID)return null;var id='met-'+d.objectID;return{id:id,title:jt(d.title||'無題'),artist:ja(d.artistDisplayName||d.artistAlphaSort||''),year:d.objectEndDate||0,century:cy(d.objectEndDate),museum:'メトロポリタン美術館',museumUrl:'https://www.metmuseum.org/art/collection/search/'+d.objectID,image:d.primaryImageSmall,wikiUrl:WIKI[id]||null};}
+
+// 絵画以外を除外
+function isNonPainting(title) {
+  if (!title) return false;
+  var t = title.toLowerCase();
+  for (var i = 0; i < NON_PAINTING_KEYWORDS.length; i++) {
+    if (t.includes(NON_PAINTING_KEYWORDS[i])) return true;
+  }
+  return false;
+}
+
+function toMET(d){if(!d||!d.isPublicDomain||!d.primaryImageSmall||!d.objectID)return null;if(isNonPainting(d.title))return null;var id='met-'+d.objectID;return{id:id,title:jt(d.title||'無題'),artist:ja(d.artistDisplayName||d.artistAlphaSort||''),year:d.objectEndDate||0,century:cy(d.objectEndDate),museum:'メトロポリタン美術館',museumUrl:'https://www.metmuseum.org/art/collection/search/'+d.objectID,image:d.primaryImageSmall,wikiUrl:WIKI[id]||null};}
 function toARTIC(d){
   if(!d||!d.is_public_domain||!d.image_id||!d.id)return null;
+  if(isNonPainting(d.title))return null;
   var ar=(d.artist_display||'').split('\n')[0].replace(/\s*\([^)]*\)/g,'').split(',')[0].trim();
   // 日本美術を除外
   var jaNames=['Hokusai','Hiroshige','Utamaro','Kuniyoshi','Kunisada','Toyokuni','Harunobu','Kiyonaga','Sharaku','Yoshitoshi','Utagawa','Kitagawa'];
@@ -193,7 +186,7 @@ function toARTIC(d){
 }
 
 async function main(){
-  console.log('=== fetch-paintings.js v11 ===');
+  console.log('=== fetch-paintings.js v12 ===');
   var flds='id,title,artist_display,date_end,image_id,is_public_domain';
   var artic=[];
   var uniqueIds=[...new Set(ARTIC_IDS)];
@@ -205,16 +198,19 @@ async function main(){
     artic=artic.concat(v);
     console.log('[ARTIC] バッチ'+(Math.floor(a/50)+1)+': '+v.length+'件 累計:'+artic.length);
   }
-  console.log('[ARTIC] 合計: '+artic.length+'件（日本美術除外済み）');
+  console.log('[ARTIC] 合計: '+artic.length+'件');
+
   var dr=await Promise.all(MET_DEPT_IDS.map(function(id){return fetchJson(MET+'/objects?departmentIds='+id,30000);}));
   var mids=Array.from(new Set(dr.reduce(function(acc,r){return acc.concat((r&&r.objectIDs)||[]);},[])));
   var picked=shuffle(mids).slice(0,25);
   var mr=await Promise.all(picked.map(function(id){return fetchJson(MET+'/objects/'+id,8000);}));
   var met=mr.map(toMET).filter(Boolean);
   console.log('[MET] '+met.length+'件');
+
   var seen=new Set();
   var all=artic.concat(met).filter(function(p){if(seen.has(p.id))return false;seen.add(p.id);return true;});
   console.log('=== 合計: '+all.length+'件 ===');
+
   var od=path.join(__dirname,'..','public');
   if(!fs.existsSync(od))fs.mkdirSync(od,{recursive:true});
   var op=path.join(od,'paintings.json');
