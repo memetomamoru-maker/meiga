@@ -200,7 +200,7 @@ async function main() {
       console.error(`[${i+1}/${FAMOUS100.length}] FAIL ${item.file}: ${e.message}`);
       failed.push({ ...item, error: e.message });
     }
-    await sleep(400);
+    await sleep(2000);
   }
 
   // 成功したものだけでJSONを生成
