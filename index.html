@@ -403,6 +403,51 @@ body{font-family:'Cormorant Garamond','Noto Serif JP',Georgia,serif}
 .fd-reset:hover{background:rgba(200,160,80,.16)}
 .fd-reset:disabled{opacity:.3;cursor:default}
 
+/* ── 今日の一枚（ドロワー内）── */
+#fd-today{
+  padding:14px 18px 12px;
+  border-bottom:1px solid rgba(200,160,80,.15);
+  background:rgba(200,160,80,.04);
+  flex-shrink:0;
+}
+.fd-today-label{
+  font-size:8px;letter-spacing:.3em;color:var(--gold);
+  font-family:'EB Garamond',serif;font-style:italic;
+  margin-bottom:9px;
+}
+#fd-today-card{
+  background:rgba(0,0,0,.18);
+  border:1px solid rgba(200,160,80,.14);
+  padding:10px 12px 9px;
+}
+.fd-today-date{
+  font-size:7.5px;letter-spacing:.18em;color:var(--ink-l);
+  font-family:'EB Garamond',serif;margin-bottom:4px;
+}
+.fd-today-title{
+  font-size:14px;color:var(--gold-l);
+  font-family:'Cormorant Garamond',serif;
+  letter-spacing:.04em;line-height:1.3;
+  margin-bottom:2px;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+}
+.fd-today-artist{
+  font-size:9px;color:var(--ink-l);
+  font-family:'EB Garamond',serif;font-style:italic;
+  letter-spacing:.06em;margin-bottom:9px;
+}
+.fd-today-btn{
+  width:100%;padding:6px 0;
+  background:rgba(200,160,80,.1);
+  border:1px solid rgba(200,160,80,.26);
+  color:var(--gold-l);font-family:'Cormorant Garamond',serif;
+  font-size:11px;letter-spacing:.14em;cursor:pointer;
+  transition:all .16s;
+}
+.fd-today-btn:hover,.fd-today-btn:active{
+  background:rgba(200,160,80,.2);border-color:var(--gold-b);
+}
+
 /* ── ギャラリー ── */
 #gp{
   position:absolute;inset:0;z-index:600;background:rgba(8,20,12,.98);
@@ -723,6 +768,15 @@ body{font-family:'Cormorant Garamond','Noto Serif JP',Georgia,serif}
         <div class="fdh-title">— カテゴリで絞り込む —</div>
         <button class="fdh-close" id="fdb2" aria-label="閉じる">✕</button>
       </div>
+      <div id="fd-today">
+        <div class="fd-today-label">✦ 今日の一枚</div>
+        <div id="fd-today-card">
+          <div class="fd-today-date" id="fd-today-date"></div>
+          <div class="fd-today-title" id="fd-today-title">—</div>
+          <div class="fd-today-artist" id="fd-today-artist"></div>
+          <button class="fd-today-btn" id="fd-today-btn">この作品を見る</button>
+        </div>
+      </div>
       <div class="fdbody" id="fdbody"></div>
       <div class="fd-footer">
         <div class="fd-cnt" id="fd-cnt-label">全作品を表示中</div>
@@ -830,85 +884,96 @@ body{font-family:'Cormorant Garamond','Noto Serif JP',Georgia,serif}
 
 <script src="./app.js"></script>
 <script>
-/* ピンチズーム＋パン＋ダブルタップ for lightbox — v2 */
+/* ピンチズーム＋パン＋ダブルタップ for lightbox v4 */
 (function(){
   var lb  = document.getElementById('lightbox');
   var img = document.getElementById('lb-img');
   if(!lb||!img) return;
 
   var scale=1, tx=0, ty=0;
-  /* ピンチ開始時の保存値 */
-  var pinchStartDist=0, pinchStartScale=1, pinchStartTx=0, pinchStartTy=0;
-  var pinchMidX=0, pinchMidY=0;
+
+  /* ピンチ開始時スナップショット */
+  var pDist=0, pScale=1, pTx=0, pTy=0;
+  /* ピンチ中心（画面座標）とその時の画像センター（画面座標） */
+  var pMidX=0, pMidY=0, pImgCx=0, pImgCy=0;
+
   /* パン */
-  var isPanning=false, panStartX=0, panStartY=0, panStartTx=0, panStartTy=0;
+  var panning=false, panX0=0, panY0=0, panTx0=0, panTy0=0;
+
   /* ダブルタップ */
-  var lastTapTime=0, lastTapX=0, lastTapY=0;
+  var tapT=0, tapX=0, tapY=0;
 
   function dist(t){
     var dx=t[0].clientX-t[1].clientX, dy=t[0].clientY-t[1].clientY;
     return Math.sqrt(dx*dx+dy*dy);
   }
 
-  /* パン可能な範囲にクランプ */
+  /* クランプ: offsetWidth/Height はtransform前の素サイズ */
   function clamp(){
-    var r = img.getBoundingClientRect();
-    var maxX = Math.max(0, (r.width  * (scale-1)) / (2*scale));
-    var maxY = Math.max(0, (r.height * (scale-1)) / (2*scale));
-    tx = Math.max(-maxX, Math.min(maxX, tx));
-    ty = Math.max(-maxY, Math.min(maxY, ty));
+    var w=img.offsetWidth, h=img.offsetHeight;
+    var maxX=w*(scale-1)/(2*scale);
+    var maxY=h*(scale-1)/(2*scale);
+    if(tx> maxX) tx= maxX;
+    if(tx<-maxX) tx=-maxX;
+    if(ty> maxY) ty= maxY;
+    if(ty<-maxY) ty=-maxY;
   }
 
-  function applyTransform(animated){
-    img.style.transition = animated ? 'transform .28s ease' : 'none';
+  function apply(anim){
+    img.style.transition = anim ? 'transform .25s ease' : 'none';
     img.style.transform  = 'scale('+scale+') translate('+tx+'px,'+ty+'px)';
     img.style.transformOrigin = 'center center';
   }
 
-  function resetTransform(animated){
-    scale=1; tx=0; ty=0; isPanning=false;
-    img.style.transition = animated ? 'transform .28s ease' : 'none';
+  function reset(anim){
+    scale=1; tx=0; ty=0; panning=false;
+    img.style.transition = anim ? 'transform .25s ease' : 'none';
     img.style.transform  = '';
   }
 
   lb.addEventListener('touchstart', function(e){
     if(e.touches.length===2){
       e.preventDefault();
-      isPanning = false;
-      pinchStartDist  = dist(e.touches);
-      pinchStartScale = scale;
-      pinchStartTx    = tx;
-      pinchStartTy    = ty;
-      pinchMidX = (e.touches[0].clientX + e.touches[1].clientX) / 2;
-      pinchMidY = (e.touches[0].clientY + e.touches[1].clientY) / 2;
+      panning = false;
+      pDist   = dist(e.touches);
+      pScale  = scale;
+      pTx     = tx;
+      pTy     = ty;
+      pMidX   = (e.touches[0].clientX + e.touches[1].clientX) / 2;
+      pMidY   = (e.touches[0].clientY + e.touches[1].clientY) / 2;
+      /* 画像センターをピンチ開始時に一度だけ取得 */
+      var r   = img.getBoundingClientRect();
+      pImgCx  = r.left + r.width  / 2;
+      pImgCy  = r.top  + r.height / 2;
+
     } else if(e.touches.length===1){
-      var now = Date.now();
-      var x = e.touches[0].clientX, y = e.touches[0].clientY;
-      /* ダブルタップ判定（300ms以内・30px以内の2連タップ） */
-      if(now - lastTapTime < 300 && Math.abs(x-lastTapX)<30 && Math.abs(y-lastTapY)<30){
+      var now=Date.now(), cx=e.touches[0].clientX, cy=e.touches[0].clientY;
+
+      /* ダブルタップ */
+      if(now-tapT<300 && Math.abs(cx-tapX)<30 && Math.abs(cy-tapY)<30){
         e.preventDefault();
-        if(scale > 1.05){
-          resetTransform(true);
+        if(scale>1.05){
+          reset(true);
         } else {
-          /* タップ位置を中心に2.5倍ズーム */
+          /* タップ位置を中心に2.5倍ズーム
+           * tx_new = (cx - imgCx) / newScale * (1 - newScale) / newScale
+           * 簡略: tx = -(cx - imgCx) / newScale */
           var r = img.getBoundingClientRect();
-          scale = 2.5;
-          tx = -((x - r.left - r.width/2)  / scale) * (scale - 1);
-          ty = -((y - r.top  - r.height/2) / scale) * (scale - 1);
+          var newS = 2.5;
+          tx = -(cx - (r.left + r.width/2))  / newS;
+          ty = -(cy - (r.top  + r.height/2)) / newS;
+          scale = newS;
           clamp();
-          applyTransform(true);
+          apply(true);
         }
-        lastTapTime = 0;
-        return;
+        tapT=0; return;
       }
-      lastTapTime = now; lastTapX = x; lastTapY = y;
-      /* パン開始（拡大中のみ） */
-      if(scale > 1.05){
-        isPanning  = true;
-        panStartX  = x;
-        panStartY  = y;
-        panStartTx = tx;
-        panStartTy = ty;
+      tapT=now; tapX=cx; tapY=cy;
+
+      if(scale>1.05){
+        panning=true;
+        panX0=cx; panY0=cy;
+        panTx0=tx; panTy0=ty;
       }
     }
   },{passive:false});
@@ -917,44 +982,58 @@ body{font-family:'Cormorant Garamond','Noto Serif JP',Georgia,serif}
     if(e.touches.length===2){
       e.preventDefault();
       var d = dist(e.touches);
-      var newScale = Math.min(Math.max(pinchStartScale * (d / pinchStartDist), 1), 5);
-      /* ピンチ中心基準でパン位置も調整 */
-      var scaleRatio = newScale / pinchStartScale;
-      tx = pinchMidX + (pinchStartTx - pinchMidX) * scaleRatio / pinchStartScale * newScale;
-      tx = pinchStartTx + (pinchMidX - pinchStartTx) * (1 - scaleRatio) / newScale;
-      ty = pinchStartTy + (pinchMidY - pinchStartTy) * (1 - scaleRatio) / newScale;
-      scale = newScale;
+      var ns = Math.max(1, Math.min(5, pScale * (d / pDist)));
+
+      /* ピンチ中心 pMid が画面上で動かないよう tx/ty を補正
+       *
+       * 導出:
+       *   変換式: screen = imgCenter + scale * tx + (point - imgCenter)  ... は誤り
+       *   正しい変換: screen_point = imgCenter + scale*(localPoint + tx)
+       *   ここで localPoint = (screen_point - imgCenter)/scale - tx
+       *
+       *   pMid の local座標 (スケール変更前):
+       *     lx = (pMidX - pImgCx) / pScale - pTx
+       *     ly = (pMidY - pImgCy) / pScale - pTy
+       *
+       *   新スケールでも pMid が同じ画面座標になる条件:
+       *     pImgCx + ns * (lx + tx_new) = pMidX
+       *     tx_new = (pMidX - pImgCx) / ns - lx
+       */
+      var lx = (pMidX - pImgCx) / pScale - pTx;
+      var ly = (pMidY - pImgCy) / pScale - pTy;
+      tx = (pMidX - pImgCx) / ns - lx;
+      ty = (pMidY - pImgCy) / ns - ly;
+      scale = ns;
       clamp();
-      applyTransform(false);
-    } else if(e.touches.length===1 && isPanning){
+      apply(false);
+
+    } else if(e.touches.length===1 && panning){
       e.preventDefault();
-      tx = panStartTx + (e.touches[0].clientX - panStartX) / scale;
-      ty = panStartTy + (e.touches[0].clientY - panStartY) / scale;
+      /* 画面座標の差 / scale = transform座標系の移動量 */
+      tx = panTx0 + (e.touches[0].clientX - panX0) / scale;
+      ty = panTy0 + (e.touches[0].clientY - panY0) / scale;
       clamp();
-      applyTransform(false);
+      apply(false);
     }
   },{passive:false});
 
   lb.addEventListener('touchend', function(e){
-    if(e.touches.length < 2) isPanning = false;
-    if(e.touches.length===0 && scale < 1.05) resetTransform(true);
+    if(e.touches.length<2) panning=false;
+    if(e.touches.length===0 && scale<1.05) reset(true);
   });
 
-  /* 閉じたらリセット */
-  var lbClose = document.getElementById('lb-close');
-  if(lbClose) lbClose.addEventListener('click', function(){ resetTransform(false); });
+  var lbClose=document.getElementById('lb-close');
+  if(lbClose) lbClose.addEventListener('click', function(){ reset(false); });
   lb.addEventListener('click', function(e){
-    if(e.target.id==='lightbox') resetTransform(false);
+    if(e.target.id==='lightbox') reset(false);
   });
 
-  /* lightboxが閉じるたびにリセット */
   new MutationObserver(function(muts){
     muts.forEach(function(m){
-      if(m.type==='attributes' && m.attributeName==='class' && !lb.classList.contains('open')){
-        resetTransform(false);
-      }
+      if(m.type==='attributes' && m.attributeName==='class' && !lb.classList.contains('open'))
+        reset(false);
     });
-  }).observe(lb, {attributes:true});
+  }).observe(lb,{attributes:true});
 })();
 </script>
 </body>
