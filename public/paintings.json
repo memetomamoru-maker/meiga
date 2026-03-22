@@ -1,9 +1,9 @@
 {
-  "generated": "2026-03-22T03:24:04.201Z",
-  "total": 358,
+  "generated": "2026-03-22T03:45:27.665Z",
+  "total": 355,
   "sources": {
     "artic": 347,
-    "met": 11
+    "met": 8
   },
   "paintings": [
     {
@@ -3901,47 +3901,14 @@
       "wikiUrl": null
     },
     {
-      "id": "met-437335",
-      "title": "Madonna and Child with Saints",
-      "artist": "Priamo della Quercia",
-      "year": 1467,
+      "id": "met-453271",
+      "title": "Page of Calligraphy",
+      "artist": "作者不詳",
+      "year": 1699,
       "century": "〜17世紀",
       "museum": "メトロポリタン美術館",
-      "museumUrl": "https://www.metmuseum.org/art/collection/search/437335",
-      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/ep41.100.35.bw.R.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "met-438103",
-      "title": "Campo Sant'Angelo, Venice",
-      "artist": "カナレット",
-      "year": 1739,
-      "century": "18〜19世紀",
-      "museum": "メトロポリタン美術館",
-      "museumUrl": "https://www.metmuseum.org/art/collection/search/438103",
-      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-19650-001.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "met-436963",
-      "title": "Strawberries",
-      "artist": "Edouard Manet",
-      "year": 1882,
-      "century": "18〜19世紀",
-      "museum": "メトロポリタン美術館",
-      "museumUrl": "https://www.metmuseum.org/art/collection/search/436963",
-      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/ep56.230.1.R.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "met-438381",
-      "title": "View from the Quai d'Orsay",
-      "artist": "Johan Barthold Jongkind",
-      "year": 1854,
-      "century": "18〜19世紀",
-      "museum": "メトロポリタン美術館",
-      "museumUrl": "https://www.metmuseum.org/art/collection/search/438381",
-      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DT5338.jpg",
+      "museumUrl": "https://www.metmuseum.org/art/collection/search/453271",
+      "image": "https://images.metmuseum.org/CRDImages/is/web-large/sf1986-109-1r.jpg",
       "wikiUrl": null
     }
   ]
