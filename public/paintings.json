@@ -1,9 +1,9 @@
 {
-  "generated": "2026-03-22T01:42:09.292Z",
-  "total": 445,
+  "generated": "2026-03-22T01:53:10.771Z",
+  "total": 355,
   "sources": {
-    "artic": 431,
-    "met": 14
+    "artic": 345,
+    "met": 10
   },
   "paintings": [
     {
@@ -172,17 +172,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-79763",
-      "title": "Door",
-      "artist": "Italian; Venice",
-      "year": 1755,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/79763",
-      "image": "https://www.artic.edu/iiif/2/81c03e6e-f8ed-7c25-d3cd-e6b6e4dc8865/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-83613",
       "title": "'Il Mascherone,' a Rocaille Fountain on the Grounds of the Villa Borghese",
       "artist": "Richard Wilson",
@@ -238,17 +227,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-113794",
-      "title": "The Descent from the Summit: Jean Martin Steadies Hélène, the Banker’s Daughter (Illustration for Edmond Renoir’s “L’étiquette”) (recto); Half-Length Sketch of a Woman (verso)",
-      "artist": "Pierre Auguste Renoir",
-      "year": 1881,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/113794",
-      "image": "https://www.artic.edu/iiif/2/c2c596be-1fcb-3b2e-7e1a-7116396d4875/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-130724",
       "title": "Page from a Manuscript of Kulliyat (Complete Works) by Sa'di",
       "artist": "Iran",
@@ -279,39 +257,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/131827",
       "image": "https://www.artic.edu/iiif/2/5744228e-f41d-f2ae-b67c-94ec7959766c/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-140604",
-      "title": "Baskets with Flowers of the Four Seasons",
-      "artist": "Artist unknown",
-      "year": 1800,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/140604",
-      "image": "https://www.artic.edu/iiif/2/37f720f3-f598-44b1-1765-aeca941f009a/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-141111",
-      "title": "Amulet of Two Fingers",
-      "artist": "Egyptian",
-      "year": -332,
-      "century": "不明",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/141111",
-      "image": "https://www.artic.edu/iiif/2/7ff789fd-b2db-4fca-0242-9936a52f271f/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-158483",
-      "title": "Flower Arrangements",
-      "artist": "Artist unknown",
-      "year": 1605,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/158483",
-      "image": "https://www.artic.edu/iiif/2/f5f3b956-d7fb-c8ef-5830-43f93b44ebfd/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -356,17 +301,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/180545",
       "image": "https://www.artic.edu/iiif/2/70b5f843-8885-d0f7-f167-e992cf36bac1/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-126981",
-      "title": "Gaming Set, Probably Made for the Russian Court",
-      "artist": "Du Paquier Porcelain Manufactory",
-      "year": 1740,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/126981",
-      "image": "https://www.artic.edu/iiif/2/55c7170e-0011-df2a-8943-b22cb5585661/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -425,72 +359,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-52283",
-      "title": "Collar",
-      "artist": "Metalworker unknown",
-      "year": 1470,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/52283",
-      "image": "https://www.artic.edu/iiif/2/c0d4307c-c42c-9c0c-57d6-63e2dfdc0b6e/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-208143",
-      "title": "Library Ladder",
-      "artist": "William France",
-      "year": 1782,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/208143",
-      "image": "https://www.artic.edu/iiif/2/7f0c1692-cd8a-ca14-e70a-b8252f55c453/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-188629",
-      "title": "Earthly Paradise",
-      "artist": "ポール・ゴーギャン",
-      "year": 1888,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/188629",
-      "image": "https://www.artic.edu/iiif/2/0cbab8ed-672f-13f6-08a1-82733e3dc6a6/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-90589",
-      "title": "Astrolabe",
-      "artist": "Iran",
-      "year": 1800,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/90589",
-      "image": "https://www.artic.edu/iiif/2/73e8e4ba-79e8-71d5-a731-05acce0d1035/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-86812",
-      "title": "Dance Blanket with Diving Whale and Raven Motifs",
-      "artist": "Chilkat Tlingit",
-      "year": 1900,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/86812",
-      "image": "https://www.artic.edu/iiif/2/58a44f4c-3d3f-c93a-a4bb-44c68f8b4267/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-148112",
-      "title": "Hanging Box with Lid",
-      "artist": "Attributed to Jacob Brunkeg",
-      "year": 1891,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/148112",
-      "image": "https://www.artic.edu/iiif/2/e74e4529-8073-c944-ead1-1c5a84e8209d/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-15468",
       "title": "Saint George and the Dragon",
       "artist": "Bernat Martorell",
@@ -502,17 +370,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-12000",
-      "title": "Adoration of the Shepherds",
-      "artist": "Benedetto Buglioni",
-      "year": 1540,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/12000",
-      "image": "https://www.artic.edu/iiif/2/964f5027-4193-ed6b-df9f-d9d91b072837/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-879",
       "title": "Landscape (The Lock)",
       "artist": "Attributed to John Constable",
@@ -521,28 +378,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/879",
       "image": "https://www.artic.edu/iiif/2/ff3b5c8a-5b14-5c35-8775-3d021e92a381/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-104094",
-      "title": "General Andrew Jackson",
-      "artist": "William Rush",
-      "year": 1819,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/104094",
-      "image": "https://www.artic.edu/iiif/2/6088ab1b-930d-a3fa-6cba-bcff70e7bb37/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-45356",
-      "title": "A15: New York Parlor, 1850-70",
-      "artist": "Designed by Narcissa Niblack Thorne",
-      "year": 1940,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/45356",
-      "image": "https://www.artic.edu/iiif/2/ca6d341e-6911-2a46-3ae9-e7fa880190ca/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -568,39 +403,6 @@
       "wikiUrl": "https://ja.wikipedia.org/wiki/ファン・ゴッホの寝室"
     },
     {
-      "id": "artic-180498",
-      "title": "Sewing Desk",
-      "artist": "Woodworker unknown",
-      "year": 1870,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/180498",
-      "image": "https://www.artic.edu/iiif/2/14fbaf7e-5ace-cf0c-c08e-4d9e7b3d8813/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-45369",
-      "title": "A20: Virginia Dining Room, 1758",
-      "artist": "Designed by Narcissa Niblack Thorne",
-      "year": 1940,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/45369",
-      "image": "https://www.artic.edu/iiif/2/81ae05bf-8657-20e9-08c6-67001b97c013/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-45363",
-      "title": "A18: Shaker Living Room, c. 1800",
-      "artist": "Designed by Narcissa Niblack Thorne",
-      "year": 1940,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/45363",
-      "image": "https://www.artic.edu/iiif/2/3e42700c-92e2-aef4-89f5-021d7c40eb4f/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-217536",
       "title": "Crèche",
       "artist": "Neapolitan",
@@ -623,17 +425,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-43771",
-      "title": "E-26: French Anteroom of the Empire Period, c. 1810",
-      "artist": "Designed by Narcissa Niblack Thorne",
-      "year": 1937,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/43771",
-      "image": "https://www.artic.edu/iiif/2/8ac5ec9e-e21a-e418-269c-d79ba8103542/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-20684",
       "title": "パリの街路、雨の日",
       "artist": "ギュスターヴ・カイユボット",
@@ -643,50 +434,6 @@
       "museumUrl": "https://www.artic.edu/artworks/20684",
       "image": "https://www.artic.edu/iiif/2/f8fd76e9-c396-5678-36ed-6a348c904d27/full/843,/0/default.jpg",
       "wikiUrl": "https://ja.wikipedia.org/wiki/パリの街路、雨の日"
-    },
-    {
-      "id": "artic-135128",
-      "title": "Mummified Man",
-      "artist": "Egyptian",
-      "year": -30,
-      "century": "不明",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/135128",
-      "image": "https://www.artic.edu/iiif/2/91e5f025-c6ca-7b99-bbf3-047e2cb7991f/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-135127",
-      "title": "Coffin of Wenuhotep",
-      "artist": "Egyptian",
-      "year": -600,
-      "century": "不明",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/135127",
-      "image": "https://www.artic.edu/iiif/2/18cd0669-70d2-1715-3858-a432657cb577/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-64339",
-      "title": "Coffin and Mummy of Paankhaenamun",
-      "artist": "Egyptian; Thebes",
-      "year": -889,
-      "century": "不明",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/64339",
-      "image": "https://www.artic.edu/iiif/2/93270aaf-16a5-1604-c6c8-0f3c003eb7a1/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-38919",
-      "title": "Sheet of Studies with the Head of the Fornarina and Hands of Madame de Senonnes",
-      "artist": "Jean–Auguste–Dominique Ingres",
-      "year": 1816,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/38919",
-      "image": "https://www.artic.edu/iiif/2/ae5a04ca-aa97-351b-362d-e70396e026d3/full/843,/0/default.jpg",
-      "wikiUrl": null
     },
     {
       "id": "artic-153194",
@@ -719,17 +466,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/81558",
       "image": "https://www.artic.edu/iiif/2/321c45f5-22a3-84a2-44cc-cf66642d4cf2/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-45404",
-      "title": "A32: Louisiana Bedroom, 1800-50",
-      "artist": "Designed by Narcissa Niblack Thorne",
-      "year": 1940,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/45404",
-      "image": "https://www.artic.edu/iiif/2/54f927c5-ff27-3318-857a-5f7e1979a2b0/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -766,127 +502,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-146696",
-      "title": "Music Stand for the Monkey Band",
-      "artist": "Meissen Porcelain Manufactory",
-      "year": 1770,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/146696",
-      "image": "https://www.artic.edu/iiif/2/5818d975-5b8f-f66b-a0ba-aec38fb698d5/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-146683",
-      "title": "Bassoon Player for the Monkey Band",
-      "artist": "Meissen Porcelain Manufactory",
-      "year": 1770,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/146683",
-      "image": "https://www.artic.edu/iiif/2/dfe52fa4-6cb0-1da4-395b-c10bfdaf8964/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-146694",
-      "title": "Bagpiper for the Monkey Band",
-      "artist": "Meissen Porcelain Manufactory",
-      "year": 1770,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/146694",
-      "image": "https://www.artic.edu/iiif/2/78b6080b-d1ab-fd18-889d-d6d5b579dfa1/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-146693",
-      "title": "Cellist for the Monkey Band",
-      "artist": "Meissen Porcelain Manufactory",
-      "year": 1770,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/146693",
-      "image": "https://www.artic.edu/iiif/2/bf8ecd74-7265-c7e2-6da6-fc7bd1c45b0b/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-146688",
-      "title": "Drum Beater for the Monkey Band",
-      "artist": "Meissen Porcelain Manufactory",
-      "year": 1770,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/146688",
-      "image": "https://www.artic.edu/iiif/2/5be7d2f3-aec6-123e-349f-3eb8a51c4058/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-146685",
-      "title": "Drummer for the Monkey Band",
-      "artist": "Meissen Porcelain Manufactory",
-      "year": 1770,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/146685",
-      "image": "https://www.artic.edu/iiif/2/f5071fa6-5dac-a285-6cc7-78dc229c01e5/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-55905",
-      "title": "Conductor for the Monkey Band",
-      "artist": "Germany",
-      "year": 1770,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/55905",
-      "image": "https://www.artic.edu/iiif/2/45a72e4b-3ba1-0e94-a503-6d8ae2b41155/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-146692",
-      "title": "Clarinet Player for the Monkey Band",
-      "artist": "Meissen Porcelain Manufactory",
-      "year": 1770,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/146692",
-      "image": "https://www.artic.edu/iiif/2/5a224695-b84e-76cb-8ac0-1fadcf5a1084/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-146691",
-      "title": "Hurdy-Gurdy Player for the Monkey Band",
-      "artist": "Meissen Porcelain Manufactory",
-      "year": 1770,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/146691",
-      "image": "https://www.artic.edu/iiif/2/19e0eace-664a-7020-0715-d809ee8e7ca5/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-28961",
-      "title": "Bishamon",
-      "artist": "Japan",
-      "year": 1100,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/28961",
-      "image": "https://www.artic.edu/iiif/2/3c80691f-8b69-9ad9-d30a-569d811bb303/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-185001",
-      "title": "A Pair of Carp",
-      "artist": "Korea",
-      "year": 1910,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/185001",
-      "image": "https://www.artic.edu/iiif/2/3aa79682-996a-0ce4-f2dc-3eb802e9d503/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-187050",
       "title": "Orchids",
       "artist": "Kim Eung-won",
@@ -898,69 +513,14 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-158431",
-      "title": "\"Garfield and Arthur\" Quilt",
-      "artist": "Possibly Annie Ensminger Kready or Louisa Ensminger",
-      "year": 1890,
+      "id": "artic-198126",
+      "title": "Lady Filmer in her Drawing Room",
+      "artist": "Mary Georgiana Caroline",
+      "year": 1868,
       "century": "18〜19世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/158431",
-      "image": "https://www.artic.edu/iiif/2/92d4f148-6403-a448-1036-7cbf9b9eac53/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-86930",
-      "title": "Jizo Bosatsu",
-      "artist": "Japanese",
-      "year": 1225,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/86930",
-      "image": "https://www.artic.edu/iiif/2/3d590dd4-5e57-a2ff-a1ed-596127d779c1/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-50735",
-      "title": "Soldier with Lance",
-      "artist": "ジェームズ・マクニール・ホイッスラー",
-      "year": 1855,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/50735",
-      "image": "https://www.artic.edu/iiif/2/67138884-5a73-3e24-29d1-c25029d2834b/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-50745",
-      "title": "Gendarme",
-      "artist": "ジェームズ・マクニール・ホイッスラー",
-      "year": 1855,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/50745",
-      "image": "https://www.artic.edu/iiif/2/c8c09e41-69b8-50f4-d3ca-2c35d146853a/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-50743",
-      "title": "Policeman and Citizen",
-      "artist": "ジェームズ・マクニール・ホイッスラー",
-      "year": 1855,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/50743",
-      "image": "https://www.artic.edu/iiif/2/ed44582b-afef-3698-6522-8e25403e73ff/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-113098",
-      "title": "Hussar (recto) Man with a Top Hat and Bandaged Head (verso)",
-      "artist": "ジェームズ・マクニール・ホイッスラー",
-      "year": 1855,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/113098",
-      "image": "https://www.artic.edu/iiif/2/139f647d-60ac-7e14-cabb-d1689d79545d/full/843,/0/default.jpg",
+      "museumUrl": "https://www.artic.edu/artworks/198126",
+      "image": "https://www.artic.edu/iiif/2/6e78c48f-72a1-121e-4dad-a176a0b78e78/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -986,28 +546,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-50766",
-      "title": "Draped Model",
-      "artist": "ジェームズ・マクニール・ホイッスラー",
-      "year": 1869,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/50766",
-      "image": "https://www.artic.edu/iiif/2/8c27b80b-b5d2-a29f-44e3-7bff97d722a9/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-50747",
-      "title": "Lancer",
-      "artist": "ジェームズ・マクニール・ホイッスラー",
-      "year": 1855,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/50747",
-      "image": "https://www.artic.edu/iiif/2/73d7c959-b94d-d9fa-0bb2-118c43e6f845/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-2848",
       "title": "Scene from Bohemian Life",
       "artist": "ジェームズ・マクニール・ホイッスラー",
@@ -1016,17 +554,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/2848",
       "image": "https://www.artic.edu/iiif/2/15c13ae6-7fe8-d06b-7462-aee0c985b220/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-115974",
-      "title": "自画像",
-      "artist": "ジェームズ・マクニール・ホイッスラー",
-      "year": 1873,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/115974",
-      "image": "https://www.artic.edu/iiif/2/8d0c8df7-f80b-c91e-a7ce-b785e24745ff/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1060,17 +587,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/158382",
       "image": "https://www.artic.edu/iiif/2/d8e45c48-6109-6fe1-e0fc-ba528eeea822/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-50768",
-      "title": "At the Piano",
-      "artist": "ジェームズ・マクニール・ホイッスラー",
-      "year": 1879,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/50768",
-      "image": "https://www.artic.edu/iiif/2/4972d96f-5b96-2423-af60-4fe5a6d516f1/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1129,17 +645,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-147853",
-      "title": "Study for Portrait of Thomas Way",
-      "artist": "ジェームズ・マクニール・ホイッスラー",
-      "year": 1896,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/147853",
-      "image": "https://www.artic.edu/iiif/2/c116d985-d31b-6ad8-79ac-73110fa03be3/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-14317",
       "title": "Study of a Girl's Head and Shoulders",
       "artist": "ジェームズ・マクニール・ホイッスラー",
@@ -1148,39 +653,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/14317",
       "image": "https://www.artic.edu/iiif/2/f59015ec-07d0-ebbf-6d57-647af5ef4a41/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-113080",
-      "title": "Butterfly (recto); Study of Butterfly (verso)",
-      "artist": "ジェームズ・マクニール・ホイッスラー",
-      "year": 1899,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/113080",
-      "image": "https://www.artic.edu/iiif/2/1ebd1764-3a12-e6a6-baaa-cfbf53ad1d6a/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-113076",
-      "title": "Butterfly \"Encountered\" (recto); Sketch for Tailpiece (verso)",
-      "artist": "ジェームズ・マクニール・ホイッスラー",
-      "year": 1899,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/113076",
-      "image": "https://www.artic.edu/iiif/2/cf5cd544-edb6-3b6d-edc1-294351526bde/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-50756",
-      "title": "Sketch of the Peacock Room",
-      "artist": "ジェームズ・マクニール・ホイッスラー",
-      "year": 1898,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/50756",
-      "image": "https://www.artic.edu/iiif/2/facf6a4c-6c00-340b-91b2-d4c1a353a6f8/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1206,17 +678,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-14498",
-      "title": "A Club on a Cushion",
-      "artist": "ジェームズ・マクニール・ホイッスラー",
-      "year": 1899,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/14498",
-      "image": "https://www.artic.edu/iiif/2/e1d2e9ec-f0aa-069e-1c2e-edbfd7a3a59c/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-14493",
       "title": "Butterfly",
       "artist": "ジェームズ・マクニール・ホイッスラー",
@@ -1239,28 +700,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-113074",
-      "title": "Butterfly (recto); Fragment of Butterfly (verso)",
-      "artist": "ジェームズ・マクニール・ホイッスラー",
-      "year": 1899,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/113074",
-      "image": "https://www.artic.edu/iiif/2/f836f9da-cb85-58a4-3359-ab1ae1ba418b/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-113078",
-      "title": "Butterfly (recto); Fragment of Butterfly (verso)",
-      "artist": "ジェームズ・マクニール・ホイッスラー",
-      "year": 1899,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/113078",
-      "image": "https://www.artic.edu/iiif/2/12e410bf-eb19-c6e5-183f-f8353c90e641/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-113070",
       "title": "Study for \"Arrangement in Black, No. 2: Portrait of Mrs. Louis Huth\" (recto); Study for \"Symphony in Flesh Color and Pink: Portrait of Mrs. Frances Leyland\" (verso)",
       "artist": "ジェームズ・マクニール・ホイッスラー",
@@ -1269,39 +708,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/113070",
       "image": "https://www.artic.edu/iiif/2/7f401f24-8877-e887-53cb-880663ed8907/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-112165",
-      "title": "Study for \"The Blue Girl: Portrait of Miss Elinor Leyland\"",
-      "artist": "ジェームズ・マクニール・ホイッスラー",
-      "year": 1879,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/112165",
-      "image": "https://www.artic.edu/iiif/2/8799c619-551a-b0bb-48a4-aff67aac8356/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-50764",
-      "title": "A Nude Figure",
-      "artist": "ジェームズ・マクニール・ホイッスラー",
-      "year": 1878,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/50764",
-      "image": "https://www.artic.edu/iiif/2/ac22799a-76ee-375d-d70d-16910b1295ad/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-228313",
-      "title": "The Brand Cabinet",
-      "artist": "Designed by Horace Walpole",
-      "year": 1748,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/228313",
-      "image": "https://www.artic.edu/iiif/2/8eb89ac4-89c1-9a6d-32f7-f03ec824f52f/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1327,39 +733,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-249141",
-      "title": "Flowerpot Fire Screen",
-      "artist": "Designed by William Morris",
-      "year": 1885,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/249141",
-      "image": "https://www.artic.edu/iiif/2/83ced08d-f1f5-f1bb-53cb-f327648a0753/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-127874",
-      "title": "Model of a River Boat",
-      "artist": "Egyptian; Meir",
-      "year": -1794,
-      "century": "不明",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/127874",
-      "image": "https://www.artic.edu/iiif/2/f16a5e00-31c5-1e61-a953-15c5abb42ca3/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-147005",
-      "title": "Painted Banner (Thangka) of Vajriputra, One of the Sixteen Great Arhats",
-      "artist": "Chinese or Tibetan",
-      "year": 1725,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/147005",
-      "image": "https://www.artic.edu/iiif/2/01e93a51-4f67-6493-ed11-966d39820973/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-145677",
       "title": "Poetic Thoughts in a Forest Pavilion 林堂詩思圖",
       "artist": "Ni Zan 倪瓚",
@@ -1368,50 +741,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/145677",
       "image": "https://www.artic.edu/iiif/2/5f28e5c2-9ccf-86f2-58f7-6fa4ca267cba/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-26882",
-      "title": "Brushpot Depicting a Daoist Paradise",
-      "artist": "China",
-      "year": 1795,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/26882",
-      "image": "https://www.artic.edu/iiif/2/034a0d6e-e0b0-0a3f-8928-e2c4d762c28a/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-140647",
-      "title": "Nehebkau Amulet",
-      "artist": "Egyptian",
-      "year": -300,
-      "century": "不明",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/140647",
-      "image": "https://www.artic.edu/iiif/2/7c47fc48-c549-6a65-4965-2e6aba493d74/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-130676",
-      "title": "Eight Great Events from the Life of the Buddha",
-      "artist": "India",
-      "year": 1000,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/130676",
-      "image": "https://www.artic.edu/iiif/2/9116ffb8-86b0-402a-5514-39afc5e48eec/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-101031",
-      "title": "Crowned and Bejewelled Buddha Seated on an Elephant Throne",
-      "artist": "Burma",
-      "year": 1900,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/101031",
-      "image": "https://www.artic.edu/iiif/2/52f69fff-3b9d-c711-3f5c-f9dd8272ad11/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1448,204 +777,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-182173",
-      "title": "Pineapple or Windmill Blades Log Cabin Quilt",
-      "artist": "Indiana",
-      "year": 1889,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/182173",
-      "image": "https://www.artic.edu/iiif/2/ab592d47-d2e3-b88e-cea5-14de71c70769/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-158422",
-      "title": "\"Basket of Flowers\" Quilt",
-      "artist": "Made by the Bridges Family",
-      "year": 1870,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/158422",
-      "image": "https://www.artic.edu/iiif/2/1f479d0b-0390-2c4c-2d5a-7f46ad0ceda1/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-149052",
-      "title": "Strawberry Thief",
-      "artist": "Designed by William Morris",
-      "year": 1883,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/149052",
-      "image": "https://www.artic.edu/iiif/2/30bad0c6-221f-b282-850d-6777540ef8ad/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-39170",
-      "title": "Snakeshead",
-      "artist": "Designed by William Morris",
-      "year": 1876,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/39170",
-      "image": "https://www.artic.edu/iiif/2/9c039af6-71a6-dd24-e47f-e0a510b3862f/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-39143",
-      "title": "Marigold",
-      "artist": "Designed by William Morris",
-      "year": 1875,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/39143",
-      "image": "https://www.artic.edu/iiif/2/3345af11-f33b-d9ac-43ba-2d92db8d2c77/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-215558",
-      "title": "Kelmscott Manor: Bed Wm. Morris Was Born In",
-      "artist": "Frederick H. Evans",
-      "year": 1896,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/215558",
-      "image": "https://www.artic.edu/iiif/2/bc619f79-2040-200d-556b-ffc3c9e6402e/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-71294",
-      "title": "Border for a Table Cover or Valance",
-      "artist": "Design attributed to May Morris",
-      "year": 1899,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/71294",
-      "image": "https://www.artic.edu/iiif/2/f49ffc99-5bb7-c6d6-e714-74264d7d2378/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-48983",
-      "title": "Fragment of Velvet",
-      "artist": "Probably Florence",
-      "year": 1450,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/48983",
-      "image": "https://www.artic.edu/iiif/2/448cd51d-becf-f8ae-75fe-754b5fd69da3/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-215555",
-      "title": "Kelmscott Manor: The Green Room",
-      "artist": "Frederick H. Evans",
-      "year": 1896,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/215555",
-      "image": "https://www.artic.edu/iiif/2/9163a16e-0243-0516-1a14-a0d506e353dd/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-103918",
-      "title": "Peacock and Dragon",
-      "artist": "Designed by William Morris",
-      "year": 1878,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/103918",
-      "image": "https://www.artic.edu/iiif/2/2287bfa7-89a3-8c59-78ed-0d8f5f43b199/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-71279",
-      "title": "Acanthus",
-      "artist": "Designed by William Morris",
-      "year": 1876,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/71279",
-      "image": "https://www.artic.edu/iiif/2/47f44d3c-e8e0-5b0a-21b4-fb4da392e008/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-47661",
-      "title": "Cray",
-      "artist": "Designed by William Morris",
-      "year": 1884,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/47661",
-      "image": "https://www.artic.edu/iiif/2/8adeafb8-141d-6ad0-3356-5479dd0a6254/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-179719",
-      "title": "Kennett",
-      "artist": "Designed by William Morris",
-      "year": 1883,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/179719",
-      "image": "https://www.artic.edu/iiif/2/a135ddd8-8375-0546-c74e-d086c696c170/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-37104",
-      "title": "Kennet",
-      "artist": "Designed by William Morris",
-      "year": 1883,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/37104",
-      "image": "https://www.artic.edu/iiif/2/26a3e00e-aab7-449b-0bd1-a2e4232bea90/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-74514",
-      "title": "Lotus",
-      "artist": "Design attributed to May Morris",
-      "year": 1888,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/74514",
-      "image": "https://www.artic.edu/iiif/2/9d607458-1488-5177-fc44-d396b38116d1/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-47947",
-      "title": "\"Swan House\" Carpet",
-      "artist": "Designed by William Morris",
-      "year": 1883,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/47947",
-      "image": "https://www.artic.edu/iiif/2/75c9cedb-c001-c22e-cf6c-8bc764e0e638/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-91893",
-      "title": "Nose and Mouth Ornament",
-      "artist": "Nazca",
-      "year": 500,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/91893",
-      "image": "https://www.artic.edu/iiif/2/58b81660-7d09-4d8c-fa40-fb786f6981c7/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-30947",
-      "title": "Tunic",
-      "artist": "Iran",
-      "year": 1800,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/30947",
-      "image": "https://www.artic.edu/iiif/2/31cffced-e17e-524d-4b0a-adb27742fa81/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-111436",
       "title": "りんごの籠",
       "artist": "Paul Cezanne",
@@ -1657,28 +788,6 @@
       "wikiUrl": "https://ja.wikipedia.org/wiki/りんごの籠_(セザンヌ)"
     },
     {
-      "id": "artic-102080",
-      "title": "Loutrophoros (Container for Bath Water)",
-      "artist": "Attributed to the Varrese Painter",
-      "year": -340,
-      "century": "不明",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/102080",
-      "image": "https://www.artic.edu/iiif/2/c93a1d18-3eb0-a351-6b0c-4607cd0e2462/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-189597",
-      "title": "Equestrian and Four Figures",
-      "artist": "Bankoni",
-      "year": 1500,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/189597",
-      "image": "https://www.artic.edu/iiif/2/3afb386b-1dfd-2264-8646-6d5cbb6f6b38/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-94841",
       "title": "The Song of the Lark",
       "artist": "Jules Breton",
@@ -1687,17 +796,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/94841",
       "image": "https://www.artic.edu/iiif/2/48b2de88-ba73-8e19-f448-d1cef4a1c847/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-74646",
-      "title": "Sketchbook No. 2 (L'Estaque)",
-      "artist": "ポール・セザンヌ",
-      "year": 1886,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/74646",
-      "image": "https://www.artic.edu/iiif/2/11cfc829-cf72-3b5f-c59f-44357721d09e/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1833,6 +931,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-278674",
+      "title": "Toilette of the Law Clerk",
+      "artist": "Philibert-Louis Debucourt",
+      "year": 1800,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/278674",
+      "image": "https://www.artic.edu/iiif/2/67fa8011-2055-6746-e96c-35578946d647/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-64489",
       "title": "Young Woman in Black",
       "artist": "Robert Henri",
@@ -1863,17 +972,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/107939",
       "image": "https://www.artic.edu/iiif/2/68415b1d-baec-303a-1c09-4c6b7ccb575c/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-59097",
-      "title": "Pair of Lamps",
-      "artist": "Rosewell Gleason",
-      "year": 1850,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/59097",
-      "image": "https://www.artic.edu/iiif/2/65c57b21-eb70-6306-808a-27587d04985e/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1943,25 +1041,14 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-43081",
-      "title": "Fragment (Skirt)",
-      "artist": "Designed by Bertha Honoré Palmer",
-      "year": 1900,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/43081",
-      "image": "https://www.artic.edu/iiif/2/05792838-1f37-0481-688f-2633bffe3c34/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-60503",
-      "title": "Flowers of the Four Seasons",
-      "artist": "Artist unknown",
+      "id": "artic-108853",
+      "title": "Poetry Fragment (Qit'a) written in Nasta'liq Script",
+      "artist": "Iran or India",
       "year": 1800,
       "century": "18〜19世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/60503",
-      "image": "https://www.artic.edu/iiif/2/27440046-931e-8f6f-22f6-3ad8d3402631/full/843,/0/default.jpg",
+      "museumUrl": "https://www.artic.edu/artworks/108853",
+      "image": "https://www.artic.edu/iiif/2/8045eed0-3dce-6fc4-5df0-766ce5750b69/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1987,17 +1074,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-85665",
-      "title": "Putto Seated on Clouds",
-      "artist": "Denys Calvaert",
-      "year": 1612,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/85665",
-      "image": "https://www.artic.edu/iiif/2/67f29052-0a8a-0104-5ebc-682240ffe050/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-152437",
       "title": "Fisherman's Cottage",
       "artist": "Harald Sohlberg",
@@ -2006,17 +1082,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/152437",
       "image": "https://www.artic.edu/iiif/2/efef304d-190c-294f-1cba-73374b3361a3/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-36480",
-      "title": "Beaker",
-      "artist": "Bohemia",
-      "year": 1698,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/36480",
-      "image": "https://www.artic.edu/iiif/2/082949ca-adcb-5ee9-04c1-37de81e82176/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -3879,17 +2944,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-111447",
-      "title": "Tabernacle Front",
-      "artist": "Italian",
-      "year": 1500,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/111447",
-      "image": "https://www.artic.edu/iiif/2/e20f2ff3-55b5-74a2-5b58-34d3e92f7a6e/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-119264",
       "title": "Head of a Guillotined Man",
       "artist": "Jean Louis André Théodore Géricault",
@@ -4748,157 +3802,113 @@
       "wikiUrl": null
     },
     {
-      "id": "met-741913",
-      "title": "Stucco Fragment",
+      "id": "met-447189",
+      "title": "Fragment of a Dish",
       "artist": "作者不詳",
-      "year": 1300,
+      "year": 1299,
       "century": "〜17世紀",
       "museum": "メトロポリタン美術館",
-      "museumUrl": "https://www.metmuseum.org/art/collection/search/741913",
-      "image": "https://images.metmuseum.org/CRDImages/is/web-large/LC-N546-front.jpg",
+      "museumUrl": "https://www.metmuseum.org/art/collection/search/447189",
+      "image": "https://images.metmuseum.org/CRDImages/is/web-large/sf20-120-107a.jpg",
       "wikiUrl": null
     },
     {
-      "id": "met-445769",
-      "title": "Fragment of a Band",
+      "id": "met-444400",
+      "title": "Letter in Pahlavi script",
+      "artist": "作者不詳",
+      "year": 625,
+      "century": "〜17世紀",
+      "museum": "メトロポリタン美術館",
+      "museumUrl": "https://www.metmuseum.org/art/collection/search/444400",
+      "image": "https://images.metmuseum.org/CRDImages/is/web-large/sf90-5-960.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "met-445771",
+      "title": "Shoulder Band Fragment",
       "artist": "作者不詳",
       "year": 699,
       "century": "〜17世紀",
       "museum": "メトロポリタン美術館",
-      "museumUrl": "https://www.metmuseum.org/art/collection/search/445769",
-      "image": "https://images.metmuseum.org/CRDImages/is/web-large/85851.jpg",
+      "museumUrl": "https://www.metmuseum.org/art/collection/search/445771",
+      "image": "https://images.metmuseum.org/CRDImages/is/web-large/sf09-50-1452.jpg",
       "wikiUrl": null
     },
     {
-      "id": "met-444126",
-      "title": "Fragment of a Band with Birds, Cross, and Head",
+      "id": "met-444529",
+      "title": "Mortar and Pestle made for Abu Bakr 'Ali Malikzad al-Tabrizi",
       "artist": "作者不詳",
-      "year": 699,
+      "year": 1225,
       "century": "〜17世紀",
       "museum": "メトロポリタン美術館",
-      "museumUrl": "https://www.metmuseum.org/art/collection/search/444126",
-      "image": "https://images.metmuseum.org/CRDImages/is/web-large/DP291558.jpg",
+      "museumUrl": "https://www.metmuseum.org/art/collection/search/444529",
+      "image": "https://images.metmuseum.org/CRDImages/is/web-large/DP-17252-001.jpg",
       "wikiUrl": null
     },
     {
-      "id": "met-444631",
-      "title": "Headstall with Reins",
+      "id": "met-445009",
+      "title": "Stirrups",
       "artist": "作者不詳",
-      "year": 1899,
-      "century": "18〜19世紀",
-      "museum": "メトロポリタン美術館",
-      "museumUrl": "https://www.metmuseum.org/art/collection/search/444631",
-      "image": "https://images.metmuseum.org/CRDImages/is/web-large/LC-91_1_1080_a.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "met-444824",
-      "title": "Window",
-      "artist": "作者不詳",
-      "year": 1799,
-      "century": "18〜19世紀",
-      "museum": "メトロポリタン美術館",
-      "museumUrl": "https://www.metmuseum.org/art/collection/search/444824",
-      "image": "https://images.metmuseum.org/CRDImages/is/web-large/wb-93.26.7.JPG",
-      "wikiUrl": null
-    },
-    {
-      "id": "met-444439",
-      "title": "Hanging",
-      "artist": "作者不詳",
-      "year": 1799,
-      "century": "18〜19世紀",
-      "museum": "メトロポリタン美術館",
-      "museumUrl": "https://www.metmuseum.org/art/collection/search/444439",
-      "image": "https://images.metmuseum.org/CRDImages/is/web-large/DP-34050-001.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "met-446048",
-      "title": "Cross",
-      "artist": "作者不詳",
-      "year": 1199,
+      "year": 1499,
       "century": "〜17世紀",
       "museum": "メトロポリタン美術館",
-      "museumUrl": "https://www.metmuseum.org/art/collection/search/446048",
-      "image": "https://images.metmuseum.org/CRDImages/is/web-large/sf10-130-1142a.jpg",
+      "museumUrl": "https://www.metmuseum.org/art/collection/search/445009",
+      "image": "https://images.metmuseum.org/CRDImages/is/web-large/sf07-210-1a.jpg",
       "wikiUrl": null
     },
     {
-      "id": "met-447821",
-      "title": "Hanging or Bed Cover",
+      "id": "met-444599",
+      "title": "Candlestick Base",
+      "artist": "作者不詳",
+      "year": 1399,
+      "century": "〜17世紀",
+      "museum": "メトロポリタン美術館",
+      "museumUrl": "https://www.metmuseum.org/art/collection/search/444599",
+      "image": "https://images.metmuseum.org/CRDImages/is/web-large/DP-31469-001.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "met-447121",
+      "title": "Disk",
       "artist": "作者不詳",
       "year": 1799,
       "century": "18〜19世紀",
       "museum": "メトロポリタン美術館",
-      "museumUrl": "https://www.metmuseum.org/art/collection/search/447821",
-      "image": "https://images.metmuseum.org/CRDImages/is/web-large/DP286917.jpg",
+      "museumUrl": "https://www.metmuseum.org/art/collection/search/447121",
+      "image": "https://images.metmuseum.org/CRDImages/is/web-large/LC-20_106_1.jpg",
       "wikiUrl": null
     },
     {
-      "id": "met-444576",
-      "title": "Coffee Pot",
+      "id": "met-126870",
+      "title": "Socks",
       "artist": "作者不詳",
       "year": 1899,
       "century": "18〜19世紀",
       "museum": "メトロポリタン美術館",
-      "museumUrl": "https://www.metmuseum.org/art/collection/search/444576",
-      "image": "https://images.metmuseum.org/CRDImages/is/web-large/sf91-1-576a.jpg",
+      "museumUrl": "https://www.metmuseum.org/art/collection/search/126870",
+      "image": "https://images.metmuseum.org/CRDImages/is/web-large/24.158.1_2.jpg",
       "wikiUrl": null
     },
     {
-      "id": "met-435834",
-      "title": "Louis XVI (1754–1793), King of France",
-      "artist": "Antoine François Callet",
-      "year": 1787,
-      "century": "18〜19世紀",
-      "museum": "メトロポリタン美術館",
-      "museumUrl": "https://www.metmuseum.org/art/collection/search/435834",
-      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP327714.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "met-444734",
-      "title": "Figure of a Mouse in Deep Blue Glass",
+      "id": "met-444219",
+      "title": "Fragment of Shoulder Band",
       "artist": "作者不詳",
-      "year": 1899,
-      "century": "18〜19世紀",
+      "year": 499,
+      "century": "〜17世紀",
       "museum": "メトロポリタン美術館",
-      "museumUrl": "https://www.metmuseum.org/art/collection/search/444734",
-      "image": "https://images.metmuseum.org/CRDImages/is/web-large/DP-12728-001.jpg",
+      "museumUrl": "https://www.metmuseum.org/art/collection/search/444219",
+      "image": "https://images.metmuseum.org/CRDImages/is/web-large/sf90-5-740a.jpg",
       "wikiUrl": null
     },
     {
-      "id": "met-444626",
-      "title": "Knife with an Ivory Handle and Qur'anic Inscriptions",
+      "id": "met-443998",
+      "title": "Fragment of a Sleeve",
       "artist": "作者不詳",
-      "year": 1825,
-      "century": "18〜19世紀",
+      "year": 399,
+      "century": "〜17世紀",
       "museum": "メトロポリタン美術館",
-      "museumUrl": "https://www.metmuseum.org/art/collection/search/444626",
-      "image": "https://images.metmuseum.org/CRDImages/is/web-large/DP158198.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "met-436223",
-      "title": "Landing the Shore End of the Atlantic Cable",
-      "artist": "Robert Charles Dudley",
-      "year": 1866,
-      "century": "18〜19世紀",
-      "museum": "メトロポリタン美術館",
-      "museumUrl": "https://www.metmuseum.org/art/collection/search/436223",
-      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP371472.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "met-436193",
-      "title": "The Edge of the Woods",
-      "artist": "Narcisse-Virgile Diaz de la Peña",
-      "year": 1872,
-      "century": "18〜19世紀",
-      "museum": "メトロポリタン美術館",
-      "museumUrl": "https://www.metmuseum.org/art/collection/search/436193",
-      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-20595-001.jpg",
+      "museumUrl": "https://www.metmuseum.org/art/collection/search/443998",
+      "image": "https://images.metmuseum.org/CRDImages/is/web-large/52044.jpg",
       "wikiUrl": null
     }
   ]
