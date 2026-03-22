@@ -291,6 +291,7 @@
     img.src = p.image;
     img.style.cursor = 'zoom-in';
     img.addEventListener('click', (e) => { e.stopPropagation(); openLightbox(p); });
+    ab.addEventListener('click', (e) => { e.stopPropagation(); openLightbox(p); });
     fw.appendChild(img);
     const shadow = document.createElement('div');
     shadow.className = 'frame-shadow';
