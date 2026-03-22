@@ -589,8 +589,8 @@ body{font-family:'Cormorant Garamond','Noto Serif JP',Georgia,serif}
 /* ライトボックスの額縁 */
 #lb-inner::before{
   content:'';position:absolute;inset:-12px;border-radius:2px;
-  background:linear-gradient(145deg,#c88830 0%,#7a4010 15%,#5a2a08 35%,#8a5820 50%,#5a2a08 65%,#7a4010 85%,#c88830 100%);
-  box-shadow:0 20px 60px rgba(0,0,0,.7),0 0 0 1px rgba(230,180,60,.5),inset 0 0 0 1px rgba(0,0,0,.4);
+  background:linear-gradient(to bottom,#2a2a2a 0%,#1a1a1a 20%,#141414 50%,#1a1a1a 80%,#2a2a2a 100%);
+  box-shadow:0 20px 60px rgba(0,0,0,.8),0 0 0 1px rgba(255,255,255,.08),inset 0 0 0 1px rgba(0,0,0,.5);
 }
 #lb-inner::after{
   content:'';position:absolute;inset:-4px;
@@ -811,6 +811,33 @@ body{font-family:'Cormorant Garamond','Noto Serif JP',Georgia,serif}
     </div>
   </div>
 
-<script src="./app.js"></script>
+<script src="./app.js">
+/* ピンチズーム for lightbox */
+(function(){
+  var lb=document.getElementById('lightbox');
+  var img=document.getElementById('lb-img');
+  if(!lb||!img)return;
+  var scale=1,startDist=0,startScale=1;
+  function dist(t){var dx=t[0].clientX-t[1].clientX,dy=t[0].clientY-t[1].clientY;return Math.sqrt(dx*dx+dy*dy);}
+  lb.addEventListener('touchstart',function(e){
+    if(e.touches.length===2){e.preventDefault();startDist=dist(e.touches);startScale=scale;}
+  },{passive:false});
+  lb.addEventListener('touchmove',function(e){
+    if(e.touches.length===2){
+      e.preventDefault();
+      var d=dist(e.touches);
+      scale=Math.min(Math.max(startScale*(d/startDist),1),4);
+      img.style.transform='scale('+scale+')';
+      img.style.transformOrigin='center center';
+    }
+  },{passive:false});
+  lb.addEventListener('touchend',function(e){
+    if(e.touches.length<2&&scale<1.05){scale=1;img.style.transform='scale(1)';}
+  });
+  var lbClose=document.getElementById('lb-close');
+  if(lbClose)lbClose.addEventListener('click',function(){scale=1;img.style.transform='scale(1)';});
+})();
+
+</script>
 </body>
 </html>
