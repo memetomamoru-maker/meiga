@@ -1,9 +1,9 @@
 {
-  "generated": "2026-03-22T03:45:27.665Z",
-  "total": 355,
+  "generated": "2026-03-22T04:07:09.122Z",
+  "total": 371,
   "sources": {
     "artic": 347,
-    "met": 8
+    "met": 24
   },
   "paintings": [
     {
@@ -3901,14 +3901,190 @@
       "wikiUrl": null
     },
     {
-      "id": "met-453271",
-      "title": "Page of Calligraphy",
-      "artist": "作者不詳",
-      "year": 1699,
+      "id": "met-436947",
+      "title": "ボート遊び",
+      "artist": "Edouard Manet",
+      "year": 1874,
+      "century": "18〜19世紀",
+      "museum": "メトロポリタン美術館",
+      "museumUrl": "https://www.metmuseum.org/art/collection/search/436947",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-25466-001.jpg",
+      "wikiUrl": "https://ja.wikipedia.org/wiki/ボート遊び_(マネ)"
+    },
+    {
+      "id": "met-437329",
+      "title": "The Abduction of the Sabine Women",
+      "artist": "ニコラ・プッサン",
+      "year": 1634,
       "century": "〜17世紀",
       "museum": "メトロポリタン美術館",
-      "museumUrl": "https://www.metmuseum.org/art/collection/search/453271",
-      "image": "https://images.metmuseum.org/CRDImages/is/web-large/sf1986-109-1r.jpg",
+      "museumUrl": "https://www.metmuseum.org/art/collection/search/437329",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-29324-001.jpg",
+      "wikiUrl": "https://ja.wikipedia.org/wiki/サビーニーの女たちの略奪"
+    },
+    {
+      "id": "met-459055",
+      "title": "The Annunciation",
+      "artist": "ハンス・メムリング",
+      "year": 1489,
+      "century": "〜17世紀",
+      "museum": "メトロポリタン美術館",
+      "museumUrl": "https://www.metmuseum.org/art/collection/search/459055",
+      "image": "https://images.metmuseum.org/CRDImages/rl/web-large/DP-40424-001.jpg",
+      "wikiUrl": "https://ja.wikipedia.org/wiki/受胎告知_(メムリング)"
+    },
+    {
+      "id": "met-436105",
+      "title": "ソクラテスの死",
+      "artist": "Jacques Louis David",
+      "year": 1787,
+      "century": "18〜19世紀",
+      "museum": "メトロポリタン美術館",
+      "museumUrl": "https://www.metmuseum.org/art/collection/search/436105",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-13139-001.jpg",
+      "wikiUrl": "https://ja.wikipedia.org/wiki/ソクラテスの死"
+    },
+    {
+      "id": "met-436282",
+      "title": "The Crucifixion; The Last Judgment",
+      "artist": "ヤン・ファン・エイク",
+      "year": 1438,
+      "century": "〜17世紀",
+      "museum": "メトロポリタン美術館",
+      "museumUrl": "https://www.metmuseum.org/art/collection/search/436282",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/LC-33_92ab-Primary_Temp.jpg",
+      "wikiUrl": "https://ja.wikipedia.org/wiki/磔刑と最後の審判_(ファン・エイク)"
+    },
+    {
+      "id": "met-11417",
+      "title": "デラウェア川を渡るワシントン",
+      "artist": "エマニュエル・ロイツェ",
+      "year": 1851,
+      "century": "18〜19世紀",
+      "museum": "メトロポリタン美術館",
+      "museumUrl": "https://www.metmuseum.org/art/collection/search/11417",
+      "image": "https://images.metmuseum.org/CRDImages/ad/web-large/DP215410.jpg",
+      "wikiUrl": "https://ja.wikipedia.org/wiki/デラウェア川を渡るワシントン"
+    },
+    {
+      "id": "met-435868",
+      "title": "カード遊びをする人々",
+      "artist": "ポール・セザンヌ",
+      "year": 1892,
+      "century": "18〜19世紀",
+      "museum": "メトロポリタン美術館",
+      "museumUrl": "https://www.metmuseum.org/art/collection/search/435868",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP231550.jpg",
+      "wikiUrl": "https://ja.wikipedia.org/wiki/カード遊びをする人々"
+    },
+    {
+      "id": "met-436535",
+      "title": "小麦畑と糸杉",
+      "artist": "フィンセント・ファン・ゴッホ",
+      "year": 1889,
+      "century": "18〜19世紀",
+      "museum": "メトロポリタン美術館",
+      "museumUrl": "https://www.metmuseum.org/art/collection/search/436535",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-42549-001.jpg",
+      "wikiUrl": "https://ja.wikipedia.org/wiki/小麦畑と糸杉"
+    },
+    {
+      "id": "met-436528",
+      "title": "アイリス",
+      "artist": "フィンセント・ファン・ゴッホ",
+      "year": 1890,
+      "century": "18〜19世紀",
+      "museum": "メトロポリタン美術館",
+      "museumUrl": "https://www.metmuseum.org/art/collection/search/436528",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP346474.jpg",
+      "wikiUrl": "https://ja.wikipedia.org/wiki/アイリス_(ファン・ゴッホ)"
+    },
+    {
+      "id": "met-438722",
+      "title": "The Potato Peeler (reverse: Self-Portrait with a Straw Hat)",
+      "artist": "フィンセント・ファン・ゴッホ",
+      "year": 1885,
+      "century": "18〜19世紀",
+      "museum": "メトロポリタン美術館",
+      "museumUrl": "https://www.metmuseum.org/art/collection/search/438722",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1503.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "met-435650",
+      "title": "Madame Philippe Panon Desbassayns de Richemont (Jeanne Eglé Mourgue, 1778–1855) and Her Son, Eugène (1800–1859)",
+      "artist": "Marie Guillemine Benoist",
+      "year": 1802,
+      "century": "18〜19世紀",
+      "museum": "メトロポリタン美術館",
+      "museumUrl": "https://www.metmuseum.org/art/collection/search/435650",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-13442-001.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "met-436305",
+      "title": "静物",
+      "artist": "Georg Flegel",
+      "year": 1630,
+      "century": "〜17世紀",
+      "museum": "メトロポリタン美術館",
+      "museumUrl": "https://www.metmuseum.org/art/collection/search/436305",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-25893-001.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "met-435869",
+      "title": "Antoine Dominique Sauveur Aubert (born 1817), the Artist's Uncle, as a Monk",
+      "artist": "ポール・セザンヌ",
+      "year": 1866,
+      "century": "18〜19世紀",
+      "museum": "メトロポリタン美術館",
+      "museumUrl": "https://www.metmuseum.org/art/collection/search/435869",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1977.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "met-437984",
+      "title": "La Berceuse (Woman Rocking a Cradle; Augustine-Alix Pellicot Roulin, 1851–1930)",
+      "artist": "フィンセント・ファン・ゴッホ",
+      "year": 1889,
+      "century": "18〜19世紀",
+      "museum": "メトロポリタン美術館",
+      "museumUrl": "https://www.metmuseum.org/art/collection/search/437984",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-19279-001.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "met-436524",
+      "title": "ひまわり",
+      "artist": "フィンセント・ファン・ゴッホ",
+      "year": 1887,
+      "century": "18〜19世紀",
+      "museum": "メトロポリタン美術館",
+      "museumUrl": "https://www.metmuseum.org/art/collection/search/436524",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-41223-001.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "met-437654",
+      "title": "Circus Sideshow (Parade de cirque)",
+      "artist": "ジョルジュ・スーラ",
+      "year": 1888,
+      "century": "18〜19世紀",
+      "museum": "メトロポリタン美術館",
+      "museumUrl": "https://www.metmuseum.org/art/collection/search/437654",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP375450_cropped.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "met-436803",
+      "title": "東方三博士の礼拝",
+      "artist": "Joos van Wassenhove",
+      "year": 1474,
+      "century": "〜17世紀",
+      "museum": "メトロポリタン美術館",
+      "museumUrl": "https://www.metmuseum.org/art/collection/search/436803",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-16339-001.jpg",
       "wikiUrl": null
     }
   ]
