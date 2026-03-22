@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// fetch-paintings.js  v30
+// fetch-paintings.js  v31
 // ARTIC 750件投入（日本美術・非絵画フィルター込み） → 目標500件
 // 版権: MET・ARTIC ともにCC0（商用含む完全自由）確認済み
 
@@ -189,7 +189,7 @@ const ARTIC_IDS = [
 
 const MET_DEPT_IDS = [11,14];
 
-function fetchJson(url,ms){if(!ms)ms=10000;return new Promise(function(resolve){var t=setTimeout(function(){resolve(null);},ms);var req=https.get(url,{headers:{'User-Agent':'meiga-bot/30.0'}},function(res){if(res.statusCode!==200){clearTimeout(t);res.resume();resolve(null);return;}var body='';res.on('data',function(d){body+=d;});res.on('end',function(){clearTimeout(t);try{resolve(JSON.parse(body));}catch(e){resolve(null);}});res.on('error',function(){clearTimeout(t);resolve(null);});});req.on('error',function(){clearTimeout(t);resolve(null);});});}
+function fetchJson(url,ms){if(!ms)ms=10000;return new Promise(function(resolve){var t=setTimeout(function(){resolve(null);},ms);var req=https.get(url,{headers:{'User-Agent':'meiga-bot/31.0'}},function(res){if(res.statusCode!==200){clearTimeout(t);res.resume();resolve(null);return;}var body='';res.on('data',function(d){body+=d;});res.on('end',function(){clearTimeout(t);try{resolve(JSON.parse(body));}catch(e){resolve(null);}});res.on('error',function(){clearTimeout(t);resolve(null);});});req.on('error',function(){clearTimeout(t);resolve(null);});});}
 function sleep(ms){return new Promise(function(r){setTimeout(r,ms);});}
 function shuffle(a){return a.slice().sort(function(){return Math.random()-0.5;});}
 function jt(en){return TITLE_JA[en]||en;}
@@ -232,6 +232,9 @@ var NON_PAINTING_MEDIA=[
   15714,72375,24674,57854,111646,186425,60809,27170,96621,44831,60812,97903,64490,81528,111662,81508,85694,85674,81531,11301,64483,97388,16634,64745,105467,93791,71944,22186,53070,15394,111061,15393,15391,10553,186379,97895,64730,16644,16640,72862,186391,15719,8093,64975,16370,8089,81561,
   // 有名作家追加バッチ（ARTIC 全件medium確認済み）
   14561,65811,80336,109418,101509,27943,19339,60812,16496,34461,44826,44829,40549,44775,99366,79720,
+  // 追加バッチ（oil on canvas/portrait/landscape検索 確認済み100件）
+  31233,29392,110776,4428,93900,69003,59944,79586,16648,36678,42949,14594,20686,105604,20556,21679,76212,65811,2823,28146,93342,61741,81562,3546,43145,73054,180711,96559,109418,100060,878,109693,9672,61665,16495,181777,198905,84096,14561,111059,20534,72180,153797,110982,94126,44065,65940,145807,27170,131407,
+  120154,16343,110541,30901,69533,30361,27954,81551,87045,62450,156596,69041,65847,72183,111630,81509,111041,87000,18743,111062,81561,111670,111671,39070,8360,59847,80607,181702,16257,192691,28853,180709,94241,47159,58052,6002,111174,146953,16370,81568,48532,80539,88619,110527,21668,110759,64029,111613,21937,80538,
 ];
 
 function isMediumOk(medium) {
@@ -261,7 +264,7 @@ function toARTIC(d){
 }
 
 async function main(){
-  console.log('=== fetch-paintings.js v30 ===');
+  console.log('=== fetch-paintings.js v31 ===');
   var flds='id,title,artist_display,date_end,image_id,is_public_domain,medium_display';
   var artic=[];
   var uniqueIds=[...new Set(ARTIC_IDS)];
