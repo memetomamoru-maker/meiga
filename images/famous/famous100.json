@@ -36,7 +36,7 @@
       "century": "15世紀",
       "theme": "宗教画",
       "museum": "ウフィツィ美術館",
-      "museumUrl": "https://www.uffizi.it/opere/annunciazione-leonardo",
+      "museumUrl": "https://www.uffizi.it/opere/annunciazione",
       "wikiUrl": "https://ja.wikipedia.org/wiki/受胎告知_(レオナルド・ダ・ヴィンチ)",
       "image": "/images/famous/annunciation_leonardo.jpg",
       "isFamous": true
@@ -244,7 +244,7 @@
       "century": "19世紀",
       "theme": "風景画",
       "museum": "ハンブルク美術館",
-      "museumUrl": "https://www.hamburger-kunsthalle.de/sammlung-online/caspar-david-friedrich/wanderer-ueber-dem-nebelmeer",
+      "museumUrl": "https://online-sammlung.hamburger-kunsthalle.de/en/objekt/HK-5161/wanderer-ueber-dem-nebelmeer",
       "wikiUrl": "https://ja.wikipedia.org/wiki/カスパー・ダーヴィト・フリードリヒ",
       "image": "/images/famous/wanderer_fog.jpg",
       "isFamous": true
