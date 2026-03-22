@@ -1,6 +1,6 @@
 {
-  "generated": "2026-03-22T06:03:59.399Z",
-  "total": 13,
+  "generated": "2026-03-22T06:16:44.979Z",
+  "total": 29,
   "paintings": [
     {
       "id": "f-001",
@@ -42,6 +42,45 @@
       "isFamous": true
     },
     {
+      "id": "f-012",
+      "title": "自画像",
+      "artist": "レンブラント・ファン・レイン",
+      "year": 1660,
+      "century": "17世紀",
+      "theme": "人物画",
+      "museum": "メトロポリタン美術館",
+      "museumUrl": "https://www.metmuseum.org/art/collection/search/437397",
+      "wikiUrl": "https://ja.wikipedia.org/wiki/レンブラント・ファン・レインの自画像",
+      "image": "/images/famous/rembrandt_self_portrait.jpg",
+      "isFamous": true
+    },
+    {
+      "id": "f-013",
+      "title": "真珠の耳飾りの少女",
+      "artist": "ヨハネス・フェルメール",
+      "year": 1665,
+      "century": "17世紀",
+      "theme": "人物画",
+      "museum": "マウリッツハイス美術館",
+      "museumUrl": "https://www.mauritshuis.nl/en/our-collection/artworks/670-girl-with-a-pearl-earring/",
+      "wikiUrl": "https://ja.wikipedia.org/wiki/真珠の耳飾りの少女",
+      "image": "/images/famous/girl_pearl_earring.jpg",
+      "isFamous": true
+    },
+    {
+      "id": "f-014",
+      "title": "牛乳を注ぐ女",
+      "artist": "ヨハネス・フェルメール",
+      "year": 1658,
+      "century": "17世紀",
+      "theme": "日常",
+      "museum": "アムステルダム国立美術館",
+      "museumUrl": "https://www.rijksmuseum.nl/en/collection/SK-A-2344",
+      "wikiUrl": "https://ja.wikipedia.org/wiki/牛乳を注ぐ女",
+      "image": "/images/famous/milkmaid_vermeer.jpg",
+      "isFamous": true
+    },
+    {
       "id": "f-015",
       "title": "デルフトの眺望",
       "artist": "ヨハネス・フェルメール",
@@ -52,6 +91,32 @@
       "museumUrl": "https://www.mauritshuis.nl/en/our-collection/artworks/92-view-of-delft/",
       "wikiUrl": "https://ja.wikipedia.org/wiki/デルフトの眺望",
       "image": "/images/famous/view_of_delft.jpg",
+      "isFamous": true
+    },
+    {
+      "id": "f-016",
+      "title": "アルノルフィーニ夫妻の肖像",
+      "artist": "ヤン・ファン・エイク",
+      "year": 1434,
+      "century": "15世紀",
+      "theme": "人物画",
+      "museum": "ナショナル・ギャラリー",
+      "museumUrl": "https://www.nationalgallery.org.uk/paintings/jan-van-eyck-the-arnolfini-portrait",
+      "wikiUrl": "https://ja.wikipedia.org/wiki/アルノルフィーニ夫妻の肖像",
+      "image": "/images/famous/arnolfini_portrait.jpg",
+      "isFamous": true
+    },
+    {
+      "id": "f-018",
+      "title": "バベルの塔",
+      "artist": "ピーテル・ブリューゲル（父）",
+      "year": 1563,
+      "century": "16世紀",
+      "theme": "幻想",
+      "museum": "美術史美術館",
+      "museumUrl": "https://www.khm.at/objektdb/detail/1026/",
+      "wikiUrl": "https://ja.wikipedia.org/wiki/バベルの塔_(絵画)",
+      "image": "/images/famous/tower_of_babel.jpg",
       "isFamous": true
     },
     {
@@ -68,6 +133,45 @@
       "isFamous": true
     },
     {
+      "id": "f-021",
+      "title": "大使たち",
+      "artist": "ハンス・ホルバイン（子）",
+      "year": 1533,
+      "century": "16世紀",
+      "theme": "人物画",
+      "museum": "ナショナル・ギャラリー",
+      "museumUrl": "https://www.nationalgallery.org.uk/paintings/hans-holbein-the-younger-the-ambassadors",
+      "wikiUrl": "https://ja.wikipedia.org/wiki/大使たち_(絵画)",
+      "image": "/images/famous/the_ambassadors.jpg",
+      "isFamous": true
+    },
+    {
+      "id": "f-026",
+      "title": "ラス・メニーナス",
+      "artist": "ディエゴ・ベラスケス",
+      "year": 1656,
+      "century": "17世紀",
+      "theme": "人物画",
+      "museum": "プラド美術館",
+      "museumUrl": "https://www.museodelprado.es/en/the-collection/art-work/las-meninas/9fdc7800-9ade-48b0-ab8b-edee94ea877f",
+      "wikiUrl": "https://ja.wikipedia.org/wiki/ラス・メニーナス",
+      "image": "/images/famous/las_meninas.jpg",
+      "isFamous": true
+    },
+    {
+      "id": "f-029",
+      "title": "我が子を食らうサトゥルヌス",
+      "artist": "フランシスコ・ゴヤ",
+      "year": 1823,
+      "century": "19世紀",
+      "theme": "神話",
+      "museum": "プラド美術館",
+      "museumUrl": "https://www.museodelprado.es/en/the-collection/art-work/saturn/18110044-7a5b-4497-84e3-799e47d23e8c",
+      "wikiUrl": "https://ja.wikipedia.org/wiki/我が子を食らうサトゥルヌス",
+      "image": "/images/famous/saturn_devouring.jpg",
+      "isFamous": true
+    },
+    {
       "id": "f-032",
       "title": "ソクラテスの死",
       "artist": "ジャック＝ルイ・ダヴィッド",
@@ -81,6 +185,19 @@
       "isFamous": true
     },
     {
+      "id": "f-033",
+      "title": "マラーの死",
+      "artist": "ジャック＝ルイ・ダヴィッド",
+      "year": 1793,
+      "century": "18世紀",
+      "theme": "歴史画",
+      "museum": "ベルギー王立美術館",
+      "museumUrl": "https://fine-arts-museum.be/en/the-collections/jacques-louis-david-the-death-of-marat",
+      "wikiUrl": "https://ja.wikipedia.org/wiki/マラーの死",
+      "image": "/images/famous/death_of_marat.jpg",
+      "isFamous": true
+    },
+    {
       "id": "f-038",
       "title": "メデューズ号の筏",
       "artist": "テオドール・ジェリコー",
@@ -91,6 +208,19 @@
       "museumUrl": "https://collections.louvre.fr/en/ark:/53355/cl010073497",
       "wikiUrl": "https://ja.wikipedia.org/wiki/メデューズ号の筏",
       "image": "/images/famous/raft_of_medusa.jpg",
+      "isFamous": true
+    },
+    {
+      "id": "f-044",
+      "title": "霧の海の上の旅人",
+      "artist": "カスパー・ダーヴィト・フリードリヒ",
+      "year": 1818,
+      "century": "19世紀",
+      "theme": "風景画",
+      "museum": "ハンブルク美術館",
+      "museumUrl": "https://www.hamburger-kunsthalle.de/sammlung/werke/wanderer-ueber-dem-nebelmeer",
+      "wikiUrl": "https://ja.wikipedia.org/wiki/霧の海の上の旅人",
+      "image": "/images/famous/wanderer_fog.jpg",
       "isFamous": true
     },
     {
@@ -120,6 +250,19 @@
       "isFamous": true
     },
     {
+      "id": "f-049",
+      "title": "睡蓮",
+      "artist": "クロード・モネ",
+      "year": 1906,
+      "century": "20世紀",
+      "theme": "風景画",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/16568",
+      "wikiUrl": "https://ja.wikipedia.org/wiki/睡蓮_(モネ)",
+      "image": "/images/famous/water_lilies_monet.jpg",
+      "isFamous": true
+    },
+    {
       "id": "f-054",
       "title": "オランピア",
       "artist": "エドゥアール・マネ",
@@ -146,6 +289,58 @@
       "isFamous": true
     },
     {
+      "id": "f-069",
+      "title": "ひまわり",
+      "artist": "フィンセント・ファン・ゴッホ",
+      "year": 1888,
+      "century": "19世紀",
+      "theme": "静物",
+      "museum": "ナショナル・ギャラリー",
+      "museumUrl": "https://www.nationalgallery.org.uk/paintings/vincent-van-gogh-sunflowers",
+      "wikiUrl": "https://ja.wikipedia.org/wiki/ひまわり_(ゴッホ)",
+      "image": "/images/famous/sunflowers_vangogh.jpg",
+      "isFamous": true
+    },
+    {
+      "id": "f-070",
+      "title": "アイリス",
+      "artist": "フィンセント・ファン・ゴッホ",
+      "year": 1889,
+      "century": "19世紀",
+      "theme": "静物",
+      "museum": "ゲッティ美術館",
+      "museumUrl": "https://www.getty.edu/art/collection/object/103JNP",
+      "wikiUrl": "https://ja.wikipedia.org/wiki/アイリス_(ゴッホ)",
+      "image": "/images/famous/irises_vangogh.jpg",
+      "isFamous": true
+    },
+    {
+      "id": "f-073",
+      "title": "叫び",
+      "artist": "エドヴァルド・ムンク",
+      "year": 1893,
+      "century": "19世紀",
+      "theme": "人物画",
+      "museum": "ノルウェー国立美術館",
+      "museumUrl": "https://www.nasjonalmuseet.no/en/collection/object/NG.M.00939",
+      "wikiUrl": "https://ja.wikipedia.org/wiki/叫び_(エドヴァルド・ムンク)",
+      "image": "/images/famous/the_scream.jpg",
+      "isFamous": true
+    },
+    {
+      "id": "f-074",
+      "title": "アメリカン・ゴシック",
+      "artist": "グラント・ウッド",
+      "year": 1930,
+      "century": "20世紀",
+      "theme": "人物画",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/6565",
+      "wikiUrl": "https://ja.wikipedia.org/wiki/アメリカン・ゴシック",
+      "image": "/images/famous/american_gothic.jpg",
+      "isFamous": true
+    },
+    {
       "id": "f-075",
       "title": "デラウェア川を渡るワシントン",
       "artist": "エマニュエル・ロイツェ",
@@ -156,6 +351,19 @@
       "museumUrl": "https://www.metmuseum.org/art/collection/search/11417",
       "wikiUrl": "https://ja.wikipedia.org/wiki/デラウェア川を渡るワシントン",
       "image": "/images/famous/washington_crossing.jpg",
+      "isFamous": true
+    },
+    {
+      "id": "f-077",
+      "title": "画家の母（灰色と黒のアレンジメント）",
+      "artist": "ジェームズ・マクニール・ホイッスラー",
+      "year": 1871,
+      "century": "19世紀",
+      "theme": "人物画",
+      "museum": "オルセー美術館",
+      "museumUrl": "https://www.musee-orsay.fr/en/artworks/arrangement-en-gris-et-noir-no-1-14373",
+      "wikiUrl": "https://ja.wikipedia.org/wiki/灰色と黒のアレンジメント第1番",
+      "image": "/images/famous/whistlers_mother.jpg",
       "isFamous": true
     },
     {
