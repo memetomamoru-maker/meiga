@@ -1,4 +1,4 @@
-// app.js — 名画収集館 v5
+// app.js — 名画収集館 v6
 (function () {
   'use strict';
 
@@ -22,11 +22,9 @@
 
   // 旧データのマイグレーション（artistの "(French" 等を除去、museumUrlがないものを補完）
   liked = liked.map(p => {
-    // artist名から "(French, 1840–..." 等を除去
     if (p.artist && p.artist.includes('(')) {
       p.artist = p.artist.replace(/\s*\([^)]*\)/g, '').split(',')[0].trim();
     }
-    // museumUrlがない旧データを補完
     if (!p.museumUrl) {
       if (p.id && p.id.startsWith('met-')) {
         const metId = p.id.replace('met-', '');
@@ -56,7 +54,7 @@
   }
 
   // ── 使い方ガイド ────────────────────────────────────────────
-  const guide       = document.getElementById('guide');
+  const guide        = document.getElementById('guide');
   const btnGuideStart = document.getElementById('guide-start');
   const btnGuideSkip  = document.getElementById('guide-skip');
   const btnGuideOpen  = document.getElementById('btn-guide');
@@ -68,22 +66,6 @@
     try { localStorage.setItem('meiga_guide_skip', '1'); } catch(e) {}
   });
   btnGuideOpen.addEventListener('click', () => showGuide());
-  // 今日の一枚
-  document.getElementById('btn-today').addEventListener('click', () => {
-    if (!allPaintings.length) return;
-    const d = new Date();
-    const seed = d.getFullYear() * 10000 + (d.getMonth()+1) * 100 + d.getDate();
-    const target = allPaintings[seed % allPaintings.length];
-    // フィルターをリセットして今日の作品を表示
-    filter = { century: 'all', style: 'all', artist: 'all' };
-    buildQueue();
-    const idx = queue.findIndex(p => p.id === target.id || p.objectID === target.objectID);
-    if (idx >= 0) cursor = idx;
-    renderDeck();
-    const btn = document.getElementById('btn-today');
-    btn.classList.add('active');
-    setTimeout(() => btn.classList.remove('active'), 1200);
-  });
 
   const skipGuide = (() => {
     try { return localStorage.getItem('meiga_guide_skip') === '1'; } catch(e) { return false; }
@@ -91,7 +73,6 @@
   if (skipGuide) {
     hideGuide();
   } else {
-    // hidden状態からtransitionなしで即表示（フレームを1つ待つ）
     setTimeout(() => {
       guide.style.transition = 'none';
       showGuide();
@@ -100,9 +81,25 @@
     }, 0);
   }
 
+  // ── 今日の一枚 ────────────────────────────────────────────
+  // buildQueue() は内部で cursor=0 にリセットしてしまうため、
+  // 今日の一枚は cursor を先に確定してから直接デッキを組む
+  document.getElementById('btn-today').addEventListener('click', () => {
+    if (!allPaintings.length) return;
+    const d = new Date();
+    const seed = d.getFullYear() * 10000 + (d.getMonth() + 1) * 100 + d.getDate();
+    const target = allPaintings[seed % allPaintings.length];
+    filter = { century: 'all', style: 'all', artist: 'all' };
+    queue = [...allPaintings];
+    const idx = queue.findIndex(p => p.id === target.id);
+    cursor = idx >= 0 ? idx : 0;
+    _renderDeckAt(cursor);
+    const btn = document.getElementById('btn-today');
+    btn.classList.add('active');
+    setTimeout(() => btn.classList.remove('active'), 1200);
+  });
+
   // ── ホーム画面追加バナー ────────────────────────────────────
-  const isIOS = /iphone|ipad|ipod/i.test(navigator.userAgent);
-  const isAndroid = /android/i.test(navigator.userAgent);
   const isStandalone = window.matchMedia('(display-mode: standalone)').matches || navigator.standalone;
   if (!isStandalone && !localStorage.getItem('meiga_a2hs_dismissed')) {
     const a2hsBanner = document.getElementById('a2hs-banner');
@@ -124,11 +121,13 @@
     styles = [...new Set(allPaintings.map(p => p.style))]
       .filter(s => s && s !== '絵画' && s !== 'Paintings' && s !== 'Oil on canvas' && s.length < 25)
       .sort();
-  
     artists = [...new Set(allPaintings.map(p => p.artist))].filter(Boolean).sort();
   }
 
-  // ── famous100.json取得（APIが死んでも確実に表示）────────────
+  // ── famous100取得 ─────────────────────────────────────────
+  // famous100.json のフィールド: id, title, artist, year, century,
+  //   theme（テーマ）, museum, museumUrl, wikiUrl, image, isFamous
+  // style フィールドは存在しないので theme を style にマップする
   async function fetchFamous() {
     try {
       const res = await fetch('/api/famous');
@@ -139,7 +138,7 @@
         style: p.theme || '名画100選',
       }));
     } catch(e) {
-      console.warn('famous100.json load failed:', e);
+      console.warn('famous100 load failed:', e);
       return [];
     }
   }
@@ -180,10 +179,8 @@
   // ── 起動 ────────────────────────────────────────────────────
   async function initialLoad() {
     showLoadingCard();
-    // famous100とAPIを並列取得
     const [famousResult, apiOk] = await Promise.all([fetchFamous(), fetchPaintings()]);
 
-    // famous100をallPaintingsに重複なしで先頭に追加
     if (famousResult.length > 0) {
       const existingIds = new Set(allPaintings.map(p => p.id));
       const newFamous = famousResult.filter(p => !existingIds.has(p.id));
@@ -229,8 +226,8 @@
   function buildQueue() {
     const filtered = allPaintings.filter(p => {
       if (filter.century !== 'all' && p.century !== filter.century) return false;
-      if (filter.style !== 'all' && p.style !== filter.style) return false;
-      if (filter.artist !== 'all' && p.artist !== filter.artist) return false;
+      if (filter.style   !== 'all' && p.style   !== filter.style)   return false;
+      if (filter.artist  !== 'all' && p.artist  !== filter.artist)  return false;
       return true;
     });
     if (!filtered.length) { showToast('該当する作品がありません'); return false; }
@@ -243,11 +240,22 @@
     return true;
   }
 
+  // ── デッキ描画（renderDeckはbuildQueueを呼ぶ通常フロー用）──
   function renderDeck() {
     dw.querySelectorAll('.card').forEach(c => c.remove());
     curCard = prevCard = nextCard = null;
     isAnimating = false;
     if (!buildQueue()) return;
+    _renderDeckAt(cursor);
+  }
+
+  // cursor が決まった状態でカードを組み立てる内部関数
+  // 今日の一枚など、cursor を外から指定したいケースで使う
+  function _renderDeckAt(cur) {
+    dw.querySelectorAll('.card').forEach(c => c.remove());
+    curCard = prevCard = nextCard = null;
+    isAnimating = false;
+    cursor = cur;
     curCard = makeCard(queue[cursor], cursor);
     curCard.classList.add('cur');
     dw.appendChild(curCard);
@@ -255,6 +263,11 @@
       nextCard = makeCard(queue[cursor + 1], cursor + 1);
       nextCard.style.cssText = 'transform:translateY(110%);opacity:0;transition:none;';
       dw.appendChild(nextCard);
+    }
+    if (cursor - 1 >= 0) {
+      prevCard = makeCard(queue[cursor - 1], cursor - 1);
+      prevCard.style.cssText = 'transform:translateY(-110%);opacity:0;transition:none;';
+      dw.insertBefore(prevCard, curCard);
     }
     updateMeta();
     updateNavButtons();
@@ -290,8 +303,8 @@
     img.onerror = () => { ph.innerHTML = `<div class="ph-title" style="opacity:.5">${p.title}</div>`; };
     img.src = p.image;
     img.style.cursor = 'zoom-in';
+    // ★ 画像クリックのみでライトボックスを開く（ab への重複追加は行わない）
     img.addEventListener('click', (e) => { e.stopPropagation(); openLightbox(p); });
-    ab.addEventListener('click', (e) => { e.stopPropagation(); openLightbox(p); });
     fw.appendChild(img);
     const shadow = document.createElement('div');
     shadow.className = 'frame-shadow';
@@ -308,7 +321,8 @@
     const p = queue[cursor];
     if (!p) return;
     abt.textContent = p.title;
-    const link = p.museumUrl || p.wikiUrl;
+    // famousのフィールド確認済み: museumUrl と wikiUrl の両方が存在する
+    const link = p.museumUrl || p.wikiUrl || null;
     if (link) {
       abt.style.cursor = 'pointer';
       abt.title = '詳細を見る';
@@ -325,25 +339,46 @@
   function updateNavButtons() {}
 
   // ── スワイプ ────────────────────────────────────────────────
-  let isDrag = false, startY = 0, diffY = 0, startTime = 0;
+  // ★ startX も追跡して横移動が多い場合はキャンセル（ピンチ誤検知防止）
+  // ★ ライトボックスが開いている場合はスワイプ無効
+  let isDrag = false, startX = 0, startY = 0, diffY = 0, startTime = 0;
   const THRESH = 40, RESIST = 0.35;
-  dw.addEventListener('mousedown', e => { e.preventDefault(); onStart(e.clientY); });
-  dw.addEventListener('touchstart', e => onStart(e.touches[0].clientY), { passive: true });
-  window.addEventListener('mousemove', e => { if (isDrag) onMove(e.clientY); });
-  window.addEventListener('touchmove', e => { if (isDrag) { e.preventDefault(); onMove(e.touches[0].clientY); } }, { passive: false });
+
+  dw.addEventListener('mousedown', e => {
+    e.preventDefault();
+    onStart(e.clientX, e.clientY);
+  });
+  dw.addEventListener('touchstart', e => {
+    if (document.getElementById('lightbox').classList.contains('open')) return;
+    onStart(e.touches[0].clientX, e.touches[0].clientY);
+  }, { passive: true });
+
+  window.addEventListener('mousemove', e => { if (isDrag) onMove(e.clientX, e.clientY); });
+  window.addEventListener('touchmove', e => {
+    if (isDrag) { e.preventDefault(); onMove(e.touches[0].clientX, e.touches[0].clientY); }
+  }, { passive: false });
   window.addEventListener('mouseup', onEnd);
   window.addEventListener('touchend', onEnd);
   window.addEventListener('touchcancel', onEnd);
 
-  function onStart(y) {
+  function onStart(x, y) {
     if (!curCard || isAnimating) return;
-    isDrag = true; startY = y; diffY = 0; startTime = Date.now();
+    isDrag = true;
+    startX = x; startY = y; diffY = 0;
+    startTime = Date.now();
     curCard.style.transition = 'none';
     curCard.style.transform = 'translateY(0)';
   }
-  function onMove(y) {
+  function onMove(x, y) {
     if (!isDrag || !curCard) return;
+    const dX = x - startX;
     diffY = y - startY;
+    // 横移動が縦移動より大きければスワイプではない（ピンチ操作など）
+    if (Math.abs(dX) > Math.abs(diffY) + 8) {
+      isDrag = false;
+      snapBack();
+      return;
+    }
     curCard.style.transform = `translateY(${diffY * RESIST}px)`;
     if (diffY < 0 && nextCard) {
       const prog = Math.min(Math.abs(diffY) / (THRESH * 1.8), 1);
@@ -363,8 +398,8 @@
     if (!curCard) return;
     const elapsed = Math.max(1, Date.now() - startTime);
     const velocity = Math.abs(diffY) / elapsed;
-    if (diffY < -THRESH || (diffY < -20 && velocity > 0.5)) goNext();
-    else if (diffY > THRESH || (diffY > 20 && velocity > 0.5)) goPrev();
+    if      (diffY < -THRESH || (diffY < -20 && velocity > 0.5)) goNext();
+    else if (diffY >  THRESH || (diffY >  20 && velocity > 0.5)) goPrev();
     else { isAnimating = true; snapBack(); }
   }
   function snapBack() {
@@ -372,12 +407,23 @@
     curCard.style.transition = 'transform 0.3s cubic-bezier(.34,1.4,.64,1)';
     curCard.style.transform = 'translateY(0)';
     curCard.style.opacity = '1';
-    if (nextCard) { nextCard.style.transition = 'transform 0.28s ease, opacity 0.28s ease'; nextCard.style.transform = 'translateY(110%)'; nextCard.style.opacity = '0'; }
-    if (prevCard) { prevCard.style.transition = 'transform 0.28s ease, opacity 0.28s ease'; prevCard.style.transform = 'translateY(-110%)'; prevCard.style.opacity = '0'; }
-    setTimeout(() => { isAnimating = false; }, 280);
+    if (nextCard) {
+      nextCard.style.transition = 'transform 0.28s ease, opacity 0.28s ease';
+      nextCard.style.transform = 'translateY(110%)';
+      nextCard.style.opacity = '0';
+    }
+    if (prevCard) {
+      prevCard.style.transition = 'transform 0.28s ease, opacity 0.28s ease';
+      prevCard.style.transform = 'translateY(-110%)';
+      prevCard.style.opacity = '0';
+    }
+    setTimeout(() => { isAnimating = false; }, 320);
   }
 
-  const DUR = '0.52s', EASE = 'cubic-bezier(.16,1,.3,1)';
+  // ★ DUR を 0.52s → 0.46s に短縮し、isAnimating 解除を DUR より長い 520ms に設定
+  // （アニメ完了前に次操作が入って状態が壊れるのを防ぐ）
+  const DUR = '0.46s', EASE = 'cubic-bezier(.16,1,.3,1)';
+
   function goNext() {
     if (!curCard || isAnimating) return;
     if (cursor >= queue.length - 1) {
@@ -387,50 +433,70 @@
     }
     isAnimating = true;
     if (prevCard) { prevCard.remove(); prevCard = null; }
-    curCard.style.transition = `transform ${DUR} ${EASE},opacity 0.24s ease`;
+
+    curCard.style.transition = `transform ${DUR} ${EASE}, opacity 0.22s ease`;
     curCard.style.transform = 'translateY(-110%)';
     curCard.style.opacity = '0';
     prevCard = curCard;
-    curCard = nextCard;
+
     cursor++;
-    if (curCard) {
-      curCard.style.transition = `transform ${DUR} ${EASE}`;
-      curCard.classList.add('cur');
-      curCard.style.transform = 'translateY(0)';
-      curCard.style.opacity = '1';
+    // nextCard が既に生成済みの場合はそれを使う、なければ作る
+    if (nextCard) {
+      curCard = nextCard;
+    } else {
+      curCard = makeCard(queue[cursor], cursor);
+      curCard.style.cssText = 'transform:translateY(110%);opacity:0;transition:none;';
+      dw.appendChild(curCard);
     }
+    curCard.style.transition = `transform ${DUR} ${EASE}`;
+    curCard.classList.add('cur');
+    curCard.style.transform = 'translateY(0)';
+    curCard.style.opacity = '1';
+
     if (cursor + 1 < queue.length) {
       nextCard = makeCard(queue[cursor + 1], cursor + 1);
-      nextCard.style.cssText = `transform:translateY(110%);opacity:0;transition:none;`;
+      nextCard.style.cssText = 'transform:translateY(110%);opacity:0;transition:none;';
       dw.appendChild(nextCard);
-    } else { nextCard = null; }
+    } else {
+      nextCard = null;
+    }
     updateMeta(); updateNavButtons();
-    setTimeout(() => { isAnimating = false; }, 380);
+    setTimeout(() => { isAnimating = false; }, 520);
   }
+
   function goPrev() {
     if (!curCard || isAnimating) return;
     if (cursor <= 0) { showToast('最初の作品です'); snapBack(); return; }
     isAnimating = true;
     if (nextCard) { nextCard.remove(); nextCard = null; }
-    curCard.style.transition = `transform ${DUR} ${EASE},opacity 0.24s ease`;
+
+    curCard.style.transition = `transform ${DUR} ${EASE}, opacity 0.22s ease`;
     curCard.style.transform = 'translateY(110%)';
     curCard.style.opacity = '0';
     nextCard = curCard;
-    curCard = prevCard;
+
     cursor--;
-    if (curCard) {
-      curCard.style.transition = `transform ${DUR} ${EASE}`;
-      curCard.classList.add('cur');
-      curCard.style.transform = 'translateY(0)';
-      curCard.style.opacity = '1';
+    if (prevCard) {
+      curCard = prevCard;
+    } else {
+      curCard = makeCard(queue[cursor], cursor);
+      curCard.style.cssText = 'transform:translateY(-110%);opacity:0;transition:none;';
+      dw.insertBefore(curCard, nextCard);
     }
+    curCard.style.transition = `transform ${DUR} ${EASE}`;
+    curCard.classList.add('cur');
+    curCard.style.transform = 'translateY(0)';
+    curCard.style.opacity = '1';
+
     if (cursor - 1 >= 0) {
       prevCard = makeCard(queue[cursor - 1], cursor - 1);
-      prevCard.style.cssText = `transform:translateY(-110%);opacity:0;transition:none;`;
+      prevCard.style.cssText = 'transform:translateY(-110%);opacity:0;transition:none;';
       dw.insertBefore(prevCard, curCard);
-    } else { prevCard = null; }
+    } else {
+      prevCard = null;
+    }
     updateMeta(); updateNavButtons();
-    setTimeout(() => { isAnimating = false; }, 380);
+    setTimeout(() => { isAnimating = false; }, 520);
   }
 
   // ── キーボード・ホイール ────────────────────────────────────
@@ -498,8 +564,8 @@
   function updateFilterFooter() {
     const count = allPaintings.filter(p => {
       if (filter.century !== 'all' && p.century !== filter.century) return false;
-      if (filter.style !== 'all' && p.style !== filter.style) return false;
-      if (filter.artist !== 'all' && p.artist !== filter.artist) return false;
+      if (filter.style   !== 'all' && p.style   !== filter.style)   return false;
+      if (filter.artist  !== 'all' && p.artist  !== filter.artist)  return false;
       return true;
     }).length;
     const lbl = document.getElementById('fd-cnt-label');
@@ -591,10 +657,14 @@
       };
       const lbl = document.createElement('div'); lbl.className = 'gilbl'; lbl.textContent = p.title;
       const sub = document.createElement('div'); sub.className = 'gilsub'; sub.textContent = p.artist;
-      const link = p.museumUrl || p.wikiUrl;
+      // famousのフィールド確認済み: museumUrl と wikiUrl の両方がある
+      const link = p.museumUrl || p.wikiUrl || null;
       if (link) {
         item.style.cursor = 'pointer';
-        item.addEventListener('click', (e) => { if (e.target === del || e.target.closest('.gi-del')) return; window.open(link, '_blank', 'noopener,noreferrer'); });
+        item.addEventListener('click', (e) => {
+          if (e.target === del || e.target.closest('.gi-del')) return;
+          window.open(link, '_blank', 'noopener,noreferrer');
+        });
       }
       frame.appendChild(inner); frame.appendChild(del);
       item.appendChild(wire); item.appendChild(frame); item.appendChild(lbl); item.appendChild(sub);
@@ -604,10 +674,10 @@
 
   // ── ライトボックス（絵の拡大表示）──────────────────────────
   function openLightbox(p) {
-    const lb     = document.getElementById('lightbox');
-    const lbImg  = document.getElementById('lb-img');
+    const lb      = document.getElementById('lightbox');
+    const lbImg   = document.getElementById('lb-img');
     const lbTitle = document.getElementById('lb-title');
-    const lbSub  = document.getElementById('lb-sub');
+    const lbSub   = document.getElementById('lb-sub');
     if (!lb) return;
     lbImg.src = '';
     const bigUrl = p.image
@@ -628,7 +698,15 @@
   document.getElementById('lightbox')?.addEventListener('click', (e) => {
     if (e.target.id === 'lightbox' || e.target.id === 'lb-close') closeLightbox();
   });
-  document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeLightbox(); }, true);
+  // Escape: ライトボックス → ドロワー → ガイド の順に閉じる
+  document.addEventListener('keydown', (e) => {
+    if (e.key !== 'Escape') return;
+    const lb = document.getElementById('lightbox');
+    if (lb && lb.classList.contains('open')) { closeLightbox(); return; }
+    document.getElementById('fd').classList.remove('open');
+    document.getElementById('gp').classList.remove('open');
+    hideGuide();
+  }, true);
 
   updateBadge();
   initialLoad();

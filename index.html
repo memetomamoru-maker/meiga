@@ -821,43 +821,86 @@ body{font-family:'Cormorant Garamond','Noto Serif JP',Georgia,serif}
 
 <script src="./app.js"></script>
 <script>
-/* ピンチズーム＋パン for lightbox */
+/* ピンチズーム＋パン＋ダブルタップ for lightbox — v2 */
 (function(){
   var lb  = document.getElementById('lightbox');
   var img = document.getElementById('lb-img');
   if(!lb||!img) return;
 
   var scale=1, tx=0, ty=0;
-  var startDist=0, startScale=1;
-  var startTx=0, startTy=0;
-  var panStartX=0, panStartY=0;
-  var isPanning=false;
+  /* ピンチ開始時の保存値 */
+  var pinchStartDist=0, pinchStartScale=1, pinchStartTx=0, pinchStartTy=0;
+  var pinchMidX=0, pinchMidY=0;
+  /* パン */
+  var isPanning=false, panStartX=0, panStartY=0, panStartTx=0, panStartTy=0;
+  /* ダブルタップ */
+  var lastTapTime=0, lastTapX=0, lastTapY=0;
 
-  function dist(t){ var dx=t[0].clientX-t[1].clientX, dy=t[0].clientY-t[1].clientY; return Math.sqrt(dx*dx+dy*dy); }
-  function midpoint(t){ return { x:(t[0].clientX+t[1].clientX)/2, y:(t[0].clientY+t[1].clientY)/2 }; }
+  function dist(t){
+    var dx=t[0].clientX-t[1].clientX, dy=t[0].clientY-t[1].clientY;
+    return Math.sqrt(dx*dx+dy*dy);
+  }
 
-  function applyTransform(){
-    img.style.transform = 'scale('+scale+') translate('+tx+'px,'+ty+'px)';
+  /* パン可能な範囲にクランプ */
+  function clamp(){
+    var r = img.getBoundingClientRect();
+    var maxX = Math.max(0, (r.width  * (scale-1)) / (2*scale));
+    var maxY = Math.max(0, (r.height * (scale-1)) / (2*scale));
+    tx = Math.max(-maxX, Math.min(maxX, tx));
+    ty = Math.max(-maxY, Math.min(maxY, ty));
+  }
+
+  function applyTransform(animated){
+    img.style.transition = animated ? 'transform .28s ease' : 'none';
+    img.style.transform  = 'scale('+scale+') translate('+tx+'px,'+ty+'px)';
     img.style.transformOrigin = 'center center';
   }
 
-  function resetTransform(){
-    scale=1; tx=0; ty=0;
-    img.style.transform = '';
+  function resetTransform(animated){
+    scale=1; tx=0; ty=0; isPanning=false;
+    img.style.transition = animated ? 'transform .28s ease' : 'none';
+    img.style.transform  = '';
   }
 
   lb.addEventListener('touchstart', function(e){
     if(e.touches.length===2){
       e.preventDefault();
-      startDist  = dist(e.touches);
-      startScale = scale;
-      startTx    = tx;
-      startTy    = ty;
-      isPanning  = false;
-    } else if(e.touches.length===1 && scale>1.05){
-      isPanning  = true;
-      panStartX  = e.touches[0].clientX - tx*scale;
-      panStartY  = e.touches[0].clientY - ty*scale;
+      isPanning = false;
+      pinchStartDist  = dist(e.touches);
+      pinchStartScale = scale;
+      pinchStartTx    = tx;
+      pinchStartTy    = ty;
+      pinchMidX = (e.touches[0].clientX + e.touches[1].clientX) / 2;
+      pinchMidY = (e.touches[0].clientY + e.touches[1].clientY) / 2;
+    } else if(e.touches.length===1){
+      var now = Date.now();
+      var x = e.touches[0].clientX, y = e.touches[0].clientY;
+      /* ダブルタップ判定（300ms以内・30px以内の2連タップ） */
+      if(now - lastTapTime < 300 && Math.abs(x-lastTapX)<30 && Math.abs(y-lastTapY)<30){
+        e.preventDefault();
+        if(scale > 1.05){
+          resetTransform(true);
+        } else {
+          /* タップ位置を中心に2.5倍ズーム */
+          var r = img.getBoundingClientRect();
+          scale = 2.5;
+          tx = -((x - r.left - r.width/2)  / scale) * (scale - 1);
+          ty = -((y - r.top  - r.height/2) / scale) * (scale - 1);
+          clamp();
+          applyTransform(true);
+        }
+        lastTapTime = 0;
+        return;
+      }
+      lastTapTime = now; lastTapX = x; lastTapY = y;
+      /* パン開始（拡大中のみ） */
+      if(scale > 1.05){
+        isPanning  = true;
+        panStartX  = x;
+        panStartY  = y;
+        panStartTx = tx;
+        panStartTy = ty;
+      }
     }
   },{passive:false});
 
@@ -865,27 +908,44 @@ body{font-family:'Cormorant Garamond','Noto Serif JP',Georgia,serif}
     if(e.touches.length===2){
       e.preventDefault();
       var d = dist(e.touches);
-      scale = Math.min(Math.max(startScale*(d/startDist), 1), 4);
-      applyTransform();
-    } else if(e.touches.length===1 && isPanning && scale>1.05){
+      var newScale = Math.min(Math.max(pinchStartScale * (d / pinchStartDist), 1), 5);
+      /* ピンチ中心基準でパン位置も調整 */
+      var scaleRatio = newScale / pinchStartScale;
+      tx = pinchMidX + (pinchStartTx - pinchMidX) * scaleRatio / pinchStartScale * newScale;
+      tx = pinchStartTx + (pinchMidX - pinchStartTx) * (1 - scaleRatio) / newScale;
+      ty = pinchStartTy + (pinchMidY - pinchStartTy) * (1 - scaleRatio) / newScale;
+      scale = newScale;
+      clamp();
+      applyTransform(false);
+    } else if(e.touches.length===1 && isPanning){
       e.preventDefault();
-      tx = (e.touches[0].clientX - panStartX) / scale;
-      ty = (e.touches[0].clientY - panStartY) / scale;
-      applyTransform();
+      tx = panStartTx + (e.touches[0].clientX - panStartX) / scale;
+      ty = panStartTy + (e.touches[0].clientY - panStartY) / scale;
+      clamp();
+      applyTransform(false);
     }
   },{passive:false});
 
   lb.addEventListener('touchend', function(e){
     if(e.touches.length < 2) isPanning = false;
-    if(e.touches.length===0 && scale < 1.05) resetTransform();
+    if(e.touches.length===0 && scale < 1.05) resetTransform(true);
   });
 
-  // 閉じたらリセット
+  /* 閉じたらリセット */
   var lbClose = document.getElementById('lb-close');
-  if(lbClose) lbClose.addEventListener('click', resetTransform);
+  if(lbClose) lbClose.addEventListener('click', function(){ resetTransform(false); });
   lb.addEventListener('click', function(e){
-    if(e.target.id==='lightbox') resetTransform();
+    if(e.target.id==='lightbox') resetTransform(false);
   });
+
+  /* lightboxが閉じるたびにリセット */
+  new MutationObserver(function(muts){
+    muts.forEach(function(m){
+      if(m.type==='attributes' && m.attributeName==='class' && !lb.classList.contains('open')){
+        resetTransform(false);
+      }
+    });
+  }).observe(lb, {attributes:true});
 })();
 </script>
 </body>
