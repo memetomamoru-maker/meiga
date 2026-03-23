@@ -321,7 +321,10 @@
     const p = queue[cursor];
     if (!p) return;
     abt.textContent = p.title;
-    const link = p.museumUrl || p.wikiUrl || null;
+    // famousはwikiUrl優先（日本語で軽い）、MET/ARTICはmuseumUrl優先
+    const link = p.isFamous
+      ? (p.wikiUrl || p.museumUrl || null)
+      : (p.museumUrl || p.wikiUrl || null);
     const linkIcon = document.getElementById('ab-link-icon');
     if (link) {
       abt.style.cursor = 'pointer';
