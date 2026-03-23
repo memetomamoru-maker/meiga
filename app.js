@@ -297,6 +297,7 @@
     updateMeta();
     updateNavButtons();
     updateFilterFooter();
+    showZoomHint();
   }
 
   function makeCard(p, idx) {
@@ -392,6 +393,36 @@
     }
   }
   function updateNavButtons() {}
+
+  // 拡大ヒント: アプリ起動後の最初の3枚に表示（セッション中のみカウント）
+  let _zoomSessionCount = 0;
+  let _zoomShownForCursor = -1;
+  function showZoomHint() {
+    if (_zoomSessionCount >= 3) return;
+    if (_zoomShownForCursor === cursor) return;
+    _zoomShownForCursor = cursor;
+    if (!curCard) return;
+    const fw = curCard.querySelector('.frame-wrap');
+    if (!fw) return;
+    if (fw.querySelector('.zoom-hint')) return;
+    const hint = document.createElement('div');
+    hint.className = 'zoom-hint';
+    hint.textContent = 'タップで拡大';
+    hint.style.cssText = 'opacity:0;transform:translateY(8px);';
+    fw.appendChild(hint);
+    requestAnimationFrame(() => requestAnimationFrame(() => {
+      hint.style.transition = 'opacity .45s ease, transform .45s cubic-bezier(.16,1,.3,1)';
+      hint.style.opacity = '1';
+      hint.style.transform = 'translateY(0)';
+      setTimeout(() => {
+        hint.style.transition = 'opacity .7s ease, transform .7s ease';
+        hint.style.opacity = '0';
+        hint.style.transform = 'translateY(-4px)';
+        setTimeout(() => { hint.remove(); }, 700);
+      }, 2400);
+    }));
+    _zoomSessionCount++;
+  }
 
   // ── スワイプ ────────────────────────────────────────────────
   // ★ startX も追跡して横移動が多い場合はキャンセル（ピンチ誤検知防止）
@@ -515,7 +546,7 @@
     } else {
       nextCard = null;
     }
-    updateMeta(); updateNavButtons();
+    updateMeta(); updateNavButtons(); showZoomHint();
     setTimeout(() => { isAnimating = false; }, 520);
   }
 
@@ -550,7 +581,7 @@
     } else {
       prevCard = null;
     }
-    updateMeta(); updateNavButtons();
+    updateMeta(); updateNavButtons(); showZoomHint();
     setTimeout(() => { isAnimating = false; }, 520);
   }
 
