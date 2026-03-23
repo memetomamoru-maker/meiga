@@ -363,7 +363,8 @@ body{font-family:'Cormorant Garamond','Noto Serif JP',Georgia,serif}
 #a2hs-close:hover{color:var(--gold-l);border-color:var(--gold-b)}
 
 /* ── フィルタードロワー ── */
-#fd{position:fixed;inset:0;z-index:600;pointer-events:none;max-width:480px;margin:0 auto;left:50%;transform:translateX(-50%);width:100%;}
+#fd{position:absolute;inset:0;z-index:600;pointer-events:none}
+#app:has(#fd.open){overflow:visible}
 #fd.open{pointer-events:all}
 #fdb{position:absolute;inset:0;background:rgba(10,5,0,.52);opacity:0;transition:opacity .28s}
 #fd.open #fdb{opacity:1}
@@ -386,7 +387,7 @@ body{font-family:'Cormorant Garamond','Noto Serif JP',Georgia,serif}
 }
 .fdh-close:hover{background:rgba(200,160,80,.12);color:var(--gold-l)}
 
-.fdbody{flex:1;min-height:120px;overflow-y:auto;padding:0 0 36px;scrollbar-width:thin;scrollbar-color:rgba(200,160,80,.2) transparent}
+.fdbody{flex:1;min-height:0;overflow-y:auto;padding:0 0 36px;scrollbar-width:thin;scrollbar-color:rgba(200,160,80,.2) transparent}
 
 /* カテゴリセクション */
 .fds{border-bottom:1px solid rgba(200,160,80,.08)}
