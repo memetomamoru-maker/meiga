@@ -14,7 +14,7 @@
   let cursor = 0;
   let liked  = [];
   let filter = { century: 'all', style: 'all', artist: 'all' };
-  let centuries = [], styles = [], artists = [];
+  let centuries = [], styles = [], artists = [], allArtists = [];
   let curCard = null, nextCard = null, prevCard = null;
   let isAnimating = false;
 
@@ -144,9 +144,10 @@
     });
     artists = Object.entries(artistCount)
       .sort((a, b) => b[1] - a[1])
-      .slice(0, 20)
       .map(([name]) => name)
       .sort();
+    allArtists = [...artists];
+    artists = artists.slice(0, 10);
   }
 
   // ── famous100取得 ─────────────────────────────────────────
@@ -589,7 +590,7 @@
     if (e.key === 'ArrowDown' || e.key === ' ') { e.preventDefault(); goNext(); }
     if (e.key === 'ArrowUp') { e.preventDefault(); goPrev(); }
     if (e.key === 'Escape') {
-      document.getElementById('fd').classList.remove('open');
+      document.getElementById('fd').classList.remove('open'); document.getElementById('app').style.overflow = '';
       document.getElementById('gp').classList.remove('open');
       hideGuide();
     }
@@ -636,13 +637,19 @@
 
   // ── フィルタードロワー ──────────────────────────────────────
   const fd = document.getElementById('fd');
-  document.getElementById('btn-filter').addEventListener('click', () => { fd.classList.add('open'); buildTodayCard(); buildFilterUI(); });
-  document.getElementById('fdb').addEventListener('click', () => fd.classList.remove('open'));
-  document.getElementById('fdb2').addEventListener('click', () => fd.classList.remove('open'));
+  document.getElementById('btn-filter').addEventListener('click', () => {
+    fd.classList.add('open');
+    document.getElementById('app').style.overflow = 'visible';
+    buildTodayCard();
+    buildFilterUI();
+  });
+  document.getElementById('fdb').addEventListener('click', () => { fd.classList.remove('open'); document.getElementById('app').style.overflow = ''; });
+  document.getElementById('fdb2').addEventListener('click', () => { fd.classList.remove('open'); document.getElementById('app').style.overflow = ''; });
   document.getElementById('fd-reset-btn').addEventListener('click', () => {
     filter = { century: 'all', style: 'all', artist: 'all' };
     renderDeck();
     fd.classList.remove('open');
+    document.getElementById('app').style.overflow = '';
   });
 
   function updateFilterFooter() {
@@ -690,9 +697,17 @@
         const pill = document.createElement('button');
         pill.className = 'pill' + (filter[key] === v ? ' on' : '');
         pill.textContent = v;
-        pill.onclick = () => { filter[key] = v; renderDeck(); fd.classList.remove('open'); };
+        pill.onclick = () => { filter[key] = v; renderDeck(); fd.classList.remove('open'); document.getElementById('app').style.overflow = ''; };
         pw.appendChild(pill);
       });
+      // 画家のみ「その他」ボタンを追加
+      if (key === 'artist' && allArtists.length > vals.length) {
+        const moreBtn = document.createElement('button');
+        moreBtn.className = 'pill pill-more';
+        moreBtn.textContent = `その他 ${allArtists.length - vals.length} 人`;
+        moreBtn.onclick = () => { artists = [...allArtists]; buildFilterUI(); };
+        pw.appendChild(moreBtn);
+      }
       bdy.appendChild(pw);
       hdr.onclick = () => {
         sectionState[key] = !sectionState[key];
@@ -799,7 +814,7 @@
     if (e.key !== 'Escape') return;
     const lb = document.getElementById('lightbox');
     if (lb && lb.classList.contains('open')) { closeLightbox(); return; }
-    document.getElementById('fd').classList.remove('open');
+    document.getElementById('fd').classList.remove('open'); document.getElementById('app').style.overflow = '';
     document.getElementById('gp').classList.remove('open');
     hideGuide();
   }, true);
