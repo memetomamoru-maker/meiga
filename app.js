@@ -408,16 +408,14 @@
     const hint = document.createElement('div');
     hint.className = 'zoom-hint';
     hint.textContent = 'タップで拡大';
-    hint.style.cssText = 'opacity:0;transform:translateY(8px);';
+    hint.style.opacity = '0';
     fw.appendChild(hint);
     requestAnimationFrame(() => requestAnimationFrame(() => {
-      hint.style.transition = 'opacity .45s ease, transform .45s cubic-bezier(.16,1,.3,1)';
+      hint.style.transition = 'opacity .45s ease';
       hint.style.opacity = '1';
-      hint.style.transform = 'translateY(0)';
       setTimeout(() => {
-        hint.style.transition = 'opacity .7s ease, transform .7s ease';
+        hint.style.transition = 'opacity .7s ease';
         hint.style.opacity = '0';
-        hint.style.transform = 'translateY(-4px)';
         setTimeout(() => { hint.remove(); }, 700);
       }, 2400);
     }));
