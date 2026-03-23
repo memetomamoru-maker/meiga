@@ -331,25 +331,7 @@
     // ★ 画像クリックのみでライトボックスを開く（ab への重複追加は行わない）
     img.addEventListener('click', (e) => { e.stopPropagation(); openLightbox(p); });
     fw.appendChild(img);
-    // 拡大ヒント（最初の3枚まで表示）
-    const _zoomCount = parseInt(localStorage.getItem('meiga_zoom_count') || '0', 10);
-    if (_zoomCount < 3) {
-      const hint = document.createElement('div');
-      hint.className = 'zoom-hint';
-      hint.textContent = 'タップで拡大';
-      hint.style.cssText = 'opacity:0;';
-      fw.appendChild(hint);
-      requestAnimationFrame(() => {
-        hint.style.transition = 'opacity .4s ease';
-        hint.style.opacity = '1';
-        setTimeout(() => {
-          hint.style.transition = 'opacity .8s ease';
-          hint.style.opacity = '0';
-          setTimeout(() => { hint.remove(); }, 800);
-        }, 2200);
-      });
-      localStorage.setItem('meiga_zoom_count', String(_zoomCount + 1));
-    }
+    // 拡大ヒントはshowZoomHint()で別途管理（先読み生成でカウントが進まないよう分離）
     const shadow = document.createElement('div');
     shadow.className = 'frame-shadow';
     card.appendChild(num);
@@ -392,6 +374,36 @@
     }
   }
   function updateNavButtons() {}
+
+  // 拡大ヒント: アプリ起動後の最初の3枚に表示（セッション中のみカウント、毎回リセット）
+  let _zoomSessionCount = 0;
+  let _zoomShownForCursor = -1;
+  function showZoomHint() {
+    if (_zoomSessionCount >= 3) return;
+    if (_zoomShownForCursor === cursor) return;
+    _zoomShownForCursor = cursor;
+    // 現在のcurCardにhintを追加
+    if (!curCard) return;
+    const fw = curCard.querySelector('.frame-wrap');
+    if (!fw) return;
+    const existing = fw.querySelector('.zoom-hint');
+    if (existing) return;
+    const hint = document.createElement('div');
+    hint.className = 'zoom-hint';
+    hint.textContent = 'タップで拡大';
+    hint.style.cssText = 'opacity:0;';
+    fw.appendChild(hint);
+    requestAnimationFrame(() => {
+      hint.style.transition = 'opacity .4s ease';
+      hint.style.opacity = '1';
+      setTimeout(() => {
+        hint.style.transition = 'opacity .8s ease';
+        hint.style.opacity = '0';
+        setTimeout(() => { hint.remove(); }, 800);
+      }, 2200);
+    });
+    _zoomSessionCount++;
+  }
 
   // ── スワイプ ────────────────────────────────────────────────
   // ★ startX も追跡して横移動が多い場合はキャンセル（ピンチ誤検知防止）
@@ -515,7 +527,7 @@
     } else {
       nextCard = null;
     }
-    updateMeta(); updateNavButtons();
+    updateMeta(); updateNavButtons(); showZoomHint();
     setTimeout(() => { isAnimating = false; }, 520);
   }
 
@@ -550,7 +562,7 @@
     } else {
       prevCard = null;
     }
-    updateMeta(); updateNavButtons();
+    updateMeta(); updateNavButtons(); showZoomHint();
     setTimeout(() => { isAnimating = false; }, 520);
   }
 
