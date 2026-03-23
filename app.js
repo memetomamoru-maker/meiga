@@ -135,21 +135,25 @@
     styles = [...new Set(allPaintings.map(p => p.style))]
       .filter(s => s && s !== '絵画' && s !== 'Paintings' && s !== 'Oil on canvas' && s.length < 25)
       .sort();
-    // 画家ごとの作品数をカウントして上位20人に絞る（英語名除外）
-    const artistCount = {};
-    allPaintings.forEach(p => {
-      if (!p.artist) return;
-      if (p.artist === p.artist.replace(/[\u0080-\uFFFF]/g, '')) return; // 英語のみ除外
-      artistCount[p.artist] = (artistCount[p.artist] || 0) + 1;
-    });
-    artists = Object.entries(artistCount)
-      .sort((a, b) => b[1] - a[1])
-      .map(([name]) => name)
-      .sort();
-    allArtists = [...artists];
+    // 知名度順固定リスト（famous100ベース）で存在する画家のみ表示
+    const FAMOUS_ORDER = [
+      'クロード・モネ', 'フィンセント・ファン・ゴッホ', 'レオナルド・ダ・ヴィンチ',
+      'ピエール＝オーギュスト・ルノワール', 'エドガー・ドガ',
+      'レンブラント・ファン・レイン', 'ヨハネス・フェルメール',
+      'エドゥアール・マネ', 'ポール・セザンヌ', 'グスタフ・クリムト',
+      'フランシスコ・ゴヤ', 'ポール・ゴーギャン', 'サンドロ・ボッティチェッリ',
+      'ジョルジュ・スーラ', 'カラヴァッジョ',
+    ];
+    const existingArtists = new Set(
+      allPaintings.map(p => p.artist)
+        .filter(a => a && a !== a.replace(/[\u0080-\uFFFF]/g, ''))
+    );
+    const fixedList = FAMOUS_ORDER.filter(a => existingArtists.has(a));
+    const otherList = [...existingArtists].filter(a => !FAMOUS_ORDER.includes(a)).sort();
+    allArtists = [...fixedList, ...otherList];
     // filter.artist が 'その他' 選択中は artists を保持（リセット防止）
     if (filter.artist !== 'その他') {
-      artists = allArtists.slice(0, 10);
+      artists = allArtists.slice(0, 8);
     }
   }
 
