@@ -253,7 +253,14 @@
     const filtered = allPaintings.filter(p => {
       if (filter.century !== 'all' && p.century !== filter.century) return false;
       if (filter.style   !== 'all' && p.style   !== filter.style)   return false;
-      if (filter.artist  !== 'all' && p.artist  !== filter.artist)  return false;
+      if (filter.artist  !== 'all') {
+        if (filter.artist === 'その他') {
+          // 上位10件に含まれない画家の作品
+          if (artists.includes(p.artist)) return false;
+        } else {
+          if (p.artist !== filter.artist) return false;
+        }
+      }
       return true;
     });
     if (!filtered.length) { showToast('該当する作品がありません'); return false; }
@@ -656,7 +663,13 @@
     const count = allPaintings.filter(p => {
       if (filter.century !== 'all' && p.century !== filter.century) return false;
       if (filter.style   !== 'all' && p.style   !== filter.style)   return false;
-      if (filter.artist  !== 'all' && p.artist  !== filter.artist)  return false;
+      if (filter.artist  !== 'all') {
+        if (filter.artist === 'その他') {
+          if (artists.includes(p.artist)) return false;
+        } else {
+          if (p.artist !== filter.artist) return false;
+        }
+      }
       return true;
     }).length;
     const lbl = document.getElementById('fd-cnt-label');
@@ -703,9 +716,13 @@
       // 画家のみ「その他」ボタンを追加
       if (key === 'artist' && allArtists.length > vals.length) {
         const moreBtn = document.createElement('button');
-        moreBtn.className = 'pill pill-more';
-        moreBtn.textContent = `その他 ${allArtists.length - vals.length} 人`;
-        moreBtn.onclick = () => { artists = [...allArtists]; buildFilterUI(); };
+        moreBtn.className = 'pill pill-more' + (filter.artist === 'その他' ? ' on' : '');
+        moreBtn.textContent = 'その他';
+        moreBtn.onclick = () => {
+          filter.artist = 'その他';
+          renderDeck();
+          fd.classList.remove('open');
+        };
         pw.appendChild(moreBtn);
       }
       bdy.appendChild(pw);
