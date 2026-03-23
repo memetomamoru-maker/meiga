@@ -50,7 +50,7 @@
       "theme": "神話",
       "museum": "ウフィツィ美術館",
       "museumUrl": "https://www.uffizi.it/opere/primavera",
-      "wikiUrl": "https://ja.wikipedia.org/wiki/サンドロ・ボッティチェッリ",
+      "wikiUrl": "https://ja.wikipedia.org/wiki/プリマヴェーラ",
       "image": "/images/famous/primavera.jpg",
       "isFamous": true
     },
@@ -245,7 +245,7 @@
       "theme": "風景画",
       "museum": "ハンブルク美術館",
       "museumUrl": "https://online-sammlung.hamburger-kunsthalle.de/en/objekt/HK-5161/wanderer-ueber-dem-nebelmeer",
-      "wikiUrl": "https://ja.wikipedia.org/wiki/カスパー・ダーヴィト・フリードリヒ",
+      "wikiUrl": "https://ja.wikipedia.org/wiki/雲海の上の旅人",
       "image": "/images/famous/wanderer_fog.jpg",
       "isFamous": true
     },
@@ -271,7 +271,7 @@
       "theme": "日常",
       "museum": "オルセー美術館",
       "museumUrl": "https://www.musee-orsay.fr/en/artworks/langelus-998",
-      "wikiUrl": "https://ja.wikipedia.org/wiki/ジャン＝フランソワ・ミレー",
+      "wikiUrl": "https://ja.wikipedia.org/wiki/晩鐘_(ミレー)",
       "image": "/images/famous/angelus_millet.jpg",
       "isFamous": true
     },
@@ -362,7 +362,7 @@
       "theme": "宗教画",
       "museum": "スコットランド国立美術館",
       "museumUrl": "https://www.nationalgalleries.org/art-and-artists/50282",
-      "wikiUrl": "https://ja.wikipedia.org/wiki/スコットランド国立美術館",
+      "wikiUrl": "https://ja.wikipedia.org/wiki/ポール・ゴーギャン",
       "image": "/images/famous/vision_sermon.jpg",
       "isFamous": true
     },
@@ -414,7 +414,7 @@
       "theme": "静物",
       "museum": "ナショナル・ギャラリー",
       "museumUrl": "https://www.nationalgallery.org.uk/paintings/vincent-van-gogh-sunflowers",
-      "wikiUrl": "https://ja.wikipedia.org/wiki/フィンセント・ファン・ゴッホ",
+      "wikiUrl": "https://ja.wikipedia.org/wiki/ひまわり_(ゴッホの絵画)",
       "image": "/images/famous/sunflowers_vangogh.jpg",
       "isFamous": true
     },
@@ -440,7 +440,7 @@
       "theme": "日常",
       "museum": "ファン・ゴッホ美術館",
       "museumUrl": "https://www.vangoghmuseum.nl/en/collection/s0005V1962",
-      "wikiUrl": "https://ja.wikipedia.org/wiki/フィンセント・ファン・ゴッホ",
+      "wikiUrl": "https://ja.wikipedia.org/wiki/じゃがいもを食べる人々",
       "image": "/images/famous/potato_eaters.jpg",
       "isFamous": true
     },
@@ -479,7 +479,7 @@
       "theme": "神話",
       "museum": "ベルヴェデーレ宮殿",
       "museumUrl": "https://www.belvedere.at/en/artworks/judith-i",
-      "wikiUrl": "https://ja.wikipedia.org/wiki/ユディト",
+      "wikiUrl": "https://ja.wikipedia.org/wiki/ユディトI",
       "image": "/images/famous/judith_klimt.jpg",
       "isFamous": true
     },
@@ -518,7 +518,7 @@
       "theme": "人物画",
       "museum": "オルセー美術館",
       "museumUrl": "https://www.musee-orsay.fr/en/artworks/arrangement-en-gris-et-noir-no-1-14373",
-      "wikiUrl": "https://ja.wikipedia.org/wiki/ジェームズ・マクニール・ホイッスラー",
+      "wikiUrl": "https://ja.wikipedia.org/wiki/グレーと黒のアレンジメント第1番",
       "image": "/images/famous/whistlers_mother.jpg",
       "isFamous": true
     },
@@ -648,7 +648,7 @@
       "theme": "日常",
       "museum": "メトロポリタン美術館",
       "museumUrl": "https://www.metmuseum.org/art/collection/search/436947",
-      "wikiUrl": "https://ja.wikipedia.org/wiki/エドゥアール・マネ",
+      "wikiUrl": "https://ja.wikipedia.org/wiki/舟遊び_(マネ)",
       "image": "/images/famous/boating_manet.jpg",
       "isFamous": true
     }
