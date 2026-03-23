@@ -147,7 +147,10 @@
       .map(([name]) => name)
       .sort();
     allArtists = [...artists];
-    artists = artists.slice(0, 10);
+    // filter.artist が 'その他' 選択中は artists を保持（リセット防止）
+    if (filter.artist !== 'その他') {
+      artists = allArtists.slice(0, 10);
+    }
   }
 
   // ── famous100取得 ─────────────────────────────────────────
@@ -722,6 +725,7 @@
           filter.artist = 'その他';
           renderDeck();
           fd.classList.remove('open');
+          document.getElementById('app').style.overflow = '';
         };
         pw.appendChild(moreBtn);
       }
