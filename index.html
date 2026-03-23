@@ -98,6 +98,20 @@ body{font-family:'Cormorant Garamond','Noto Serif JP',Georgia,serif}
 /* ── デッキ ── */
 #dw{position:relative;flex:1;overflow:hidden;touch-action:none;background:var(--warm);cursor:grab}
 #dw:active{cursor:grabbing}
+#progress-bar{
+  position:absolute;bottom:0;left:0;right:0;height:2px;
+  background:rgba(160,120,60,.12);z-index:20;pointer-events:none;
+}
+#progress-fill{
+  height:100%;
+  background:linear-gradient(to right,var(--gold-d),var(--gold-l));
+  width:0%;transition:width .4s ease;
+  box-shadow:0 0 6px rgba(200,160,80,.4);
+}
+.ab-t-wrap{display:flex;align-items:center;gap:5px;min-width:0}
+.ab-t-wrap .ab-t{flex:1;min-width:0}
+.ab-link-icon{flex-shrink:0;color:var(--gold-l);opacity:.6;transition:opacity .18s}
+.ab-t-wrap:hover .ab-link-icon{opacity:1}
 
 /* ── カード ── */
 .card{
@@ -582,7 +596,7 @@ body{font-family:'Cormorant Garamond','Noto Serif JP',Georgia,serif}
 .guide-steps{display:flex;flex-direction:column;gap:0;width:100%;max-width:320px}
 .guide-step{
   display:flex;align-items:flex-start;gap:16px;
-  padding:14px 0;border-bottom:1px solid rgba(200,160,80,.1);
+  padding:10px 0;border-bottom:1px solid rgba(200,160,80,.1);
 }
 .guide-step:last-of-type{border-bottom:none}
 .guide-icon{
@@ -669,6 +683,19 @@ body{font-family:'Cormorant Garamond','Noto Serif JP',Georgia,serif}
   display:flex;align-items:center;justify-content:center;
   transition:all .16s;z-index:10;
 }
+/* ギャラリーから開いた場合: 額縁なし */
+#lightbox.gallery-mode #lb-inner::before,
+#lightbox.gallery-mode #lb-inner::after{display:none}
+#lightbox.gallery-mode #lb-img{cursor:default}
+/* 詳細リンク */
+#lb-link{
+  display:inline-block;margin-top:10px;
+  font-size:10px;color:var(--gold-l);
+  font-family:'EB Garamond',serif;font-style:italic;letter-spacing:.1em;
+  text-decoration:none;border-bottom:1px solid rgba(200,160,80,.3);
+  transition:all .16s;
+}
+#lb-link:hover{color:var(--gold-b);border-color:var(--gold-b)}
 #lb-close:hover{background:rgba(200,160,80,.2)}
 </style>
 </head>
@@ -722,6 +749,7 @@ body{font-family:'Cormorant Garamond','Noto Serif JP',Georgia,serif}
 
   <!-- デッキ -->
   <div id="dw">
+    <div id="progress-bar"><div id="progress-fill"></div></div>
     <div id="shi">
       <div class="shi-arrow">
         <div class="shi-arr-up"></div>
@@ -738,7 +766,12 @@ body{font-family:'Cormorant Garamond','Noto Serif JP',Georgia,serif}
   <div id="ab">
     <div class="ab-i">
       <div class="ab-info">
-        <div class="ab-t" id="abt">—</div>
+        <div class="ab-t-wrap">
+          <div class="ab-t" id="abt">—</div>
+          <svg class="ab-link-icon" id="ab-link-icon" width="10" height="10" viewBox="0 0 12 12" fill="none" aria-hidden="true" style="display:none">
+            <path d="M5 2H2a1 1 0 00-1 1v7a1 1 0 001 1h7a1 1 0 001-1V7M8 1h3m0 0v3m0-3L5 7" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
         <div class="ab-s" id="abs">—</div>
       </div>
       <div class="ab-btns">
@@ -879,6 +912,7 @@ body{font-family:'Cormorant Garamond','Noto Serif JP',Georgia,serif}
     <div id="lb-info">
       <div id="lb-title"></div>
       <div id="lb-sub"></div>
+      <a id="lb-link" href="#" target="_blank" rel="noopener noreferrer" style="display:none">詳細を見る →</a>
     </div>
   </div>
 

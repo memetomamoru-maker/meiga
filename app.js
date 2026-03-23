@@ -665,15 +665,12 @@
       };
       const lbl = document.createElement('div'); lbl.className = 'gilbl'; lbl.textContent = p.title;
       const sub = document.createElement('div'); sub.className = 'gilsub'; sub.textContent = p.artist;
-      // famousのフィールド確認済み: museumUrl と wikiUrl の両方がある
-      const link = p.museumUrl || p.wikiUrl || null;
-      if (link) {
-        item.style.cursor = 'pointer';
-        item.addEventListener('click', (e) => {
-          if (e.target === del || e.target.closest('.gi-del')) return;
-          window.open(link, '_blank', 'noopener,noreferrer');
-        });
-      }
+      // タップで拡大表示（外部リンクはライトボックス内の詳細リンクへ）
+      item.style.cursor = 'zoom-in';
+      item.addEventListener('click', (e) => {
+        if (e.target === del || e.target.closest('.gi-del')) return;
+        openLightbox(p, { fromGallery: true });
+      });
       frame.appendChild(inner); frame.appendChild(del);
       item.appendChild(wire); item.appendChild(frame); item.appendChild(lbl); item.appendChild(sub);
       grid.appendChild(item);
@@ -681,12 +678,17 @@
   }
 
   // ── ライトボックス（絵の拡大表示）──────────────────────────
-  function openLightbox(p) {
+  // fromGallery: true のとき額縁なし・ピンチズーム無効
+  function openLightbox(p, opts) {
     const lb      = document.getElementById('lightbox');
     const lbImg   = document.getElementById('lb-img');
     const lbTitle = document.getElementById('lb-title');
     const lbSub   = document.getElementById('lb-sub');
+    const lbLink  = document.getElementById('lb-link');
     if (!lb) return;
+    const fromGallery = opts && opts.fromGallery;
+    // gallery-modeクラス制御（額縁表示/非表示）
+    lb.classList.toggle('gallery-mode', fromGallery);
     lbImg.src = '';
     const bigUrl = p.image
       .replace('/web-large/', '/original/')
@@ -695,6 +697,16 @@
     lbImg.onerror = () => { lbImg.src = p.image; };
     lbTitle.textContent = p.title;
     lbSub.textContent = `${p.artist} · ${p.year || '年代不明'} · ${p.museum}`;
+    // 詳細リンク: famousはwikiUrl優先、それ以外はmuseumUrl優先
+    const link = p.isFamous
+      ? (p.wikiUrl || p.museumUrl || null)
+      : (p.museumUrl || p.wikiUrl || null);
+    if (link && lbLink) {
+      lbLink.href = link;
+      lbLink.style.display = 'inline-block';
+    } else if (lbLink) {
+      lbLink.style.display = 'none';
+    }
     lb.classList.add('open');
     document.body.style.overflow = 'hidden';
   }
