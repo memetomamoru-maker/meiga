@@ -520,9 +520,8 @@ body{font-family:'Cormorant Garamond','Noto Serif JP',Georgia,serif}
 @keyframes giIn{from{opacity:0;transform:scale(.88) translateY(10px)}to{opacity:1;transform:scale(1) translateY(0)}}
 .giwire{width:40px;height:14px;border-top:1px solid rgba(200,160,80,.3);border-radius:50% 50% 0 0 / 100% 100% 0 0}
 .gif{
-  position:relative;width:100%;aspect-ratio:3/4;
+  position:relative;width:100%;
   overflow:visible;
-  /* 上下の額縁はみ出し(9px)分の余白 → ラベルが絵に被らない */
   margin-bottom:12px;
 }
 .gif::before{
@@ -571,16 +570,13 @@ body{font-family:'Cormorant Garamond','Noto Serif JP',Georgia,serif}
   position:relative;
   z-index:2;
   width:100%;
-  height:100%;
   overflow:hidden;
 }
 .gif img{
   display:block;
   width:100%;
-  height:100%;
-  object-fit:contain;
+  height:auto;
   position:relative;
-  background:var(--warm-d);
 }
 .gi-del{
   position:absolute;top:-4px;left:-4px;z-index:10;width:18px;height:18px;border-radius:50%;
