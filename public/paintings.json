@@ -1,44 +1,11 @@
 {
-  "generated": "2026-03-25T05:16:28.790Z",
+  "generated": "2026-03-26T05:51:16.214Z",
   "total": 380,
   "sources": {
     "artic": 356,
     "met": 24
   },
   "paintings": [
-    {
-      "id": "artic-14591",
-      "title": "読書する女性",
-      "artist": "エドゥアール・マネ",
-      "year": 1882,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/14591",
-      "image": "https://www.artic.edu/iiif/2/fd991fea-0c13-8444-7879-aba467f1d9db/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-16568",
-      "title": "睡蓮",
-      "artist": "クロード・モネ",
-      "year": 1906,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/16568",
-      "image": "https://www.artic.edu/iiif/2/3c27b499-af56-f0d5-93b5-a7f2f1ad5813/full/843,/0/default.jpg",
-      "wikiUrl": "https://ja.wikipedia.org/wiki/睡蓮_(モネ)"
-    },
-    {
-      "id": "artic-11723",
-      "title": "化粧する女",
-      "artist": "ベルト・モリゾ",
-      "year": 1880,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/11723",
-      "image": "https://www.artic.edu/iiif/2/78c80988-6524-cec7-c661-a4c0a706d06f/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
     {
       "id": "artic-4758",
       "title": "ストーク・バイ・ネイランド",
@@ -51,25 +18,14 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-14630",
-      "title": "ヴェネツィア、パラッツォ・ダリオ",
-      "artist": "クロード・モネ",
-      "year": 1908,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/14630",
-      "image": "https://www.artic.edu/iiif/2/64c38f6d-f0d5-b553-a27e-3552550f351a/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-20530",
-      "title": "ポントワーズの雪のウサギ小屋",
-      "artist": "カミーユ・ピサロ",
-      "year": 1879,
+      "id": "artic-11723",
+      "title": "化粧する女",
+      "artist": "ベルト・モリゾ",
+      "year": 1880,
       "century": "18〜19世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/20530",
-      "image": "https://www.artic.edu/iiif/2/053f9be8-3617-c4ef-36cd-1deb5e13b288/full/843,/0/default.jpg",
+      "museumUrl": "https://www.artic.edu/artworks/11723",
+      "image": "https://www.artic.edu/iiif/2/78c80988-6524-cec7-c661-a4c0a706d06f/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -84,6 +40,28 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-14591",
+      "title": "読書する女性",
+      "artist": "エドゥアール・マネ",
+      "year": 1882,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/14591",
+      "image": "https://www.artic.edu/iiif/2/fd991fea-0c13-8444-7879-aba467f1d9db/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-14630",
+      "title": "ヴェネツィア、パラッツォ・ダリオ",
+      "artist": "クロード・モネ",
+      "year": 1908,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/14630",
+      "image": "https://www.artic.edu/iiif/2/64c38f6d-f0d5-b553-a27e-3552550f351a/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-14664",
       "title": "ムーラン・ド・ラ・ギャレット",
       "artist": "アンリ・ド・トゥールーズ＝ロートレック",
@@ -92,6 +70,28 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/14664",
       "image": "https://www.artic.edu/iiif/2/156aaed6-fe3c-a13c-f39e-55f381205929/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-16568",
+      "title": "睡蓮",
+      "artist": "クロード・モネ",
+      "year": 1906,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/16568",
+      "image": "https://www.artic.edu/iiif/2/3c27b499-af56-f0d5-93b5-a7f2f1ad5813/full/843,/0/default.jpg",
+      "wikiUrl": "https://ja.wikipedia.org/wiki/睡蓮_(モネ)"
+    },
+    {
+      "id": "artic-20530",
+      "title": "ポントワーズの雪のウサギ小屋",
+      "artist": "カミーユ・ピサロ",
+      "year": 1879,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/20530",
+      "image": "https://www.artic.edu/iiif/2/053f9be8-3617-c4ef-36cd-1deb5e13b288/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -114,6 +114,83 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/30899",
       "image": "https://www.artic.edu/iiif/2/e53b4972-30dc-5aed-1696-2b5778277d60/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-62808",
+      "title": "Khosrow and Shirin in a Garden, a Scene from the Khamsa of Nizami",
+      "artist": "Iran",
+      "year": 1650,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/62808",
+      "image": "https://www.artic.edu/iiif/2/2f25b476-f5a5-7353-5d21-c67207eb1c39/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-68433",
+      "title": "Sawmill, Outskirts of Paris",
+      "artist": "Henri Rousseau",
+      "year": 1895,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/68433",
+      "image": "https://www.artic.edu/iiif/2/3826e366-e82a-e853-12e4-b303a1618103/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-75557",
+      "title": "Manuscript of Kulliyat (Complete Works) by Sa'di with Lacquered Cover",
+      "artist": "Iran",
+      "year": 1700,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/75557",
+      "image": "https://www.artic.edu/iiif/2/6d216d21-f35a-770a-071c-e0304f23b84f/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-70593",
+      "title": "Garden Scene",
+      "artist": "Iran",
+      "year": 1480,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/70593",
+      "image": "https://www.artic.edu/iiif/2/85309ed9-b889-16fb-2fc7-57f1c97c3820/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-76890",
+      "title": "Ruler Entertained by Dancers in a Paradise Garden",
+      "artist": "India",
+      "year": 1800,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/76890",
+      "image": "https://www.artic.edu/iiif/2/c1e17623-1a51-8db0-e1d0-3eee0b41b4b2/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-83613",
+      "title": "'Il Mascherone,' a Rocaille Fountain on the Grounds of the Villa Borghese",
+      "artist": "Richard Wilson",
+      "year": 1759,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/83613",
+      "image": "https://www.artic.edu/iiif/2/2efb0b9d-04a4-390e-752b-fdb9602e017f/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-84092",
+      "title": "Roma Antica",
+      "artist": "After Giovanni Paolo Panini",
+      "year": 1760,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/84092",
+      "image": "https://www.artic.edu/iiif/2/99c8eeea-f07a-af30-c79e-1da4d55243a3/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -147,83 +224,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/94131",
       "image": "https://www.artic.edu/iiif/2/e406e261-8d27-d3b5-658d-751d79d03ff2/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-62808",
-      "title": "Khosrow and Shirin in a Garden, a Scene from the Khamsa of Nizami",
-      "artist": "Iran",
-      "year": 1650,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/62808",
-      "image": "https://www.artic.edu/iiif/2/2f25b476-f5a5-7353-5d21-c67207eb1c39/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-70593",
-      "title": "Garden Scene",
-      "artist": "Iran",
-      "year": 1480,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/70593",
-      "image": "https://www.artic.edu/iiif/2/85309ed9-b889-16fb-2fc7-57f1c97c3820/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-68433",
-      "title": "Sawmill, Outskirts of Paris",
-      "artist": "Henri Rousseau",
-      "year": 1895,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/68433",
-      "image": "https://www.artic.edu/iiif/2/3826e366-e82a-e853-12e4-b303a1618103/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-76890",
-      "title": "Ruler Entertained by Dancers in a Paradise Garden",
-      "artist": "India",
-      "year": 1800,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/76890",
-      "image": "https://www.artic.edu/iiif/2/c1e17623-1a51-8db0-e1d0-3eee0b41b4b2/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-75557",
-      "title": "Manuscript of Kulliyat (Complete Works) by Sa'di with Lacquered Cover",
-      "artist": "Iran",
-      "year": 1700,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/75557",
-      "image": "https://www.artic.edu/iiif/2/6d216d21-f35a-770a-071c-e0304f23b84f/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-84092",
-      "title": "Roma Antica",
-      "artist": "After Giovanni Paolo Panini",
-      "year": 1760,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/84092",
-      "image": "https://www.artic.edu/iiif/2/99c8eeea-f07a-af30-c79e-1da4d55243a3/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-83613",
-      "title": "'Il Mascherone,' a Rocaille Fountain on the Grounds of the Villa Borghese",
-      "artist": "Richard Wilson",
-      "year": 1759,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/83613",
-      "image": "https://www.artic.edu/iiif/2/2efb0b9d-04a4-390e-752b-fdb9602e017f/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -359,6 +359,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-16622",
+      "title": "Madame Léon Clapisson",
+      "artist": "ピエール＝オーギュスト・ルノワール",
+      "year": 1883,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/16622",
+      "image": "https://www.artic.edu/iiif/2/a7af09dc-5743-062e-4802-b6435e67eaa5/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-15468",
       "title": "Saint George and the Dragon",
       "artist": "Bernat Martorell",
@@ -378,17 +389,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/879",
       "image": "https://www.artic.edu/iiif/2/ff3b5c8a-5b14-5c35-8775-3d021e92a381/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-16622",
-      "title": "Madame Léon Clapisson",
-      "artist": "ピエール＝オーギュスト・ルノワール",
-      "year": 1883,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/16622",
-      "image": "https://www.artic.edu/iiif/2/a7af09dc-5743-062e-4802-b6435e67eaa5/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1085,17 +1085,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-64818",
-      "title": "干し草の積み重ね（夏の終わり）",
-      "artist": "クロード・モネ",
-      "year": 1891,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/64818",
-      "image": "https://www.artic.edu/iiif/2/a38e2828-ec6f-ece1-a30f-70243449197b/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-14655",
       "title": "二人の姉妹",
       "artist": "ピエール＝オーギュスト・ルノワール",
@@ -1116,6 +1105,17 @@
       "museumUrl": "https://www.artic.edu/artworks/111442",
       "image": "https://www.artic.edu/iiif/2/3b885ae0-4d46-5fe4-d70a-00474827f02c/full/843,/0/default.jpg",
       "wikiUrl": "https://ja.wikipedia.org/wiki/子供の入浴_(カサット)"
+    },
+    {
+      "id": "artic-64818",
+      "title": "干し草の積み重ね（夏の終わり）",
+      "artist": "クロード・モネ",
+      "year": 1891,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/64818",
+      "image": "https://www.artic.edu/iiif/2/a38e2828-ec6f-ece1-a30f-70243449197b/full/843,/0/default.jpg",
+      "wikiUrl": null
     },
     {
       "id": "artic-8991",
@@ -1140,17 +1140,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-14620",
-      "title": "Cliff Walk at Pourville",
-      "artist": "クロード・モネ",
-      "year": 1882,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/14620",
-      "image": "https://www.artic.edu/iiif/2/b0effb1c-ff23-bbaa-f809-9fd94e31c1a0/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-14598",
       "title": "The Beach at Sainte-Adresse",
       "artist": "クロード・モネ",
@@ -1159,6 +1148,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/14598",
       "image": "https://www.artic.edu/iiif/2/95be2572-b53d-8e7b-abc9-10eb48d4fa5d/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-14620",
+      "title": "Cliff Walk at Pourville",
+      "artist": "クロード・モネ",
+      "year": 1882,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/14620",
+      "image": "https://www.artic.edu/iiif/2/b0effb1c-ff23-bbaa-f809-9fd94e31c1a0/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1723,6 +1723,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-16554",
+      "title": "The Artist's House at Argenteuil",
+      "artist": "クロード・モネ",
+      "year": 1873,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/16554",
+      "image": "https://www.artic.edu/iiif/2/7d533ed4-ff54-fa2c-64f4-2b16bfbb5880/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-16549",
       "title": "Apples and Grapes",
       "artist": "クロード・モネ",
@@ -1753,17 +1764,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/16564",
       "image": "https://www.artic.edu/iiif/2/838d8c33-a3b4-68ea-587b-87ceec2011af/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-16554",
-      "title": "The Artist's House at Argenteuil",
-      "artist": "クロード・モネ",
-      "year": 1873,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/16554",
-      "image": "https://www.artic.edu/iiif/2/7d533ed4-ff54-fa2c-64f4-2b16bfbb5880/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2152,17 +2152,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-95183",
-      "title": "Beggar with a Duffle Coat (Philosopher)",
-      "artist": "エドゥアール・マネ",
-      "year": 1867,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/95183",
-      "image": "https://www.artic.edu/iiif/2/1a087ef7-8455-e5d0-0b2b-9738cd33058c/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-44892",
       "title": "Fish (Still Life)",
       "artist": "エドゥアール・マネ",
@@ -2171,6 +2160,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/44892",
       "image": "https://www.artic.edu/iiif/2/0cbe27e8-2fec-3445-bc48-ce40a8f2dc25/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-95183",
+      "title": "Beggar with a Duffle Coat (Philosopher)",
+      "artist": "エドゥアール・マネ",
+      "year": 1867,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/95183",
+      "image": "https://www.artic.edu/iiif/2/1a087ef7-8455-e5d0-0b2b-9738cd33058c/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2988,17 +2988,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-25832",
-      "title": "Jean Renoir Sewing",
-      "artist": "ピエール＝オーギュスト・ルノワール",
-      "year": 1900,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/25832",
-      "image": "https://www.artic.edu/iiif/2/41728a11-a073-6efa-387c-a40384477ad2/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-16600",
       "title": "Lucie Berard (Child in White)",
       "artist": "ピエール＝オーギュスト・ルノワール",
@@ -3029,6 +3018,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/14647",
       "image": "https://www.artic.edu/iiif/2/147e3ce7-1c08-fa84-57f7-f59d4ec90d3c/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-25832",
+      "title": "Jean Renoir Sewing",
+      "artist": "ピエール＝オーギュスト・ルノワール",
+      "year": 1900,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/25832",
+      "image": "https://www.artic.edu/iiif/2/41728a11-a073-6efa-387c-a40384477ad2/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
