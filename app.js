@@ -60,7 +60,17 @@
   const btnGuideOpen  = document.getElementById('btn-guide');
   function showGuide() { guide.classList.remove('hidden'); }
   function hideGuide() { guide.classList.add('hidden'); }
-  btnGuideStart.addEventListener('click', () => hideGuide());
+  btnGuideStart.addEventListener('click', () => {
+    hideGuide();
+    // ✦ボタンを一瞬ハイライトして存在を知らせる
+    const todayBtn = document.getElementById('btn-today');
+    if (todayBtn) {
+      setTimeout(() => {
+        todayBtn.classList.add('hint-pulse');
+        setTimeout(() => todayBtn.classList.remove('hint-pulse'), 2000);
+      }, 400);
+    }
+  });
   btnGuideSkip.addEventListener('click', () => {
     hideGuide();
     try { localStorage.setItem('meiga_guide_skip', '1'); } catch(e) {}
@@ -187,7 +197,9 @@
     if (theme === '人物画'
       || ['portrait','woman','man','lady','girl','boy','肖像','婦人','紳士','少女','少年'].some(w => title.includes(w))) return '👤 人物・肖像';
 
-    return '🖼 その他';
+    // 分類できないものは年代で振り分け
+    if (year > 0 && year <= 1750) return '🏛 古典・荘厳';
+    return '👤 人物・肖像';
   }
 
 function updateFilterOptions() {
