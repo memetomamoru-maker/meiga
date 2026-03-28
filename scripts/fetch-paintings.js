@@ -1,5 +1,6 @@
 #!/usr/bin/env node
-// fetch-paintings.js  v34
+// fetch-paintings.js  v35
+// Cleveland Museum of Art API追加（APIキー不要・CC0）
 // ARTIC 750件投入（日本美術・非絵画フィルター込み） → 目標500件
 // 版権: MET・ARTIC ともにCC0（商用含む完全自由）確認済み
 
@@ -7,6 +8,7 @@ const fs = require('fs');
 const path = require('path');
 const https = require('https');
 const ARTIC = 'https://api.artic.edu/api/v1';
+const CMA   = 'https://openaccess-api.clevelandart.org/api/artworks';
 const MET   = 'https://collectionapi.metmuseum.org/public/collection/v1';
 
 const WIKI = {
@@ -237,6 +239,49 @@ var NON_PAINTING_MEDIA=[
   120154,16343,110541,30901,69533,30361,27954,81551,87045,62450,156596,69041,65847,72183,111630,81509,111041,87000,18743,111062,81561,111670,111671,39070,8360,59847,80607,181702,16257,192691,28853,180709,94241,47159,58052,6002,111174,146953,16370,81568,48532,80539,88619,110527,21668,110759,64029,111613,21937,80538,
 ];
 
+
+// ── Cleveland Museum of Art（APIキー不要・CC0）──
+function toCMA(d) {
+  if (!d || !d.id || !d.images || !d.images.web || !d.images.web.url) return null;
+  if (isNonPaintingTitle(d.title)) return null;
+  var creatorRaw = (d.creators && d.creators[0] && d.creators[0].description) || '';
+  var creatorName = creatorRaw.replace(/\s*\([^)]*\)/g, '').split(',')[0].trim();
+  var yearNum = d.creation_date_earliest || d.creation_date_latest || 0;
+  var id = 'cma-' + d.id;
+  return {
+    id: id,
+    title: jt(d.title || '無題'),
+    artist: ja(creatorName) || creatorName || '作者不詳',
+    year: yearNum,
+    century: cy(yearNum),
+    museum: 'クリーブランド美術館',
+    museumUrl: d.url || ('https://clevelandart.org/art/' + (d.accession_number || d.id)),
+    image: d.images.web.url,
+    wikiUrl: null,
+  };
+}
+
+async function fetchCMA() {
+  var results = [];
+  var LIMIT = 100;
+  var DEPTS = ['European Paintings', 'American Painting and Sculpture'];
+  for (var di = 0; di < DEPTS.length; di++) {
+    var dept = DEPTS[di];
+    for (var skip = 0; skip < 300; skip += LIMIT) {
+      var url = CMA + '/?type=Painting&has_image=1&cc0=1&limit=' + LIMIT + '&skip=' + skip + '&department=' + encodeURIComponent(dept);
+      var r = await fetchJson(url, 15000);
+      if (!r || !r.data || r.data.length === 0) break;
+      var items = r.data.map(toCMA).filter(Boolean);
+      results = results.concat(items);
+      console.log('[CMA] ' + dept + ' skip' + skip + ': ' + items.length + '件 累計:' + results.length);
+      await sleep(300);
+      if (r.data.length < LIMIT) break;
+    }
+  }
+  console.log('[CMA] 合計: ' + results.length + '件');
+  return results;
+}
+
 function isMediumOk(medium) {
   // ポジティブフィルター: 絵具素材が含まれているものだけ通す
   if(!medium) return false;
@@ -311,9 +356,10 @@ async function main(){
   met=met.concat(metExtraData.map(toMET).filter(Boolean));
   console.log('[MET] '+met.length+'件');
 
+  var cma = await fetchCMA();
   var seen=new Set();
-  var all=artic.concat(met).filter(function(p){if(seen.has(p.id))return false;seen.add(p.id);return true;});
-  console.log('=== 合計: '+all.length+'件 ===');
+  var all=artic.concat(met).concat(cma).filter(function(p){if(seen.has(p.id))return false;seen.add(p.id);return true;});
+  console.log('=== 合計: '+all.length+'件 (ARTIC:'+artic.length+' MET:'+met.length+' CMA:'+cma.length+') ===');
 
   var od=path.join(__dirname,'..','public');
   if(!fs.existsSync(od))fs.mkdirSync(od,{recursive:true});
