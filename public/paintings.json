@@ -1,9 +1,10 @@
 {
-  "generated": "2026-03-28T09:31:49.620Z",
+  "generated": "2026-03-28T13:01:40.266Z",
   "total": 618,
   "sources": {
     "artic": 356,
-    "met": 24
+    "met": 24,
+    "cma": 238
   },
   "paintings": [
     {
@@ -19,7 +20,7 @@
     },
     {
       "id": "artic-9637",
-      "title": "View of an Italian Villa and Gardens (the Belvedere of the Vatican)",
+      "title": "イタリアの別荘と庭園（バチカンのベルヴェデーレ）",
       "artist": "Jean Jacques de Boissieu",
       "year": 1799,
       "century": "18〜19世紀",
@@ -96,7 +97,7 @@
     },
     {
       "id": "artic-26720",
-      "title": "View of the Grotta di Palazzo with Banquet",
+      "title": "グロッタ・ディ・パラッツォの宴会",
       "artist": "Louis Jean Desprez",
       "year": 1795,
       "century": "18〜19世紀",
@@ -107,7 +108,7 @@
     },
     {
       "id": "artic-30899",
-      "title": "Portrait of Cardinal Zelada",
+      "title": "ゼラーダ枢機卿の肖像",
       "artist": "Anton Raphael Mengs",
       "year": 1773,
       "century": "18〜19世紀",
@@ -118,7 +119,7 @@
     },
     {
       "id": "artic-62808",
-      "title": "Khosrow and Shirin in a Garden, a Scene from the Khamsa of Nizami",
+      "title": "ニザーミーの「ハムサ」より：庭園のホスローとシーリーン",
       "artist": "Iran",
       "year": 1650,
       "century": "〜17世紀",
@@ -129,7 +130,7 @@
     },
     {
       "id": "artic-68433",
-      "title": "Sawmill, Outskirts of Paris",
+      "title": "パリ郊外の製材所",
       "artist": "Henri Rousseau",
       "year": 1895,
       "century": "18〜19世紀",
@@ -140,7 +141,7 @@
     },
     {
       "id": "artic-75557",
-      "title": "Manuscript of Kulliyat (Complete Works) by Sa'di with Lacquered Cover",
+      "title": "サアディー「全集」の彩飾写本（漆塗り表紙）",
       "artist": "Iran",
       "year": 1700,
       "century": "〜17世紀",
@@ -151,7 +152,7 @@
     },
     {
       "id": "artic-70593",
-      "title": "Garden Scene",
+      "title": "庭園の情景",
       "artist": "Iran",
       "year": 1480,
       "century": "〜17世紀",
@@ -162,7 +163,7 @@
     },
     {
       "id": "artic-76890",
-      "title": "Ruler Entertained by Dancers in a Paradise Garden",
+      "title": "天国の庭で踊り子たちに接待される統治者",
       "artist": "India",
       "year": 1800,
       "century": "18〜19世紀",
@@ -173,7 +174,7 @@
     },
     {
       "id": "artic-84092",
-      "title": "Roma Antica",
+      "title": "古代ローマ",
       "artist": "After Giovanni Paolo Panini",
       "year": 1760,
       "century": "18〜19世紀",
@@ -184,7 +185,7 @@
     },
     {
       "id": "artic-83613",
-      "title": "'Il Mascherone,' a Rocaille Fountain on the Grounds of the Villa Borghese",
+      "title": "「イル・マスケローネ」、ボルゲーゼ荘の噴水",
       "artist": "Richard Wilson",
       "year": 1759,
       "century": "18〜19世紀",
@@ -195,7 +196,7 @@
     },
     {
       "id": "artic-87088",
-      "title": "Water Lily Pond",
+      "title": "睡蓮の池",
       "artist": "クロード・モネ",
       "year": 1900,
       "century": "18〜19世紀",
@@ -206,7 +207,7 @@
     },
     {
       "id": "artic-95654",
-      "title": "Near the Lake",
+      "title": "湖のほとり",
       "artist": "ピエール＝オーギュスト・ルノワール",
       "year": 1880,
       "century": "18〜19世紀",
@@ -228,7 +229,7 @@
     },
     {
       "id": "artic-130724",
-      "title": "Page from a Manuscript of Kulliyat (Complete Works) by Sa'di",
+      "title": "サアディー「全集」写本の一頁",
       "artist": "Iran",
       "year": 1700,
       "century": "〜17世紀",
@@ -239,7 +240,7 @@
     },
     {
       "id": "artic-130725",
-      "title": "Page from a Manuscript of Kulliyat (Complete Works) by Sa'di",
+      "title": "サアディー「全集」写本の一頁",
       "artist": "Iran",
       "year": 1700,
       "century": "〜17世紀",
@@ -250,7 +251,7 @@
     },
     {
       "id": "artic-131827",
-      "title": "Divan of Hafiz",
+      "title": "ハーフィズの詩集",
       "artist": "Iran",
       "year": 1550,
       "century": "〜17世紀",
@@ -261,7 +262,7 @@
     },
     {
       "id": "artic-186418",
-      "title": "Mussooree and the Dhoon from Landour",
+      "title": "ランドールからのムスーリーとドゥーン",
       "artist": "Joseph Mallord William Turner",
       "year": 1840,
       "century": "18〜19世紀",
@@ -272,7 +273,7 @@
     },
     {
       "id": "artic-154496",
-      "title": "Rack Picture for Dr. Nones",
+      "title": "ノーンズ博士のラック絵",
       "artist": "Attributed to William A. Mitchell",
       "year": 1879,
       "century": "18〜19世紀",
@@ -283,7 +284,7 @@
     },
     {
       "id": "artic-111377",
-      "title": "For Sunday's Dinner",
+      "title": "日曜日の夕食のために",
       "artist": "William Michael Harnett",
       "year": 1888,
       "century": "18〜19世紀",
@@ -294,7 +295,7 @@
     },
     {
       "id": "artic-180545",
-      "title": "Portrait of Philippe Coypel and His Wife",
+      "title": "フィリップ・コワペルと妻の肖像",
       "artist": "Charles-Antoine Coypel",
       "year": 1742,
       "century": "18〜19世紀",
@@ -305,7 +306,7 @@
     },
     {
       "id": "artic-74967",
-      "title": "The Fates Gathering in the Stars",
+      "title": "星を集める運命の女神たち",
       "artist": "Elihu Vedder",
       "year": 1887,
       "century": "18〜19世紀",
@@ -316,7 +317,7 @@
     },
     {
       "id": "artic-72801",
-      "title": "Icebound",
+      "title": "氷に閉ざされて",
       "artist": "John Henry Twachtman",
       "year": 1889,
       "century": "18〜19世紀",
@@ -327,7 +328,7 @@
     },
     {
       "id": "artic-61139",
-      "title": "William Bonham",
+      "title": "ウィリアム・ボナムの肖像",
       "artist": "William Bonnell",
       "year": 1825,
       "century": "18〜19世紀",
@@ -338,7 +339,7 @@
     },
     {
       "id": "artic-61146",
-      "title": "J. Ellis Bonham",
+      "title": "J・エリス・ボナムの肖像",
       "artist": "William Bonnell",
       "year": 1825,
       "century": "18〜19世紀",
@@ -349,7 +350,7 @@
     },
     {
       "id": "artic-61141",
-      "title": "Mrs. William Bonham (Ann Warford)",
+      "title": "ウィリアム・ボナム夫人（アン・ウォーフォード）",
       "artist": "William Bonnell",
       "year": 1825,
       "century": "18〜19世紀",
@@ -360,7 +361,7 @@
     },
     {
       "id": "artic-16622",
-      "title": "Madame Léon Clapisson",
+      "title": "レオン・クラピソン夫人",
       "artist": "ピエール＝オーギュスト・ルノワール",
       "year": 1883,
       "century": "18〜19世紀",
@@ -371,7 +372,7 @@
     },
     {
       "id": "artic-15468",
-      "title": "Saint George and the Dragon",
+      "title": "聖ゲオルギウスと龍",
       "artist": "Bernat Martorell",
       "year": 1435,
       "century": "〜17世紀",
@@ -382,7 +383,7 @@
     },
     {
       "id": "artic-879",
-      "title": "Landscape (The Lock)",
+      "title": "風景（水門）",
       "artist": "Attributed to John Constable",
       "year": 1830,
       "century": "18〜19世紀",
@@ -404,7 +405,7 @@
     },
     {
       "id": "artic-217536",
-      "title": "Crèche",
+      "title": "馬小屋（キリスト降誕）",
       "artist": "Neapolitan",
       "year": 1775,
       "century": "18〜19世紀",
@@ -415,7 +416,7 @@
     },
     {
       "id": "artic-88793",
-      "title": "Retable and Frontal of the Life of Christ and the Virgin",
+      "title": "キリストと聖母の生涯の祭壇画",
       "artist": "Spanish",
       "year": 1396,
       "century": "〜17世紀",
@@ -437,7 +438,7 @@
     },
     {
       "id": "artic-153194",
-      "title": "Soldiers Discovering the Body of Holofernes",
+      "title": "ホロフェルネスの遺体を発見する兵士たち",
       "artist": "Master of the Liechtenstein Adoration",
       "year": 1555,
       "century": "〜17世紀",
@@ -448,7 +449,7 @@
     },
     {
       "id": "artic-25825",
-      "title": "Woman at the Piano",
+      "title": "ピアノを弾く女性",
       "artist": "ピエール＝オーギュスト・ルノワール",
       "year": 1876,
       "century": "18〜19世紀",
@@ -459,7 +460,7 @@
     },
     {
       "id": "artic-81558",
-      "title": "Acrobats at the Cirque Fernando (Francisca and Angelina Wartenberg)",
+      "title": "サーカス・フェルナンドの曲芸師（フランシスカとアンジェリナ・ワルテンベルク）",
       "artist": "ピエール＝オーギュスト・ルノワール",
       "year": 1879,
       "century": "18〜19世紀",
@@ -470,7 +471,7 @@
     },
     {
       "id": "artic-21907",
-      "title": "Saint Francis Kneeling in Meditation",
+      "title": "瞑想にひざまずく聖フランチェスコ",
       "artist": "エル・グレコ",
       "year": 1605,
       "century": "〜17世紀",
@@ -481,7 +482,7 @@
     },
     {
       "id": "artic-561",
-      "title": "The Family Concert",
+      "title": "家族の演奏会",
       "artist": "ヤン・ステーン",
       "year": 1666,
       "century": "〜17世紀",
@@ -492,7 +493,7 @@
     },
     {
       "id": "artic-512",
-      "title": "The Music Lesson",
+      "title": "音楽の稽古",
       "artist": "Gerard ter Borch",
       "year": 1675,
       "century": "〜17世紀",
@@ -503,7 +504,7 @@
     },
     {
       "id": "artic-187050",
-      "title": "Orchids",
+      "title": "蘭",
       "artist": "Kim Eung-won",
       "year": 1921,
       "century": "20世紀",
@@ -514,7 +515,7 @@
     },
     {
       "id": "artic-198126",
-      "title": "Lady Filmer in her Drawing Room",
+      "title": "フィルマー夫人の居間",
       "artist": "Mary Georgiana Caroline",
       "year": 1868,
       "century": "18〜19世紀",
@@ -525,7 +526,7 @@
     },
     {
       "id": "artic-81574",
-      "title": "Grey and Silver: Old Battersea Reach",
+      "title": "グレーと銀：バタシーの渡し場",
       "artist": "ジェームズ・マクニール・ホイッスラー",
       "year": 1863,
       "century": "18〜19世紀",
@@ -536,7 +537,7 @@
     },
     {
       "id": "artic-81572",
-      "title": "Trouville (Grey and Green, the Silver Sea)",
+      "title": "トルーヴィル（グレーと緑、銀の海）",
       "artist": "ジェームズ・マクニール・ホイッスラー",
       "year": 1865,
       "century": "18〜19世紀",
@@ -547,7 +548,7 @@
     },
     {
       "id": "artic-14523",
-      "title": "Figures by a Railing",
+      "title": "手すりのそばの人物たち",
       "artist": "ジェームズ・マクニール・ホイッスラー",
       "year": 1873,
       "century": "18〜19世紀",
@@ -558,7 +559,7 @@
     },
     {
       "id": "artic-2848",
-      "title": "Scene from Bohemian Life",
+      "title": "ボヘミアン生活の一場面",
       "artist": "ジェームズ・マクニール・ホイッスラー",
       "year": 1857,
       "century": "18〜19世紀",
@@ -569,7 +570,7 @@
     },
     {
       "id": "artic-111478",
-      "title": "Portrait of Dr. William McNeill Whistler",
+      "title": "ウィリアム・マクニール・ホイッスラー博士の肖像",
       "artist": "ジェームズ・マクニール・ホイッスラー",
       "year": 1873,
       "century": "18〜19世紀",
@@ -580,7 +581,7 @@
     },
     {
       "id": "artic-158382",
-      "title": "Corte del Paradiso",
+      "title": "コルテ・デル・パラディーゾ",
       "artist": "ジェームズ・マクニール・ホイッスラー",
       "year": 1880,
       "century": "18〜19世紀",
@@ -591,7 +592,7 @@
     },
     {
       "id": "artic-113084",
-      "title": "Portrait of Miss Maud Franklin",
+      "title": "モード・フランクリン嬢の肖像",
       "artist": "ジェームズ・マクニール・ホイッスラー",
       "year": 1888,
       "century": "18〜19世紀",
@@ -602,7 +603,7 @@
     },
     {
       "id": "artic-3551",
-      "title": "Study for \"Arrangement in Grey and Black, No. 2: Portrait of Thomas Carlyle\"",
+      "title": "「グレーと黒のアレンジメント第2番：トーマス・カーライルの肖像」習作",
       "artist": "ジェームズ・マクニール・ホイッスラー",
       "year": 1873,
       "century": "18〜19世紀",
@@ -613,7 +614,7 @@
     },
     {
       "id": "artic-149537",
-      "title": "The Little Blue Cap",
+      "title": "小さな青い帽子",
       "artist": "ジェームズ・マクニール・ホイッスラー",
       "year": 1895,
       "century": "18〜19世紀",
@@ -624,7 +625,7 @@
     },
     {
       "id": "artic-84088",
-      "title": "Violet and Silver—The Deep Sea",
+      "title": "紫と銀——深海",
       "artist": "ジェームズ・マクニール・ホイッスラー",
       "year": 1893,
       "century": "18〜19世紀",
@@ -635,7 +636,7 @@
     },
     {
       "id": "artic-14309",
-      "title": "Coast Scene, Bathers",
+      "title": "海岸の情景、水浴する人々",
       "artist": "ジェームズ・マクニール・ホイッスラー",
       "year": 1885,
       "century": "18〜19世紀",
@@ -646,7 +647,7 @@
     },
     {
       "id": "artic-14317",
-      "title": "Study of a Girl's Head and Shoulders",
+      "title": "少女の頭部と肩の習作",
       "artist": "ジェームズ・マクニール・ホイッスラー",
       "year": 1897,
       "century": "18〜19世紀",
@@ -657,7 +658,7 @@
     },
     {
       "id": "artic-14313",
-      "title": "Chelsea Shop",
+      "title": "チェルシーの店",
       "artist": "ジェームズ・マクニール・ホイッスラー",
       "year": 1900,
       "century": "18〜19世紀",
@@ -668,7 +669,7 @@
     },
     {
       "id": "artic-14511",
-      "title": "Butterfly",
+      "title": "蝶",
       "artist": "ジェームズ・マクニール・ホイッスラー",
       "year": 1899,
       "century": "18〜19世紀",
@@ -679,7 +680,7 @@
     },
     {
       "id": "artic-14506",
-      "title": "Butterfly with Checkered Wings",
+      "title": "格子模様の翅の蝶",
       "artist": "ジェームズ・マクニール・ホイッスラー",
       "year": 1899,
       "century": "18〜19世紀",
@@ -690,7 +691,7 @@
     },
     {
       "id": "artic-14493",
-      "title": "Butterfly",
+      "title": "蝶",
       "artist": "ジェームズ・マクニール・ホイッスラー",
       "year": 1899,
       "century": "18〜19世紀",
@@ -701,7 +702,7 @@
     },
     {
       "id": "artic-113070",
-      "title": "Study for \"Arrangement in Black, No. 2: Portrait of Mrs. Louis Huth\" (recto); Study for \"Symphony in Flesh Color and Pink: Portrait of Mrs. Frances Leyland\" (verso)",
+      "title": "「黒のアレンジメント第2番」習作（表）／「肉色とピンクのシンフォニー」習作（裏）",
       "artist": "ジェームズ・マクニール・ホイッスラー",
       "year": 1877,
       "century": "18〜19世紀",
@@ -756,7 +757,7 @@
     },
     {
       "id": "artic-57051",
-      "title": "The Fountains",
+      "title": "噴水",
       "artist": "Hubert Robert",
       "year": 1788,
       "century": "18〜19世紀",
@@ -767,7 +768,7 @@
     },
     {
       "id": "artic-260424",
-      "title": "The Shadow of Death",
+      "title": "死の影",
       "artist": "William Holman Hunt",
       "year": 1874,
       "century": "18〜19世紀",
@@ -789,7 +790,7 @@
     },
     {
       "id": "artic-94841",
-      "title": "The Song of the Lark",
+      "title": "ひばりの歌",
       "artist": "Jules Breton",
       "year": 1884,
       "century": "18〜19世紀",
@@ -800,7 +801,7 @@
     },
     {
       "id": "artic-160229",
-      "title": "Pergola with Oranges",
+      "title": "オレンジのパーゴラ",
       "artist": "Thomas Fearnley",
       "year": 1839,
       "century": "18〜19世紀",
@@ -811,7 +812,7 @@
     },
     {
       "id": "artic-110663",
-      "title": "The Combat of the Giaour and Hassan",
+      "title": "ジャウルとハッサンの格闘",
       "artist": "ウジェーヌ・ドラクロワ",
       "year": 1826,
       "century": "18〜19世紀",
@@ -822,7 +823,7 @@
     },
     {
       "id": "artic-250453",
-      "title": "The Sand Pits, Hampstead Heath",
+      "title": "ハムステッド・ヒースの砂の採掘場",
       "artist": "John Linnell",
       "year": 1834,
       "century": "18〜19世紀",
@@ -833,7 +834,7 @@
     },
     {
       "id": "artic-181478",
-      "title": "The Actor Maximilian Korn in a Landscape",
+      "title": "風景の中の俳優マクシミリアン・コルン",
       "artist": "Ferdinand Georg Waldmüller",
       "year": 1828,
       "century": "18〜19世紀",
@@ -844,7 +845,7 @@
     },
     {
       "id": "artic-185775",
-      "title": "View on the Grounds of a Villa near Florence",
+      "title": "フィレンツェ近郊の別荘の庭",
       "artist": "Richard Parkes Bonington",
       "year": 1826,
       "century": "18〜19世紀",
@@ -855,7 +856,7 @@
     },
     {
       "id": "artic-216794",
-      "title": "Young Clergyman Reading",
+      "title": "読書する若い聖職者",
       "artist": "Martin Rørbye",
       "year": 1836,
       "century": "18〜19世紀",
@@ -866,7 +867,7 @@
     },
     {
       "id": "artic-250450",
-      "title": "Staircase in the Park of Villa Chigi di Ariccia",
+      "title": "アリッチャのキージ荘の公園の階段",
       "artist": "Alexandre Calame",
       "year": 1845,
       "century": "18〜19世紀",
@@ -877,7 +878,7 @@
     },
     {
       "id": "artic-250451",
-      "title": "Landscape near Chiusi, Tuscany",
+      "title": "トスカーナ、キウージ近郊の風景",
       "artist": "Alexandre Desgoffe",
       "year": 1841,
       "century": "18〜19世紀",
@@ -888,7 +889,7 @@
     },
     {
       "id": "artic-265263",
-      "title": "Still Life with Grapes and Flowers",
+      "title": "ぶどうと花の静物",
       "artist": "Mélanie de Comoléra",
       "year": 1832,
       "century": "18〜19世紀",
@@ -899,7 +900,7 @@
     },
     {
       "id": "artic-76868",
-      "title": "Portrait of a Ladakhi Mountain Goat",
+      "title": "ラダックの山羊の肖像",
       "artist": "India",
       "year": 1625,
       "century": "〜17世紀",
@@ -910,7 +911,7 @@
     },
     {
       "id": "artic-278674",
-      "title": "Toilette of the Law Clerk",
+      "title": "書記官の身支度",
       "artist": "Philibert-Louis Debucourt",
       "year": 1800,
       "century": "18〜19世紀",
@@ -921,7 +922,7 @@
     },
     {
       "id": "artic-64489",
-      "title": "Young Woman in Black",
+      "title": "黒衣の若い女性",
       "artist": "Robert Henri",
       "year": 1902,
       "century": "20世紀",
@@ -932,7 +933,7 @@
     },
     {
       "id": "artic-109228",
-      "title": "Near Newport",
+      "title": "ニューポート近郊",
       "artist": "John Frederick Kensett",
       "year": 1869,
       "century": "18〜19世紀",
@@ -943,7 +944,7 @@
     },
     {
       "id": "artic-107939",
-      "title": "Mrs. Noah Smith and Family",
+      "title": "ノア・スミス夫人と家族",
       "artist": "Attributed to Ezra Ames",
       "year": 1830,
       "century": "18〜19世紀",
@@ -954,7 +955,7 @@
     },
     {
       "id": "artic-131901",
-      "title": "Chained Prisoners are Brought Before a King, a scene from the Gulistan of Sa'di",
+      "title": "サアディー「薔薇園」より：王の前に引かれる囚人たち",
       "artist": "Uzbekistan",
       "year": 1550,
       "century": "〜17世紀",
@@ -965,7 +966,7 @@
     },
     {
       "id": "artic-60426",
-      "title": "Old Man Attended by Visitors",
+      "title": "訪問者に接する老人",
       "artist": "Uzbekistan",
       "year": 1555,
       "century": "〜17世紀",
@@ -976,7 +977,7 @@
     },
     {
       "id": "artic-16156",
-      "title": "Saint John the Baptist Entering the Wilderness",
+      "title": "荒野に入る洗礼者ヨハネ",
       "artist": "Giovanni di Paolo",
       "year": 1460,
       "century": "〜17世紀",
@@ -987,7 +988,7 @@
     },
     {
       "id": "artic-16159",
-      "title": "Ecce Agnus Dei",
+      "title": "見よ、神の子羊",
       "artist": "Giovanni di Paolo",
       "year": 1460,
       "century": "〜17世紀",
@@ -1064,7 +1065,7 @@
     },
     {
       "id": "artic-87479",
-      "title": "The Assumption of the Virgin",
+      "title": "聖母被昇天",
       "artist": "エル・グレコ",
       "year": 1579,
       "century": "〜17世紀",
@@ -1306,7 +1307,7 @@
     },
     {
       "id": "artic-863",
-      "title": "Pastoral Landscape with Ruins",
+      "title": "廃墟のある田園風景",
       "artist": "Adriaen van de Velde",
       "year": 1664,
       "century": "〜17世紀",
@@ -1317,7 +1318,7 @@
     },
     {
       "id": "artic-869",
-      "title": "The Watermill with the Great Red Roof",
+      "title": "赤い大屋根の水車小屋",
       "artist": "Meindert Hobbema",
       "year": 1670,
       "century": "〜17世紀",
@@ -1328,7 +1329,7 @@
     },
     {
       "id": "artic-27281",
-      "title": "Madam Pompadour",
+      "title": "ポンパドゥール夫人",
       "artist": "Amedeo Modigliani",
       "year": 1915,
       "century": "20世紀",
@@ -1339,7 +1340,7 @@
     },
     {
       "id": "artic-47578",
-      "title": "Don José Moñino y Redondo, Conde de Floridablanca",
+      "title": "フロリダブランカ伯爵",
       "artist": "Pompeo Girolamo Batoni",
       "year": 1781,
       "century": "18〜19世紀",
@@ -1361,7 +1362,7 @@
     },
     {
       "id": "artic-183293",
-      "title": "Solitude",
+      "title": "孤独",
       "artist": "Joshua Shaw",
       "year": 1818,
       "century": "18〜19世紀",
@@ -1372,7 +1373,7 @@
     },
     {
       "id": "artic-185185",
-      "title": "Coming Squall (Nahant Beach with a Summer Shower)",
+      "title": "来たるスコール（夏のにわか雨のナハント海岸）",
       "artist": "Thomas Doughty",
       "year": 1835,
       "century": "18〜19世紀",
@@ -1383,7 +1384,7 @@
     },
     {
       "id": "artic-862",
-      "title": "Portrait of an Artist",
+      "title": "ある芸術家の肖像",
       "artist": "Follower of Frans Hals",
       "year": 1644,
       "century": "〜17世紀",
@@ -1394,7 +1395,7 @@
     },
     {
       "id": "artic-60294",
-      "title": "New York Street",
+      "title": "ニューヨークの街",
       "artist": "Childe Hassam",
       "year": 1902,
       "century": "20世紀",
@@ -1416,7 +1417,7 @@
     },
     {
       "id": "artic-122130",
-      "title": "Les Andelys, Côte d'Aval",
+      "title": "レ・ザンドリー、コート・ダヴァル",
       "artist": "Paul Signac",
       "year": 1886,
       "century": "18〜19世紀",
@@ -1427,7 +1428,7 @@
     },
     {
       "id": "artic-149778",
-      "title": "Allegory of Peace and War",
+      "title": "平和と戦争の寓意",
       "artist": "Pompeo Girolamo Batoni",
       "year": 1776,
       "century": "18〜19世紀",
@@ -1449,7 +1450,7 @@
     },
     {
       "id": "artic-109780",
-      "title": "Love of Winter",
+      "title": "冬の愛",
       "artist": "George Wesley Bellows",
       "year": 1914,
       "century": "20世紀",
@@ -1460,7 +1461,7 @@
     },
     {
       "id": "artic-2156",
-      "title": "Lights of Other Days",
+      "title": "往時の光",
       "artist": "John Frederick Peto",
       "year": 1906,
       "century": "20世紀",
@@ -1471,7 +1472,7 @@
     },
     {
       "id": "artic-154235",
-      "title": "The Girl by the Window",
+      "title": "窓辺の少女",
       "artist": "Edvard Munch",
       "year": 1893,
       "century": "18〜19世紀",
@@ -1482,7 +1483,7 @@
     },
     {
       "id": "artic-9021",
-      "title": "The Bewitched Mill",
+      "title": "魅惑の水車小屋",
       "artist": "Franz Marc",
       "year": 1913,
       "century": "20世紀",
@@ -1504,7 +1505,7 @@
     },
     {
       "id": "artic-876",
-      "title": "October Day",
+      "title": "十月の日",
       "artist": "Jean Charles Cazin",
       "year": 1893,
       "century": "18〜19世紀",
@@ -1515,7 +1516,7 @@
     },
     {
       "id": "artic-883",
-      "title": "Wounded Lioness",
+      "title": "傷ついた雌ライオン",
       "artist": "Pierre Andrieu",
       "year": 1855,
       "century": "18〜19世紀",
@@ -1526,7 +1527,7 @@
     },
     {
       "id": "artic-884",
-      "title": "Tiger Resting",
+      "title": "休む虎",
       "artist": "Pierre Andrieu",
       "year": 1850,
       "century": "18〜19世紀",
@@ -1537,7 +1538,7 @@
     },
     {
       "id": "artic-898",
-      "title": "Unfinished Study of Sheep",
+      "title": "羊の未完習作",
       "artist": "Constant Troyon",
       "year": 1855,
       "century": "18〜19世紀",
@@ -1548,7 +1549,7 @@
     },
     {
       "id": "artic-100476",
-      "title": "Beach at Cabasson (Baigne-Cul)",
+      "title": "カバッソンの海岸（バーニュ・キュル）",
       "artist": "Henri Edmond Cross",
       "year": 1892,
       "century": "18〜19世紀",
@@ -1559,7 +1560,7 @@
     },
     {
       "id": "artic-19333",
-      "title": "Kitchen Still Life",
+      "title": "台所の静物",
       "artist": "Attributed to Paolo Antonio Barbieri",
       "year": 1645,
       "century": "〜17世紀",
@@ -1570,7 +1571,7 @@
     },
     {
       "id": "artic-182381",
-      "title": "An Abundance of Fruit",
+      "title": "果物の豊穣",
       "artist": "Severin Roesen",
       "year": 1860,
       "century": "18〜19世紀",
@@ -1581,7 +1582,7 @@
     },
     {
       "id": "artic-57996",
-      "title": "The Eruption of Vesuvius",
+      "title": "ヴェスヴィオ火山の噴火",
       "artist": "Pierre-Jacques Volaire",
       "year": 1771,
       "century": "18〜19世紀",
@@ -1592,7 +1593,7 @@
     },
     {
       "id": "artic-5848",
-      "title": "Landscape with Saint John on Patmos",
+      "title": "パトモス島の聖ヨハネのいる風景",
       "artist": "ニコラ・プッサン",
       "year": 1640,
       "century": "〜17世紀",
@@ -1603,7 +1604,7 @@
     },
     {
       "id": "artic-16499",
-      "title": "Jesus Mocked by the Soldiers",
+      "title": "兵士にあざけられるキリスト",
       "artist": "エドゥアール・マネ",
       "year": 1865,
       "century": "18〜19世紀",
@@ -1614,7 +1615,7 @@
     },
     {
       "id": "artic-14572",
-      "title": "The Millinery Shop",
+      "title": "帽子屋",
       "artist": "エドガー・ドガ",
       "year": 1886,
       "century": "18〜19世紀",
@@ -1625,7 +1626,7 @@
     },
     {
       "id": "artic-25865",
-      "title": "The Herring Net",
+      "title": "ニシンの網",
       "artist": "ウィンスロー・ホーマー",
       "year": 1885,
       "century": "18〜19世紀",
@@ -1636,7 +1637,7 @@
     },
     {
       "id": "artic-103139",
-      "title": "Waterloo Bridge, Gray Weather",
+      "title": "ウォータールー橋、曇天",
       "artist": "クロード・モネ",
       "year": 1900,
       "century": "18〜19世紀",
@@ -1647,7 +1648,7 @@
     },
     {
       "id": "artic-14586",
-      "title": "The Poet's Garden",
+      "title": "詩人の庭",
       "artist": "フィンセント・ファン・ゴッホ",
       "year": 1888,
       "century": "18〜19世紀",
@@ -1658,7 +1659,7 @@
     },
     {
       "id": "artic-154121",
-      "title": "Calf's Head and Ox Tongue",
+      "title": "仔牛の頭と牛の舌",
       "artist": "ギュスターヴ・カイユボット",
       "year": 1887,
       "century": "18〜19世紀",
@@ -1669,7 +1670,7 @@
     },
     {
       "id": "artic-8969",
-      "title": "Beggar with Oysters (Philosopher)",
+      "title": "牡蠣を持つ乞食（哲学者）",
       "artist": "エドゥアール・マネ",
       "year": 1867,
       "century": "18〜19世紀",
@@ -1680,7 +1681,7 @@
     },
     {
       "id": "artic-81535",
-      "title": "Sea View, Calm Weather (Vue de mer, temps calme)",
+      "title": "穏やかな海の眺め",
       "artist": "エドゥアール・マネ",
       "year": 1864,
       "century": "18〜19世紀",
@@ -1691,7 +1692,7 @@
     },
     {
       "id": "artic-81533",
-      "title": "The Races at Longchamp",
+      "title": "ロンシャンの競馬",
       "artist": "エドゥアール・マネ",
       "year": 1866,
       "century": "18〜19世紀",
@@ -1702,7 +1703,7 @@
     },
     {
       "id": "artic-25812",
-      "title": "Bullfight",
+      "title": "闘牛",
       "artist": "エドゥアール・マネ",
       "year": 1866,
       "century": "18〜19世紀",
@@ -1713,7 +1714,7 @@
     },
     {
       "id": "artic-4783",
-      "title": "Poppy Field (Giverny)",
+      "title": "ポピー畑（ジヴェルニー）",
       "artist": "クロード・モネ",
       "year": 1891,
       "century": "18〜19世紀",
@@ -1724,7 +1725,7 @@
     },
     {
       "id": "artic-16564",
-      "title": "Branch of the Seine near Giverny (Mist)",
+      "title": "ジヴェルニー近くのセーヌ川の支流（霧）",
       "artist": "クロード・モネ",
       "year": 1897,
       "century": "18〜19世紀",
@@ -1735,7 +1736,7 @@
     },
     {
       "id": "artic-16554",
-      "title": "The Artist's House at Argenteuil",
+      "title": "アルジャントゥイユの画家の家",
       "artist": "クロード・モネ",
       "year": 1873,
       "century": "18〜19世紀",
@@ -1746,7 +1747,7 @@
     },
     {
       "id": "artic-16549",
-      "title": "Apples and Grapes",
+      "title": "リンゴとぶどう",
       "artist": "クロード・モネ",
       "year": 1880,
       "century": "18〜19世紀",
@@ -1757,7 +1758,7 @@
     },
     {
       "id": "artic-16584",
-      "title": "Houses of Parliament, London",
+      "title": "ロンドン、国会議事堂",
       "artist": "クロード・モネ",
       "year": 1901,
       "century": "20世紀",
@@ -1768,7 +1769,7 @@
     },
     {
       "id": "artic-20545",
-      "title": "Rocks at Port-Goulphar, Belle-Île",
+      "title": "ベル＝イル島、ポール・グルファールの岩",
       "artist": "クロード・モネ",
       "year": 1886,
       "century": "18〜19世紀",
@@ -1790,7 +1791,7 @@
     },
     {
       "id": "artic-97933",
-      "title": "Water Lily Pond",
+      "title": "睡蓮の池",
       "artist": "クロード・モネ",
       "year": 1919,
       "century": "20世紀",
@@ -1867,7 +1868,7 @@
     },
     {
       "id": "artic-19336",
-      "title": "The Resurrection",
+      "title": "復活",
       "artist": "Cecco del Caravaggio",
       "year": 1620,
       "century": "〜17世紀",
@@ -1922,7 +1923,7 @@
     },
     {
       "id": "artic-28862",
-      "title": "A Peasant Woman Digging in Front of Her Cottage",
+      "title": "小屋の前で掘る農婦",
       "artist": "フィンセント・ファン・ゴッホ",
       "year": 1890,
       "century": "18〜19世紀",
@@ -1933,7 +1934,7 @@
     },
     {
       "id": "artic-27949",
-      "title": "Madame Roulin Rocking the Cradle (La berceuse)",
+      "title": "ゆりかごを揺らすルーラン夫人",
       "artist": "フィンセント・ファン・ゴッホ",
       "year": 1889,
       "century": "18〜19世紀",
@@ -1944,7 +1945,7 @@
     },
     {
       "id": "artic-8980",
-      "title": "Landscape with Two Poplars",
+      "title": "二本のポプラのある風景",
       "artist": "Vasily Kandinsky",
       "year": 1912,
       "century": "20世紀",
@@ -1955,7 +1956,7 @@
     },
     {
       "id": "artic-138",
-      "title": "Flower Girl in Holland",
+      "title": "オランダの花売り娘",
       "artist": "George Hitchcock",
       "year": 1887,
       "century": "18〜19世紀",
@@ -1966,7 +1967,7 @@
     },
     {
       "id": "artic-64996",
-      "title": "Jupiter Rebuked by Venus",
+      "title": "ヴィーナスに叱られるユピテル",
       "artist": "Abraham Janssens",
       "year": 1617,
       "century": "〜17世紀",
@@ -1977,7 +1978,7 @@
     },
     {
       "id": "artic-51130",
-      "title": "Time Unveiling Truth",
+      "title": "真実を明かす時間",
       "artist": "Pompeo Girolamo Batoni",
       "year": 1745,
       "century": "18〜19世紀",
@@ -1988,7 +1989,7 @@
     },
     {
       "id": "artic-15708",
-      "title": "Portrait of a Man with Gray Hair",
+      "title": "白髪の男の肖像",
       "artist": "Henry Raeburn",
       "year": 1820,
       "century": "18〜19世紀",
@@ -1999,7 +2000,7 @@
     },
     {
       "id": "artic-44017",
-      "title": "Landscape at Chailly",
+      "title": "シャイイの風景",
       "artist": "Frédéric Bazille",
       "year": 1865,
       "century": "18〜19世紀",
@@ -2021,7 +2022,7 @@
     },
     {
       "id": "artic-20579",
-      "title": "Hercules and the Lernaean Hydra",
+      "title": "ヘラクレスとレルネーのヒュドラ",
       "artist": "Gustave Moreau",
       "year": 1876,
       "century": "18〜19世紀",
@@ -2032,7 +2033,7 @@
     },
     {
       "id": "artic-44739",
-      "title": "Milton Dictating to His Daughter",
+      "title": "娘に口述するミルトン",
       "artist": "Henry Fuseli",
       "year": 1793,
       "century": "18〜19世紀",
@@ -2043,7 +2044,7 @@
     },
     {
       "id": "artic-116101",
-      "title": "Two Heads of Damned Souls from Dante's \"Inferno\" (recto and verso)",
+      "title": "ダンテ「地獄篇」より呪われた魂の頭部",
       "artist": "Henry Fuseli",
       "year": 1778,
       "century": "18〜19世紀",
@@ -2054,7 +2055,7 @@
     },
     {
       "id": "artic-193664",
-      "title": "The Captive Slave (Ira Aldridge)",
+      "title": "囚われた奴隷（アイラ・オールドリッジ）",
       "artist": "John Philip Simpson",
       "year": 1827,
       "century": "18〜19世紀",
@@ -2065,7 +2066,7 @@
     },
     {
       "id": "artic-87643",
-      "title": "The Two Disciples at the Tomb",
+      "title": "墓の前の二人の弟子",
       "artist": "Henry Ossawa Tanner",
       "year": 1906,
       "century": "20世紀",
@@ -2076,7 +2077,7 @@
     },
     {
       "id": "artic-4796",
-      "title": "Fishing Boats with Hucksters Bargaining for Fish",
+      "title": "魚を買い交渉する行商人のいる漁船",
       "artist": "Joseph Mallord William Turner",
       "year": 1842,
       "century": "18〜19世紀",
@@ -2087,7 +2088,7 @@
     },
     {
       "id": "artic-65916",
-      "title": "Movement",
+      "title": "動き",
       "artist": "Marsden Hartley",
       "year": 1913,
       "century": "20世紀",
@@ -2098,7 +2099,7 @@
     },
     {
       "id": "artic-889",
-      "title": "Barks Fleeing Before the Storm",
+      "title": "嵐の前に逃げる帆船",
       "artist": "Jules Dupré",
       "year": 1875,
       "century": "18〜19世紀",
@@ -2109,7 +2110,7 @@
     },
     {
       "id": "artic-895",
-      "title": "Man with Lance Riding through the Snow",
+      "title": "槍を持って雪中を進む男",
       "artist": "Adolphe Schreyer",
       "year": 1885,
       "century": "18〜19世紀",
@@ -2120,7 +2121,7 @@
     },
     {
       "id": "artic-4749",
-      "title": "Mrs. George Swinton (Elizabeth Ebsworth)",
+      "title": "ジョージ・スウィントン夫人（エリザベス・エブズワース）",
       "artist": "ジョン・シンガー・サージェント",
       "year": 1897,
       "century": "18〜19世紀",
@@ -2131,7 +2132,7 @@
     },
     {
       "id": "artic-95998",
-      "title": "Old Man with a Gold Chain",
+      "title": "金の鎖を持つ老人",
       "artist": "レンブラント・ファン・レイン",
       "year": 1631,
       "century": "〜17世紀",
@@ -2142,7 +2143,7 @@
     },
     {
       "id": "artic-146701",
-      "title": "Mountain Brook",
+      "title": "山の小川",
       "artist": "アルバート・ビアスタット",
       "year": 1863,
       "century": "18〜19世紀",
@@ -2153,7 +2154,7 @@
     },
     {
       "id": "artic-44892",
-      "title": "Fish (Still Life)",
+      "title": "魚（静物）",
       "artist": "エドゥアール・マネ",
       "year": 1864,
       "century": "18〜19世紀",
@@ -2164,7 +2165,7 @@
     },
     {
       "id": "artic-95183",
-      "title": "Beggar with a Duffle Coat (Philosopher)",
+      "title": "ダッフルコートの乞食（哲学者）",
       "artist": "エドゥアール・マネ",
       "year": 1867,
       "century": "18〜19世紀",
@@ -2186,7 +2187,7 @@
     },
     {
       "id": "artic-16544",
-      "title": "Charing Cross Bridge, London",
+      "title": "チャリング・クロス橋、ロンドン",
       "artist": "クロード・モネ",
       "year": 1901,
       "century": "20世紀",
@@ -2197,7 +2198,7 @@
     },
     {
       "id": "artic-20701",
-      "title": "Waterloo Bridge, Sunlight Effect",
+      "title": "ウォータールー橋、陽光の効果",
       "artist": "クロード・モネ",
       "year": 1903,
       "century": "20世紀",
@@ -2208,7 +2209,7 @@
     },
     {
       "id": "artic-20535",
-      "title": "Étretat: The Beach and the Falaise d'Amont",
+      "title": "エトルタ：ビーチとファレーズ・ダモン",
       "artist": "クロード・モネ",
       "year": 1885,
       "century": "18〜19世紀",
@@ -2219,7 +2220,7 @@
     },
     {
       "id": "artic-86998",
-      "title": "Sandvika, Norway",
+      "title": "サンドヴィカ、ノルウェー",
       "artist": "クロード・モネ",
       "year": 1895,
       "century": "18〜19世紀",
@@ -2230,7 +2231,7 @@
     },
     {
       "id": "artic-81545",
-      "title": "Stacks of Wheat (Sunset, Snow Effect)",
+      "title": "積み藁（夕暮れ、雪の効果）",
       "artist": "クロード・モネ",
       "year": 1891,
       "century": "18〜19世紀",
@@ -2241,7 +2242,7 @@
     },
     {
       "id": "artic-111318",
-      "title": "Stack of Wheat",
+      "title": "積み藁",
       "artist": "クロード・モネ",
       "year": 1891,
       "century": "18〜19世紀",
@@ -2252,7 +2253,7 @@
     },
     {
       "id": "artic-16617",
-      "title": "Chrysanthemums",
+      "title": "菊",
       "artist": "ピエール＝オーギュスト・ルノワール",
       "year": 1882,
       "century": "18〜19世紀",
@@ -2274,7 +2275,7 @@
     },
     {
       "id": "artic-15401",
-      "title": "At Mouquin's",
+      "title": "ムカン亭にて",
       "artist": "William Glackens",
       "year": 1905,
       "century": "20世紀",
@@ -2285,7 +2286,7 @@
     },
     {
       "id": "artic-65920",
-      "title": "Provincetown",
+      "title": "プロビンスタウン",
       "artist": "Marsden Hartley",
       "year": 1916,
       "century": "20世紀",
@@ -2296,7 +2297,7 @@
     },
     {
       "id": "artic-111617",
-      "title": "Cabin in the Cotton",
+      "title": "綿畑の小屋",
       "artist": "Horace Pippin",
       "year": 1937,
       "century": "20世紀",
@@ -2483,7 +2484,7 @@
     },
     {
       "id": "artic-62460",
-      "title": "The Terrace",
+      "title": "テラス",
       "artist": "Dutch; Delft",
       "year": 1665,
       "century": "〜17世紀",
@@ -2494,7 +2495,7 @@
     },
     {
       "id": "artic-497",
-      "title": "A Mother Feeding her Child (The Happy Mother)",
+      "title": "子に授乳する母（幸せな母）",
       "artist": "Willem van Mieris",
       "year": 1707,
       "century": "18〜19世紀",
@@ -2505,7 +2506,7 @@
     },
     {
       "id": "artic-24684",
-      "title": "Francesco de' Medici",
+      "title": "フランチェスコ・デ・メディチ",
       "artist": "Attributed to Alessandro Allori",
       "year": 1565,
       "century": "〜17世紀",
@@ -2516,7 +2517,7 @@
     },
     {
       "id": "artic-65930",
-      "title": "Still Life No. 15",
+      "title": "静物第15番",
       "artist": "Marsden Hartley",
       "year": 1917,
       "century": "20世紀",
@@ -2527,7 +2528,7 @@
     },
     {
       "id": "artic-14574",
-      "title": "Henri Degas and His Niece Lucie Degas (The Artist's Uncle and Cousin)",
+      "title": "アンリ・ドガと姪ルシー・ドガ",
       "artist": "エドガー・ドガ",
       "year": 1876,
       "century": "18〜19世紀",
@@ -2538,7 +2539,7 @@
     },
     {
       "id": "artic-2166",
-      "title": "The Wedding at Cana",
+      "title": "カナの婚礼",
       "artist": "Giuseppe Maria Crespi",
       "year": 1691,
       "century": "〜17世紀",
@@ -2549,7 +2550,7 @@
     },
     {
       "id": "artic-13487",
-      "title": "Young Spartan Girls Challenging Boys",
+      "title": "少年に挑む若きスパルタの少女たち",
       "artist": "エドガー・ドガ",
       "year": 1865,
       "century": "18〜19世紀",
@@ -2560,7 +2561,7 @@
     },
     {
       "id": "artic-59002",
-      "title": "Souvenir of the Environs of Lake Nemi",
+      "title": "ネミ湖周辺の思い出",
       "artist": "ジャン＝バティスト＝カミーユ・コロー",
       "year": 1865,
       "century": "18〜19世紀",
@@ -2571,7 +2572,7 @@
     },
     {
       "id": "artic-100350",
-      "title": "Chariot Race",
+      "title": "戦車競走",
       "artist": "Jean Léon Gérôme",
       "year": 1876,
       "century": "18〜19世紀",
@@ -2582,7 +2583,7 @@
     },
     {
       "id": "artic-133859",
-      "title": "Lady Reading the Letters of Heloise and Abelard",
+      "title": "エロイーズとアベラールの手紙を読む貴婦人",
       "artist": "Bernard d'Agesci",
       "year": 1790,
       "century": "18〜19世紀",
@@ -2593,7 +2594,7 @@
     },
     {
       "id": "artic-886",
-      "title": "Three Little Girls",
+      "title": "三人の小さな女の子",
       "artist": "Narcisse Virgile Diaz de la Peña",
       "year": 1875,
       "century": "18〜19世紀",
@@ -2604,7 +2605,7 @@
     },
     {
       "id": "artic-110673",
-      "title": "Mater Dolorosa (Sorrowing Virgin)",
+      "title": "悲しみの聖母",
       "artist": "Workshop of Dieric Bouts",
       "year": 1500,
       "century": "〜17世紀",
@@ -2626,7 +2627,7 @@
     },
     {
       "id": "artic-885",
-      "title": "A Mounted Officer",
+      "title": "馬上の将校",
       "artist": "Jean Baptiste Edouard Detaille",
       "year": 1877,
       "century": "18〜19世紀",
@@ -2637,7 +2638,7 @@
     },
     {
       "id": "artic-887",
-      "title": "Landscape with Figures",
+      "title": "人物のいる風景",
       "artist": "Narcisse Virgile Diaz de la Peña",
       "year": 1875,
       "century": "18〜19世紀",
@@ -2648,7 +2649,7 @@
     },
     {
       "id": "artic-71573",
-      "title": "A Holiday",
+      "title": "休日",
       "artist": "Edward Henry Potthast",
       "year": 1915,
       "century": "20世紀",
@@ -2659,7 +2660,7 @@
     },
     {
       "id": "artic-65925",
-      "title": "The Last of New England—The Beginning of New Mexico",
+      "title": "ニューイングランドの終わり——ニューメキシコの始まり",
       "artist": "Marsden Hartley",
       "year": 1919,
       "century": "20世紀",
@@ -2670,7 +2671,7 @@
     },
     {
       "id": "artic-81503",
-      "title": "Arab Horseman Attacked by a Lion",
+      "title": "ライオンに襲われるアラブの騎手",
       "artist": "ウジェーヌ・ドラクロワ",
       "year": 1850,
       "century": "18〜19世紀",
@@ -2703,7 +2704,7 @@
     },
     {
       "id": "artic-27310",
-      "title": "The Holy Family with Saints Elizabeth and John the Baptist",
+      "title": "エリザベスと洗礼者ヨハネを伴う聖家族",
       "artist": "ピーテル・パウル・ルーベンス",
       "year": 1620,
       "century": "〜17世紀",
@@ -2714,7 +2715,7 @@
     },
     {
       "id": "artic-864",
-      "title": "Portrait of a Man with a Pink",
+      "title": "カーネーションを持つ男の肖像",
       "artist": "Quentin Massys",
       "year": 1510,
       "century": "〜17世紀",
@@ -2736,7 +2737,7 @@
     },
     {
       "id": "artic-16340",
-      "title": "Mountain Road with Travelers",
+      "title": "旅人のいる山道",
       "artist": "Joos de Momper",
       "year": 1625,
       "century": "〜17世紀",
@@ -2747,7 +2748,7 @@
     },
     {
       "id": "artic-896",
-      "title": "The Road to Market",
+      "title": "市場への道",
       "artist": "Constant Troyon",
       "year": 1859,
       "century": "18〜19世紀",
@@ -2758,7 +2759,7 @@
     },
     {
       "id": "artic-110242",
-      "title": "The Temptation of Saint Jerome",
+      "title": "聖ヒエロニムスの誘惑",
       "artist": "Giorgio Vasari",
       "year": 1548,
       "century": "〜17世紀",
@@ -2769,7 +2770,7 @@
     },
     {
       "id": "artic-23972",
-      "title": "Virgin and Child with the Young Saint John the Baptist",
+      "title": "幼い洗礼者ヨハネとともにある聖母子",
       "artist": "Correggio",
       "year": 1520,
       "century": "〜17世紀",
@@ -2780,7 +2781,7 @@
     },
     {
       "id": "artic-184371",
-      "title": "The Nativity",
+      "title": "キリストの降誕",
       "artist": "Fra Bartolommeo",
       "year": 1507,
       "century": "〜17世紀",
@@ -2791,7 +2792,7 @@
     },
     {
       "id": "artic-64920",
-      "title": "Tarquin and Lucretia",
+      "title": "タルクィニウスとルクレティア",
       "artist": "ティントレット",
       "year": 1580,
       "century": "〜17世紀",
@@ -2802,7 +2803,7 @@
     },
     {
       "id": "artic-43211",
-      "title": "Interior of the Oude Kerk, Delft",
+      "title": "デルフト旧教会の内部",
       "artist": "Emanuel de Witte",
       "year": 1685,
       "century": "〜17世紀",
@@ -2813,7 +2814,7 @@
     },
     {
       "id": "artic-897",
-      "title": "Pasture in Normandy",
+      "title": "ノルマンディーの牧草地",
       "artist": "Constant Troyon",
       "year": 1852,
       "century": "18〜19世紀",
@@ -2824,7 +2825,7 @@
     },
     {
       "id": "artic-16484",
-      "title": "View of the City of Washington in 1807",
+      "title": "1807年のワシントン市の眺め",
       "artist": "Unknown Artist",
       "year": 1807,
       "century": "18〜19世紀",
@@ -2835,7 +2836,7 @@
     },
     {
       "id": "artic-22857",
-      "title": "The Garden of Paradise",
+      "title": "楽園の庭",
       "artist": "Workshop of Hieronymus Bosch",
       "year": 1525,
       "century": "〜17世紀",
@@ -2846,7 +2847,7 @@
     },
     {
       "id": "artic-867",
-      "title": "The Guardhouse",
+      "title": "衛兵所",
       "artist": "David Teniers the Younger",
       "year": 1650,
       "century": "〜17世紀",
@@ -2857,7 +2858,7 @@
     },
     {
       "id": "artic-111649",
-      "title": "Abraham's Sacrifice of Isaac",
+      "title": "イサクを献げるアブラハム",
       "artist": "David Teniers the Younger",
       "year": 1656,
       "century": "〜17世紀",
@@ -2868,7 +2869,7 @@
     },
     {
       "id": "artic-27764",
-      "title": "Approaching Storm",
+      "title": "来たる嵐",
       "artist": "Eugène-Louis Boudin",
       "year": 1864,
       "century": "18〜19世紀",
@@ -3088,7 +3089,7 @@
     },
     {
       "id": "artic-16398",
-      "title": "The Music Lesson",
+      "title": "音楽の稽古",
       "artist": "Jacob Ochtervelt",
       "year": 1671,
       "century": "〜17世紀",
@@ -3209,7 +3210,7 @@
     },
     {
       "id": "artic-93394",
-      "title": "Battle Scene",
+      "title": "戦闘の場面",
       "artist": "Joseph Louis Hippolyte Bellangé",
       "year": 1830,
       "century": "18〜19世紀",
@@ -3319,7 +3320,7 @@
     },
     {
       "id": "artic-84076",
-      "title": "Café Singer",
+      "title": "カフェの歌手",
       "artist": "エドガー・ドガ",
       "year": 1879,
       "century": "18〜19世紀",
@@ -3330,7 +3331,7 @@
     },
     {
       "id": "artic-27307",
-      "title": "Madame de Pastoret and Her Son",
+      "title": "パストレ夫人と息子",
       "artist": "ジャック＝ルイ・ダヴィッド",
       "year": 1792,
       "century": "18〜19世紀",
@@ -3341,7 +3342,7 @@
     },
     {
       "id": "artic-109926",
-      "title": "Landscape: Window Overlooking the Woods",
+      "title": "風景：森を見下ろす窓",
       "artist": "Édouard Vuillard",
       "year": 1899,
       "century": "18〜19世紀",
@@ -3352,7 +3353,7 @@
     },
     {
       "id": "artic-111559",
-      "title": "Boy on a Ram",
+      "title": "雄羊に乗る少年",
       "artist": "Francisco José de Goya y Lucientes",
       "year": 1787,
       "century": "18〜19世紀",
@@ -3363,7 +3364,7 @@
     },
     {
       "id": "artic-111317",
-      "title": "Amédée-David, the Comte de Pastoret",
+      "title": "アメデー・ダヴィッド、パストレ伯爵",
       "artist": "ジャン＝オーギュスト＝ドミニク・アングル",
       "year": 1826,
       "century": "18〜19世紀",
@@ -3374,7 +3375,7 @@
     },
     {
       "id": "artic-5349",
-      "title": "New England Headlands",
+      "title": "ニューイングランドの岬",
       "artist": "Childe Hassam",
       "year": 1899,
       "century": "18〜19世紀",
@@ -3385,7 +3386,7 @@
     },
     {
       "id": "artic-873",
-      "title": "Tobias and the Angel",
+      "title": "トビトと天使",
       "artist": "Jean Charles Cazin",
       "year": 1878,
       "century": "18〜19世紀",
@@ -3396,7 +3397,7 @@
     },
     {
       "id": "artic-890",
-      "title": "On the Road",
+      "title": "道中にて",
       "artist": "Jules Dupré",
       "year": 1856,
       "century": "18〜19世紀",
@@ -3407,7 +3408,7 @@
     },
     {
       "id": "artic-68792",
-      "title": "A Marine",
+      "title": "海景",
       "artist": "George Inness",
       "year": 1875,
       "century": "18〜19世紀",
@@ -3418,7 +3419,7 @@
     },
     {
       "id": "artic-109938",
-      "title": "Valley of Aosta: Snowstorm, Avalanche, and Thunderstorm",
+      "title": "アオスタの谷：吹雪、雪崩、嵐",
       "artist": "Joseph Mallord William Turner",
       "year": 1837,
       "century": "18〜19世紀",
@@ -3429,7 +3430,7 @@
     },
     {
       "id": "artic-16560",
-      "title": "Stack of Wheat (Snow Effect, Overcast Day)",
+      "title": "積み藁（雪の効果、曇り日）",
       "artist": "クロード・モネ",
       "year": 1891,
       "century": "18〜19世紀",
@@ -3440,7 +3441,7 @@
     },
     {
       "id": "artic-16542",
-      "title": "The Customs House at Varengeville",
+      "title": "ヴァランジュヴィルの税関",
       "artist": "クロード・モネ",
       "year": 1897,
       "century": "18〜19世紀",
@@ -3462,7 +3463,7 @@
     },
     {
       "id": "artic-81540",
-      "title": "The Departure of the Boats, Étretat",
+      "title": "エトルタ、船の出発",
       "artist": "クロード・モネ",
       "year": 1885,
       "century": "18〜19世紀",
@@ -3473,7 +3474,7 @@
     },
     {
       "id": "artic-81548",
-      "title": "Young Peasant Having Her Coffee",
+      "title": "コーヒーを飲む若い農婦",
       "artist": "カミーユ・ピサロ",
       "year": 1881,
       "century": "18〜19世紀",
@@ -3484,7 +3485,7 @@
     },
     {
       "id": "artic-81552",
-      "title": "Woman and Child at the Well",
+      "title": "井戸のそばの女と子",
       "artist": "カミーユ・ピサロ",
       "year": 1882,
       "century": "18〜19世紀",
@@ -3495,7 +3496,7 @@
     },
     {
       "id": "artic-16629",
-      "title": "Fruits of the Midi",
+      "title": "南仏の果物",
       "artist": "ピエール＝オーギュスト・ルノワール",
       "year": 1881,
       "century": "18〜19世紀",
@@ -3506,7 +3507,7 @@
     },
     {
       "id": "artic-153798",
-      "title": "Woman in a Garden",
+      "title": "庭の女性",
       "artist": "ベルト・モリゾ",
       "year": 1883,
       "century": "18〜19世紀",
@@ -3517,7 +3518,7 @@
     },
     {
       "id": "artic-27987",
-      "title": "Jacques and Berthe Lipchitz",
+      "title": "ジャック・リプシッツとベルト・リプシッツ",
       "artist": "Amedeo Modigliani",
       "year": 1916,
       "century": "20世紀",
@@ -3539,7 +3540,7 @@
     },
     {
       "id": "artic-87515",
-      "title": "Job",
+      "title": "ヨブ",
       "artist": "Spanish",
       "year": 1630,
       "century": "〜17世紀",
@@ -3550,7 +3551,7 @@
     },
     {
       "id": "artic-11434",
-      "title": "Salome with the Head of Saint John the Baptist",
+      "title": "洗礼者ヨハネの首を持つサロメ",
       "artist": "Guido Reni",
       "year": 1642,
       "century": "〜17世紀",
@@ -3561,7 +3562,7 @@
     },
     {
       "id": "artic-64729",
-      "title": "Early Morning, Tarpon Springs",
+      "title": "ターポンスプリングスの早朝",
       "artist": "George Inness",
       "year": 1892,
       "century": "18〜19世紀",
@@ -3572,7 +3573,7 @@
     },
     {
       "id": "artic-67362",
-      "title": "Saint Martin and the Beggar",
+      "title": "聖マルタンと乞食",
       "artist": "エル・グレコ",
       "year": 1605,
       "century": "〜17世紀",
@@ -3583,7 +3584,7 @@
     },
     {
       "id": "artic-16488",
-      "title": "Armida Encounters the Sleeping Rinaldo",
+      "title": "眠るリナルドに出会うアルミーダ",
       "artist": "ジョヴァンニ・バッティスタ・ティエポロ",
       "year": 1745,
       "century": "18〜19世紀",
@@ -3594,7 +3595,7 @@
     },
     {
       "id": "artic-111623",
-      "title": "A Clump of Trees",
+      "title": "木立",
       "artist": "Constant Troyon",
       "year": 1865,
       "century": "18〜19世紀",
@@ -3605,7 +3606,7 @@
     },
     {
       "id": "artic-111428",
-      "title": "Heraclitus, the Weeping Philosopher",
+      "title": "泣く哲学者ヘラクレイトス",
       "artist": "Spanish",
       "year": 1640,
       "century": "〜17世紀",
@@ -3616,7 +3617,7 @@
     },
     {
       "id": "artic-109220",
-      "title": "Annunciation to the Shepherds",
+      "title": "羊飼いへの告知",
       "artist": "After Jacobo Bassano",
       "year": 1715,
       "century": "18〜19世紀",
@@ -3627,7 +3628,7 @@
     },
     {
       "id": "artic-65845",
-      "title": "Autumn River Scene, The Brook",
+      "title": "秋の川の情景、小川",
       "artist": "David Bates",
       "year": 1889,
       "century": "18〜19世紀",
@@ -3638,7 +3639,7 @@
     },
     {
       "id": "artic-111736",
-      "title": "Circassian Cavalry Awaiting their Commanding Officer at the Door of a Byzantine Monument; Memory of the Orient",
+      "title": "ビザンチン建物の前で待つチェルケス騎兵",
       "artist": "Alberto Pasini",
       "year": 1880,
       "century": "18〜19世紀",
@@ -3660,7 +3661,7 @@
     },
     {
       "id": "artic-27138",
-      "title": "A Friendly Warning",
+      "title": "親切な警告",
       "artist": "Thomas Hicks",
       "year": 1890,
       "century": "18〜19世紀",
@@ -3671,7 +3672,7 @@
     },
     {
       "id": "artic-110867",
-      "title": "Tight-Rope Walker",
+      "title": "綱渡り師",
       "artist": "Jean Louis Forain",
       "year": 1890,
       "century": "18〜19世紀",
@@ -4188,7 +4189,7 @@
     },
     {
       "id": "cma-94979",
-      "title": "Nathaniel Hurd",
+      "title": "ナサニエル・ハードの肖像",
       "artist": "John Singleton Copley",
       "year": 1760,
       "century": "18〜19世紀",
@@ -4199,7 +4200,7 @@
     },
     {
       "id": "cma-102578",
-      "title": "Portrait of Dora Wheeler",
+      "title": "ドーラ・ウィーラーの肖像",
       "artist": "William Merritt Chase",
       "year": 1882,
       "century": "18〜19世紀",
@@ -4210,7 +4211,7 @@
     },
     {
       "id": "cma-92937",
-      "title": "Stag at Sharkey's",
+      "title": "シャーキーズのボクシング",
       "artist": "George Bellows",
       "year": 1909,
       "century": "20世紀",
@@ -4232,7 +4233,7 @@
     },
     {
       "id": "cma-141639",
-      "title": "Twilight in the Wilderness",
+      "title": "荒野の薄暮",
       "artist": "フレデリック・エドウィン・チャーチ",
       "year": 1860,
       "century": "18〜19世紀",
@@ -4342,7 +4343,7 @@
     },
     {
       "id": "cma-171296",
-      "title": "Vale of Kashmir",
+      "title": "カシミールの谷",
       "artist": "Robert S. Duncanson",
       "year": 1867,
       "century": "18〜19世紀",
@@ -4353,7 +4354,7 @@
     },
     {
       "id": "cma-160289",
-      "title": "Portrait of Lisa Colt Curtis",
+      "title": "リサ・コルト・カーティスの肖像",
       "artist": "ジョン・シンガー・サージェント",
       "year": 1898,
       "century": "18〜19世紀",
@@ -4364,7 +4365,7 @@
     },
     {
       "id": "cma-103366",
-      "title": "Elizabeth Beltzhoover Mason",
+      "title": "エリザベス・ベルツフーバー・メイソン",
       "artist": "Gilbert Stuart",
       "year": 1798,
       "century": "18〜19世紀",
@@ -4375,7 +4376,7 @@
     },
     {
       "id": "cma-172815",
-      "title": "Mount Starr King, Yosemite",
+      "title": "スター・キング山、ヨセミテ",
       "artist": "アルバート・ビアスタット",
       "year": 1866,
       "century": "18〜19世紀",
@@ -4386,7 +4387,7 @@
     },
     {
       "id": "cma-106088",
-      "title": "Early Morning After a Storm at Sea",
+      "title": "海上の嵐の翌朝",
       "artist": "ウィンスロー・ホーマー",
       "year": 1900,
       "century": "18〜19世紀",
@@ -4397,7 +4398,7 @@
     },
     {
       "id": "cma-141935",
-      "title": "Samuel Williams",
+      "title": "サミュエル・ウィリアムズの肖像",
       "artist": "Washington Allston",
       "year": 1812,
       "century": "18〜19世紀",
@@ -4408,7 +4409,7 @@
     },
     {
       "id": "cma-135420",
-      "title": "Morning Glory with Black",
+      "title": "黒との朝顔",
       "artist": "Georgia O'Keeffe",
       "year": 1926,
       "century": "20世紀",
@@ -4419,7 +4420,7 @@
     },
     {
       "id": "cma-129300",
-      "title": "George III",
+      "title": "ジョージ3世の肖像",
       "artist": "Benjamin West",
       "year": 1783,
       "century": "18〜19世紀",
@@ -4430,7 +4431,7 @@
     },
     {
       "id": "cma-99445",
-      "title": "British Manufactory; A Sketch",
+      "title": "英国の工場；スケッチ",
       "artist": "Benjamin West",
       "year": 1791,
       "century": "18〜19世紀",
@@ -4441,7 +4442,7 @@
     },
     {
       "id": "cma-92936",
-      "title": "Maine Coast",
+      "title": "メイン海岸",
       "artist": "Rockwell Kent",
       "year": 1907,
       "century": "20世紀",
@@ -4452,7 +4453,7 @@
     },
     {
       "id": "cma-172828",
-      "title": "Holiday on the Hudson",
+      "title": "ハドソン川の休日",
       "artist": "George Luks",
       "year": 1907,
       "century": "20世紀",
@@ -4463,7 +4464,7 @@
     },
     {
       "id": "cma-99443",
-      "title": "Jeremiah Belknap",
+      "title": "ジェレマイア・ベルナップの肖像",
       "artist": "Joseph Badger",
       "year": 1753,
       "century": "18〜19世紀",
@@ -4474,7 +4475,7 @@
     },
     {
       "id": "cma-93234",
-      "title": "On the Beach, No. 3",
+      "title": "浜辺にて、第3番",
       "artist": "Maurice Prendergast",
       "year": 1915,
       "century": "20世紀",
@@ -4485,7 +4486,7 @@
     },
     {
       "id": "cma-99429",
-      "title": "Charles Apthorp",
+      "title": "チャールズ・アプソープの肖像",
       "artist": "Robert Feke",
       "year": 1748,
       "century": "18〜19世紀",
@@ -4496,7 +4497,7 @@
     },
     {
       "id": "cma-124679",
-      "title": "The Rathskeller",
+      "title": "地下居酒屋",
       "artist": "John Sloan",
       "year": 1901,
       "century": "20世紀",
@@ -4507,7 +4508,7 @@
     },
     {
       "id": "cma-156813",
-      "title": "On Bos'n's Hill",
+      "title": "ボースンの丘にて",
       "artist": "Edmund C. Tarbell",
       "year": 1901,
       "century": "20世紀",
@@ -4518,7 +4519,7 @@
     },
     {
       "id": "cma-96263",
-      "title": "Portrait of Jean Terford David",
+      "title": "ジャン・テルフォード・デヴィッドの肖像",
       "artist": "Thomas Sully",
       "year": 1813,
       "century": "18〜19世紀",
@@ -4529,7 +4530,7 @@
     },
     {
       "id": "cma-144968",
-      "title": "A Home in the Wilderness",
+      "title": "荒野の我が家",
       "artist": "Sanford Robinson Gifford",
       "year": 1866,
       "century": "18〜19世紀",
@@ -4540,7 +4541,7 @@
     },
     {
       "id": "cma-144967",
-      "title": "Point Judith, Rhode Island",
+      "title": "ロードアイランド州ジュディス岬",
       "artist": "Martin Johnson Heade",
       "year": 1867,
       "century": "18〜19世紀",
@@ -4551,7 +4552,7 @@
     },
     {
       "id": "cma-173167",
-      "title": "Winding Yarn (Interior of a Nantucket Kitchen)",
+      "title": "糸巻き（ナンタケットの台所）",
       "artist": "Eastman Johnson",
       "year": 1872,
       "century": "18〜19世紀",
@@ -4562,7 +4563,7 @@
     },
     {
       "id": "cma-108809",
-      "title": "Wood Interior",
+      "title": "森の内部",
       "artist": "Emil Carlsen",
       "year": 1905,
       "century": "20世紀",
@@ -4573,7 +4574,7 @@
     },
     {
       "id": "cma-155822",
-      "title": "Nathaniel Olds",
+      "title": "ナサニエル・オルズの肖像",
       "artist": "Jeptha Homer Wade",
       "year": 1837,
       "century": "18〜19世紀",
@@ -4584,7 +4585,7 @@
     },
     {
       "id": "cma-143140",
-      "title": "Study, North Conway, New Hampshire",
+      "title": "習作、ニューハンプシャー州ノース・コンウェイ",
       "artist": "David Johnson",
       "year": 1851,
       "century": "18〜19世紀",
@@ -4595,7 +4596,7 @@
     },
     {
       "id": "cma-108999",
-      "title": "The Building of the Dam",
+      "title": "ダムの建設",
       "artist": "Julian Alden Weir",
       "year": 1908,
       "century": "20世紀",
@@ -4606,7 +4607,7 @@
     },
     {
       "id": "cma-143477",
-      "title": "An October Day in the White Mountains",
+      "title": "ホワイト・マウンテンの十月の日",
       "artist": "John Frederick Kensett",
       "year": 1854,
       "century": "18〜19世紀",
@@ -4617,7 +4618,7 @@
     },
     {
       "id": "cma-141641",
-      "title": "Memento Mori, \"To This Favour\"",
+      "title": "メメント・モリ「この姿に」",
       "artist": "William Michael Harnett",
       "year": 1879,
       "century": "18〜19世紀",
@@ -4628,7 +4629,7 @@
     },
     {
       "id": "cma-170082",
-      "title": "Self-Portrait with Five Muses",
+      "title": "五人のミューズとともにある自画像",
       "artist": "Henry Church",
       "year": 1875,
       "century": "18〜19世紀",
@@ -4639,7 +4640,7 @@
     },
     {
       "id": "cma-149978",
-      "title": "Anna Dummer Powell",
+      "title": "アナ・ダマー・パウエルの肖像",
       "artist": "John Singleton Copley",
       "year": 1764,
       "century": "18〜19世紀",
@@ -4661,7 +4662,7 @@
     },
     {
       "id": "cma-443541",
-      "title": "Lucy",
+      "title": "ルーシーの肖像",
       "artist": "Max Bohm",
       "year": 1909,
       "century": "20世紀",
@@ -4672,7 +4673,7 @@
     },
     {
       "id": "cma-94966",
-      "title": "Catherine Greene",
+      "title": "キャサリン・グリーンの肖像",
       "artist": "John Singleton Copley",
       "year": 1769,
       "century": "18〜19世紀",
@@ -4683,7 +4684,7 @@
     },
     {
       "id": "cma-124040",
-      "title": "The Brierwood Pipe",
+      "title": "ブライアーウッドのパイプ",
       "artist": "ウィンスロー・ホーマー",
       "year": 1864,
       "century": "18〜19世紀",
@@ -4694,7 +4695,7 @@
     },
     {
       "id": "cma-144732",
-      "title": "Storm in the Mountains",
+      "title": "山の嵐",
       "artist": "フレデリック・エドウィン・チャーチ",
       "year": 1847,
       "century": "18〜19世紀",
@@ -4705,7 +4706,7 @@
     },
     {
       "id": "cma-100489",
-      "title": "Baron FitzGibbon",
+      "title": "フィッツギボン男爵の肖像",
       "artist": "Gilbert Stuart",
       "year": 1789,
       "century": "18〜19世紀",
@@ -4716,7 +4717,7 @@
     },
     {
       "id": "cma-93015",
-      "title": "The Park-Winter",
+      "title": "公園——冬",
       "artist": "Leon Kroll",
       "year": 1923,
       "century": "20世紀",
@@ -4738,7 +4739,7 @@
     },
     {
       "id": "cma-172784",
-      "title": "White Flower",
+      "title": "白い花",
       "artist": "Georgia O'Keeffe",
       "year": 1929,
       "century": "20世紀",
@@ -4749,7 +4750,7 @@
     },
     {
       "id": "cma-167456",
-      "title": "Rock at Sea",
+      "title": "海上の岩",
       "artist": "Raymond Jonson",
       "year": 1920,
       "century": "20世紀",
@@ -4760,7 +4761,7 @@
     },
     {
       "id": "cma-147520",
-      "title": "Card Rack with a Jack of Hearts",
+      "title": "ハートのジャックのカードラック",
       "artist": "John F. Peto",
       "year": 1890,
       "century": "18〜19世紀",
@@ -4771,7 +4772,7 @@
     },
     {
       "id": "cma-174043",
-      "title": "A Builder of Boats",
+      "title": "船大工",
       "artist": "John George Brown",
       "year": 1889,
       "century": "18〜19世紀",
@@ -4782,7 +4783,7 @@
     },
     {
       "id": "cma-103997",
-      "title": "The Venetian Girl",
+      "title": "ヴェネツィアの少女",
       "artist": "Frank Duveneck",
       "year": 1875,
       "century": "18〜19世紀",
@@ -4793,7 +4794,7 @@
     },
     {
       "id": "cma-173180",
-      "title": "The Monastery of San Pedro (Our Lady of the Snows)",
+      "title": "サン・ペドロ修道院（雪の聖母）",
       "artist": "フレデリック・エドウィン・チャーチ",
       "year": 1879,
       "century": "18〜19世紀",
@@ -4804,7 +4805,7 @@
     },
     {
       "id": "cma-142664",
-      "title": "July",
+      "title": "七月",
       "artist": "Otto H. Bacher",
       "year": 1893,
       "century": "18〜19世紀",
@@ -4815,7 +4816,7 @@
     },
     {
       "id": "cma-173665",
-      "title": "Orchid Blossoms",
+      "title": "蘭の花",
       "artist": "Martin Johnson Heade",
       "year": 1873,
       "century": "18〜19世紀",
@@ -4826,7 +4827,7 @@
     },
     {
       "id": "cma-109973",
-      "title": "Wisdom and Destiny",
+      "title": "知恵と運命",
       "artist": "Henry Keller",
       "year": 1913,
       "century": "20世紀",
@@ -5002,7 +5003,7 @@
     },
     {
       "id": "cma-124414",
-      "title": "The Peaceable Kingdom",
+      "title": "平和の王国",
       "artist": "Edward Hicks",
       "year": 1816,
       "century": "18〜19世紀",
@@ -5233,7 +5234,7 @@
     },
     {
       "id": "cma-139815",
-      "title": "View of a Lake",
+      "title": "湖の眺め",
       "artist": "Thomas Doughty",
       "year": 1830,
       "century": "18〜19世紀",
@@ -5244,7 +5245,7 @@
     },
     {
       "id": "cma-173240",
-      "title": "Portrait of a Woman (Judith Colman Bulfinch?)",
+      "title": "女性の肖像（ジュディス・コルマン・バルフィンチ？）",
       "artist": "John Smibert",
       "year": 1729,
       "century": "18〜19世紀",
@@ -5255,7 +5256,7 @@
     },
     {
       "id": "cma-104793",
-      "title": "Wild Coast, Newport",
+      "title": "ニューポートの荒々しい海岸",
       "artist": "Homer Dodge Martin",
       "year": 1889,
       "century": "18〜19世紀",
@@ -5266,7 +5267,7 @@
     },
     {
       "id": "cma-124771",
-      "title": "View near Newport",
+      "title": "ニューポート近郊の眺め",
       "artist": "John Frederick Kensett",
       "year": 1860,
       "century": "18〜19世紀",
@@ -5277,7 +5278,7 @@
     },
     {
       "id": "cma-93017",
-      "title": "Rosa Mystica",
+      "title": "神秘の薔薇",
       "artist": "Augustus Vincent Tack",
       "year": 1918,
       "century": "20世紀",
@@ -5299,7 +5300,7 @@
     },
     {
       "id": "cma-146071",
-      "title": "Three Trees: Italy",
+      "title": "三本の木：イタリア",
       "artist": "Elihu Vedder",
       "year": 1871,
       "century": "18〜19世紀",
@@ -5310,7 +5311,7 @@
     },
     {
       "id": "cma-121261",
-      "title": "The Violin Player",
+      "title": "ヴァイオリン奏者",
       "artist": "ジェームズ・マクニール・ホイッスラー",
       "year": 1889,
       "century": "18〜19世紀",
@@ -5321,7 +5322,7 @@
     },
     {
       "id": "cma-135323",
-      "title": "White Mare",
+      "title": "白い牝馬",
       "artist": "ウィンスロー・ホーマー",
       "year": 1863,
       "century": "18〜19世紀",
@@ -5332,7 +5333,7 @@
     },
     {
       "id": "cma-115050",
-      "title": "Storm Clouds",
+      "title": "嵐の雲",
       "artist": "John Henry Twachtman",
       "year": 1880,
       "century": "18〜19世紀",
@@ -5343,7 +5344,7 @@
     },
     {
       "id": "cma-109246",
-      "title": "Dr. James Stuart; Mary Campbell Stuart",
+      "title": "ジェームズ・スチュアート博士とメアリー・キャンベル・スチュアート",
       "artist": "Gilbert Stuart",
       "year": 1810,
       "century": "18〜19世紀",
@@ -5354,7 +5355,7 @@
     },
     {
       "id": "cma-156615",
-      "title": "Women Working in a Field",
+      "title": "畑で働く女性たち",
       "artist": "ウィンスロー・ホーマー",
       "year": 1867,
       "century": "18〜19世紀",
@@ -5365,7 +5366,7 @@
     },
     {
       "id": "cma-109244",
-      "title": "In the Housatonic Valley",
+      "title": "ホウサトニック渓谷にて",
       "artist": "Homer Dodge Martin",
       "year": 1857,
       "century": "18〜19世紀",
@@ -5376,7 +5377,7 @@
     },
     {
       "id": "cma-109030",
-      "title": "Hermes and the Infant Dionysus",
+      "title": "ヘルメスと幼いディオニュソス",
       "artist": "Arthur B. Davies",
       "year": 1900,
       "century": "18〜19世紀",
@@ -5387,7 +5388,7 @@
     },
     {
       "id": "cma-125058",
-      "title": "The Clove - A Storm Scene in the Catskill Mountains",
+      "title": "渓谷——キャッツキル山地の嵐",
       "artist": "Jasper F. Cropsey",
       "year": 1851,
       "century": "18〜19世紀",
@@ -5398,7 +5399,7 @@
     },
     {
       "id": "cma-109249",
-      "title": "Approaching Storm from the Alban Hills",
+      "title": "アルバン山地から迫る嵐",
       "artist": "George Inness",
       "year": 1871,
       "century": "18〜19世紀",
@@ -5409,7 +5410,7 @@
     },
     {
       "id": "cma-148960",
-      "title": "Trees and a Stream on a Hillside",
+      "title": "丘の斜面の木々と小川",
       "artist": "Jasper F. Cropsey",
       "year": 1853,
       "century": "18〜19世紀",
@@ -5420,7 +5421,7 @@
     },
     {
       "id": "cma-173631",
-      "title": "Fort George Island, Florida",
+      "title": "フロリダ州ジョージ要塞島",
       "artist": "Thomas Moran",
       "year": 1878,
       "century": "18〜19世紀",
@@ -5431,7 +5432,7 @@
     },
     {
       "id": "cma-109238",
-      "title": "Durham, Connecticut",
+      "title": "コネチカット州ダーラム",
       "artist": "George Inness",
       "year": 1858,
       "century": "18〜19世紀",
@@ -5442,7 +5443,7 @@
     },
     {
       "id": "cma-109240",
-      "title": "Arkville Landscape",
+      "title": "アークヴィルの風景",
       "artist": "Alexander H. Wyant",
       "year": 1880,
       "century": "18〜19世紀",
@@ -5453,7 +5454,7 @@
     },
     {
       "id": "cma-97420",
-      "title": "Mary Fairlie Cooper",
+      "title": "メアリー・フェアリー・クーパーの肖像",
       "artist": "William Dunlap",
       "year": 1810,
       "century": "18〜19世紀",
@@ -5464,7 +5465,7 @@
     },
     {
       "id": "cma-156604",
-      "title": "Wilson Cary Nicholas",
+      "title": "ウィルソン・ケアリー・ニコラスの肖像",
       "artist": "Gilbert Stuart",
       "year": 1800,
       "century": "18〜19世紀",
@@ -5475,7 +5476,7 @@
     },
     {
       "id": "cma-96264",
-      "title": "Portrait of Mary Sicard David",
+      "title": "メアリー・シカール・デヴィッドの肖像",
       "artist": "Thomas Sully",
       "year": 1813,
       "century": "18〜19世紀",
@@ -5486,7 +5487,7 @@
     },
     {
       "id": "cma-93100",
-      "title": "Jeanne Balzac",
+      "title": "ジャンヌ・バルザックの肖像",
       "artist": "Eugene Speicher",
       "year": 1923,
       "century": "20世紀",
@@ -5497,7 +5498,7 @@
     },
     {
       "id": "cma-127739",
-      "title": "June (recto)",
+      "title": "六月（表）",
       "artist": "William Sommer",
       "year": 1921,
       "century": "20世紀",
@@ -5508,7 +5509,7 @@
     },
     {
       "id": "cma-118116",
-      "title": "Harvest Time",
+      "title": "収穫の季節",
       "artist": "George Inness",
       "year": 1864,
       "century": "18〜19世紀",
@@ -5519,7 +5520,7 @@
     },
     {
       "id": "cma-109250",
-      "title": "The Cossack",
+      "title": "コサック",
       "artist": "ジョン・シンガー・サージェント",
       "year": 1875,
       "century": "18〜19世紀",
@@ -5530,7 +5531,7 @@
     },
     {
       "id": "cma-148754",
-      "title": "A Woman of the Sabines",
+      "title": "サビニュの女",
       "artist": "Clarence Holbrook Carter",
       "year": 1928,
       "century": "20世紀",
@@ -5541,7 +5542,7 @@
     },
     {
       "id": "cma-109251",
-      "title": "Jessica",
+      "title": "ジェシカ",
       "artist": "Louis Loeb",
       "year": 1905,
       "century": "20世紀",
@@ -5552,7 +5553,7 @@
     },
     {
       "id": "cma-146924",
-      "title": "Lake Erie Patterns",
+      "title": "エリー湖の模様",
       "artist": "Clarence Holbrook Carter",
       "year": 1930,
       "century": "20世紀",
@@ -5563,7 +5564,7 @@
     },
     {
       "id": "cma-173173",
-      "title": "Boy Fishing",
+      "title": "釣りをする少年",
       "artist": "Eastman Johnson",
       "year": 1860,
       "century": "18〜19世紀",
@@ -5574,7 +5575,7 @@
     },
     {
       "id": "cma-109248",
-      "title": "Mary Campbell Stuart",
+      "title": "メアリー・キャンベル・スチュアートの肖像",
       "artist": "Gilbert Stuart",
       "year": 1810,
       "century": "18〜19世紀",
@@ -5585,7 +5586,7 @@
     },
     {
       "id": "cma-117794",
-      "title": "The Little Cavalier",
+      "title": "小さな騎士",
       "artist": "George De Forest Brush",
       "year": 1904,
       "century": "20世紀",
@@ -5596,7 +5597,7 @@
     },
     {
       "id": "cma-150100",
-      "title": "Circus Horses",
+      "title": "サーカスの馬",
       "artist": "Clarence Holbrook Carter",
       "year": 1933,
       "century": "20世紀",
@@ -5607,7 +5608,7 @@
     },
     {
       "id": "cma-121358",
-      "title": "Deserted Wharf (The Old Mill at Cos Cob)",
+      "title": "廃れた波止場（コス・コブの古い水車小屋）",
       "artist": "John Henry Twachtman",
       "year": 1890,
       "century": "18〜19世紀",
@@ -5618,7 +5619,7 @@
     },
     {
       "id": "cma-108180",
-      "title": "Down to the Harbor",
+      "title": "港へ下る",
       "artist": "George G. Adomeit",
       "year": 1925,
       "century": "20世紀",
@@ -5629,7 +5630,7 @@
     },
     {
       "id": "cma-109242",
-      "title": "Autumn Landscape and Pool",
+      "title": "秋の風景と池",
       "artist": "Alexander H. Wyant",
       "year": 1870,
       "century": "18〜19世紀",
@@ -5640,7 +5641,7 @@
     },
     {
       "id": "cma-109974",
-      "title": "His First Model-Miss Russell",
+      "title": "最初のモデル：ミス・ラッセル",
       "artist": "William Morris Hunt",
       "year": 1868,
       "century": "18〜19世紀",
@@ -5662,7 +5663,7 @@
     },
     {
       "id": "cma-117464",
-      "title": "Portrait of a Woman (Mrs. Ann Hivlyn)",
+      "title": "女性の肖像（アン・ヒヴリン夫人）",
       "artist": "作者不詳",
       "year": 1800,
       "century": "18〜19世紀",
@@ -5673,7 +5674,7 @@
     },
     {
       "id": "cma-108010",
-      "title": "The Madonna of Ivory",
+      "title": "象牙の聖母",
       "artist": "Henry Keller",
       "year": 1900,
       "century": "18〜19世紀",
@@ -5684,7 +5685,7 @@
     },
     {
       "id": "cma-109971",
-      "title": "Head of a Girl",
+      "title": "少女の頭部",
       "artist": "作者不詳",
       "year": 1880,
       "century": "18〜19世紀",
@@ -5695,7 +5696,7 @@
     },
     {
       "id": "cma-112831",
-      "title": "Yellow Light",
+      "title": "黄色の光",
       "artist": "Ralph A. Blakelock",
       "year": 1865,
       "century": "18〜19世紀",
@@ -5706,7 +5707,7 @@
     },
     {
       "id": "cma-108157",
-      "title": "Head of a Boy",
+      "title": "少年の頭部",
       "artist": "George Fuller",
       "year": 1850,
       "century": "18〜19世紀",
@@ -5717,7 +5718,7 @@
     },
     {
       "id": "cma-121343",
-      "title": "The Lone Sentinel",
+      "title": "孤独な歩哨",
       "artist": "Henry Ward Ranger",
       "year": 1895,
       "century": "18〜19世紀",
@@ -5728,7 +5729,7 @@
     },
     {
       "id": "cma-136270",
-      "title": "Forest Stream with Vista",
+      "title": "眺めのある森の流れ",
       "artist": "Asher B. Durand",
       "year": 1872,
       "century": "18〜19世紀",
@@ -6520,7 +6521,7 @@
     },
     {
       "id": "cma-98442",
-      "title": "Evening",
+      "title": "夕暮れ",
       "artist": "Hugh Huntington Howard",
       "year": 1880,
       "century": "18〜19世紀",
@@ -6597,7 +6598,7 @@
     },
     {
       "id": "cma-99750",
-      "title": "Niagara Falls",
+      "title": "ナイアガラの滝",
       "artist": "Augustin Satra",
       "year": 1906,
       "century": "20世紀",
