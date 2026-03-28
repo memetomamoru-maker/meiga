@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>プライバシーポリシー — 名画収集館</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --bg: #0a0804;
+    --gold: #c8a050;
+    --cream: #f0e8d8;
+    --ink: #8c7a60;
+  }
+  body {
+    background: var(--bg);
+    color: var(--cream);
+    font-family: 'Hiragino Mincho ProN', 'Yu Mincho', Georgia, serif;
+    line-height: 1.9;
+    padding: 48px 24px 80px;
+    max-width: 680px;
+    margin: 0 auto;
+  }
+  header {
+    border-bottom: 1px solid rgba(200,160,80,.3);
+    padding-bottom: 24px;
+    margin-bottom: 40px;
+  }
+  .logo {
+    font-size: 11px;
+    letter-spacing: .28em;
+    color: var(--gold);
+    margin-bottom: 8px;
+  }
+  h1 {
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: .1em;
+    color: var(--cream);
+  }
+  .updated {
+    font-size: 12px;
+    color: var(--ink);
+    margin-top: 6px;
+  }
+  section { margin-bottom: 36px; }
+  h2 {
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: .1em;
+    color: var(--gold);
+    margin-bottom: 12px;
+    padding-left: 12px;
+    border-left: 2px solid rgba(200,160,80,.5);
+  }
+  p { font-size: 14px; color: #d4c8b4; margin-bottom: 10px; }
+  a { color: var(--gold); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  footer {
+    margin-top: 60px;
+    padding-top: 24px;
+    border-top: 1px solid rgba(200,160,80,.2);
+    font-size: 12px;
+    color: var(--ink);
+    text-align: center;
+  }
+  .back {
+    display: inline-block;
+    margin-bottom: 32px;
+    font-size: 13px;
+    color: var(--gold);
+    letter-spacing: .1em;
+  }
+</style>
+</head>
+<body>
+
+<a href="/" class="back">← 名画収集館に戻る</a>
+
+<header>
+  <div class="logo">名画収集館 — MEIGA</div>
+  <h1>プライバシーポリシー</h1>
+  <div class="updated">最終更新日：2026年3月28日</div>
+</header>
+
+<section>
+  <h2>1. はじめに</h2>
+  <p>名画収集館（以下「本アプリ」）は、芽芽斗守（memetomamoru）が運営するパブリックドメイン絵画閲覧アプリです。本ポリシーは、本アプリがどのような情報を扱うかをご説明します。</p>
+</section>
+
+<section>
+  <h2>2. 収集する情報</h2>
+  <p>本アプリは、個人を特定できる情報を収集しません。</p>
+  <p>本アプリがお客様の端末に保存するデータは以下のみです：</p>
+  <p>・お気に入り登録した作品のID（localStorage）<br>
+  ・ガイド表示の有無（localStorage）<br>
+  ・ホーム画面追加バナーの表示済みフラグ（localStorage）</p>
+  <p>これらはすべてお客様の端末内にのみ保存され、外部サーバーには送信されません。</p>
+</section>
+
+<section>
+  <h2>3. 第三者サービス</h2>
+  <p>本アプリは以下の第三者サービスを利用しています。</p>
+  <p><strong>Vercel</strong>（ホスティング）<br>
+  本アプリはVercel Inc.のサーバーで提供されています。Vercelはアクセスログを収集する場合があります。詳細はVercelの<a href="https://vercel.com/legal/privacy-policy" target="_blank" rel="noopener">プライバシーポリシー</a>をご参照ください。</p>
+  <p><strong>The Metropolitan Museum of Art / Art Institute of Chicago</strong><br>
+  作品データはMET CollectionおよびARTIC APIよりCC0ライセンスで取得しています。画像や作品情報は各館のパブリックドメインポリシーに従います。</p>
+</section>
+
+<section>
+  <h2>4. 画像・コンテンツの著作権</h2>
+  <p>本アプリで表示する絵画作品はすべてパブリックドメインです。著作権保護期間が満了した作品のみを収録しています。</p>
+</section>
+
+<section>
+  <h2>5. アナリティクス</h2>
+  <p>本アプリは現在、Google Analyticsその他のアナリティクスツールを使用していません。</p>
+</section>
+
+<section>
+  <h2>6. お問い合わせ</h2>
+  <p>本ポリシーに関するお問い合わせは、<a href="https://note.com/memetomamoru" target="_blank" rel="noopener">note.com/memetomamoru</a> よりご連絡ください。</p>
+</section>
+
+<section>
+  <h2>7. 改定</h2>
+  <p>本ポリシーは必要に応じて改定されることがあります。重要な変更がある場合は本ページにて告知します。</p>
+</section>
+
+<footer>
+  © <span id="y"></span> memetomamoru — <a href="/">名画収集館</a>
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</footer>
+
+</body>
+</html>

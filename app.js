@@ -215,8 +215,9 @@
     const [famousResult, apiOk] = await Promise.all([fetchFamous(), fetchPaintings()]);
 
     if (famousResult.length > 0) {
-      const existingIds = new Set(allPaintings.map(p => p.id));
-      const newFamous = famousResult.filter(p => !existingIds.has(p.id));
+      const existingIds    = new Set(allPaintings.map(p => p.id));
+      const existingTitles = new Set(allPaintings.map(p => p.title));
+      const newFamous = famousResult.filter(p => !existingIds.has(p.id) && !existingTitles.has(p.title));
       allPaintings = [...newFamous, ...allPaintings];
       updateFilterOptions();
     }

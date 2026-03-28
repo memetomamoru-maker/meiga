@@ -1085,5 +1085,14 @@ body{font-family:'Cormorant Garamond','Noto Serif JP',Georgia,serif}
   }).observe(lb,{attributes:true});
 })();
 </script>
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js')
+          .catch(e => console.warn('SW registration failed:', e));
+      });
+    }
+  </script>
 </body>
 </html>
