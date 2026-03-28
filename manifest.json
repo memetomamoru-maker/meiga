@@ -1,44 +1,29 @@
 {
   "name": "名画収集館",
   "short_name": "名画収集館",
+  "id": "/",
   "description": "世界の名画600点以上をスワイプして旅するアプリ。ルーヴル・プラド・ゴッホ美術館など主要美術館のパブリックドメイン作品を無料で収録。",
   "start_url": "/",
   "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone"],
   "background_color": "#1a1208",
   "theme_color": "#1a1208",
   "orientation": "portrait",
   "lang": "ja",
   "dir": "ltr",
-  "categories": [
-    "lifestyle",
-    "entertainment",
-    "education"
-  ],
+  "categories": ["lifestyle", "entertainment", "education"],
   "icons": [
-    {
-      "src": "./icon.jpg",
-      "sizes": "192x192",
-      "type": "image/jpeg",
-      "purpose": "any"
-    },
-    {
-      "src": "./icon-192.jpg",
-      "sizes": "192x192",
-      "type": "image/jpeg",
-      "purpose": "maskable"
-    },
-    {
-      "src": "./icon-512.jpg",
-      "sizes": "512x512",
-      "type": "image/jpeg",
-      "purpose": "any maskable"
-    }
+    { "src": "./icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "./icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "./icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "./icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
   ],
   "screenshots": [
     {
       "src": "./ogp.jpg",
       "sizes": "1200x630",
       "type": "image/jpeg",
+      "form_factor": "wide",
       "label": "名画収集館 — スワイプして名画を旅する"
     }
   ],
