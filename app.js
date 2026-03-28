@@ -381,6 +381,11 @@ function updateFilterOptions() {
     img.alt = p.title;
     img.decoding = 'async';
     img.onload = () => { img.classList.add('loaded'); ph.style.display = 'none'; };
+    // キャッシュ済みの場合はonloadが発火しないのでcompleteチェック
+    if (img.complete && img.naturalWidth > 0) {
+      img.classList.add('loaded');
+      ph.style.display = 'none';
+    }
     img.onerror = () => { ph.innerHTML = `<div class="ph-title" style="opacity:.5">${p.title}</div>`; };
     img.src = p.image;
     img.style.cursor = 'zoom-in';
