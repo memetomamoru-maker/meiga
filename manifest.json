@@ -1,7 +1,7 @@
 {
   "name": "名画収集館",
   "short_name": "名画収集館",
-  "description": "世界の名画430点以上をスワイプして旅するアプリ。ルーヴル・プラド・ゴッホ美術館など主要美術館のパブリックドメイン作品を収録。",
+  "description": "世界の名画600点以上をスワイプして旅するアプリ。ルーヴル・プラド・ゴッホ美術館など主要美術館のパブリックドメイン作品を無料で収録。",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#1a1208",
@@ -9,7 +9,11 @@
   "orientation": "portrait",
   "lang": "ja",
   "dir": "ltr",
-  "categories": ["lifestyle", "entertainment", "education"],
+  "categories": [
+    "lifestyle",
+    "entertainment",
+    "education"
+  ],
   "icons": [
     {
       "src": "./icon.jpg",
