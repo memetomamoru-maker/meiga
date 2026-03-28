@@ -261,9 +261,12 @@ function updateFilterOptions() {
     const [famousResult, apiOk] = await Promise.all([fetchFamous(), fetchPaintings()]);
 
     if (famousResult.length > 0) {
-      const existingIds    = new Set(allPaintings.map(p => p.id));
-      const existingTitles = new Set(allPaintings.map(p => p.title));
-      const newFamous = famousResult.filter(p => !existingIds.has(p.id) && !existingTitles.has(p.title));
+      const existingIds   = new Set(allPaintings.map(p => p.id));
+      const existingKeys  = new Set(allPaintings.map(p => `${(p.title||'').trim()}__${(p.artist||'').trim()}`));
+      const newFamous = famousResult.filter(p => {
+        const key = `${(p.title||'').trim()}__${(p.artist||'').trim()}`;
+        return !existingIds.has(p.id) && !existingKeys.has(key);
+      });
       allPaintings = [...newFamous, ...allPaintings];
       updateFilterOptions();
     }
@@ -311,7 +314,7 @@ function updateFilterOptions() {
       return true;
     });
     if (!filtered.length) { showToast('該当する作品がありません'); return false; }
-    if (filter.century === 'all' && filter.style === 'all') {
+    if (filter.century === 'all' && filter.style === 'all' && filter.mood === 'all') {
       queue = [...filtered];
     } else {
       queue = [...filtered].sort(() => Math.random() - .5);
@@ -381,13 +384,13 @@ function updateFilterOptions() {
     img.alt = p.title;
     img.decoding = 'async';
     img.onload = () => { img.classList.add('loaded'); ph.style.display = 'none'; };
-    // キャッシュ済みの場合はonloadが発火しないのでcompleteチェック
+    img.onerror = () => { ph.innerHTML = `<div class="ph-title" style="opacity:.5">${p.title}</div>`; };
+    img.src = p.image;
+    // キャッシュ済み画像はonloadが発火しないためsrc設定後にチェック
     if (img.complete && img.naturalWidth > 0) {
       img.classList.add('loaded');
       ph.style.display = 'none';
     }
-    img.onerror = () => { ph.innerHTML = `<div class="ph-title" style="opacity:.5">${p.title}</div>`; };
-    img.src = p.image;
     img.style.cursor = 'zoom-in';
     // ★ 画像クリックのみでライトボックスを開く（ab への重複追加は行わない）
     img.addEventListener('click', (e) => { e.stopPropagation(); openLightbox(p); });
@@ -721,7 +724,10 @@ function updateFilterOptions() {
     const lbl = document.getElementById('fd-cnt-label');
     const rst = document.getElementById('fd-reset-btn');
     if (lbl) lbl.textContent = `${count} 作品が対象`;
-    if (rst) rst.disabled = filter.century === 'all' && filter.style === 'all';
+    if (rst) rst.disabled =
+      filter.century === 'all' &&
+      filter.style   === 'all' &&
+      filter.mood    === 'all';
   }
 
   const sectionState = { century: true, style: false, mood: false };
@@ -759,10 +765,7 @@ function updateFilterOptions() {
         pill.onclick = () => { filter[key] = v; renderDeck(); fd.classList.remove('open'); document.getElementById('app').style.overflow = ''; };
         pw.appendChild(pill);
       });
-      // 画家のみ「その他」ボタンを追加
-;
-        pw.appendChild(moreBtn);
-      }
+
       bdy.appendChild(pw);
       hdr.onclick = () => {
         sectionState[key] = !sectionState[key];
