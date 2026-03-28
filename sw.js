@@ -1,5 +1,5 @@
 // sw.js — 名画収集館 Service Worker v1
-const CACHE = 'meiga-v1';
+const CACHE = 'meiga-v2';
 
 const STATIC = [
   '/',
