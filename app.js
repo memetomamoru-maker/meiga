@@ -908,7 +908,16 @@ function updateFilterOptions() {
     if (btn) {
       btn.onclick = () => {
         fd.classList.remove('open');
-        document.getElementById('btn-today').click();
+        document.getElementById('app').style.overflow = '';
+        if (!allPaintings.length) return;
+        const d = new Date();
+        const seed = d.getFullYear() * 10000 + (d.getMonth() + 1) * 100 + d.getDate();
+        const target = allPaintings[seed % allPaintings.length];
+        filter = { century: 'all', style: 'all', mood: 'all' };
+        queue = [...allPaintings];
+        const idx = queue.findIndex(p => p.id === target.id);
+        cursor = idx >= 0 ? idx : 0;
+        _renderDeckAt(cursor);
       };
     }
   }
