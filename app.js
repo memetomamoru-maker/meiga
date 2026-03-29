@@ -95,6 +95,7 @@
   // buildQueue() は内部で cursor=0 にリセットしてしまうため、
   // 今日の一枚は cursor を先に確定してから直接デッキを組む
   document.getElementById('btn-today').addEventListener('click', () => {
+    fd.classList.remove('open');
     if (!allPaintings.length) return;
     const d = new Date();
     const seed = d.getFullYear() * 10000 + (d.getMonth() + 1) * 100 + d.getDate();
