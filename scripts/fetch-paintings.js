@@ -1089,7 +1089,7 @@ function toCMA(d) {
 async function fetchCMA() {
   var results = [];
   var LIMIT = 100;
-  var DEPTS = ['European Paintings', 'American Painting and Sculpture'];
+  var DEPTS = ['European Paintings', 'American Painting and Sculpture', 'Modern European Painting and Sculpture'];
   for (var di = 0; di < DEPTS.length; di++) {
     var dept = DEPTS[di];
     for (var skip = 0; skip < 300; skip += LIMIT) {
@@ -1176,6 +1176,8 @@ async function main(){
     437394, 436947, 437329, 436218, 459055, 436105, 436282, 11417, 435868, 437881,
     436535, 436528, 438722, 435650, 437133, 436305, 436121, 435869, 437984, 459202,
     436524, 437654, 436803,
+    // 追加: Gauguin, Van Gogh (確認済み: pd=true, 画像あり)
+    438821, 436529,
   ];
   var metExtraData=await Promise.all(MET_EXTRA.map(function(id){return fetchJson(MET+'/objects/'+id,8000);}));
   met=met.concat(metExtraData.map(toMET).filter(Boolean));
