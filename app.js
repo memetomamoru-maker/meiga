@@ -349,6 +349,20 @@ function updateFilterOptions() {
     _renderDeckAt(cursor);
   }
 
+  // 2〜4枚先の画像をバックグラウンドでプリフェッチ
+  function prefetchAhead(fromCursor) {
+    for (var i = 2; i <= 4; i++) {
+      var idx = fromCursor + i;
+      if (idx < queue.length) {
+        var url = queue[idx] && queue[idx].image;
+        if (url) {
+          var img = new Image();
+          img.src = url;
+        }
+      }
+    }
+  }
+
   // cursor が決まった状態でカードを組み立てる内部関数
   // 今日の一枚など、cursor を外から指定したいケースで使う
   function _renderDeckAt(cur) {
@@ -373,6 +387,7 @@ function updateFilterOptions() {
     updateNavButtons();
     updateFilterFooter();
     showZoomHint();
+    prefetchAhead(cursor);
   }
 
   function makeCard(p, idx) {
@@ -625,6 +640,7 @@ function updateFilterOptions() {
       nextCard = null;
     }
     updateMeta(); updateNavButtons(); showZoomHint();
+    prefetchAhead(cursor);
     setTimeout(() => { isAnimating = false; }, 520);
   }
 
