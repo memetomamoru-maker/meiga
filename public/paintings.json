@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-04T03:20:12.591Z",
+  "generated": "2026-04-04T03:56:34.362Z",
   "total": 907,
   "sources": {
     "artic": 356,
@@ -3288,7 +3288,7 @@
     {
       "id": "artic-87467",
       "title": "Édouard Manet",
-      "artist": "Henri Fantin-Latour",
+      "artist": "アンリ・ファンタン＝ラトゥール",
       "year": 1867,
       "century": "18〜19世紀",
       "museum": "シカゴ美術館",
@@ -3332,7 +3332,7 @@
     {
       "id": "artic-75507",
       "title": "静物　テーブルの一隅",
-      "artist": "Henri Fantin-Latour",
+      "artist": "アンリ・ファンタン＝ラトゥール",
       "year": 1873,
       "century": "18〜19世紀",
       "museum": "シカゴ美術館",
@@ -6907,7 +6907,7 @@
     {
       "id": "cma-135214",
       "title": "The Troubadour",
-      "artist": "Honoré Daumier",
+      "artist": "オノレ・ドーミエ",
       "year": 1868,
       "century": "18〜19世紀",
       "museum": "クリーブランド美術館",
@@ -7314,7 +7314,7 @@
     {
       "id": "cma-150083",
       "title": "Seaside (July: Specimen of a Portrait)",
-      "artist": "James Tissot",
+      "artist": "ジェームズ・ティソ",
       "year": 1878,
       "century": "18〜19世紀",
       "museum": "クリーブランド美術館",
@@ -7446,7 +7446,7 @@
     {
       "id": "cma-150851",
       "title": "Marie-Yolande de Fitz-James",
-      "artist": "Henri Fantin-Latour",
+      "artist": "アンリ・ファンタン＝ラトゥール",
       "year": 1867,
       "century": "18〜19世紀",
       "museum": "クリーブランド美術館",
@@ -7490,7 +7490,7 @@
     {
       "id": "cma-95265",
       "title": "Tannhäuser",
-      "artist": "Henri Fantin-Latour",
+      "artist": "アンリ・ファンタン＝ラトゥール",
       "year": 1886,
       "century": "18〜19世紀",
       "museum": "クリーブランド美術館",
@@ -7589,7 +7589,7 @@
     {
       "id": "cma-157104",
       "title": "The Seine at Bas-Meudon",
-      "artist": "Johan Barthold Jongkind",
+      "artist": "ヨハン・バルトルト・ヨンキント",
       "year": 1865,
       "century": "18〜19世紀",
       "museum": "クリーブランド美術館",
@@ -7776,7 +7776,7 @@
     {
       "id": "cma-125091",
       "title": "The Beach at Deauville",
-      "artist": "Eugène Boudin",
+      "artist": "ウジェーヌ・ブーダン",
       "year": 1864,
       "century": "18〜19世紀",
       "museum": "クリーブランド美術館",
@@ -7842,7 +7842,7 @@
     {
       "id": "cma-144756",
       "title": "Madame Lerolle",
-      "artist": "Henri Fantin-Latour",
+      "artist": "アンリ・ファンタン＝ラトゥール",
       "year": 1882,
       "century": "18〜19世紀",
       "museum": "クリーブランド美術館",
@@ -8117,7 +8117,7 @@
     {
       "id": "cma-92951",
       "title": "The Lovers",
-      "artist": "James Tissot",
+      "artist": "ジェームズ・ティソ",
       "year": 1872,
       "century": "18〜19世紀",
       "museum": "クリーブランド美術館",
@@ -8238,7 +8238,7 @@
     {
       "id": "cma-153388",
       "title": "View of Bordeaux, from the Quai des Chartrons",
-      "artist": "Eugène Boudin",
+      "artist": "ウジェーヌ・ブーダン",
       "year": 1874,
       "century": "18〜19世紀",
       "museum": "クリーブランド美術館",
@@ -8304,7 +8304,7 @@
     {
       "id": "cma-149565",
       "title": "Self-Portrait with Hat and Coat",
-      "artist": "Lovis Corinth",
+      "artist": "ロヴィス・コリント",
       "year": 1915,
       "century": "20世紀",
       "museum": "クリーブランド美術館",
@@ -8425,7 +8425,7 @@
     {
       "id": "cma-98000",
       "title": "Beach Scene",
-      "artist": "Eugène Boudin",
+      "artist": "ウジェーヌ・ブーダン",
       "year": 1865,
       "century": "18〜19世紀",
       "museum": "クリーブランド美術館",
@@ -8744,7 +8744,7 @@
     {
       "id": "cma-118042",
       "title": "The Dock of Deauville",
-      "artist": "Eugène Boudin",
+      "artist": "ウジェーヌ・ブーダン",
       "year": 1891,
       "century": "18〜19世紀",
       "museum": "クリーブランド美術館",
@@ -8854,7 +8854,7 @@
     {
       "id": "cma-150031",
       "title": "The Marl Pit at Mulcent:  Evening",
-      "artist": "Antoine Chintreuil",
+      "artist": "アントワーヌ・チャントルイユ",
       "year": 1857,
       "century": "18〜19世紀",
       "museum": "クリーブランド美術館",
@@ -9591,7 +9591,7 @@
     {
       "id": "cma-142394",
       "title": "The Coast at Trouville",
-      "artist": "Eugène Boudin",
+      "artist": "ウジェーヌ・ブーダン",
       "year": 1865,
       "century": "18〜19世紀",
       "museum": "クリーブランド美術館",
@@ -9734,7 +9734,7 @@
     {
       "id": "cma-150032",
       "title": "Industrial Plant",
-      "artist": "Antoine Chintreuil",
+      "artist": "アントワーヌ・チャントルイユ",
       "year": 1865,
       "century": "18〜19世紀",
       "museum": "クリーブランド美術館",
