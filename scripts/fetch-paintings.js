@@ -961,6 +961,20 @@ const ARTIST_JA = {
   'James McNeill Whistler':'ジェームズ・マクニール・ホイッスラー',
   'Nicolas Poussin':'ニコラ・プッサン','Claude Lorrain':'クロード・ロラン',
   'Giovanni Battista Tiepolo':'ジョヴァンニ・バッティスタ・ティエポロ','Canaletto':'カナレット',
+  // CMA Modern European追加分（重複除去済み）
+  'Antoine Chintreuil':'アントワーヌ・チャントルイユ',
+  'Honoré Daumier':'オノレ・ドーミエ',
+  'Eugène Boudin':'ウジェーヌ・ブーダン',
+  'Johan Barthold Jongkind':'ヨハン・バルトルト・ヨンキント',
+  'Henri Fantin-Latour':'アンリ・ファンタン＝ラトゥール',
+  'James Tissot':'ジェームズ・ティソ',
+  'Giovanni Boldini':'ジョヴァンニ・ボルディーニ',
+  'Anders Zorn':'アンダース・ソーン',
+  'Joaquín Sorolla':'ホアキン・ソローリャ',
+  'Franz von Lenbach':'フランツ・フォン・レンバッハ',
+  'Max Liebermann':'マックス・リーバーマン',
+  'Lovis Corinth':'ロヴィス・コリント',
+  'Max Slevogt':'マックス・スレフォクト',
 };
 
 // 絵画以外を除外するキーワード（タイトルに含まれていたら除外）
