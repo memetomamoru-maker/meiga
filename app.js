@@ -99,11 +99,14 @@
     if (!allPaintings.length) return;
     const d = new Date();
     const seed = d.getFullYear() * 10000 + (d.getMonth() + 1) * 100 + d.getDate();
-    const target = allPaintings[seed % allPaintings.length];
+    // seedで決定論的シャッフル：毎日違う順番、同じ日は同じ順番
+    let s = seed;
     filter = { century: 'all', style: 'all', mood: 'all' };
-    queue = [...allPaintings];
-    const idx = queue.findIndex(p => p.id === target.id);
-    cursor = idx >= 0 ? idx : 0;
+    queue = [...allPaintings].sort(() => {
+      s = (s * 1664525 + 1013904223) & 0xffffffff;
+      return (s >>> 1) - 0x3fffffff;
+    });
+    cursor = 0;
     _renderDeckAt(cursor);
     const btn = document.getElementById('btn-today');
     btn.classList.add('active');
@@ -327,11 +330,7 @@ function updateFilterOptions() {
       return true;
     });
     if (!filtered.length) { showToast('該当する作品がありません'); return false; }
-    if (filter.century === 'all' && filter.style === 'all' && filter.mood === 'all') {
-      queue = [...filtered];
-    } else {
-      queue = [...filtered].sort(() => Math.random() - .5);
-    }
+    queue = [...filtered].sort(() => Math.random() - .5);
     cursor = 0;
     return true;
   }
