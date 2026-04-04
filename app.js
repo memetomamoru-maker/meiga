@@ -330,7 +330,12 @@ function updateFilterOptions() {
       return true;
     });
     if (!filtered.length) { showToast('該当する作品がありません'); return false; }
-    queue = [...filtered].sort(() => Math.random() - .5);
+    // famous作品を先頭20枚に、残りはその後にシャッフルして続ける
+    const famousFiltered = filtered.filter(p => p.isFamous);
+    const othersFiltered = filtered.filter(p => !p.isFamous);
+    const famousShuffled = famousFiltered.sort(() => Math.random() - .5).slice(0, 20);
+    const othersShuffled = othersFiltered.sort(() => Math.random() - .5);
+    queue = [...famousShuffled, ...othersShuffled];
     cursor = 0;
     return true;
   }
