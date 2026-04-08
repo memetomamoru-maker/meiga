@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-07T01:19:10.927Z",
+  "generated": "2026-04-08T01:20:12.596Z",
   "total": 907,
   "sources": {
     "artic": 356,
@@ -7,17 +7,6 @@
     "cma": 525
   },
   "paintings": [
-    {
-      "id": "artic-16568",
-      "title": "睡蓮",
-      "artist": "クロード・モネ",
-      "year": 1906,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/16568",
-      "image": "https://www.artic.edu/iiif/2/3c27b499-af56-f0d5-93b5-a7f2f1ad5813/full/843,/0/default.jpg",
-      "wikiUrl": "https://ja.wikipedia.org/wiki/睡蓮_(モネ)"
-    },
     {
       "id": "artic-4758",
       "title": "ストーク・バイ・ネイランド",
@@ -30,17 +19,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-11723",
-      "title": "化粧する女",
-      "artist": "ベルト・モリゾ",
-      "year": 1880,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/11723",
-      "image": "https://www.artic.edu/iiif/2/78c80988-6524-cec7-c661-a4c0a706d06f/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-9637",
       "title": "イタリアの別荘と庭園（バチカンのベルヴェデーレ）",
       "artist": "Jean Jacques de Boissieu",
@@ -49,6 +27,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/9637",
       "image": "https://www.artic.edu/iiif/2/462c6fe2-40a4-ed8d-772c-4fb9ae78265f/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-11723",
+      "title": "化粧する女",
+      "artist": "ベルト・モリゾ",
+      "year": 1880,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/11723",
+      "image": "https://www.artic.edu/iiif/2/78c80988-6524-cec7-c661-a4c0a706d06f/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -83,6 +72,17 @@
       "museumUrl": "https://www.artic.edu/artworks/14664",
       "image": "https://www.artic.edu/iiif/2/156aaed6-fe3c-a13c-f39e-55f381205929/full/843,/0/default.jpg",
       "wikiUrl": null
+    },
+    {
+      "id": "artic-16568",
+      "title": "睡蓮",
+      "artist": "クロード・モネ",
+      "year": 1906,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/16568",
+      "image": "https://www.artic.edu/iiif/2/3c27b499-af56-f0d5-93b5-a7f2f1ad5813/full/843,/0/default.jpg",
+      "wikiUrl": "https://ja.wikipedia.org/wiki/睡蓮_(モネ)"
     },
     {
       "id": "artic-20530",
@@ -129,28 +129,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-68433",
-      "title": "パリ郊外の製材所",
-      "artist": "Henri Rousseau",
-      "year": 1895,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/68433",
-      "image": "https://www.artic.edu/iiif/2/3826e366-e82a-e853-12e4-b303a1618103/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-75557",
-      "title": "サアディー「全集」の彩飾写本（漆塗り表紙）",
-      "artist": "Iran",
-      "year": 1700,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/75557",
-      "image": "https://www.artic.edu/iiif/2/6d216d21-f35a-770a-071c-e0304f23b84f/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-70593",
       "title": "庭園の情景",
       "artist": "Iran",
@@ -159,6 +137,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/70593",
       "image": "https://www.artic.edu/iiif/2/85309ed9-b889-16fb-2fc7-57f1c97c3820/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-68433",
+      "title": "パリ郊外の製材所",
+      "artist": "Henri Rousseau",
+      "year": 1895,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/68433",
+      "image": "https://www.artic.edu/iiif/2/3826e366-e82a-e853-12e4-b303a1618103/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -173,14 +162,14 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-83613",
-      "title": "「イル・マスケローネ」、ボルゲーゼ荘の噴水",
-      "artist": "Richard Wilson",
-      "year": 1759,
-      "century": "18〜19世紀",
+      "id": "artic-75557",
+      "title": "サアディー「全集」の彩飾写本（漆塗り表紙）",
+      "artist": "Iran",
+      "year": 1700,
+      "century": "〜17世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/83613",
-      "image": "https://www.artic.edu/iiif/2/2efb0b9d-04a4-390e-752b-fdb9602e017f/full/843,/0/default.jpg",
+      "museumUrl": "https://www.artic.edu/artworks/75557",
+      "image": "https://www.artic.edu/iiif/2/6d216d21-f35a-770a-071c-e0304f23b84f/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -192,6 +181,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/84092",
       "image": "https://www.artic.edu/iiif/2/99c8eeea-f07a-af30-c79e-1da4d55243a3/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-83613",
+      "title": "「イル・マスケローネ」、ボルゲーゼ荘の噴水",
+      "artist": "Richard Wilson",
+      "year": 1759,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/83613",
+      "image": "https://www.artic.edu/iiif/2/2efb0b9d-04a4-390e-752b-fdb9602e017f/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -811,17 +811,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-110663",
-      "title": "ジャウルとハッサンの格闘",
-      "artist": "ウジェーヌ・ドラクロワ",
-      "year": 1826,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/110663",
-      "image": "https://www.artic.edu/iiif/2/ae0793ac-8ace-6c4a-84d4-a33162ae6832/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-181478",
       "title": "風景の中の俳優マクシミリアン・コルン",
       "artist": "Ferdinand Georg Waldmüller",
@@ -866,17 +855,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-250451",
-      "title": "トスカーナ、キウージ近郊の風景",
-      "artist": "Alexandre Desgoffe",
-      "year": 1841,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/250451",
-      "image": "https://www.artic.edu/iiif/2/d3cf298a-1868-3274-1b50-a484ce1462c9/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-250453",
       "title": "ハムステッド・ヒースの砂の採掘場",
       "artist": "John Linnell",
@@ -888,6 +866,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-250451",
+      "title": "トスカーナ、キウージ近郊の風景",
+      "artist": "Alexandre Desgoffe",
+      "year": 1841,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/250451",
+      "image": "https://www.artic.edu/iiif/2/d3cf298a-1868-3274-1b50-a484ce1462c9/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-265263",
       "title": "ぶどうと花の静物",
       "artist": "Mélanie de Comoléra",
@@ -896,6 +885,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/265263",
       "image": "https://www.artic.edu/iiif/2/3279f256-4430-5657-ab3e-15c985ae291f/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-110663",
+      "title": "ジャウルとハッサンの格闘",
+      "artist": "ウジェーヌ・ドラクロワ",
+      "year": 1826,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/110663",
+      "image": "https://www.artic.edu/iiif/2/ae0793ac-8ace-6c4a-84d4-a33162ae6832/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1050,6 +1050,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/181460",
       "image": "https://www.artic.edu/iiif/2/ba6ef7ee-677c-0bcd-8150-ef7487f17a36/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-9",
+      "title": "ヴェネツィア、サン・マルコ寺院の内部",
+      "artist": "David Dalhoff Neal",
+      "year": 1869,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/9",
+      "image": "https://www.artic.edu/iiif/2/b55d836c-ee20-59f8-1f0c-a95e09905361/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1350,17 +1361,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-9",
-      "title": "ヴェネツィア、サン・マルコ寺院の内部",
-      "artist": "David Dalhoff Neal",
-      "year": 1869,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/9",
-      "image": "https://www.artic.edu/iiif/2/b55d836c-ee20-59f8-1f0c-a95e09905361/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-64476",
       "title": "冬の太陽",
       "artist": "George Gardner Symons",
@@ -1581,6 +1581,28 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-144969",
+      "title": "The Interior of the Palm House on the Pfaueninsel Near Potsdam",
+      "artist": "Carl Blechen",
+      "year": 1834,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/144969",
+      "image": "https://www.artic.edu/iiif/2/38bb6be4-223e-af7a-7e18-f9ad0c388d3c/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-25865",
+      "title": "ニシンの網",
+      "artist": "ウィンスロー・ホーマー",
+      "year": 1885,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/25865",
+      "image": "https://www.artic.edu/iiif/2/5dca7347-c6dc-24dd-d073-d705b9cdc575/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-4796",
       "title": "魚を買い交渉する行商人のいる漁船",
       "artist": "Joseph Mallord William Turner",
@@ -1655,17 +1677,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/16499",
       "image": "https://www.artic.edu/iiif/2/4d03ba14-a01a-d003-404a-cf3f9fb40ede/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-25865",
-      "title": "ニシンの網",
-      "artist": "ウィンスロー・ホーマー",
-      "year": 1885,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/25865",
-      "image": "https://www.artic.edu/iiif/2/5dca7347-c6dc-24dd-d073-d705b9cdc575/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1853,17 +1864,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/191564",
       "image": "https://www.artic.edu/iiif/2/527417cf-28b5-45f0-8afe-20af0dcc1418/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-144969",
-      "title": "The Interior of the Palm House on the Pfaueninsel Near Potsdam",
-      "artist": "Carl Blechen",
-      "year": 1834,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/144969",
-      "image": "https://www.artic.edu/iiif/2/38bb6be4-223e-af7a-7e18-f9ad0c388d3c/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2923,6 +2923,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-76571",
+      "title": "View of Cotopaxi",
+      "artist": "フレデリック・エドウィン・チャーチ",
+      "year": 1857,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/76571",
+      "image": "https://www.artic.edu/iiif/2/33fc29fc-097b-576b-c9e6-c3352d9d3f15/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-111317",
       "title": "アメデー・ダヴィッド、パストレ伯爵",
       "artist": "ジャン＝オーギュスト＝ドミニク・アングル",
@@ -3209,17 +3220,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-76571",
-      "title": "View of Cotopaxi",
-      "artist": "フレデリック・エドウィン・チャーチ",
-      "year": 1857,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/76571",
-      "image": "https://www.artic.edu/iiif/2/33fc29fc-097b-576b-c9e6-c3352d9d3f15/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-97910",
       "title": "The Advance-Guard, or The Military Sacrifice (The Ambush)",
       "artist": "Frederic Remington",
@@ -3418,6 +3418,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-64729",
+      "title": "ターポンスプリングスの早朝",
+      "artist": "George Inness",
+      "year": 1892,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/64729",
+      "image": "https://www.artic.edu/iiif/2/ef96e79b-f481-8114-0804-4bd39c101983/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-16488",
       "title": "眠るリナルドに出会うアルミーダ",
       "artist": "ジョヴァンニ・バッティスタ・ティエポロ",
@@ -3591,17 +3602,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/11434",
       "image": "https://www.artic.edu/iiif/2/8eccb189-92f3-353a-3337-c0778c2680d9/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-64729",
-      "title": "ターポンスプリングスの早朝",
-      "artist": "George Inness",
-      "year": 1892,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/64729",
-      "image": "https://www.artic.edu/iiif/2/ef96e79b-f481-8114-0804-4bd39c101983/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
