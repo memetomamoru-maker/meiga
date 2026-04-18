@@ -2,7 +2,7 @@
   "name": "名画収集館",
   "short_name": "名画収集館",
   "id": "/",
-  "description": "世界の名画600点以上をスワイプして旅するアプリ。ルーヴル・プラド・ゴッホ美術館など主要美術館のパブリックドメイン作品を無料で収録。",
+  "description": "世界の名画900点以上をスワイプして旅するアプリ。ルーヴル・プド・ゴッホ美術館など主要美術館のパブリックドメイン作品を無料で収録。",
   "start_url": "/",
   "display": "standalone",
   "display_override": ["window-controls-overlay", "standalone"],
