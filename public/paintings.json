@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-25T01:21:05.383Z",
+  "generated": "2026-04-26T01:30:48.502Z",
   "total": 907,
   "sources": {
     "artic": 356,
@@ -129,17 +129,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-70593",
-      "title": "庭園の情景",
-      "artist": "Iran",
-      "year": 1480,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/70593",
-      "image": "https://www.artic.edu/iiif/2/85309ed9-b889-16fb-2fc7-57f1c97c3820/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-68433",
       "title": "パリ郊外の製材所",
       "artist": "Henri Rousseau",
@@ -151,14 +140,14 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-75557",
-      "title": "サアディー「全集」の彩飾写本（漆塗り表紙）",
+      "id": "artic-70593",
+      "title": "庭園の情景",
       "artist": "Iran",
-      "year": 1700,
+      "year": 1480,
       "century": "〜17世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/75557",
-      "image": "https://www.artic.edu/iiif/2/6d216d21-f35a-770a-071c-e0304f23b84f/full/843,/0/default.jpg",
+      "museumUrl": "https://www.artic.edu/artworks/70593",
+      "image": "https://www.artic.edu/iiif/2/85309ed9-b889-16fb-2fc7-57f1c97c3820/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -170,6 +159,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/76890",
       "image": "https://www.artic.edu/iiif/2/c1e17623-1a51-8db0-e1d0-3eee0b41b4b2/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-75557",
+      "title": "サアディー「全集」の彩飾写本（漆塗り表紙）",
+      "artist": "Iran",
+      "year": 1700,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/75557",
+      "image": "https://www.artic.edu/iiif/2/6d216d21-f35a-770a-071c-e0304f23b84f/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -547,17 +547,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-2848",
-      "title": "ボヘミアン生活の一場面",
-      "artist": "ジェームズ・マクニール・ホイッスラー",
-      "year": 1857,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/2848",
-      "image": "https://www.artic.edu/iiif/2/15c13ae6-7fe8-d06b-7462-aee0c985b220/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-14523",
       "title": "手すりのそばの人物たち",
       "artist": "ジェームズ・マクニール・ホイッスラー",
@@ -569,6 +558,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-2848",
+      "title": "ボヘミアン生活の一場面",
+      "artist": "ジェームズ・マクニール・ホイッスラー",
+      "year": 1857,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/2848",
+      "image": "https://www.artic.edu/iiif/2/15c13ae6-7fe8-d06b-7462-aee0c985b220/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-111478",
       "title": "ウィリアム・マクニール・ホイッスラー博士の肖像",
       "artist": "ジェームズ・マクニール・ホイッスラー",
@@ -577,17 +577,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/111478",
       "image": "https://www.artic.edu/iiif/2/f9aacbc6-191c-3725-85bf-198612a51d25/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-3551",
-      "title": "「グレーと黒のアレンジメント第2番：トーマス・カーライルの肖像」習作",
-      "artist": "ジェームズ・マクニール・ホイッスラー",
-      "year": 1873,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/3551",
-      "image": "https://www.artic.edu/iiif/2/b7637e1b-47d7-123c-fe43-46981a93550e/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -624,6 +613,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-3551",
+      "title": "「グレーと黒のアレンジメント第2番：トーマス・カーライルの肖像」習作",
+      "artist": "ジェームズ・マクニール・ホイッスラー",
+      "year": 1873,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/3551",
+      "image": "https://www.artic.edu/iiif/2/b7637e1b-47d7-123c-fe43-46981a93550e/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-149537",
       "title": "小さな青い帽子",
       "artist": "ジェームズ・マクニール・ホイッスラー",
@@ -643,28 +643,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/84088",
       "image": "https://www.artic.edu/iiif/2/5f663d6c-0121-a8ca-e875-896d9857a3f3/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-14511",
-      "title": "蝶",
-      "artist": "ジェームズ・マクニール・ホイッスラー",
-      "year": 1899,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/14511",
-      "image": "https://www.artic.edu/iiif/2/8da8c187-5064-621a-abbb-319d81f02fb0/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-14506",
-      "title": "格子模様の翅の蝶",
-      "artist": "ジェームズ・マクニール・ホイッスラー",
-      "year": 1899,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/14506",
-      "image": "https://www.artic.edu/iiif/2/dffd03a4-6c3c-c6c8-6f28-af538d3b74c2/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -690,14 +668,25 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-113070",
-      "title": "「黒のアレンジメント第2番」習作（表）／「肉色とピンクのシンフォニー」習作（裏）",
+      "id": "artic-14511",
+      "title": "蝶",
       "artist": "ジェームズ・マクニール・ホイッスラー",
-      "year": 1877,
+      "year": 1899,
       "century": "18〜19世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/113070",
-      "image": "https://www.artic.edu/iiif/2/7f401f24-8877-e887-53cb-880663ed8907/full/843,/0/default.jpg",
+      "museumUrl": "https://www.artic.edu/artworks/14511",
+      "image": "https://www.artic.edu/iiif/2/8da8c187-5064-621a-abbb-319d81f02fb0/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-14506",
+      "title": "格子模様の翅の蝶",
+      "artist": "ジェームズ・マクニール・ホイッスラー",
+      "year": 1899,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/14506",
+      "image": "https://www.artic.edu/iiif/2/dffd03a4-6c3c-c6c8-6f28-af538d3b74c2/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -709,6 +698,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/14493",
       "image": "https://www.artic.edu/iiif/2/50cc85c9-142d-1208-3a74-9e846c4bc961/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-113070",
+      "title": "「黒のアレンジメント第2番」習作（表）／「肉色とピンクのシンフォニー」習作（裏）",
+      "artist": "ジェームズ・マクニール・ホイッスラー",
+      "year": 1877,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/113070",
+      "image": "https://www.artic.edu/iiif/2/7f401f24-8877-e887-53cb-880663ed8907/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1097,17 +1097,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-64818",
-      "title": "干し草の積み重ね（夏の終わり）",
-      "artist": "クロード・モネ",
-      "year": 1891,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/64818",
-      "image": "https://www.artic.edu/iiif/2/a38e2828-ec6f-ece1-a30f-70243449197b/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-14655",
       "title": "二人の姉妹",
       "artist": "ピエール＝オーギュスト・ルノワール",
@@ -1117,6 +1106,17 @@
       "museumUrl": "https://www.artic.edu/artworks/14655",
       "image": "https://www.artic.edu/iiif/2/3a608f55-d76e-fa96-d0b1-0789fbc48f1e/full/843,/0/default.jpg",
       "wikiUrl": "https://ja.wikipedia.org/wiki/二人の姉妹_(ルノワール)"
+    },
+    {
+      "id": "artic-64818",
+      "title": "干し草の積み重ね（夏の終わり）",
+      "artist": "クロード・モネ",
+      "year": 1891,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/64818",
+      "image": "https://www.artic.edu/iiif/2/a38e2828-ec6f-ece1-a30f-70243449197b/full/843,/0/default.jpg",
+      "wikiUrl": null
     },
     {
       "id": "artic-111442",
@@ -1592,17 +1592,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-16499",
-      "title": "兵士にあざけられるキリスト",
-      "artist": "エドゥアール・マネ",
-      "year": 1865,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/16499",
-      "image": "https://www.artic.edu/iiif/2/4d03ba14-a01a-d003-404a-cf3f9fb40ede/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-5848",
       "title": "パトモス島の聖ヨハネのいる風景",
       "artist": "ニコラ・プッサン",
@@ -1611,6 +1600,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/5848",
       "image": "https://www.artic.edu/iiif/2/aa870b0d-5a1b-660a-6dc6-56c12109cf6e/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-16499",
+      "title": "兵士にあざけられるキリスト",
+      "artist": "エドゥアール・マネ",
+      "year": 1865,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/16499",
+      "image": "https://www.artic.edu/iiif/2/4d03ba14-a01a-d003-404a-cf3f9fb40ede/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1724,6 +1724,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-16549",
+      "title": "リンゴとぶどう",
+      "artist": "クロード・モネ",
+      "year": 1880,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/16549",
+      "image": "https://www.artic.edu/iiif/2/c12058f4-188f-c6ed-f0fe-52b32acfb296/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-16564",
       "title": "ジヴェルニー近くのセーヌ川の支流（霧）",
       "artist": "クロード・モネ",
@@ -1743,17 +1754,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/16554",
       "image": "https://www.artic.edu/iiif/2/7d533ed4-ff54-fa2c-64f4-2b16bfbb5880/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-16549",
-      "title": "リンゴとぶどう",
-      "artist": "クロード・モネ",
-      "year": 1880,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/16549",
-      "image": "https://www.artic.edu/iiif/2/c12058f4-188f-c6ed-f0fe-52b32acfb296/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2120,17 +2120,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-71573",
-      "title": "休日",
-      "artist": "Edward Henry Potthast",
-      "year": 1915,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/71573",
-      "image": "https://www.artic.edu/iiif/2/a67c4473-57a4-9807-a94e-1136d3daf876/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-4749",
       "title": "ジョージ・スウィントン夫人（エリザベス・エブズワース）",
       "artist": "ジョン・シンガー・サージェント",
@@ -2186,17 +2175,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-16544",
-      "title": "チャリング・クロス橋、ロンドン",
-      "artist": "クロード・モネ",
-      "year": 1901,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/16544",
-      "image": "https://www.artic.edu/iiif/2/e9179922-f68d-34c5-481d-abf49e046863/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-4887",
       "title": "アイリス",
       "artist": "クロード・モネ",
@@ -2205,6 +2183,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/4887",
       "image": "https://www.artic.edu/iiif/2/1f925e43-ff81-5ad7-da75-b28ea651c09f/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-16544",
+      "title": "チャリング・クロス橋、ロンドン",
+      "artist": "クロード・モネ",
+      "year": 1901,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/16544",
+      "image": "https://www.artic.edu/iiif/2/e9179922-f68d-34c5-481d-abf49e046863/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2348,6 +2337,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/27984",
       "image": "https://www.artic.edu/iiif/2/d0e36029-27fc-bf4e-357a-55cfbaf7bdfd/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-71573",
+      "title": "休日",
+      "artist": "Edward Henry Potthast",
+      "year": 1915,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/71573",
+      "image": "https://www.artic.edu/iiif/2/a67c4473-57a4-9807-a94e-1136d3daf876/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
