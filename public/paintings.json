@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-26T01:30:48.502Z",
+  "generated": "2026-04-27T01:45:07.929Z",
   "total": 907,
   "sources": {
     "artic": 356,
@@ -19,17 +19,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-9637",
-      "title": "イタリアの別荘と庭園（バチカンのベルヴェデーレ）",
-      "artist": "Jean Jacques de Boissieu",
-      "year": 1799,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/9637",
-      "image": "https://www.artic.edu/iiif/2/462c6fe2-40a4-ed8d-772c-4fb9ae78265f/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-11723",
       "title": "化粧する女",
       "artist": "ベルト・モリゾ",
@@ -38,6 +27,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/11723",
       "image": "https://www.artic.edu/iiif/2/78c80988-6524-cec7-c661-a4c0a706d06f/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-9637",
+      "title": "イタリアの別荘と庭園（バチカンのベルヴェデーレ）",
+      "artist": "Jean Jacques de Boissieu",
+      "year": 1799,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/9637",
+      "image": "https://www.artic.edu/iiif/2/462c6fe2-40a4-ed8d-772c-4fb9ae78265f/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -129,17 +129,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-68433",
-      "title": "パリ郊外の製材所",
-      "artist": "Henri Rousseau",
-      "year": 1895,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/68433",
-      "image": "https://www.artic.edu/iiif/2/3826e366-e82a-e853-12e4-b303a1618103/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-70593",
       "title": "庭園の情景",
       "artist": "Iran",
@@ -151,14 +140,14 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-76890",
-      "title": "天国の庭で踊り子たちに接待される統治者",
-      "artist": "India",
-      "year": 1800,
+      "id": "artic-68433",
+      "title": "パリ郊外の製材所",
+      "artist": "Henri Rousseau",
+      "year": 1895,
       "century": "18〜19世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/76890",
-      "image": "https://www.artic.edu/iiif/2/c1e17623-1a51-8db0-e1d0-3eee0b41b4b2/full/843,/0/default.jpg",
+      "museumUrl": "https://www.artic.edu/artworks/68433",
+      "image": "https://www.artic.edu/iiif/2/3826e366-e82a-e853-12e4-b303a1618103/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -170,6 +159,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/75557",
       "image": "https://www.artic.edu/iiif/2/6d216d21-f35a-770a-071c-e0304f23b84f/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-76890",
+      "title": "天国の庭で踊り子たちに接待される統治者",
+      "artist": "India",
+      "year": 1800,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/76890",
+      "image": "https://www.artic.edu/iiif/2/c1e17623-1a51-8db0-e1d0-3eee0b41b4b2/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -360,6 +360,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-16622",
+      "title": "レオン・クラピソン夫人",
+      "artist": "ピエール＝オーギュスト・ルノワール",
+      "year": 1883,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/16622",
+      "image": "https://www.artic.edu/iiif/2/a7af09dc-5743-062e-4802-b6435e67eaa5/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-15468",
       "title": "聖ゲオルギウスと龍",
       "artist": "Bernat Martorell",
@@ -379,17 +390,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/879",
       "image": "https://www.artic.edu/iiif/2/ff3b5c8a-5b14-5c35-8775-3d021e92a381/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-16622",
-      "title": "レオン・クラピソン夫人",
-      "artist": "ピエール＝オーギュスト・ルノワール",
-      "year": 1883,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/16622",
-      "image": "https://www.artic.edu/iiif/2/a7af09dc-5743-062e-4802-b6435e67eaa5/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -580,6 +580,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-3551",
+      "title": "「グレーと黒のアレンジメント第2番：トーマス・カーライルの肖像」習作",
+      "artist": "ジェームズ・マクニール・ホイッスラー",
+      "year": 1873,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/3551",
+      "image": "https://www.artic.edu/iiif/2/b7637e1b-47d7-123c-fe43-46981a93550e/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-158382",
       "title": "コルテ・デル・パラディーゾ",
       "artist": "ジェームズ・マクニール・ホイッスラー",
@@ -610,17 +621,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/14309",
       "image": "https://www.artic.edu/iiif/2/5888c23a-635f-396a-117b-2223032c0201/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-3551",
-      "title": "「グレーと黒のアレンジメント第2番：トーマス・カーライルの肖像」習作",
-      "artist": "ジェームズ・マクニール・ホイッスラー",
-      "year": 1873,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/3551",
-      "image": "https://www.artic.edu/iiif/2/b7637e1b-47d7-123c-fe43-46981a93550e/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -657,17 +657,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-14313",
-      "title": "チェルシーの店",
-      "artist": "ジェームズ・マクニール・ホイッスラー",
-      "year": 1900,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/14313",
-      "image": "https://www.artic.edu/iiif/2/258cd64d-9d9a-f878-ffd5-aa017ca05300/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-14511",
       "title": "蝶",
       "artist": "ジェームズ・マクニール・ホイッスラー",
@@ -690,14 +679,14 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-14493",
-      "title": "蝶",
+      "id": "artic-14313",
+      "title": "チェルシーの店",
       "artist": "ジェームズ・マクニール・ホイッスラー",
-      "year": 1899,
+      "year": 1900,
       "century": "18〜19世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/14493",
-      "image": "https://www.artic.edu/iiif/2/50cc85c9-142d-1208-3a74-9e846c4bc961/full/843,/0/default.jpg",
+      "museumUrl": "https://www.artic.edu/artworks/14313",
+      "image": "https://www.artic.edu/iiif/2/258cd64d-9d9a-f878-ffd5-aa017ca05300/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -709,6 +698,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/113070",
       "image": "https://www.artic.edu/iiif/2/7f401f24-8877-e887-53cb-880663ed8907/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-14493",
+      "title": "蝶",
+      "artist": "ジェームズ・マクニール・ホイッスラー",
+      "year": 1899,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/14493",
+      "image": "https://www.artic.edu/iiif/2/50cc85c9-142d-1208-3a74-9e846c4bc961/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1097,17 +1097,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-14655",
-      "title": "二人の姉妹",
-      "artist": "ピエール＝オーギュスト・ルノワール",
-      "year": 1881,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/14655",
-      "image": "https://www.artic.edu/iiif/2/3a608f55-d76e-fa96-d0b1-0789fbc48f1e/full/843,/0/default.jpg",
-      "wikiUrl": "https://ja.wikipedia.org/wiki/二人の姉妹_(ルノワール)"
-    },
-    {
       "id": "artic-64818",
       "title": "干し草の積み重ね（夏の終わり）",
       "artist": "クロード・モネ",
@@ -1117,6 +1106,17 @@
       "museumUrl": "https://www.artic.edu/artworks/64818",
       "image": "https://www.artic.edu/iiif/2/a38e2828-ec6f-ece1-a30f-70243449197b/full/843,/0/default.jpg",
       "wikiUrl": null
+    },
+    {
+      "id": "artic-14655",
+      "title": "二人の姉妹",
+      "artist": "ピエール＝オーギュスト・ルノワール",
+      "year": 1881,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/14655",
+      "image": "https://www.artic.edu/iiif/2/3a608f55-d76e-fa96-d0b1-0789fbc48f1e/full/843,/0/default.jpg",
+      "wikiUrl": "https://ja.wikipedia.org/wiki/二人の姉妹_(ルノワール)"
     },
     {
       "id": "artic-111442",
@@ -1592,17 +1592,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-5848",
-      "title": "パトモス島の聖ヨハネのいる風景",
-      "artist": "ニコラ・プッサン",
-      "year": 1640,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/5848",
-      "image": "https://www.artic.edu/iiif/2/aa870b0d-5a1b-660a-6dc6-56c12109cf6e/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-16499",
       "title": "兵士にあざけられるキリスト",
       "artist": "エドゥアール・マネ",
@@ -1611,6 +1600,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/16499",
       "image": "https://www.artic.edu/iiif/2/4d03ba14-a01a-d003-404a-cf3f9fb40ede/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-5848",
+      "title": "パトモス島の聖ヨハネのいる風景",
+      "artist": "ニコラ・プッサン",
+      "year": 1640,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/5848",
+      "image": "https://www.artic.edu/iiif/2/aa870b0d-5a1b-660a-6dc6-56c12109cf6e/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1669,6 +1669,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-81533",
+      "title": "ロンシャンの競馬",
+      "artist": "エドゥアール・マネ",
+      "year": 1866,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/81533",
+      "image": "https://www.artic.edu/iiif/2/e9ce5aca-4c34-c8dd-b8a1-91b3e3197211/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-25812",
       "title": "闘牛",
       "artist": "エドゥアール・マネ",
@@ -1699,17 +1710,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/81535",
       "image": "https://www.artic.edu/iiif/2/8be90e71-83c3-3f98-a972-4acb9ce0e773/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-81533",
-      "title": "ロンシャンの競馬",
-      "artist": "エドゥアール・マネ",
-      "year": 1866,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/81533",
-      "image": "https://www.artic.edu/iiif/2/e9ce5aca-4c34-c8dd-b8a1-91b3e3197211/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -3473,17 +3473,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-81548",
-      "title": "コーヒーを飲む若い農婦",
-      "artist": "カミーユ・ピサロ",
-      "year": 1881,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/81548",
-      "image": "https://www.artic.edu/iiif/2/335a59a4-3f5b-b9db-b8e8-861467d211ef/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-81552",
       "title": "井戸のそばの女と子",
       "artist": "カミーユ・ピサロ",
@@ -3492,6 +3481,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/81552",
       "image": "https://www.artic.edu/iiif/2/a2ddbd89-d864-8877-37bc-cd3dce12c37c/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-81548",
+      "title": "コーヒーを飲む若い農婦",
+      "artist": "カミーユ・ピサロ",
+      "year": 1881,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/81548",
+      "image": "https://www.artic.edu/iiif/2/335a59a4-3f5b-b9db-b8e8-861467d211ef/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
