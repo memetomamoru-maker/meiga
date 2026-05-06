@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-05T01:50:21.650Z",
+  "generated": "2026-05-06T01:48:59.818Z",
   "total": 907,
   "sources": {
     "artic": 356,
@@ -7,17 +7,6 @@
     "cma": 525
   },
   "paintings": [
-    {
-      "id": "artic-11723",
-      "title": "化粧する女",
-      "artist": "ベルト・モリゾ",
-      "year": 1880,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/11723",
-      "image": "https://www.artic.edu/iiif/2/78c80988-6524-cec7-c661-a4c0a706d06f/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
     {
       "id": "artic-9637",
       "title": "イタリアの別荘と庭園（バチカンのベルヴェデーレ）",
@@ -27,6 +16,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/9637",
       "image": "https://www.artic.edu/iiif/2/462c6fe2-40a4-ed8d-772c-4fb9ae78265f/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-11723",
+      "title": "化粧する女",
+      "artist": "ベルト・モリゾ",
+      "year": 1880,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/11723",
+      "image": "https://www.artic.edu/iiif/2/78c80988-6524-cec7-c661-a4c0a706d06f/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -151,17 +151,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-76890",
-      "title": "天国の庭で踊り子たちに接待される統治者",
-      "artist": "India",
-      "year": 1800,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/76890",
-      "image": "https://www.artic.edu/iiif/2/c1e17623-1a51-8db0-e1d0-3eee0b41b4b2/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-75557",
       "title": "サアディー「全集」の彩飾写本（漆塗り表紙）",
       "artist": "Iran",
@@ -170,6 +159,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/75557",
       "image": "https://www.artic.edu/iiif/2/6d216d21-f35a-770a-071c-e0304f23b84f/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-76890",
+      "title": "天国の庭で踊り子たちに接待される統治者",
+      "artist": "India",
+      "year": 1800,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/76890",
+      "image": "https://www.artic.edu/iiif/2/c1e17623-1a51-8db0-e1d0-3eee0b41b4b2/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -206,17 +206,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-95654",
-      "title": "湖のほとり",
-      "artist": "ピエール＝オーギュスト・ルノワール",
-      "year": 1880,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/95654",
-      "image": "https://www.artic.edu/iiif/2/26e1c560-acca-3148-46dc-c144ac22bd3e/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-94131",
       "title": "On the Terrace of a Hotel in Bordighera: The Painter Jean Martin Reviews His Bill (Illustration for Edmond Renoir’s “L’étiquette”)",
       "artist": "Pierre Auguste Renoir",
@@ -228,14 +217,14 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-130725",
-      "title": "サアディー「全集」写本の一頁",
-      "artist": "Iran",
-      "year": 1700,
-      "century": "〜17世紀",
+      "id": "artic-95654",
+      "title": "湖のほとり",
+      "artist": "ピエール＝オーギュスト・ルノワール",
+      "year": 1880,
+      "century": "18〜19世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/130725",
-      "image": "https://www.artic.edu/iiif/2/fa298f62-bdfe-67b4-e473-65ad9f656dc1/full/843,/0/default.jpg",
+      "museumUrl": "https://www.artic.edu/artworks/95654",
+      "image": "https://www.artic.edu/iiif/2/26e1c560-acca-3148-46dc-c144ac22bd3e/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -247,6 +236,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/130724",
       "image": "https://www.artic.edu/iiif/2/384aca18-6efc-e76c-5e1e-20fa5f35baca/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-130725",
+      "title": "サアディー「全集」写本の一頁",
+      "artist": "Iran",
+      "year": 1700,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/130725",
+      "image": "https://www.artic.edu/iiif/2/fa298f62-bdfe-67b4-e473-65ad9f656dc1/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -921,6 +921,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-64489",
+      "title": "黒衣の若い女性",
+      "artist": "Robert Henri",
+      "year": 1902,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/64489",
+      "image": "https://www.artic.edu/iiif/2/3edec075-6e0b-0ccc-0036-5328de3e064c/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-109228",
       "title": "ニューポート近郊",
       "artist": "John Frederick Kensett",
@@ -940,17 +951,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/16159",
       "image": "https://www.artic.edu/iiif/2/9ae944b3-dea5-2db5-f090-c266a7d20ea7/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-64489",
-      "title": "黒衣の若い女性",
-      "artist": "Robert Henri",
-      "year": 1902,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/64489",
-      "image": "https://www.artic.edu/iiif/2/3edec075-6e0b-0ccc-0036-5328de3e064c/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1050,6 +1050,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/152437",
       "image": "https://www.artic.edu/iiif/2/efef304d-190c-294f-1cba-73374b3361a3/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-64476",
+      "title": "冬の太陽",
+      "artist": "George Gardner Symons",
+      "year": 1909,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/64476",
+      "image": "https://www.artic.edu/iiif/2/d1cda60c-c21d-9fbc-8195-4e7c3d6e9650/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1391,17 +1402,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/11",
       "image": "https://www.artic.edu/iiif/2/7b7a6f39-1cd8-ea2f-9811-18b0e23edac0/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-64476",
-      "title": "冬の太陽",
-      "artist": "George Gardner Symons",
-      "year": 1909,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/64476",
-      "image": "https://www.artic.edu/iiif/2/d1cda60c-c21d-9fbc-8195-4e7c3d6e9650/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2120,6 +2120,28 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-663",
+      "title": "Alice",
+      "artist": "William Merritt Chase",
+      "year": 1892,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/663",
+      "image": "https://www.artic.edu/iiif/2/91fcc71a-50eb-f418-85f5-d11fc81e8d83/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-117700",
+      "title": "On the Bank",
+      "artist": "Frederick Carl Frieseke",
+      "year": 1915,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/117700",
+      "image": "https://www.artic.edu/iiif/2/be266c25-27f7-38fd-69fa-8efd1b985af2/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-4749",
       "title": "ジョージ・スウィントン夫人（エリザベス・エブズワース）",
       "artist": "ジョン・シンガー・サージェント",
@@ -2491,28 +2513,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/2166",
       "image": "https://www.artic.edu/iiif/2/0b0b5c15-0633-376b-278e-2660f09b582a/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-663",
-      "title": "Alice",
-      "artist": "William Merritt Chase",
-      "year": 1892,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/663",
-      "image": "https://www.artic.edu/iiif/2/91fcc71a-50eb-f418-85f5-d11fc81e8d83/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-117700",
-      "title": "On the Bank",
-      "artist": "Frederick Carl Frieseke",
-      "year": 1915,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/117700",
-      "image": "https://www.artic.edu/iiif/2/be266c25-27f7-38fd-69fa-8efd1b985af2/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
