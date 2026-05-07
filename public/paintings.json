@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-06T01:48:59.818Z",
+  "generated": "2026-05-07T01:53:02.834Z",
   "total": 907,
   "sources": {
     "artic": 356,
@@ -173,17 +173,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-84092",
-      "title": "古代ローマ",
-      "artist": "After Giovanni Paolo Panini",
-      "year": 1760,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/84092",
-      "image": "https://www.artic.edu/iiif/2/99c8eeea-f07a-af30-c79e-1da4d55243a3/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-83613",
       "title": "「イル・マスケローネ」、ボルゲーゼ荘の噴水",
       "artist": "Richard Wilson",
@@ -203,6 +192,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/87088",
       "image": "https://www.artic.edu/iiif/2/8534685d-1102-e1e3-e194-94f6e925e8b0/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-84092",
+      "title": "古代ローマ",
+      "artist": "After Giovanni Paolo Panini",
+      "year": 1760,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/84092",
+      "image": "https://www.artic.edu/iiif/2/99c8eeea-f07a-af30-c79e-1da4d55243a3/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -228,6 +228,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-186418",
+      "title": "ランドールからのムスーリーとドゥーン",
+      "artist": "Joseph Mallord William Turner",
+      "year": 1840,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/186418",
+      "image": "https://www.artic.edu/iiif/2/560ff8f8-8932-6114-54d5-8174144615e5/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-130724",
       "title": "サアディー「全集」写本の一頁",
       "artist": "Iran",
@@ -236,17 +247,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/130724",
       "image": "https://www.artic.edu/iiif/2/384aca18-6efc-e76c-5e1e-20fa5f35baca/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-130725",
-      "title": "サアディー「全集」写本の一頁",
-      "artist": "Iran",
-      "year": 1700,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/130725",
-      "image": "https://www.artic.edu/iiif/2/fa298f62-bdfe-67b4-e473-65ad9f656dc1/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -261,14 +261,14 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-186418",
-      "title": "ランドールからのムスーリーとドゥーン",
-      "artist": "Joseph Mallord William Turner",
-      "year": 1840,
-      "century": "18〜19世紀",
+      "id": "artic-130725",
+      "title": "サアディー「全集」写本の一頁",
+      "artist": "Iran",
+      "year": 1700,
+      "century": "〜17世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/186418",
-      "image": "https://www.artic.edu/iiif/2/560ff8f8-8932-6114-54d5-8174144615e5/full/843,/0/default.jpg",
+      "museumUrl": "https://www.artic.edu/artworks/130725",
+      "image": "https://www.artic.edu/iiif/2/fa298f62-bdfe-67b4-e473-65ad9f656dc1/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1053,15 +1053,15 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-64476",
-      "title": "冬の太陽",
-      "artist": "George Gardner Symons",
-      "year": 1909,
-      "century": "20世紀",
+      "id": "artic-111442",
+      "title": "子供の入浴",
+      "artist": "メアリー・カサット",
+      "year": 1893,
+      "century": "18〜19世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/64476",
-      "image": "https://www.artic.edu/iiif/2/d1cda60c-c21d-9fbc-8195-4e7c3d6e9650/full/843,/0/default.jpg",
-      "wikiUrl": null
+      "museumUrl": "https://www.artic.edu/artworks/111442",
+      "image": "https://www.artic.edu/iiif/2/3b885ae0-4d46-5fe4-d70a-00474827f02c/full/843,/0/default.jpg",
+      "wikiUrl": "https://ja.wikipedia.org/wiki/子供の入浴_(カサット)"
     },
     {
       "id": "artic-80084",
@@ -1072,6 +1072,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/80084",
       "image": "https://www.artic.edu/iiif/2/c8ee825f-bc8c-c76b-1f05-5d692d9a6b47/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-64476",
+      "title": "冬の太陽",
+      "artist": "George Gardner Symons",
+      "year": 1909,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/64476",
+      "image": "https://www.artic.edu/iiif/2/d1cda60c-c21d-9fbc-8195-4e7c3d6e9650/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1106,17 +1117,6 @@
       "museumUrl": "https://www.artic.edu/artworks/14624",
       "image": "https://www.artic.edu/iiif/2/4c364c64-2108-4e19-5fc5-1ab26ba924a7/full/843,/0/default.jpg",
       "wikiUrl": null
-    },
-    {
-      "id": "artic-111442",
-      "title": "子供の入浴",
-      "artist": "メアリー・カサット",
-      "year": 1893,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/111442",
-      "image": "https://www.artic.edu/iiif/2/3b885ae0-4d46-5fe4-d70a-00474827f02c/full/843,/0/default.jpg",
-      "wikiUrl": "https://ja.wikipedia.org/wiki/子供の入浴_(カサット)"
     },
     {
       "id": "artic-64818",
@@ -2120,6 +2120,28 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-110673",
+      "title": "悲しみの聖母",
+      "artist": "Workshop of Dieric Bouts",
+      "year": 1500,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/110673",
+      "image": "https://www.artic.edu/iiif/2/66c1797f-b87e-8736-cdf6-c490bd34863b/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-65925",
+      "title": "ニューイングランドの終わり——ニューメキシコの始まり",
+      "artist": "Marsden Hartley",
+      "year": 1919,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/65925",
+      "image": "https://www.artic.edu/iiif/2/63692198-8ab4-4747-7038-6d5278cff867/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-663",
       "title": "Alice",
       "artist": "William Merritt Chase",
@@ -2472,17 +2494,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-65925",
-      "title": "ニューイングランドの終わり——ニューメキシコの始まり",
-      "artist": "Marsden Hartley",
-      "year": 1919,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/65925",
-      "image": "https://www.artic.edu/iiif/2/63692198-8ab4-4747-7038-6d5278cff867/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-53495",
       "title": "A Witches' Sabbath",
       "artist": "Cornelis Saftleven",
@@ -2623,17 +2634,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/886",
       "image": "https://www.artic.edu/iiif/2/8b526140-7667-b1df-97bb-2d0f6e1be095/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-110673",
-      "title": "悲しみの聖母",
-      "artist": "Workshop of Dieric Bouts",
-      "year": 1500,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/110673",
-      "image": "https://www.artic.edu/iiif/2/66c1797f-b87e-8736-cdf6-c490bd34863b/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2923,6 +2923,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-26650",
+      "title": "On a Balcony",
+      "artist": "メアリー・カサット",
+      "year": 1879,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/26650",
+      "image": "https://www.artic.edu/iiif/2/f0150d21-33ab-f6ea-0d4d-32d459f091fe/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-18951",
       "title": "Yellow Dancers (In the Wings)",
       "artist": "エドガー・ドガ",
@@ -3041,17 +3052,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/65509",
       "image": "https://www.artic.edu/iiif/2/75886aaa-002a-2047-a05c-baf73f0ac093/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-26650",
-      "title": "On a Balcony",
-      "artist": "メアリー・カサット",
-      "year": 1879,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/26650",
-      "image": "https://www.artic.edu/iiif/2/f0150d21-33ab-f6ea-0d4d-32d459f091fe/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
