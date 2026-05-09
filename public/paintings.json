@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-08T01:58:08.427Z",
+  "generated": "2026-05-09T01:52:12.247Z",
   "total": 907,
   "sources": {
     "artic": 356,
@@ -151,17 +151,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-76890",
-      "title": "天国の庭で踊り子たちに接待される統治者",
-      "artist": "India",
-      "year": 1800,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/76890",
-      "image": "https://www.artic.edu/iiif/2/c1e17623-1a51-8db0-e1d0-3eee0b41b4b2/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-75557",
       "title": "サアディー「全集」の彩飾写本（漆塗り表紙）",
       "artist": "Iran",
@@ -173,14 +162,14 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-83613",
-      "title": "「イル・マスケローネ」、ボルゲーゼ荘の噴水",
-      "artist": "Richard Wilson",
-      "year": 1759,
+      "id": "artic-76890",
+      "title": "天国の庭で踊り子たちに接待される統治者",
+      "artist": "India",
+      "year": 1800,
       "century": "18〜19世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/83613",
-      "image": "https://www.artic.edu/iiif/2/2efb0b9d-04a4-390e-752b-fdb9602e017f/full/843,/0/default.jpg",
+      "museumUrl": "https://www.artic.edu/artworks/76890",
+      "image": "https://www.artic.edu/iiif/2/c1e17623-1a51-8db0-e1d0-3eee0b41b4b2/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -192,6 +181,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/84092",
       "image": "https://www.artic.edu/iiif/2/99c8eeea-f07a-af30-c79e-1da4d55243a3/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-83613",
+      "title": "「イル・マスケローネ」、ボルゲーゼ荘の噴水",
+      "artist": "Richard Wilson",
+      "year": 1759,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/83613",
+      "image": "https://www.artic.edu/iiif/2/2efb0b9d-04a4-390e-752b-fdb9602e017f/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -921,6 +921,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-107939",
+      "title": "ノア・スミス夫人と家族",
+      "artist": "Attributed to Ezra Ames",
+      "year": 1830,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/107939",
+      "image": "https://www.artic.edu/iiif/2/68415b1d-baec-303a-1c09-4c6b7ccb575c/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-64489",
       "title": "黒衣の若い女性",
       "artist": "Robert Henri",
@@ -951,17 +962,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/16159",
       "image": "https://www.artic.edu/iiif/2/9ae944b3-dea5-2db5-f090-c266a7d20ea7/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-107939",
-      "title": "ノア・スミス夫人と家族",
-      "artist": "Attributed to Ezra Ames",
-      "year": 1830,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/107939",
-      "image": "https://www.artic.edu/iiif/2/68415b1d-baec-303a-1c09-4c6b7ccb575c/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1050,6 +1050,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/152437",
       "image": "https://www.artic.edu/iiif/2/efef304d-190c-294f-1cba-73374b3361a3/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-9",
+      "title": "ヴェネツィア、サン・マルコ寺院の内部",
+      "artist": "David Dalhoff Neal",
+      "year": 1869,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/9",
+      "image": "https://www.artic.edu/iiif/2/b55d836c-ee20-59f8-1f0c-a95e09905361/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1358,17 +1369,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/2156",
       "image": "https://www.artic.edu/iiif/2/438fbefa-e576-bd5f-983f-1c9626cd4a60/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-9",
-      "title": "ヴェネツィア、サン・マルコ寺院の内部",
-      "artist": "David Dalhoff Neal",
-      "year": 1869,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/9",
-      "image": "https://www.artic.edu/iiif/2/b55d836c-ee20-59f8-1f0c-a95e09905361/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2142,6 +2142,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-65920",
+      "title": "プロビンスタウン",
+      "artist": "Marsden Hartley",
+      "year": 1916,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/65920",
+      "image": "https://www.artic.edu/iiif/2/f534bce3-4746-cba6-6c46-c37a7c9199fb/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-663",
       "title": "Alice",
       "artist": "William Merritt Chase",
@@ -2326,17 +2337,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/15401",
       "image": "https://www.artic.edu/iiif/2/b146368d-a855-63ac-6115-04b835c60bb0/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-65920",
-      "title": "プロビンスタウン",
-      "artist": "Marsden Hartley",
-      "year": 1916,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/65920",
-      "image": "https://www.artic.edu/iiif/2/f534bce3-4746-cba6-6c46-c37a7c9199fb/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
