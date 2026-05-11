@@ -283,7 +283,7 @@ function updateFilterOptions() {
         const key = `${(p.title||'').trim()}__${(p.artist||'').trim()}`;
         return !existingIds.has(p.id) && !existingKeys.has(key);
       });
-      allPaintings = [...allPaintings, ...newFamous];
+      allPaintings = [...allPaintings, ...newFamous.sort(() => Math.random() - 0.5)];
       updateFilterOptions();
     }
 
