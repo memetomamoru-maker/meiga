@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-11T02:00:22.842Z",
+  "generated": "2026-05-12T01:58:00.880Z",
   "total": 907,
   "sources": {
     "artic": 356,
@@ -129,17 +129,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-70593",
-      "title": "庭園の情景",
-      "artist": "Iran",
-      "year": 1480,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/70593",
-      "image": "https://www.artic.edu/iiif/2/85309ed9-b889-16fb-2fc7-57f1c97c3820/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-68433",
       "title": "パリ郊外の製材所",
       "artist": "Henri Rousseau",
@@ -151,14 +140,14 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-75557",
-      "title": "サアディー「全集」の彩飾写本（漆塗り表紙）",
+      "id": "artic-70593",
+      "title": "庭園の情景",
       "artist": "Iran",
-      "year": 1700,
+      "year": 1480,
       "century": "〜17世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/75557",
-      "image": "https://www.artic.edu/iiif/2/6d216d21-f35a-770a-071c-e0304f23b84f/full/843,/0/default.jpg",
+      "museumUrl": "https://www.artic.edu/artworks/70593",
+      "image": "https://www.artic.edu/iiif/2/85309ed9-b889-16fb-2fc7-57f1c97c3820/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -173,14 +162,14 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-83613",
-      "title": "「イル・マスケローネ」、ボルゲーゼ荘の噴水",
-      "artist": "Richard Wilson",
-      "year": 1759,
-      "century": "18〜19世紀",
+      "id": "artic-75557",
+      "title": "サアディー「全集」の彩飾写本（漆塗り表紙）",
+      "artist": "Iran",
+      "year": 1700,
+      "century": "〜17世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/83613",
-      "image": "https://www.artic.edu/iiif/2/2efb0b9d-04a4-390e-752b-fdb9602e017f/full/843,/0/default.jpg",
+      "museumUrl": "https://www.artic.edu/artworks/75557",
+      "image": "https://www.artic.edu/iiif/2/6d216d21-f35a-770a-071c-e0304f23b84f/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -192,6 +181,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/84092",
       "image": "https://www.artic.edu/iiif/2/99c8eeea-f07a-af30-c79e-1da4d55243a3/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-83613",
+      "title": "「イル・マスケローネ」、ボルゲーゼ荘の噴水",
+      "artist": "Richard Wilson",
+      "year": 1759,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/83613",
+      "image": "https://www.artic.edu/iiif/2/2efb0b9d-04a4-390e-752b-fdb9602e017f/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -228,6 +228,28 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-186418",
+      "title": "ランドールからのムスーリーとドゥーン",
+      "artist": "Joseph Mallord William Turner",
+      "year": 1840,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/186418",
+      "image": "https://www.artic.edu/iiif/2/560ff8f8-8932-6114-54d5-8174144615e5/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-130725",
+      "title": "サアディー「全集」写本の一頁",
+      "artist": "Iran",
+      "year": 1700,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/130725",
+      "image": "https://www.artic.edu/iiif/2/fa298f62-bdfe-67b4-e473-65ad9f656dc1/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-130724",
       "title": "サアディー「全集」写本の一頁",
       "artist": "Iran",
@@ -247,28 +269,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/131827",
       "image": "https://www.artic.edu/iiif/2/5744228e-f41d-f2ae-b67c-94ec7959766c/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-130725",
-      "title": "サアディー「全集」写本の一頁",
-      "artist": "Iran",
-      "year": 1700,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/130725",
-      "image": "https://www.artic.edu/iiif/2/fa298f62-bdfe-67b4-e473-65ad9f656dc1/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-186418",
-      "title": "ランドールからのムスーリーとドゥーン",
-      "artist": "Joseph Mallord William Turner",
-      "year": 1840,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/186418",
-      "image": "https://www.artic.edu/iiif/2/560ff8f8-8932-6114-54d5-8174144615e5/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -778,17 +778,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-111436",
-      "title": "りんごの籠",
-      "artist": "Paul Cezanne",
-      "year": 1900,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/111436",
-      "image": "https://www.artic.edu/iiif/2/52ac8996-3460-cf71-cb42-5c4d0aa29b74/full/843,/0/default.jpg",
-      "wikiUrl": "https://ja.wikipedia.org/wiki/りんごの籠_(セザンヌ)"
-    },
-    {
       "id": "artic-94841",
       "title": "ひばりの歌",
       "artist": "Jules Breton",
@@ -798,6 +787,17 @@
       "museumUrl": "https://www.artic.edu/artworks/94841",
       "image": "https://www.artic.edu/iiif/2/48b2de88-ba73-8e19-f448-d1cef4a1c847/full/843,/0/default.jpg",
       "wikiUrl": null
+    },
+    {
+      "id": "artic-111436",
+      "title": "りんごの籠",
+      "artist": "Paul Cezanne",
+      "year": 1900,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/111436",
+      "image": "https://www.artic.edu/iiif/2/52ac8996-3460-cf71-cb42-5c4d0aa29b74/full/843,/0/default.jpg",
+      "wikiUrl": "https://ja.wikipedia.org/wiki/りんごの籠_(セザンヌ)"
     },
     {
       "id": "artic-160229",
@@ -1581,6 +1581,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-6005",
+      "title": "The Banks of the Marne in Winter",
+      "artist": "カミーユ・ピサロ",
+      "year": 1866,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/6005",
+      "image": "https://www.artic.edu/iiif/2/3d950ecc-73f4-c28a-f216-0940b23fa5e8/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-20579",
       "title": "ヘラクレスとレルネーのヒュドラ",
       "artist": "Gustave Moreau",
@@ -1809,17 +1820,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/97933",
       "image": "https://www.artic.edu/iiif/2/7a23ad22-2044-6d7d-6315-9b101dadc559/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-6005",
-      "title": "The Banks of the Marne in Winter",
-      "artist": "カミーユ・ピサロ",
-      "year": 1866,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/6005",
-      "image": "https://www.artic.edu/iiif/2/3d950ecc-73f4-c28a-f216-0940b23fa5e8/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -4463,17 +4463,6 @@
       "wikiUrl": null
     },
     {
-      "id": "cma-92936",
-      "title": "メイン海岸",
-      "artist": "Rockwell Kent",
-      "year": 1907,
-      "century": "20世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1922.1132",
-      "image": "https://openaccess-cdn.clevelandart.org/1922.1132/1922.1132_web.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "cma-172828",
       "title": "ハドソン川の休日",
       "artist": "George Luks",
@@ -4669,6 +4658,17 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/1980.202",
       "image": "https://openaccess-cdn.clevelandart.org/1980.202/1980.202_web.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "cma-92936",
+      "title": "メイン海岸",
+      "artist": "Rockwell Kent",
+      "year": 1907,
+      "century": "20世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/1922.1132",
+      "image": "https://openaccess-cdn.clevelandart.org/1922.1132/1922.1132_web.jpg",
       "wikiUrl": null
     },
     {
@@ -7323,17 +7323,6 @@
       "wikiUrl": null
     },
     {
-      "id": "cma-150353",
-      "title": "Ruins of an Ancient City",
-      "artist": "John Martin",
-      "year": 1810,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1981.13",
-      "image": "https://openaccess-cdn.clevelandart.org/1981.13/1981.13_web.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "cma-167142",
       "title": "男性の肖像",
       "artist": "ギュスターヴ・カイユボット",
@@ -7562,17 +7551,6 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/1982.124",
       "image": "https://openaccess-cdn.clevelandart.org/1982.124/1982.124_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-148971",
-      "title": "Glaucus and Nydia",
-      "artist": "Lawrence Alma-Tadema",
-      "year": 1867,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1977.128",
-      "image": "https://openaccess-cdn.clevelandart.org/1977.128/1977.128_web.jpg",
       "wikiUrl": null
     },
     {
@@ -7892,6 +7870,17 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/1916.1027",
       "image": "https://openaccess-cdn.clevelandart.org/1916.1027/1916.1027_web.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "cma-150353",
+      "title": "Ruins of an Ancient City",
+      "artist": "John Martin",
+      "year": 1810,
+      "century": "18〜19世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/1981.13",
+      "image": "https://openaccess-cdn.clevelandart.org/1981.13/1981.13_web.jpg",
       "wikiUrl": null
     },
     {
@@ -8244,6 +8233,17 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/1986.73",
       "image": "https://openaccess-cdn.clevelandart.org/1986.73/1986.73_web.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "cma-148971",
+      "title": "Glaucus and Nydia",
+      "artist": "Lawrence Alma-Tadema",
+      "year": 1867,
+      "century": "18〜19世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/1977.128",
+      "image": "https://openaccess-cdn.clevelandart.org/1977.128/1977.128_web.jpg",
       "wikiUrl": null
     },
     {
