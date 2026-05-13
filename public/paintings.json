@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-12T01:58:00.880Z",
+  "generated": "2026-05-13T02:02:25.046Z",
   "total": 907,
   "sources": {
     "artic": 356,
@@ -151,17 +151,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-76890",
-      "title": "天国の庭で踊り子たちに接待される統治者",
-      "artist": "India",
-      "year": 1800,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/76890",
-      "image": "https://www.artic.edu/iiif/2/c1e17623-1a51-8db0-e1d0-3eee0b41b4b2/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-75557",
       "title": "サアディー「全集」の彩飾写本（漆塗り表紙）",
       "artist": "Iran",
@@ -173,14 +162,14 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-84092",
-      "title": "古代ローマ",
-      "artist": "After Giovanni Paolo Panini",
-      "year": 1760,
+      "id": "artic-76890",
+      "title": "天国の庭で踊り子たちに接待される統治者",
+      "artist": "India",
+      "year": 1800,
       "century": "18〜19世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/84092",
-      "image": "https://www.artic.edu/iiif/2/99c8eeea-f07a-af30-c79e-1da4d55243a3/full/843,/0/default.jpg",
+      "museumUrl": "https://www.artic.edu/artworks/76890",
+      "image": "https://www.artic.edu/iiif/2/c1e17623-1a51-8db0-e1d0-3eee0b41b4b2/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -192,6 +181,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/83613",
       "image": "https://www.artic.edu/iiif/2/2efb0b9d-04a4-390e-752b-fdb9602e017f/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-84092",
+      "title": "古代ローマ",
+      "artist": "After Giovanni Paolo Panini",
+      "year": 1760,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/84092",
+      "image": "https://www.artic.edu/iiif/2/99c8eeea-f07a-af30-c79e-1da4d55243a3/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -228,14 +228,14 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-186418",
-      "title": "ランドールからのムスーリーとドゥーン",
-      "artist": "Joseph Mallord William Turner",
-      "year": 1840,
-      "century": "18〜19世紀",
+      "id": "artic-130724",
+      "title": "サアディー「全集」写本の一頁",
+      "artist": "Iran",
+      "year": 1700,
+      "century": "〜17世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/186418",
-      "image": "https://www.artic.edu/iiif/2/560ff8f8-8932-6114-54d5-8174144615e5/full/843,/0/default.jpg",
+      "museumUrl": "https://www.artic.edu/artworks/130724",
+      "image": "https://www.artic.edu/iiif/2/384aca18-6efc-e76c-5e1e-20fa5f35baca/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -250,17 +250,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-130724",
-      "title": "サアディー「全集」写本の一頁",
-      "artist": "Iran",
-      "year": 1700,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/130724",
-      "image": "https://www.artic.edu/iiif/2/384aca18-6efc-e76c-5e1e-20fa5f35baca/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-131827",
       "title": "ハーフィズの詩集",
       "artist": "Iran",
@@ -269,6 +258,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/131827",
       "image": "https://www.artic.edu/iiif/2/5744228e-f41d-f2ae-b67c-94ec7959766c/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-186418",
+      "title": "ランドールからのムスーリーとドゥーン",
+      "artist": "Joseph Mallord William Turner",
+      "year": 1840,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/186418",
+      "image": "https://www.artic.edu/iiif/2/560ff8f8-8932-6114-54d5-8174144615e5/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -811,6 +811,28 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-185775",
+      "title": "フィレンツェ近郊の別荘の庭",
+      "artist": "Richard Parkes Bonington",
+      "year": 1826,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/185775",
+      "image": "https://www.artic.edu/iiif/2/26421d10-27fc-e656-613d-12f4f2a20381/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-216794",
+      "title": "読書する若い聖職者",
+      "artist": "Martin Rørbye",
+      "year": 1836,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/216794",
+      "image": "https://www.artic.edu/iiif/2/462bae40-e526-294c-4639-a3c360dfa94e/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-110663",
       "title": "ジャウルとハッサンの格闘",
       "artist": "ウジェーヌ・ドラクロワ",
@@ -844,17 +866,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-216794",
-      "title": "読書する若い聖職者",
-      "artist": "Martin Rørbye",
-      "year": 1836,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/216794",
-      "image": "https://www.artic.edu/iiif/2/462bae40-e526-294c-4639-a3c360dfa94e/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-250450",
       "title": "アリッチャのキージ荘の公園の階段",
       "artist": "Alexandre Calame",
@@ -874,17 +885,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/181478",
       "image": "https://www.artic.edu/iiif/2/399332e9-94a4-64ac-4ed2-040647b2ca80/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-185775",
-      "title": "フィレンツェ近郊の別荘の庭",
-      "artist": "Richard Parkes Bonington",
-      "year": 1826,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/185775",
-      "image": "https://www.artic.edu/iiif/2/26421d10-27fc-e656-613d-12f4f2a20381/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1050,6 +1050,28 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/152437",
       "image": "https://www.artic.edu/iiif/2/efef304d-190c-294f-1cba-73374b3361a3/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-11",
+      "title": "自画像",
+      "artist": "Walter Shirlaw",
+      "year": 1878,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/11",
+      "image": "https://www.artic.edu/iiif/2/7b7a6f39-1cd8-ea2f-9811-18b0e23edac0/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-100476",
+      "title": "カバッソンの海岸（バーニュ・キュル）",
+      "artist": "Henri Edmond Cross",
+      "year": 1892,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/100476",
+      "image": "https://www.artic.edu/iiif/2/16e53257-ade2-4f5d-3521-2bc9666bc4cf/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1394,17 +1416,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-11",
-      "title": "自画像",
-      "artist": "Walter Shirlaw",
-      "year": 1878,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/11",
-      "image": "https://www.artic.edu/iiif/2/7b7a6f39-1cd8-ea2f-9811-18b0e23edac0/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-196282",
       "title": "The Prairie on Fire",
       "artist": "Alvan Fisher",
@@ -1545,17 +1556,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/898",
       "image": "https://www.artic.edu/iiif/2/e204d686-0e19-c10c-cf72-1000aae5be4a/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-100476",
-      "title": "カバッソンの海岸（バーニュ・キュル）",
-      "artist": "Henri Edmond Cross",
-      "year": 1892,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/100476",
-      "image": "https://www.artic.edu/iiif/2/16e53257-ade2-4f5d-3521-2bc9666bc4cf/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2923,6 +2923,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-97910",
+      "title": "The Advance-Guard, or The Military Sacrifice (The Ambush)",
+      "artist": "Frederic Remington",
+      "year": 1890,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/97910",
+      "image": "https://www.artic.edu/iiif/2/f1e03813-f9c7-f4f8-fbe8-a5eeae84fda4/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-26650",
       "title": "On a Balcony",
       "artist": "メアリー・カサット",
@@ -3085,17 +3096,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/8987",
       "image": "https://www.artic.edu/iiif/2/c68f33ec-feb1-5277-334b-b71ac15ae394/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-97910",
-      "title": "The Advance-Guard, or The Military Sacrifice (The Ambush)",
-      "artist": "Frederic Remington",
-      "year": 1890,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/97910",
-      "image": "https://www.artic.edu/iiif/2/f1e03813-f9c7-f4f8-fbe8-a5eeae84fda4/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -4463,6 +4463,17 @@
       "wikiUrl": null
     },
     {
+      "id": "cma-92936",
+      "title": "メイン海岸",
+      "artist": "Rockwell Kent",
+      "year": 1907,
+      "century": "20世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/1922.1132",
+      "image": "https://openaccess-cdn.clevelandart.org/1922.1132/1922.1132_web.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "cma-172828",
       "title": "ハドソン川の休日",
       "artist": "George Luks",
@@ -4658,17 +4669,6 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/1980.202",
       "image": "https://openaccess-cdn.clevelandart.org/1980.202/1980.202_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-92936",
-      "title": "メイン海岸",
-      "artist": "Rockwell Kent",
-      "year": 1907,
-      "century": "20世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1922.1132",
-      "image": "https://openaccess-cdn.clevelandart.org/1922.1132/1922.1132_web.jpg",
       "wikiUrl": null
     },
     {
@@ -8302,17 +8302,6 @@
       "wikiUrl": null
     },
     {
-      "id": "cma-149565",
-      "title": "Self-Portrait with Hat and Coat",
-      "artist": "ロヴィス・コリント",
-      "year": 1915,
-      "century": "20世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1979.14",
-      "image": "https://openaccess-cdn.clevelandart.org/1979.14/1979.14_web.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "cma-118604",
       "title": "Study of a Reclining Nude",
       "artist": "Isidore Pils",
@@ -8838,6 +8827,17 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/1977.126",
       "image": "https://openaccess-cdn.clevelandart.org/1977.126/1977.126_web.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "cma-149565",
+      "title": "Self-Portrait with Hat and Coat",
+      "artist": "ロヴィス・コリント",
+      "year": 1915,
+      "century": "20世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/1979.14",
+      "image": "https://openaccess-cdn.clevelandart.org/1979.14/1979.14_web.jpg",
       "wikiUrl": null
     },
     {
