@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-13T02:02:25.046Z",
+  "generated": "2026-05-14T02:04:44.879Z",
   "total": 907,
   "sources": {
     "artic": 356,
@@ -7,6 +7,17 @@
     "cma": 525
   },
   "paintings": [
+    {
+      "id": "artic-14630",
+      "title": "ヴェネツィア、パラッツォ・ダリオ",
+      "artist": "クロード・モネ",
+      "year": 1908,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/14630",
+      "image": "https://www.artic.edu/iiif/2/64c38f6d-f0d5-b553-a27e-3552550f351a/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
     {
       "id": "artic-9637",
       "title": "イタリアの別荘と庭園（バチカンのベルヴェデーレ）",
@@ -38,17 +49,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/14591",
       "image": "https://www.artic.edu/iiif/2/fd991fea-0c13-8444-7879-aba467f1d9db/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-14630",
-      "title": "ヴェネツィア、パラッツォ・ダリオ",
-      "artist": "クロード・モネ",
-      "year": 1908,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/14630",
-      "image": "https://www.artic.edu/iiif/2/64c38f6d-f0d5-b553-a27e-3552550f351a/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -206,17 +206,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-94131",
-      "title": "On the Terrace of a Hotel in Bordighera: The Painter Jean Martin Reviews His Bill (Illustration for Edmond Renoir’s “L’étiquette”)",
-      "artist": "Pierre Auguste Renoir",
-      "year": 1883,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/94131",
-      "image": "https://www.artic.edu/iiif/2/e406e261-8d27-d3b5-658d-751d79d03ff2/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-95654",
       "title": "湖のほとり",
       "artist": "ピエール＝オーギュスト・ルノワール",
@@ -225,6 +214,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/95654",
       "image": "https://www.artic.edu/iiif/2/26e1c560-acca-3148-46dc-c144ac22bd3e/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-94131",
+      "title": "On the Terrace of a Hotel in Bordighera: The Painter Jean Martin Reviews His Bill (Illustration for Edmond Renoir’s “L’étiquette”)",
+      "artist": "Pierre Auguste Renoir",
+      "year": 1883,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/94131",
+      "image": "https://www.artic.edu/iiif/2/e406e261-8d27-d3b5-658d-751d79d03ff2/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -811,6 +811,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-110663",
+      "title": "ジャウルとハッサンの格闘",
+      "artist": "ウジェーヌ・ドラクロワ",
+      "year": 1826,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/110663",
+      "image": "https://www.artic.edu/iiif/2/ae0793ac-8ace-6c4a-84d4-a33162ae6832/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-185775",
       "title": "フィレンツェ近郊の別荘の庭",
       "artist": "Richard Parkes Bonington",
@@ -830,17 +841,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/216794",
       "image": "https://www.artic.edu/iiif/2/462bae40-e526-294c-4639-a3c360dfa94e/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-110663",
-      "title": "ジャウルとハッサンの格闘",
-      "artist": "ウジェーヌ・ドラクロワ",
-      "year": 1826,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/110663",
-      "image": "https://www.artic.edu/iiif/2/ae0793ac-8ace-6c4a-84d4-a33162ae6832/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1053,6 +1053,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-80084",
+      "title": "磔刑",
+      "artist": "Francisco de Zurbarán",
+      "year": 1627,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/80084",
+      "image": "https://www.artic.edu/iiif/2/c8ee825f-bc8c-c76b-1f05-5d692d9a6b47/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-11",
       "title": "自画像",
       "artist": "Walter Shirlaw",
@@ -1072,17 +1083,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/100476",
       "image": "https://www.artic.edu/iiif/2/16e53257-ade2-4f5d-3521-2bc9666bc4cf/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-80084",
-      "title": "磔刑",
-      "artist": "Francisco de Zurbarán",
-      "year": 1627,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/80084",
-      "image": "https://www.artic.edu/iiif/2/c8ee825f-bc8c-c76b-1f05-5d692d9a6b47/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1581,6 +1581,61 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-4796",
+      "title": "魚を買い交渉する行商人のいる漁船",
+      "artist": "Joseph Mallord William Turner",
+      "year": 1842,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/4796",
+      "image": "https://www.artic.edu/iiif/2/8641479e-c93e-f1a8-9925-19be061706da/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-44739",
+      "title": "娘に口述するミルトン",
+      "artist": "Henry Fuseli",
+      "year": 1793,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/44739",
+      "image": "https://www.artic.edu/iiif/2/6006b9e7-567a-4fb8-34e2-a120886690fe/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-57996",
+      "title": "ヴェスヴィオ火山の噴火",
+      "artist": "Pierre-Jacques Volaire",
+      "year": 1771,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/57996",
+      "image": "https://www.artic.edu/iiif/2/6a676ee7-39c0-0b88-c37e-36ba0c5e3065/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-116101",
+      "title": "ダンテ「地獄篇」より呪われた魂の頭部",
+      "artist": "Henry Fuseli",
+      "year": 1778,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/116101",
+      "image": "https://www.artic.edu/iiif/2/e1e16ea4-4f55-e222-7f36-561eab6c68bd/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-193664",
+      "title": "囚われた奴隷（アイラ・オールドリッジ）",
+      "artist": "John Philip Simpson",
+      "year": 1827,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/193664",
+      "image": "https://www.artic.edu/iiif/2/5490fd49-dd52-4fd7-7d41-d871dcffae55/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-6005",
       "title": "The Banks of the Marne in Winter",
       "artist": "カミーユ・ピサロ",
@@ -1611,17 +1666,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/25865",
       "image": "https://www.artic.edu/iiif/2/5dca7347-c6dc-24dd-d073-d705b9cdc575/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-57996",
-      "title": "ヴェスヴィオ火山の噴火",
-      "artist": "Pierre-Jacques Volaire",
-      "year": 1771,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/57996",
-      "image": "https://www.artic.edu/iiif/2/6a676ee7-39c0-0b88-c37e-36ba0c5e3065/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1856,17 +1900,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-44739",
-      "title": "娘に口述するミルトン",
-      "artist": "Henry Fuseli",
-      "year": 1793,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/44739",
-      "image": "https://www.artic.edu/iiif/2/6006b9e7-567a-4fb8-34e2-a120886690fe/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-19336",
       "title": "復活",
       "artist": "Cecco del Caravaggio",
@@ -1886,17 +1919,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/87643",
       "image": "https://www.artic.edu/iiif/2/46ff0699-8905-a7d7-92f3-5210c2cc5e51/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-193664",
-      "title": "囚われた奴隷（アイラ・オールドリッジ）",
-      "artist": "John Philip Simpson",
-      "year": 1827,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/193664",
-      "image": "https://www.artic.edu/iiif/2/5490fd49-dd52-4fd7-7d41-d871dcffae55/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1952,17 +1974,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/15705",
       "image": "https://www.artic.edu/iiif/2/f117b976-3897-fbbd-7a1f-ac8a5ccbfa51/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-4796",
-      "title": "魚を買い交渉する行商人のいる漁船",
-      "artist": "Joseph Mallord William Turner",
-      "year": 1842,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/4796",
-      "image": "https://www.artic.edu/iiif/2/8641479e-c93e-f1a8-9925-19be061706da/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2087,17 +2098,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-116101",
-      "title": "ダンテ「地獄篇」より呪われた魂の頭部",
-      "artist": "Henry Fuseli",
-      "year": 1778,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/116101",
-      "image": "https://www.artic.edu/iiif/2/e1e16ea4-4f55-e222-7f36-561eab6c68bd/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-889",
       "title": "嵐の前に逃げる帆船",
       "artist": "Jules Dupré",
@@ -2128,6 +2128,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/110673",
       "image": "https://www.artic.edu/iiif/2/66c1797f-b87e-8736-cdf6-c490bd34863b/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-44892",
+      "title": "魚（静物）",
+      "artist": "エドゥアール・マネ",
+      "year": 1864,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/44892",
+      "image": "https://www.artic.edu/iiif/2/0cbe27e8-2fec-3445-bc48-ce40a8f2dc25/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2205,17 +2216,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/146701",
       "image": "https://www.artic.edu/iiif/2/d55b0cfc-0716-d6cd-3b38-5742903ce046/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-44892",
-      "title": "魚（静物）",
-      "artist": "エドゥアール・マネ",
-      "year": 1864,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/44892",
-      "image": "https://www.artic.edu/iiif/2/0cbe27e8-2fec-3445-bc48-ce40a8f2dc25/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2670,6 +2670,39 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-81503",
+      "title": "ライオンに襲われるアラブの騎手",
+      "artist": "ウジェーヌ・ドラクロワ",
+      "year": 1850,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/81503",
+      "image": "https://www.artic.edu/iiif/2/c4b0d9da-e89a-df7f-904a-9550697c11f5/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-16362",
+      "title": "Friar Pedro Shoots El Maragato as His Horse Runs Off",
+      "artist": "Francisco José de Goya y Lucientes",
+      "year": 1811,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/16362",
+      "image": "https://www.artic.edu/iiif/2/622998f1-73f9-4c96-08cf-60bda7c9ce4b/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-119264",
+      "title": "Head of a Guillotined Man",
+      "artist": "Jean Louis André Théodore Géricault",
+      "year": 1818,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/119264",
+      "image": "https://www.artic.edu/iiif/2/2b1cba5a-f194-266b-5357-b437fada0b3b/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-22857",
       "title": "楽園の庭",
       "artist": "Workshop of Hieronymus Bosch",
@@ -2755,17 +2788,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/100342",
       "image": "https://www.artic.edu/iiif/2/8df04a6e-cc79-491b-86d4-388c2b33d888/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-81503",
-      "title": "ライオンに襲われるアラブの騎手",
-      "artist": "ウジェーヌ・ドラクロワ",
-      "year": 1850,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/81503",
-      "image": "https://www.artic.edu/iiif/2/c4b0d9da-e89a-df7f-904a-9550697c11f5/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2890,17 +2912,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-16362",
-      "title": "Friar Pedro Shoots El Maragato as His Horse Runs Off",
-      "artist": "Francisco José de Goya y Lucientes",
-      "year": 1811,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/16362",
-      "image": "https://www.artic.edu/iiif/2/622998f1-73f9-4c96-08cf-60bda7c9ce4b/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-893",
       "title": "風景画",
       "artist": "Théodore Rousseau",
@@ -2912,14 +2923,25 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-119264",
-      "title": "Head of a Guillotined Man",
-      "artist": "Jean Louis André Théodore Géricault",
-      "year": 1818,
+      "id": "artic-81505",
+      "title": "Lion Hunt",
+      "artist": "ウジェーヌ・ドラクロワ",
+      "year": 1861,
       "century": "18〜19世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/119264",
-      "image": "https://www.artic.edu/iiif/2/2b1cba5a-f194-266b-5357-b437fada0b3b/full/843,/0/default.jpg",
+      "museumUrl": "https://www.artic.edu/artworks/81505",
+      "image": "https://www.artic.edu/iiif/2/1299b0e5-6a3d-8039-087b-35bf03caea1a/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-111317",
+      "title": "アメデー・ダヴィッド、パストレ伯爵",
+      "artist": "ジャン＝オーギュスト＝ドミニク・アングル",
+      "year": 1826,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/111317",
+      "image": "https://www.artic.edu/iiif/2/8d119fd0-2f57-f20e-a3f5-a573904001e9/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -3176,17 +3198,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-111317",
-      "title": "アメデー・ダヴィッド、パストレ伯爵",
-      "artist": "ジャン＝オーギュスト＝ドミニク・アングル",
-      "year": 1826,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/111317",
-      "image": "https://www.artic.edu/iiif/2/8d119fd0-2f57-f20e-a3f5-a573904001e9/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-44018",
       "title": "Croquet Scene",
       "artist": "ウィンスロー・ホーマー",
@@ -3239,17 +3250,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/5349",
       "image": "https://www.artic.edu/iiif/2/f72dbf42-8655-8788-d899-9e87a0466d28/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-81505",
-      "title": "Lion Hunt",
-      "artist": "ウジェーヌ・ドラクロワ",
-      "year": 1861,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/81505",
-      "image": "https://www.artic.edu/iiif/2/1299b0e5-6a3d-8039-087b-35bf03caea1a/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
