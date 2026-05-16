@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-15T02:02:46.319Z",
+  "generated": "2026-05-16T01:55:46.095Z",
   "total": 907,
   "sources": {
     "artic": 356,
@@ -7,6 +7,17 @@
     "cma": 525
   },
   "paintings": [
+    {
+      "id": "artic-9637",
+      "title": "イタリアの別荘と庭園（バチカンのベルヴェデーレ）",
+      "artist": "Jean Jacques de Boissieu",
+      "year": 1799,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/9637",
+      "image": "https://www.artic.edu/iiif/2/462c6fe2-40a4-ed8d-772c-4fb9ae78265f/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
     {
       "id": "artic-11723",
       "title": "化粧する女",
@@ -27,17 +38,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/14591",
       "image": "https://www.artic.edu/iiif/2/fd991fea-0c13-8444-7879-aba467f1d9db/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-9637",
-      "title": "イタリアの別荘と庭園（バチカンのベルヴェデーレ）",
-      "artist": "Jean Jacques de Boissieu",
-      "year": 1799,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/9637",
-      "image": "https://www.artic.edu/iiif/2/462c6fe2-40a4-ed8d-772c-4fb9ae78265f/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -129,17 +129,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-68433",
-      "title": "パリ郊外の製材所",
-      "artist": "Henri Rousseau",
-      "year": 1895,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/68433",
-      "image": "https://www.artic.edu/iiif/2/3826e366-e82a-e853-12e4-b303a1618103/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-70593",
       "title": "庭園の情景",
       "artist": "Iran",
@@ -148,6 +137,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/70593",
       "image": "https://www.artic.edu/iiif/2/85309ed9-b889-16fb-2fc7-57f1c97c3820/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-68433",
+      "title": "パリ郊外の製材所",
+      "artist": "Henri Rousseau",
+      "year": 1895,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/68433",
+      "image": "https://www.artic.edu/iiif/2/3826e366-e82a-e853-12e4-b303a1618103/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -184,17 +184,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-87088",
-      "title": "睡蓮の池",
-      "artist": "クロード・モネ",
-      "year": 1900,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/87088",
-      "image": "https://www.artic.edu/iiif/2/8534685d-1102-e1e3-e194-94f6e925e8b0/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-84092",
       "title": "古代ローマ",
       "artist": "After Giovanni Paolo Panini",
@@ -203,6 +192,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/84092",
       "image": "https://www.artic.edu/iiif/2/99c8eeea-f07a-af30-c79e-1da4d55243a3/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-87088",
+      "title": "睡蓮の池",
+      "artist": "クロード・モネ",
+      "year": 1900,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/87088",
+      "image": "https://www.artic.edu/iiif/2/8534685d-1102-e1e3-e194-94f6e925e8b0/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -269,6 +269,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/186418",
       "image": "https://www.artic.edu/iiif/2/560ff8f8-8932-6114-54d5-8174144615e5/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-15468",
+      "title": "聖ゲオルギウスと龍",
+      "artist": "Bernat Martorell",
+      "year": 1435,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/15468",
+      "image": "https://www.artic.edu/iiif/2/8a0e4ac9-43ea-bc3e-884b-ee27f8a10501/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -357,17 +368,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/61141",
       "image": "https://www.artic.edu/iiif/2/5522b060-d700-cd12-de83-0ebf1161c656/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-15468",
-      "title": "聖ゲオルギウスと龍",
-      "artist": "Bernat Martorell",
-      "year": 1435,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/15468",
-      "image": "https://www.artic.edu/iiif/2/8a0e4ac9-43ea-bc3e-884b-ee27f8a10501/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -811,6 +811,50 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-181478",
+      "title": "風景の中の俳優マクシミリアン・コルン",
+      "artist": "Ferdinand Georg Waldmüller",
+      "year": 1828,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/181478",
+      "image": "https://www.artic.edu/iiif/2/399332e9-94a4-64ac-4ed2-040647b2ca80/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-250450",
+      "title": "アリッチャのキージ荘の公園の階段",
+      "artist": "Alexandre Calame",
+      "year": 1845,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/250450",
+      "image": "https://www.artic.edu/iiif/2/0b7a4670-30f1-1232-b53c-bddf1ebf3e8a/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-250451",
+      "title": "トスカーナ、キウージ近郊の風景",
+      "artist": "Alexandre Desgoffe",
+      "year": 1841,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/250451",
+      "image": "https://www.artic.edu/iiif/2/d3cf298a-1868-3274-1b50-a484ce1462c9/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-250453",
+      "title": "ハムステッド・ヒースの砂の採掘場",
+      "artist": "John Linnell",
+      "year": 1834,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/250453",
+      "image": "https://www.artic.edu/iiif/2/5e02eebd-547f-28d1-508e-5a6d56453110/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-110663",
       "title": "ジャウルとハッサンの格闘",
       "artist": "ウジェーヌ・ドラクロワ",
@@ -841,50 +885,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/216794",
       "image": "https://www.artic.edu/iiif/2/462bae40-e526-294c-4639-a3c360dfa94e/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-250451",
-      "title": "トスカーナ、キウージ近郊の風景",
-      "artist": "Alexandre Desgoffe",
-      "year": 1841,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/250451",
-      "image": "https://www.artic.edu/iiif/2/d3cf298a-1868-3274-1b50-a484ce1462c9/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-250453",
-      "title": "ハムステッド・ヒースの砂の採掘場",
-      "artist": "John Linnell",
-      "year": 1834,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/250453",
-      "image": "https://www.artic.edu/iiif/2/5e02eebd-547f-28d1-508e-5a6d56453110/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-250450",
-      "title": "アリッチャのキージ荘の公園の階段",
-      "artist": "Alexandre Calame",
-      "year": 1845,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/250450",
-      "image": "https://www.artic.edu/iiif/2/0b7a4670-30f1-1232-b53c-bddf1ebf3e8a/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-181478",
-      "title": "風景の中の俳優マクシミリアン・コルン",
-      "artist": "Ferdinand Georg Waldmüller",
-      "year": 1828,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/181478",
-      "image": "https://www.artic.edu/iiif/2/399332e9-94a4-64ac-4ed2-040647b2ca80/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1581,6 +1581,28 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-144969",
+      "title": "The Interior of the Palm House on the Pfaueninsel Near Potsdam",
+      "artist": "Carl Blechen",
+      "year": 1834,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/144969",
+      "image": "https://www.artic.edu/iiif/2/38bb6be4-223e-af7a-7e18-f9ad0c388d3c/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-20579",
+      "title": "ヘラクレスとレルネーのヒュドラ",
+      "artist": "Gustave Moreau",
+      "year": 1876,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/20579",
+      "image": "https://www.artic.edu/iiif/2/2ae64c8a-266d-470a-a25a-c83127564636/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-16499",
       "title": "兵士にあざけられるキリスト",
       "artist": "エドゥアール・マネ",
@@ -1710,17 +1732,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/6005",
       "image": "https://www.artic.edu/iiif/2/3d950ecc-73f4-c28a-f216-0940b23fa5e8/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-20579",
-      "title": "ヘラクレスとレルネーのヒュドラ",
-      "artist": "Gustave Moreau",
-      "year": 1876,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/20579",
-      "image": "https://www.artic.edu/iiif/2/2ae64c8a-266d-470a-a25a-c83127564636/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1922,17 +1933,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-144969",
-      "title": "The Interior of the Palm House on the Pfaueninsel Near Potsdam",
-      "artist": "Carl Blechen",
-      "year": 1834,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/144969",
-      "image": "https://www.artic.edu/iiif/2/38bb6be4-223e-af7a-7e18-f9ad0c388d3c/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-84709",
       "title": "Still Life with Game Fowl",
       "artist": "Juan Sánchez Cotán",
@@ -2131,36 +2131,14 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-95183",
-      "title": "ダッフルコートの乞食（哲学者）",
-      "artist": "エドゥアール・マネ",
-      "year": 1867,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/95183",
-      "image": "https://www.artic.edu/iiif/2/1a087ef7-8455-e5d0-0b2b-9738cd33058c/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-44892",
-      "title": "魚（静物）",
-      "artist": "エドゥアール・マネ",
-      "year": 1864,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/44892",
-      "image": "https://www.artic.edu/iiif/2/0cbe27e8-2fec-3445-bc48-ce40a8f2dc25/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-111617",
-      "title": "綿畑の小屋",
-      "artist": "Horace Pippin",
-      "year": 1937,
+      "id": "artic-65920",
+      "title": "プロビンスタウン",
+      "artist": "Marsden Hartley",
+      "year": 1916,
       "century": "20世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/111617",
-      "image": "https://www.artic.edu/iiif/2/18dd28cc-ae57-b852-cbc4-d184c6f0555d/full/843,/0/default.jpg",
+      "museumUrl": "https://www.artic.edu/artworks/65920",
+      "image": "https://www.artic.edu/iiif/2/f534bce3-4746-cba6-6c46-c37a7c9199fb/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2175,14 +2153,36 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-65920",
-      "title": "プロビンスタウン",
-      "artist": "Marsden Hartley",
-      "year": 1916,
+      "id": "artic-44892",
+      "title": "魚（静物）",
+      "artist": "エドゥアール・マネ",
+      "year": 1864,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/44892",
+      "image": "https://www.artic.edu/iiif/2/0cbe27e8-2fec-3445-bc48-ce40a8f2dc25/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-95183",
+      "title": "ダッフルコートの乞食（哲学者）",
+      "artist": "エドゥアール・マネ",
+      "year": 1867,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/95183",
+      "image": "https://www.artic.edu/iiif/2/1a087ef7-8455-e5d0-0b2b-9738cd33058c/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-111617",
+      "title": "綿畑の小屋",
+      "artist": "Horace Pippin",
+      "year": 1937,
       "century": "20世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/65920",
-      "image": "https://www.artic.edu/iiif/2/f534bce3-4746-cba6-6c46-c37a7c9199fb/full/843,/0/default.jpg",
+      "museumUrl": "https://www.artic.edu/artworks/111617",
+      "image": "https://www.artic.edu/iiif/2/18dd28cc-ae57-b852-cbc4-d184c6f0555d/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2670,6 +2670,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-864",
+      "title": "カーネーションを持つ男の肖像",
+      "artist": "Quentin Massys",
+      "year": 1510,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/864",
+      "image": "https://www.artic.edu/iiif/2/f731615e-ee25-f8e5-b957-69635e1e2d60/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-81503",
       "title": "ライオンに襲われるアラブの騎手",
       "artist": "ウジェーヌ・ドラクロワ",
@@ -2788,17 +2799,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/100342",
       "image": "https://www.artic.edu/iiif/2/8df04a6e-cc79-491b-86d4-388c2b33d888/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-864",
-      "title": "カーネーションを持つ男の肖像",
-      "artist": "Quentin Massys",
-      "year": 1510,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/864",
-      "image": "https://www.artic.edu/iiif/2/f731615e-ee25-f8e5-b957-69635e1e2d60/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
