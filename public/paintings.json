@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-19T02:09:08.572Z",
+  "generated": "2026-05-20T02:08:07.849Z",
   "total": 907,
   "sources": {
     "artic": 356,
@@ -7,6 +7,17 @@
     "cma": 525
   },
   "paintings": [
+    {
+      "id": "artic-4758",
+      "title": "ストーク・バイ・ネイランド",
+      "artist": "ジョン・コンスタブル",
+      "year": 1836,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/4758",
+      "image": "https://www.artic.edu/iiif/2/400ce9e8-2f67-44e2-dd68-e6c98880d27f/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
     {
       "id": "artic-9637",
       "title": "イタリアの別荘と庭園（バチカンのベルヴェデーレ）",
@@ -85,17 +96,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-4758",
-      "title": "ストーク・バイ・ネイランド",
-      "artist": "ジョン・コンスタブル",
-      "year": 1836,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/4758",
-      "image": "https://www.artic.edu/iiif/2/400ce9e8-2f67-44e2-dd68-e6c98880d27f/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-20530",
       "title": "ポントワーズの雪のウサギ小屋",
       "artist": "カミーユ・ピサロ",
@@ -129,17 +129,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-70593",
-      "title": "庭園の情景",
-      "artist": "Iran",
-      "year": 1480,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/70593",
-      "image": "https://www.artic.edu/iiif/2/85309ed9-b889-16fb-2fc7-57f1c97c3820/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-68433",
       "title": "パリ郊外の製材所",
       "artist": "Henri Rousseau",
@@ -151,14 +140,14 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-76890",
-      "title": "天国の庭で踊り子たちに接待される統治者",
-      "artist": "India",
-      "year": 1800,
-      "century": "18〜19世紀",
+      "id": "artic-70593",
+      "title": "庭園の情景",
+      "artist": "Iran",
+      "year": 1480,
+      "century": "〜17世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/76890",
-      "image": "https://www.artic.edu/iiif/2/c1e17623-1a51-8db0-e1d0-3eee0b41b4b2/full/843,/0/default.jpg",
+      "museumUrl": "https://www.artic.edu/artworks/70593",
+      "image": "https://www.artic.edu/iiif/2/85309ed9-b889-16fb-2fc7-57f1c97c3820/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -173,14 +162,14 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-83613",
-      "title": "「イル・マスケローネ」、ボルゲーゼ荘の噴水",
-      "artist": "Richard Wilson",
-      "year": 1759,
+      "id": "artic-76890",
+      "title": "天国の庭で踊り子たちに接待される統治者",
+      "artist": "India",
+      "year": 1800,
       "century": "18〜19世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/83613",
-      "image": "https://www.artic.edu/iiif/2/2efb0b9d-04a4-390e-752b-fdb9602e017f/full/843,/0/default.jpg",
+      "museumUrl": "https://www.artic.edu/artworks/76890",
+      "image": "https://www.artic.edu/iiif/2/c1e17623-1a51-8db0-e1d0-3eee0b41b4b2/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -192,6 +181,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/84092",
       "image": "https://www.artic.edu/iiif/2/99c8eeea-f07a-af30-c79e-1da4d55243a3/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-83613",
+      "title": "「イル・マスケローネ」、ボルゲーゼ荘の噴水",
+      "artist": "Richard Wilson",
+      "year": 1759,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/83613",
+      "image": "https://www.artic.edu/iiif/2/2efb0b9d-04a4-390e-752b-fdb9602e017f/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -228,17 +228,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-130724",
-      "title": "サアディー「全集」写本の一頁",
-      "artist": "Iran",
-      "year": 1700,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/130724",
-      "image": "https://www.artic.edu/iiif/2/384aca18-6efc-e76c-5e1e-20fa5f35baca/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-130725",
       "title": "サアディー「全集」写本の一頁",
       "artist": "Iran",
@@ -247,6 +236,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/130725",
       "image": "https://www.artic.edu/iiif/2/fa298f62-bdfe-67b4-e473-65ad9f656dc1/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-130724",
+      "title": "サアディー「全集」写本の一頁",
+      "artist": "Iran",
+      "year": 1700,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/130724",
+      "image": "https://www.artic.edu/iiif/2/384aca18-6efc-e76c-5e1e-20fa5f35baca/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -269,6 +269,28 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/186418",
       "image": "https://www.artic.edu/iiif/2/560ff8f8-8932-6114-54d5-8174144615e5/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-28560",
+      "title": "寝室",
+      "artist": "フィンセント・ファン・ゴッホ",
+      "year": 1889,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/28560",
+      "image": "https://www.artic.edu/iiif/2/6644829f-f292-c5c4-a73c-0356a6fdbf0d/full/843,/0/default.jpg",
+      "wikiUrl": "https://ja.wikipedia.org/wiki/ファン・ゴッホの寝室"
+    },
+    {
+      "id": "artic-111377",
+      "title": "日曜日の夕食のために",
+      "artist": "William Michael Harnett",
+      "year": 1888,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/111377",
+      "image": "https://www.artic.edu/iiif/2/3cea045a-92d6-36cf-1508-2c99ea740218/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -302,17 +324,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/154496",
       "image": "https://www.artic.edu/iiif/2/22609746-bd4b-c9b6-8293-dfd393f00c20/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-111377",
-      "title": "日曜日の夕食のために",
-      "artist": "William Michael Harnett",
-      "year": 1888,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/111377",
-      "image": "https://www.artic.edu/iiif/2/3cea045a-92d6-36cf-1508-2c99ea740218/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -391,17 +402,6 @@
       "museumUrl": "https://www.artic.edu/artworks/16622",
       "image": "https://www.artic.edu/iiif/2/a7af09dc-5743-062e-4802-b6435e67eaa5/full/843,/0/default.jpg",
       "wikiUrl": null
-    },
-    {
-      "id": "artic-28560",
-      "title": "寝室",
-      "artist": "フィンセント・ファン・ゴッホ",
-      "year": 1889,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/28560",
-      "image": "https://www.artic.edu/iiif/2/6644829f-f292-c5c4-a73c-0356a6fdbf0d/full/843,/0/default.jpg",
-      "wikiUrl": "https://ja.wikipedia.org/wiki/ファン・ゴッホの寝室"
     },
     {
       "id": "artic-217536",
@@ -5343,6 +5343,17 @@
       "wikiUrl": null
     },
     {
+      "id": "cma-109246",
+      "title": "ジェームズ・スチュアート博士とメアリー・キャンベル・スチュアート",
+      "artist": "Gilbert Stuart",
+      "year": 1810,
+      "century": "18〜19世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/1927.394",
+      "image": "https://openaccess-cdn.clevelandart.org/1927.394/1927.394_web.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "cma-135323",
       "title": "白い牝馬",
       "artist": "ウィンスロー・ホーマー",
@@ -5373,17 +5384,6 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/1924.1424",
       "image": "https://openaccess-cdn.clevelandart.org/1924.1424/1924.1424_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-109246",
-      "title": "ジェームズ・スチュアート博士とメアリー・キャンベル・スチュアート",
-      "artist": "Gilbert Stuart",
-      "year": 1810,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1927.394",
-      "image": "https://openaccess-cdn.clevelandart.org/1927.394/1927.394_web.jpg",
       "wikiUrl": null
     },
     {
@@ -8126,6 +8126,17 @@
       "wikiUrl": null
     },
     {
+      "id": "cma-171078",
+      "title": "Bacchus and Ariadne",
+      "artist": "Henry Bone",
+      "year": 1808,
+      "century": "18〜19世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/2013.51",
+      "image": "https://openaccess-cdn.clevelandart.org/2013.51/2013.51_web.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "cma-95263",
       "title": "Queen Mab's Cave",
       "artist": "Joseph Mallord William Turner",
@@ -8918,17 +8929,6 @@
       "wikiUrl": null
     },
     {
-      "id": "cma-148968",
-      "title": "In the Forest",
-      "artist": "Célestin François Nanteuil",
-      "year": 1841,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1977.125",
-      "image": "https://openaccess-cdn.clevelandart.org/1977.125/1977.125_web.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "cma-96328",
       "title": "Portrait of Benjamin West",
       "artist": "Thomas Lawrence",
@@ -8937,6 +8937,17 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/1916.2059",
       "image": "https://openaccess-cdn.clevelandart.org/1916.2059/1916.2059_web.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "cma-148968",
+      "title": "In the Forest",
+      "artist": "Célestin François Nanteuil",
+      "year": 1841,
+      "century": "18〜19世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/1977.125",
+      "image": "https://openaccess-cdn.clevelandart.org/1977.125/1977.125_web.jpg",
       "wikiUrl": null
     },
     {
@@ -9971,17 +9982,6 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/1996.273",
       "image": "https://openaccess-cdn.clevelandart.org/1996.273/1996.273_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-168437",
-      "title": "Beggars by a Door",
-      "artist": "Mariano Fortuny",
-      "year": 1870,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/2010.21",
-      "image": "https://openaccess-cdn.clevelandart.org/2010.21/2010.21_web.jpg",
       "wikiUrl": null
     }
   ]
