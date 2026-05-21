@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-20T02:08:07.849Z",
+  "generated": "2026-05-21T02:07:16.700Z",
   "total": 907,
   "sources": {
     "artic": 356,
@@ -8,14 +8,14 @@
   },
   "paintings": [
     {
-      "id": "artic-4758",
-      "title": "ストーク・バイ・ネイランド",
-      "artist": "ジョン・コンスタブル",
-      "year": 1836,
+      "id": "artic-11723",
+      "title": "化粧する女",
+      "artist": "ベルト・モリゾ",
+      "year": 1880,
       "century": "18〜19世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/4758",
-      "image": "https://www.artic.edu/iiif/2/400ce9e8-2f67-44e2-dd68-e6c98880d27f/full/843,/0/default.jpg",
+      "museumUrl": "https://www.artic.edu/artworks/11723",
+      "image": "https://www.artic.edu/iiif/2/78c80988-6524-cec7-c661-a4c0a706d06f/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -27,17 +27,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/9637",
       "image": "https://www.artic.edu/iiif/2/462c6fe2-40a4-ed8d-772c-4fb9ae78265f/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-11723",
-      "title": "化粧する女",
-      "artist": "ベルト・モリゾ",
-      "year": 1880,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/11723",
-      "image": "https://www.artic.edu/iiif/2/78c80988-6524-cec7-c661-a4c0a706d06f/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -96,6 +85,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-4758",
+      "title": "ストーク・バイ・ネイランド",
+      "artist": "ジョン・コンスタブル",
+      "year": 1836,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/4758",
+      "image": "https://www.artic.edu/iiif/2/400ce9e8-2f67-44e2-dd68-e6c98880d27f/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-20530",
       "title": "ポントワーズの雪のウサギ小屋",
       "artist": "カミーユ・ピサロ",
@@ -129,17 +129,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-68433",
-      "title": "パリ郊外の製材所",
-      "artist": "Henri Rousseau",
-      "year": 1895,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/68433",
-      "image": "https://www.artic.edu/iiif/2/3826e366-e82a-e853-12e4-b303a1618103/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-70593",
       "title": "庭園の情景",
       "artist": "Iran",
@@ -148,6 +137,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/70593",
       "image": "https://www.artic.edu/iiif/2/85309ed9-b889-16fb-2fc7-57f1c97c3820/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-68433",
+      "title": "パリ郊外の製材所",
+      "artist": "Henri Rousseau",
+      "year": 1895,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/68433",
+      "image": "https://www.artic.edu/iiif/2/3826e366-e82a-e853-12e4-b303a1618103/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -173,17 +173,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-84092",
-      "title": "古代ローマ",
-      "artist": "After Giovanni Paolo Panini",
-      "year": 1760,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/84092",
-      "image": "https://www.artic.edu/iiif/2/99c8eeea-f07a-af30-c79e-1da4d55243a3/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-83613",
       "title": "「イル・マスケローネ」、ボルゲーゼ荘の噴水",
       "artist": "Richard Wilson",
@@ -192,6 +181,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/83613",
       "image": "https://www.artic.edu/iiif/2/2efb0b9d-04a4-390e-752b-fdb9602e017f/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-84092",
+      "title": "古代ローマ",
+      "artist": "After Giovanni Paolo Panini",
+      "year": 1760,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/84092",
+      "image": "https://www.artic.edu/iiif/2/99c8eeea-f07a-af30-c79e-1da4d55243a3/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -228,17 +228,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-130725",
-      "title": "サアディー「全集」写本の一頁",
-      "artist": "Iran",
-      "year": 1700,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/130725",
-      "image": "https://www.artic.edu/iiif/2/fa298f62-bdfe-67b4-e473-65ad9f656dc1/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-130724",
       "title": "サアディー「全集」写本の一頁",
       "artist": "Iran",
@@ -258,6 +247,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/131827",
       "image": "https://www.artic.edu/iiif/2/5744228e-f41d-f2ae-b67c-94ec7959766c/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-130725",
+      "title": "サアディー「全集」写本の一頁",
+      "artist": "Iran",
+      "year": 1700,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/130725",
+      "image": "https://www.artic.edu/iiif/2/fa298f62-bdfe-67b4-e473-65ad9f656dc1/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -822,50 +822,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-250450",
-      "title": "アリッチャのキージ荘の公園の階段",
-      "artist": "Alexandre Calame",
-      "year": 1845,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/250450",
-      "image": "https://www.artic.edu/iiif/2/0b7a4670-30f1-1232-b53c-bddf1ebf3e8a/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-250451",
-      "title": "トスカーナ、キウージ近郊の風景",
-      "artist": "Alexandre Desgoffe",
-      "year": 1841,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/250451",
-      "image": "https://www.artic.edu/iiif/2/d3cf298a-1868-3274-1b50-a484ce1462c9/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-250453",
-      "title": "ハムステッド・ヒースの砂の採掘場",
-      "artist": "John Linnell",
-      "year": 1834,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/250453",
-      "image": "https://www.artic.edu/iiif/2/5e02eebd-547f-28d1-508e-5a6d56453110/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-110663",
-      "title": "ジャウルとハッサンの格闘",
-      "artist": "ウジェーヌ・ドラクロワ",
-      "year": 1826,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/110663",
-      "image": "https://www.artic.edu/iiif/2/ae0793ac-8ace-6c4a-84d4-a33162ae6832/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-185775",
       "title": "フィレンツェ近郊の別荘の庭",
       "artist": "Richard Parkes Bonington",
@@ -888,6 +844,39 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-250451",
+      "title": "トスカーナ、キウージ近郊の風景",
+      "artist": "Alexandre Desgoffe",
+      "year": 1841,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/250451",
+      "image": "https://www.artic.edu/iiif/2/d3cf298a-1868-3274-1b50-a484ce1462c9/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-250450",
+      "title": "アリッチャのキージ荘の公園の階段",
+      "artist": "Alexandre Calame",
+      "year": 1845,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/250450",
+      "image": "https://www.artic.edu/iiif/2/0b7a4670-30f1-1232-b53c-bddf1ebf3e8a/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-250453",
+      "title": "ハムステッド・ヒースの砂の採掘場",
+      "artist": "John Linnell",
+      "year": 1834,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/250453",
+      "image": "https://www.artic.edu/iiif/2/5e02eebd-547f-28d1-508e-5a6d56453110/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-265263",
       "title": "ぶどうと花の静物",
       "artist": "Mélanie de Comoléra",
@@ -896,6 +885,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/265263",
       "image": "https://www.artic.edu/iiif/2/3279f256-4430-5657-ab3e-15c985ae291f/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-110663",
+      "title": "ジャウルとハッサンの格闘",
+      "artist": "ウジェーヌ・ドラクロワ",
+      "year": 1826,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/110663",
+      "image": "https://www.artic.edu/iiif/2/ae0793ac-8ace-6c4a-84d4-a33162ae6832/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1592,6 +1592,39 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-6005",
+      "title": "The Banks of the Marne in Winter",
+      "artist": "カミーユ・ピサロ",
+      "year": 1866,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/6005",
+      "image": "https://www.artic.edu/iiif/2/3d950ecc-73f4-c28a-f216-0940b23fa5e8/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-8969",
+      "title": "牡蠣を持つ乞食（哲学者）",
+      "artist": "エドゥアール・マネ",
+      "year": 1867,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/8969",
+      "image": "https://www.artic.edu/iiif/2/4e074d70-4424-331b-ec89-0776a45d6825/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-16499",
+      "title": "兵士にあざけられるキリスト",
+      "artist": "エドゥアール・マネ",
+      "year": 1865,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/16499",
+      "image": "https://www.artic.edu/iiif/2/4d03ba14-a01a-d003-404a-cf3f9fb40ede/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-109314",
       "title": "Fishing in Spring, the Pont de Clichy (Asnières)",
       "artist": "フィンセント・ファン・ゴッホ",
@@ -1622,28 +1655,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/20579",
       "image": "https://www.artic.edu/iiif/2/2ae64c8a-266d-470a-a25a-c83127564636/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-16499",
-      "title": "兵士にあざけられるキリスト",
-      "artist": "エドゥアール・マネ",
-      "year": 1865,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/16499",
-      "image": "https://www.artic.edu/iiif/2/4d03ba14-a01a-d003-404a-cf3f9fb40ede/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-8969",
-      "title": "牡蠣を持つ乞食（哲学者）",
-      "artist": "エドゥアール・マネ",
-      "year": 1867,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/8969",
-      "image": "https://www.artic.edu/iiif/2/4e074d70-4424-331b-ec89-0776a45d6825/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1743,17 +1754,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/193664",
       "image": "https://www.artic.edu/iiif/2/5490fd49-dd52-4fd7-7d41-d871dcffae55/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-6005",
-      "title": "The Banks of the Marne in Winter",
-      "artist": "カミーユ・ピサロ",
-      "year": 1866,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/6005",
-      "image": "https://www.artic.edu/iiif/2/3d950ecc-73f4-c28a-f216-0940b23fa5e8/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2131,6 +2131,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-95183",
+      "title": "ダッフルコートの乞食（哲学者）",
+      "artist": "エドゥアール・マネ",
+      "year": 1867,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/95183",
+      "image": "https://www.artic.edu/iiif/2/1a087ef7-8455-e5d0-0b2b-9738cd33058c/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-44892",
       "title": "魚（静物）",
       "artist": "エドゥアール・マネ",
@@ -2161,17 +2172,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/65925",
       "image": "https://www.artic.edu/iiif/2/63692198-8ab4-4747-7038-6d5278cff867/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-95183",
-      "title": "ダッフルコートの乞食（哲学者）",
-      "artist": "エドゥアール・マネ",
-      "year": 1867,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/95183",
-      "image": "https://www.artic.edu/iiif/2/1a087ef7-8455-e5d0-0b2b-9738cd33058c/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
