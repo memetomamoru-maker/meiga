@@ -1,10 +1,10 @@
 {
-  "generated": "2026-05-22T02:09:27.493Z",
-  "total": 907,
+  "generated": "2026-05-23T01:57:54.870Z",
+  "total": 904,
   "sources": {
     "artic": 356,
     "met": 26,
-    "cma": 525
+    "cma": 522
   },
   "paintings": [
     {
@@ -129,17 +129,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-68433",
-      "title": "パリ郊外の製材所",
-      "artist": "Henri Rousseau",
-      "year": 1895,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/68433",
-      "image": "https://www.artic.edu/iiif/2/3826e366-e82a-e853-12e4-b303a1618103/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-70593",
       "title": "庭園の情景",
       "artist": "Iran",
@@ -148,6 +137,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/70593",
       "image": "https://www.artic.edu/iiif/2/85309ed9-b889-16fb-2fc7-57f1c97c3820/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-68433",
+      "title": "パリ郊外の製材所",
+      "artist": "Henri Rousseau",
+      "year": 1895,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/68433",
+      "image": "https://www.artic.edu/iiif/2/3826e366-e82a-e853-12e4-b303a1618103/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -228,17 +228,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-130724",
-      "title": "サアディー「全集」写本の一頁",
-      "artist": "Iran",
-      "year": 1700,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/130724",
-      "image": "https://www.artic.edu/iiif/2/384aca18-6efc-e76c-5e1e-20fa5f35baca/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-130725",
       "title": "サアディー「全集」写本の一頁",
       "artist": "Iran",
@@ -247,6 +236,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/130725",
       "image": "https://www.artic.edu/iiif/2/fa298f62-bdfe-67b4-e473-65ad9f656dc1/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-130724",
+      "title": "サアディー「全集」写本の一頁",
+      "artist": "Iran",
+      "year": 1700,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/130724",
+      "image": "https://www.artic.edu/iiif/2/384aca18-6efc-e76c-5e1e-20fa5f35baca/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -525,28 +525,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-81574",
-      "title": "グレーと銀：バタシーの渡し場",
-      "artist": "ジェームズ・マクニール・ホイッスラー",
-      "year": 1863,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/81574",
-      "image": "https://www.artic.edu/iiif/2/f0b3ff64-d68e-3fd2-ffc9-5470eb9fea6e/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-84088",
-      "title": "紫と銀——深海",
-      "artist": "ジェームズ・マクニール・ホイッスラー",
-      "year": 1893,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/84088",
-      "image": "https://www.artic.edu/iiif/2/5f663d6c-0121-a8ca-e875-896d9857a3f3/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-2848",
       "title": "ボヘミアン生活の一場面",
       "artist": "ジェームズ・マクニール・ホイッスラー",
@@ -566,6 +544,28 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/111478",
       "image": "https://www.artic.edu/iiif/2/f9aacbc6-191c-3725-85bf-198612a51d25/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-81574",
+      "title": "グレーと銀：バタシーの渡し場",
+      "artist": "ジェームズ・マクニール・ホイッスラー",
+      "year": 1863,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/81574",
+      "image": "https://www.artic.edu/iiif/2/f0b3ff64-d68e-3fd2-ffc9-5470eb9fea6e/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-84088",
+      "title": "紫と銀——深海",
+      "artist": "ジェームズ・マクニール・ホイッスラー",
+      "year": 1893,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/84088",
+      "image": "https://www.artic.edu/iiif/2/5f663d6c-0121-a8ca-e875-896d9857a3f3/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1053,6 +1053,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-80084",
+      "title": "磔刑",
+      "artist": "Francisco de Zurbarán",
+      "year": 1627,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/80084",
+      "image": "https://www.artic.edu/iiif/2/c8ee825f-bc8c-c76b-1f05-5d692d9a6b47/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-109780",
       "title": "冬の愛",
       "artist": "George Wesley Bellows",
@@ -1084,17 +1095,6 @@
       "museumUrl": "https://www.artic.edu/artworks/111442",
       "image": "https://www.artic.edu/iiif/2/3b885ae0-4d46-5fe4-d70a-00474827f02c/full/843,/0/default.jpg",
       "wikiUrl": "https://ja.wikipedia.org/wiki/子供の入浴_(カサット)"
-    },
-    {
-      "id": "artic-80084",
-      "title": "磔刑",
-      "artist": "Francisco de Zurbarán",
-      "year": 1627,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/80084",
-      "image": "https://www.artic.edu/iiif/2/c8ee825f-bc8c-c76b-1f05-5d692d9a6b47/full/843,/0/default.jpg",
-      "wikiUrl": null
     },
     {
       "id": "artic-11",
@@ -2131,6 +2131,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-44892",
+      "title": "魚（静物）",
+      "artist": "エドゥアール・マネ",
+      "year": 1864,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/44892",
+      "image": "https://www.artic.edu/iiif/2/0cbe27e8-2fec-3445-bc48-ce40a8f2dc25/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-15401",
       "title": "ムカン亭にて",
       "artist": "William Glackens",
@@ -2161,17 +2172,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/95998",
       "image": "https://www.artic.edu/iiif/2/3eaab3a3-2b47-9fdd-121c-050f6b8d9ccb/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-44892",
-      "title": "魚（静物）",
-      "artist": "エドゥアール・マネ",
-      "year": 1864,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/44892",
-      "image": "https://www.artic.edu/iiif/2/0cbe27e8-2fec-3445-bc48-ce40a8f2dc25/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -7862,17 +7862,6 @@
       "wikiUrl": null
     },
     {
-      "id": "cma-95253",
-      "title": "Hampstead Heath, Looking Toward Harrow",
-      "artist": "ジョン・コンスタブル",
-      "year": 1816,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1916.1027",
-      "image": "https://openaccess-cdn.clevelandart.org/1916.1027/1916.1027_web.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "cma-150353",
       "title": "Ruins of an Ancient City",
       "artist": "John Martin",
@@ -8112,17 +8101,6 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/2022.140",
       "image": "https://openaccess-cdn.clevelandart.org/2022.140/2022.140_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-75763",
-      "title": "Procession or Pardon at Perros-Guirec",
-      "artist": "Maurice Denis",
-      "year": 1891,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/2020.108",
-      "image": "https://openaccess-cdn.clevelandart.org/2020.108/2020.108_web.jpg",
       "wikiUrl": null
     },
     {
@@ -9168,17 +9146,6 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/2003.6",
       "image": "https://openaccess-cdn.clevelandart.org/2003.6/2003.6_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-95276",
-      "title": "The Hillsides of Méry-sur-Oise, Opposite Auvers",
-      "artist": "Charles François Daubigny",
-      "year": 1873,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1916.1048",
-      "image": "https://openaccess-cdn.clevelandart.org/1916.1048/1916.1048_web.jpg",
       "wikiUrl": null
     },
     {
