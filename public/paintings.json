@@ -1,23 +1,12 @@
 {
-  "generated": "2026-05-23T01:57:54.870Z",
-  "total": 904,
+  "generated": "2026-05-24T02:05:48.501Z",
+  "total": 907,
   "sources": {
     "artic": 356,
     "met": 26,
-    "cma": 522
+    "cma": 525
   },
   "paintings": [
-    {
-      "id": "artic-11723",
-      "title": "化粧する女",
-      "artist": "ベルト・モリゾ",
-      "year": 1880,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/11723",
-      "image": "https://www.artic.edu/iiif/2/78c80988-6524-cec7-c661-a4c0a706d06f/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
     {
       "id": "artic-9637",
       "title": "イタリアの別荘と庭園（バチカンのベルヴェデーレ）",
@@ -27,6 +16,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/9637",
       "image": "https://www.artic.edu/iiif/2/462c6fe2-40a4-ed8d-772c-4fb9ae78265f/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-11723",
+      "title": "化粧する女",
+      "artist": "ベルト・モリゾ",
+      "year": 1880,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/11723",
+      "image": "https://www.artic.edu/iiif/2/78c80988-6524-cec7-c661-a4c0a706d06f/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -129,17 +129,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-70593",
-      "title": "庭園の情景",
-      "artist": "Iran",
-      "year": 1480,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/70593",
-      "image": "https://www.artic.edu/iiif/2/85309ed9-b889-16fb-2fc7-57f1c97c3820/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-68433",
       "title": "パリ郊外の製材所",
       "artist": "Henri Rousseau",
@@ -148,6 +137,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/68433",
       "image": "https://www.artic.edu/iiif/2/3826e366-e82a-e853-12e4-b303a1618103/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-70593",
+      "title": "庭園の情景",
+      "artist": "Iran",
+      "year": 1480,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/70593",
+      "image": "https://www.artic.edu/iiif/2/85309ed9-b889-16fb-2fc7-57f1c97c3820/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -7862,6 +7862,17 @@
       "wikiUrl": null
     },
     {
+      "id": "cma-95253",
+      "title": "Hampstead Heath, Looking Toward Harrow",
+      "artist": "ジョン・コンスタブル",
+      "year": 1816,
+      "century": "18〜19世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/1916.1027",
+      "image": "https://openaccess-cdn.clevelandart.org/1916.1027/1916.1027_web.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "cma-150353",
       "title": "Ruins of an Ancient City",
       "artist": "John Martin",
@@ -8101,6 +8112,17 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/2022.140",
       "image": "https://openaccess-cdn.clevelandart.org/2022.140/2022.140_web.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "cma-75763",
+      "title": "Procession or Pardon at Perros-Guirec",
+      "artist": "Maurice Denis",
+      "year": 1891,
+      "century": "18〜19世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/2020.108",
+      "image": "https://openaccess-cdn.clevelandart.org/2020.108/2020.108_web.jpg",
       "wikiUrl": null
     },
     {
@@ -9146,6 +9168,17 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/2003.6",
       "image": "https://openaccess-cdn.clevelandart.org/2003.6/2003.6_web.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "cma-95276",
+      "title": "The Hillsides of Méry-sur-Oise, Opposite Auvers",
+      "artist": "Charles François Daubigny",
+      "year": 1873,
+      "century": "18〜19世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/1916.1048",
+      "image": "https://openaccess-cdn.clevelandart.org/1916.1048/1916.1048_web.jpg",
       "wikiUrl": null
     },
     {
