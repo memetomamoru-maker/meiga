@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-26T02:05:15.308Z",
+  "generated": "2026-05-27T02:13:12.409Z",
   "total": 907,
   "sources": {
     "artic": 356,
@@ -7,17 +7,6 @@
     "cma": 525
   },
   "paintings": [
-    {
-      "id": "artic-11723",
-      "title": "化粧する女",
-      "artist": "ベルト・モリゾ",
-      "year": 1880,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/11723",
-      "image": "https://www.artic.edu/iiif/2/78c80988-6524-cec7-c661-a4c0a706d06f/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
     {
       "id": "artic-9637",
       "title": "イタリアの別荘と庭園（バチカンのベルヴェデーレ）",
@@ -27,6 +16,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/9637",
       "image": "https://www.artic.edu/iiif/2/462c6fe2-40a4-ed8d-772c-4fb9ae78265f/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-11723",
+      "title": "化粧する女",
+      "artist": "ベルト・モリゾ",
+      "year": 1880,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/11723",
+      "image": "https://www.artic.edu/iiif/2/78c80988-6524-cec7-c661-a4c0a706d06f/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -151,6 +151,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-76890",
+      "title": "天国の庭で踊り子たちに接待される統治者",
+      "artist": "India",
+      "year": 1800,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/76890",
+      "image": "https://www.artic.edu/iiif/2/c1e17623-1a51-8db0-e1d0-3eee0b41b4b2/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-75557",
       "title": "サアディー「全集」の彩飾写本（漆塗り表紙）",
       "artist": "Iran",
@@ -162,14 +173,14 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-76890",
-      "title": "天国の庭で踊り子たちに接待される統治者",
-      "artist": "India",
-      "year": 1800,
+      "id": "artic-84092",
+      "title": "古代ローマ",
+      "artist": "After Giovanni Paolo Panini",
+      "year": 1760,
       "century": "18〜19世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/76890",
-      "image": "https://www.artic.edu/iiif/2/c1e17623-1a51-8db0-e1d0-3eee0b41b4b2/full/843,/0/default.jpg",
+      "museumUrl": "https://www.artic.edu/artworks/84092",
+      "image": "https://www.artic.edu/iiif/2/99c8eeea-f07a-af30-c79e-1da4d55243a3/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -192,17 +203,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/87088",
       "image": "https://www.artic.edu/iiif/2/8534685d-1102-e1e3-e194-94f6e925e8b0/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-84092",
-      "title": "古代ローマ",
-      "artist": "After Giovanni Paolo Panini",
-      "year": 1760,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/84092",
-      "image": "https://www.artic.edu/iiif/2/99c8eeea-f07a-af30-c79e-1da4d55243a3/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2131,6 +2131,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-4575",
+      "title": "Judith",
+      "artist": "Jan Sanders van Hemessen",
+      "year": 1545,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/4575",
+      "image": "https://www.artic.edu/iiif/2/5b9758c9-24ef-8661-fac0-c9a4229eefd4/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-44892",
       "title": "魚（静物）",
       "artist": "エドゥアール・マネ",
@@ -2436,17 +2447,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/110507",
       "image": "https://www.artic.edu/iiif/2/fa81bfb9-5a07-5e3c-33b4-4efde68981c8/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-4575",
-      "title": "Judith",
-      "artist": "Jan Sanders van Hemessen",
-      "year": 1545,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/4575",
-      "image": "https://www.artic.edu/iiif/2/5b9758c9-24ef-8661-fac0-c9a4229eefd4/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
