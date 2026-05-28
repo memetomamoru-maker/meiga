@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-27T02:13:12.409Z",
+  "generated": "2026-05-28T01:56:36.630Z",
   "total": 907,
   "sources": {
     "artic": 356,
@@ -151,17 +151,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-76890",
-      "title": "天国の庭で踊り子たちに接待される統治者",
-      "artist": "India",
-      "year": 1800,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/76890",
-      "image": "https://www.artic.edu/iiif/2/c1e17623-1a51-8db0-e1d0-3eee0b41b4b2/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-75557",
       "title": "サアディー「全集」の彩飾写本（漆塗り表紙）",
       "artist": "Iran",
@@ -173,14 +162,14 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-84092",
-      "title": "古代ローマ",
-      "artist": "After Giovanni Paolo Panini",
-      "year": 1760,
+      "id": "artic-76890",
+      "title": "天国の庭で踊り子たちに接待される統治者",
+      "artist": "India",
+      "year": 1800,
       "century": "18〜19世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/84092",
-      "image": "https://www.artic.edu/iiif/2/99c8eeea-f07a-af30-c79e-1da4d55243a3/full/843,/0/default.jpg",
+      "museumUrl": "https://www.artic.edu/artworks/76890",
+      "image": "https://www.artic.edu/iiif/2/c1e17623-1a51-8db0-e1d0-3eee0b41b4b2/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -192,6 +181,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/83613",
       "image": "https://www.artic.edu/iiif/2/2efb0b9d-04a4-390e-752b-fdb9602e017f/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-84092",
+      "title": "古代ローマ",
+      "artist": "After Giovanni Paolo Panini",
+      "year": 1760,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/84092",
+      "image": "https://www.artic.edu/iiif/2/99c8eeea-f07a-af30-c79e-1da4d55243a3/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -228,17 +228,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-130725",
-      "title": "サアディー「全集」写本の一頁",
-      "artist": "Iran",
-      "year": 1700,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/130725",
-      "image": "https://www.artic.edu/iiif/2/fa298f62-bdfe-67b4-e473-65ad9f656dc1/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-130724",
       "title": "サアディー「全集」写本の一頁",
       "artist": "Iran",
@@ -247,6 +236,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/130724",
       "image": "https://www.artic.edu/iiif/2/384aca18-6efc-e76c-5e1e-20fa5f35baca/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-130725",
+      "title": "サアディー「全集」写本の一頁",
+      "artist": "Iran",
+      "year": 1700,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/130725",
+      "image": "https://www.artic.edu/iiif/2/fa298f62-bdfe-67b4-e473-65ad9f656dc1/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2131,17 +2131,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-4575",
-      "title": "Judith",
-      "artist": "Jan Sanders van Hemessen",
-      "year": 1545,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/4575",
-      "image": "https://www.artic.edu/iiif/2/5b9758c9-24ef-8661-fac0-c9a4229eefd4/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-44892",
       "title": "魚（静物）",
       "artist": "エドゥアール・マネ",
@@ -2150,6 +2139,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/44892",
       "image": "https://www.artic.edu/iiif/2/0cbe27e8-2fec-3445-bc48-ce40a8f2dc25/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-4575",
+      "title": "Judith",
+      "artist": "Jan Sanders van Hemessen",
+      "year": 1545,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/4575",
+      "image": "https://www.artic.edu/iiif/2/5b9758c9-24ef-8661-fac0-c9a4229eefd4/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -4815,17 +4815,6 @@
       "wikiUrl": null
     },
     {
-      "id": "cma-173180",
-      "title": "サン・ペドロ修道院（雪の聖母）",
-      "artist": "フレデリック・エドウィン・チャーチ",
-      "year": 1879,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1915.684",
-      "image": "https://openaccess-cdn.clevelandart.org/1915.684/1915.684_web.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "cma-142664",
       "title": "七月",
       "artist": "Otto H. Bacher",
@@ -4834,6 +4823,17 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/1966.387",
       "image": "https://openaccess-cdn.clevelandart.org/1966.387/1966.387_web.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "cma-173180",
+      "title": "サン・ペドロ修道院（雪の聖母）",
+      "artist": "フレデリック・エドウィン・チャーチ",
+      "year": 1879,
+      "century": "18〜19世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/1915.684",
+      "image": "https://openaccess-cdn.clevelandart.org/1915.684/1915.684_web.jpg",
       "wikiUrl": null
     },
     {
@@ -5420,6 +5420,17 @@
       "wikiUrl": null
     },
     {
+      "id": "cma-109238",
+      "title": "コネチカット州ダーラム",
+      "artist": "George Inness",
+      "year": 1858,
+      "century": "18〜19世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/1927.387",
+      "image": "https://openaccess-cdn.clevelandart.org/1927.387/1927.387_web.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "cma-125058",
       "title": "渓谷——キャッツキル山地の嵐",
       "artist": "Jasper F. Cropsey",
@@ -5461,17 +5472,6 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/1915.689",
       "image": "https://openaccess-cdn.clevelandart.org/1915.689/1915.689_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-109238",
-      "title": "コネチカット州ダーラム",
-      "artist": "George Inness",
-      "year": 1858,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1927.387",
-      "image": "https://openaccess-cdn.clevelandart.org/1927.387/1927.387_web.jpg",
       "wikiUrl": null
     },
     {
