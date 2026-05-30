@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-29T02:04:18.093Z",
+  "generated": "2026-05-30T01:59:04.178Z",
   "total": 907,
   "sources": {
     "artic": 356,
@@ -7,17 +7,6 @@
     "cma": 525
   },
   "paintings": [
-    {
-      "id": "artic-11723",
-      "title": "化粧する女",
-      "artist": "ベルト・モリゾ",
-      "year": 1880,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/11723",
-      "image": "https://www.artic.edu/iiif/2/78c80988-6524-cec7-c661-a4c0a706d06f/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
     {
       "id": "artic-9637",
       "title": "イタリアの別荘と庭園（バチカンのベルヴェデーレ）",
@@ -27,6 +16,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/9637",
       "image": "https://www.artic.edu/iiif/2/462c6fe2-40a4-ed8d-772c-4fb9ae78265f/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-11723",
+      "title": "化粧する女",
+      "artist": "ベルト・モリゾ",
+      "year": 1880,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/11723",
+      "image": "https://www.artic.edu/iiif/2/78c80988-6524-cec7-c661-a4c0a706d06f/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -151,17 +151,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-76890",
-      "title": "天国の庭で踊り子たちに接待される統治者",
-      "artist": "India",
-      "year": 1800,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/76890",
-      "image": "https://www.artic.edu/iiif/2/c1e17623-1a51-8db0-e1d0-3eee0b41b4b2/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-75557",
       "title": "サアディー「全集」の彩飾写本（漆塗り表紙）",
       "artist": "Iran",
@@ -173,14 +162,14 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-84092",
-      "title": "古代ローマ",
-      "artist": "After Giovanni Paolo Panini",
-      "year": 1760,
+      "id": "artic-76890",
+      "title": "天国の庭で踊り子たちに接待される統治者",
+      "artist": "India",
+      "year": 1800,
       "century": "18〜19世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/84092",
-      "image": "https://www.artic.edu/iiif/2/99c8eeea-f07a-af30-c79e-1da4d55243a3/full/843,/0/default.jpg",
+      "museumUrl": "https://www.artic.edu/artworks/76890",
+      "image": "https://www.artic.edu/iiif/2/c1e17623-1a51-8db0-e1d0-3eee0b41b4b2/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -192,6 +181,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/83613",
       "image": "https://www.artic.edu/iiif/2/2efb0b9d-04a4-390e-752b-fdb9602e017f/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-84092",
+      "title": "古代ローマ",
+      "artist": "After Giovanni Paolo Panini",
+      "year": 1760,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/84092",
+      "image": "https://www.artic.edu/iiif/2/99c8eeea-f07a-af30-c79e-1da4d55243a3/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -228,17 +228,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-130725",
-      "title": "サアディー「全集」写本の一頁",
-      "artist": "Iran",
-      "year": 1700,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/130725",
-      "image": "https://www.artic.edu/iiif/2/fa298f62-bdfe-67b4-e473-65ad9f656dc1/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-130724",
       "title": "サアディー「全集」写本の一頁",
       "artist": "Iran",
@@ -247,6 +236,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/130724",
       "image": "https://www.artic.edu/iiif/2/384aca18-6efc-e76c-5e1e-20fa5f35baca/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-130725",
+      "title": "サアディー「全集」写本の一頁",
+      "artist": "Iran",
+      "year": 1700,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/130725",
+      "image": "https://www.artic.edu/iiif/2/fa298f62-bdfe-67b4-e473-65ad9f656dc1/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1581,6 +1581,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-20579",
+      "title": "ヘラクレスとレルネーのヒュドラ",
+      "artist": "Gustave Moreau",
+      "year": 1876,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/20579",
+      "image": "https://www.artic.edu/iiif/2/2ae64c8a-266d-470a-a25a-c83127564636/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-87643",
       "title": "墓の前の二人の弟子",
       "artist": "Henry Ossawa Tanner",
@@ -1655,17 +1666,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/81539",
       "image": "https://www.artic.edu/iiif/2/66f95ea3-a11a-1cf4-6599-d0a49bb25744/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-20579",
-      "title": "ヘラクレスとレルネーのヒュドラ",
-      "artist": "Gustave Moreau",
-      "year": 1876,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/20579",
-      "image": "https://www.artic.edu/iiif/2/2ae64c8a-266d-470a-a25a-c83127564636/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2923,6 +2923,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-5304",
+      "title": "Homer Dictating",
+      "artist": "Pier Francesco Mola",
+      "year": 1665,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/5304",
+      "image": "https://www.artic.edu/iiif/2/8eed2fbf-5090-4fb2-8f7a-74e97c8e6eaf/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-65509",
       "title": "The Feast in the House of Simon",
       "artist": "エル・グレコ",
@@ -3349,17 +3360,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/100352",
       "image": "https://www.artic.edu/iiif/2/c54a8b04-9034-37cf-6dbc-13a4f6f17706/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-5304",
-      "title": "Homer Dictating",
-      "artist": "Pier Francesco Mola",
-      "year": 1665,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/5304",
-      "image": "https://www.artic.edu/iiif/2/8eed2fbf-5090-4fb2-8f7a-74e97c8e6eaf/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -8764,6 +8764,17 @@
       "wikiUrl": null
     },
     {
+      "id": "cma-150035",
+      "title": "A Woman from the Arctic",
+      "artist": "Léon Cogniet",
+      "year": 1826,
+      "century": "18〜19世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/1980.249",
+      "image": "https://openaccess-cdn.clevelandart.org/1980.249/1980.249_web.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "cma-148958",
       "title": "The Curious One",
       "artist": "Antoine Pierre Mongin",
@@ -8816,17 +8827,6 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/2022.434",
       "image": "https://openaccess-cdn.clevelandart.org/2022.434/2022.434_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-150035",
-      "title": "A Woman from the Arctic",
-      "artist": "Léon Cogniet",
-      "year": 1826,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1980.249",
-      "image": "https://openaccess-cdn.clevelandart.org/1980.249/1980.249_web.jpg",
       "wikiUrl": null
     },
     {
@@ -9424,6 +9424,17 @@
       "wikiUrl": null
     },
     {
+      "id": "cma-150338",
+      "title": "Hunter and Lord at the River Isar with View of Munich",
+      "artist": "Wilhelm von Kobell",
+      "year": 1823,
+      "century": "18〜19世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/1981.11",
+      "image": "https://openaccess-cdn.clevelandart.org/1981.11/1981.11_web.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "cma-135394",
       "title": "The Kitchen of the Rôtisserie des Deux Paons",
       "artist": "Adolphe Monticelli",
@@ -9454,17 +9465,6 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/1978.127",
       "image": "https://openaccess-cdn.clevelandart.org/1978.127/1978.127_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-150338",
-      "title": "Hunter and Lord at the River Isar with View of Munich",
-      "artist": "Wilhelm von Kobell",
-      "year": 1823,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1981.11",
-      "image": "https://openaccess-cdn.clevelandart.org/1981.11/1981.11_web.jpg",
       "wikiUrl": null
     },
     {
