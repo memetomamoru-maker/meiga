@@ -2,7 +2,7 @@
   "relation": ["delegate_permission/common.handle_all_urls"],
   "target": {
     "namespace": "android_app",
-    "package_name": "app.meiga.twa",
+      "package_name": "app.vercel.meiga.twa",
     "sha256_cert_fingerprints": ["06:B8:B0:88:42:FD:92:91:EF:44:F2:57:93:94:22:49:CA:B3:D7:ED:EC:E5:AC:5C:7D:FA:32:06:4C:8B:5F:74"]
   }
 }]
