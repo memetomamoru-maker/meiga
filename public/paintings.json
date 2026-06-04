@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-03T02:41:46.669Z",
+  "generated": "2026-06-04T02:36:57.442Z",
   "total": 907,
   "sources": {
     "artic": 356,
@@ -129,17 +129,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-68433",
-      "title": "パリ郊外の製材所",
-      "artist": "Henri Rousseau",
-      "year": 1895,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/68433",
-      "image": "https://www.artic.edu/iiif/2/3826e366-e82a-e853-12e4-b303a1618103/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-70593",
       "title": "庭園の情景",
       "artist": "Iran",
@@ -151,14 +140,14 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-75557",
-      "title": "サアディー「全集」の彩飾写本（漆塗り表紙）",
-      "artist": "Iran",
-      "year": 1700,
-      "century": "〜17世紀",
+      "id": "artic-68433",
+      "title": "パリ郊外の製材所",
+      "artist": "Henri Rousseau",
+      "year": 1895,
+      "century": "18〜19世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/75557",
-      "image": "https://www.artic.edu/iiif/2/6d216d21-f35a-770a-071c-e0304f23b84f/full/843,/0/default.jpg",
+      "museumUrl": "https://www.artic.edu/artworks/68433",
+      "image": "https://www.artic.edu/iiif/2/3826e366-e82a-e853-12e4-b303a1618103/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -173,6 +162,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-75557",
+      "title": "サアディー「全集」の彩飾写本（漆塗り表紙）",
+      "artist": "Iran",
+      "year": 1700,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/75557",
+      "image": "https://www.artic.edu/iiif/2/6d216d21-f35a-770a-071c-e0304f23b84f/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-83613",
       "title": "「イル・マスケローネ」、ボルゲーゼ荘の噴水",
       "artist": "Richard Wilson",
@@ -184,17 +184,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-84092",
-      "title": "古代ローマ",
-      "artist": "After Giovanni Paolo Panini",
-      "year": 1760,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/84092",
-      "image": "https://www.artic.edu/iiif/2/99c8eeea-f07a-af30-c79e-1da4d55243a3/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-87088",
       "title": "睡蓮の池",
       "artist": "クロード・モネ",
@@ -203,6 +192,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/87088",
       "image": "https://www.artic.edu/iiif/2/8534685d-1102-e1e3-e194-94f6e925e8b0/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-84092",
+      "title": "古代ローマ",
+      "artist": "After Giovanni Paolo Panini",
+      "year": 1760,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/84092",
+      "image": "https://www.artic.edu/iiif/2/99c8eeea-f07a-af30-c79e-1da4d55243a3/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -228,17 +228,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-130724",
-      "title": "サアディー「全集」写本の一頁",
-      "artist": "Iran",
-      "year": 1700,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/130724",
-      "image": "https://www.artic.edu/iiif/2/384aca18-6efc-e76c-5e1e-20fa5f35baca/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-130725",
       "title": "サアディー「全集」写本の一頁",
       "artist": "Iran",
@@ -247,6 +236,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/130725",
       "image": "https://www.artic.edu/iiif/2/fa298f62-bdfe-67b4-e473-65ad9f656dc1/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-130724",
+      "title": "サアディー「全集」写本の一頁",
+      "artist": "Iran",
+      "year": 1700,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/130724",
+      "image": "https://www.artic.edu/iiif/2/384aca18-6efc-e76c-5e1e-20fa5f35baca/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1053,17 +1053,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-27980",
-      "title": "ばら色の長椅子の女",
-      "artist": "Henri Matisse",
-      "year": 1921,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/27980",
-      "image": "https://www.artic.edu/iiif/2/65e58fc4-4dd1-7149-b76b-94547745bece/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-80084",
       "title": "磔刑",
       "artist": "Francisco de Zurbarán",
@@ -1072,6 +1061,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/80084",
       "image": "https://www.artic.edu/iiif/2/c8ee825f-bc8c-c76b-1f05-5d692d9a6b47/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-27980",
+      "title": "ばら色の長椅子の女",
+      "artist": "Henri Matisse",
+      "year": 1921,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/27980",
+      "image": "https://www.artic.edu/iiif/2/65e58fc4-4dd1-7149-b76b-94547745bece/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2131,14 +2131,14 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-27984",
-      "title": "Woman before an Aquarium",
-      "artist": "Henri Matisse",
-      "year": 1923,
-      "century": "20世紀",
+      "id": "artic-62460",
+      "title": "テラス",
+      "artist": "Dutch; Delft",
+      "year": 1665,
+      "century": "〜17世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/27984",
-      "image": "https://www.artic.edu/iiif/2/d0e36029-27fc-bf4e-357a-55cfbaf7bdfd/full/843,/0/default.jpg",
+      "museumUrl": "https://www.artic.edu/artworks/62460",
+      "image": "https://www.artic.edu/iiif/2/086f1a92-1a07-1805-3321-d238009fcda0/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2150,6 +2150,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/44892",
       "image": "https://www.artic.edu/iiif/2/0cbe27e8-2fec-3445-bc48-ce40a8f2dc25/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-27984",
+      "title": "Woman before an Aquarium",
+      "artist": "Henri Matisse",
+      "year": 1923,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/27984",
+      "image": "https://www.artic.edu/iiif/2/d0e36029-27fc-bf4e-357a-55cfbaf7bdfd/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2549,17 +2560,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-62460",
-      "title": "テラス",
-      "artist": "Dutch; Delft",
-      "year": 1665,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/62460",
-      "image": "https://www.artic.edu/iiif/2/086f1a92-1a07-1805-3321-d238009fcda0/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-497",
       "title": "子に授乳する母（幸せな母）",
       "artist": "Willem van Mieris",
@@ -2923,17 +2923,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-76571",
-      "title": "View of Cotopaxi",
-      "artist": "フレデリック・エドウィン・チャーチ",
-      "year": 1857,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/76571",
-      "image": "https://www.artic.edu/iiif/2/33fc29fc-097b-576b-c9e6-c3352d9d3f15/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-28849",
       "title": "A City Park",
       "artist": "William Merritt Chase",
@@ -2942,6 +2931,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/28849",
       "image": "https://www.artic.edu/iiif/2/72a76270-d6f4-e744-d47b-307873a8e8ff/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-76571",
+      "title": "View of Cotopaxi",
+      "artist": "フレデリック・エドウィン・チャーチ",
+      "year": 1857,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/76571",
+      "image": "https://www.artic.edu/iiif/2/33fc29fc-097b-576b-c9e6-c3352d9d3f15/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
