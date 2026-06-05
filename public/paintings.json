@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-04T02:36:57.442Z",
+  "generated": "2026-06-05T02:11:50.843Z",
   "total": 907,
   "sources": {
     "artic": 356,
@@ -7,17 +7,6 @@
     "cma": 525
   },
   "paintings": [
-    {
-      "id": "artic-9637",
-      "title": "イタリアの別荘と庭園（バチカンのベルヴェデーレ）",
-      "artist": "Jean Jacques de Boissieu",
-      "year": 1799,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/9637",
-      "image": "https://www.artic.edu/iiif/2/462c6fe2-40a4-ed8d-772c-4fb9ae78265f/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
     {
       "id": "artic-11723",
       "title": "化粧する女",
@@ -27,6 +16,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/11723",
       "image": "https://www.artic.edu/iiif/2/78c80988-6524-cec7-c661-a4c0a706d06f/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-9637",
+      "title": "イタリアの別荘と庭園（バチカンのベルヴェデーレ）",
+      "artist": "Jean Jacques de Boissieu",
+      "year": 1799,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/9637",
+      "image": "https://www.artic.edu/iiif/2/462c6fe2-40a4-ed8d-772c-4fb9ae78265f/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -228,17 +228,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-130725",
-      "title": "サアディー「全集」写本の一頁",
-      "artist": "Iran",
-      "year": 1700,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/130725",
-      "image": "https://www.artic.edu/iiif/2/fa298f62-bdfe-67b4-e473-65ad9f656dc1/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-130724",
       "title": "サアディー「全集」写本の一頁",
       "artist": "Iran",
@@ -247,6 +236,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/130724",
       "image": "https://www.artic.edu/iiif/2/384aca18-6efc-e76c-5e1e-20fa5f35baca/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-130725",
+      "title": "サアディー「全集」写本の一頁",
+      "artist": "Iran",
+      "year": 1700,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/130725",
+      "image": "https://www.artic.edu/iiif/2/fa298f62-bdfe-67b4-e473-65ad9f656dc1/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -734,6 +734,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-260424",
+      "title": "死の影",
+      "artist": "William Holman Hunt",
+      "year": 1874,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/260424",
+      "image": "https://www.artic.edu/iiif/2/8bf9b3a3-cb6f-3e13-f817-a3964dd5cb3c/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-145677",
       "title": "Poetic Thoughts in a Forest Pavilion 林堂詩思圖",
       "artist": "Ni Zan 倪瓚",
@@ -753,17 +764,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/76816",
       "image": "https://www.artic.edu/iiif/2/c3c4fa77-ae12-1e5e-cc8a-0bde4f1be2ca/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-260424",
-      "title": "死の影",
-      "artist": "William Holman Hunt",
-      "year": 1874,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/260424",
-      "image": "https://www.artic.edu/iiif/2/8bf9b3a3-cb6f-3e13-f817-a3964dd5cb3c/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1053,6 +1053,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-100351",
+      "title": "オダリスク",
+      "artist": "Jules Joseph Lefebvre",
+      "year": 1874,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/100351",
+      "image": "https://www.artic.edu/iiif/2/488e2088-06a5-6811-78b4-56d736a25019/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-80084",
       "title": "磔刑",
       "artist": "Francisco de Zurbarán",
@@ -1292,17 +1303,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/94840",
       "image": "https://www.artic.edu/iiif/2/91c51644-871f-cda9-82bb-94f4973ae339/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-100351",
-      "title": "オダリスク",
-      "artist": "Jules Joseph Lefebvre",
-      "year": 1874,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/100351",
-      "image": "https://www.artic.edu/iiif/2/488e2088-06a5-6811-78b4-56d736a25019/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1581,14 +1581,14 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-25865",
-      "title": "ニシンの網",
-      "artist": "ウィンスロー・ホーマー",
-      "year": 1885,
+      "id": "artic-39560",
+      "title": "The Bathers",
+      "artist": "William Adolphe Bouguereau",
+      "year": 1884,
       "century": "18〜19世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/25865",
-      "image": "https://www.artic.edu/iiif/2/5dca7347-c6dc-24dd-d073-d705b9cdc575/full/843,/0/default.jpg",
+      "museumUrl": "https://www.artic.edu/artworks/39560",
+      "image": "https://www.artic.edu/iiif/2/31f0a9a3-8a0d-44ed-6de8-66142b75c4c0/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1600,6 +1600,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/20579",
       "image": "https://www.artic.edu/iiif/2/2ae64c8a-266d-470a-a25a-c83127564636/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-25865",
+      "title": "ニシンの網",
+      "artist": "ウィンスロー・ホーマー",
+      "year": 1885,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/25865",
+      "image": "https://www.artic.edu/iiif/2/5dca7347-c6dc-24dd-d073-d705b9cdc575/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2087,17 +2098,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-39560",
-      "title": "The Bathers",
-      "artist": "William Adolphe Bouguereau",
-      "year": 1884,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/39560",
-      "image": "https://www.artic.edu/iiif/2/31f0a9a3-8a0d-44ed-6de8-66142b75c4c0/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-889",
       "title": "嵐の前に逃げる帆船",
       "artist": "Jules Dupré",
@@ -2131,14 +2131,14 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-62460",
-      "title": "テラス",
-      "artist": "Dutch; Delft",
-      "year": 1665,
-      "century": "〜17世紀",
+      "id": "artic-100350",
+      "title": "戦車競走",
+      "artist": "Jean Léon Gérôme",
+      "year": 1876,
+      "century": "18〜19世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/62460",
-      "image": "https://www.artic.edu/iiif/2/086f1a92-1a07-1805-3321-d238009fcda0/full/843,/0/default.jpg",
+      "museumUrl": "https://www.artic.edu/artworks/100350",
+      "image": "https://www.artic.edu/iiif/2/e728fa6d-c643-2b68-133d-74770ded12ef/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2150,6 +2150,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/44892",
       "image": "https://www.artic.edu/iiif/2/0cbe27e8-2fec-3445-bc48-ce40a8f2dc25/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-62460",
+      "title": "テラス",
+      "artist": "Dutch; Delft",
+      "year": 1665,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/62460",
+      "image": "https://www.artic.edu/iiif/2/086f1a92-1a07-1805-3321-d238009fcda0/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2615,17 +2626,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-100350",
-      "title": "戦車競走",
-      "artist": "Jean Léon Gérôme",
-      "year": 1876,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/100350",
-      "image": "https://www.artic.edu/iiif/2/e728fa6d-c643-2b68-133d-74770ded12ef/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-886",
       "title": "三人の小さな女の子",
       "artist": "Narcisse Virgile Diaz de la Peña",
@@ -2923,6 +2923,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-16551",
+      "title": "Beata Beatrix",
+      "artist": "Dante Gabriel Rossetti",
+      "year": 1872,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/16551",
+      "image": "https://www.artic.edu/iiif/2/194674a2-f451-65f7-ba46-6aac4d894f0b/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-28849",
       "title": "A City Park",
       "artist": "William Merritt Chase",
@@ -3129,17 +3140,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/14650",
       "image": "https://www.artic.edu/iiif/2/64693216-bc82-0d21-9e57-86f8fc2e632b/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-16551",
-      "title": "Beata Beatrix",
-      "artist": "Dante Gabriel Rossetti",
-      "year": 1872,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/16551",
-      "image": "https://www.artic.edu/iiif/2/194674a2-f451-65f7-ba46-6aac4d894f0b/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
