@@ -1,23 +1,12 @@
 {
-  "generated": "2026-06-08T02:35:03.706Z",
-  "total": 907,
+  "generated": "2026-06-09T01:59:38.453Z",
+  "total": 890,
   "sources": {
     "artic": 356,
     "met": 26,
-    "cma": 525
+    "cma": 508
   },
   "paintings": [
-    {
-      "id": "artic-11723",
-      "title": "化粧する女",
-      "artist": "ベルト・モリゾ",
-      "year": 1880,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/11723",
-      "image": "https://www.artic.edu/iiif/2/78c80988-6524-cec7-c661-a4c0a706d06f/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
     {
       "id": "artic-9637",
       "title": "イタリアの別荘と庭園（バチカンのベルヴェデーレ）",
@@ -27,6 +16,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/9637",
       "image": "https://www.artic.edu/iiif/2/462c6fe2-40a4-ed8d-772c-4fb9ae78265f/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-11723",
+      "title": "化粧する女",
+      "artist": "ベルト・モリゾ",
+      "year": 1880,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/11723",
+      "image": "https://www.artic.edu/iiif/2/78c80988-6524-cec7-c661-a4c0a706d06f/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -173,17 +173,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-84092",
-      "title": "古代ローマ",
-      "artist": "After Giovanni Paolo Panini",
-      "year": 1760,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/84092",
-      "image": "https://www.artic.edu/iiif/2/99c8eeea-f07a-af30-c79e-1da4d55243a3/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-83613",
       "title": "「イル・マスケローネ」、ボルゲーゼ荘の噴水",
       "artist": "Richard Wilson",
@@ -192,6 +181,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/83613",
       "image": "https://www.artic.edu/iiif/2/2efb0b9d-04a4-390e-752b-fdb9602e017f/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-84092",
+      "title": "古代ローマ",
+      "artist": "After Giovanni Paolo Panini",
+      "year": 1760,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/84092",
+      "image": "https://www.artic.edu/iiif/2/99c8eeea-f07a-af30-c79e-1da4d55243a3/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -239,17 +239,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-130725",
-      "title": "サアディー「全集」写本の一頁",
-      "artist": "Iran",
-      "year": 1700,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/130725",
-      "image": "https://www.artic.edu/iiif/2/fa298f62-bdfe-67b4-e473-65ad9f656dc1/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-131827",
       "title": "ハーフィズの詩集",
       "artist": "Iran",
@@ -258,6 +247,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/131827",
       "image": "https://www.artic.edu/iiif/2/5744228e-f41d-f2ae-b67c-94ec7959766c/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-130725",
+      "title": "サアディー「全集」写本の一頁",
+      "artist": "Iran",
+      "year": 1700,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/130725",
+      "image": "https://www.artic.edu/iiif/2/fa298f62-bdfe-67b4-e473-65ad9f656dc1/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -4254,17 +4254,6 @@
       "wikiUrl": null
     },
     {
-      "id": "cma-141639",
-      "title": "荒野の薄暮",
-      "artist": "フレデリック・エドウィン・チャーチ",
-      "year": 1860,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1965.233",
-      "image": "https://openaccess-cdn.clevelandart.org/1965.233/1965.233_web.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "cma-149112",
       "title": "Church Street El",
       "artist": "Charles Sheeler",
@@ -4284,17 +4273,6 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/1917.1335",
       "image": "https://openaccess-cdn.clevelandart.org/1917.1335/1917.1335_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-140161",
-      "title": "A Woman's Work",
-      "artist": "John Sloan",
-      "year": 1912,
-      "century": "20世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1964.160",
-      "image": "https://openaccess-cdn.clevelandart.org/1964.160/1964.160_web.jpg",
       "wikiUrl": null
     },
     {
@@ -4339,17 +4317,6 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/1956.578",
       "image": "https://openaccess-cdn.clevelandart.org/1956.578/1956.578_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-155783",
-      "title": "The Power of Music",
-      "artist": "William Sidney Mount",
-      "year": 1847,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1991.110",
-      "image": "https://openaccess-cdn.clevelandart.org/1991.110/1991.110_web.jpg",
       "wikiUrl": null
     },
     {
@@ -6872,17 +6839,6 @@
       "wikiUrl": null
     },
     {
-      "id": "cma-135382",
-      "title": "The Red Kerchief",
-      "artist": "クロード・モネ",
-      "year": 1868,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1958.39",
-      "image": "https://openaccess-cdn.clevelandart.org/1958.39/1958.39_web.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "cma-125104",
       "title": "Frieze of Dancers",
       "artist": "エドガー・ドガ",
@@ -6913,17 +6869,6 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/1958.23",
       "image": "https://openaccess-cdn.clevelandart.org/1958.23/1958.23_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-136510",
-      "title": "Water Lilies (Agapanthus)",
-      "artist": "クロード・モネ",
-      "year": 1915,
-      "century": "20世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1960.81",
-      "image": "https://openaccess-cdn.clevelandart.org/1960.81/1960.81_web.jpg",
       "wikiUrl": null
     },
     {
@@ -7100,61 +7045,6 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/1953.212",
       "image": "https://openaccess-cdn.clevelandart.org/1953.212/1953.212_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-148297",
-      "title": "The Large Tree",
-      "artist": "ポール・ゴーギャン",
-      "year": 1891,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1975.263",
-      "image": "https://openaccess-cdn.clevelandart.org/1975.263/1975.263_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-163042",
-      "title": "Apollo, God of Light, Eloquence, Poetry, and the Fine Arts with Urania, Muse of Astronomy",
-      "artist": "Charles Meynier",
-      "year": 1798,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/2003.6.3",
-      "image": "https://openaccess-cdn.clevelandart.org/2003.6.3/2003.6.3_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-163043",
-      "title": "Calliope, Muse of Epic Poetry",
-      "artist": "Charles Meynier",
-      "year": 1798,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/2003.6.4",
-      "image": "https://openaccess-cdn.clevelandart.org/2003.6.4/2003.6.4_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-140078",
-      "title": "La Cervara, the Roman Campagna",
-      "artist": "Jean Baptiste Camille Corot",
-      "year": 1830,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1963.91",
-      "image": "https://openaccess-cdn.clevelandart.org/1963.91/1963.91_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-155871",
-      "title": "A Eunuch's Dream",
-      "artist": "Jean Lecomte du Nouÿ",
-      "year": 1874,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1991.173",
-      "image": "https://openaccess-cdn.clevelandart.org/1991.173/1991.173_web.jpg",
       "wikiUrl": null
     },
     {
@@ -7609,17 +7499,6 @@
       "wikiUrl": null
     },
     {
-      "id": "cma-151257",
-      "title": "View of the Gulf of Pozzuoli from Solfatara",
-      "artist": "Philipp Hackert",
-      "year": 1803,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1983.14",
-      "image": "https://openaccess-cdn.clevelandart.org/1983.14/1983.14_web.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "cma-117030",
       "title": "自画像",
       "artist": "Joseph Paelinck",
@@ -7983,17 +7862,6 @@
       "wikiUrl": null
     },
     {
-      "id": "cma-128393",
-      "title": "Still Life with Rayfish",
-      "artist": "Chaïm Soutine",
-      "year": 1923,
-      "century": "20世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1951.357",
-      "image": "https://openaccess-cdn.clevelandart.org/1951.357/1951.357_web.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "cma-359246",
       "title": "Feige Waterfall (Feigefossen), Lysterfjord, Norway",
       "artist": "Johan Christian Clausen Dahl",
@@ -8046,17 +7914,6 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/1958.56",
       "image": "https://openaccess-cdn.clevelandart.org/1958.56/1958.56_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-163044",
-      "title": "Clio, Muse of History",
-      "artist": "Charles Meynier",
-      "year": 1800,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/2003.6.5",
-      "image": "https://openaccess-cdn.clevelandart.org/2003.6.5/2003.6.5_web.jpg",
       "wikiUrl": null
     },
     {
@@ -8156,17 +8013,6 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/1979.43",
       "image": "https://openaccess-cdn.clevelandart.org/1979.43/1979.43_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-163040",
-      "title": "Polyhymnia, Muse of Eloquence",
-      "artist": "Charles Meynier",
-      "year": 1800,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/2003.6.1",
-      "image": "https://openaccess-cdn.clevelandart.org/2003.6.1/2003.6.1_web.jpg",
       "wikiUrl": null
     },
     {
@@ -8621,17 +8467,6 @@
       "wikiUrl": null
     },
     {
-      "id": "cma-150119",
-      "title": "Dante and Virgil Meeting the Shades of Francesca da Rimini and Paolo",
-      "artist": "Ary Scheffer",
-      "year": 1851,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1980.40",
-      "image": "https://openaccess-cdn.clevelandart.org/1980.40/1980.40_web.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "cma-148967",
       "title": "Young Woman with a Mandolin, Portrait of Louison Köhler",
       "artist": "François Bonvin",
@@ -8728,17 +8563,6 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/1980.292",
       "image": "https://openaccess-cdn.clevelandart.org/1980.292/1980.292_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-163041",
-      "title": "Erato, Muse of Lyrical Poetry",
-      "artist": "Charles Meynier",
-      "year": 1800,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/2003.6.2",
-      "image": "https://openaccess-cdn.clevelandart.org/2003.6.2/2003.6.2_web.jpg",
       "wikiUrl": null
     },
     {
@@ -8929,17 +8753,6 @@
       "wikiUrl": null
     },
     {
-      "id": "cma-96328",
-      "title": "Portrait of Benjamin West",
-      "artist": "Thomas Lawrence",
-      "year": 1818,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1916.2059",
-      "image": "https://openaccess-cdn.clevelandart.org/1916.2059/1916.2059_web.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "cma-148968",
       "title": "In the Forest",
       "artist": "Célestin François Nanteuil",
@@ -8948,6 +8761,17 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/1977.125",
       "image": "https://openaccess-cdn.clevelandart.org/1977.125/1977.125_web.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "cma-96328",
+      "title": "Portrait of Benjamin West",
+      "artist": "Thomas Lawrence",
+      "year": 1818,
+      "century": "18〜19世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/1916.2059",
+      "image": "https://openaccess-cdn.clevelandart.org/1916.2059/1916.2059_web.jpg",
       "wikiUrl": null
     },
     {
@@ -9157,17 +8981,6 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/1980.230",
       "image": "https://openaccess-cdn.clevelandart.org/1980.230/1980.230_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-163039",
-      "title": "Polyhymnia, Muse of Eloquence; Erato, Muse of Lyrical Poetry; Apollo, God of Light, Eloquence, Poetry and the Fine Arts with Urania, Muse of Astronomy; Calliope, Muse of Epic Poetry; Clio, Muse of History",
-      "artist": "Charles Meynier",
-      "year": 1800,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/2003.6",
-      "image": "https://openaccess-cdn.clevelandart.org/2003.6/2003.6_web.jpg",
       "wikiUrl": null
     },
     {
