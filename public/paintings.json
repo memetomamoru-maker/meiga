@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-17T02:38:18.938Z",
+  "generated": "2026-06-18T02:35:36.821Z",
   "total": 907,
   "sources": {
     "artic": 356,
@@ -151,17 +151,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-76890",
-      "title": "天国の庭で踊り子たちに接待される統治者",
-      "artist": "India",
-      "year": 1800,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/76890",
-      "image": "https://www.artic.edu/iiif/2/c1e17623-1a51-8db0-e1d0-3eee0b41b4b2/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-75557",
       "title": "サアディー「全集」の彩飾写本（漆塗り表紙）",
       "artist": "Iran",
@@ -170,6 +159,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/75557",
       "image": "https://www.artic.edu/iiif/2/6d216d21-f35a-770a-071c-e0304f23b84f/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-76890",
+      "title": "天国の庭で踊り子たちに接待される統治者",
+      "artist": "India",
+      "year": 1800,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/76890",
+      "image": "https://www.artic.edu/iiif/2/c1e17623-1a51-8db0-e1d0-3eee0b41b4b2/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -228,17 +228,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-130725",
-      "title": "サアディー「全集」写本の一頁",
-      "artist": "Iran",
-      "year": 1700,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/130725",
-      "image": "https://www.artic.edu/iiif/2/fa298f62-bdfe-67b4-e473-65ad9f656dc1/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-130724",
       "title": "サアディー「全集」写本の一頁",
       "artist": "Iran",
@@ -247,6 +236,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/130724",
       "image": "https://www.artic.edu/iiif/2/384aca18-6efc-e76c-5e1e-20fa5f35baca/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-130725",
+      "title": "サアディー「全集」写本の一頁",
+      "artist": "Iran",
+      "year": 1700,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/130725",
+      "image": "https://www.artic.edu/iiif/2/fa298f62-bdfe-67b4-e473-65ad9f656dc1/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1053,6 +1053,39 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-60755",
+      "title": "エグモント城跡のある風景",
+      "artist": "ヤーコブ・ファン・ロイスダール",
+      "year": 1655,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/60755",
+      "image": "https://www.artic.edu/iiif/2/12086520-2e48-cc75-df86-916bb801e61f/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-69780",
+      "title": "イタリア、フラスカーティのヴィラ・トルロニアの噴水",
+      "artist": "ジョン・シンガー・サージェント",
+      "year": 1907,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/69780",
+      "image": "https://www.artic.edu/iiif/2/3f9aa9db-61e1-7060-fdb0-bfd7e41ddd08/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-80084",
+      "title": "磔刑",
+      "artist": "Francisco de Zurbarán",
+      "year": 1627,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/80084",
+      "image": "https://www.artic.edu/iiif/2/c8ee825f-bc8c-c76b-1f05-5d692d9a6b47/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-154235",
       "title": "窓辺の少女",
       "artist": "Edvard Munch",
@@ -1072,17 +1105,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/100476",
       "image": "https://www.artic.edu/iiif/2/16e53257-ade2-4f5d-3521-2bc9666bc4cf/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-80084",
-      "title": "磔刑",
-      "artist": "Francisco de Zurbarán",
-      "year": 1627,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/80084",
-      "image": "https://www.artic.edu/iiif/2/c8ee825f-bc8c-c76b-1f05-5d692d9a6b47/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1273,17 +1295,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-69780",
-      "title": "イタリア、フラスカーティのヴィラ・トルロニアの噴水",
-      "artist": "ジョン・シンガー・サージェント",
-      "year": 1907,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/69780",
-      "image": "https://www.artic.edu/iiif/2/3f9aa9db-61e1-7060-fdb0-bfd7e41ddd08/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-64001",
       "title": "りんご",
       "artist": "Henri Matisse",
@@ -1402,17 +1413,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/869",
       "image": "https://www.artic.edu/iiif/2/237c25a2-6051-a8e7-1610-a01938d4deab/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-60755",
-      "title": "エグモント城跡のある風景",
-      "artist": "ヤーコブ・ファン・ロイスダール",
-      "year": 1655,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/60755",
-      "image": "https://www.artic.edu/iiif/2/12086520-2e48-cc75-df86-916bb801e61f/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1578,6 +1578,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/182381",
       "image": "https://www.artic.edu/iiif/2/12f32e59-cba2-0a32-972e-cf4d7856560c/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-20579",
+      "title": "ヘラクレスとレルネーのヒュドラ",
+      "artist": "Gustave Moreau",
+      "year": 1876,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/20579",
+      "image": "https://www.artic.edu/iiif/2/2ae64c8a-266d-470a-a25a-c83127564636/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1842,17 +1853,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/39560",
       "image": "https://www.artic.edu/iiif/2/31f0a9a3-8a0d-44ed-6de8-66142b75c4c0/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-20579",
-      "title": "ヘラクレスとレルネーのヒュドラ",
-      "artist": "Gustave Moreau",
-      "year": 1876,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/20579",
-      "image": "https://www.artic.edu/iiif/2/2ae64c8a-266d-470a-a25a-c83127564636/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2131,6 +2131,28 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-53495",
+      "title": "A Witches' Sabbath",
+      "artist": "Cornelis Saftleven",
+      "year": 1660,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/53495",
+      "image": "https://www.artic.edu/iiif/2/8cd4328f-da34-dec3-00f5-5810a747c8e8/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-4887",
+      "title": "アイリス",
+      "artist": "クロード・モネ",
+      "year": 1917,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/4887",
+      "image": "https://www.artic.edu/iiif/2/1f925e43-ff81-5ad7-da75-b28ea651c09f/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-44892",
       "title": "魚（静物）",
       "artist": "エドゥアール・マネ",
@@ -2194,17 +2216,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/95183",
       "image": "https://www.artic.edu/iiif/2/1a087ef7-8455-e5d0-0b2b-9738cd33058c/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-4887",
-      "title": "アイリス",
-      "artist": "クロード・モネ",
-      "year": 1917,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/4887",
-      "image": "https://www.artic.edu/iiif/2/1f925e43-ff81-5ad7-da75-b28ea651c09f/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2516,17 +2527,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-53495",
-      "title": "A Witches' Sabbath",
-      "artist": "Cornelis Saftleven",
-      "year": 1660,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/53495",
-      "image": "https://www.artic.edu/iiif/2/8cd4328f-da34-dec3-00f5-5810a747c8e8/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-133859",
       "title": "エロイーズとアベラールの手紙を読む貴婦人",
       "artist": "Bernard d'Agesci",
@@ -2670,6 +2670,28 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-27310",
+      "title": "エリザベスと洗礼者ヨハネを伴う聖家族",
+      "artist": "ピーテル・パウル・ルーベンス",
+      "year": 1620,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/27310",
+      "image": "https://www.artic.edu/iiif/2/7c752046-744f-2f68-482b-a7fd42550f2b/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-100342",
+      "title": "Saint Francis",
+      "artist": "ピーテル・パウル・ルーベンス",
+      "year": 1620,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/100342",
+      "image": "https://www.artic.edu/iiif/2/8df04a6e-cc79-491b-86d4-388c2b33d888/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-864",
       "title": "カーネーションを持つ男の肖像",
       "artist": "Quentin Massys",
@@ -2777,28 +2799,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/184371",
       "image": "https://www.artic.edu/iiif/2/40fdb1d6-93fe-2916-78fb-f56a1ac261f1/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-27310",
-      "title": "エリザベスと洗礼者ヨハネを伴う聖家族",
-      "artist": "ピーテル・パウル・ルーベンス",
-      "year": 1620,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/27310",
-      "image": "https://www.artic.edu/iiif/2/7c752046-744f-2f68-482b-a7fd42550f2b/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-100342",
-      "title": "Saint Francis",
-      "artist": "ピーテル・パウル・ルーベンス",
-      "year": 1620,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/100342",
-      "image": "https://www.artic.edu/iiif/2/8df04a6e-cc79-491b-86d4-388c2b33d888/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
