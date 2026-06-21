@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-20T02:12:30.874Z",
+  "generated": "2026-06-21T02:37:21.709Z",
   "total": 907,
   "sources": {
     "artic": 356,
@@ -7,17 +7,6 @@
     "cma": 525
   },
   "paintings": [
-    {
-      "id": "artic-9637",
-      "title": "イタリアの別荘と庭園（バチカンのベルヴェデーレ）",
-      "artist": "Jean Jacques de Boissieu",
-      "year": 1799,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/9637",
-      "image": "https://www.artic.edu/iiif/2/462c6fe2-40a4-ed8d-772c-4fb9ae78265f/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
     {
       "id": "artic-11723",
       "title": "化粧する女",
@@ -27,6 +16,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/11723",
       "image": "https://www.artic.edu/iiif/2/78c80988-6524-cec7-c661-a4c0a706d06f/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-9637",
+      "title": "イタリアの別荘と庭園（バチカンのベルヴェデーレ）",
+      "artist": "Jean Jacques de Boissieu",
+      "year": 1799,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/9637",
+      "image": "https://www.artic.edu/iiif/2/462c6fe2-40a4-ed8d-772c-4fb9ae78265f/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -129,17 +129,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-70593",
-      "title": "庭園の情景",
-      "artist": "Iran",
-      "year": 1480,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/70593",
-      "image": "https://www.artic.edu/iiif/2/85309ed9-b889-16fb-2fc7-57f1c97c3820/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-68433",
       "title": "パリ郊外の製材所",
       "artist": "Henri Rousseau",
@@ -151,14 +140,14 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-75557",
-      "title": "サアディー「全集」の彩飾写本（漆塗り表紙）",
+      "id": "artic-70593",
+      "title": "庭園の情景",
       "artist": "Iran",
-      "year": 1700,
+      "year": 1480,
       "century": "〜17世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/75557",
-      "image": "https://www.artic.edu/iiif/2/6d216d21-f35a-770a-071c-e0304f23b84f/full/843,/0/default.jpg",
+      "museumUrl": "https://www.artic.edu/artworks/70593",
+      "image": "https://www.artic.edu/iiif/2/85309ed9-b889-16fb-2fc7-57f1c97c3820/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -173,14 +162,14 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-84092",
-      "title": "古代ローマ",
-      "artist": "After Giovanni Paolo Panini",
-      "year": 1760,
-      "century": "18〜19世紀",
+      "id": "artic-75557",
+      "title": "サアディー「全集」の彩飾写本（漆塗り表紙）",
+      "artist": "Iran",
+      "year": 1700,
+      "century": "〜17世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/84092",
-      "image": "https://www.artic.edu/iiif/2/99c8eeea-f07a-af30-c79e-1da4d55243a3/full/843,/0/default.jpg",
+      "museumUrl": "https://www.artic.edu/artworks/75557",
+      "image": "https://www.artic.edu/iiif/2/6d216d21-f35a-770a-071c-e0304f23b84f/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -192,6 +181,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/83613",
       "image": "https://www.artic.edu/iiif/2/2efb0b9d-04a4-390e-752b-fdb9602e017f/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-84092",
+      "title": "古代ローマ",
+      "artist": "After Giovanni Paolo Panini",
+      "year": 1760,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/84092",
+      "image": "https://www.artic.edu/iiif/2/99c8eeea-f07a-af30-c79e-1da4d55243a3/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -228,17 +228,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-130724",
-      "title": "サアディー「全集」写本の一頁",
-      "artist": "Iran",
-      "year": 1700,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/130724",
-      "image": "https://www.artic.edu/iiif/2/384aca18-6efc-e76c-5e1e-20fa5f35baca/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-130725",
       "title": "サアディー「全集」写本の一頁",
       "artist": "Iran",
@@ -247,6 +236,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/130725",
       "image": "https://www.artic.edu/iiif/2/fa298f62-bdfe-67b4-e473-65ad9f656dc1/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-130724",
+      "title": "サアディー「全集」写本の一頁",
+      "artist": "Iran",
+      "year": 1700,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/130724",
+      "image": "https://www.artic.edu/iiif/2/384aca18-6efc-e76c-5e1e-20fa5f35baca/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -272,6 +272,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-154496",
+      "title": "ノーンズ博士のラック絵",
+      "artist": "Attributed to William A. Mitchell",
+      "year": 1879,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/154496",
+      "image": "https://www.artic.edu/iiif/2/22609746-bd4b-c9b6-8293-dfd393f00c20/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-111377",
       "title": "日曜日の夕食のために",
       "artist": "William Michael Harnett",
@@ -291,17 +302,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/180545",
       "image": "https://www.artic.edu/iiif/2/70b5f843-8885-d0f7-f167-e992cf36bac1/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-154496",
-      "title": "ノーンズ博士のラック絵",
-      "artist": "Attributed to William A. Mitchell",
-      "year": 1879,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/154496",
-      "image": "https://www.artic.edu/iiif/2/22609746-bd4b-c9b6-8293-dfd393f00c20/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -569,28 +569,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-158382",
-      "title": "コルテ・デル・パラディーゾ",
-      "artist": "ジェームズ・マクニール・ホイッスラー",
-      "year": 1880,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/158382",
-      "image": "https://www.artic.edu/iiif/2/d8e45c48-6109-6fe1-e0fc-ba528eeea822/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-113084",
-      "title": "モード・フランクリン嬢の肖像",
-      "artist": "ジェームズ・マクニール・ホイッスラー",
-      "year": 1888,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/113084",
-      "image": "https://www.artic.edu/iiif/2/f31bbec3-0228-ab8e-ce4a-2029cd5f654f/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-14523",
       "title": "手すりのそばの人物たち",
       "artist": "ジェームズ・マクニール・ホイッスラー",
@@ -610,6 +588,28 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/3551",
       "image": "https://www.artic.edu/iiif/2/b7637e1b-47d7-123c-fe43-46981a93550e/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-158382",
+      "title": "コルテ・デル・パラディーゾ",
+      "artist": "ジェームズ・マクニール・ホイッスラー",
+      "year": 1880,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/158382",
+      "image": "https://www.artic.edu/iiif/2/d8e45c48-6109-6fe1-e0fc-ba528eeea822/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-113084",
+      "title": "モード・フランクリン嬢の肖像",
+      "artist": "ジェームズ・マクニール・ホイッスラー",
+      "year": 1888,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/113084",
+      "image": "https://www.artic.edu/iiif/2/f31bbec3-0228-ab8e-ce4a-2029cd5f654f/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -690,17 +690,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-14493",
-      "title": "蝶",
-      "artist": "ジェームズ・マクニール・ホイッスラー",
-      "year": 1899,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/14493",
-      "image": "https://www.artic.edu/iiif/2/50cc85c9-142d-1208-3a74-9e846c4bc961/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-113070",
       "title": "「黒のアレンジメント第2番」習作（表）／「肉色とピンクのシンフォニー」習作（裏）",
       "artist": "ジェームズ・マクニール・ホイッスラー",
@@ -709,6 +698,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/113070",
       "image": "https://www.artic.edu/iiif/2/7f401f24-8877-e887-53cb-880663ed8907/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-14493",
+      "title": "蝶",
+      "artist": "ジェームズ・マクニール・ホイッスラー",
+      "year": 1899,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/14493",
+      "image": "https://www.artic.edu/iiif/2/50cc85c9-142d-1208-3a74-9e846c4bc961/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1669,6 +1669,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-25812",
+      "title": "闘牛",
+      "artist": "エドゥアール・マネ",
+      "year": 1866,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/25812",
+      "image": "https://www.artic.edu/iiif/2/38636be8-f1bc-c451-ae65-c441919bd0c3/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-8969",
       "title": "牡蠣を持つ乞食（哲学者）",
       "artist": "エドゥアール・マネ",
@@ -1699,17 +1710,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/81533",
       "image": "https://www.artic.edu/iiif/2/e9ce5aca-4c34-c8dd-b8a1-91b3e3197211/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-25812",
-      "title": "闘牛",
-      "artist": "エドゥアール・マネ",
-      "year": 1866,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/25812",
-      "image": "https://www.artic.edu/iiif/2/38636be8-f1bc-c451-ae65-c441919bd0c3/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1812,17 +1812,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-191564",
-      "title": "Standing Bather, Seen from the Back",
-      "artist": "Paul Cezanne",
-      "year": 1882,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/191564",
-      "image": "https://www.artic.edu/iiif/2/527417cf-28b5-45f0-8afe-20af0dcc1418/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-14556",
       "title": "Auvers, Panoramic View",
       "artist": "Paul Cezanne",
@@ -1831,6 +1820,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/14556",
       "image": "https://www.artic.edu/iiif/2/90bc0cec-0d4e-9af5-3912-52a082a428e5/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-191564",
+      "title": "Standing Bather, Seen from the Back",
+      "artist": "Paul Cezanne",
+      "year": 1882,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/191564",
+      "image": "https://www.artic.edu/iiif/2/527417cf-28b5-45f0-8afe-20af0dcc1418/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2186,17 +2186,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-16544",
-      "title": "チャリング・クロス橋、ロンドン",
-      "artist": "クロード・モネ",
-      "year": 1901,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/16544",
-      "image": "https://www.artic.edu/iiif/2/e9179922-f68d-34c5-481d-abf49e046863/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-4887",
       "title": "アイリス",
       "artist": "クロード・モネ",
@@ -2205,6 +2194,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/4887",
       "image": "https://www.artic.edu/iiif/2/1f925e43-ff81-5ad7-da75-b28ea651c09f/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-16544",
+      "title": "チャリング・クロス橋、ロンドン",
+      "artist": "クロード・モネ",
+      "year": 1901,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/16544",
+      "image": "https://www.artic.edu/iiif/2/e9179922-f68d-34c5-481d-abf49e046863/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2263,17 +2263,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-16617",
-      "title": "菊",
-      "artist": "ピエール＝オーギュスト・ルノワール",
-      "year": 1882,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/16617",
-      "image": "https://www.artic.edu/iiif/2/479aff61-784e-e833-fd82-50ba8c819514/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-81557",
       "title": "Seascape",
       "artist": "ピエール＝オーギュスト・ルノワール",
@@ -2282,6 +2271,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/81557",
       "image": "https://www.artic.edu/iiif/2/caf4fa39-e2e8-344a-542c-2d9a03ec9d4b/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-16617",
+      "title": "菊",
+      "artist": "ピエール＝オーギュスト・ルノワール",
+      "year": 1882,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/16617",
+      "image": "https://www.artic.edu/iiif/2/479aff61-784e-e833-fd82-50ba8c819514/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -3011,17 +3011,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-16600",
-      "title": "Lucie Berard (Child in White)",
-      "artist": "ピエール＝オーギュスト・ルノワール",
-      "year": 1883,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/16600",
-      "image": "https://www.artic.edu/iiif/2/0e94a829-b3b7-8317-b609-d1826f0369f0/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-25832",
       "title": "Jean Renoir Sewing",
       "artist": "ピエール＝オーギュスト・ルノワール",
@@ -3030,6 +3019,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/25832",
       "image": "https://www.artic.edu/iiif/2/41728a11-a073-6efa-387c-a40384477ad2/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-16600",
+      "title": "Lucie Berard (Child in White)",
+      "artist": "ピエール＝オーギュスト・ルノワール",
+      "year": 1883,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/16600",
+      "image": "https://www.artic.edu/iiif/2/0e94a829-b3b7-8317-b609-d1826f0369f0/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -3473,17 +3473,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-81552",
-      "title": "井戸のそばの女と子",
-      "artist": "カミーユ・ピサロ",
-      "year": 1882,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/81552",
-      "image": "https://www.artic.edu/iiif/2/a2ddbd89-d864-8877-37bc-cd3dce12c37c/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-81548",
       "title": "コーヒーを飲む若い農婦",
       "artist": "カミーユ・ピサロ",
@@ -3492,6 +3481,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/81548",
       "image": "https://www.artic.edu/iiif/2/335a59a4-3f5b-b9db-b8e8-861467d211ef/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-81552",
+      "title": "井戸のそばの女と子",
+      "artist": "カミーユ・ピサロ",
+      "year": 1882,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/81552",
+      "image": "https://www.artic.edu/iiif/2/a2ddbd89-d864-8877-37bc-cd3dce12c37c/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
