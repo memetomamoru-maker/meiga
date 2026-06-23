@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-22T02:40:48.965Z",
+  "generated": "2026-06-23T02:06:37.723Z",
   "total": 907,
   "sources": {
     "artic": 356,
@@ -173,17 +173,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-83613",
-      "title": "「イル・マスケローネ」、ボルゲーゼ荘の噴水",
-      "artist": "Richard Wilson",
-      "year": 1759,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/83613",
-      "image": "https://www.artic.edu/iiif/2/2efb0b9d-04a4-390e-752b-fdb9602e017f/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-84092",
       "title": "古代ローマ",
       "artist": "After Giovanni Paolo Panini",
@@ -192,6 +181,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/84092",
       "image": "https://www.artic.edu/iiif/2/99c8eeea-f07a-af30-c79e-1da4d55243a3/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-83613",
+      "title": "「イル・マスケローネ」、ボルゲーゼ荘の噴水",
+      "artist": "Richard Wilson",
+      "year": 1759,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/83613",
+      "image": "https://www.artic.edu/iiif/2/2efb0b9d-04a4-390e-752b-fdb9602e017f/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -228,6 +228,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-130725",
+      "title": "サアディー「全集」写本の一頁",
+      "artist": "Iran",
+      "year": 1700,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/130725",
+      "image": "https://www.artic.edu/iiif/2/fa298f62-bdfe-67b4-e473-65ad9f656dc1/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-130724",
       "title": "サアディー「全集」写本の一頁",
       "artist": "Iran",
@@ -247,17 +258,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/131827",
       "image": "https://www.artic.edu/iiif/2/5744228e-f41d-f2ae-b67c-94ec7959766c/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-130725",
-      "title": "サアディー「全集」写本の一頁",
-      "artist": "Iran",
-      "year": 1700,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/130725",
-      "image": "https://www.artic.edu/iiif/2/fa298f62-bdfe-67b4-e473-65ad9f656dc1/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2670,6 +2670,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-22857",
+      "title": "楽園の庭",
+      "artist": "Workshop of Hieronymus Bosch",
+      "year": 1525,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/22857",
+      "image": "https://www.artic.edu/iiif/2/3e82db48-5f93-ada3-7ab2-f97328ccc1bd/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-27310",
       "title": "エリザベスと洗礼者ヨハネを伴う聖家族",
       "artist": "ピーテル・パウル・ルーベンス",
@@ -2733,17 +2744,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/119264",
       "image": "https://www.artic.edu/iiif/2/2b1cba5a-f194-266b-5357-b437fada0b3b/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-22857",
-      "title": "楽園の庭",
-      "artist": "Workshop of Hieronymus Bosch",
-      "year": 1525,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/22857",
-      "image": "https://www.artic.edu/iiif/2/3e82db48-5f93-ada3-7ab2-f97328ccc1bd/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -7125,6 +7125,17 @@
       "wikiUrl": null
     },
     {
+      "id": "cma-128074",
+      "title": "Café Wepler",
+      "artist": "Édouard Vuillard",
+      "year": 1908,
+      "century": "20世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/1950.90",
+      "image": "https://openaccess-cdn.clevelandart.org/1950.90/1950.90_web.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "cma-163042",
       "title": "Apollo, God of Light, Eloquence, Poetry, and the Fine Arts with Urania, Muse of Astronomy",
       "artist": "Charles Meynier",
@@ -7144,17 +7155,6 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/2003.6.4",
       "image": "https://openaccess-cdn.clevelandart.org/2003.6.4/2003.6.4_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-128074",
-      "title": "Café Wepler",
-      "artist": "Édouard Vuillard",
-      "year": 1908,
-      "century": "20世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1950.90",
-      "image": "https://openaccess-cdn.clevelandart.org/1950.90/1950.90_web.jpg",
       "wikiUrl": null
     },
     {
