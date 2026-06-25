@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-24T02:08:38.338Z",
+  "generated": "2026-06-25T02:08:41.946Z",
   "total": 907,
   "sources": {
     "artic": 356,
@@ -7,17 +7,6 @@
     "cma": 525
   },
   "paintings": [
-    {
-      "id": "artic-14664",
-      "title": "ムーラン・ド・ラ・ギャレット",
-      "artist": "アンリ・ド・トゥールーズ＝ロートレック",
-      "year": 1889,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/14664",
-      "image": "https://www.artic.edu/iiif/2/156aaed6-fe3c-a13c-f39e-55f381205929/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
     {
       "id": "artic-9637",
       "title": "イタリアの別荘と庭園（バチカンのベルヴェデーレ）",
@@ -107,6 +96,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-14664",
+      "title": "ムーラン・ド・ラ・ギャレット",
+      "artist": "アンリ・ド・トゥールーズ＝ロートレック",
+      "year": 1889,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/14664",
+      "image": "https://www.artic.edu/iiif/2/156aaed6-fe3c-a13c-f39e-55f381205929/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-30899",
       "title": "ゼラーダ枢機卿の肖像",
       "artist": "Anton Raphael Mengs",
@@ -151,17 +151,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-75557",
-      "title": "サアディー「全集」の彩飾写本（漆塗り表紙）",
-      "artist": "Iran",
-      "year": 1700,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/75557",
-      "image": "https://www.artic.edu/iiif/2/6d216d21-f35a-770a-071c-e0304f23b84f/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-76890",
       "title": "天国の庭で踊り子たちに接待される統治者",
       "artist": "India",
@@ -170,6 +159,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/76890",
       "image": "https://www.artic.edu/iiif/2/c1e17623-1a51-8db0-e1d0-3eee0b41b4b2/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-75557",
+      "title": "サアディー「全集」の彩飾写本（漆塗り表紙）",
+      "artist": "Iran",
+      "year": 1700,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/75557",
+      "image": "https://www.artic.edu/iiif/2/6d216d21-f35a-770a-071c-e0304f23b84f/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -360,17 +360,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-16622",
-      "title": "レオン・クラピソン夫人",
-      "artist": "ピエール＝オーギュスト・ルノワール",
-      "year": 1883,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/16622",
-      "image": "https://www.artic.edu/iiif/2/a7af09dc-5743-062e-4802-b6435e67eaa5/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-15468",
       "title": "聖ゲオルギウスと龍",
       "artist": "Bernat Martorell",
@@ -390,6 +379,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/879",
       "image": "https://www.artic.edu/iiif/2/ff3b5c8a-5b14-5c35-8775-3d021e92a381/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-16622",
+      "title": "レオン・クラピソン夫人",
+      "artist": "ピエール＝オーギュスト・ルノワール",
+      "year": 1883,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/16622",
+      "image": "https://www.artic.edu/iiif/2/a7af09dc-5743-062e-4802-b6435e67eaa5/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -437,17 +437,6 @@
       "wikiUrl": "https://ja.wikipedia.org/wiki/パリの街路、雨の日"
     },
     {
-      "id": "artic-25825",
-      "title": "ピアノを弾く女性",
-      "artist": "ピエール＝オーギュスト・ルノワール",
-      "year": 1876,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/25825",
-      "image": "https://www.artic.edu/iiif/2/8f06717c-9ede-f22b-d13b-327a50c22f9c/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-153194",
       "title": "ホロフェルネスの遺体を発見する兵士たち",
       "artist": "Master of the Liechtenstein Adoration",
@@ -456,6 +445,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/153194",
       "image": "https://www.artic.edu/iiif/2/4a99abd8-4f62-3482-3670-c783892e4a41/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-25825",
+      "title": "ピアノを弾く女性",
+      "artist": "ピエール＝オーギュスト・ルノワール",
+      "year": 1876,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/25825",
+      "image": "https://www.artic.edu/iiif/2/8f06717c-9ede-f22b-d13b-327a50c22f9c/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -602,17 +602,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-14309",
-      "title": "海岸の情景、水浴する人々",
-      "artist": "ジェームズ・マクニール・ホイッスラー",
-      "year": 1885,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/14309",
-      "image": "https://www.artic.edu/iiif/2/5888c23a-635f-396a-117b-2223032c0201/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-3551",
       "title": "「グレーと黒のアレンジメント第2番：トーマス・カーライルの肖像」習作",
       "artist": "ジェームズ・マクニール・ホイッスラー",
@@ -621,6 +610,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/3551",
       "image": "https://www.artic.edu/iiif/2/b7637e1b-47d7-123c-fe43-46981a93550e/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-14309",
+      "title": "海岸の情景、水浴する人々",
+      "artist": "ジェームズ・マクニール・ホイッスラー",
+      "year": 1885,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/14309",
+      "image": "https://www.artic.edu/iiif/2/5888c23a-635f-396a-117b-2223032c0201/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1053,6 +1053,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-100476",
+      "title": "カバッソンの海岸（バーニュ・キュル）",
+      "artist": "Henri Edmond Cross",
+      "year": 1892,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/100476",
+      "image": "https://www.artic.edu/iiif/2/16e53257-ade2-4f5d-3521-2bc9666bc4cf/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-80084",
       "title": "磔刑",
       "artist": "Francisco de Zurbarán",
@@ -1292,17 +1303,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/60755",
       "image": "https://www.artic.edu/iiif/2/12086520-2e48-cc75-df86-916bb801e61f/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-100476",
-      "title": "カバッソンの海岸（バーニュ・キュル）",
-      "artist": "Henri Edmond Cross",
-      "year": 1892,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/100476",
-      "image": "https://www.artic.edu/iiif/2/16e53257-ade2-4f5d-3521-2bc9666bc4cf/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1592,17 +1592,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-5848",
-      "title": "パトモス島の聖ヨハネのいる風景",
-      "artist": "ニコラ・プッサン",
-      "year": 1640,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/5848",
-      "image": "https://www.artic.edu/iiif/2/aa870b0d-5a1b-660a-6dc6-56c12109cf6e/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-16499",
       "title": "兵士にあざけられるキリスト",
       "artist": "エドゥアール・マネ",
@@ -1611,6 +1600,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/16499",
       "image": "https://www.artic.edu/iiif/2/4d03ba14-a01a-d003-404a-cf3f9fb40ede/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-5848",
+      "title": "パトモス島の聖ヨハネのいる風景",
+      "artist": "ニコラ・プッサン",
+      "year": 1640,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/5848",
+      "image": "https://www.artic.edu/iiif/2/aa870b0d-5a1b-660a-6dc6-56c12109cf6e/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1746,28 +1746,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-16564",
-      "title": "ジヴェルニー近くのセーヌ川の支流（霧）",
-      "artist": "クロード・モネ",
-      "year": 1897,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/16564",
-      "image": "https://www.artic.edu/iiif/2/838d8c33-a3b4-68ea-587b-87ceec2011af/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-20545",
-      "title": "ベル＝イル島、ポール・グルファールの岩",
-      "artist": "クロード・モネ",
-      "year": 1886,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/20545",
-      "image": "https://www.artic.edu/iiif/2/2765aee9-3d78-ec6c-5c66-a1d9dc8173f6/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-16584",
       "title": "ロンドン、国会議事堂",
       "artist": "クロード・モネ",
@@ -1779,6 +1757,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-16564",
+      "title": "ジヴェルニー近くのセーヌ川の支流（霧）",
+      "artist": "クロード・モネ",
+      "year": 1897,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/16564",
+      "image": "https://www.artic.edu/iiif/2/838d8c33-a3b4-68ea-587b-87ceec2011af/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-81539",
       "title": "セーヌ河畔、ベンヌクール",
       "artist": "クロード・モネ",
@@ -1787,6 +1776,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/81539",
       "image": "https://www.artic.edu/iiif/2/66f95ea3-a11a-1cf4-6599-d0a49bb25744/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-20545",
+      "title": "ベル＝イル島、ポール・グルファールの岩",
+      "artist": "クロード・モネ",
+      "year": 1886,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/20545",
+      "image": "https://www.artic.edu/iiif/2/2765aee9-3d78-ec6c-5c66-a1d9dc8173f6/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -3473,17 +3473,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-81548",
-      "title": "コーヒーを飲む若い農婦",
-      "artist": "カミーユ・ピサロ",
-      "year": 1881,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/81548",
-      "image": "https://www.artic.edu/iiif/2/335a59a4-3f5b-b9db-b8e8-861467d211ef/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-81552",
       "title": "井戸のそばの女と子",
       "artist": "カミーユ・ピサロ",
@@ -3492,6 +3481,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/81552",
       "image": "https://www.artic.edu/iiif/2/a2ddbd89-d864-8877-37bc-cd3dce12c37c/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-81548",
+      "title": "コーヒーを飲む若い農婦",
+      "artist": "カミーユ・ピサロ",
+      "year": 1881,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/81548",
+      "image": "https://www.artic.edu/iiif/2/335a59a4-3f5b-b9db-b8e8-861467d211ef/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -8731,6 +8731,17 @@
       "wikiUrl": null
     },
     {
+      "id": "cma-148958",
+      "title": "The Curious One",
+      "artist": "Antoine Pierre Mongin",
+      "year": 1823,
+      "century": "18〜19世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/1977.116",
+      "image": "https://openaccess-cdn.clevelandart.org/1977.116/1977.116_web.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "cma-118042",
       "title": "The Dock of Deauville",
       "artist": "ウジェーヌ・ブーダン",
@@ -8761,17 +8772,6 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/1980.249",
       "image": "https://openaccess-cdn.clevelandart.org/1980.249/1980.249_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-148958",
-      "title": "The Curious One",
-      "artist": "Antoine Pierre Mongin",
-      "year": 1823,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1977.116",
-      "image": "https://openaccess-cdn.clevelandart.org/1977.116/1977.116_web.jpg",
       "wikiUrl": null
     },
     {
