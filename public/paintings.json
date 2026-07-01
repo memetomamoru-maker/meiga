@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-30T02:10:45.546Z",
+  "generated": "2026-07-01T02:15:05.522Z",
   "total": 907,
   "sources": {
     "artic": 356,
@@ -7,17 +7,6 @@
     "cma": 525
   },
   "paintings": [
-    {
-      "id": "artic-9637",
-      "title": "イタリアの別荘と庭園（バチカンのベルヴェデーレ）",
-      "artist": "Jean Jacques de Boissieu",
-      "year": 1799,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/9637",
-      "image": "https://www.artic.edu/iiif/2/462c6fe2-40a4-ed8d-772c-4fb9ae78265f/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
     {
       "id": "artic-11723",
       "title": "化粧する女",
@@ -27,6 +16,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/11723",
       "image": "https://www.artic.edu/iiif/2/78c80988-6524-cec7-c661-a4c0a706d06f/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-9637",
+      "title": "イタリアの別荘と庭園（バチカンのベルヴェデーレ）",
+      "artist": "Jean Jacques de Boissieu",
+      "year": 1799,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/9637",
+      "image": "https://www.artic.edu/iiif/2/462c6fe2-40a4-ed8d-772c-4fb9ae78265f/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -129,17 +129,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-68433",
-      "title": "パリ郊外の製材所",
-      "artist": "Henri Rousseau",
-      "year": 1895,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/68433",
-      "image": "https://www.artic.edu/iiif/2/3826e366-e82a-e853-12e4-b303a1618103/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-70593",
       "title": "庭園の情景",
       "artist": "Iran",
@@ -148,6 +137,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/70593",
       "image": "https://www.artic.edu/iiif/2/85309ed9-b889-16fb-2fc7-57f1c97c3820/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-68433",
+      "title": "パリ郊外の製材所",
+      "artist": "Henri Rousseau",
+      "year": 1895,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/68433",
+      "image": "https://www.artic.edu/iiif/2/3826e366-e82a-e853-12e4-b303a1618103/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -184,17 +184,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-84092",
-      "title": "古代ローマ",
-      "artist": "After Giovanni Paolo Panini",
-      "year": 1760,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/84092",
-      "image": "https://www.artic.edu/iiif/2/99c8eeea-f07a-af30-c79e-1da4d55243a3/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-87088",
       "title": "睡蓮の池",
       "artist": "クロード・モネ",
@@ -203,6 +192,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/87088",
       "image": "https://www.artic.edu/iiif/2/8534685d-1102-e1e3-e194-94f6e925e8b0/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-84092",
+      "title": "古代ローマ",
+      "artist": "After Giovanni Paolo Panini",
+      "year": 1760,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/84092",
+      "image": "https://www.artic.edu/iiif/2/99c8eeea-f07a-af30-c79e-1da4d55243a3/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1053,6 +1053,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-47578",
+      "title": "フロリダブランカ伯爵",
+      "artist": "Pompeo Girolamo Batoni",
+      "year": 1781,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/47578",
+      "image": "https://www.artic.edu/iiif/2/955a3bb2-0e15-4f03-5ed1-1914b5fc9c26/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-80084",
       "title": "磔刑",
       "artist": "Francisco de Zurbarán",
@@ -1427,17 +1438,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-47578",
-      "title": "フロリダブランカ伯爵",
-      "artist": "Pompeo Girolamo Batoni",
-      "year": 1781,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/47578",
-      "image": "https://www.artic.edu/iiif/2/955a3bb2-0e15-4f03-5ed1-1914b5fc9c26/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-196282",
       "title": "The Prairie on Fire",
       "artist": "Alvan Fisher",
@@ -1578,6 +1578,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/182381",
       "image": "https://www.artic.edu/iiif/2/12f32e59-cba2-0a32-972e-cf4d7856560c/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-895",
+      "title": "槍を持って雪中を進む男",
+      "artist": "Adolphe Schreyer",
+      "year": 1885,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/895",
+      "image": "https://www.artic.edu/iiif/2/fa96ef54-c3b1-8f4d-390a-219f7bc64c4a/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2109,17 +2120,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-895",
-      "title": "槍を持って雪中を進む男",
-      "artist": "Adolphe Schreyer",
-      "year": 1885,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/895",
-      "image": "https://www.artic.edu/iiif/2/fa96ef54-c3b1-8f4d-390a-219f7bc64c4a/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-110673",
       "title": "悲しみの聖母",
       "artist": "Workshop of Dieric Bouts",
@@ -2150,6 +2150,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/65930",
       "image": "https://www.artic.edu/iiif/2/2a328b12-cb68-19e8-3843-b2160f007813/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-8953",
+      "title": "The Capture of Samson",
+      "artist": "ピーテル・パウル・ルーベンス",
+      "year": 1610,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/8953",
+      "image": "https://www.artic.edu/iiif/2/a8fd8a92-d5fd-bb98-5d70-f970ab1788b8/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2436,17 +2447,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/64957",
       "image": "https://www.artic.edu/iiif/2/f11bd233-6cc3-4221-59eb-f7363be4119e/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-8953",
-      "title": "The Capture of Samson",
-      "artist": "ピーテル・パウル・ルーベンス",
-      "year": 1610,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/8953",
-      "image": "https://www.artic.edu/iiif/2/a8fd8a92-d5fd-bb98-5d70-f970ab1788b8/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
