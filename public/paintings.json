@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-01T02:15:05.522Z",
+  "generated": "2026-07-02T02:07:23.930Z",
   "total": 907,
   "sources": {
     "artic": 356,
@@ -7,17 +7,6 @@
     "cma": 525
   },
   "paintings": [
-    {
-      "id": "artic-11723",
-      "title": "化粧する女",
-      "artist": "ベルト・モリゾ",
-      "year": 1880,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/11723",
-      "image": "https://www.artic.edu/iiif/2/78c80988-6524-cec7-c661-a4c0a706d06f/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
     {
       "id": "artic-9637",
       "title": "イタリアの別荘と庭園（バチカンのベルヴェデーレ）",
@@ -27,6 +16,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/9637",
       "image": "https://www.artic.edu/iiif/2/462c6fe2-40a4-ed8d-772c-4fb9ae78265f/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-11723",
+      "title": "化粧する女",
+      "artist": "ベルト・モリゾ",
+      "year": 1880,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/11723",
+      "image": "https://www.artic.edu/iiif/2/78c80988-6524-cec7-c661-a4c0a706d06f/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -129,17 +129,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-70593",
-      "title": "庭園の情景",
-      "artist": "Iran",
-      "year": 1480,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/70593",
-      "image": "https://www.artic.edu/iiif/2/85309ed9-b889-16fb-2fc7-57f1c97c3820/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-68433",
       "title": "パリ郊外の製材所",
       "artist": "Henri Rousseau",
@@ -148,6 +137,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/68433",
       "image": "https://www.artic.edu/iiif/2/3826e366-e82a-e853-12e4-b303a1618103/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-70593",
+      "title": "庭園の情景",
+      "artist": "Iran",
+      "year": 1480,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/70593",
+      "image": "https://www.artic.edu/iiif/2/85309ed9-b889-16fb-2fc7-57f1c97c3820/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -184,17 +184,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-87088",
-      "title": "睡蓮の池",
-      "artist": "クロード・モネ",
-      "year": 1900,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/87088",
-      "image": "https://www.artic.edu/iiif/2/8534685d-1102-e1e3-e194-94f6e925e8b0/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-84092",
       "title": "古代ローマ",
       "artist": "After Giovanni Paolo Panini",
@@ -203,6 +192,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/84092",
       "image": "https://www.artic.edu/iiif/2/99c8eeea-f07a-af30-c79e-1da4d55243a3/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-87088",
+      "title": "睡蓮の池",
+      "artist": "クロード・モネ",
+      "year": 1900,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/87088",
+      "image": "https://www.artic.edu/iiif/2/8534685d-1102-e1e3-e194-94f6e925e8b0/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -270,6 +270,17 @@
       "museumUrl": "https://www.artic.edu/artworks/186418",
       "image": "https://www.artic.edu/iiif/2/560ff8f8-8932-6114-54d5-8174144615e5/full/843,/0/default.jpg",
       "wikiUrl": null
+    },
+    {
+      "id": "artic-28560",
+      "title": "寝室",
+      "artist": "フィンセント・ファン・ゴッホ",
+      "year": 1889,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/28560",
+      "image": "https://www.artic.edu/iiif/2/6644829f-f292-c5c4-a73c-0356a6fdbf0d/full/843,/0/default.jpg",
+      "wikiUrl": "https://ja.wikipedia.org/wiki/ファン・ゴッホの寝室"
     },
     {
       "id": "artic-180545",
@@ -391,17 +402,6 @@
       "museumUrl": "https://www.artic.edu/artworks/16622",
       "image": "https://www.artic.edu/iiif/2/a7af09dc-5743-062e-4802-b6435e67eaa5/full/843,/0/default.jpg",
       "wikiUrl": null
-    },
-    {
-      "id": "artic-28560",
-      "title": "寝室",
-      "artist": "フィンセント・ファン・ゴッホ",
-      "year": 1889,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/28560",
-      "image": "https://www.artic.edu/iiif/2/6644829f-f292-c5c4-a73c-0356a6fdbf0d/full/843,/0/default.jpg",
-      "wikiUrl": "https://ja.wikipedia.org/wiki/ファン・ゴッホの寝室"
     },
     {
       "id": "artic-217536",
@@ -1053,14 +1053,14 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-47578",
-      "title": "フロリダブランカ伯爵",
-      "artist": "Pompeo Girolamo Batoni",
-      "year": 1781,
-      "century": "18〜19世紀",
+      "id": "artic-862",
+      "title": "ある芸術家の肖像",
+      "artist": "Follower of Frans Hals",
+      "year": 1644,
+      "century": "〜17世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/47578",
-      "image": "https://www.artic.edu/iiif/2/955a3bb2-0e15-4f03-5ed1-1914b5fc9c26/full/843,/0/default.jpg",
+      "museumUrl": "https://www.artic.edu/artworks/862",
+      "image": "https://www.artic.edu/iiif/2/c95d58bf-fe9e-e5bb-2c71-ab8bad984759/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1086,6 +1086,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-69780",
+      "title": "イタリア、フラスカーティのヴィラ・トルロニアの噴水",
+      "artist": "ジョン・シンガー・サージェント",
+      "year": 1907,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/69780",
+      "image": "https://www.artic.edu/iiif/2/3f9aa9db-61e1-7060-fdb0-bfd7e41ddd08/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-27992",
       "title": "グランド・ジャット島の日曜日の午後　1884年",
       "artist": "ジョルジュ・スーラ",
@@ -1095,6 +1106,17 @@
       "museumUrl": "https://www.artic.edu/artworks/27992",
       "image": "https://www.artic.edu/iiif/2/2d484387-2509-5e8e-2c43-22f9981972eb/full/843,/0/default.jpg",
       "wikiUrl": "https://ja.wikipedia.org/wiki/グラン・ジャット島の日曜日の午後"
+    },
+    {
+      "id": "artic-47578",
+      "title": "フロリダブランカ伯爵",
+      "artist": "Pompeo Girolamo Batoni",
+      "year": 1781,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/47578",
+      "image": "https://www.artic.edu/iiif/2/955a3bb2-0e15-4f03-5ed1-1914b5fc9c26/full/843,/0/default.jpg",
+      "wikiUrl": null
     },
     {
       "id": "artic-87479",
@@ -1251,17 +1273,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-69780",
-      "title": "イタリア、フラスカーティのヴィラ・トルロニアの噴水",
-      "artist": "ジョン・シンガー・サージェント",
-      "year": 1907,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/69780",
-      "image": "https://www.artic.edu/iiif/2/3f9aa9db-61e1-7060-fdb0-bfd7e41ddd08/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-64001",
       "title": "りんご",
       "artist": "Henri Matisse",
@@ -1325,17 +1336,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/2156",
       "image": "https://www.artic.edu/iiif/2/438fbefa-e576-bd5f-983f-1c9626cd4a60/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-862",
-      "title": "ある芸術家の肖像",
-      "artist": "Follower of Frans Hals",
-      "year": 1644,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/862",
-      "image": "https://www.artic.edu/iiif/2/c95d58bf-fe9e-e5bb-2c71-ab8bad984759/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2164,6 +2164,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-4887",
+      "title": "アイリス",
+      "artist": "クロード・モネ",
+      "year": 1917,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/4887",
+      "image": "https://www.artic.edu/iiif/2/1f925e43-ff81-5ad7-da75-b28ea651c09f/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-44892",
       "title": "魚（静物）",
       "artist": "エドゥアール・マネ",
@@ -2216,17 +2227,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/95183",
       "image": "https://www.artic.edu/iiif/2/1a087ef7-8455-e5d0-0b2b-9738cd33058c/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-4887",
-      "title": "アイリス",
-      "artist": "クロード・モネ",
-      "year": 1917,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/4887",
-      "image": "https://www.artic.edu/iiif/2/1f925e43-ff81-5ad7-da75-b28ea651c09f/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2670,6 +2670,28 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-27310",
+      "title": "エリザベスと洗礼者ヨハネを伴う聖家族",
+      "artist": "ピーテル・パウル・ルーベンス",
+      "year": 1620,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/27310",
+      "image": "https://www.artic.edu/iiif/2/7c752046-744f-2f68-482b-a7fd42550f2b/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-897",
+      "title": "ノルマンディーの牧草地",
+      "artist": "Constant Troyon",
+      "year": 1852,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/897",
+      "image": "https://www.artic.edu/iiif/2/5ae91cbf-66c5-cf9b-f355-629e458cb063/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-896",
       "title": "市場への道",
       "artist": "Constant Troyon",
@@ -2689,17 +2711,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/100342",
       "image": "https://www.artic.edu/iiif/2/8df04a6e-cc79-491b-86d4-388c2b33d888/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-27310",
-      "title": "エリザベスと洗礼者ヨハネを伴う聖家族",
-      "artist": "ピーテル・パウル・ルーベンス",
-      "year": 1620,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/27310",
-      "image": "https://www.artic.edu/iiif/2/7c752046-744f-2f68-482b-a7fd42550f2b/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2857,17 +2868,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-897",
-      "title": "ノルマンディーの牧草地",
-      "artist": "Constant Troyon",
-      "year": 1852,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/897",
-      "image": "https://www.artic.edu/iiif/2/5ae91cbf-66c5-cf9b-f355-629e458cb063/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-16484",
       "title": "1807年のワシントン市の眺め",
       "artist": "Unknown Artist",
@@ -2920,6 +2920,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/893",
       "image": "https://www.artic.edu/iiif/2/3527f037-a9b2-9253-1a92-dcd281b54340/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-5304",
+      "title": "Homer Dictating",
+      "artist": "Pier Francesco Mola",
+      "year": 1665,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/5304",
+      "image": "https://www.artic.edu/iiif/2/8eed2fbf-5090-4fb2-8f7a-74e97c8e6eaf/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -3096,17 +3107,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/16398",
       "image": "https://www.artic.edu/iiif/2/c6c6a21a-b985-35d9-b0ef-a2b798ad9fba/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-5304",
-      "title": "Homer Dictating",
-      "artist": "Pier Francesco Mola",
-      "year": 1665,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/5304",
-      "image": "https://www.artic.edu/iiif/2/8eed2fbf-5090-4fb2-8f7a-74e97c8e6eaf/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
