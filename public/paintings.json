@@ -1,9 +1,9 @@
 {
-  "generated": "2026-07-02T02:07:23.930Z",
-  "total": 907,
+  "generated": "2026-07-03T01:51:31.351Z",
+  "total": 904,
   "sources": {
     "artic": 356,
-    "met": 26,
+    "met": 23,
     "cma": 525
   },
   "paintings": [
@@ -151,17 +151,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-75557",
-      "title": "サアディー「全集」の彩飾写本（漆塗り表紙）",
-      "artist": "Iran",
-      "year": 1700,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/75557",
-      "image": "https://www.artic.edu/iiif/2/6d216d21-f35a-770a-071c-e0304f23b84f/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-76890",
       "title": "天国の庭で踊り子たちに接待される統治者",
       "artist": "India",
@@ -173,14 +162,14 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-83613",
-      "title": "「イル・マスケローネ」、ボルゲーゼ荘の噴水",
-      "artist": "Richard Wilson",
-      "year": 1759,
-      "century": "18〜19世紀",
+      "id": "artic-75557",
+      "title": "サアディー「全集」の彩飾写本（漆塗り表紙）",
+      "artist": "Iran",
+      "year": 1700,
+      "century": "〜17世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/83613",
-      "image": "https://www.artic.edu/iiif/2/2efb0b9d-04a4-390e-752b-fdb9602e017f/full/843,/0/default.jpg",
+      "museumUrl": "https://www.artic.edu/artworks/75557",
+      "image": "https://www.artic.edu/iiif/2/6d216d21-f35a-770a-071c-e0304f23b84f/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -192,6 +181,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/84092",
       "image": "https://www.artic.edu/iiif/2/99c8eeea-f07a-af30-c79e-1da4d55243a3/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-83613",
+      "title": "「イル・マスケローネ」、ボルゲーゼ荘の噴水",
+      "artist": "Richard Wilson",
+      "year": 1759,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/83613",
+      "image": "https://www.artic.edu/iiif/2/2efb0b9d-04a4-390e-752b-fdb9602e017f/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -228,17 +228,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-130725",
-      "title": "サアディー「全集」写本の一頁",
-      "artist": "Iran",
-      "year": 1700,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/130725",
-      "image": "https://www.artic.edu/iiif/2/fa298f62-bdfe-67b4-e473-65ad9f656dc1/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-130724",
       "title": "サアディー「全集」写本の一頁",
       "artist": "Iran",
@@ -247,6 +236,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/130724",
       "image": "https://www.artic.edu/iiif/2/384aca18-6efc-e76c-5e1e-20fa5f35baca/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-130725",
+      "title": "サアディー「全集」写本の一頁",
+      "artist": "Iran",
+      "year": 1700,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/130725",
+      "image": "https://www.artic.edu/iiif/2/fa298f62-bdfe-67b4-e473-65ad9f656dc1/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1053,14 +1053,25 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-862",
-      "title": "ある芸術家の肖像",
-      "artist": "Follower of Frans Hals",
-      "year": 1644,
-      "century": "〜17世紀",
+      "id": "artic-876",
+      "title": "十月の日",
+      "artist": "Jean Charles Cazin",
+      "year": 1893,
+      "century": "18〜19世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/862",
-      "image": "https://www.artic.edu/iiif/2/c95d58bf-fe9e-e5bb-2c71-ab8bad984759/full/843,/0/default.jpg",
+      "museumUrl": "https://www.artic.edu/artworks/876",
+      "image": "https://www.artic.edu/iiif/2/3ef69544-a84c-dfa4-df6a-346b4b59c351/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-109780",
+      "title": "冬の愛",
+      "artist": "George Wesley Bellows",
+      "year": 1914,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/109780",
+      "image": "https://www.artic.edu/iiif/2/18ab0c35-e35c-0216-9afd-f93357920db1/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1083,6 +1094,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/100476",
       "image": "https://www.artic.edu/iiif/2/16e53257-ade2-4f5d-3521-2bc9666bc4cf/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-862",
+      "title": "ある芸術家の肖像",
+      "artist": "Follower of Frans Hals",
+      "year": 1644,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/862",
+      "image": "https://www.artic.edu/iiif/2/c95d58bf-fe9e-e5bb-2c71-ab8bad984759/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1350,17 +1372,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-109780",
-      "title": "冬の愛",
-      "artist": "George Wesley Bellows",
-      "year": 1914,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/109780",
-      "image": "https://www.artic.edu/iiif/2/18ab0c35-e35c-0216-9afd-f93357920db1/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-11",
       "title": "自画像",
       "artist": "Walter Shirlaw",
@@ -1512,17 +1523,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/874",
       "image": "https://www.artic.edu/iiif/2/3a34f988-f779-2e96-1786-8945b6b9c87d/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-876",
-      "title": "十月の日",
-      "artist": "Jean Charles Cazin",
-      "year": 1893,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/876",
-      "image": "https://www.artic.edu/iiif/2/3ef69544-a84c-dfa4-df6a-346b4b59c351/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2153,6 +2153,39 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-66042",
+      "title": "Trompe-l'Oeil Still Life with a Flower Garland and a Curtain",
+      "artist": "Adriaen van der Spelt",
+      "year": 1658,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/66042",
+      "image": "https://www.artic.edu/iiif/2/4a04138f-43d8-cd9f-5ac4-478cd8828210/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-15401",
+      "title": "ムカン亭にて",
+      "artist": "William Glackens",
+      "year": 1905,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/15401",
+      "image": "https://www.artic.edu/iiif/2/b146368d-a855-63ac-6115-04b835c60bb0/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-44892",
+      "title": "魚（静物）",
+      "artist": "エドゥアール・マネ",
+      "year": 1864,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/44892",
+      "image": "https://www.artic.edu/iiif/2/0cbe27e8-2fec-3445-bc48-ce40a8f2dc25/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-8953",
       "title": "The Capture of Samson",
       "artist": "ピーテル・パウル・ルーベンス",
@@ -2172,17 +2205,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/4887",
       "image": "https://www.artic.edu/iiif/2/1f925e43-ff81-5ad7-da75-b28ea651c09f/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-44892",
-      "title": "魚（静物）",
-      "artist": "エドゥアール・マネ",
-      "year": 1864,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/44892",
-      "image": "https://www.artic.edu/iiif/2/0cbe27e8-2fec-3445-bc48-ce40a8f2dc25/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2318,17 +2340,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-15401",
-      "title": "ムカン亭にて",
-      "artist": "William Glackens",
-      "year": 1905,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/15401",
-      "image": "https://www.artic.edu/iiif/2/b146368d-a855-63ac-6115-04b835c60bb0/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-65920",
       "title": "プロビンスタウン",
       "artist": "Marsden Hartley",
@@ -2348,17 +2359,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/111617",
       "image": "https://www.artic.edu/iiif/2/18dd28cc-ae57-b852-cbc4-d184c6f0555d/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-66042",
-      "title": "Trompe-l'Oeil Still Life with a Flower Garland and a Curtain",
-      "artist": "Adriaen van der Spelt",
-      "year": 1658,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/66042",
-      "image": "https://www.artic.edu/iiif/2/4a04138f-43d8-cd9f-5ac4-478cd8828210/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2670,6 +2670,39 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-16340",
+      "title": "旅人のいる山道",
+      "artist": "Joos de Momper",
+      "year": 1625,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/16340",
+      "image": "https://www.artic.edu/iiif/2/5f1fda6c-f116-c251-1cee-c6bad53d8d18/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-100342",
+      "title": "Saint Francis",
+      "artist": "ピーテル・パウル・ルーベンス",
+      "year": 1620,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/100342",
+      "image": "https://www.artic.edu/iiif/2/8df04a6e-cc79-491b-86d4-388c2b33d888/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-893",
+      "title": "風景画",
+      "artist": "Théodore Rousseau",
+      "year": 1855,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/893",
+      "image": "https://www.artic.edu/iiif/2/3527f037-a9b2-9253-1a92-dcd281b54340/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-27310",
       "title": "エリザベスと洗礼者ヨハネを伴う聖家族",
       "artist": "ピーテル・パウル・ルーベンス",
@@ -2700,17 +2733,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/896",
       "image": "https://www.artic.edu/iiif/2/6aaa3537-abbf-f49e-877f-4d8e8e4d50c2/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-100342",
-      "title": "Saint Francis",
-      "artist": "ピーテル・パウル・ルーベンス",
-      "year": 1620,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/100342",
-      "image": "https://www.artic.edu/iiif/2/8df04a6e-cc79-491b-86d4-388c2b33d888/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2846,17 +2868,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-16340",
-      "title": "旅人のいる山道",
-      "artist": "Joos de Momper",
-      "year": 1625,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/16340",
-      "image": "https://www.artic.edu/iiif/2/5f1fda6c-f116-c251-1cee-c6bad53d8d18/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-43211",
       "title": "デルフト旧教会の内部",
       "artist": "Emanuel de Witte",
@@ -2909,17 +2920,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/27764",
       "image": "https://www.artic.edu/iiif/2/04cb7292-b20b-b313-2c08-19e685b70e7e/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-893",
-      "title": "風景画",
-      "artist": "Théodore Rousseau",
-      "year": 1855,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/893",
-      "image": "https://www.artic.edu/iiif/2/3527f037-a9b2-9253-1a92-dcd281b54340/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -3418,6 +3418,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-87515",
+      "title": "ヨブ",
+      "artist": "Spanish",
+      "year": 1630,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/87515",
+      "image": "https://www.artic.edu/iiif/2/5403c6fd-fb8b-c22c-abaa-9c30eb3710f4/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-109938",
       "title": "アオスタの谷：吹雪、雪崩、嵐",
       "artist": "Joseph Mallord William Turner",
@@ -3426,6 +3437,28 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/109938",
       "image": "https://www.artic.edu/iiif/2/564e2e3f-eb93-88a7-d265-8fea006facff/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-111428",
+      "title": "泣く哲学者ヘラクレイトス",
+      "artist": "Spanish",
+      "year": 1640,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/111428",
+      "image": "https://www.artic.edu/iiif/2/43325575-c0a1-67c2-4eb5-5fcabafd098e/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-109220",
+      "title": "羊飼いへの告知",
+      "artist": "After Jacobo Bassano",
+      "year": 1715,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/109220",
+      "image": "https://www.artic.edu/iiif/2/ec272cba-5f5c-dcc1-00e3-00dfdb042a52/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -3616,17 +3649,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-87515",
-      "title": "ヨブ",
-      "artist": "Spanish",
-      "year": 1630,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/87515",
-      "image": "https://www.artic.edu/iiif/2/5403c6fd-fb8b-c22c-abaa-9c30eb3710f4/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-111623",
       "title": "木立",
       "artist": "Constant Troyon",
@@ -3635,28 +3657,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/111623",
       "image": "https://www.artic.edu/iiif/2/4339f21a-5a1c-8f40-931c-32686eefd8d5/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-111428",
-      "title": "泣く哲学者ヘラクレイトス",
-      "artist": "Spanish",
-      "year": 1640,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/111428",
-      "image": "https://www.artic.edu/iiif/2/43325575-c0a1-67c2-4eb5-5fcabafd098e/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-109220",
-      "title": "羊飼いへの告知",
-      "artist": "After Jacobo Bassano",
-      "year": 1715,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/109220",
-      "image": "https://www.artic.edu/iiif/2/ec272cba-5f5c-dcc1-00e3-00dfdb042a52/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -4001,17 +4001,6 @@
       "wikiUrl": null
     },
     {
-      "id": "met-436947",
-      "title": "ボート遊び",
-      "artist": "Edouard Manet",
-      "year": 1874,
-      "century": "18〜19世紀",
-      "museum": "メトロポリタン美術館",
-      "museumUrl": "https://www.metmuseum.org/art/collection/search/436947",
-      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-25466-001.jpg",
-      "wikiUrl": "https://ja.wikipedia.org/wiki/ボート遊び_(マネ)"
-    },
-    {
       "id": "met-437329",
       "title": "The Abduction of the Sabine Women",
       "artist": "ニコラ・プッサン",
@@ -4166,17 +4155,6 @@
       "wikiUrl": null
     },
     {
-      "id": "met-437654",
-      "title": "Circus Sideshow (Parade de cirque)",
-      "artist": "ジョルジュ・スーラ",
-      "year": 1888,
-      "century": "18〜19世紀",
-      "museum": "メトロポリタン美術館",
-      "museumUrl": "https://www.metmuseum.org/art/collection/search/437654",
-      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP375450_cropped.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "met-436803",
       "title": "東方三博士の礼拝",
       "artist": "Joos van Wassenhove",
@@ -4185,17 +4163,6 @@
       "museum": "メトロポリタン美術館",
       "museumUrl": "https://www.metmuseum.org/art/collection/search/436803",
       "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-16339-001.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "met-438821",
-      "title": "Ia Orana Maria (Hail Mary)",
-      "artist": "ポール・ゴーギャン",
-      "year": 1891,
-      "century": "18〜19世紀",
-      "museum": "メトロポリタン美術館",
-      "museumUrl": "https://www.metmuseum.org/art/collection/search/438821",
-      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1025.jpg",
       "wikiUrl": null
     },
     {
