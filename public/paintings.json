@@ -1,9 +1,9 @@
 {
-  "generated": "2026-07-03T01:51:31.351Z",
-  "total": 904,
+  "generated": "2026-07-04T01:51:18.154Z",
+  "total": 907,
   "sources": {
     "artic": 356,
-    "met": 23,
+    "met": 26,
     "cma": 525
   },
   "paintings": [
@@ -173,17 +173,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-84092",
-      "title": "古代ローマ",
-      "artist": "After Giovanni Paolo Panini",
-      "year": 1760,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/84092",
-      "image": "https://www.artic.edu/iiif/2/99c8eeea-f07a-af30-c79e-1da4d55243a3/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-83613",
       "title": "「イル・マスケローネ」、ボルゲーゼ荘の噴水",
       "artist": "Richard Wilson",
@@ -203,6 +192,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/87088",
       "image": "https://www.artic.edu/iiif/2/8534685d-1102-e1e3-e194-94f6e925e8b0/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-84092",
+      "title": "古代ローマ",
+      "artist": "After Giovanni Paolo Panini",
+      "year": 1760,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/84092",
+      "image": "https://www.artic.edu/iiif/2/99c8eeea-f07a-af30-c79e-1da4d55243a3/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -228,17 +228,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-130724",
-      "title": "サアディー「全集」写本の一頁",
-      "artist": "Iran",
-      "year": 1700,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/130724",
-      "image": "https://www.artic.edu/iiif/2/384aca18-6efc-e76c-5e1e-20fa5f35baca/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-130725",
       "title": "サアディー「全集」写本の一頁",
       "artist": "Iran",
@@ -247,6 +236,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/130725",
       "image": "https://www.artic.edu/iiif/2/fa298f62-bdfe-67b4-e473-65ad9f656dc1/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-130724",
+      "title": "サアディー「全集」写本の一頁",
+      "artist": "Iran",
+      "year": 1700,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/130724",
+      "image": "https://www.artic.edu/iiif/2/384aca18-6efc-e76c-5e1e-20fa5f35baca/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1053,28 +1053,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-876",
-      "title": "十月の日",
-      "artist": "Jean Charles Cazin",
-      "year": 1893,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/876",
-      "image": "https://www.artic.edu/iiif/2/3ef69544-a84c-dfa4-df6a-346b4b59c351/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-109780",
-      "title": "冬の愛",
-      "artist": "George Wesley Bellows",
-      "year": 1914,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/109780",
-      "image": "https://www.artic.edu/iiif/2/18ab0c35-e35c-0216-9afd-f93357920db1/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-80084",
       "title": "磔刑",
       "artist": "Francisco de Zurbarán",
@@ -1094,6 +1072,28 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/100476",
       "image": "https://www.artic.edu/iiif/2/16e53257-ade2-4f5d-3521-2bc9666bc4cf/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-876",
+      "title": "十月の日",
+      "artist": "Jean Charles Cazin",
+      "year": 1893,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/876",
+      "image": "https://www.artic.edu/iiif/2/3ef69544-a84c-dfa4-df6a-346b4b59c351/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-109780",
+      "title": "冬の愛",
+      "artist": "George Wesley Bellows",
+      "year": 1914,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/109780",
+      "image": "https://www.artic.edu/iiif/2/18ab0c35-e35c-0216-9afd-f93357920db1/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2153,6 +2153,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-44892",
+      "title": "魚（静物）",
+      "artist": "エドゥアール・マネ",
+      "year": 1864,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/44892",
+      "image": "https://www.artic.edu/iiif/2/0cbe27e8-2fec-3445-bc48-ce40a8f2dc25/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-66042",
       "title": "Trompe-l'Oeil Still Life with a Flower Garland and a Curtain",
       "artist": "Adriaen van der Spelt",
@@ -2172,17 +2183,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/15401",
       "image": "https://www.artic.edu/iiif/2/b146368d-a855-63ac-6115-04b835c60bb0/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-44892",
-      "title": "魚（静物）",
-      "artist": "エドゥアール・マネ",
-      "year": 1864,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/44892",
-      "image": "https://www.artic.edu/iiif/2/0cbe27e8-2fec-3445-bc48-ce40a8f2dc25/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -4001,6 +4001,17 @@
       "wikiUrl": null
     },
     {
+      "id": "met-436947",
+      "title": "ボート遊び",
+      "artist": "Edouard Manet",
+      "year": 1874,
+      "century": "18〜19世紀",
+      "museum": "メトロポリタン美術館",
+      "museumUrl": "https://www.metmuseum.org/art/collection/search/436947",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-25466-001.jpg",
+      "wikiUrl": "https://ja.wikipedia.org/wiki/ボート遊び_(マネ)"
+    },
+    {
       "id": "met-437329",
       "title": "The Abduction of the Sabine Women",
       "artist": "ニコラ・プッサン",
@@ -4155,6 +4166,17 @@
       "wikiUrl": null
     },
     {
+      "id": "met-437654",
+      "title": "Circus Sideshow (Parade de cirque)",
+      "artist": "ジョルジュ・スーラ",
+      "year": 1888,
+      "century": "18〜19世紀",
+      "museum": "メトロポリタン美術館",
+      "museumUrl": "https://www.metmuseum.org/art/collection/search/437654",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP375450_cropped.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "met-436803",
       "title": "東方三博士の礼拝",
       "artist": "Joos van Wassenhove",
@@ -4163,6 +4185,17 @@
       "museum": "メトロポリタン美術館",
       "museumUrl": "https://www.metmuseum.org/art/collection/search/436803",
       "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-16339-001.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "met-438821",
+      "title": "Ia Orana Maria (Hail Mary)",
+      "artist": "ポール・ゴーギャン",
+      "year": 1891,
+      "century": "18〜19世紀",
+      "museum": "メトロポリタン美術館",
+      "museumUrl": "https://www.metmuseum.org/art/collection/search/438821",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1025.jpg",
       "wikiUrl": null
     },
     {
@@ -6938,17 +6971,6 @@
       "wikiUrl": null
     },
     {
-      "id": "cma-140078",
-      "title": "La Cervara, the Roman Campagna",
-      "artist": "Jean Baptiste Camille Corot",
-      "year": 1830,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1963.91",
-      "image": "https://openaccess-cdn.clevelandart.org/1963.91/1963.91_web.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "cma-142792",
       "title": "Wrestlers in a Circus",
       "artist": "Ernst Ludwig Kirchner",
@@ -6957,6 +6979,17 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/1966.49",
       "image": "https://openaccess-cdn.clevelandart.org/1966.49/1966.49_web.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "cma-140078",
+      "title": "La Cervara, the Roman Campagna",
+      "artist": "Jean Baptiste Camille Corot",
+      "year": 1830,
+      "century": "18〜19世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/1963.91",
+      "image": "https://openaccess-cdn.clevelandart.org/1963.91/1963.91_web.jpg",
       "wikiUrl": null
     },
     {
@@ -8743,7 +8776,7 @@
     },
     {
       "id": "cma-170736",
-      "title": "Destitute Dead Mother holding her sleeping Child in Winter",
+      "title": "Destitute Mother and Child in Winter",
       "artist": "Octave Tassaert",
       "year": 1845,
       "century": "18〜19世紀",
@@ -9435,6 +9468,17 @@
       "wikiUrl": null
     },
     {
+      "id": "cma-142394",
+      "title": "The Coast at Trouville",
+      "artist": "ウジェーヌ・ブーダン",
+      "year": 1865,
+      "century": "18〜19世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/1966.208",
+      "image": "https://openaccess-cdn.clevelandart.org/1966.208/1966.208_web.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "cma-150015",
       "title": "Wild Boars in the Snow",
       "artist": "Rosa Bonheur",
@@ -9564,17 +9608,6 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/2010.25",
       "image": "https://openaccess-cdn.clevelandart.org/2010.25/2010.25_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-142394",
-      "title": "The Coast at Trouville",
-      "artist": "ウジェーヌ・ブーダン",
-      "year": 1865,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1966.208",
-      "image": "https://openaccess-cdn.clevelandart.org/1966.208/1966.208_web.jpg",
       "wikiUrl": null
     },
     {
