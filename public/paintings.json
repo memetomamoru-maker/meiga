@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-06T02:04:07.974Z",
+  "generated": "2026-07-07T01:59:25.454Z",
   "total": 907,
   "sources": {
     "artic": 356,
@@ -129,17 +129,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-68433",
-      "title": "パリ郊外の製材所",
-      "artist": "Henri Rousseau",
-      "year": 1895,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/68433",
-      "image": "https://www.artic.edu/iiif/2/3826e366-e82a-e853-12e4-b303a1618103/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-70593",
       "title": "庭園の情景",
       "artist": "Iran",
@@ -148,6 +137,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/70593",
       "image": "https://www.artic.edu/iiif/2/85309ed9-b889-16fb-2fc7-57f1c97c3820/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-68433",
+      "title": "パリ郊外の製材所",
+      "artist": "Henri Rousseau",
+      "year": 1895,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/68433",
+      "image": "https://www.artic.edu/iiif/2/3826e366-e82a-e853-12e4-b303a1618103/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -921,6 +921,28 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-16156",
+      "title": "荒野に入る洗礼者ヨハネ",
+      "artist": "Giovanni di Paolo",
+      "year": 1460,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/16156",
+      "image": "https://www.artic.edu/iiif/2/287ea0c4-1976-46b6-d3e0-5f24db2d95ae/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-16159",
+      "title": "見よ、神の子羊",
+      "artist": "Giovanni di Paolo",
+      "year": 1460,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/16159",
+      "image": "https://www.artic.edu/iiif/2/9ae944b3-dea5-2db5-f090-c266a7d20ea7/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-107939",
       "title": "ノア・スミス夫人と家族",
       "artist": "Attributed to Ezra Ames",
@@ -954,17 +976,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-16159",
-      "title": "見よ、神の子羊",
-      "artist": "Giovanni di Paolo",
-      "year": 1460,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/16159",
-      "image": "https://www.artic.edu/iiif/2/9ae944b3-dea5-2db5-f090-c266a7d20ea7/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-131901",
       "title": "サアディー「薔薇園」より：王の前に引かれる囚人たち",
       "artist": "Uzbekistan",
@@ -984,17 +995,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/60426",
       "image": "https://www.artic.edu/iiif/2/5e7b5f3a-1c5d-6331-a34a-2155197fc06e/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-16156",
-      "title": "荒野に入る洗礼者ヨハネ",
-      "artist": "Giovanni di Paolo",
-      "year": 1460,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/16156",
-      "image": "https://www.artic.edu/iiif/2/287ea0c4-1976-46b6-d3e0-5f24db2d95ae/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2670,6 +2670,28 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-100342",
+      "title": "Saint Francis",
+      "artist": "ピーテル・パウル・ルーベンス",
+      "year": 1620,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/100342",
+      "image": "https://www.artic.edu/iiif/2/fa4dd0f2-382c-076c-ff20-c59a2774400c/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-27310",
+      "title": "エリザベスと洗礼者ヨハネを伴う聖家族",
+      "artist": "ピーテル・パウル・ルーベンス",
+      "year": 1620,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/27310",
+      "image": "https://www.artic.edu/iiif/2/caac7478-b78f-a94d-a36c-fc5dde17e7c9/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-16340",
       "title": "旅人のいる山道",
       "artist": "Joos de Momper",
@@ -2681,17 +2703,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-100342",
-      "title": "Saint Francis",
-      "artist": "ピーテル・パウル・ルーベンス",
-      "year": 1620,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/100342",
-      "image": "https://www.artic.edu/iiif/2/8df04a6e-cc79-491b-86d4-388c2b33d888/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-893",
       "title": "風景画",
       "artist": "Théodore Rousseau",
@@ -2700,17 +2711,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/893",
       "image": "https://www.artic.edu/iiif/2/3527f037-a9b2-9253-1a92-dcd281b54340/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-27310",
-      "title": "エリザベスと洗礼者ヨハネを伴う聖家族",
-      "artist": "ピーテル・パウル・ルーベンス",
-      "year": 1620,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/27310",
-      "image": "https://www.artic.edu/iiif/2/7c752046-744f-2f68-482b-a7fd42550f2b/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2923,6 +2923,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-26650",
+      "title": "On a Balcony",
+      "artist": "メアリー・カサット",
+      "year": 1879,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/26650",
+      "image": "https://www.artic.edu/iiif/2/f0150d21-33ab-f6ea-0d4d-32d459f091fe/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-5304",
       "title": "Homer Dictating",
       "artist": "Pier Francesco Mola",
@@ -3052,17 +3063,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/65509",
       "image": "https://www.artic.edu/iiif/2/75886aaa-002a-2047-a05c-baf73f0ac093/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-26650",
-      "title": "On a Balcony",
-      "artist": "メアリー・カサット",
-      "year": 1879,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/26650",
-      "image": "https://www.artic.edu/iiif/2/f0150d21-33ab-f6ea-0d4d-32d459f091fe/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
