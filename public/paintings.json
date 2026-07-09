@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-08T01:28:44.150Z",
+  "generated": "2026-07-09T01:50:58.307Z",
   "total": 907,
   "sources": {
     "artic": 356,
@@ -8,25 +8,14 @@
   },
   "paintings": [
     {
-      "id": "artic-14664",
-      "title": "ムーラン・ド・ラ・ギャレット",
-      "artist": "アンリ・ド・トゥールーズ＝ロートレック",
-      "year": 1889,
+      "id": "artic-20530",
+      "title": "ポントワーズの雪のウサギ小屋",
+      "artist": "カミーユ・ピサロ",
+      "year": 1879,
       "century": "18〜19世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/14664",
-      "image": "https://www.artic.edu/iiif/2/156aaed6-fe3c-a13c-f39e-55f381205929/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-9637",
-      "title": "イタリアの別荘と庭園（バチカンのベルヴェデーレ）",
-      "artist": "Jean Jacques de Boissieu",
-      "year": 1799,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/9637",
-      "image": "https://www.artic.edu/iiif/2/462c6fe2-40a4-ed8d-772c-4fb9ae78265f/full/843,/0/default.jpg",
+      "museumUrl": "https://www.artic.edu/artworks/20530",
+      "image": "https://www.artic.edu/iiif/2/053f9be8-3617-c4ef-36cd-1deb5e13b288/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -38,6 +27,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/11723",
       "image": "https://www.artic.edu/iiif/2/78c80988-6524-cec7-c661-a4c0a706d06f/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-9637",
+      "title": "イタリアの別荘と庭園（バチカンのベルヴェデーレ）",
+      "artist": "Jean Jacques de Boissieu",
+      "year": 1799,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/9637",
+      "image": "https://www.artic.edu/iiif/2/462c6fe2-40a4-ed8d-772c-4fb9ae78265f/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -85,6 +85,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-14664",
+      "title": "ムーラン・ド・ラ・ギャレット",
+      "artist": "アンリ・ド・トゥールーズ＝ロートレック",
+      "year": 1889,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/14664",
+      "image": "https://www.artic.edu/iiif/2/156aaed6-fe3c-a13c-f39e-55f381205929/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-4758",
       "title": "ストーク・バイ・ネイランド",
       "artist": "ジョン・コンスタブル",
@@ -93,17 +104,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/4758",
       "image": "https://www.artic.edu/iiif/2/400ce9e8-2f67-44e2-dd68-e6c98880d27f/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-20530",
-      "title": "ポントワーズの雪のウサギ小屋",
-      "artist": "カミーユ・ピサロ",
-      "year": 1879,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/20530",
-      "image": "https://www.artic.edu/iiif/2/053f9be8-3617-c4ef-36cd-1deb5e13b288/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -206,17 +206,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-95654",
-      "title": "湖のほとり",
-      "artist": "ピエール＝オーギュスト・ルノワール",
-      "year": 1880,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/95654",
-      "image": "https://www.artic.edu/iiif/2/26e1c560-acca-3148-46dc-c144ac22bd3e/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-94131",
       "title": "On the Terrace of a Hotel in Bordighera: The Painter Jean Martin Reviews His Bill (Illustration for Edmond Renoir’s “L’étiquette”)",
       "artist": "Pierre Auguste Renoir",
@@ -225,6 +214,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/94131",
       "image": "https://www.artic.edu/iiif/2/e406e261-8d27-d3b5-658d-751d79d03ff2/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-95654",
+      "title": "湖のほとり",
+      "artist": "ピエール＝オーギュスト・ルノワール",
+      "year": 1880,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/95654",
+      "image": "https://www.artic.edu/iiif/2/26e1c560-acca-3148-46dc-c144ac22bd3e/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -269,6 +269,28 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/186418",
       "image": "https://www.artic.edu/iiif/2/560ff8f8-8932-6114-54d5-8174144615e5/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-879",
+      "title": "風景（水門）",
+      "artist": "Attributed to John Constable",
+      "year": 1830,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/879",
+      "image": "https://www.artic.edu/iiif/2/ff3b5c8a-5b14-5c35-8775-3d021e92a381/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-16622",
+      "title": "レオン・クラピソン夫人",
+      "artist": "ピエール＝オーギュスト・ルノワール",
+      "year": 1883,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/16622",
+      "image": "https://www.artic.edu/iiif/2/a7af09dc-5743-062e-4802-b6435e67eaa5/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -379,28 +401,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/15468",
       "image": "https://www.artic.edu/iiif/2/8a0e4ac9-43ea-bc3e-884b-ee27f8a10501/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-879",
-      "title": "風景（水門）",
-      "artist": "Attributed to John Constable",
-      "year": 1830,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/879",
-      "image": "https://www.artic.edu/iiif/2/ff3b5c8a-5b14-5c35-8775-3d021e92a381/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-16622",
-      "title": "レオン・クラピソン夫人",
-      "artist": "ピエール＝オーギュスト・ルノワール",
-      "year": 1883,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/16622",
-      "image": "https://www.artic.edu/iiif/2/a7af09dc-5743-062e-4802-b6435e67eaa5/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -525,17 +525,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-111478",
-      "title": "ウィリアム・マクニール・ホイッスラー博士の肖像",
-      "artist": "ジェームズ・マクニール・ホイッスラー",
-      "year": 1873,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/111478",
-      "image": "https://www.artic.edu/iiif/2/f9aacbc6-191c-3725-85bf-198612a51d25/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-2848",
       "title": "ボヘミアン生活の一場面",
       "artist": "ジェームズ・マクニール・ホイッスラー",
@@ -544,6 +533,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/2848",
       "image": "https://www.artic.edu/iiif/2/15c13ae6-7fe8-d06b-7462-aee0c985b220/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-111478",
+      "title": "ウィリアム・マクニール・ホイッスラー博士の肖像",
+      "artist": "ジェームズ・マクニール・ホイッスラー",
+      "year": 1873,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/111478",
+      "image": "https://www.artic.edu/iiif/2/f9aacbc6-191c-3725-85bf-198612a51d25/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1053,6 +1053,72 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-862",
+      "title": "ある芸術家の肖像",
+      "artist": "Follower of Frans Hals",
+      "year": 1644,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/862",
+      "image": "https://www.artic.edu/iiif/2/c95d58bf-fe9e-e5bb-2c71-ab8bad984759/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-874",
+      "title": "風景画",
+      "artist": "Jean Charles Cazin",
+      "year": 1900,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/874",
+      "image": "https://www.artic.edu/iiif/2/3a34f988-f779-2e96-1786-8945b6b9c87d/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-876",
+      "title": "十月の日",
+      "artist": "Jean Charles Cazin",
+      "year": 1893,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/876",
+      "image": "https://www.artic.edu/iiif/2/3ef69544-a84c-dfa4-df6a-346b4b59c351/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-898",
+      "title": "羊の未完習作",
+      "artist": "Constant Troyon",
+      "year": 1855,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/898",
+      "image": "https://www.artic.edu/iiif/2/e204d686-0e19-c10c-cf72-1000aae5be4a/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-19333",
+      "title": "台所の静物",
+      "artist": "Attributed to Paolo Antonio Barbieri",
+      "year": 1645,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/19333",
+      "image": "https://www.artic.edu/iiif/2/29163982-8310-36bb-3530-2b5000ce7290/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-47578",
+      "title": "フロリダブランカ伯爵",
+      "artist": "Pompeo Girolamo Batoni",
+      "year": 1781,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/47578",
+      "image": "https://www.artic.edu/iiif/2/955a3bb2-0e15-4f03-5ed1-1914b5fc9c26/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-80084",
       "title": "磔刑",
       "artist": "Francisco de Zurbarán",
@@ -1075,17 +1141,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-876",
-      "title": "十月の日",
-      "artist": "Jean Charles Cazin",
-      "year": 1893,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/876",
-      "image": "https://www.artic.edu/iiif/2/3ef69544-a84c-dfa4-df6a-346b4b59c351/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-109780",
       "title": "冬の愛",
       "artist": "George Wesley Bellows",
@@ -1094,17 +1149,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/109780",
       "image": "https://www.artic.edu/iiif/2/18ab0c35-e35c-0216-9afd-f93357920db1/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-862",
-      "title": "ある芸術家の肖像",
-      "artist": "Follower of Frans Hals",
-      "year": 1644,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/862",
-      "image": "https://www.artic.edu/iiif/2/c95d58bf-fe9e-e5bb-2c71-ab8bad984759/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1128,17 +1172,6 @@
       "museumUrl": "https://www.artic.edu/artworks/27992",
       "image": "https://www.artic.edu/iiif/2/2d484387-2509-5e8e-2c43-22f9981972eb/full/843,/0/default.jpg",
       "wikiUrl": "https://ja.wikipedia.org/wiki/グラン・ジャット島の日曜日の午後"
-    },
-    {
-      "id": "artic-47578",
-      "title": "フロリダブランカ伯爵",
-      "artist": "Pompeo Girolamo Batoni",
-      "year": 1781,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/47578",
-      "image": "https://www.artic.edu/iiif/2/955a3bb2-0e15-4f03-5ed1-1914b5fc9c26/full/843,/0/default.jpg",
-      "wikiUrl": null
     },
     {
       "id": "artic-87479",
@@ -1515,17 +1548,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-874",
-      "title": "風景画",
-      "artist": "Jean Charles Cazin",
-      "year": 1900,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/874",
-      "image": "https://www.artic.edu/iiif/2/3a34f988-f779-2e96-1786-8945b6b9c87d/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-883",
       "title": "傷ついた雌ライオン",
       "artist": "Pierre Andrieu",
@@ -1548,28 +1570,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-898",
-      "title": "羊の未完習作",
-      "artist": "Constant Troyon",
-      "year": 1855,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/898",
-      "image": "https://www.artic.edu/iiif/2/e204d686-0e19-c10c-cf72-1000aae5be4a/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-19333",
-      "title": "台所の静物",
-      "artist": "Attributed to Paolo Antonio Barbieri",
-      "year": 1645,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/19333",
-      "image": "https://www.artic.edu/iiif/2/29163982-8310-36bb-3530-2b5000ce7290/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-182381",
       "title": "果物の豊穣",
       "artist": "Severin Roesen",
@@ -1581,14 +1581,14 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-51130",
-      "title": "真実を明かす時間",
-      "artist": "Pompeo Girolamo Batoni",
-      "year": 1745,
+      "id": "artic-889",
+      "title": "嵐の前に逃げる帆船",
+      "artist": "Jules Dupré",
+      "year": 1875,
       "century": "18〜19世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/51130",
-      "image": "https://www.artic.edu/iiif/2/39018e31-6200-f4e3-7fc0-17ef919a6723/full/843,/0/default.jpg",
+      "museumUrl": "https://www.artic.edu/artworks/889",
+      "image": "https://www.artic.edu/iiif/2/80df29cd-493f-23c0-3e51-4ddc38b3f34f/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1600,6 +1600,28 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/895",
       "image": "https://www.artic.edu/iiif/2/fa96ef54-c3b1-8f4d-390a-219f7bc64c4a/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-15708",
+      "title": "白髪の男の肖像",
+      "artist": "Henry Raeburn",
+      "year": 1820,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/15708",
+      "image": "https://www.artic.edu/iiif/2/51a56e7e-ffa2-bb9e-7f16-99bc0b4b4d66/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-51130",
+      "title": "真実を明かす時間",
+      "artist": "Pompeo Girolamo Batoni",
+      "year": 1745,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/51130",
+      "image": "https://www.artic.edu/iiif/2/39018e31-6200-f4e3-7fc0-17ef919a6723/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2087,17 +2109,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-15708",
-      "title": "白髪の男の肖像",
-      "artist": "Henry Raeburn",
-      "year": 1820,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/15708",
-      "image": "https://www.artic.edu/iiif/2/51a56e7e-ffa2-bb9e-7f16-99bc0b4b4d66/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-44017",
       "title": "シャイイの風景",
       "artist": "Frédéric Bazille",
@@ -2109,14 +2120,14 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-889",
-      "title": "嵐の前に逃げる帆船",
-      "artist": "Jules Dupré",
-      "year": 1875,
-      "century": "18〜19世紀",
+      "id": "artic-110673",
+      "title": "悲しみの聖母",
+      "artist": "Workshop of Dieric Bouts",
+      "year": 1500,
+      "century": "〜17世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/889",
-      "image": "https://www.artic.edu/iiif/2/80df29cd-493f-23c0-3e51-4ddc38b3f34f/full/843,/0/default.jpg",
+      "museumUrl": "https://www.artic.edu/artworks/110673",
+      "image": "https://www.artic.edu/iiif/2/66c1797f-b87e-8736-cdf6-c490bd34863b/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2142,14 +2153,58 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-110673",
-      "title": "悲しみの聖母",
-      "artist": "Workshop of Dieric Bouts",
-      "year": 1500,
-      "century": "〜17世紀",
+      "id": "artic-497",
+      "title": "子に授乳する母（幸せな母）",
+      "artist": "Willem van Mieris",
+      "year": 1707,
+      "century": "18〜19世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/110673",
-      "image": "https://www.artic.edu/iiif/2/66c1797f-b87e-8736-cdf6-c490bd34863b/full/843,/0/default.jpg",
+      "museumUrl": "https://www.artic.edu/artworks/497",
+      "image": "https://www.artic.edu/iiif/2/a9a3e2fa-f7a4-2713-00ed-909062cb48d7/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-877",
+      "title": "風景画",
+      "artist": "ジャン＝バティスト＝カミーユ・コロー",
+      "year": 1870,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/877",
+      "image": "https://www.artic.edu/iiif/2/1501b057-0441-f1fa-e949-298b06ec6270/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-885",
+      "title": "馬上の将校",
+      "artist": "Jean Baptiste Edouard Detaille",
+      "year": 1877,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/885",
+      "image": "https://www.artic.edu/iiif/2/9c1e2826-e79b-4b4d-73f9-2ba8c8b00180/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-886",
+      "title": "三人の小さな女の子",
+      "artist": "Narcisse Virgile Diaz de la Peña",
+      "year": 1875,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/886",
+      "image": "https://www.artic.edu/iiif/2/8b526140-7667-b1df-97bb-2d0f6e1be095/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-887",
+      "title": "人物のいる風景",
+      "artist": "Narcisse Virgile Diaz de la Peña",
+      "year": 1875,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/887",
+      "image": "https://www.artic.edu/iiif/2/ad3280c6-611a-c136-29b8-8f303a02f416/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2161,6 +2216,28 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/8953",
       "image": "https://www.artic.edu/iiif/2/a8fd8a92-d5fd-bb98-5d70-f970ab1788b8/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-20535",
+      "title": "エトルタ：ビーチとファレーズ・ダモン",
+      "artist": "クロード・モネ",
+      "year": 1885,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/20535",
+      "image": "https://www.artic.edu/iiif/2/350b7e7f-e1d8-e58b-8890-0ef6b04afe18/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-24684",
+      "title": "フランチェスコ・デ・メディチ",
+      "artist": "Attributed to Alessandro Allori",
+      "year": 1565,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/24684",
+      "image": "https://www.artic.edu/iiif/2/9a29cc5d-3779-c9ab-2aa2-0df7b6c3f391/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2274,17 +2351,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-20535",
-      "title": "エトルタ：ビーチとファレーズ・ダモン",
-      "artist": "クロード・モネ",
-      "year": 1885,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/20535",
-      "image": "https://www.artic.edu/iiif/2/350b7e7f-e1d8-e58b-8890-0ef6b04afe18/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-86998",
       "title": "サンドヴィカ、ノルウェー",
       "artist": "クロード・モネ",
@@ -2392,17 +2458,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/14574",
       "image": "https://www.artic.edu/iiif/2/ba4d7ead-bd10-e02d-6f5f-613050d7062e/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-497",
-      "title": "子に授乳する母（幸せな母）",
-      "artist": "Willem van Mieris",
-      "year": 1707,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/497",
-      "image": "https://www.artic.edu/iiif/2/a9a3e2fa-f7a4-2713-00ed-909062cb48d7/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2593,17 +2648,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-24684",
-      "title": "フランチェスコ・デ・メディチ",
-      "artist": "Attributed to Alessandro Allori",
-      "year": 1565,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/24684",
-      "image": "https://www.artic.edu/iiif/2/9a29cc5d-3779-c9ab-2aa2-0df7b6c3f391/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-13487",
       "title": "少年に挑む若きスパルタの少女たち",
       "artist": "エドガー・ドガ",
@@ -2623,50 +2667,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/59002",
       "image": "https://www.artic.edu/iiif/2/25cae01d-82c7-7060-0070-643727437126/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-886",
-      "title": "三人の小さな女の子",
-      "artist": "Narcisse Virgile Diaz de la Peña",
-      "year": 1875,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/886",
-      "image": "https://www.artic.edu/iiif/2/8b526140-7667-b1df-97bb-2d0f6e1be095/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-877",
-      "title": "風景画",
-      "artist": "ジャン＝バティスト＝カミーユ・コロー",
-      "year": 1870,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/877",
-      "image": "https://www.artic.edu/iiif/2/1501b057-0441-f1fa-e949-298b06ec6270/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-885",
-      "title": "馬上の将校",
-      "artist": "Jean Baptiste Edouard Detaille",
-      "year": 1877,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/885",
-      "image": "https://www.artic.edu/iiif/2/9c1e2826-e79b-4b4d-73f9-2ba8c8b00180/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-887",
-      "title": "人物のいる風景",
-      "artist": "Narcisse Virgile Diaz de la Peña",
-      "year": 1875,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/887",
-      "image": "https://www.artic.edu/iiif/2/ad3280c6-611a-c136-29b8-8f303a02f416/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2692,17 +2692,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-16340",
-      "title": "旅人のいる山道",
-      "artist": "Joos de Momper",
-      "year": 1625,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/16340",
-      "image": "https://www.artic.edu/iiif/2/5f1fda6c-f116-c251-1cee-c6bad53d8d18/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-893",
       "title": "風景画",
       "artist": "Théodore Rousseau",
@@ -2711,17 +2700,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/893",
       "image": "https://www.artic.edu/iiif/2/3527f037-a9b2-9253-1a92-dcd281b54340/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-897",
-      "title": "ノルマンディーの牧草地",
-      "artist": "Constant Troyon",
-      "year": 1852,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/897",
-      "image": "https://www.artic.edu/iiif/2/5ae91cbf-66c5-cf9b-f355-629e458cb063/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2736,6 +2714,28 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-897",
+      "title": "ノルマンディーの牧草地",
+      "artist": "Constant Troyon",
+      "year": 1852,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/897",
+      "image": "https://www.artic.edu/iiif/2/5ae91cbf-66c5-cf9b-f355-629e458cb063/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-111649",
+      "title": "イサクを献げるアブラハム",
+      "artist": "David Teniers the Younger",
+      "year": 1656,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/111649",
+      "image": "https://www.artic.edu/iiif/2/11f33728-685f-c85c-2326-cd0e42536044/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-22857",
       "title": "楽園の庭",
       "artist": "Workshop of Hieronymus Bosch",
@@ -2744,6 +2744,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/22857",
       "image": "https://www.artic.edu/iiif/2/3e82db48-5f93-ada3-7ab2-f97328ccc1bd/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-16340",
+      "title": "旅人のいる山道",
+      "artist": "Joos de Momper",
+      "year": 1625,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/16340",
+      "image": "https://www.artic.edu/iiif/2/5f1fda6c-f116-c251-1cee-c6bad53d8d18/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2901,17 +2912,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-111649",
-      "title": "イサクを献げるアブラハム",
-      "artist": "David Teniers the Younger",
-      "year": 1656,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/111649",
-      "image": "https://www.artic.edu/iiif/2/11f33728-685f-c85c-2326-cd0e42536044/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-27764",
       "title": "来たる嵐",
       "artist": "Eugène-Louis Boudin",
@@ -2934,14 +2934,25 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-75507",
-      "title": "静物　テーブルの一隅",
-      "artist": "アンリ・ファンタン＝ラトゥール",
-      "year": 1873,
+      "id": "artic-873",
+      "title": "トビトと天使",
+      "artist": "Jean Charles Cazin",
+      "year": 1878,
       "century": "18〜19世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/75507",
-      "image": "https://www.artic.edu/iiif/2/85d05bad-1205-6de5-e75c-ec9113a626ab/full/843,/0/default.jpg",
+      "museumUrl": "https://www.artic.edu/artworks/873",
+      "image": "https://www.artic.edu/iiif/2/3a32bf1b-5094-f06b-1ea1-a54cd847a5d5/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-890",
+      "title": "道中にて",
+      "artist": "Jules Dupré",
+      "year": 1856,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/890",
+      "image": "https://www.artic.edu/iiif/2/e0d8a305-15b0-bdcd-1e83-06d8594a2f7e/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2953,6 +2964,39 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/5304",
       "image": "https://www.artic.edu/iiif/2/8eed2fbf-5090-4fb2-8f7a-74e97c8e6eaf/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-100352",
+      "title": "African Chief",
+      "artist": "Mariano Fortuny y Marsal",
+      "year": 1870,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/100352",
+      "image": "https://www.artic.edu/iiif/2/c54a8b04-9034-37cf-6dbc-13a4f6f17706/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-93394",
+      "title": "戦闘の場面",
+      "artist": "Joseph Louis Hippolyte Bellangé",
+      "year": 1830,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/93394",
+      "image": "https://www.artic.edu/iiif/2/a5274397-409c-1f76-866f-17d55cf31933/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-75507",
+      "title": "静物　テーブルの一隅",
+      "artist": "アンリ・ファンタン＝ラトゥール",
+      "year": 1873,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/75507",
+      "image": "https://www.artic.edu/iiif/2/85d05bad-1205-6de5-e75c-ec9113a626ab/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -3352,28 +3396,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-93394",
-      "title": "戦闘の場面",
-      "artist": "Joseph Louis Hippolyte Bellangé",
-      "year": 1830,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/93394",
-      "image": "https://www.artic.edu/iiif/2/a5274397-409c-1f76-866f-17d55cf31933/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-100352",
-      "title": "African Chief",
-      "artist": "Mariano Fortuny y Marsal",
-      "year": 1870,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/100352",
-      "image": "https://www.artic.edu/iiif/2/c54a8b04-9034-37cf-6dbc-13a4f6f17706/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-81512",
       "title": "Interrupted Reading",
       "artist": "ジャン＝バティスト＝カミーユ・コロー",
@@ -3382,28 +3404,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/81512",
       "image": "https://www.artic.edu/iiif/2/1c2d32a7-790c-501a-e124-00f28cf5052d/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-873",
-      "title": "トビトと天使",
-      "artist": "Jean Charles Cazin",
-      "year": 1878,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/873",
-      "image": "https://www.artic.edu/iiif/2/3a32bf1b-5094-f06b-1ea1-a54cd847a5d5/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-890",
-      "title": "道中にて",
-      "artist": "Jules Dupré",
-      "year": 1856,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/890",
-      "image": "https://www.artic.edu/iiif/2/e0d8a305-15b0-bdcd-1e83-06d8594a2f7e/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -3418,25 +3418,25 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-87515",
-      "title": "ヨブ",
-      "artist": "Spanish",
-      "year": 1630,
-      "century": "〜17世紀",
+      "id": "artic-891",
+      "title": "道端の小屋、嵐空",
+      "artist": "Jules Dupré",
+      "year": 1865,
+      "century": "18〜19世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/87515",
-      "image": "https://www.artic.edu/iiif/2/5403c6fd-fb8b-c22c-abaa-9c30eb3710f4/full/843,/0/default.jpg",
+      "museumUrl": "https://www.artic.edu/artworks/891",
+      "image": "https://www.artic.edu/iiif/2/f4d85da1-5c80-3c7b-38cc-bf324d6ce670/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
-      "id": "artic-109938",
-      "title": "アオスタの谷：吹雪、雪崩、嵐",
-      "artist": "Joseph Mallord William Turner",
-      "year": 1837,
+      "id": "artic-111623",
+      "title": "木立",
+      "artist": "Constant Troyon",
+      "year": 1865,
       "century": "18〜19世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/109938",
-      "image": "https://www.artic.edu/iiif/2/564e2e3f-eb93-88a7-d265-8fea006facff/full/843,/0/default.jpg",
+      "museumUrl": "https://www.artic.edu/artworks/111623",
+      "image": "https://www.artic.edu/iiif/2/4339f21a-5a1c-8f40-931c-32686eefd8d5/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -3451,6 +3451,39 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-39542",
+      "title": "アルプスの丘で休む牛",
+      "artist": "Rosa Bonheur",
+      "year": 1885,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/39542",
+      "image": "https://www.artic.edu/iiif/2/efdd5540-5579-8761-fd1d-af318f65a0a6/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-81548",
+      "title": "コーヒーを飲む若い農婦",
+      "artist": "カミーユ・ピサロ",
+      "year": 1881,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/81548",
+      "image": "https://www.artic.edu/iiif/2/335a59a4-3f5b-b9db-b8e8-861467d211ef/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-81552",
+      "title": "井戸のそばの女と子",
+      "artist": "カミーユ・ピサロ",
+      "year": 1882,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/81552",
+      "image": "https://www.artic.edu/iiif/2/a2ddbd89-d864-8877-37bc-cd3dce12c37c/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-109220",
       "title": "羊飼いへの告知",
       "artist": "After Jacobo Bassano",
@@ -3459,6 +3492,72 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/109220",
       "image": "https://www.artic.edu/iiif/2/ec272cba-5f5c-dcc1-00e3-00dfdb042a52/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-2179",
+      "title": "男性の肖像",
+      "artist": "Antonio Maria Esquivel",
+      "year": 1843,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/2179",
+      "image": "https://www.artic.edu/iiif/2/371ba960-c86a-ec5b-d5aa-40b510917c4c/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-45829",
+      "title": "羊飼いと山羊のいる風景",
+      "artist": "Gaspard Dughet",
+      "year": 1640,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/45829",
+      "image": "https://www.artic.edu/iiif/2/91f56173-2f20-70fa-c0ac-f00bed4268d0/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-65845",
+      "title": "秋の川の情景、小川",
+      "artist": "David Bates",
+      "year": 1889,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/65845",
+      "image": "https://www.artic.edu/iiif/2/901da649-8816-41da-07e2-6140dd52d67a/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-111736",
+      "title": "ビザンチン建物の前で待つチェルケス騎兵",
+      "artist": "Alberto Pasini",
+      "year": 1880,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/111736",
+      "image": "https://www.artic.edu/iiif/2/f2cf5f64-7c25-7d20-42a2-bd371ee9f68b/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-109938",
+      "title": "アオスタの谷：吹雪、雪崩、嵐",
+      "artist": "Joseph Mallord William Turner",
+      "year": 1837,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/109938",
+      "image": "https://www.artic.edu/iiif/2/564e2e3f-eb93-88a7-d265-8fea006facff/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-87515",
+      "title": "ヨブ",
+      "artist": "Spanish",
+      "year": 1630,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/87515",
+      "image": "https://www.artic.edu/iiif/2/5403c6fd-fb8b-c22c-abaa-9c30eb3710f4/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -3503,28 +3602,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/81540",
       "image": "https://www.artic.edu/iiif/2/6ca224d1-c3dc-a223-a127-0492301a2ebb/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-81548",
-      "title": "コーヒーを飲む若い農婦",
-      "artist": "カミーユ・ピサロ",
-      "year": 1881,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/81548",
-      "image": "https://www.artic.edu/iiif/2/335a59a4-3f5b-b9db-b8e8-861467d211ef/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-81552",
-      "title": "井戸のそばの女と子",
-      "artist": "カミーユ・ピサロ",
-      "year": 1882,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/81552",
-      "image": "https://www.artic.edu/iiif/2/a2ddbd89-d864-8877-37bc-cd3dce12c37c/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -3649,50 +3726,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-111623",
-      "title": "木立",
-      "artist": "Constant Troyon",
-      "year": 1865,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/111623",
-      "image": "https://www.artic.edu/iiif/2/4339f21a-5a1c-8f40-931c-32686eefd8d5/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-65845",
-      "title": "秋の川の情景、小川",
-      "artist": "David Bates",
-      "year": 1889,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/65845",
-      "image": "https://www.artic.edu/iiif/2/901da649-8816-41da-07e2-6140dd52d67a/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-111736",
-      "title": "ビザンチン建物の前で待つチェルケス騎兵",
-      "artist": "Alberto Pasini",
-      "year": 1880,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/111736",
-      "image": "https://www.artic.edu/iiif/2/f2cf5f64-7c25-7d20-42a2-bd371ee9f68b/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-2179",
-      "title": "男性の肖像",
-      "artist": "Antonio Maria Esquivel",
-      "year": 1843,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/2179",
-      "image": "https://www.artic.edu/iiif/2/371ba960-c86a-ec5b-d5aa-40b510917c4c/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-110867",
       "title": "綱渡り師",
       "artist": "Jean Louis Forain",
@@ -3701,28 +3734,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/110867",
       "image": "https://www.artic.edu/iiif/2/f67d49b0-90a6-7aa3-29ab-77e5d1e9fd9c/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-39542",
-      "title": "アルプスの丘で休む牛",
-      "artist": "Rosa Bonheur",
-      "year": 1885,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/39542",
-      "image": "https://www.artic.edu/iiif/2/efdd5540-5579-8761-fd1d-af318f65a0a6/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-45829",
-      "title": "羊飼いと山羊のいる風景",
-      "artist": "Gaspard Dughet",
-      "year": 1640,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/45829",
-      "image": "https://www.artic.edu/iiif/2/91f56173-2f20-70fa-c0ac-f00bed4268d0/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -3745,17 +3756,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/16633",
       "image": "https://www.artic.edu/iiif/2/c4425cb6-d8b5-6390-603d-7f802406d05d/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-891",
-      "title": "道端の小屋、嵐空",
-      "artist": "Jules Dupré",
-      "year": 1865,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/891",
-      "image": "https://www.artic.edu/iiif/2/f4d85da1-5c80-3c7b-38cc-bf324d6ce670/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
