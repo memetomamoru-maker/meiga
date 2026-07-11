@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-10T01:49:53.747Z",
+  "generated": "2026-07-11T01:28:46.636Z",
   "total": 907,
   "sources": {
     "artic": 356,
@@ -7,17 +7,6 @@
     "cma": 525
   },
   "paintings": [
-    {
-      "id": "artic-9637",
-      "title": "イタリアの別荘と庭園（バチカンのベルヴェデーレ）",
-      "artist": "Jean Jacques de Boissieu",
-      "year": 1799,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/9637",
-      "image": "https://www.artic.edu/iiif/2/462c6fe2-40a4-ed8d-772c-4fb9ae78265f/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
     {
       "id": "artic-11723",
       "title": "化粧する女",
@@ -38,6 +27,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/14591",
       "image": "https://www.artic.edu/iiif/2/fd991fea-0c13-8444-7879-aba467f1d9db/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-9637",
+      "title": "イタリアの別荘と庭園（バチカンのベルヴェデーレ）",
+      "artist": "Jean Jacques de Boissieu",
+      "year": 1799,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/9637",
+      "image": "https://www.artic.edu/iiif/2/462c6fe2-40a4-ed8d-772c-4fb9ae78265f/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -173,17 +173,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-83613",
-      "title": "「イル・マスケローネ」、ボルゲーゼ荘の噴水",
-      "artist": "Richard Wilson",
-      "year": 1759,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/83613",
-      "image": "https://www.artic.edu/iiif/2/2efb0b9d-04a4-390e-752b-fdb9602e017f/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-84092",
       "title": "古代ローマ",
       "artist": "After Giovanni Paolo Panini",
@@ -192,6 +181,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/84092",
       "image": "https://www.artic.edu/iiif/2/99c8eeea-f07a-af30-c79e-1da4d55243a3/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-83613",
+      "title": "「イル・マスケローネ」、ボルゲーゼ荘の噴水",
+      "artist": "Richard Wilson",
+      "year": 1759,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/83613",
+      "image": "https://www.artic.edu/iiif/2/2efb0b9d-04a4-390e-752b-fdb9602e017f/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -712,17 +712,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-61128",
-      "title": "ムーラン・ルージュにて",
-      "artist": "アンリ・ド・トゥールーズ＝ロートレック",
-      "year": 1895,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/61128",
-      "image": "https://www.artic.edu/iiif/2/defb4004-b500-218d-3d9b-9a02423f097d/full/843,/0/default.jpg",
-      "wikiUrl": "https://ja.wikipedia.org/wiki/ムーラン・ルージュにて"
-    },
-    {
       "id": "artic-25743",
       "title": "東方三博士の礼拝",
       "artist": "Attributed to Raffaello Botticini",
@@ -732,6 +721,17 @@
       "museumUrl": "https://www.artic.edu/artworks/25743",
       "image": "https://www.artic.edu/iiif/2/24c1565b-f22d-fb73-4a7f-f35bcb3dcc09/full/843,/0/default.jpg",
       "wikiUrl": null
+    },
+    {
+      "id": "artic-61128",
+      "title": "ムーラン・ルージュにて",
+      "artist": "アンリ・ド・トゥールーズ＝ロートレック",
+      "year": 1895,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/61128",
+      "image": "https://www.artic.edu/iiif/2/defb4004-b500-218d-3d9b-9a02423f097d/full/843,/0/default.jpg",
+      "wikiUrl": "https://ja.wikipedia.org/wiki/ムーラン・ルージュにて"
     },
     {
       "id": "artic-145677",
@@ -1053,28 +1053,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-8991",
-      "title": "即興第30番（大砲）",
-      "artist": "Vasily Kandinsky",
-      "year": 1913,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/8991",
-      "image": "https://www.artic.edu/iiif/2/b5bc6b66-9e6e-fe57-dcec-fc49e820e904/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-862",
-      "title": "ある芸術家の肖像",
-      "artist": "Follower of Frans Hals",
-      "year": 1644,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/862",
-      "image": "https://www.artic.edu/iiif/2/c95d58bf-fe9e-e5bb-2c71-ab8bad984759/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-80084",
       "title": "磔刑",
       "artist": "Francisco de Zurbarán",
@@ -1094,6 +1072,28 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/100476",
       "image": "https://www.artic.edu/iiif/2/16e53257-ade2-4f5d-3521-2bc9666bc4cf/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-8991",
+      "title": "即興第30番（大砲）",
+      "artist": "Vasily Kandinsky",
+      "year": 1913,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/8991",
+      "image": "https://www.artic.edu/iiif/2/b5bc6b66-9e6e-fe57-dcec-fc49e820e904/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-862",
+      "title": "ある芸術家の肖像",
+      "artist": "Follower of Frans Hals",
+      "year": 1644,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/862",
+      "image": "https://www.artic.edu/iiif/2/c95d58bf-fe9e-e5bb-2c71-ab8bad984759/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
