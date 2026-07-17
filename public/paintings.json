@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-16T01:27:35.392Z",
+  "generated": "2026-07-17T01:30:21.636Z",
   "total": 907,
   "sources": {
     "artic": 356,
@@ -7,28 +7,6 @@
     "cma": 525
   },
   "paintings": [
-    {
-      "id": "artic-11723",
-      "title": "化粧する女",
-      "artist": "ベルト・モリゾ",
-      "year": 1880,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/11723",
-      "image": "https://www.artic.edu/iiif/2/78c80988-6524-cec7-c661-a4c0a706d06f/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-14591",
-      "title": "読書する女性",
-      "artist": "エドゥアール・マネ",
-      "year": 1882,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/14591",
-      "image": "https://www.artic.edu/iiif/2/fd991fea-0c13-8444-7879-aba467f1d9db/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
     {
       "id": "artic-9637",
       "title": "イタリアの別荘と庭園（バチカンのベルヴェデーレ）",
@@ -71,6 +49,28 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/26720",
       "image": "https://www.artic.edu/iiif/2/5bbc0c4b-ace9-38ef-460f-4a9efedad60a/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-11723",
+      "title": "化粧する女",
+      "artist": "ベルト・モリゾ",
+      "year": 1880,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/11723",
+      "image": "https://www.artic.edu/iiif/2/78c80988-6524-cec7-c661-a4c0a706d06f/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-14591",
+      "title": "読書する女性",
+      "artist": "エドゥアール・マネ",
+      "year": 1882,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/14591",
+      "image": "https://www.artic.edu/iiif/2/fd991fea-0c13-8444-7879-aba467f1d9db/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -129,17 +129,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-70593",
-      "title": "庭園の情景",
-      "artist": "Iran",
-      "year": 1480,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/70593",
-      "image": "https://www.artic.edu/iiif/2/85309ed9-b889-16fb-2fc7-57f1c97c3820/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-68433",
       "title": "パリ郊外の製材所",
       "artist": "Henri Rousseau",
@@ -151,14 +140,14 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-76890",
-      "title": "天国の庭で踊り子たちに接待される統治者",
-      "artist": "India",
-      "year": 1800,
-      "century": "18〜19世紀",
+      "id": "artic-70593",
+      "title": "庭園の情景",
+      "artist": "Iran",
+      "year": 1480,
+      "century": "〜17世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/76890",
-      "image": "https://www.artic.edu/iiif/2/c1e17623-1a51-8db0-e1d0-3eee0b41b4b2/full/843,/0/default.jpg",
+      "museumUrl": "https://www.artic.edu/artworks/70593",
+      "image": "https://www.artic.edu/iiif/2/85309ed9-b889-16fb-2fc7-57f1c97c3820/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -170,6 +159,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/75557",
       "image": "https://www.artic.edu/iiif/2/6d216d21-f35a-770a-071c-e0304f23b84f/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-76890",
+      "title": "天国の庭で踊り子たちに接待される統治者",
+      "artist": "India",
+      "year": 1800,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/76890",
+      "image": "https://www.artic.edu/iiif/2/c1e17623-1a51-8db0-e1d0-3eee0b41b4b2/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1053,6 +1053,39 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-883",
+      "title": "傷ついた雌ライオン",
+      "artist": "Pierre Andrieu",
+      "year": 1855,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/883",
+      "image": "https://www.artic.edu/iiif/2/565dd29f-6c02-3f31-3db2-46902059f047/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-884",
+      "title": "休む虎",
+      "artist": "Pierre Andrieu",
+      "year": 1850,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/884",
+      "image": "https://www.artic.edu/iiif/2/1bc44619-6b1d-5398-cf41-f4af38f6e17f/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-14624",
+      "title": "積み藁（秋、夕暮れ）",
+      "artist": "クロード・モネ",
+      "year": 1891,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/14624",
+      "image": "https://www.artic.edu/iiif/2/4c364c64-2108-4e19-5fc5-1ab26ba924a7/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-80084",
       "title": "磔刑",
       "artist": "Francisco de Zurbarán",
@@ -1094,17 +1127,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/87479",
       "image": "https://www.artic.edu/iiif/2/47fd1564-93f5-f30b-7786-013421133b4a/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-14624",
-      "title": "積み藁（秋、夕暮れ）",
-      "artist": "クロード・モネ",
-      "year": 1891,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/14624",
-      "image": "https://www.artic.edu/iiif/2/4c364c64-2108-4e19-5fc5-1ab26ba924a7/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1545,28 +1567,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/122130",
       "image": "https://www.artic.edu/iiif/2/43fcfad0-8256-4923-9f9c-03ca90417907/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-883",
-      "title": "傷ついた雌ライオン",
-      "artist": "Pierre Andrieu",
-      "year": 1855,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/883",
-      "image": "https://www.artic.edu/iiif/2/565dd29f-6c02-3f31-3db2-46902059f047/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-884",
-      "title": "休む虎",
-      "artist": "Pierre Andrieu",
-      "year": 1850,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/884",
-      "image": "https://www.artic.edu/iiif/2/1bc44619-6b1d-5398-cf41-f4af38f6e17f/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2934,6 +2934,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-81505",
+      "title": "Lion Hunt",
+      "artist": "ウジェーヌ・ドラクロワ",
+      "year": 1861,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/81505",
+      "image": "https://www.artic.edu/iiif/2/1299b0e5-6a3d-8039-087b-35bf03caea1a/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-18951",
       "title": "Yellow Dancers (In the Wings)",
       "artist": "エドガー・ドガ",
@@ -3096,17 +3107,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/65821",
       "image": "https://www.artic.edu/iiif/2/254c654f-354a-0f4f-28b5-8eb01a02e95c/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-81505",
-      "title": "Lion Hunt",
-      "artist": "ウジェーヌ・ドラクロワ",
-      "year": 1861,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/81505",
-      "image": "https://www.artic.edu/iiif/2/1299b0e5-6a3d-8039-087b-35bf03caea1a/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -4507,6 +4507,17 @@
       "wikiUrl": null
     },
     {
+      "id": "cma-124040",
+      "title": "ブライアーウッドのパイプ",
+      "artist": "ウィンスロー・ホーマー",
+      "year": 1864,
+      "century": "18〜19世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/1944.524",
+      "image": "https://openaccess-cdn.clevelandart.org/1944.524/1944.524_web.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "cma-99429",
       "title": "チャールズ・アプソープの肖像",
       "artist": "Robert Feke",
@@ -4702,17 +4713,6 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/1915.527",
       "image": "https://openaccess-cdn.clevelandart.org/1915.527/1915.527_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-124040",
-      "title": "ブライアーウッドのパイプ",
-      "artist": "ウィンスロー・ホーマー",
-      "year": 1864,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1944.524",
-      "image": "https://openaccess-cdn.clevelandart.org/1944.524/1944.524_web.jpg",
       "wikiUrl": null
     },
     {
@@ -5387,6 +5387,17 @@
       "wikiUrl": null
     },
     {
+      "id": "cma-109030",
+      "title": "ヘルメスと幼いディオニュソス",
+      "artist": "Arthur B. Davies",
+      "year": 1900,
+      "century": "18〜19世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/1927.198",
+      "image": "https://openaccess-cdn.clevelandart.org/1927.198/1927.198_web.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "cma-156615",
       "title": "畑で働く女性たち",
       "artist": "ウィンスロー・ホーマー",
@@ -5406,17 +5417,6 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/1927.392",
       "image": "https://openaccess-cdn.clevelandart.org/1927.392/1927.392_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-109030",
-      "title": "ヘルメスと幼いディオニュソス",
-      "artist": "Arthur B. Davies",
-      "year": 1900,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1927.198",
-      "image": "https://openaccess-cdn.clevelandart.org/1927.198/1927.198_web.jpg",
       "wikiUrl": null
     },
     {
@@ -5871,6 +5871,17 @@
       "wikiUrl": null
     },
     {
+      "id": "cma-99446",
+      "title": "John Browne",
+      "artist": "Joseph Blackburn",
+      "year": 1755,
+      "century": "18〜19世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/1919.1019",
+      "image": "https://openaccess-cdn.clevelandart.org/1919.1019/1919.1019_web.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "cma-173688",
       "title": "湿地の満潮",
       "artist": "Martin Johnson Heade",
@@ -5945,17 +5956,6 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/1918.569",
       "image": "https://openaccess-cdn.clevelandart.org/1918.569/1918.569_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-99446",
-      "title": "John Browne",
-      "artist": "Joseph Blackburn",
-      "year": 1755,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1919.1019",
-      "image": "https://openaccess-cdn.clevelandart.org/1919.1019/1919.1019_web.jpg",
       "wikiUrl": null
     },
     {
@@ -8060,6 +8060,17 @@
       "wikiUrl": null
     },
     {
+      "id": "cma-163044",
+      "title": "Clio, Muse of History",
+      "artist": "Charles Meynier",
+      "year": 1800,
+      "century": "18〜19世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/2003.6.5",
+      "image": "https://openaccess-cdn.clevelandart.org/2003.6.5/2003.6.5_web.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "cma-149029",
       "title": "Self-Portrait in Rome",
       "artist": "Horace Vernet",
@@ -8145,6 +8156,17 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/1979.43",
       "image": "https://openaccess-cdn.clevelandart.org/1979.43/1979.43_web.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "cma-163040",
+      "title": "Polyhymnia, Muse of Eloquence",
+      "artist": "Charles Meynier",
+      "year": 1800,
+      "century": "18〜19世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/2003.6.1",
+      "image": "https://openaccess-cdn.clevelandart.org/2003.6.1/2003.6.1_web.jpg",
       "wikiUrl": null
     },
     {
@@ -8643,17 +8665,6 @@
       "wikiUrl": null
     },
     {
-      "id": "cma-163044",
-      "title": "Clio, Muse of History",
-      "artist": "Charles Meynier",
-      "year": 1800,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/2003.6.5",
-      "image": "https://openaccess-cdn.clevelandart.org/2003.6.5/2003.6.5_web.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "cma-169767",
       "title": "Canal in Autumn (Gisors)",
       "artist": "Henri Le Sidaner",
@@ -8717,17 +8728,6 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/2003.6.2",
       "image": "https://openaccess-cdn.clevelandart.org/2003.6.2/2003.6.2_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-163040",
-      "title": "Polyhymnia, Muse of Eloquence",
-      "artist": "Charles Meynier",
-      "year": 1800,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/2003.6.1",
-      "image": "https://openaccess-cdn.clevelandart.org/2003.6.1/2003.6.1_web.jpg",
       "wikiUrl": null
     },
     {
