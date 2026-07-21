@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-20T01:53:38.539Z",
+  "generated": "2026-07-21T01:27:51.380Z",
   "total": 907,
   "sources": {
     "artic": 356,
@@ -118,17 +118,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-62808",
-      "title": "ニザーミーの「ハムサ」より：庭園のホスローとシーリーン",
-      "artist": "Iran",
-      "year": 1650,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/62808",
-      "image": "https://www.artic.edu/iiif/2/2f25b476-f5a5-7353-5d21-c67207eb1c39/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-68433",
       "title": "パリ郊外の製材所",
       "artist": "Henri Rousseau",
@@ -137,6 +126,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/68433",
       "image": "https://www.artic.edu/iiif/2/3826e366-e82a-e853-12e4-b303a1618103/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-62808",
+      "title": "ニザーミーの「ハムサ」より：庭園のホスローとシーリーン",
+      "artist": "Iran",
+      "year": 1650,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/62808",
+      "image": "https://www.artic.edu/iiif/2/2f25b476-f5a5-7353-5d21-c67207eb1c39/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -151,6 +151,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-76890",
+      "title": "天国の庭で踊り子たちに接待される統治者",
+      "artist": "India",
+      "year": 1800,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/76890",
+      "image": "https://www.artic.edu/iiif/2/c1e17623-1a51-8db0-e1d0-3eee0b41b4b2/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-75557",
       "title": "サアディー「全集」の彩飾写本（漆塗り表紙）",
       "artist": "Iran",
@@ -162,14 +173,14 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-76890",
-      "title": "天国の庭で踊り子たちに接待される統治者",
-      "artist": "India",
-      "year": 1800,
+      "id": "artic-84092",
+      "title": "古代ローマ",
+      "artist": "After Giovanni Paolo Panini",
+      "year": 1760,
       "century": "18〜19世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/76890",
-      "image": "https://www.artic.edu/iiif/2/c1e17623-1a51-8db0-e1d0-3eee0b41b4b2/full/843,/0/default.jpg",
+      "museumUrl": "https://www.artic.edu/artworks/84092",
+      "image": "https://www.artic.edu/iiif/2/99c8eeea-f07a-af30-c79e-1da4d55243a3/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -192,17 +203,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/87088",
       "image": "https://www.artic.edu/iiif/2/8534685d-1102-e1e3-e194-94f6e925e8b0/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-84092",
-      "title": "古代ローマ",
-      "artist": "After Giovanni Paolo Panini",
-      "year": 1760,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/84092",
-      "image": "https://www.artic.edu/iiif/2/99c8eeea-f07a-af30-c79e-1da4d55243a3/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -239,17 +239,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-131827",
-      "title": "ハーフィズの詩集",
-      "artist": "Iran",
-      "year": 1550,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/131827",
-      "image": "https://www.artic.edu/iiif/2/5744228e-f41d-f2ae-b67c-94ec7959766c/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-130725",
       "title": "サアディー「全集」写本の一頁",
       "artist": "Iran",
@@ -258,6 +247,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/130725",
       "image": "https://www.artic.edu/iiif/2/fa298f62-bdfe-67b4-e473-65ad9f656dc1/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-131827",
+      "title": "ハーフィズの詩集",
+      "artist": "Iran",
+      "year": 1550,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/131827",
+      "image": "https://www.artic.edu/iiif/2/5744228e-f41d-f2ae-b67c-94ec7959766c/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -712,17 +712,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-61128",
-      "title": "ムーラン・ルージュにて",
-      "artist": "アンリ・ド・トゥールーズ＝ロートレック",
-      "year": 1895,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/61128",
-      "image": "https://www.artic.edu/iiif/2/defb4004-b500-218d-3d9b-9a02423f097d/full/843,/0/default.jpg",
-      "wikiUrl": "https://ja.wikipedia.org/wiki/ムーラン・ルージュにて"
-    },
-    {
       "id": "artic-25743",
       "title": "東方三博士の礼拝",
       "artist": "Attributed to Raffaello Botticini",
@@ -732,6 +721,17 @@
       "museumUrl": "https://www.artic.edu/artworks/25743",
       "image": "https://www.artic.edu/iiif/2/24c1565b-f22d-fb73-4a7f-f35bcb3dcc09/full/843,/0/default.jpg",
       "wikiUrl": null
+    },
+    {
+      "id": "artic-61128",
+      "title": "ムーラン・ルージュにて",
+      "artist": "アンリ・ド・トゥールーズ＝ロートレック",
+      "year": 1895,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/61128",
+      "image": "https://www.artic.edu/iiif/2/defb4004-b500-218d-3d9b-9a02423f097d/full/843,/0/default.jpg",
+      "wikiUrl": "https://ja.wikipedia.org/wiki/ムーラン・ルージュにて"
     },
     {
       "id": "artic-145677",
@@ -921,6 +921,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-64489",
+      "title": "黒衣の若い女性",
+      "artist": "Robert Henri",
+      "year": 1902,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/64489",
+      "image": "https://www.artic.edu/iiif/2/3edec075-6e0b-0ccc-0036-5328de3e064c/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-16156",
       "title": "荒野に入る洗礼者ヨハネ",
       "artist": "Giovanni di Paolo",
@@ -951,17 +962,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/107939",
       "image": "https://www.artic.edu/iiif/2/68415b1d-baec-303a-1c09-4c6b7ccb575c/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-64489",
-      "title": "黒衣の若い女性",
-      "artist": "Robert Henri",
-      "year": 1902,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/64489",
-      "image": "https://www.artic.edu/iiif/2/3edec075-6e0b-0ccc-0036-5328de3e064c/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1050,6 +1050,39 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/152437",
       "image": "https://www.artic.edu/iiif/2/efef304d-190c-294f-1cba-73374b3361a3/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-69780",
+      "title": "イタリア、フラスカーティのヴィラ・トルロニアの噴水",
+      "artist": "ジョン・シンガー・サージェント",
+      "year": 1907,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/69780",
+      "image": "https://www.artic.edu/iiif/2/3f9aa9db-61e1-7060-fdb0-bfd7e41ddd08/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-14598",
+      "title": "サント＝アドレスの浜辺",
+      "artist": "クロード・モネ",
+      "year": 1867,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/14598",
+      "image": "https://www.artic.edu/iiif/2/95be2572-b53d-8e7b-abc9-10eb48d4fa5d/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-109780",
+      "title": "冬の愛",
+      "artist": "George Wesley Bellows",
+      "year": 1914,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/109780",
+      "image": "https://www.artic.edu/iiif/2/18ab0c35-e35c-0216-9afd-f93357920db1/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1196,17 +1229,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-14598",
-      "title": "サント＝アドレスの浜辺",
-      "artist": "クロード・モネ",
-      "year": 1867,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/14598",
-      "image": "https://www.artic.edu/iiif/2/95be2572-b53d-8e7b-abc9-10eb48d4fa5d/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-16571",
       "title": "サン＝ラザール駅、ノルマンディー行き列車の到着",
       "artist": "クロード・モネ",
@@ -1259,17 +1281,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/100351",
       "image": "https://www.artic.edu/iiif/2/488e2088-06a5-6811-78b4-56d736a25019/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-69780",
-      "title": "イタリア、フラスカーティのヴィラ・トルロニアの噴水",
-      "artist": "ジョン・シンガー・サージェント",
-      "year": 1907,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/69780",
-      "image": "https://www.artic.edu/iiif/2/3f9aa9db-61e1-7060-fdb0-bfd7e41ddd08/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1391,17 +1402,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/47578",
       "image": "https://www.artic.edu/iiif/2/955a3bb2-0e15-4f03-5ed1-1914b5fc9c26/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-109780",
-      "title": "冬の愛",
-      "artist": "George Wesley Bellows",
-      "year": 1914,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/109780",
-      "image": "https://www.artic.edu/iiif/2/18ab0c35-e35c-0216-9afd-f93357920db1/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2120,6 +2120,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-117700",
+      "title": "On the Bank",
+      "artist": "Frederick Carl Frieseke",
+      "year": 1915,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/117700",
+      "image": "https://www.artic.edu/iiif/2/be266c25-27f7-38fd-69fa-8efd1b985af2/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-110673",
       "title": "悲しみの聖母",
       "artist": "Workshop of Dieric Bouts",
@@ -2150,6 +2161,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/65930",
       "image": "https://www.artic.edu/iiif/2/2a328b12-cb68-19e8-3843-b2160f007813/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-71573",
+      "title": "休日",
+      "artist": "Edward Henry Potthast",
+      "year": 1915,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/71573",
+      "image": "https://www.artic.edu/iiif/2/a67c4473-57a4-9807-a94e-1136d3daf876/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2560,17 +2582,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-117700",
-      "title": "On the Bank",
-      "artist": "Frederick Carl Frieseke",
-      "year": 1915,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/117700",
-      "image": "https://www.artic.edu/iiif/2/be266c25-27f7-38fd-69fa-8efd1b985af2/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-160030",
       "title": "The Ecstasy of Saint Francis",
       "artist": "Giovanni Baglione",
@@ -2601,17 +2612,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/110507",
       "image": "https://www.artic.edu/iiif/2/fa81bfb9-5a07-5e3c-33b4-4efde68981c8/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-71573",
-      "title": "休日",
-      "artist": "Edward Henry Potthast",
-      "year": 1915,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/71573",
-      "image": "https://www.artic.edu/iiif/2/a67c4473-57a4-9807-a94e-1136d3daf876/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2934,6 +2934,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-81546",
+      "title": "The Petite Creuse River",
+      "artist": "クロード・モネ",
+      "year": 1889,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/81546",
+      "image": "https://www.artic.edu/iiif/2/ec1f6262-09c2-8f7e-baa9-9c0b267337ff/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-81505",
       "title": "Lion Hunt",
       "artist": "ウジェーヌ・ドラクロワ",
@@ -2975,17 +2986,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/59927",
       "image": "https://www.artic.edu/iiif/2/eaf98472-70cc-0005-c2c9-6109f549f24a/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-81546",
-      "title": "The Petite Creuse River",
-      "artist": "クロード・モネ",
-      "year": 1889,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/81546",
-      "image": "https://www.artic.edu/iiif/2/ec1f6262-09c2-8f7e-baa9-9c0b267337ff/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
