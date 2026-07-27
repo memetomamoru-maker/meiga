@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-26T01:44:47.271Z",
+  "generated": "2026-07-27T01:51:30.940Z",
   "total": 907,
   "sources": {
     "artic": 356,
@@ -63,17 +63,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-14664",
-      "title": "ムーラン・ド・ラ・ギャレット",
-      "artist": "アンリ・ド・トゥールーズ＝ロートレック",
-      "year": 1889,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/14664",
-      "image": "https://www.artic.edu/iiif/2/156aaed6-fe3c-a13c-f39e-55f381205929/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-11723",
       "title": "化粧する女",
       "artist": "ベルト・モリゾ",
@@ -107,6 +96,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-14664",
+      "title": "ムーラン・ド・ラ・ギャレット",
+      "artist": "アンリ・ド・トゥールーズ＝ロートレック",
+      "year": 1889,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/14664",
+      "image": "https://www.artic.edu/iiif/2/156aaed6-fe3c-a13c-f39e-55f381205929/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-30899",
       "title": "ゼラーダ枢機卿の肖像",
       "artist": "Anton Raphael Mengs",
@@ -129,6 +129,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-70593",
+      "title": "庭園の情景",
+      "artist": "Iran",
+      "year": 1480,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/70593",
+      "image": "https://www.artic.edu/iiif/2/85309ed9-b889-16fb-2fc7-57f1c97c3820/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-68433",
       "title": "パリ郊外の製材所",
       "artist": "Henri Rousseau",
@@ -140,14 +151,14 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-70593",
-      "title": "庭園の情景",
-      "artist": "Iran",
-      "year": 1480,
-      "century": "〜17世紀",
+      "id": "artic-76890",
+      "title": "天国の庭で踊り子たちに接待される統治者",
+      "artist": "India",
+      "year": 1800,
+      "century": "18〜19世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/70593",
-      "image": "https://www.artic.edu/iiif/2/85309ed9-b889-16fb-2fc7-57f1c97c3820/full/843,/0/default.jpg",
+      "museumUrl": "https://www.artic.edu/artworks/76890",
+      "image": "https://www.artic.edu/iiif/2/c1e17623-1a51-8db0-e1d0-3eee0b41b4b2/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -162,14 +173,14 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-76890",
-      "title": "天国の庭で踊り子たちに接待される統治者",
-      "artist": "India",
-      "year": 1800,
+      "id": "artic-84092",
+      "title": "古代ローマ",
+      "artist": "After Giovanni Paolo Panini",
+      "year": 1760,
       "century": "18〜19世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/76890",
-      "image": "https://www.artic.edu/iiif/2/c1e17623-1a51-8db0-e1d0-3eee0b41b4b2/full/843,/0/default.jpg",
+      "museumUrl": "https://www.artic.edu/artworks/84092",
+      "image": "https://www.artic.edu/iiif/2/99c8eeea-f07a-af30-c79e-1da4d55243a3/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -195,17 +206,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-84092",
-      "title": "古代ローマ",
-      "artist": "After Giovanni Paolo Panini",
-      "year": 1760,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/84092",
-      "image": "https://www.artic.edu/iiif/2/99c8eeea-f07a-af30-c79e-1da4d55243a3/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-95654",
       "title": "湖のほとり",
       "artist": "ピエール＝オーギュスト・ルノワール",
@@ -225,6 +225,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/94131",
       "image": "https://www.artic.edu/iiif/2/e406e261-8d27-d3b5-658d-751d79d03ff2/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-130725",
+      "title": "サアディー「全集」写本の一頁",
+      "artist": "Iran",
+      "year": 1700,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/130725",
+      "image": "https://www.artic.edu/iiif/2/fa298f62-bdfe-67b4-e473-65ad9f656dc1/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -250,17 +261,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-130725",
-      "title": "サアディー「全集」写本の一頁",
-      "artist": "Iran",
-      "year": 1700,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/130725",
-      "image": "https://www.artic.edu/iiif/2/fa298f62-bdfe-67b4-e473-65ad9f656dc1/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-186418",
       "title": "ランドールからのムスーリーとドゥーン",
       "artist": "Joseph Mallord William Turner",
@@ -270,50 +270,6 @@
       "museumUrl": "https://www.artic.edu/artworks/186418",
       "image": "https://www.artic.edu/iiif/2/560ff8f8-8932-6114-54d5-8174144615e5/full/843,/0/default.jpg",
       "wikiUrl": null
-    },
-    {
-      "id": "artic-16622",
-      "title": "レオン・クラピソン夫人",
-      "artist": "ピエール＝オーギュスト・ルノワール",
-      "year": 1883,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/16622",
-      "image": "https://www.artic.edu/iiif/2/a7af09dc-5743-062e-4802-b6435e67eaa5/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-15468",
-      "title": "聖ゲオルギウスと龍",
-      "artist": "Bernat Martorell",
-      "year": 1435,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/15468",
-      "image": "https://www.artic.edu/iiif/2/8a0e4ac9-43ea-bc3e-884b-ee27f8a10501/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-72801",
-      "title": "氷に閉ざされて",
-      "artist": "John Henry Twachtman",
-      "year": 1889,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/72801",
-      "image": "https://www.artic.edu/iiif/2/3ae75415-0551-ae17-c478-3b8687a6f246/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-28560",
-      "title": "寝室",
-      "artist": "フィンセント・ファン・ゴッホ",
-      "year": 1889,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/28560",
-      "image": "https://www.artic.edu/iiif/2/6644829f-f292-c5c4-a73c-0356a6fdbf0d/full/843,/0/default.jpg",
-      "wikiUrl": "https://ja.wikipedia.org/wiki/ファン・ゴッホの寝室"
     },
     {
       "id": "artic-180545",
@@ -360,6 +316,28 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-72801",
+      "title": "氷に閉ざされて",
+      "artist": "John Henry Twachtman",
+      "year": 1889,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/72801",
+      "image": "https://www.artic.edu/iiif/2/3ae75415-0551-ae17-c478-3b8687a6f246/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-61139",
+      "title": "ウィリアム・ボナムの肖像",
+      "artist": "William Bonnell",
+      "year": 1825,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/61139",
+      "image": "https://www.artic.edu/iiif/2/29ed4a54-868c-a158-f574-cddfdffe809c/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-61146",
       "title": "J・エリス・ボナムの肖像",
       "artist": "William Bonnell",
@@ -382,14 +360,14 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-61139",
-      "title": "ウィリアム・ボナムの肖像",
-      "artist": "William Bonnell",
-      "year": 1825,
-      "century": "18〜19世紀",
+      "id": "artic-15468",
+      "title": "聖ゲオルギウスと龍",
+      "artist": "Bernat Martorell",
+      "year": 1435,
+      "century": "〜17世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/61139",
-      "image": "https://www.artic.edu/iiif/2/29ed4a54-868c-a158-f574-cddfdffe809c/full/843,/0/default.jpg",
+      "museumUrl": "https://www.artic.edu/artworks/15468",
+      "image": "https://www.artic.edu/iiif/2/8a0e4ac9-43ea-bc3e-884b-ee27f8a10501/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -404,6 +382,50 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-16622",
+      "title": "レオン・クラピソン夫人",
+      "artist": "ピエール＝オーギュスト・ルノワール",
+      "year": 1883,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/16622",
+      "image": "https://www.artic.edu/iiif/2/a7af09dc-5743-062e-4802-b6435e67eaa5/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-28560",
+      "title": "寝室",
+      "artist": "フィンセント・ファン・ゴッホ",
+      "year": 1889,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/28560",
+      "image": "https://www.artic.edu/iiif/2/6644829f-f292-c5c4-a73c-0356a6fdbf0d/full/843,/0/default.jpg",
+      "wikiUrl": "https://ja.wikipedia.org/wiki/ファン・ゴッホの寝室"
+    },
+    {
+      "id": "artic-217536",
+      "title": "馬小屋（キリスト降誕）",
+      "artist": "Neapolitan",
+      "year": 1775,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/217536",
+      "image": "https://www.artic.edu/iiif/2/8b73e4fa-c454-3744-3c11-81ada02ac978/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-88793",
+      "title": "キリストと聖母の生涯の祭壇画",
+      "artist": "Spanish",
+      "year": 1396,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/88793",
+      "image": "https://www.artic.edu/iiif/2/97908967-4d35-cde9-6d90-7e90d3fa1dd6/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-20684",
       "title": "パリの街路、雨の日",
       "artist": "ギュスターヴ・カイユボット",
@@ -415,14 +437,14 @@
       "wikiUrl": "https://ja.wikipedia.org/wiki/パリの街路、雨の日"
     },
     {
-      "id": "artic-81558",
-      "title": "サーカス・フェルナンドの曲芸師（フランシスカとアンジェリナ・ワルテンベルク）",
-      "artist": "ピエール＝オーギュスト・ルノワール",
-      "year": 1879,
-      "century": "18〜19世紀",
+      "id": "artic-153194",
+      "title": "ホロフェルネスの遺体を発見する兵士たち",
+      "artist": "Master of the Liechtenstein Adoration",
+      "year": 1555,
+      "century": "〜17世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/81558",
-      "image": "https://www.artic.edu/iiif/2/321c45f5-22a3-84a2-44cc-cf66642d4cf2/full/843,/0/default.jpg",
+      "museumUrl": "https://www.artic.edu/artworks/153194",
+      "image": "https://www.artic.edu/iiif/2/4a99abd8-4f62-3482-3670-c783892e4a41/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -434,6 +456,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/25825",
       "image": "https://www.artic.edu/iiif/2/8f06717c-9ede-f22b-d13b-327a50c22f9c/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-81558",
+      "title": "サーカス・フェルナンドの曲芸師（フランシスカとアンジェリナ・ワルテンベルク）",
+      "artist": "ピエール＝オーギュスト・ルノワール",
+      "year": 1879,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/81558",
+      "image": "https://www.artic.edu/iiif/2/321c45f5-22a3-84a2-44cc-cf66642d4cf2/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -467,39 +500,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/512",
       "image": "https://www.artic.edu/iiif/2/d55ad474-aa3c-6881-b10d-06a9ac6e05b7/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-217536",
-      "title": "馬小屋（キリスト降誕）",
-      "artist": "Neapolitan",
-      "year": 1775,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/217536",
-      "image": "https://www.artic.edu/iiif/2/8b73e4fa-c454-3744-3c11-81ada02ac978/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-88793",
-      "title": "キリストと聖母の生涯の祭壇画",
-      "artist": "Spanish",
-      "year": 1396,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/88793",
-      "image": "https://www.artic.edu/iiif/2/97908967-4d35-cde9-6d90-7e90d3fa1dd6/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-153194",
-      "title": "ホロフェルネスの遺体を発見する兵士たち",
-      "artist": "Master of the Liechtenstein Adoration",
-      "year": 1555,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/153194",
-      "image": "https://www.artic.edu/iiif/2/4a99abd8-4f62-3482-3670-c783892e4a41/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -580,17 +580,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-3551",
-      "title": "「グレーと黒のアレンジメント第2番：トーマス・カーライルの肖像」習作",
-      "artist": "ジェームズ・マクニール・ホイッスラー",
-      "year": 1873,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/3551",
-      "image": "https://www.artic.edu/iiif/2/b7637e1b-47d7-123c-fe43-46981a93550e/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-158382",
       "title": "コルテ・デル・パラディーゾ",
       "artist": "ジェームズ・マクニール・ホイッスラー",
@@ -632,6 +621,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/14309",
       "image": "https://www.artic.edu/iiif/2/5888c23a-635f-396a-117b-2223032c0201/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-3551",
+      "title": "「グレーと黒のアレンジメント第2番：トーマス・カーライルの肖像」習作",
+      "artist": "ジェームズ・マクニール・ホイッスラー",
+      "year": 1873,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/3551",
+      "image": "https://www.artic.edu/iiif/2/b7637e1b-47d7-123c-fe43-46981a93550e/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -734,17 +734,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-260424",
-      "title": "死の影",
-      "artist": "William Holman Hunt",
-      "year": 1874,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/260424",
-      "image": "https://www.artic.edu/iiif/2/8bf9b3a3-cb6f-3e13-f817-a3964dd5cb3c/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-145677",
       "title": "Poetic Thoughts in a Forest Pavilion 林堂詩思圖",
       "artist": "Ni Zan 倪瓚",
@@ -775,6 +764,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/57051",
       "image": "https://www.artic.edu/iiif/2/62fd0e14-d7fe-0d01-ab00-1eed84b4f294/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-260424",
+      "title": "死の影",
+      "artist": "William Holman Hunt",
+      "year": 1874,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/260424",
+      "image": "https://www.artic.edu/iiif/2/8bf9b3a3-cb6f-3e13-f817-a3964dd5cb3c/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1075,28 +1075,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-191183",
-      "title": "Madame Paul Escudier (Louise Lefevre)",
-      "artist": "ジョン・シンガー・サージェント",
-      "year": 1882,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/191183",
-      "image": "https://www.artic.edu/iiif/2/c6da9f8c-643b-f331-0f8f-a9b6a844caf6/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-69780",
-      "title": "イタリア、フラスカーティのヴィラ・トルロニアの噴水",
-      "artist": "ジョン・シンガー・サージェント",
-      "year": 1907,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/69780",
-      "image": "https://www.artic.edu/iiif/2/3f9aa9db-61e1-7060-fdb0-bfd7e41ddd08/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-27992",
       "title": "グランド・ジャット島の日曜日の午後　1884年",
       "artist": "ジョルジュ・スーラ",
@@ -1108,47 +1086,14 @@
       "wikiUrl": "https://ja.wikipedia.org/wiki/グラン・ジャット島の日曜日の午後"
     },
     {
-      "id": "artic-14655",
-      "title": "二人の姉妹",
-      "artist": "ピエール＝オーギュスト・ルノワール",
-      "year": 1881,
-      "century": "18〜19世紀",
+      "id": "artic-87479",
+      "title": "聖母被昇天",
+      "artist": "エル・グレコ",
+      "year": 1579,
+      "century": "〜17世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/14655",
-      "image": "https://www.artic.edu/iiif/2/3a608f55-d76e-fa96-d0b1-0789fbc48f1e/full/843,/0/default.jpg",
-      "wikiUrl": "https://ja.wikipedia.org/wiki/二人の姉妹_(ルノワール)"
-    },
-    {
-      "id": "artic-81537",
-      "title": "Bordighera",
-      "artist": "クロード・モネ",
-      "year": 1884,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/81537",
-      "image": "https://www.artic.edu/iiif/2/4d1b3ad0-14db-0d21-ad9f-17abb8bdfbb5/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-64818",
-      "title": "干し草の積み重ね（夏の終わり）",
-      "artist": "クロード・モネ",
-      "year": 1891,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/64818",
-      "image": "https://www.artic.edu/iiif/2/a38e2828-ec6f-ece1-a30f-70243449197b/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-16571",
-      "title": "サン＝ラザール駅、ノルマンディー行き列車の到着",
-      "artist": "クロード・モネ",
-      "year": 1877,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/16571",
-      "image": "https://www.artic.edu/iiif/2/0f1cc0e0-e42e-be16-3f71-2022da38cb93/full/843,/0/default.jpg",
+      "museumUrl": "https://www.artic.edu/artworks/87479",
+      "image": "https://www.artic.edu/iiif/2/47fd1564-93f5-f30b-7786-013421133b4a/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1163,58 +1108,47 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-14620",
-      "title": "プールヴィルの断崖の散歩道",
-      "artist": "クロード・モネ",
-      "year": 1882,
+      "id": "artic-111442",
+      "title": "子供の入浴",
+      "artist": "メアリー・カサット",
+      "year": 1893,
       "century": "18〜19世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/14620",
-      "image": "https://www.artic.edu/iiif/2/b0effb1c-ff23-bbaa-f809-9fd94e31c1a0/full/843,/0/default.jpg",
-      "wikiUrl": null
+      "museumUrl": "https://www.artic.edu/artworks/111442",
+      "image": "https://www.artic.edu/iiif/2/3b885ae0-4d46-5fe4-d70a-00474827f02c/full/843,/0/default.jpg",
+      "wikiUrl": "https://ja.wikipedia.org/wiki/子供の入浴_(カサット)"
     },
     {
-      "id": "artic-14598",
-      "title": "サント＝アドレスの浜辺",
+      "id": "artic-64818",
+      "title": "干し草の積み重ね（夏の終わり）",
       "artist": "クロード・モネ",
-      "year": 1867,
+      "year": 1891,
       "century": "18〜19世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/14598",
-      "image": "https://www.artic.edu/iiif/2/95be2572-b53d-8e7b-abc9-10eb48d4fa5d/full/843,/0/default.jpg",
+      "museumUrl": "https://www.artic.edu/artworks/64818",
+      "image": "https://www.artic.edu/iiif/2/a38e2828-ec6f-ece1-a30f-70243449197b/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
-      "id": "artic-87479",
-      "title": "聖母被昇天",
-      "artist": "エル・グレコ",
-      "year": 1579,
-      "century": "〜17世紀",
+      "id": "artic-14655",
+      "title": "二人の姉妹",
+      "artist": "ピエール＝オーギュスト・ルノワール",
+      "year": 1881,
+      "century": "18〜19世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/87479",
-      "image": "https://www.artic.edu/iiif/2/47fd1564-93f5-f30b-7786-013421133b4a/full/843,/0/default.jpg",
-      "wikiUrl": null
+      "museumUrl": "https://www.artic.edu/artworks/14655",
+      "image": "https://www.artic.edu/iiif/2/3a608f55-d76e-fa96-d0b1-0789fbc48f1e/full/843,/0/default.jpg",
+      "wikiUrl": "https://ja.wikipedia.org/wiki/二人の姉妹_(ルノワール)"
     },
     {
-      "id": "artic-94840",
-      "title": "半開きの扉のそばの若い女性",
-      "artist": "レンブラント・ファン・レイン",
-      "year": 1645,
-      "century": "〜17世紀",
+      "id": "artic-8991",
+      "title": "即興第30番（大砲）",
+      "artist": "Vasily Kandinsky",
+      "year": 1913,
+      "century": "20世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/94840",
-      "image": "https://www.artic.edu/iiif/2/91c51644-871f-cda9-82bb-94f4973ae339/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-60755",
-      "title": "エグモント城跡のある風景",
-      "artist": "ヤーコブ・ファン・ロイスダール",
-      "year": 1655,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/60755",
-      "image": "https://www.artic.edu/iiif/2/12086520-2e48-cc75-df86-916bb801e61f/full/843,/0/default.jpg",
+      "museumUrl": "https://www.artic.edu/artworks/8991",
+      "image": "https://www.artic.edu/iiif/2/b5bc6b66-9e6e-fe57-dcec-fc49e820e904/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1229,26 +1163,92 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-8991",
-      "title": "即興第30番（大砲）",
-      "artist": "Vasily Kandinsky",
-      "year": 1913,
-      "century": "20世紀",
+      "id": "artic-14598",
+      "title": "サント＝アドレスの浜辺",
+      "artist": "クロード・モネ",
+      "year": 1867,
+      "century": "18〜19世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/8991",
-      "image": "https://www.artic.edu/iiif/2/b5bc6b66-9e6e-fe57-dcec-fc49e820e904/full/843,/0/default.jpg",
+      "museumUrl": "https://www.artic.edu/artworks/14598",
+      "image": "https://www.artic.edu/iiif/2/95be2572-b53d-8e7b-abc9-10eb48d4fa5d/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
-      "id": "artic-111442",
-      "title": "子供の入浴",
-      "artist": "メアリー・カサット",
-      "year": 1893,
+      "id": "artic-14620",
+      "title": "プールヴィルの断崖の散歩道",
+      "artist": "クロード・モネ",
+      "year": 1882,
       "century": "18〜19世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/111442",
-      "image": "https://www.artic.edu/iiif/2/3b885ae0-4d46-5fe4-d70a-00474827f02c/full/843,/0/default.jpg",
-      "wikiUrl": "https://ja.wikipedia.org/wiki/子供の入浴_(カサット)"
+      "museumUrl": "https://www.artic.edu/artworks/14620",
+      "image": "https://www.artic.edu/iiif/2/b0effb1c-ff23-bbaa-f809-9fd94e31c1a0/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-16571",
+      "title": "サン＝ラザール駅、ノルマンディー行き列車の到着",
+      "artist": "クロード・モネ",
+      "year": 1877,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/16571",
+      "image": "https://www.artic.edu/iiif/2/0f1cc0e0-e42e-be16-3f71-2022da38cb93/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-81537",
+      "title": "Bordighera",
+      "artist": "クロード・モネ",
+      "year": 1884,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/81537",
+      "image": "https://www.artic.edu/iiif/2/4d1b3ad0-14db-0d21-ad9f-17abb8bdfbb5/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-191183",
+      "title": "Madame Paul Escudier (Louise Lefevre)",
+      "artist": "ジョン・シンガー・サージェント",
+      "year": 1882,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/191183",
+      "image": "https://www.artic.edu/iiif/2/c6da9f8c-643b-f331-0f8f-a9b6a844caf6/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-94840",
+      "title": "半開きの扉のそばの若い女性",
+      "artist": "レンブラント・ファン・レイン",
+      "year": 1645,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/94840",
+      "image": "https://www.artic.edu/iiif/2/91c51644-871f-cda9-82bb-94f4973ae339/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-100351",
+      "title": "オダリスク",
+      "artist": "Jules Joseph Lefebvre",
+      "year": 1874,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/100351",
+      "image": "https://www.artic.edu/iiif/2/488e2088-06a5-6811-78b4-56d736a25019/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-69780",
+      "title": "イタリア、フラスカーティのヴィラ・トルロニアの噴水",
+      "artist": "ジョン・シンガー・サージェント",
+      "year": 1907,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/69780",
+      "image": "https://www.artic.edu/iiif/2/3f9aa9db-61e1-7060-fdb0-bfd7e41ddd08/full/843,/0/default.jpg",
+      "wikiUrl": null
     },
     {
       "id": "artic-64001",
@@ -1273,17 +1273,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-100351",
-      "title": "オダリスク",
-      "artist": "Jules Joseph Lefebvre",
-      "year": 1874,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/100351",
-      "image": "https://www.artic.edu/iiif/2/488e2088-06a5-6811-78b4-56d736a25019/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-16487",
       "title": "レスタックから見たマルセイユ湾",
       "artist": "Paul Cezanne",
@@ -1292,6 +1281,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/16487",
       "image": "https://www.artic.edu/iiif/2/d4ca6321-8656-3d3f-a362-2ee297b2b813/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-60755",
+      "title": "エグモント城跡のある風景",
+      "artist": "ヤーコブ・ファン・ロイスダール",
+      "year": 1655,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/60755",
+      "image": "https://www.artic.edu/iiif/2/12086520-2e48-cc75-df86-916bb801e61f/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1581,14 +1581,91 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-81535",
-      "title": "穏やかな海の眺め",
-      "artist": "エドゥアール・マネ",
-      "year": 1864,
+      "id": "artic-57996",
+      "title": "ヴェスヴィオ火山の噴火",
+      "artist": "Pierre-Jacques Volaire",
+      "year": 1771,
       "century": "18〜19世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/81535",
-      "image": "https://www.artic.edu/iiif/2/8be90e71-83c3-3f98-a972-4acb9ce0e773/full/843,/0/default.jpg",
+      "museumUrl": "https://www.artic.edu/artworks/57996",
+      "image": "https://www.artic.edu/iiif/2/6a676ee7-39c0-0b88-c37e-36ba0c5e3065/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-5848",
+      "title": "パトモス島の聖ヨハネのいる風景",
+      "artist": "ニコラ・プッサン",
+      "year": 1640,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/5848",
+      "image": "https://www.artic.edu/iiif/2/aa870b0d-5a1b-660a-6dc6-56c12109cf6e/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-16499",
+      "title": "兵士にあざけられるキリスト",
+      "artist": "エドゥアール・マネ",
+      "year": 1865,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/16499",
+      "image": "https://www.artic.edu/iiif/2/4d03ba14-a01a-d003-404a-cf3f9fb40ede/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-14572",
+      "title": "帽子屋",
+      "artist": "エドガー・ドガ",
+      "year": 1886,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/14572",
+      "image": "https://www.artic.edu/iiif/2/6f513908-03cc-b974-633b-adfce56b7936/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-25865",
+      "title": "ニシンの網",
+      "artist": "ウィンスロー・ホーマー",
+      "year": 1885,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/25865",
+      "image": "https://www.artic.edu/iiif/2/5dca7347-c6dc-24dd-d073-d705b9cdc575/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-103139",
+      "title": "ウォータールー橋、曇天",
+      "artist": "クロード・モネ",
+      "year": 1900,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/103139",
+      "image": "https://www.artic.edu/iiif/2/6f61a6fc-dcd8-e801-0ad8-5f7e561d91b6/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-14586",
+      "title": "詩人の庭",
+      "artist": "フィンセント・ファン・ゴッホ",
+      "year": 1888,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/14586",
+      "image": "https://www.artic.edu/iiif/2/d4bc1723-7cbc-d36d-a9cb-f84553f2a6f6/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-154121",
+      "title": "仔牛の頭と牛の舌",
+      "artist": "ギュスターヴ・カイユボット",
+      "year": 1887,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/154121",
+      "image": "https://www.artic.edu/iiif/2/0274aa9e-95d1-2a8e-12e3-2b09d7749b4f/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1614,17 +1691,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-16499",
-      "title": "兵士にあざけられるキリスト",
-      "artist": "エドゥアール・マネ",
-      "year": 1865,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/16499",
-      "image": "https://www.artic.edu/iiif/2/4d03ba14-a01a-d003-404a-cf3f9fb40ede/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-8969",
       "title": "牡蠣を持つ乞食（哲学者）",
       "artist": "エドゥアール・マネ",
@@ -1636,80 +1702,25 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-154121",
-      "title": "仔牛の頭と牛の舌",
-      "artist": "ギュスターヴ・カイユボット",
-      "year": 1887,
+      "id": "artic-81535",
+      "title": "穏やかな海の眺め",
+      "artist": "エドゥアール・マネ",
+      "year": 1864,
       "century": "18〜19世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/154121",
-      "image": "https://www.artic.edu/iiif/2/0274aa9e-95d1-2a8e-12e3-2b09d7749b4f/full/843,/0/default.jpg",
+      "museumUrl": "https://www.artic.edu/artworks/81535",
+      "image": "https://www.artic.edu/iiif/2/8be90e71-83c3-3f98-a972-4acb9ce0e773/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
-      "id": "artic-103139",
-      "title": "ウォータールー橋、曇天",
+      "id": "artic-4783",
+      "title": "ポピー畑（ジヴェルニー）",
       "artist": "クロード・モネ",
-      "year": 1900,
+      "year": 1891,
       "century": "18〜19世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/103139",
-      "image": "https://www.artic.edu/iiif/2/6f61a6fc-dcd8-e801-0ad8-5f7e561d91b6/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-97933",
-      "title": "睡蓮の池",
-      "artist": "クロード・モネ",
-      "year": 1919,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/97933",
-      "image": "https://www.artic.edu/iiif/2/7a23ad22-2044-6d7d-6315-9b101dadc559/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-81539",
-      "title": "セーヌ河畔、ベンヌクール",
-      "artist": "クロード・モネ",
-      "year": 1868,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/81539",
-      "image": "https://www.artic.edu/iiif/2/66f95ea3-a11a-1cf4-6599-d0a49bb25744/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-20545",
-      "title": "ベル＝イル島、ポール・グルファールの岩",
-      "artist": "クロード・モネ",
-      "year": 1886,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/20545",
-      "image": "https://www.artic.edu/iiif/2/2765aee9-3d78-ec6c-5c66-a1d9dc8173f6/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-16584",
-      "title": "ロンドン、国会議事堂",
-      "artist": "クロード・モネ",
-      "year": 1901,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/16584",
-      "image": "https://www.artic.edu/iiif/2/03930df3-1e6c-eeca-8660-c0b22ca477ff/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-16564",
-      "title": "ジヴェルニー近くのセーヌ川の支流（霧）",
-      "artist": "クロード・モネ",
-      "year": 1897,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/16564",
-      "image": "https://www.artic.edu/iiif/2/838d8c33-a3b4-68ea-587b-87ceec2011af/full/843,/0/default.jpg",
+      "museumUrl": "https://www.artic.edu/artworks/4783",
+      "image": "https://www.artic.edu/iiif/2/db94c894-a24c-c2e0-9db9-0506567a0152/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1735,14 +1746,91 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-4783",
-      "title": "ポピー畑（ジヴェルニー）",
+      "id": "artic-16564",
+      "title": "ジヴェルニー近くのセーヌ川の支流（霧）",
       "artist": "クロード・モネ",
-      "year": 1891,
+      "year": 1897,
       "century": "18〜19世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/4783",
-      "image": "https://www.artic.edu/iiif/2/db94c894-a24c-c2e0-9db9-0506567a0152/full/843,/0/default.jpg",
+      "museumUrl": "https://www.artic.edu/artworks/16564",
+      "image": "https://www.artic.edu/iiif/2/838d8c33-a3b4-68ea-587b-87ceec2011af/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-16584",
+      "title": "ロンドン、国会議事堂",
+      "artist": "クロード・モネ",
+      "year": 1901,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/16584",
+      "image": "https://www.artic.edu/iiif/2/03930df3-1e6c-eeca-8660-c0b22ca477ff/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-81539",
+      "title": "セーヌ河畔、ベンヌクール",
+      "artist": "クロード・モネ",
+      "year": 1868,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/81539",
+      "image": "https://www.artic.edu/iiif/2/66f95ea3-a11a-1cf4-6599-d0a49bb25744/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-20545",
+      "title": "ベル＝イル島、ポール・グルファールの岩",
+      "artist": "クロード・モネ",
+      "year": 1886,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/20545",
+      "image": "https://www.artic.edu/iiif/2/2765aee9-3d78-ec6c-5c66-a1d9dc8173f6/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-97933",
+      "title": "睡蓮の池",
+      "artist": "クロード・モネ",
+      "year": 1919,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/97933",
+      "image": "https://www.artic.edu/iiif/2/7a23ad22-2044-6d7d-6315-9b101dadc559/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-6005",
+      "title": "The Banks of the Marne in Winter",
+      "artist": "カミーユ・ピサロ",
+      "year": 1866,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/6005",
+      "image": "https://www.artic.edu/iiif/2/3d950ecc-73f4-c28a-f216-0940b23fa5e8/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-14556",
+      "title": "Auvers, Panoramic View",
+      "artist": "Paul Cezanne",
+      "year": 1875,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/14556",
+      "image": "https://www.artic.edu/iiif/2/90bc0cec-0d4e-9af5-3912-52a082a428e5/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-191564",
+      "title": "Standing Bather, Seen from the Back",
+      "artist": "Paul Cezanne",
+      "year": 1882,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/191564",
+      "image": "https://www.artic.edu/iiif/2/527417cf-28b5-45f0-8afe-20af0dcc1418/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1790,28 +1878,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-14586",
-      "title": "詩人の庭",
-      "artist": "フィンセント・ファン・ゴッホ",
-      "year": 1888,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/14586",
-      "image": "https://www.artic.edu/iiif/2/d4bc1723-7cbc-d36d-a9cb-f84553f2a6f6/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-25865",
-      "title": "ニシンの網",
-      "artist": "ウィンスロー・ホーマー",
-      "year": 1885,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/25865",
-      "image": "https://www.artic.edu/iiif/2/5dca7347-c6dc-24dd-d073-d705b9cdc575/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-8980",
       "title": "二本のポプラのある風景",
       "artist": "Vasily Kandinsky",
@@ -1820,72 +1886,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/8980",
       "image": "https://www.artic.edu/iiif/2/9694ca0c-c4c4-e48d-566f-4d248990cff4/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-57996",
-      "title": "ヴェスヴィオ火山の噴火",
-      "artist": "Pierre-Jacques Volaire",
-      "year": 1771,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/57996",
-      "image": "https://www.artic.edu/iiif/2/6a676ee7-39c0-0b88-c37e-36ba0c5e3065/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-5848",
-      "title": "パトモス島の聖ヨハネのいる風景",
-      "artist": "ニコラ・プッサン",
-      "year": 1640,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/5848",
-      "image": "https://www.artic.edu/iiif/2/aa870b0d-5a1b-660a-6dc6-56c12109cf6e/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-14572",
-      "title": "帽子屋",
-      "artist": "エドガー・ドガ",
-      "year": 1886,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/14572",
-      "image": "https://www.artic.edu/iiif/2/6f513908-03cc-b974-633b-adfce56b7936/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-6005",
-      "title": "The Banks of the Marne in Winter",
-      "artist": "カミーユ・ピサロ",
-      "year": 1866,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/6005",
-      "image": "https://www.artic.edu/iiif/2/3d950ecc-73f4-c28a-f216-0940b23fa5e8/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-14556",
-      "title": "Auvers, Panoramic View",
-      "artist": "Paul Cezanne",
-      "year": 1875,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/14556",
-      "image": "https://www.artic.edu/iiif/2/90bc0cec-0d4e-9af5-3912-52a082a428e5/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-191564",
-      "title": "Standing Bather, Seen from the Back",
-      "artist": "Paul Cezanne",
-      "year": 1882,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/191564",
-      "image": "https://www.artic.edu/iiif/2/527417cf-28b5-45f0-8afe-20af0dcc1418/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2175,25 +2175,25 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-61616",
-      "title": "Oil Sketch for \"A Sunday on La Grande Jatte — 1884\"",
-      "artist": "ジョルジュ・スーラ",
-      "year": 1884,
-      "century": "18〜19世紀",
+      "id": "artic-95998",
+      "title": "金の鎖を持つ老人",
+      "artist": "レンブラント・ファン・レイン",
+      "year": 1631,
+      "century": "〜17世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/61616",
-      "image": "https://www.artic.edu/iiif/2/081be15c-8812-c174-eeb2-cf318a2e67cf/full/843,/0/default.jpg",
+      "museumUrl": "https://www.artic.edu/artworks/95998",
+      "image": "https://www.artic.edu/iiif/2/3eaab3a3-2b47-9fdd-121c-050f6b8d9ccb/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
-      "id": "artic-20199",
-      "title": "Final Study for \"Bathers at Asnières\"",
-      "artist": "ジョルジュ・スーラ",
-      "year": 1883,
+      "id": "artic-146701",
+      "title": "山の小川",
+      "artist": "アルバート・ビアスタット",
+      "year": 1863,
       "century": "18〜19世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/20199",
-      "image": "https://www.artic.edu/iiif/2/1db67905-d421-95bf-1e91-4b60dd776886/full/843,/0/default.jpg",
+      "museumUrl": "https://www.artic.edu/artworks/146701",
+      "image": "https://www.artic.edu/iiif/2/d55b0cfc-0716-d6cd-3b38-5742903ce046/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2208,58 +2208,25 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-81557",
-      "title": "Seascape",
-      "artist": "ピエール＝オーギュスト・ルノワール",
-      "year": 1879,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/81557",
-      "image": "https://www.artic.edu/iiif/2/caf4fa39-e2e8-344a-542c-2d9a03ec9d4b/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-16617",
-      "title": "菊",
-      "artist": "ピエール＝オーギュスト・ルノワール",
-      "year": 1882,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/16617",
-      "image": "https://www.artic.edu/iiif/2/479aff61-784e-e833-fd82-50ba8c819514/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-111318",
-      "title": "積み藁",
+      "id": "artic-4887",
+      "title": "アイリス",
       "artist": "クロード・モネ",
-      "year": 1891,
-      "century": "18〜19世紀",
+      "year": 1917,
+      "century": "20世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/111318",
-      "image": "https://www.artic.edu/iiif/2/27c1d720-8ca5-79a4-5e51-530bf75c1591/full/843,/0/default.jpg",
+      "museumUrl": "https://www.artic.edu/artworks/4887",
+      "image": "https://www.artic.edu/iiif/2/1f925e43-ff81-5ad7-da75-b28ea651c09f/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
-      "id": "artic-86998",
-      "title": "サンドヴィカ、ノルウェー",
+      "id": "artic-16544",
+      "title": "チャリング・クロス橋、ロンドン",
       "artist": "クロード・モネ",
-      "year": 1895,
-      "century": "18〜19世紀",
+      "year": 1901,
+      "century": "20世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/86998",
-      "image": "https://www.artic.edu/iiif/2/07d8dd31-d44b-85aa-ab09-ca51ee86f631/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-81545",
-      "title": "積み藁（夕暮れ、雪の効果）",
-      "artist": "クロード・モネ",
-      "year": 1891,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/81545",
-      "image": "https://www.artic.edu/iiif/2/be0d3e50-a600-6f33-ea8f-16a34d892442/full/843,/0/default.jpg",
+      "museumUrl": "https://www.artic.edu/artworks/16544",
+      "image": "https://www.artic.edu/iiif/2/e9179922-f68d-34c5-481d-abf49e046863/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2285,91 +2252,58 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-16544",
-      "title": "チャリング・クロス橋、ロンドン",
+      "id": "artic-81545",
+      "title": "積み藁（夕暮れ、雪の効果）",
       "artist": "クロード・モネ",
-      "year": 1901,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/16544",
-      "image": "https://www.artic.edu/iiif/2/e9179922-f68d-34c5-481d-abf49e046863/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-4887",
-      "title": "アイリス",
-      "artist": "クロード・モネ",
-      "year": 1917,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/4887",
-      "image": "https://www.artic.edu/iiif/2/1f925e43-ff81-5ad7-da75-b28ea651c09f/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-64957",
-      "title": "Grapes, Lemons, Pears, and Apples",
-      "artist": "フィンセント・ファン・ゴッホ",
-      "year": 1887,
+      "year": 1891,
       "century": "18〜19世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/64957",
-      "image": "https://www.artic.edu/iiif/2/f11bd233-6cc3-4221-59eb-f7363be4119e/full/843,/0/default.jpg",
+      "museumUrl": "https://www.artic.edu/artworks/81545",
+      "image": "https://www.artic.edu/iiif/2/be0d3e50-a600-6f33-ea8f-16a34d892442/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
-      "id": "artic-8953",
-      "title": "The Capture of Samson",
-      "artist": "ピーテル・パウル・ルーベンス",
-      "year": 1610,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/8953",
-      "image": "https://www.artic.edu/iiif/2/a8fd8a92-d5fd-bb98-5d70-f970ab1788b8/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-4575",
-      "title": "Judith",
-      "artist": "Jan Sanders van Hemessen",
-      "year": 1545,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/4575",
-      "image": "https://www.artic.edu/iiif/2/5b9758c9-24ef-8661-fac0-c9a4229eefd4/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-95998",
-      "title": "金の鎖を持つ老人",
-      "artist": "レンブラント・ファン・レイン",
-      "year": 1631,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/95998",
-      "image": "https://www.artic.edu/iiif/2/3eaab3a3-2b47-9fdd-121c-050f6b8d9ccb/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-27984",
-      "title": "Woman before an Aquarium",
-      "artist": "Henri Matisse",
-      "year": 1923,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/27984",
-      "image": "https://www.artic.edu/iiif/2/d0e36029-27fc-bf4e-357a-55cfbaf7bdfd/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-146701",
-      "title": "山の小川",
-      "artist": "アルバート・ビアスタット",
-      "year": 1863,
+      "id": "artic-86998",
+      "title": "サンドヴィカ、ノルウェー",
+      "artist": "クロード・モネ",
+      "year": 1895,
       "century": "18〜19世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/146701",
-      "image": "https://www.artic.edu/iiif/2/d55b0cfc-0716-d6cd-3b38-5742903ce046/full/843,/0/default.jpg",
+      "museumUrl": "https://www.artic.edu/artworks/86998",
+      "image": "https://www.artic.edu/iiif/2/07d8dd31-d44b-85aa-ab09-ca51ee86f631/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-111318",
+      "title": "積み藁",
+      "artist": "クロード・モネ",
+      "year": 1891,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/111318",
+      "image": "https://www.artic.edu/iiif/2/27c1d720-8ca5-79a4-5e51-530bf75c1591/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-16617",
+      "title": "菊",
+      "artist": "ピエール＝オーギュスト・ルノワール",
+      "year": 1882,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/16617",
+      "image": "https://www.artic.edu/iiif/2/479aff61-784e-e833-fd82-50ba8c819514/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-81557",
+      "title": "Seascape",
+      "artist": "ピエール＝オーギュスト・ルノワール",
+      "year": 1879,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/81557",
+      "image": "https://www.artic.edu/iiif/2/caf4fa39-e2e8-344a-542c-2d9a03ec9d4b/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2425,6 +2359,72 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/62371",
       "image": "https://www.artic.edu/iiif/2/4822cd01-44ac-041a-36b8-c0542377b750/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-27984",
+      "title": "Woman before an Aquarium",
+      "artist": "Henri Matisse",
+      "year": 1923,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/27984",
+      "image": "https://www.artic.edu/iiif/2/d0e36029-27fc-bf4e-357a-55cfbaf7bdfd/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-61616",
+      "title": "Oil Sketch for \"A Sunday on La Grande Jatte — 1884\"",
+      "artist": "ジョルジュ・スーラ",
+      "year": 1884,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/61616",
+      "image": "https://www.artic.edu/iiif/2/081be15c-8812-c174-eeb2-cf318a2e67cf/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-20199",
+      "title": "Final Study for \"Bathers at Asnières\"",
+      "artist": "ジョルジュ・スーラ",
+      "year": 1883,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/20199",
+      "image": "https://www.artic.edu/iiif/2/1db67905-d421-95bf-1e91-4b60dd776886/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-64957",
+      "title": "Grapes, Lemons, Pears, and Apples",
+      "artist": "フィンセント・ファン・ゴッホ",
+      "year": 1887,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/64957",
+      "image": "https://www.artic.edu/iiif/2/f11bd233-6cc3-4221-59eb-f7363be4119e/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-8953",
+      "title": "The Capture of Samson",
+      "artist": "ピーテル・パウル・ルーベンス",
+      "year": 1610,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/8953",
+      "image": "https://www.artic.edu/iiif/2/a8fd8a92-d5fd-bb98-5d70-f970ab1788b8/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-4575",
+      "title": "Judith",
+      "artist": "Jan Sanders van Hemessen",
+      "year": 1545,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/4575",
+      "image": "https://www.artic.edu/iiif/2/5b9758c9-24ef-8661-fac0-c9a4229eefd4/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2934,14 +2934,69 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-25832",
-      "title": "Jean Renoir Sewing",
-      "artist": "ピエール＝オーギュスト・ルノワール",
-      "year": 1900,
+      "id": "artic-18951",
+      "title": "Yellow Dancers (In the Wings)",
+      "artist": "エドガー・ドガ",
+      "year": 1876,
       "century": "18〜19世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/25832",
-      "image": "https://www.artic.edu/iiif/2/41728a11-a073-6efa-387c-a40384477ad2/full/843,/0/default.jpg",
+      "museumUrl": "https://www.artic.edu/artworks/18951",
+      "image": "https://www.artic.edu/iiif/2/8fe022ba-e358-5cda-aa70-d96edd0b4f20/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-14634",
+      "title": "Vétheuil",
+      "artist": "クロード・モネ",
+      "year": 1901,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/14634",
+      "image": "https://www.artic.edu/iiif/2/d39b1026-7d8d-6e6a-738e-8a136b1a0033/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-59927",
+      "title": "Boats on the Beach at Étretat",
+      "artist": "クロード・モネ",
+      "year": 1885,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/59927",
+      "image": "https://www.artic.edu/iiif/2/eaf98472-70cc-0005-c2c9-6109f549f24a/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-81546",
+      "title": "The Petite Creuse River",
+      "artist": "クロード・モネ",
+      "year": 1889,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/81546",
+      "image": "https://www.artic.edu/iiif/2/ec1f6262-09c2-8f7e-baa9-9c0b267337ff/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-100191",
+      "title": "Stack of Wheat (Thaw, Sunset)",
+      "artist": "クロード・モネ",
+      "year": 1891,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/100191",
+      "image": "https://www.artic.edu/iiif/2/8bd40b36-43ea-8b02-d76a-b325962b86db/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-153799",
+      "title": "Woman Bathing Her Feet in a Brook",
+      "artist": "カミーユ・ピサロ",
+      "year": 1895,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/153799",
+      "image": "https://www.artic.edu/iiif/2/5ccaee46-a1a0-5035-821c-0547aa35c070/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2978,47 +3033,47 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-100191",
-      "title": "Stack of Wheat (Thaw, Sunset)",
-      "artist": "クロード・モネ",
-      "year": 1891,
+      "id": "artic-25832",
+      "title": "Jean Renoir Sewing",
+      "artist": "ピエール＝オーギュスト・ルノワール",
+      "year": 1900,
       "century": "18〜19世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/100191",
-      "image": "https://www.artic.edu/iiif/2/8bd40b36-43ea-8b02-d76a-b325962b86db/full/843,/0/default.jpg",
+      "museumUrl": "https://www.artic.edu/artworks/25832",
+      "image": "https://www.artic.edu/iiif/2/41728a11-a073-6efa-387c-a40384477ad2/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
-      "id": "artic-81546",
-      "title": "The Petite Creuse River",
-      "artist": "クロード・モネ",
-      "year": 1889,
-      "century": "18〜19世紀",
+      "id": "artic-65509",
+      "title": "The Feast in the House of Simon",
+      "artist": "エル・グレコ",
+      "year": 1614,
+      "century": "〜17世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/81546",
-      "image": "https://www.artic.edu/iiif/2/ec1f6262-09c2-8f7e-baa9-9c0b267337ff/full/843,/0/default.jpg",
+      "museumUrl": "https://www.artic.edu/artworks/65509",
+      "image": "https://www.artic.edu/iiif/2/75886aaa-002a-2047-a05c-baf73f0ac093/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
-      "id": "artic-59927",
-      "title": "Boats on the Beach at Étretat",
-      "artist": "クロード・モネ",
-      "year": 1885,
+      "id": "artic-16551",
+      "title": "Beata Beatrix",
+      "artist": "Dante Gabriel Rossetti",
+      "year": 1872,
       "century": "18〜19世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/59927",
-      "image": "https://www.artic.edu/iiif/2/eaf98472-70cc-0005-c2c9-6109f549f24a/full/843,/0/default.jpg",
+      "museumUrl": "https://www.artic.edu/artworks/16551",
+      "image": "https://www.artic.edu/iiif/2/194674a2-f451-65f7-ba46-6aac4d894f0b/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
-      "id": "artic-14634",
-      "title": "Vétheuil",
-      "artist": "クロード・モネ",
-      "year": 1901,
+      "id": "artic-45240",
+      "title": "The Bathers",
+      "artist": "Paul Cezanne",
+      "year": 1904,
       "century": "20世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/14634",
-      "image": "https://www.artic.edu/iiif/2/d39b1026-7d8d-6e6a-738e-8a136b1a0033/full/843,/0/default.jpg",
+      "museumUrl": "https://www.artic.edu/artworks/45240",
+      "image": "https://www.artic.edu/iiif/2/2e166f7c-a959-d686-eeb0-a63a52a4d368/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -3063,61 +3118,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/111317",
       "image": "https://www.artic.edu/iiif/2/8d119fd0-2f57-f20e-a3f5-a573904001e9/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-18951",
-      "title": "Yellow Dancers (In the Wings)",
-      "artist": "エドガー・ドガ",
-      "year": 1876,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/18951",
-      "image": "https://www.artic.edu/iiif/2/8fe022ba-e358-5cda-aa70-d96edd0b4f20/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-153799",
-      "title": "Woman Bathing Her Feet in a Brook",
-      "artist": "カミーユ・ピサロ",
-      "year": 1895,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/153799",
-      "image": "https://www.artic.edu/iiif/2/5ccaee46-a1a0-5035-821c-0547aa35c070/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-65509",
-      "title": "The Feast in the House of Simon",
-      "artist": "エル・グレコ",
-      "year": 1614,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/65509",
-      "image": "https://www.artic.edu/iiif/2/75886aaa-002a-2047-a05c-baf73f0ac093/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-16551",
-      "title": "Beata Beatrix",
-      "artist": "Dante Gabriel Rossetti",
-      "year": 1872,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/16551",
-      "image": "https://www.artic.edu/iiif/2/194674a2-f451-65f7-ba46-6aac4d894f0b/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-45240",
-      "title": "The Bathers",
-      "artist": "Paul Cezanne",
-      "year": 1904,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/45240",
-      "image": "https://www.artic.edu/iiif/2/2e166f7c-a959-d686-eeb0-a63a52a4d368/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -3418,36 +3418,25 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-16629",
-      "title": "南仏の果物",
-      "artist": "ピエール＝オーギュスト・ルノワール",
-      "year": 1881,
+      "id": "artic-109938",
+      "title": "アオスタの谷：吹雪、雪崩、嵐",
+      "artist": "Joseph Mallord William Turner",
+      "year": 1837,
       "century": "18〜19世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/16629",
-      "image": "https://www.artic.edu/iiif/2/3e005f8a-d37f-871b-15bb-89756f1ed2e9/full/843,/0/default.jpg",
+      "museumUrl": "https://www.artic.edu/artworks/109938",
+      "image": "https://www.artic.edu/iiif/2/564e2e3f-eb93-88a7-d265-8fea006facff/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
-      "id": "artic-81540",
-      "title": "エトルタ、船の出発",
+      "id": "artic-16542",
+      "title": "ヴァランジュヴィルの税関",
       "artist": "クロード・モネ",
-      "year": 1885,
+      "year": 1897,
       "century": "18〜19世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/81540",
-      "image": "https://www.artic.edu/iiif/2/6ca224d1-c3dc-a223-a127-0492301a2ebb/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-16579",
-      "title": "Vétheuil",
-      "artist": "クロード・モネ",
-      "year": 1901,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/16579",
-      "image": "https://www.artic.edu/iiif/2/5a487230-6002-45a7-08c4-b2198a2a2c60/full/843,/0/default.jpg",
+      "museumUrl": "https://www.artic.edu/artworks/16542",
+      "image": "https://www.artic.edu/iiif/2/2b30e687-4526-f487-cedc-448b3188fd19/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -3462,14 +3451,69 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-16542",
-      "title": "ヴァランジュヴィルの税関",
+      "id": "artic-16579",
+      "title": "Vétheuil",
       "artist": "クロード・モネ",
-      "year": 1897,
+      "year": 1901,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/16579",
+      "image": "https://www.artic.edu/iiif/2/5a487230-6002-45a7-08c4-b2198a2a2c60/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-81540",
+      "title": "エトルタ、船の出発",
+      "artist": "クロード・モネ",
+      "year": 1885,
       "century": "18〜19世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/16542",
-      "image": "https://www.artic.edu/iiif/2/2b30e687-4526-f487-cedc-448b3188fd19/full/843,/0/default.jpg",
+      "museumUrl": "https://www.artic.edu/artworks/81540",
+      "image": "https://www.artic.edu/iiif/2/6ca224d1-c3dc-a223-a127-0492301a2ebb/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-81548",
+      "title": "コーヒーを飲む若い農婦",
+      "artist": "カミーユ・ピサロ",
+      "year": 1881,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/81548",
+      "image": "https://www.artic.edu/iiif/2/335a59a4-3f5b-b9db-b8e8-861467d211ef/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-81552",
+      "title": "井戸のそばの女と子",
+      "artist": "カミーユ・ピサロ",
+      "year": 1882,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/81552",
+      "image": "https://www.artic.edu/iiif/2/a2ddbd89-d864-8877-37bc-cd3dce12c37c/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-16629",
+      "title": "南仏の果物",
+      "artist": "ピエール＝オーギュスト・ルノワール",
+      "year": 1881,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/16629",
+      "image": "https://www.artic.edu/iiif/2/3e005f8a-d37f-871b-15bb-89756f1ed2e9/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-153798",
+      "title": "庭の女性",
+      "artist": "ベルト・モリゾ",
+      "year": 1883,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/153798",
+      "image": "https://www.artic.edu/iiif/2/5edb357d-2e8f-8673-d9e8-4b1150af3895/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -3503,50 +3547,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/87515",
       "image": "https://www.artic.edu/iiif/2/5403c6fd-fb8b-c22c-abaa-9c30eb3710f4/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-109938",
-      "title": "アオスタの谷：吹雪、雪崩、嵐",
-      "artist": "Joseph Mallord William Turner",
-      "year": 1837,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/109938",
-      "image": "https://www.artic.edu/iiif/2/564e2e3f-eb93-88a7-d265-8fea006facff/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-81552",
-      "title": "井戸のそばの女と子",
-      "artist": "カミーユ・ピサロ",
-      "year": 1882,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/81552",
-      "image": "https://www.artic.edu/iiif/2/a2ddbd89-d864-8877-37bc-cd3dce12c37c/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-81548",
-      "title": "コーヒーを飲む若い農婦",
-      "artist": "カミーユ・ピサロ",
-      "year": 1881,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/81548",
-      "image": "https://www.artic.edu/iiif/2/335a59a4-3f5b-b9db-b8e8-861467d211ef/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-153798",
-      "title": "庭の女性",
-      "artist": "ベルト・モリゾ",
-      "year": 1883,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/153798",
-      "image": "https://www.artic.edu/iiif/2/5edb357d-2e8f-8673-d9e8-4b1150af3895/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
