@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-27T01:51:30.940Z",
+  "generated": "2026-07-28T01:26:00.067Z",
   "total": 907,
   "sources": {
     "artic": 356,
@@ -118,6 +118,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-68433",
+      "title": "パリ郊外の製材所",
+      "artist": "Henri Rousseau",
+      "year": 1895,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/68433",
+      "image": "https://www.artic.edu/iiif/2/3826e366-e82a-e853-12e4-b303a1618103/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-62808",
       "title": "ニザーミーの「ハムサ」より：庭園のホスローとシーリーン",
       "artist": "Iran",
@@ -140,28 +151,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-68433",
-      "title": "パリ郊外の製材所",
-      "artist": "Henri Rousseau",
-      "year": 1895,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/68433",
-      "image": "https://www.artic.edu/iiif/2/3826e366-e82a-e853-12e4-b303a1618103/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-76890",
-      "title": "天国の庭で踊り子たちに接待される統治者",
-      "artist": "India",
-      "year": 1800,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/76890",
-      "image": "https://www.artic.edu/iiif/2/c1e17623-1a51-8db0-e1d0-3eee0b41b4b2/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-75557",
       "title": "サアディー「全集」の彩飾写本（漆塗り表紙）",
       "artist": "Iran",
@@ -173,14 +162,14 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-84092",
-      "title": "古代ローマ",
-      "artist": "After Giovanni Paolo Panini",
-      "year": 1760,
+      "id": "artic-76890",
+      "title": "天国の庭で踊り子たちに接待される統治者",
+      "artist": "India",
+      "year": 1800,
       "century": "18〜19世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/84092",
-      "image": "https://www.artic.edu/iiif/2/99c8eeea-f07a-af30-c79e-1da4d55243a3/full/843,/0/default.jpg",
+      "museumUrl": "https://www.artic.edu/artworks/76890",
+      "image": "https://www.artic.edu/iiif/2/c1e17623-1a51-8db0-e1d0-3eee0b41b4b2/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -203,6 +192,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/87088",
       "image": "https://www.artic.edu/iiif/2/8534685d-1102-e1e3-e194-94f6e925e8b0/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-84092",
+      "title": "古代ローマ",
+      "artist": "After Giovanni Paolo Panini",
+      "year": 1760,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/84092",
+      "image": "https://www.artic.edu/iiif/2/99c8eeea-f07a-af30-c79e-1da4d55243a3/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -327,17 +327,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-61139",
-      "title": "ウィリアム・ボナムの肖像",
-      "artist": "William Bonnell",
-      "year": 1825,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/61139",
-      "image": "https://www.artic.edu/iiif/2/29ed4a54-868c-a158-f574-cddfdffe809c/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-61146",
       "title": "J・エリス・ボナムの肖像",
       "artist": "William Bonnell",
@@ -357,6 +346,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/61141",
       "image": "https://www.artic.edu/iiif/2/5522b060-d700-cd12-de83-0ebf1161c656/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-61139",
+      "title": "ウィリアム・ボナムの肖像",
+      "artist": "William Bonnell",
+      "year": 1825,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/61139",
+      "image": "https://www.artic.edu/iiif/2/29ed4a54-868c-a158-f574-cddfdffe809c/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -591,6 +591,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-3551",
+      "title": "「グレーと黒のアレンジメント第2番：トーマス・カーライルの肖像」習作",
+      "artist": "ジェームズ・マクニール・ホイッスラー",
+      "year": 1873,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/3551",
+      "image": "https://www.artic.edu/iiif/2/b7637e1b-47d7-123c-fe43-46981a93550e/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-113084",
       "title": "モード・フランクリン嬢の肖像",
       "artist": "ジェームズ・マクニール・ホイッスラー",
@@ -621,17 +632,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/14309",
       "image": "https://www.artic.edu/iiif/2/5888c23a-635f-396a-117b-2223032c0201/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-3551",
-      "title": "「グレーと黒のアレンジメント第2番：トーマス・カーライルの肖像」習作",
-      "artist": "ジェームズ・マクニール・ホイッスラー",
-      "year": 1873,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/3551",
-      "image": "https://www.artic.edu/iiif/2/b7637e1b-47d7-123c-fe43-46981a93550e/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1053,17 +1053,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-80084",
-      "title": "磔刑",
-      "artist": "Francisco de Zurbarán",
-      "year": 1627,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/80084",
-      "image": "https://www.artic.edu/iiif/2/c8ee825f-bc8c-c76b-1f05-5d692d9a6b47/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-100476",
       "title": "カバッソンの海岸（バーニュ・キュル）",
       "artist": "Henri Edmond Cross",
@@ -1072,6 +1061,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/100476",
       "image": "https://www.artic.edu/iiif/2/16e53257-ade2-4f5d-3521-2bc9666bc4cf/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-80084",
+      "title": "磔刑",
+      "artist": "Francisco de Zurbarán",
+      "year": 1627,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/80084",
+      "image": "https://www.artic.edu/iiif/2/c8ee825f-bc8c-c76b-1f05-5d692d9a6b47/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1163,17 +1163,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-14598",
-      "title": "サント＝アドレスの浜辺",
-      "artist": "クロード・モネ",
-      "year": 1867,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/14598",
-      "image": "https://www.artic.edu/iiif/2/95be2572-b53d-8e7b-abc9-10eb48d4fa5d/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-14620",
       "title": "プールヴィルの断崖の散歩道",
       "artist": "クロード・モネ",
@@ -1182,6 +1171,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/14620",
       "image": "https://www.artic.edu/iiif/2/b0effb1c-ff23-bbaa-f809-9fd94e31c1a0/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-14598",
+      "title": "サント＝アドレスの浜辺",
+      "artist": "クロード・モネ",
+      "year": 1867,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/14598",
+      "image": "https://www.artic.edu/iiif/2/95be2572-b53d-8e7b-abc9-10eb48d4fa5d/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1669,17 +1669,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-81533",
-      "title": "ロンシャンの競馬",
-      "artist": "エドゥアール・マネ",
-      "year": 1866,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/81533",
-      "image": "https://www.artic.edu/iiif/2/e9ce5aca-4c34-c8dd-b8a1-91b3e3197211/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-25812",
       "title": "闘牛",
       "artist": "エドゥアール・マネ",
@@ -1713,6 +1702,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-81533",
+      "title": "ロンシャンの競馬",
+      "artist": "エドゥアール・マネ",
+      "year": 1866,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/81533",
+      "image": "https://www.artic.edu/iiif/2/e9ce5aca-4c34-c8dd-b8a1-91b3e3197211/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-4783",
       "title": "ポピー畑（ジヴェルニー）",
       "artist": "クロード・モネ",
@@ -1721,6 +1721,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/4783",
       "image": "https://www.artic.edu/iiif/2/db94c894-a24c-c2e0-9db9-0506567a0152/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-16564",
+      "title": "ジヴェルニー近くのセーヌ川の支流（霧）",
+      "artist": "クロード・モネ",
+      "year": 1897,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/16564",
+      "image": "https://www.artic.edu/iiif/2/838d8c33-a3b4-68ea-587b-87ceec2011af/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1746,14 +1757,14 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-16564",
-      "title": "ジヴェルニー近くのセーヌ川の支流（霧）",
+      "id": "artic-20545",
+      "title": "ベル＝イル島、ポール・グルファールの岩",
       "artist": "クロード・モネ",
-      "year": 1897,
+      "year": 1886,
       "century": "18〜19世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/16564",
-      "image": "https://www.artic.edu/iiif/2/838d8c33-a3b4-68ea-587b-87ceec2011af/full/843,/0/default.jpg",
+      "museumUrl": "https://www.artic.edu/artworks/20545",
+      "image": "https://www.artic.edu/iiif/2/2765aee9-3d78-ec6c-5c66-a1d9dc8173f6/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1776,17 +1787,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/81539",
       "image": "https://www.artic.edu/iiif/2/66f95ea3-a11a-1cf4-6599-d0a49bb25744/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-20545",
-      "title": "ベル＝イル島、ポール・グルファールの岩",
-      "artist": "クロード・モネ",
-      "year": 1886,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/20545",
-      "image": "https://www.artic.edu/iiif/2/2765aee9-3d78-ec6c-5c66-a1d9dc8173f6/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2153,6 +2153,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-16544",
+      "title": "チャリング・クロス橋、ロンドン",
+      "artist": "クロード・モネ",
+      "year": 1901,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/16544",
+      "image": "https://www.artic.edu/iiif/2/e9179922-f68d-34c5-481d-abf49e046863/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-44892",
       "title": "魚（静物）",
       "artist": "エドゥアール・マネ",
@@ -2219,28 +2230,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-16544",
-      "title": "チャリング・クロス橋、ロンドン",
-      "artist": "クロード・モネ",
-      "year": 1901,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/16544",
-      "image": "https://www.artic.edu/iiif/2/e9179922-f68d-34c5-481d-abf49e046863/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-20701",
-      "title": "ウォータールー橋、陽光の効果",
-      "artist": "クロード・モネ",
-      "year": 1903,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/20701",
-      "image": "https://www.artic.edu/iiif/2/827d02ef-6765-9728-c07e-52ad22b73fd3/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-20535",
       "title": "エトルタ：ビーチとファレーズ・ダモン",
       "artist": "クロード・モネ",
@@ -2260,6 +2249,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/81545",
       "image": "https://www.artic.edu/iiif/2/be0d3e50-a600-6f33-ea8f-16a34d892442/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-20701",
+      "title": "ウォータールー橋、陽光の効果",
+      "artist": "クロード・モネ",
+      "year": 1903,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/20701",
+      "image": "https://www.artic.edu/iiif/2/827d02ef-6765-9728-c07e-52ad22b73fd3/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
