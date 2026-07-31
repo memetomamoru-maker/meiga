@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-30T01:19:55.627Z",
+  "generated": "2026-07-31T01:46:20.118Z",
   "total": 907,
   "sources": {
     "artic": 356,
@@ -118,17 +118,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-68433",
-      "title": "パリ郊外の製材所",
-      "artist": "Henri Rousseau",
-      "year": 1895,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/68433",
-      "image": "https://www.artic.edu/iiif/2/3826e366-e82a-e853-12e4-b303a1618103/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-62808",
       "title": "ニザーミーの「ハムサ」より：庭園のホスローとシーリーン",
       "artist": "Iran",
@@ -173,17 +162,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-84092",
-      "title": "古代ローマ",
-      "artist": "After Giovanni Paolo Panini",
-      "year": 1760,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/84092",
-      "image": "https://www.artic.edu/iiif/2/99c8eeea-f07a-af30-c79e-1da4d55243a3/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-83613",
       "title": "「イル・マスケローネ」、ボルゲーゼ荘の噴水",
       "artist": "Richard Wilson",
@@ -206,6 +184,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-84092",
+      "title": "古代ローマ",
+      "artist": "After Giovanni Paolo Panini",
+      "year": 1760,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/84092",
+      "image": "https://www.artic.edu/iiif/2/99c8eeea-f07a-af30-c79e-1da4d55243a3/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-95654",
       "title": "湖のほとり",
       "artist": "ピエール＝オーギュスト・ルノワール",
@@ -214,6 +203,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/95654",
       "image": "https://www.artic.edu/iiif/2/26e1c560-acca-3148-46dc-c144ac22bd3e/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-68433",
+      "title": "パリ郊外の製材所",
+      "artist": "Henri Rousseau",
+      "year": 1895,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/68433",
+      "image": "https://www.artic.edu/iiif/2/3826e366-e82a-e853-12e4-b303a1618103/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2120,6 +2120,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-110673",
+      "title": "悲しみの聖母",
+      "artist": "Workshop of Dieric Bouts",
+      "year": 1500,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/110673",
+      "image": "https://www.artic.edu/iiif/2/66c1797f-b87e-8736-cdf6-c490bd34863b/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-65925",
       "title": "ニューイングランドの終わり——ニューメキシコの始まり",
       "artist": "Marsden Hartley",
@@ -2139,17 +2150,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/65930",
       "image": "https://www.artic.edu/iiif/2/2a328b12-cb68-19e8-3843-b2160f007813/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-110673",
-      "title": "悲しみの聖母",
-      "artist": "Workshop of Dieric Bouts",
-      "year": 1500,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/110673",
-      "image": "https://www.artic.edu/iiif/2/66c1797f-b87e-8736-cdf6-c490bd34863b/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
