@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-03T01:46:36.733Z",
+  "generated": "2026-08-04T01:22:12.113Z",
   "total": 907,
   "sources": {
     "artic": 356,
@@ -140,17 +140,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-76890",
-      "title": "天国の庭で踊り子たちに接待される統治者",
-      "artist": "India",
-      "year": 1800,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/76890",
-      "image": "https://www.artic.edu/iiif/2/c1e17623-1a51-8db0-e1d0-3eee0b41b4b2/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-75557",
       "title": "サアディー「全集」の彩飾写本（漆塗り表紙）",
       "artist": "Iran",
@@ -159,6 +148,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/75557",
       "image": "https://www.artic.edu/iiif/2/6d216d21-f35a-770a-071c-e0304f23b84f/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-76890",
+      "title": "天国の庭で踊り子たちに接待される統治者",
+      "artist": "India",
+      "year": 1800,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/76890",
+      "image": "https://www.artic.edu/iiif/2/c1e17623-1a51-8db0-e1d0-3eee0b41b4b2/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2153,6 +2153,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-95183",
+      "title": "ダッフルコートの乞食（哲学者）",
+      "artist": "エドゥアール・マネ",
+      "year": 1867,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/95183",
+      "image": "https://www.artic.edu/iiif/2/1a087ef7-8455-e5d0-0b2b-9738cd33058c/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-44892",
       "title": "魚（静物）",
       "artist": "エドゥアール・マネ",
@@ -2194,17 +2205,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/146701",
       "image": "https://www.artic.edu/iiif/2/d55b0cfc-0716-d6cd-3b38-5742903ce046/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-95183",
-      "title": "ダッフルコートの乞食（哲学者）",
-      "artist": "エドゥアール・マネ",
-      "year": 1867,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/95183",
-      "image": "https://www.artic.edu/iiif/2/1a087ef7-8455-e5d0-0b2b-9738cd33058c/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2670,17 +2670,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-100342",
-      "title": "Saint Francis",
-      "artist": "ピーテル・パウル・ルーベンス",
-      "year": 1620,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/100342",
-      "image": "https://www.artic.edu/iiif/2/fa4dd0f2-382c-076c-ff20-c59a2774400c/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-27310",
       "title": "エリザベスと洗礼者ヨハネを伴う聖家族",
       "artist": "ピーテル・パウル・ルーベンス",
@@ -2689,6 +2678,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/27310",
       "image": "https://www.artic.edu/iiif/2/caac7478-b78f-a94d-a36c-fc5dde17e7c9/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-100342",
+      "title": "Saint Francis",
+      "artist": "ピーテル・パウル・ルーベンス",
+      "year": 1620,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/100342",
+      "image": "https://www.artic.edu/iiif/2/fa4dd0f2-382c-076c-ff20-c59a2774400c/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
