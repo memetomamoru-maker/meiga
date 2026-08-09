@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-08T00:46:52.116Z",
+  "generated": "2026-08-09T00:51:27.376Z",
   "total": 907,
   "sources": {
     "artic": 356,
@@ -1053,6 +1053,28 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-80084",
+      "title": "磔刑",
+      "artist": "Francisco de Zurbarán",
+      "year": 1627,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/80084",
+      "image": "https://www.artic.edu/iiif/2/c8ee825f-bc8c-c76b-1f05-5d692d9a6b47/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-100476",
+      "title": "カバッソンの海岸（バーニュ・キュル）",
+      "artist": "Henri Edmond Cross",
+      "year": 1892,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/100476",
+      "image": "https://www.artic.edu/iiif/2/16e53257-ade2-4f5d-3521-2bc9666bc4cf/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-883",
       "title": "傷ついた雌ライオン",
       "artist": "Pierre Andrieu",
@@ -1105,28 +1127,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/876",
       "image": "https://www.artic.edu/iiif/2/3ef69544-a84c-dfa4-df6a-346b4b59c351/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-80084",
-      "title": "磔刑",
-      "artist": "Francisco de Zurbarán",
-      "year": 1627,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/80084",
-      "image": "https://www.artic.edu/iiif/2/c8ee825f-bc8c-c76b-1f05-5d692d9a6b47/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-100476",
-      "title": "カバッソンの海岸（バーニュ・キュル）",
-      "artist": "Henri Edmond Cross",
-      "year": 1892,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/100476",
-      "image": "https://www.artic.edu/iiif/2/16e53257-ade2-4f5d-3521-2bc9666bc4cf/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2120,6 +2120,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-110673",
+      "title": "悲しみの聖母",
+      "artist": "Workshop of Dieric Bouts",
+      "year": 1500,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/110673",
+      "image": "https://www.artic.edu/iiif/2/66c1797f-b87e-8736-cdf6-c490bd34863b/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-65925",
       "title": "ニューイングランドの終わり——ニューメキシコの始まり",
       "artist": "Marsden Hartley",
@@ -2142,14 +2153,14 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-110673",
-      "title": "悲しみの聖母",
-      "artist": "Workshop of Dieric Bouts",
-      "year": 1500,
-      "century": "〜17世紀",
+      "id": "artic-44892",
+      "title": "魚（静物）",
+      "artist": "エドゥアール・マネ",
+      "year": 1864,
+      "century": "18〜19世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/110673",
-      "image": "https://www.artic.edu/iiif/2/66c1797f-b87e-8736-cdf6-c490bd34863b/full/843,/0/default.jpg",
+      "museumUrl": "https://www.artic.edu/artworks/44892",
+      "image": "https://www.artic.edu/iiif/2/0cbe27e8-2fec-3445-bc48-ce40a8f2dc25/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2194,17 +2205,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/877",
       "image": "https://www.artic.edu/iiif/2/1501b057-0441-f1fa-e949-298b06ec6270/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-44892",
-      "title": "魚（静物）",
-      "artist": "エドゥアール・マネ",
-      "year": 1864,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/44892",
-      "image": "https://www.artic.edu/iiif/2/0cbe27e8-2fec-3445-bc48-ce40a8f2dc25/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
