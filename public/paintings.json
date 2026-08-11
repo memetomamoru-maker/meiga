@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-10T00:53:00.647Z",
+  "generated": "2026-08-11T00:52:35.855Z",
   "total": 907,
   "sources": {
     "artic": 356,
@@ -16,6 +16,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/9637",
       "image": "https://www.artic.edu/iiif/2/462c6fe2-40a4-ed8d-772c-4fb9ae78265f/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-26720",
+      "title": "グロッタ・ディ・パラッツォの宴会",
+      "artist": "Louis Jean Desprez",
+      "year": 1795,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/26720",
+      "image": "https://www.artic.edu/iiif/2/5bbc0c4b-ace9-38ef-460f-4a9efedad60a/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -39,17 +50,6 @@
       "museumUrl": "https://www.artic.edu/artworks/16568",
       "image": "https://www.artic.edu/iiif/2/3c27b499-af56-f0d5-93b5-a7f2f1ad5813/full/843,/0/default.jpg",
       "wikiUrl": "https://ja.wikipedia.org/wiki/睡蓮_(モネ)"
-    },
-    {
-      "id": "artic-26720",
-      "title": "グロッタ・ディ・パラッツォの宴会",
-      "artist": "Louis Jean Desprez",
-      "year": 1795,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/26720",
-      "image": "https://www.artic.edu/iiif/2/5bbc0c4b-ace9-38ef-460f-4a9efedad60a/full/843,/0/default.jpg",
-      "wikiUrl": null
     },
     {
       "id": "artic-14664",
@@ -118,6 +118,28 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-84092",
+      "title": "古代ローマ",
+      "artist": "After Giovanni Paolo Panini",
+      "year": 1760,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/84092",
+      "image": "https://www.artic.edu/iiif/2/99c8eeea-f07a-af30-c79e-1da4d55243a3/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-83613",
+      "title": "「イル・マスケローネ」、ボルゲーゼ荘の噴水",
+      "artist": "Richard Wilson",
+      "year": 1759,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/83613",
+      "image": "https://www.artic.edu/iiif/2/2efb0b9d-04a4-390e-752b-fdb9602e017f/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-62808",
       "title": "ニザーミーの「ハムサ」より：庭園のホスローとシーリーン",
       "artist": "Iran",
@@ -159,28 +181,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/76890",
       "image": "https://www.artic.edu/iiif/2/c1e17623-1a51-8db0-e1d0-3eee0b41b4b2/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-84092",
-      "title": "古代ローマ",
-      "artist": "After Giovanni Paolo Panini",
-      "year": 1760,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/84092",
-      "image": "https://www.artic.edu/iiif/2/99c8eeea-f07a-af30-c79e-1da4d55243a3/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-83613",
-      "title": "「イル・マスケローネ」、ボルゲーゼ荘の噴水",
-      "artist": "Richard Wilson",
-      "year": 1759,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/83613",
-      "image": "https://www.artic.edu/iiif/2/2efb0b9d-04a4-390e-752b-fdb9602e017f/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -272,6 +272,28 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-74967",
+      "title": "星を集める運命の女神たち",
+      "artist": "Elihu Vedder",
+      "year": 1887,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/74967",
+      "image": "https://www.artic.edu/iiif/2/94105fa4-8d1c-cbbd-bd02-80d77e8f0a84/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-72801",
+      "title": "氷に閉ざされて",
+      "artist": "John Henry Twachtman",
+      "year": 1889,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/72801",
+      "image": "https://www.artic.edu/iiif/2/3ae75415-0551-ae17-c478-3b8687a6f246/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-879",
       "title": "風景（水門）",
       "artist": "Attributed to John Constable",
@@ -302,17 +324,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/15468",
       "image": "https://www.artic.edu/iiif/2/8a0e4ac9-43ea-bc3e-884b-ee27f8a10501/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-72801",
-      "title": "氷に閉ざされて",
-      "artist": "John Henry Twachtman",
-      "year": 1889,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/72801",
-      "image": "https://www.artic.edu/iiif/2/3ae75415-0551-ae17-c478-3b8687a6f246/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -360,17 +371,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-74967",
-      "title": "星を集める運命の女神たち",
-      "artist": "Elihu Vedder",
-      "year": 1887,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/74967",
-      "image": "https://www.artic.edu/iiif/2/94105fa4-8d1c-cbbd-bd02-80d77e8f0a84/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-111377",
       "title": "日曜日の夕食のために",
       "artist": "William Michael Harnett",
@@ -401,6 +401,28 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/180545",
       "image": "https://www.artic.edu/iiif/2/70b5f843-8885-d0f7-f167-e992cf36bac1/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-561",
+      "title": "家族の演奏会",
+      "artist": "ヤン・ステーン",
+      "year": 1666,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/561",
+      "image": "https://www.artic.edu/iiif/2/7f1ea423-7538-3bc7-3d4a-0766522ab62f/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-512",
+      "title": "音楽の稽古",
+      "artist": "Gerard ter Borch the Younger",
+      "year": 1675,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/512",
+      "image": "https://www.artic.edu/iiif/2/d55ad474-aa3c-6881-b10d-06a9ac6e05b7/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -467,28 +489,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/217536",
       "image": "https://www.artic.edu/iiif/2/8b73e4fa-c454-3744-3c11-81ada02ac978/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-561",
-      "title": "家族の演奏会",
-      "artist": "ヤン・ステーン",
-      "year": 1666,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/561",
-      "image": "https://www.artic.edu/iiif/2/7f1ea423-7538-3bc7-3d4a-0766522ab62f/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-512",
-      "title": "音楽の稽古",
-      "artist": "Gerard ter Borch the Younger",
-      "year": 1675,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/512",
-      "image": "https://www.artic.edu/iiif/2/d55ad474-aa3c-6881-b10d-06a9ac6e05b7/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -921,17 +921,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-64489",
-      "title": "黒衣の若い女性",
-      "artist": "Robert Henri",
-      "year": 1902,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/64489",
-      "image": "https://www.artic.edu/iiif/2/3edec075-6e0b-0ccc-0036-5328de3e064c/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-109228",
       "title": "ニューポート近郊",
       "artist": "John Frederick Kensett",
@@ -940,6 +929,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/109228",
       "image": "https://www.artic.edu/iiif/2/50f98ea2-ea74-d991-b2fc-ddbc616283bd/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-64489",
+      "title": "黒衣の若い女性",
+      "artist": "Robert Henri",
+      "year": 1902,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/64489",
+      "image": "https://www.artic.edu/iiif/2/3edec075-6e0b-0ccc-0036-5328de3e064c/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1050,6 +1050,50 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/152437",
       "image": "https://www.artic.edu/iiif/2/efef304d-190c-294f-1cba-73374b3361a3/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-869",
+      "title": "赤い大屋根の水車小屋",
+      "artist": "Meindert Hobbema",
+      "year": 1670,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/869",
+      "image": "https://www.artic.edu/iiif/2/237c25a2-6051-a8e7-1610-a01938d4deab/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-69780",
+      "title": "イタリア、フラスカーティのヴィラ・トルロニアの噴水",
+      "artist": "ジョン・シンガー・サージェント",
+      "year": 1907,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/69780",
+      "image": "https://www.artic.edu/iiif/2/3f9aa9db-61e1-7060-fdb0-bfd7e41ddd08/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-109780",
+      "title": "冬の愛",
+      "artist": "George Wesley Bellows",
+      "year": 1914,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/109780",
+      "image": "https://www.artic.edu/iiif/2/18ab0c35-e35c-0216-9afd-f93357920db1/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-64476",
+      "title": "冬の太陽",
+      "artist": "George Gardner Symons",
+      "year": 1909,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/64476",
+      "image": "https://www.artic.edu/iiif/2/d1cda60c-c21d-9fbc-8195-4e7c3d6e9650/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1350,17 +1394,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-869",
-      "title": "赤い大屋根の水車小屋",
-      "artist": "Meindert Hobbema",
-      "year": 1670,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/869",
-      "image": "https://www.artic.edu/iiif/2/237c25a2-6051-a8e7-1610-a01938d4deab/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-863",
       "title": "廃墟のある田園風景",
       "artist": "Adriaen van de Velde",
@@ -1372,17 +1405,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-109780",
-      "title": "冬の愛",
-      "artist": "George Wesley Bellows",
-      "year": 1914,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/109780",
-      "image": "https://www.artic.edu/iiif/2/18ab0c35-e35c-0216-9afd-f93357920db1/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-191183",
       "title": "Madame Paul Escudier (Louise Lefevre)",
       "artist": "ジョン・シンガー・サージェント",
@@ -1391,17 +1413,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/191183",
       "image": "https://www.artic.edu/iiif/2/c6da9f8c-643b-f331-0f8f-a9b6a844caf6/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-69780",
-      "title": "イタリア、フラスカーティのヴィラ・トルロニアの噴水",
-      "artist": "ジョン・シンガー・サージェント",
-      "year": 1907,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/69780",
-      "image": "https://www.artic.edu/iiif/2/3f9aa9db-61e1-7060-fdb0-bfd7e41ddd08/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1479,17 +1490,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/60294",
       "image": "https://www.artic.edu/iiif/2/8ed7e389-dbe7-ed35-ade2-fe7743943479/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-64476",
-      "title": "冬の太陽",
-      "artist": "George Gardner Symons",
-      "year": 1909,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/64476",
-      "image": "https://www.artic.edu/iiif/2/d1cda60c-c21d-9fbc-8195-4e7c3d6e9650/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2153,6 +2153,50 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-117700",
+      "title": "On the Bank",
+      "artist": "Frederick Carl Frieseke",
+      "year": 1915,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/117700",
+      "image": "https://www.artic.edu/iiif/2/be266c25-27f7-38fd-69fa-8efd1b985af2/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-497",
+      "title": "子に授乳する母（幸せな母）",
+      "artist": "Willem van Mieris",
+      "year": 1707,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/497",
+      "image": "https://www.artic.edu/iiif/2/a9a3e2fa-f7a4-2713-00ed-909062cb48d7/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-15401",
+      "title": "ムカン亭にて",
+      "artist": "William Glackens",
+      "year": 1905,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/15401",
+      "image": "https://www.artic.edu/iiif/2/b146368d-a855-63ac-6115-04b835c60bb0/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-71573",
+      "title": "休日",
+      "artist": "Edward Henry Potthast",
+      "year": 1915,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/71573",
+      "image": "https://www.artic.edu/iiif/2/a67c4473-57a4-9807-a94e-1136d3daf876/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-44892",
       "title": "魚（静物）",
       "artist": "エドゥアール・マネ",
@@ -2527,17 +2571,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-15401",
-      "title": "ムカン亭にて",
-      "artist": "William Glackens",
-      "year": 1905,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/15401",
-      "image": "https://www.artic.edu/iiif/2/b146368d-a855-63ac-6115-04b835c60bb0/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-4749",
       "title": "ジョージ・スウィントン夫人（エリザベス・エブズワース）",
       "artist": "ジョン・シンガー・サージェント",
@@ -2604,17 +2637,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-71573",
-      "title": "休日",
-      "artist": "Edward Henry Potthast",
-      "year": 1915,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/71573",
-      "image": "https://www.artic.edu/iiif/2/a67c4473-57a4-9807-a94e-1136d3daf876/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-111617",
       "title": "綿畑の小屋",
       "artist": "Horace Pippin",
@@ -2626,17 +2648,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-117700",
-      "title": "On the Bank",
-      "artist": "Frederick Carl Frieseke",
-      "year": 1915,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/117700",
-      "image": "https://www.artic.edu/iiif/2/be266c25-27f7-38fd-69fa-8efd1b985af2/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-146701",
       "title": "山の小川",
       "artist": "アルバート・ビアスタット",
@@ -2645,17 +2656,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/146701",
       "image": "https://www.artic.edu/iiif/2/d55b0cfc-0716-d6cd-3b38-5742903ce046/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-497",
-      "title": "子に授乳する母（幸せな母）",
-      "artist": "Willem van Mieris",
-      "year": 1707,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/497",
-      "image": "https://www.artic.edu/iiif/2/a9a3e2fa-f7a4-2713-00ed-909062cb48d7/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2931,6 +2931,28 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/26650",
       "image": "https://www.artic.edu/iiif/2/f0150d21-33ab-f6ea-0d4d-32d459f091fe/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-97910",
+      "title": "The Advance-Guard, or The Military Sacrifice (The Ambush)",
+      "artist": "Frederic Remington",
+      "year": 1890,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/97910",
+      "image": "https://www.artic.edu/iiif/2/f1e03813-f9c7-f4f8-fbe8-a5eeae84fda4/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-44018",
+      "title": "Croquet Scene",
+      "artist": "ウィンスロー・ホーマー",
+      "year": 1866,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/44018",
+      "image": "https://www.artic.edu/iiif/2/f7b2db45-f393-653c-07ef-84319b0cdb92/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -3330,17 +3352,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-44018",
-      "title": "Croquet Scene",
-      "artist": "ウィンスロー・ホーマー",
-      "year": 1866,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/44018",
-      "image": "https://www.artic.edu/iiif/2/f7b2db45-f393-653c-07ef-84319b0cdb92/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-5349",
       "title": "ニューイングランドの岬",
       "artist": "Childe Hassam",
@@ -3371,17 +3382,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/68792",
       "image": "https://www.artic.edu/iiif/2/3d2d0842-312e-8d48-708b-d6adde0777bf/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-97910",
-      "title": "The Advance-Guard, or The Military Sacrifice (The Ambush)",
-      "artist": "Frederic Remington",
-      "year": 1890,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/97910",
-      "image": "https://www.artic.edu/iiif/2/f1e03813-f9c7-f4f8-fbe8-a5eeae84fda4/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -5068,6 +5068,17 @@
       "wikiUrl": null
     },
     {
+      "id": "cma-121261",
+      "title": "ヴァイオリン奏者",
+      "artist": "ジェームズ・マクニール・ホイッスラー",
+      "year": 1885,
+      "century": "18〜19世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/1942.1133",
+      "image": "https://openaccess-cdn.clevelandart.org/1942.1133/1942.1133_web.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "cma-115050",
       "title": "嵐の雲",
       "artist": "John Henry Twachtman",
@@ -5288,6 +5299,17 @@
       "wikiUrl": null
     },
     {
+      "id": "cma-173316",
+      "title": "Eddyville",
+      "artist": "Samuel Halpert",
+      "year": 1917,
+      "century": "20世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/1925.1408",
+      "image": "https://openaccess-cdn.clevelandart.org/1925.1408/1925.1408_web.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "cma-148215",
       "title": "Landscape with Haywain",
       "artist": "Worthington Whittredge",
@@ -5351,17 +5373,6 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/1920.3919",
       "image": "https://openaccess-cdn.clevelandart.org/1920.3919/1920.3919_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-121261",
-      "title": "ヴァイオリン奏者",
-      "artist": "ジェームズ・マクニール・ホイッスラー",
-      "year": 1885,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1942.1133",
-      "image": "https://openaccess-cdn.clevelandart.org/1942.1133/1942.1133_web.jpg",
       "wikiUrl": null
     },
     {
@@ -5846,17 +5857,6 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/1915.694",
       "image": "https://openaccess-cdn.clevelandart.org/1915.694/1915.694_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-173316",
-      "title": "Eddyville",
-      "artist": "Samuel Halpert",
-      "year": 1917,
-      "century": "20世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1925.1408",
-      "image": "https://openaccess-cdn.clevelandart.org/1925.1408/1925.1408_web.jpg",
       "wikiUrl": null
     },
     {
