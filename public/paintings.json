@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-11T00:52:35.855Z",
+  "generated": "2026-08-12T00:59:18.348Z",
   "total": 907,
   "sources": {
     "artic": 356,
@@ -7,28 +7,6 @@
     "cma": 525
   },
   "paintings": [
-    {
-      "id": "artic-9637",
-      "title": "イタリアの別荘と庭園（バチカンのベルヴェデーレ）",
-      "artist": "Jean Jacques de Boissieu",
-      "year": 1799,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/9637",
-      "image": "https://www.artic.edu/iiif/2/462c6fe2-40a4-ed8d-772c-4fb9ae78265f/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-26720",
-      "title": "グロッタ・ディ・パラッツォの宴会",
-      "artist": "Louis Jean Desprez",
-      "year": 1795,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/26720",
-      "image": "https://www.artic.edu/iiif/2/5bbc0c4b-ace9-38ef-460f-4a9efedad60a/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
     {
       "id": "artic-14630",
       "title": "ヴェネツィア、パラッツォ・ダリオ",
@@ -50,6 +28,28 @@
       "museumUrl": "https://www.artic.edu/artworks/16568",
       "image": "https://www.artic.edu/iiif/2/3c27b499-af56-f0d5-93b5-a7f2f1ad5813/full/843,/0/default.jpg",
       "wikiUrl": "https://ja.wikipedia.org/wiki/睡蓮_(モネ)"
+    },
+    {
+      "id": "artic-9637",
+      "title": "イタリアの別荘と庭園（バチカンのベルヴェデーレ）",
+      "artist": "Jean Jacques de Boissieu",
+      "year": 1799,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/9637",
+      "image": "https://www.artic.edu/iiif/2/462c6fe2-40a4-ed8d-772c-4fb9ae78265f/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-26720",
+      "title": "グロッタ・ディ・パラッツォの宴会",
+      "artist": "Louis Jean Desprez",
+      "year": 1795,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/26720",
+      "image": "https://www.artic.edu/iiif/2/5bbc0c4b-ace9-38ef-460f-4a9efedad60a/full/843,/0/default.jpg",
+      "wikiUrl": null
     },
     {
       "id": "artic-14664",
@@ -118,25 +118,25 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-84092",
-      "title": "古代ローマ",
-      "artist": "After Giovanni Paolo Panini",
-      "year": 1760,
+      "id": "artic-87088",
+      "title": "睡蓮の池",
+      "artist": "クロード・モネ",
+      "year": 1900,
       "century": "18〜19世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/84092",
-      "image": "https://www.artic.edu/iiif/2/99c8eeea-f07a-af30-c79e-1da4d55243a3/full/843,/0/default.jpg",
+      "museumUrl": "https://www.artic.edu/artworks/87088",
+      "image": "https://www.artic.edu/iiif/2/8534685d-1102-e1e3-e194-94f6e925e8b0/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
-      "id": "artic-83613",
-      "title": "「イル・マスケローネ」、ボルゲーゼ荘の噴水",
-      "artist": "Richard Wilson",
-      "year": 1759,
-      "century": "18〜19世紀",
+      "id": "artic-75557",
+      "title": "サアディー「全集」の彩飾写本（漆塗り表紙）",
+      "artist": "Iran",
+      "year": 1700,
+      "century": "〜17世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/83613",
-      "image": "https://www.artic.edu/iiif/2/2efb0b9d-04a4-390e-752b-fdb9602e017f/full/843,/0/default.jpg",
+      "museumUrl": "https://www.artic.edu/artworks/75557",
+      "image": "https://www.artic.edu/iiif/2/6d216d21-f35a-770a-071c-e0304f23b84f/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -162,17 +162,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-75557",
-      "title": "サアディー「全集」の彩飾写本（漆塗り表紙）",
-      "artist": "Iran",
-      "year": 1700,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/75557",
-      "image": "https://www.artic.edu/iiif/2/6d216d21-f35a-770a-071c-e0304f23b84f/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-76890",
       "title": "天国の庭で踊り子たちに接待される統治者",
       "artist": "India",
@@ -184,17 +173,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-87088",
-      "title": "睡蓮の池",
-      "artist": "クロード・モネ",
-      "year": 1900,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/87088",
-      "image": "https://www.artic.edu/iiif/2/8534685d-1102-e1e3-e194-94f6e925e8b0/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-95654",
       "title": "湖のほとり",
       "artist": "ピエール＝オーギュスト・ルノワール",
@@ -203,6 +181,28 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/95654",
       "image": "https://www.artic.edu/iiif/2/26e1c560-acca-3148-46dc-c144ac22bd3e/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-84092",
+      "title": "古代ローマ",
+      "artist": "After Giovanni Paolo Panini",
+      "year": 1760,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/84092",
+      "image": "https://www.artic.edu/iiif/2/99c8eeea-f07a-af30-c79e-1da4d55243a3/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-83613",
+      "title": "「イル・マスケローネ」、ボルゲーゼ荘の噴水",
+      "artist": "Richard Wilson",
+      "year": 1759,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/83613",
+      "image": "https://www.artic.edu/iiif/2/2efb0b9d-04a4-390e-752b-fdb9602e017f/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -228,6 +228,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-131827",
+      "title": "ハーフィズの詩集",
+      "artist": "Iran",
+      "year": 1550,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/131827",
+      "image": "https://www.artic.edu/iiif/2/5744228e-f41d-f2ae-b67c-94ec7959766c/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-130724",
       "title": "サアディー「全集」写本の一頁",
       "artist": "Iran",
@@ -247,17 +258,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/130725",
       "image": "https://www.artic.edu/iiif/2/fa298f62-bdfe-67b4-e473-65ad9f656dc1/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-131827",
-      "title": "ハーフィズの詩集",
-      "artist": "Iran",
-      "year": 1550,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/131827",
-      "image": "https://www.artic.edu/iiif/2/5744228e-f41d-f2ae-b67c-94ec7959766c/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -921,6 +921,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-107939",
+      "title": "ノア・スミス夫人と家族",
+      "artist": "Attributed to Ezra Ames",
+      "year": 1830,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/107939",
+      "image": "https://www.artic.edu/iiif/2/68415b1d-baec-303a-1c09-4c6b7ccb575c/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-109228",
       "title": "ニューポート近郊",
       "artist": "John Frederick Kensett",
@@ -940,17 +951,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/64489",
       "image": "https://www.artic.edu/iiif/2/3edec075-6e0b-0ccc-0036-5328de3e064c/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-107939",
-      "title": "ノア・スミス夫人と家族",
-      "artist": "Attributed to Ezra Ames",
-      "year": 1830,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/107939",
-      "image": "https://www.artic.edu/iiif/2/68415b1d-baec-303a-1c09-4c6b7ccb575c/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1053,6 +1053,39 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-9",
+      "title": "ヴェネツィア、サン・マルコ寺院の内部",
+      "artist": "David Dalhoff Neal",
+      "year": 1869,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/9",
+      "image": "https://www.artic.edu/iiif/2/b55d836c-ee20-59f8-1f0c-a95e09905361/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-80084",
+      "title": "磔刑",
+      "artist": "Francisco de Zurbarán",
+      "year": 1627,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/80084",
+      "image": "https://www.artic.edu/iiif/2/c8ee825f-bc8c-c76b-1f05-5d692d9a6b47/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-100476",
+      "title": "カバッソンの海岸（バーニュ・キュル）",
+      "artist": "Henri Edmond Cross",
+      "year": 1892,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/100476",
+      "image": "https://www.artic.edu/iiif/2/16e53257-ade2-4f5d-3521-2bc9666bc4cf/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-869",
       "title": "赤い大屋根の水車小屋",
       "artist": "Meindert Hobbema",
@@ -1094,28 +1127,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/64476",
       "image": "https://www.artic.edu/iiif/2/d1cda60c-c21d-9fbc-8195-4e7c3d6e9650/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-80084",
-      "title": "磔刑",
-      "artist": "Francisco de Zurbarán",
-      "year": 1627,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/80084",
-      "image": "https://www.artic.edu/iiif/2/c8ee825f-bc8c-c76b-1f05-5d692d9a6b47/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-100476",
-      "title": "カバッソンの海岸（バーニュ・キュル）",
-      "artist": "Henri Edmond Cross",
-      "year": 1892,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/100476",
-      "image": "https://www.artic.edu/iiif/2/16e53257-ade2-4f5d-3521-2bc9666bc4cf/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1460,17 +1471,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-9",
-      "title": "ヴェネツィア、サン・マルコ寺院の内部",
-      "artist": "David Dalhoff Neal",
-      "year": 1869,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/9",
-      "image": "https://www.artic.edu/iiif/2/b55d836c-ee20-59f8-1f0c-a95e09905361/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-2156",
       "title": "往時の光",
       "artist": "John Frederick Peto",
@@ -1578,6 +1578,28 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/47578",
       "image": "https://www.artic.edu/iiif/2/955a3bb2-0e15-4f03-5ed1-1914b5fc9c26/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-39560",
+      "title": "The Bathers",
+      "artist": "William Adolphe Bouguereau",
+      "year": 1884,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/39560",
+      "image": "https://www.artic.edu/iiif/2/31f0a9a3-8a0d-44ed-6de8-66142b75c4c0/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-79349",
+      "title": "The Drinkers",
+      "artist": "フィンセント・ファン・ゴッホ",
+      "year": 1890,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/79349",
+      "image": "https://www.artic.edu/iiif/2/d0ff5b36-bb38-b156-6042-5c8545352c2f/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1867,17 +1889,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-39560",
-      "title": "The Bathers",
-      "artist": "William Adolphe Bouguereau",
-      "year": 1884,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/39560",
-      "image": "https://www.artic.edu/iiif/2/31f0a9a3-8a0d-44ed-6de8-66142b75c4c0/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-20579",
       "title": "ヘラクレスとレルネーのヒュドラ",
       "artist": "Gustave Moreau",
@@ -2065,17 +2076,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-79349",
-      "title": "The Drinkers",
-      "artist": "フィンセント・ファン・ゴッホ",
-      "year": 1890,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/79349",
-      "image": "https://www.artic.edu/iiif/2/d0ff5b36-bb38-b156-6042-5c8545352c2f/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-138",
       "title": "オランダの花売り娘",
       "artist": "George Hitchcock",
@@ -2153,6 +2153,28 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-24684",
+      "title": "フランチェスコ・デ・メディチ",
+      "artist": "Attributed to Alessandro Allori",
+      "year": 1565,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/24684",
+      "image": "https://www.artic.edu/iiif/2/9a29cc5d-3779-c9ab-2aa2-0df7b6c3f391/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-44892",
+      "title": "魚（静物）",
+      "artist": "エドゥアール・マネ",
+      "year": 1864,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/44892",
+      "image": "https://www.artic.edu/iiif/2/0cbe27e8-2fec-3445-bc48-ce40a8f2dc25/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-117700",
       "title": "On the Bank",
       "artist": "Frederick Carl Frieseke",
@@ -2194,17 +2216,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/71573",
       "image": "https://www.artic.edu/iiif/2/a67c4473-57a4-9807-a94e-1136d3daf876/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-44892",
-      "title": "魚（静物）",
-      "artist": "エドゥアール・マネ",
-      "year": 1864,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/44892",
-      "image": "https://www.artic.edu/iiif/2/0cbe27e8-2fec-3445-bc48-ce40a8f2dc25/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2659,14 +2670,14 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-24684",
-      "title": "フランチェスコ・デ・メディチ",
-      "artist": "Attributed to Alessandro Allori",
-      "year": 1565,
+      "id": "artic-27310",
+      "title": "エリザベスと洗礼者ヨハネを伴う聖家族",
+      "artist": "ピーテル・パウル・ルーベンス",
+      "year": 1620,
       "century": "〜17世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/24684",
-      "image": "https://www.artic.edu/iiif/2/9a29cc5d-3779-c9ab-2aa2-0df7b6c3f391/full/843,/0/default.jpg",
+      "museumUrl": "https://www.artic.edu/artworks/27310",
+      "image": "https://www.artic.edu/iiif/2/caac7478-b78f-a94d-a36c-fc5dde17e7c9/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2678,17 +2689,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/100342",
       "image": "https://www.artic.edu/iiif/2/fa4dd0f2-382c-076c-ff20-c59a2774400c/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-27310",
-      "title": "エリザベスと洗礼者ヨハネを伴う聖家族",
-      "artist": "ピーテル・パウル・ルーベンス",
-      "year": 1620,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/27310",
-      "image": "https://www.artic.edu/iiif/2/caac7478-b78f-a94d-a36c-fc5dde17e7c9/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -3418,6 +3418,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-39542",
+      "title": "アルプスの丘で休む牛",
+      "artist": "Rosa Bonheur",
+      "year": 1885,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/39542",
+      "image": "https://www.artic.edu/iiif/2/efdd5540-5579-8761-fd1d-af318f65a0a6/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-891",
       "title": "道端の小屋、嵐空",
       "artist": "Jules Dupré",
@@ -3624,17 +3635,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/11434",
       "image": "https://www.artic.edu/iiif/2/8eccb189-92f3-353a-3337-c0778c2680d9/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-39542",
-      "title": "アルプスの丘で休む牛",
-      "artist": "Rosa Bonheur",
-      "year": 1885,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/39542",
-      "image": "https://www.artic.edu/iiif/2/efdd5540-5579-8761-fd1d-af318f65a0a6/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -4496,17 +4496,6 @@
       "wikiUrl": null
     },
     {
-      "id": "cma-93234",
-      "title": "浜辺にて、第3番",
-      "artist": "Maurice Prendergast",
-      "year": 1915,
-      "century": "20世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1926.1653",
-      "image": "https://openaccess-cdn.clevelandart.org/1926.1653/1926.1653_web.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "cma-124040",
       "title": "ブライアーウッドのパイプ",
       "artist": "ウィンスロー・ホーマー",
@@ -4515,6 +4504,17 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/1944.524",
       "image": "https://openaccess-cdn.clevelandart.org/1944.524/1944.524_web.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "cma-93234",
+      "title": "浜辺にて、第3番",
+      "artist": "Maurice Prendergast",
+      "year": 1915,
+      "century": "20世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/1926.1653",
+      "image": "https://openaccess-cdn.clevelandart.org/1926.1653/1926.1653_web.jpg",
       "wikiUrl": null
     },
     {
@@ -7840,6 +7840,17 @@
       "wikiUrl": null
     },
     {
+      "id": "cma-163044",
+      "title": "Clio, Muse of History",
+      "artist": "Charles Meynier",
+      "year": 1800,
+      "century": "18〜19世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/2003.6.5",
+      "image": "https://openaccess-cdn.clevelandart.org/2003.6.5/2003.6.5_web.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "cma-136760",
       "title": "Saint-Mammès, Loing Canal",
       "artist": "アルフレッド・シスレー",
@@ -8016,6 +8027,17 @@
       "wikiUrl": null
     },
     {
+      "id": "cma-163040",
+      "title": "Polyhymnia, Muse of Eloquence",
+      "artist": "Charles Meynier",
+      "year": 1800,
+      "century": "18〜19世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/2003.6.1",
+      "image": "https://openaccess-cdn.clevelandart.org/2003.6.1/2003.6.1_web.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "cma-146446",
       "title": "女性の肖像",
       "artist": "Edmond François Aman-Jean",
@@ -8057,17 +8079,6 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/1958.56",
       "image": "https://openaccess-cdn.clevelandart.org/1958.56/1958.56_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-163044",
-      "title": "Clio, Muse of History",
-      "artist": "Charles Meynier",
-      "year": 1800,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/2003.6.5",
-      "image": "https://openaccess-cdn.clevelandart.org/2003.6.5/2003.6.5_web.jpg",
       "wikiUrl": null
     },
     {
@@ -8156,17 +8167,6 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/1979.43",
       "image": "https://openaccess-cdn.clevelandart.org/1979.43/1979.43_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-163040",
-      "title": "Polyhymnia, Muse of Eloquence",
-      "artist": "Charles Meynier",
-      "year": 1800,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/2003.6.1",
-      "image": "https://openaccess-cdn.clevelandart.org/2003.6.1/2003.6.1_web.jpg",
       "wikiUrl": null
     },
     {
