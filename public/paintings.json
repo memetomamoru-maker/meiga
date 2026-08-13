@@ -1,23 +1,12 @@
 {
-  "generated": "2026-08-12T00:59:18.348Z",
-  "total": 907,
+  "generated": "2026-08-13T01:01:11.721Z",
+  "total": 881,
   "sources": {
     "artic": 356,
-    "met": 26,
+    "met": 0,
     "cma": 525
   },
   "paintings": [
-    {
-      "id": "artic-14630",
-      "title": "ヴェネツィア、パラッツォ・ダリオ",
-      "artist": "クロード・モネ",
-      "year": 1908,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/14630",
-      "image": "https://www.artic.edu/iiif/2/64c38f6d-f0d5-b553-a27e-3552550f351a/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
     {
       "id": "artic-16568",
       "title": "睡蓮",
@@ -28,6 +17,17 @@
       "museumUrl": "https://www.artic.edu/artworks/16568",
       "image": "https://www.artic.edu/iiif/2/3c27b499-af56-f0d5-93b5-a7f2f1ad5813/full/843,/0/default.jpg",
       "wikiUrl": "https://ja.wikipedia.org/wiki/睡蓮_(モネ)"
+    },
+    {
+      "id": "artic-14630",
+      "title": "ヴェネツィア、パラッツォ・ダリオ",
+      "artist": "クロード・モネ",
+      "year": 1908,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/14630",
+      "image": "https://www.artic.edu/iiif/2/64c38f6d-f0d5-b553-a27e-3552550f351a/full/843,/0/default.jpg",
+      "wikiUrl": null
     },
     {
       "id": "artic-9637",
@@ -129,17 +129,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-75557",
-      "title": "サアディー「全集」の彩飾写本（漆塗り表紙）",
-      "artist": "Iran",
-      "year": 1700,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/75557",
-      "image": "https://www.artic.edu/iiif/2/6d216d21-f35a-770a-071c-e0304f23b84f/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-62808",
       "title": "ニザーミーの「ハムサ」より：庭園のホスローとシーリーン",
       "artist": "Iran",
@@ -181,6 +170,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/95654",
       "image": "https://www.artic.edu/iiif/2/26e1c560-acca-3148-46dc-c144ac22bd3e/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-75557",
+      "title": "サアディー「全集」の彩飾写本（漆塗り表紙）",
+      "artist": "Iran",
+      "year": 1700,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/75557",
+      "image": "https://www.artic.edu/iiif/2/6d216d21-f35a-770a-071c-e0304f23b84f/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -228,17 +228,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-131827",
-      "title": "ハーフィズの詩集",
-      "artist": "Iran",
-      "year": 1550,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/131827",
-      "image": "https://www.artic.edu/iiif/2/5744228e-f41d-f2ae-b67c-94ec7959766c/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-130724",
       "title": "サアディー「全集」写本の一頁",
       "artist": "Iran",
@@ -261,6 +250,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-131827",
+      "title": "ハーフィズの詩集",
+      "artist": "Iran",
+      "year": 1550,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/131827",
+      "image": "https://www.artic.edu/iiif/2/5744228e-f41d-f2ae-b67c-94ec7959766c/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-186418",
       "title": "ランドールからのムスーリーとドゥーン",
       "artist": "Joseph Mallord William Turner",
@@ -269,6 +269,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/186418",
       "image": "https://www.artic.edu/iiif/2/560ff8f8-8932-6114-54d5-8174144615e5/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-15468",
+      "title": "聖ゲオルギウスと龍",
+      "artist": "Bernat Martorell",
+      "year": 1435,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/15468",
+      "image": "https://www.artic.edu/iiif/2/8a0e4ac9-43ea-bc3e-884b-ee27f8a10501/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -314,17 +325,6 @@
       "museumUrl": "https://www.artic.edu/artworks/28560",
       "image": "https://www.artic.edu/iiif/2/6644829f-f292-c5c4-a73c-0356a6fdbf0d/full/843,/0/default.jpg",
       "wikiUrl": "https://ja.wikipedia.org/wiki/ファン・ゴッホの寝室"
-    },
-    {
-      "id": "artic-15468",
-      "title": "聖ゲオルギウスと龍",
-      "artist": "Bernat Martorell",
-      "year": 1435,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/15468",
-      "image": "https://www.artic.edu/iiif/2/8a0e4ac9-43ea-bc3e-884b-ee27f8a10501/full/843,/0/default.jpg",
-      "wikiUrl": null
     },
     {
       "id": "artic-16622",
@@ -1053,14 +1053,36 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-9",
-      "title": "ヴェネツィア、サン・マルコ寺院の内部",
-      "artist": "David Dalhoff Neal",
-      "year": 1869,
+      "id": "artic-111442",
+      "title": "子供の入浴",
+      "artist": "メアリー・カサット",
+      "year": 1893,
       "century": "18〜19世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/9",
-      "image": "https://www.artic.edu/iiif/2/b55d836c-ee20-59f8-1f0c-a95e09905361/full/843,/0/default.jpg",
+      "museumUrl": "https://www.artic.edu/artworks/111442",
+      "image": "https://www.artic.edu/iiif/2/3b885ae0-4d46-5fe4-d70a-00474827f02c/full/843,/0/default.jpg",
+      "wikiUrl": "https://ja.wikipedia.org/wiki/子供の入浴_(カサット)"
+    },
+    {
+      "id": "artic-14598",
+      "title": "サント＝アドレスの浜辺",
+      "artist": "クロード・モネ",
+      "year": 1867,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/14598",
+      "image": "https://www.artic.edu/iiif/2/95be2572-b53d-8e7b-abc9-10eb48d4fa5d/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-110661",
+      "title": "自画像",
+      "artist": "Frédéric Bazille",
+      "year": 1866,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/110661",
+      "image": "https://www.artic.edu/iiif/2/eb2cd58f-db63-0236-cebd-7ca8e63eda54/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1083,6 +1105,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/100476",
       "image": "https://www.artic.edu/iiif/2/16e53257-ade2-4f5d-3521-2bc9666bc4cf/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-9",
+      "title": "ヴェネツィア、サン・マルコ寺院の内部",
+      "artist": "David Dalhoff Neal",
+      "year": 1869,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/9",
+      "image": "https://www.artic.edu/iiif/2/b55d836c-ee20-59f8-1f0c-a95e09905361/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1328,28 +1361,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-110661",
-      "title": "自画像",
-      "artist": "Frédéric Bazille",
-      "year": 1866,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/110661",
-      "image": "https://www.artic.edu/iiif/2/eb2cd58f-db63-0236-cebd-7ca8e63eda54/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-14598",
-      "title": "サント＝アドレスの浜辺",
-      "artist": "クロード・モネ",
-      "year": 1867,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/14598",
-      "image": "https://www.artic.edu/iiif/2/95be2572-b53d-8e7b-abc9-10eb48d4fa5d/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-149778",
       "title": "平和と戦争の寓意",
       "artist": "Pompeo Girolamo Batoni",
@@ -1436,17 +1447,6 @@
       "museumUrl": "https://www.artic.edu/artworks/16571",
       "image": "https://www.artic.edu/iiif/2/0f1cc0e0-e42e-be16-3f71-2022da38cb93/full/843,/0/default.jpg",
       "wikiUrl": null
-    },
-    {
-      "id": "artic-111442",
-      "title": "子供の入浴",
-      "artist": "メアリー・カサット",
-      "year": 1893,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/111442",
-      "image": "https://www.artic.edu/iiif/2/3b885ae0-4d46-5fe4-d70a-00474827f02c/full/843,/0/default.jpg",
-      "wikiUrl": "https://ja.wikipedia.org/wiki/子供の入浴_(カサット)"
     },
     {
       "id": "artic-27980",
@@ -1581,6 +1581,83 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-79349",
+      "title": "The Drinkers",
+      "artist": "フィンセント・ファン・ゴッホ",
+      "year": 1890,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/79349",
+      "image": "https://www.artic.edu/iiif/2/107958b1-8367-df7c-be17-bb3a076479d8/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-20579",
+      "title": "ヘラクレスとレルネーのヒュドラ",
+      "artist": "Gustave Moreau",
+      "year": 1876,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/20579",
+      "image": "https://www.artic.edu/iiif/2/2ae64c8a-266d-470a-a25a-c83127564636/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-44739",
+      "title": "娘に口述するミルトン",
+      "artist": "Henry Fuseli",
+      "year": 1793,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/44739",
+      "image": "https://www.artic.edu/iiif/2/6006b9e7-567a-4fb8-34e2-a120886690fe/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-81533",
+      "title": "ロンシャンの競馬",
+      "artist": "エドゥアール・マネ",
+      "year": 1866,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/81533",
+      "image": "https://www.artic.edu/iiif/2/e9ce5aca-4c34-c8dd-b8a1-91b3e3197211/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-81535",
+      "title": "穏やかな海の眺め",
+      "artist": "エドゥアール・マネ",
+      "year": 1864,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/81535",
+      "image": "https://www.artic.edu/iiif/2/8be90e71-83c3-3f98-a972-4acb9ce0e773/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-25812",
+      "title": "闘牛",
+      "artist": "エドゥアール・マネ",
+      "year": 1866,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/25812",
+      "image": "https://www.artic.edu/iiif/2/38636be8-f1bc-c451-ae65-c441919bd0c3/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-138",
+      "title": "オランダの花売り娘",
+      "artist": "George Hitchcock",
+      "year": 1887,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/138",
+      "image": "https://www.artic.edu/iiif/2/e72305c9-1a1c-8a36-7450-582619366338/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-39560",
       "title": "The Bathers",
       "artist": "William Adolphe Bouguereau",
@@ -1589,17 +1666,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/39560",
       "image": "https://www.artic.edu/iiif/2/31f0a9a3-8a0d-44ed-6de8-66142b75c4c0/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-79349",
-      "title": "The Drinkers",
-      "artist": "フィンセント・ファン・ゴッホ",
-      "year": 1890,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/79349",
-      "image": "https://www.artic.edu/iiif/2/d0ff5b36-bb38-b156-6042-5c8545352c2f/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1834,17 +1900,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-44739",
-      "title": "娘に口述するミルトン",
-      "artist": "Henry Fuseli",
-      "year": 1793,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/44739",
-      "image": "https://www.artic.edu/iiif/2/6006b9e7-567a-4fb8-34e2-a120886690fe/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-154121",
       "title": "仔牛の頭と牛の舌",
       "artist": "ギュスターヴ・カイユボット",
@@ -1886,50 +1941,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/16549",
       "image": "https://www.artic.edu/iiif/2/c12058f4-188f-c6ed-f0fe-52b32acfb296/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-20579",
-      "title": "ヘラクレスとレルネーのヒュドラ",
-      "artist": "Gustave Moreau",
-      "year": 1876,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/20579",
-      "image": "https://www.artic.edu/iiif/2/2ae64c8a-266d-470a-a25a-c83127564636/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-81535",
-      "title": "穏やかな海の眺め",
-      "artist": "エドゥアール・マネ",
-      "year": 1864,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/81535",
-      "image": "https://www.artic.edu/iiif/2/8be90e71-83c3-3f98-a972-4acb9ce0e773/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-81533",
-      "title": "ロンシャンの競馬",
-      "artist": "エドゥアール・マネ",
-      "year": 1866,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/81533",
-      "image": "https://www.artic.edu/iiif/2/e9ce5aca-4c34-c8dd-b8a1-91b3e3197211/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-25812",
-      "title": "闘牛",
-      "artist": "エドゥアール・マネ",
-      "year": 1866,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/25812",
-      "image": "https://www.artic.edu/iiif/2/38636be8-f1bc-c451-ae65-c441919bd0c3/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2076,17 +2087,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-138",
-      "title": "オランダの花売り娘",
-      "artist": "George Hitchcock",
-      "year": 1887,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/138",
-      "image": "https://www.artic.edu/iiif/2/e72305c9-1a1c-8a36-7450-582619366338/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-15708",
       "title": "白髪の男の肖像",
       "artist": "Henry Raeburn",
@@ -2153,14 +2153,25 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-24684",
-      "title": "フランチェスコ・デ・メディチ",
-      "artist": "Attributed to Alessandro Allori",
-      "year": 1565,
-      "century": "〜17世紀",
+      "id": "artic-81545",
+      "title": "積み藁（夕暮れ、雪の効果）",
+      "artist": "クロード・モネ",
+      "year": 1891,
+      "century": "18〜19世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/24684",
-      "image": "https://www.artic.edu/iiif/2/9a29cc5d-3779-c9ab-2aa2-0df7b6c3f391/full/843,/0/default.jpg",
+      "museumUrl": "https://www.artic.edu/artworks/81545",
+      "image": "https://www.artic.edu/iiif/2/be0d3e50-a600-6f33-ea8f-16a34d892442/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-59002",
+      "title": "ネミ湖周辺の思い出",
+      "artist": "ジャン＝バティスト＝カミーユ・コロー",
+      "year": 1865,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/59002",
+      "image": "https://www.artic.edu/iiif/2/25cae01d-82c7-7060-0070-643727437126/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2172,6 +2183,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/44892",
       "image": "https://www.artic.edu/iiif/2/0cbe27e8-2fec-3445-bc48-ce40a8f2dc25/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-24684",
+      "title": "フランチェスコ・デ・メディチ",
+      "artist": "Attributed to Alessandro Allori",
+      "year": 1565,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/24684",
+      "image": "https://www.artic.edu/iiif/2/9a29cc5d-3779-c9ab-2aa2-0df7b6c3f391/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2296,17 +2318,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-81545",
-      "title": "積み藁（夕暮れ、雪の効果）",
-      "artist": "クロード・モネ",
-      "year": 1891,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/81545",
-      "image": "https://www.artic.edu/iiif/2/be0d3e50-a600-6f33-ea8f-16a34d892442/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-20701",
       "title": "ウォータールー橋、陽光の効果",
       "artist": "クロード・モネ",
@@ -2414,17 +2425,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/100350",
       "image": "https://www.artic.edu/iiif/2/e728fa6d-c643-2b68-133d-74770ded12ef/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-59002",
-      "title": "ネミ湖周辺の思い出",
-      "artist": "ジャン＝バティスト＝カミーユ・コロー",
-      "year": 1865,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/59002",
-      "image": "https://www.artic.edu/iiif/2/25cae01d-82c7-7060-0070-643727437126/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2670,6 +2670,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-100342",
+      "title": "Saint Francis",
+      "artist": "ピーテル・パウル・ルーベンス",
+      "year": 1620,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/100342",
+      "image": "https://www.artic.edu/iiif/2/fa4dd0f2-382c-076c-ff20-c59a2774400c/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-27310",
       "title": "エリザベスと洗礼者ヨハネを伴う聖家族",
       "artist": "ピーテル・パウル・ルーベンス",
@@ -2681,14 +2692,14 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-100342",
-      "title": "Saint Francis",
-      "artist": "ピーテル・パウル・ルーベンス",
-      "year": 1620,
-      "century": "〜17世紀",
+      "id": "artic-27764",
+      "title": "来たる嵐",
+      "artist": "Eugène-Louis Boudin",
+      "year": 1864,
+      "century": "18〜19世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/100342",
-      "image": "https://www.artic.edu/iiif/2/fa4dd0f2-382c-076c-ff20-c59a2774400c/full/843,/0/default.jpg",
+      "museumUrl": "https://www.artic.edu/artworks/27764",
+      "image": "https://www.artic.edu/iiif/2/04cb7292-b20b-b313-2c08-19e685b70e7e/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2755,17 +2766,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/16362",
       "image": "https://www.artic.edu/iiif/2/622998f1-73f9-4c96-08cf-60bda7c9ce4b/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-27764",
-      "title": "来たる嵐",
-      "artist": "Eugène-Louis Boudin",
-      "year": 1864,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/27764",
-      "image": "https://www.artic.edu/iiif/2/04cb7292-b20b-b313-2c08-19e685b70e7e/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2931,6 +2931,39 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/26650",
       "image": "https://www.artic.edu/iiif/2/f0150d21-33ab-f6ea-0d4d-32d459f091fe/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-81512",
+      "title": "Interrupted Reading",
+      "artist": "ジャン＝バティスト＝カミーユ・コロー",
+      "year": 1875,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/81512",
+      "image": "https://www.artic.edu/iiif/2/1c2d32a7-790c-501a-e124-00f28cf5052d/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-87467",
+      "title": "Édouard Manet",
+      "artist": "アンリ・ファンタン＝ラトゥール",
+      "year": 1867,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/87467",
+      "image": "https://www.artic.edu/iiif/2/dd4f9115-150c-2f1a-0f37-50899553d6b4/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-75507",
+      "title": "静物　テーブルの一隅",
+      "artist": "アンリ・ファンタン＝ラトゥール",
+      "year": 1873,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/75507",
+      "image": "https://www.artic.edu/iiif/2/85d05bad-1205-6de5-e75c-ec9113a626ab/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -3143,17 +3176,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-81512",
-      "title": "Interrupted Reading",
-      "artist": "ジャン＝バティスト＝カミーユ・コロー",
-      "year": 1875,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/81512",
-      "image": "https://www.artic.edu/iiif/2/1c2d32a7-790c-501a-e124-00f28cf5052d/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-16551",
       "title": "Beata Beatrix",
       "artist": "Dante Gabriel Rossetti",
@@ -3162,28 +3184,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/16551",
       "image": "https://www.artic.edu/iiif/2/194674a2-f451-65f7-ba46-6aac4d894f0b/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-87467",
-      "title": "Édouard Manet",
-      "artist": "アンリ・ファンタン＝ラトゥール",
-      "year": 1867,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/87467",
-      "image": "https://www.artic.edu/iiif/2/dd4f9115-150c-2f1a-0f37-50899553d6b4/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-75507",
-      "title": "静物　テーブルの一隅",
-      "artist": "アンリ・ファンタン＝ラトゥール",
-      "year": 1873,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/75507",
-      "image": "https://www.artic.edu/iiif/2/85d05bad-1205-6de5-e75c-ec9113a626ab/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -3921,292 +3921,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/90048",
       "image": "https://www.artic.edu/iiif/2/18092196-50ae-3ff1-9205-1b3110e966c3/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "met-435876",
-      "title": "Madame Cézanne (Hortense Fiquet, 1850–1922) in a Red Dress",
-      "artist": "ポール・セザンヌ",
-      "year": 1890,
-      "century": "18〜19世紀",
-      "museum": "メトロポリタン美術館",
-      "museumUrl": "https://www.metmuseum.org/art/collection/search/435876",
-      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP320128.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "met-435877",
-      "title": "サント＝ヴィクトワール山とアルク渓谷の高架橋",
-      "artist": "ポール・セザンヌ",
-      "year": 1885,
-      "century": "18〜19世紀",
-      "museum": "メトロポリタン美術館",
-      "museumUrl": "https://www.metmuseum.org/art/collection/search/435877",
-      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-20099-001.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "met-435878",
-      "title": "Mont Sainte-Victoire",
-      "artist": "ポール・セザンヌ",
-      "year": 1906,
-      "century": "20世紀",
-      "museum": "メトロポリタン美術館",
-      "museumUrl": "https://www.metmuseum.org/art/collection/search/435878",
-      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/77J_045R2M.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "met-435879",
-      "title": "The Pool at Jas de Bouffan",
-      "artist": "ポール・セザンヌ",
-      "year": 1886,
-      "century": "18〜19世紀",
-      "museum": "メトロポリタン美術館",
-      "museumUrl": "https://www.metmuseum.org/art/collection/search/435879",
-      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1492.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "met-435880",
-      "title": "Rocks at Fontainebleau",
-      "artist": "ポール・セザンヌ",
-      "year": 1899,
-      "century": "18〜19世紀",
-      "museum": "メトロポリタン美術館",
-      "museumUrl": "https://www.metmuseum.org/art/collection/search/435880",
-      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-23704-001.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "met-437879",
-      "title": "Study of a Young Woman",
-      "artist": "ヨハネス・フェルメール",
-      "year": 1667,
-      "century": "〜17世紀",
-      "museum": "メトロポリタン美術館",
-      "museumUrl": "https://www.metmuseum.org/art/collection/search/437879",
-      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP353256.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "met-437878",
-      "title": "A Maid Asleep",
-      "artist": "ヨハネス・フェルメール",
-      "year": 1657,
-      "century": "〜17世紀",
-      "museum": "メトロポリタン美術館",
-      "museumUrl": "https://www.metmuseum.org/art/collection/search/437878",
-      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP355525.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "met-436947",
-      "title": "ボート遊び",
-      "artist": "Edouard Manet",
-      "year": 1874,
-      "century": "18〜19世紀",
-      "museum": "メトロポリタン美術館",
-      "museumUrl": "https://www.metmuseum.org/art/collection/search/436947",
-      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-25466-001.jpg",
-      "wikiUrl": "https://ja.wikipedia.org/wiki/ボート遊び_(マネ)"
-    },
-    {
-      "id": "met-437329",
-      "title": "The Abduction of the Sabine Women",
-      "artist": "ニコラ・プッサン",
-      "year": 1634,
-      "century": "〜17世紀",
-      "museum": "メトロポリタン美術館",
-      "museumUrl": "https://www.metmuseum.org/art/collection/search/437329",
-      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-29324-001.jpg",
-      "wikiUrl": "https://ja.wikipedia.org/wiki/サビーニーの女たちの略奪"
-    },
-    {
-      "id": "met-459055",
-      "title": "The Annunciation",
-      "artist": "ハンス・メムリング",
-      "year": 1489,
-      "century": "〜17世紀",
-      "museum": "メトロポリタン美術館",
-      "museumUrl": "https://www.metmuseum.org/art/collection/search/459055",
-      "image": "https://images.metmuseum.org/CRDImages/rl/web-large/DP-40424-001.jpg",
-      "wikiUrl": "https://ja.wikipedia.org/wiki/受胎告知_(メムリング)"
-    },
-    {
-      "id": "met-436105",
-      "title": "ソクラテスの死",
-      "artist": "Jacques Louis David",
-      "year": 1787,
-      "century": "18〜19世紀",
-      "museum": "メトロポリタン美術館",
-      "museumUrl": "https://www.metmuseum.org/art/collection/search/436105",
-      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-13139-001.jpg",
-      "wikiUrl": "https://ja.wikipedia.org/wiki/ソクラテスの死"
-    },
-    {
-      "id": "met-436282",
-      "title": "The Crucifixion; The Last Judgment",
-      "artist": "ヤン・ファン・エイク",
-      "year": 1438,
-      "century": "〜17世紀",
-      "museum": "メトロポリタン美術館",
-      "museumUrl": "https://www.metmuseum.org/art/collection/search/436282",
-      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/LC-33_92ab-Primary_Temp.jpg",
-      "wikiUrl": "https://ja.wikipedia.org/wiki/磔刑と最後の審判_(ファン・エイク)"
-    },
-    {
-      "id": "met-11417",
-      "title": "デラウェア川を渡るワシントン",
-      "artist": "エマニュエル・ロイツェ",
-      "year": 1851,
-      "century": "18〜19世紀",
-      "museum": "メトロポリタン美術館",
-      "museumUrl": "https://www.metmuseum.org/art/collection/search/11417",
-      "image": "https://images.metmuseum.org/CRDImages/ad/web-large/DP215410.jpg",
-      "wikiUrl": "https://ja.wikipedia.org/wiki/デラウェア川を渡るワシントン"
-    },
-    {
-      "id": "met-435868",
-      "title": "カード遊びをする人々",
-      "artist": "ポール・セザンヌ",
-      "year": 1892,
-      "century": "18〜19世紀",
-      "museum": "メトロポリタン美術館",
-      "museumUrl": "https://www.metmuseum.org/art/collection/search/435868",
-      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP231550.jpg",
-      "wikiUrl": "https://ja.wikipedia.org/wiki/カード遊びをする人々"
-    },
-    {
-      "id": "met-436535",
-      "title": "小麦畑と糸杉",
-      "artist": "フィンセント・ファン・ゴッホ",
-      "year": 1889,
-      "century": "18〜19世紀",
-      "museum": "メトロポリタン美術館",
-      "museumUrl": "https://www.metmuseum.org/art/collection/search/436535",
-      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-42549-001.jpg",
-      "wikiUrl": "https://ja.wikipedia.org/wiki/小麦畑と糸杉"
-    },
-    {
-      "id": "met-436528",
-      "title": "アイリス",
-      "artist": "フィンセント・ファン・ゴッホ",
-      "year": 1890,
-      "century": "18〜19世紀",
-      "museum": "メトロポリタン美術館",
-      "museumUrl": "https://www.metmuseum.org/art/collection/search/436528",
-      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP346474.jpg",
-      "wikiUrl": "https://ja.wikipedia.org/wiki/アイリス_(ファン・ゴッホ)"
-    },
-    {
-      "id": "met-438722",
-      "title": "The Potato Peeler (reverse: Self-Portrait with a Straw Hat)",
-      "artist": "フィンセント・ファン・ゴッホ",
-      "year": 1885,
-      "century": "18〜19世紀",
-      "museum": "メトロポリタン美術館",
-      "museumUrl": "https://www.metmuseum.org/art/collection/search/438722",
-      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1503.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "met-435650",
-      "title": "Madame Philippe Panon Desbassayns de Richemont (Jeanne Eglé Mourgue, 1778–1855) and Her Son, Eugène (1800–1859)",
-      "artist": "Marie Guillemine Benoist",
-      "year": 1802,
-      "century": "18〜19世紀",
-      "museum": "メトロポリタン美術館",
-      "museumUrl": "https://www.metmuseum.org/art/collection/search/435650",
-      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-13442-001.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "met-436305",
-      "title": "静物",
-      "artist": "Georg Flegel",
-      "year": 1630,
-      "century": "〜17世紀",
-      "museum": "メトロポリタン美術館",
-      "museumUrl": "https://www.metmuseum.org/art/collection/search/436305",
-      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-25893-001.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "met-435869",
-      "title": "Antoine Dominique Sauveur Aubert (born 1817), the Artist's Uncle, as a Monk",
-      "artist": "ポール・セザンヌ",
-      "year": 1866,
-      "century": "18〜19世紀",
-      "museum": "メトロポリタン美術館",
-      "museumUrl": "https://www.metmuseum.org/art/collection/search/435869",
-      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1977.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "met-437984",
-      "title": "La Berceuse (Woman Rocking a Cradle; Augustine-Alix Pellicot Roulin, 1851–1930)",
-      "artist": "フィンセント・ファン・ゴッホ",
-      "year": 1889,
-      "century": "18〜19世紀",
-      "museum": "メトロポリタン美術館",
-      "museumUrl": "https://www.metmuseum.org/art/collection/search/437984",
-      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-19279-001.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "met-436524",
-      "title": "ひまわり",
-      "artist": "フィンセント・ファン・ゴッホ",
-      "year": 1887,
-      "century": "18〜19世紀",
-      "museum": "メトロポリタン美術館",
-      "museumUrl": "https://www.metmuseum.org/art/collection/search/436524",
-      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-41223-001.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "met-437654",
-      "title": "Circus Sideshow (Parade de cirque)",
-      "artist": "ジョルジュ・スーラ",
-      "year": 1888,
-      "century": "18〜19世紀",
-      "museum": "メトロポリタン美術館",
-      "museumUrl": "https://www.metmuseum.org/art/collection/search/437654",
-      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP375450_cropped.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "met-436803",
-      "title": "東方三博士の礼拝",
-      "artist": "Joos van Wassenhove",
-      "year": 1474,
-      "century": "〜17世紀",
-      "museum": "メトロポリタン美術館",
-      "museumUrl": "https://www.metmuseum.org/art/collection/search/436803",
-      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-16339-001.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "met-438821",
-      "title": "Ia Orana Maria (Hail Mary)",
-      "artist": "ポール・ゴーギャン",
-      "year": 1891,
-      "century": "18〜19世紀",
-      "museum": "メトロポリタン美術館",
-      "museumUrl": "https://www.metmuseum.org/art/collection/search/438821",
-      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1025.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "met-436529",
-      "title": "L'Arlésienne: Madame Joseph-Michel Ginoux (Marie Julien, 1848–1911)",
-      "artist": "フィンセント・ファン・ゴッホ",
-      "year": 1889,
-      "century": "18〜19世紀",
-      "museum": "メトロポリタン美術館",
-      "museumUrl": "https://www.metmuseum.org/art/collection/search/436529",
-      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1396.jpg",
       "wikiUrl": null
     },
     {
