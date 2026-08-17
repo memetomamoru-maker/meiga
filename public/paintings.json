@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-16T00:37:07.232Z",
+  "generated": "2026-08-17T00:35:30.183Z",
   "total": 907,
   "sources": {
     "artic": 356,
@@ -228,17 +228,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-130724",
-      "title": "サアディー「全集」写本の一頁",
-      "artist": "Iran",
-      "year": 1700,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/130724",
-      "image": "https://www.artic.edu/iiif/2/384aca18-6efc-e76c-5e1e-20fa5f35baca/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-130725",
       "title": "サアディー「全集」写本の一頁",
       "artist": "Iran",
@@ -247,6 +236,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/130725",
       "image": "https://www.artic.edu/iiif/2/fa298f62-bdfe-67b4-e473-65ad9f656dc1/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-130724",
+      "title": "サアディー「全集」写本の一頁",
+      "artist": "Iran",
+      "year": 1700,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/130724",
+      "image": "https://www.artic.edu/iiif/2/384aca18-6efc-e76c-5e1e-20fa5f35baca/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1581,6 +1581,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-79349",
+      "title": "The Drinkers",
+      "artist": "フィンセント・ファン・ゴッホ",
+      "year": 1890,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/79349",
+      "image": "https://www.artic.edu/iiif/2/107958b1-8367-df7c-be17-bb3a076479d8/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-20579",
       "title": "ヘラクレスとレルネーのヒュドラ",
       "artist": "Gustave Moreau",
@@ -1600,17 +1611,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/44739",
       "image": "https://www.artic.edu/iiif/2/6006b9e7-567a-4fb8-34e2-a120886690fe/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-79349",
-      "title": "The Drinkers",
-      "artist": "フィンセント・ファン・ゴッホ",
-      "year": 1890,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/79349",
-      "image": "https://www.artic.edu/iiif/2/107958b1-8367-df7c-be17-bb3a076479d8/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
