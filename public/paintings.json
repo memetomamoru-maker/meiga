@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-17T00:35:30.183Z",
+  "generated": "2026-08-18T00:34:56.816Z",
   "total": 907,
   "sources": {
     "artic": 356,
@@ -1053,6 +1053,28 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-27980",
+      "title": "ばら色の長椅子の女",
+      "artist": "Henri Matisse",
+      "year": 1921,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/27980",
+      "image": "https://www.artic.edu/iiif/2/65e58fc4-4dd1-7149-b76b-94547745bece/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-9021",
+      "title": "魅惑の水車小屋",
+      "artist": "Franz Marc",
+      "year": 1913,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/9021",
+      "image": "https://www.artic.edu/iiif/2/6829aab0-8d0e-9438-aebf-a1a379572951/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-80084",
       "title": "磔刑",
       "artist": "Francisco de Zurbarán",
@@ -1449,17 +1471,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-27980",
-      "title": "ばら色の長椅子の女",
-      "artist": "Henri Matisse",
-      "year": 1921,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/27980",
-      "image": "https://www.artic.edu/iiif/2/65e58fc4-4dd1-7149-b76b-94547745bece/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-11",
       "title": "自画像",
       "artist": "Walter Shirlaw",
@@ -1548,17 +1559,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-9021",
-      "title": "魅惑の水車小屋",
-      "artist": "Franz Marc",
-      "year": 1913,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/9021",
-      "image": "https://www.artic.edu/iiif/2/6829aab0-8d0e-9438-aebf-a1a379572951/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-19333",
       "title": "台所の静物",
       "artist": "Attributed to Paolo Antonio Barbieri",
@@ -1614,6 +1614,28 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-103139",
+      "title": "ウォータールー橋、曇天",
+      "artist": "クロード・モネ",
+      "year": 1900,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/103139",
+      "image": "https://www.artic.edu/iiif/2/6f61a6fc-dcd8-e801-0ad8-5f7e561d91b6/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-14572",
+      "title": "帽子屋",
+      "artist": "エドガー・ドガ",
+      "year": 1886,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/14572",
+      "image": "https://www.artic.edu/iiif/2/6f513908-03cc-b974-633b-adfce56b7936/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-87643",
       "title": "墓の前の二人の弟子",
       "artist": "Henry Ossawa Tanner",
@@ -1644,17 +1666,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/20545",
       "image": "https://www.artic.edu/iiif/2/2765aee9-3d78-ec6c-5c66-a1d9dc8173f6/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-103139",
-      "title": "ウォータールー橋、曇天",
-      "artist": "クロード・モネ",
-      "year": 1900,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/103139",
-      "image": "https://www.artic.edu/iiif/2/6f61a6fc-dcd8-e801-0ad8-5f7e561d91b6/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1966,17 +1977,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-14572",
-      "title": "帽子屋",
-      "artist": "エドガー・ドガ",
-      "year": 1886,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/14572",
-      "image": "https://www.artic.edu/iiif/2/6f513908-03cc-b974-633b-adfce56b7936/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-64996",
       "title": "ヴィーナスに叱られるユピテル",
       "artist": "Abraham Janssens",
@@ -2150,6 +2150,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/65930",
       "image": "https://www.artic.edu/iiif/2/2a328b12-cb68-19e8-3843-b2160f007813/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-27984",
+      "title": "Woman before an Aquarium",
+      "artist": "Henri Matisse",
+      "year": 1923,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/27984",
+      "image": "https://www.artic.edu/iiif/2/d0e36029-27fc-bf4e-357a-55cfbaf7bdfd/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2626,17 +2637,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-27984",
-      "title": "Woman before an Aquarium",
-      "artist": "Henri Matisse",
-      "year": 1923,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/27984",
-      "image": "https://www.artic.edu/iiif/2/d0e36029-27fc-bf4e-357a-55cfbaf7bdfd/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-65920",
       "title": "プロビンスタウン",
       "artist": "Marsden Hartley",
@@ -2670,17 +2670,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-27310",
-      "title": "エリザベスと洗礼者ヨハネを伴う聖家族",
-      "artist": "ピーテル・パウル・ルーベンス",
-      "year": 1620,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/27310",
-      "image": "https://www.artic.edu/iiif/2/caac7478-b78f-a94d-a36c-fc5dde17e7c9/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-100342",
       "title": "Saint Francis",
       "artist": "ピーテル・パウル・ルーベンス",
@@ -2689,6 +2678,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/100342",
       "image": "https://www.artic.edu/iiif/2/fa4dd0f2-382c-076c-ff20-c59a2774400c/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-27310",
+      "title": "エリザベスと洗礼者ヨハネを伴う聖家族",
+      "artist": "ピーテル・パウル・ルーベンス",
+      "year": 1620,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/27310",
+      "image": "https://www.artic.edu/iiif/2/caac7478-b78f-a94d-a36c-fc5dde17e7c9/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2931,6 +2931,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/26650",
       "image": "https://www.artic.edu/iiif/2/f0150d21-33ab-f6ea-0d4d-32d459f091fe/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-28849",
+      "title": "A City Park",
+      "artist": "William Merritt Chase",
+      "year": 1887,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/28849",
+      "image": "https://www.artic.edu/iiif/2/72a76270-d6f4-e744-d47b-307873a8e8ff/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -3349,17 +3360,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/76571",
       "image": "https://www.artic.edu/iiif/2/33fc29fc-097b-576b-c9e6-c3352d9d3f15/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-28849",
-      "title": "A City Park",
-      "artist": "William Merritt Chase",
-      "year": 1887,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/28849",
-      "image": "https://www.artic.edu/iiif/2/72a76270-d6f4-e744-d47b-307873a8e8ff/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
