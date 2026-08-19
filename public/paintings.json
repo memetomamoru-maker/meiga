@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-18T00:34:56.816Z",
+  "generated": "2026-08-19T00:35:25.035Z",
   "total": 907,
   "sources": {
     "artic": 356,
@@ -1053,28 +1053,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-27980",
-      "title": "ばら色の長椅子の女",
-      "artist": "Henri Matisse",
-      "year": 1921,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/27980",
-      "image": "https://www.artic.edu/iiif/2/65e58fc4-4dd1-7149-b76b-94547745bece/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-9021",
-      "title": "魅惑の水車小屋",
-      "artist": "Franz Marc",
-      "year": 1913,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/9021",
-      "image": "https://www.artic.edu/iiif/2/6829aab0-8d0e-9438-aebf-a1a379572951/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-80084",
       "title": "磔刑",
       "artist": "Francisco de Zurbarán",
@@ -1094,6 +1072,28 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/100476",
       "image": "https://www.artic.edu/iiif/2/16e53257-ade2-4f5d-3521-2bc9666bc4cf/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-27980",
+      "title": "ばら色の長椅子の女",
+      "artist": "Henri Matisse",
+      "year": 1921,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/27980",
+      "image": "https://www.artic.edu/iiif/2/65e58fc4-4dd1-7149-b76b-94547745bece/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-9021",
+      "title": "魅惑の水車小屋",
+      "artist": "Franz Marc",
+      "year": 1913,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/9021",
+      "image": "https://www.artic.edu/iiif/2/6829aab0-8d0e-9438-aebf-a1a379572951/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1614,6 +1614,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-20545",
+      "title": "ベル＝イル島、ポール・グルファールの岩",
+      "artist": "クロード・モネ",
+      "year": 1886,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/20545",
+      "image": "https://www.artic.edu/iiif/2/2765aee9-3d78-ec6c-5c66-a1d9dc8173f6/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-103139",
       "title": "ウォータールー橋、曇天",
       "artist": "クロード・モネ",
@@ -1655,17 +1666,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/16584",
       "image": "https://www.artic.edu/iiif/2/03930df3-1e6c-eeca-8660-c0b22ca477ff/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-20545",
-      "title": "ベル＝イル島、ポール・グルファールの岩",
-      "artist": "クロード・モネ",
-      "year": 1886,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/20545",
-      "image": "https://www.artic.edu/iiif/2/2765aee9-3d78-ec6c-5c66-a1d9dc8173f6/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2153,17 +2153,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-27984",
-      "title": "Woman before an Aquarium",
-      "artist": "Henri Matisse",
-      "year": 1923,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/27984",
-      "image": "https://www.artic.edu/iiif/2/d0e36029-27fc-bf4e-357a-55cfbaf7bdfd/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-44892",
       "title": "魚（静物）",
       "artist": "エドゥアール・マネ",
@@ -2172,6 +2161,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/44892",
       "image": "https://www.artic.edu/iiif/2/0cbe27e8-2fec-3445-bc48-ce40a8f2dc25/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-27984",
+      "title": "Woman before an Aquarium",
+      "artist": "Henri Matisse",
+      "year": 1923,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/27984",
+      "image": "https://www.artic.edu/iiif/2/d0e36029-27fc-bf4e-357a-55cfbaf7bdfd/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2934,6 +2934,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-87467",
+      "title": "Édouard Manet",
+      "artist": "アンリ・ファンタン＝ラトゥール",
+      "year": 1867,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/87467",
+      "image": "https://www.artic.edu/iiif/2/dd4f9115-150c-2f1a-0f37-50899553d6b4/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-28849",
       "title": "A City Park",
       "artist": "William Merritt Chase",
@@ -2986,17 +2997,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/81512",
       "image": "https://www.artic.edu/iiif/2/1c2d32a7-790c-501a-e124-00f28cf5052d/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-87467",
-      "title": "Édouard Manet",
-      "artist": "アンリ・ファンタン＝ラトゥール",
-      "year": 1867,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/87467",
-      "image": "https://www.artic.edu/iiif/2/dd4f9115-150c-2f1a-0f37-50899553d6b4/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -4936,6 +4936,17 @@
       "wikiUrl": null
     },
     {
+      "id": "cma-93100",
+      "title": "ジャンヌ・バルザックの肖像",
+      "artist": "Eugene Speicher",
+      "year": 1923,
+      "century": "20世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/1924.1424",
+      "image": "https://openaccess-cdn.clevelandart.org/1924.1424/1924.1424_web.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "cma-153606",
       "title": "White Pansy",
       "artist": "Georgia O'Keeffe",
@@ -5450,17 +5461,6 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/1958.33",
       "image": "https://openaccess-cdn.clevelandart.org/1958.33/1958.33_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-93100",
-      "title": "ジャンヌ・バルザックの肖像",
-      "artist": "Eugene Speicher",
-      "year": 1923,
-      "century": "20世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1924.1424",
-      "image": "https://openaccess-cdn.clevelandart.org/1924.1424/1924.1424_web.jpg",
       "wikiUrl": null
     },
     {
