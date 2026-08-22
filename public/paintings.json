@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-21T00:37:38.644Z",
+  "generated": "2026-08-22T00:34:56.007Z",
   "total": 907,
   "sources": {
     "artic": 356,
@@ -525,6 +525,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-81572",
+      "title": "トルーヴィル（グレーと緑、銀の海）",
+      "artist": "ジェームズ・マクニール・ホイッスラー",
+      "year": 1865,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/81572",
+      "image": "https://www.artic.edu/iiif/2/37f802ca-7831-14d6-82c6-060d825baabd/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-2848",
       "title": "ボヘミアン生活の一場面",
       "artist": "ジェームズ・マクニール・ホイッスラー",
@@ -555,17 +566,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/81574",
       "image": "https://www.artic.edu/iiif/2/f0b3ff64-d68e-3fd2-ffc9-5470eb9fea6e/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-81572",
-      "title": "トルーヴィル（グレーと緑、銀の海）",
-      "artist": "ジェームズ・マクニール・ホイッスラー",
-      "year": 1865,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/81572",
-      "image": "https://www.artic.edu/iiif/2/37f802ca-7831-14d6-82c6-060d825baabd/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1031,17 +1031,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-144467",
-      "title": "ダイフェンドレヒト近郊の農場",
-      "artist": "Piet Mondrian",
-      "year": 1921,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/144467",
-      "image": "https://www.artic.edu/iiif/2/b8ca5039-1d0c-648d-ad46-838ecea3e14c/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-152437",
       "title": "漁師の小屋",
       "artist": "Harald Sohlberg",
@@ -1050,6 +1039,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/152437",
       "image": "https://www.artic.edu/iiif/2/efef304d-190c-294f-1cba-73374b3361a3/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-144467",
+      "title": "ダイフェンドレヒト近郊の農場",
+      "artist": "Piet Mondrian",
+      "year": 1921,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/144467",
+      "image": "https://www.artic.edu/iiif/2/b8ca5039-1d0c-648d-ad46-838ecea3e14c/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1680,17 +1680,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-14586",
-      "title": "詩人の庭",
-      "artist": "フィンセント・ファン・ゴッホ",
-      "year": 1888,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/14586",
-      "image": "https://www.artic.edu/iiif/2/d4bc1723-7cbc-d36d-a9cb-f84553f2a6f6/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-84709",
       "title": "Still Life with Game Fowl",
       "artist": "Juan Sánchez Cotán",
@@ -1702,17 +1691,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-81533",
-      "title": "ロンシャンの競馬",
-      "artist": "エドゥアール・マネ",
-      "year": 1866,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/81533",
-      "image": "https://www.artic.edu/iiif/2/e9ce5aca-4c34-c8dd-b8a1-91b3e3197211/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-44742",
       "title": "Are They Thinking about the Grape? (Pensent-ils au raisin?)",
       "artist": "François Boucher",
@@ -1721,6 +1699,28 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/44742",
       "image": "https://www.artic.edu/iiif/2/12662645-5164-4bb1-cfec-3517a4c9779c/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-14586",
+      "title": "詩人の庭",
+      "artist": "フィンセント・ファン・ゴッホ",
+      "year": 1888,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/14586",
+      "image": "https://www.artic.edu/iiif/2/d4bc1723-7cbc-d36d-a9cb-f84553f2a6f6/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-81533",
+      "title": "ロンシャンの競馬",
+      "artist": "エドゥアール・マネ",
+      "year": 1866,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/81533",
+      "image": "https://www.artic.edu/iiif/2/e9ce5aca-4c34-c8dd-b8a1-91b3e3197211/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1765,6 +1765,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/5848",
       "image": "https://www.artic.edu/iiif/2/aa870b0d-5a1b-660a-6dc6-56c12109cf6e/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-111656",
+      "title": "Pardon in Brittany",
+      "artist": "Gaston La Touche",
+      "year": 1896,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/111656",
+      "image": "https://www.artic.edu/iiif/2/3fa3855e-d7e7-d2a4-0f95-a38268026bad/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2076,17 +2087,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-111656",
-      "title": "Pardon in Brittany",
-      "artist": "Gaston La Touche",
-      "year": 1896,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/111656",
-      "image": "https://www.artic.edu/iiif/2/3fa3855e-d7e7-d2a4-0f95-a38268026bad/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-15708",
       "title": "白髪の男の肖像",
       "artist": "Henry Raeburn",
@@ -2117,28 +2117,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/44017",
       "image": "https://www.artic.edu/iiif/2/c4648834-49dd-3589-6ac3-66d41fd574ef/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-65925",
-      "title": "ニューイングランドの終わり——ニューメキシコの始まり",
-      "artist": "Marsden Hartley",
-      "year": 1919,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/65925",
-      "image": "https://www.artic.edu/iiif/2/75fc3e47-9b94-5838-25ea-6c24620765d0/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-65930",
-      "title": "静物第15番",
-      "artist": "Marsden Hartley",
-      "year": 1917,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/65930",
-      "image": "https://www.artic.edu/iiif/2/2a328b12-cb68-19e8-3843-b2160f007813/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2249,6 +2227,28 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/110673",
       "image": "https://www.artic.edu/iiif/2/66c1797f-b87e-8736-cdf6-c490bd34863b/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-65925",
+      "title": "ニューイングランドの終わり——ニューメキシコの始まり",
+      "artist": "Marsden Hartley",
+      "year": 1919,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/65925",
+      "image": "https://www.artic.edu/iiif/2/75fc3e47-9b94-5838-25ea-6c24620765d0/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-65930",
+      "title": "静物第15番",
+      "artist": "Marsden Hartley",
+      "year": 1917,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/65930",
+      "image": "https://www.artic.edu/iiif/2/2a328b12-cb68-19e8-3843-b2160f007813/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2670,14 +2670,14 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-100342",
-      "title": "Saint Francis",
-      "artist": "ピーテル・パウル・ルーベンス",
-      "year": 1620,
+      "id": "artic-184371",
+      "title": "キリストの降誕",
+      "artist": "Fra Bartolommeo",
+      "year": 1507,
       "century": "〜17世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/100342",
-      "image": "https://www.artic.edu/iiif/2/fa4dd0f2-382c-076c-ff20-c59a2774400c/full/843,/0/default.jpg",
+      "museumUrl": "https://www.artic.edu/artworks/184371",
+      "image": "https://www.artic.edu/iiif/2/40fdb1d6-93fe-2916-78fb-f56a1ac261f1/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2692,17 +2692,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-184371",
-      "title": "キリストの降誕",
-      "artist": "Fra Bartolommeo",
-      "year": 1507,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/184371",
-      "image": "https://www.artic.edu/iiif/2/40fdb1d6-93fe-2916-78fb-f56a1ac261f1/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-23972",
       "title": "幼い洗礼者ヨハネとともにある聖母子",
       "artist": "Correggio",
@@ -2711,6 +2700,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/23972",
       "image": "https://www.artic.edu/iiif/2/d63b9402-c42b-cce3-aa63-6d213ad621cd/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-100342",
+      "title": "Saint Francis",
+      "artist": "ピーテル・パウル・ルーベンス",
+      "year": 1620,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/100342",
+      "image": "https://www.artic.edu/iiif/2/fa4dd0f2-382c-076c-ff20-c59a2774400c/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2967,17 +2967,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-16398",
-      "title": "音楽の稽古",
-      "artist": "Jacob Ochtervelt",
-      "year": 1671,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/16398",
-      "image": "https://www.artic.edu/iiif/2/c6c6a21a-b985-35d9-b0ef-a2b798ad9fba/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-21934",
       "title": "Kitchen Scene",
       "artist": "ディエゴ・ベラスケス",
@@ -2986,6 +2975,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/21934",
       "image": "https://www.artic.edu/iiif/2/68452725-eba5-06e3-46d2-50c678a5d672/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-16398",
+      "title": "音楽の稽古",
+      "artist": "Jacob Ochtervelt",
+      "year": 1671,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/16398",
+      "image": "https://www.artic.edu/iiif/2/c6c6a21a-b985-35d9-b0ef-a2b798ad9fba/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -3030,6 +3030,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/26650",
       "image": "https://www.artic.edu/iiif/2/f0150d21-33ab-f6ea-0d4d-32d459f091fe/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-97910",
+      "title": "The Advance-Guard, or The Military Sacrifice (The Ambush)",
+      "artist": "Frederic Remington",
+      "year": 1890,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/97910",
+      "image": "https://www.artic.edu/iiif/2/f1e03813-f9c7-f4f8-fbe8-a5eeae84fda4/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -3217,17 +3228,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/81512",
       "image": "https://www.artic.edu/iiif/2/1c2d32a7-790c-501a-e124-00f28cf5052d/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-97910",
-      "title": "The Advance-Guard, or The Military Sacrifice (The Ambush)",
-      "artist": "Frederic Remington",
-      "year": 1890,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/97910",
-      "image": "https://www.artic.edu/iiif/2/f1e03813-f9c7-f4f8-fbe8-a5eeae84fda4/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -5387,6 +5387,17 @@
       "wikiUrl": null
     },
     {
+      "id": "cma-143771",
+      "title": "ニューハンプシャー州ワシントン山",
+      "artist": "Jasper F. Cropsey",
+      "year": 1870,
+      "century": "18〜19世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/1968.209",
+      "image": "https://openaccess-cdn.clevelandart.org/1968.209/1968.209_web.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "cma-104793",
       "title": "ニューポートの荒々しい海岸",
       "artist": "Homer Dodge Martin",
@@ -6077,17 +6088,6 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/1938.39",
       "image": "https://openaccess-cdn.clevelandart.org/1938.39/1938.39_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-143771",
-      "title": "ニューハンプシャー州ワシントン山",
-      "artist": "Jasper F. Cropsey",
-      "year": 1870,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1968.209",
-      "image": "https://openaccess-cdn.clevelandart.org/1968.209/1968.209_web.jpg",
       "wikiUrl": null
     },
     {
