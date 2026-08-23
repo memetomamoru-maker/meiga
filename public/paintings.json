@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-22T00:34:56.007Z",
+  "generated": "2026-08-23T00:38:10.838Z",
   "total": 907,
   "sources": {
     "artic": 356,
@@ -525,17 +525,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-81572",
-      "title": "トルーヴィル（グレーと緑、銀の海）",
-      "artist": "ジェームズ・マクニール・ホイッスラー",
-      "year": 1865,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/81572",
-      "image": "https://www.artic.edu/iiif/2/37f802ca-7831-14d6-82c6-060d825baabd/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-2848",
       "title": "ボヘミアン生活の一場面",
       "artist": "ジェームズ・マクニール・ホイッスラー",
@@ -555,6 +544,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/111478",
       "image": "https://www.artic.edu/iiif/2/f9aacbc6-191c-3725-85bf-198612a51d25/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-81572",
+      "title": "トルーヴィル（グレーと緑、銀の海）",
+      "artist": "ジェームズ・マクニール・ホイッスラー",
+      "year": 1865,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/81572",
+      "image": "https://www.artic.edu/iiif/2/37f802ca-7831-14d6-82c6-060d825baabd/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1581,17 +1581,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-79349",
-      "title": "The Drinkers",
-      "artist": "フィンセント・ファン・ゴッホ",
-      "year": 1890,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/79349",
-      "image": "https://www.artic.edu/iiif/2/107958b1-8367-df7c-be17-bb3a076479d8/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-44739",
       "title": "娘に口述するミルトン",
       "artist": "Henry Fuseli",
@@ -1724,17 +1713,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-16584",
-      "title": "ロンドン、国会議事堂",
-      "artist": "クロード・モネ",
-      "year": 1901,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/16584",
-      "image": "https://www.artic.edu/iiif/2/03930df3-1e6c-eeca-8660-c0b22ca477ff/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-14572",
       "title": "帽子屋",
       "artist": "エドガー・ドガ",
@@ -1743,6 +1721,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/14572",
       "image": "https://www.artic.edu/iiif/2/6f513908-03cc-b974-633b-adfce56b7936/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-16584",
+      "title": "ロンドン、国会議事堂",
+      "artist": "クロード・モネ",
+      "year": 1901,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/16584",
+      "image": "https://www.artic.edu/iiif/2/03930df3-1e6c-eeca-8660-c0b22ca477ff/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1765,6 +1754,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/5848",
       "image": "https://www.artic.edu/iiif/2/aa870b0d-5a1b-660a-6dc6-56c12109cf6e/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-79349",
+      "title": "The Drinkers",
+      "artist": "フィンセント・ファン・ゴッホ",
+      "year": 1890,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/79349",
+      "image": "https://www.artic.edu/iiif/2/107958b1-8367-df7c-be17-bb3a076479d8/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
