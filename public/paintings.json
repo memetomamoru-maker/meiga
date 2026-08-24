@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-23T00:38:10.838Z",
+  "generated": "2026-08-24T00:37:03.234Z",
   "total": 907,
   "sources": {
     "artic": 356,
@@ -1669,17 +1669,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-84709",
-      "title": "Still Life with Game Fowl",
-      "artist": "Juan Sánchez Cotán",
-      "year": 1603,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/84709",
-      "image": "https://www.artic.edu/iiif/2/f2021182-1302-f76f-97f1-4e7850030e3b/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-44742",
       "title": "Are They Thinking about the Grape? (Pensent-ils au raisin?)",
       "artist": "François Boucher",
@@ -1702,6 +1691,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-84709",
+      "title": "Still Life with Game Fowl",
+      "artist": "Juan Sánchez Cotán",
+      "year": 1603,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/84709",
+      "image": "https://www.artic.edu/iiif/2/f2021182-1302-f76f-97f1-4e7850030e3b/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-81533",
       "title": "ロンシャンの競馬",
       "artist": "エドゥアール・マネ",
@@ -1713,17 +1713,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-14572",
-      "title": "帽子屋",
-      "artist": "エドガー・ドガ",
-      "year": 1886,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/14572",
-      "image": "https://www.artic.edu/iiif/2/6f513908-03cc-b974-633b-adfce56b7936/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-16584",
       "title": "ロンドン、国会議事堂",
       "artist": "クロード・モネ",
@@ -1732,6 +1721,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/16584",
       "image": "https://www.artic.edu/iiif/2/03930df3-1e6c-eeca-8660-c0b22ca477ff/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-14572",
+      "title": "帽子屋",
+      "artist": "エドガー・ドガ",
+      "year": 1886,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/14572",
+      "image": "https://www.artic.edu/iiif/2/6f513908-03cc-b974-633b-adfce56b7936/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2967,17 +2967,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-21934",
-      "title": "Kitchen Scene",
-      "artist": "ディエゴ・ベラスケス",
-      "year": 1622,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/21934",
-      "image": "https://www.artic.edu/iiif/2/68452725-eba5-06e3-46d2-50c678a5d672/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-16398",
       "title": "音楽の稽古",
       "artist": "Jacob Ochtervelt",
@@ -2986,6 +2975,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/16398",
       "image": "https://www.artic.edu/iiif/2/c6c6a21a-b985-35d9-b0ef-a2b798ad9fba/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-21934",
+      "title": "Kitchen Scene",
+      "artist": "ディエゴ・ベラスケス",
+      "year": 1622,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/21934",
+      "image": "https://www.artic.edu/iiif/2/68452725-eba5-06e3-46d2-50c678a5d672/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
