@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-27T05:35:40.128Z",
+  "generated": "2026-08-28T07:43:47.116Z",
   "total": 907,
   "sources": {
     "artic": 356,
@@ -1592,17 +1592,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-20579",
-      "title": "ヘラクレスとレルネーのヒュドラ",
-      "artist": "Gustave Moreau",
-      "year": 1876,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/20579",
-      "image": "https://www.artic.edu/iiif/2/2ae64c8a-266d-470a-a25a-c83127564636/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-44739",
       "title": "娘に口述するミルトン",
       "artist": "Henry Fuseli",
@@ -1611,6 +1600,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/44739",
       "image": "https://www.artic.edu/iiif/2/6006b9e7-567a-4fb8-34e2-a120886690fe/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-20579",
+      "title": "ヘラクレスとレルネーのヒュドラ",
+      "artist": "Gustave Moreau",
+      "year": 1876,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/20579",
+      "image": "https://www.artic.edu/iiif/2/2ae64c8a-266d-470a-a25a-c83127564636/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1658,17 +1658,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-16499",
-      "title": "兵士にあざけられるキリスト",
-      "artist": "エドゥアール・マネ",
-      "year": 1865,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/16499",
-      "image": "https://www.artic.edu/iiif/2/4d03ba14-a01a-d003-404a-cf3f9fb40ede/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-25865",
       "title": "ニシンの網",
       "artist": "ウィンスロー・ホーマー",
@@ -1680,25 +1669,14 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-84709",
-      "title": "Still Life with Game Fowl",
-      "artist": "Juan Sánchez Cotán",
-      "year": 1603,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/84709",
-      "image": "https://www.artic.edu/iiif/2/f2021182-1302-f76f-97f1-4e7850030e3b/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-44742",
-      "title": "Are They Thinking about the Grape? (Pensent-ils au raisin?)",
-      "artist": "François Boucher",
-      "year": 1747,
+      "id": "artic-16499",
+      "title": "兵士にあざけられるキリスト",
+      "artist": "エドゥアール・マネ",
+      "year": 1865,
       "century": "18〜19世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/44742",
-      "image": "https://www.artic.edu/iiif/2/12662645-5164-4bb1-cfec-3517a4c9779c/full/843,/0/default.jpg",
+      "museumUrl": "https://www.artic.edu/artworks/16499",
+      "image": "https://www.artic.edu/iiif/2/4d03ba14-a01a-d003-404a-cf3f9fb40ede/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1713,6 +1691,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-84709",
+      "title": "Still Life with Game Fowl",
+      "artist": "Juan Sánchez Cotán",
+      "year": 1603,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/84709",
+      "image": "https://www.artic.edu/iiif/2/f2021182-1302-f76f-97f1-4e7850030e3b/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-81533",
       "title": "ロンシャンの競馬",
       "artist": "エドゥアール・マネ",
@@ -1721,6 +1710,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/81533",
       "image": "https://www.artic.edu/iiif/2/e9ce5aca-4c34-c8dd-b8a1-91b3e3197211/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-44742",
+      "title": "Are They Thinking about the Grape? (Pensent-ils au raisin?)",
+      "artist": "François Boucher",
+      "year": 1747,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/44742",
+      "image": "https://www.artic.edu/iiif/2/12662645-5164-4bb1-cfec-3517a4c9779c/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -3033,6 +3033,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-100191",
+      "title": "Stack of Wheat (Thaw, Sunset)",
+      "artist": "クロード・モネ",
+      "year": 1891,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/100191",
+      "image": "https://www.artic.edu/iiif/2/8bd40b36-43ea-8b02-d76a-b325962b86db/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-18951",
       "title": "Yellow Dancers (In the Wings)",
       "artist": "エドガー・ドガ",
@@ -3063,17 +3074,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/59927",
       "image": "https://www.artic.edu/iiif/2/eaf98472-70cc-0005-c2c9-6109f549f24a/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-100191",
-      "title": "Stack of Wheat (Thaw, Sunset)",
-      "artist": "クロード・モネ",
-      "year": 1891,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/100191",
-      "image": "https://www.artic.edu/iiif/2/8bd40b36-43ea-8b02-d76a-b325962b86db/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -7290,6 +7290,17 @@
       "wikiUrl": null
     },
     {
+      "id": "cma-81391",
+      "title": "Drying the Linen, or Moonrise at the Priory",
+      "artist": "Maurice Denis",
+      "year": 1894,
+      "century": "18〜19世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/2020.109",
+      "image": "https://openaccess-cdn.clevelandart.org/2020.109/2020.109_web.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "cma-95259",
       "title": "Greek Cavalry Men Resting in Forest",
       "artist": "ウジェーヌ・ドラクロワ",
@@ -7430,6 +7441,17 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/1945.25",
       "image": "https://openaccess-cdn.clevelandart.org/1945.25/1945.25_web.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "cma-75763",
+      "title": "Procession or Pardon at Perros-Guirec",
+      "artist": "Maurice Denis",
+      "year": 1891,
+      "century": "18〜19世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/2020.108",
+      "image": "https://openaccess-cdn.clevelandart.org/2020.108/2020.108_web.jpg",
       "wikiUrl": null
     },
     {
@@ -7653,6 +7675,17 @@
       "wikiUrl": null
     },
     {
+      "id": "cma-162397",
+      "title": "Eva Meurier in a Green Dress",
+      "artist": "Maurice Denis",
+      "year": 1891,
+      "century": "18〜19世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/2002.92",
+      "image": "https://openaccess-cdn.clevelandart.org/2002.92/2002.92_web.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "cma-95275",
       "title": "Willows and Farmhouse at Sainte-Catherine-lès-Arras",
       "artist": "Jean Baptiste Camille Corot",
@@ -7840,17 +7873,6 @@
       "wikiUrl": null
     },
     {
-      "id": "cma-162195",
-      "title": "Aurora and Cephalus",
-      "artist": "Anne-Louis Girodet de Roucy-Trioson",
-      "year": 1805,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/2002.101",
-      "image": "https://openaccess-cdn.clevelandart.org/2002.101/2002.101_web.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "cma-83635",
       "title": "Breton Landscape",
       "artist": "Jan Verkade",
@@ -7859,6 +7881,17 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/2020.117",
       "image": "https://openaccess-cdn.clevelandart.org/2020.117/2020.117_web.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "cma-162195",
+      "title": "Aurora and Cephalus",
+      "artist": "Anne-Louis Girodet de Roucy-Trioson",
+      "year": 1805,
+      "century": "18〜19世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/2002.101",
+      "image": "https://openaccess-cdn.clevelandart.org/2002.101/2002.101_web.jpg",
       "wikiUrl": null
     },
     {
@@ -7903,17 +7936,6 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/1949.189",
       "image": "https://openaccess-cdn.clevelandart.org/1949.189/1949.189_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-81391",
-      "title": "Drying the Linen, or Moonrise at the Priory",
-      "artist": "Maurice Denis",
-      "year": 1894,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/2020.109",
-      "image": "https://openaccess-cdn.clevelandart.org/2020.109/2020.109_web.jpg",
       "wikiUrl": null
     },
     {
@@ -8126,17 +8148,6 @@
       "wikiUrl": null
     },
     {
-      "id": "cma-75763",
-      "title": "Procession or Pardon at Perros-Guirec",
-      "artist": "Maurice Denis",
-      "year": 1891,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/2020.108",
-      "image": "https://openaccess-cdn.clevelandart.org/2020.108/2020.108_web.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "cma-95263",
       "title": "Queen Mab's Cave",
       "artist": "Joseph Mallord William Turner",
@@ -8280,6 +8291,17 @@
       "wikiUrl": null
     },
     {
+      "id": "cma-84732",
+      "title": "Woman in Profile",
+      "artist": "Henri Jean Guillaume Martin",
+      "year": 1880,
+      "century": "18〜19世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/2022.433",
+      "image": "https://openaccess-cdn.clevelandart.org/2022.433/2022.433_web.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "cma-150024",
       "title": "Bacchante on a Panther",
       "artist": "William Adolphe Bouguereau",
@@ -8401,17 +8423,6 @@
       "wikiUrl": null
     },
     {
-      "id": "cma-162397",
-      "title": "Eva Meurier in a Green Dress",
-      "artist": "Maurice Denis",
-      "year": 1891,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/2002.92",
-      "image": "https://openaccess-cdn.clevelandart.org/2002.92/2002.92_web.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "cma-84371",
       "title": "The Pink Cloud",
       "artist": "Henri-Edmond Cross",
@@ -8475,6 +8486,17 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/1982.125",
       "image": "https://openaccess-cdn.clevelandart.org/1982.125/1982.125_web.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "cma-142659",
+      "title": "The Cliffs at Beg-ar-Fry, Saint-Jean-du-Doigt",
+      "artist": "Maxime Maufra",
+      "year": 1895,
+      "century": "18〜19世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/1966.382",
+      "image": "https://openaccess-cdn.clevelandart.org/1966.382/1966.382_web.jpg",
       "wikiUrl": null
     },
     {
@@ -8797,17 +8819,6 @@
       "wikiUrl": null
     },
     {
-      "id": "cma-84732",
-      "title": "Woman in Profile",
-      "artist": "Henri Jean Guillaume Martin",
-      "year": 1880,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/2022.433",
-      "image": "https://openaccess-cdn.clevelandart.org/2022.433/2022.433_web.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "cma-84731",
       "title": "Women Meeting in the Shade",
       "artist": "Ker Xavier Roussel",
@@ -8885,17 +8896,6 @@
       "wikiUrl": null
     },
     {
-      "id": "cma-142659",
-      "title": "The Cliffs at Beg-ar-Fry, Saint-Jean-du-Doigt",
-      "artist": "Maxime Maufra",
-      "year": 1895,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1966.382",
-      "image": "https://openaccess-cdn.clevelandart.org/1966.382/1966.382_web.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "cma-150045",
       "title": "Cobbler's Quarters",
       "artist": "Jean-Alphonse Duplessy",
@@ -8918,17 +8918,6 @@
       "wikiUrl": null
     },
     {
-      "id": "cma-148968",
-      "title": "In the Forest",
-      "artist": "Célestin François Nanteuil",
-      "year": 1841,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1977.125",
-      "image": "https://openaccess-cdn.clevelandart.org/1977.125/1977.125_web.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "cma-96328",
       "title": "Portrait of Benjamin West",
       "artist": "Thomas Lawrence",
@@ -8937,6 +8926,17 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/1916.2059",
       "image": "https://openaccess-cdn.clevelandart.org/1916.2059/1916.2059_web.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "cma-148968",
+      "title": "In the Forest",
+      "artist": "Célestin François Nanteuil",
+      "year": 1841,
+      "century": "18〜19世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/1977.125",
+      "image": "https://openaccess-cdn.clevelandart.org/1977.125/1977.125_web.jpg",
       "wikiUrl": null
     },
     {
