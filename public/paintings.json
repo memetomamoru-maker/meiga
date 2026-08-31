@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-30T02:13:58.440Z",
+  "generated": "2026-08-31T02:09:18.140Z",
   "total": 907,
   "sources": {
     "artic": 356,
@@ -272,6 +272,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-15468",
+      "title": "聖ゲオルギウスと龍",
+      "artist": "Bernat Martorell",
+      "year": 1435,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/15468",
+      "image": "https://www.artic.edu/iiif/2/8a0e4ac9-43ea-bc3e-884b-ee27f8a10501/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-111377",
       "title": "日曜日の夕食のために",
       "artist": "William Michael Harnett",
@@ -357,17 +368,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/61141",
       "image": "https://www.artic.edu/iiif/2/5522b060-d700-cd12-de83-0ebf1161c656/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-15468",
-      "title": "聖ゲオルギウスと龍",
-      "artist": "Bernat Martorell",
-      "year": 1435,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/15468",
-      "image": "https://www.artic.edu/iiif/2/8a0e4ac9-43ea-bc3e-884b-ee27f8a10501/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -525,6 +525,28 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-84088",
+      "title": "紫と銀——深海",
+      "artist": "ジェームズ・マクニール・ホイッスラー",
+      "year": 1893,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/84088",
+      "image": "https://www.artic.edu/iiif/2/5f663d6c-0121-a8ca-e875-896d9857a3f3/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-81574",
+      "title": "グレーと銀：バタシーの渡し場",
+      "artist": "ジェームズ・マクニール・ホイッスラー",
+      "year": 1863,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/81574",
+      "image": "https://www.artic.edu/iiif/2/f0b3ff64-d68e-3fd2-ffc9-5470eb9fea6e/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-2848",
       "title": "ボヘミアン生活の一場面",
       "artist": "ジェームズ・マクニール・ホイッスラー",
@@ -544,17 +566,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/111478",
       "image": "https://www.artic.edu/iiif/2/f9aacbc6-191c-3725-85bf-198612a51d25/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-81574",
-      "title": "グレーと銀：バタシーの渡し場",
-      "artist": "ジェームズ・マクニール・ホイッスラー",
-      "year": 1863,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/81574",
-      "image": "https://www.artic.edu/iiif/2/f0b3ff64-d68e-3fd2-ffc9-5470eb9fea6e/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -621,17 +632,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/113084",
       "image": "https://www.artic.edu/iiif/2/f31bbec3-0228-ab8e-ce4a-2029cd5f654f/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-84088",
-      "title": "紫と銀——深海",
-      "artist": "ジェームズ・マクニール・ホイッスラー",
-      "year": 1893,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/84088",
-      "image": "https://www.artic.edu/iiif/2/5f663d6c-0121-a8ca-e875-896d9857a3f3/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -712,17 +712,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-61128",
-      "title": "ムーラン・ルージュにて",
-      "artist": "アンリ・ド・トゥールーズ＝ロートレック",
-      "year": 1895,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/61128",
-      "image": "https://www.artic.edu/iiif/2/defb4004-b500-218d-3d9b-9a02423f097d/full/843,/0/default.jpg",
-      "wikiUrl": "https://ja.wikipedia.org/wiki/ムーラン・ルージュにて"
-    },
-    {
       "id": "artic-25743",
       "title": "東方三博士の礼拝",
       "artist": "Attributed to Raffaello Botticini",
@@ -732,6 +721,17 @@
       "museumUrl": "https://www.artic.edu/artworks/25743",
       "image": "https://www.artic.edu/iiif/2/24c1565b-f22d-fb73-4a7f-f35bcb3dcc09/full/843,/0/default.jpg",
       "wikiUrl": null
+    },
+    {
+      "id": "artic-61128",
+      "title": "ムーラン・ルージュにて",
+      "artist": "アンリ・ド・トゥールーズ＝ロートレック",
+      "year": 1895,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/61128",
+      "image": "https://www.artic.edu/iiif/2/defb4004-b500-218d-3d9b-9a02423f097d/full/843,/0/default.jpg",
+      "wikiUrl": "https://ja.wikipedia.org/wiki/ムーラン・ルージュにて"
     },
     {
       "id": "artic-145677",
@@ -1020,6 +1020,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-144467",
+      "title": "ダイフェンドレヒト近郊の農場",
+      "artist": "Piet Mondrian",
+      "year": 1921,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/144467",
+      "image": "https://www.artic.edu/iiif/2/b8ca5039-1d0c-648d-ad46-838ecea3e14c/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-181460",
       "title": "昼（真実）",
       "artist": "Ferdinand Hodler",
@@ -1042,14 +1053,80 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-144467",
-      "title": "ダイフェンドレヒト近郊の農場",
+      "id": "artic-64001",
+      "title": "りんご",
+      "artist": "Henri Matisse",
+      "year": 1916,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/64001",
+      "image": "https://www.artic.edu/iiif/2/b2bc0fc2-8d17-1fcd-8cae-8626421c11ef/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-27281",
+      "title": "ポンパドゥール夫人",
+      "artist": "Amedeo Modigliani",
+      "year": 1915,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/27281",
+      "image": "https://www.artic.edu/iiif/2/fdc1a755-ff86-487d-f16b-f03c40a30bee/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-111442",
+      "title": "子供の入浴",
+      "artist": "メアリー・カサット",
+      "year": 1893,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/111442",
+      "image": "https://www.artic.edu/iiif/2/3b885ae0-4d46-5fe4-d70a-00474827f02c/full/843,/0/default.jpg",
+      "wikiUrl": "https://ja.wikipedia.org/wiki/子供の入浴_(カサット)"
+    },
+    {
+      "id": "artic-109819",
+      "title": "黄色・黒・青・赤・灰色の菱形コンポジション",
       "artist": "Piet Mondrian",
       "year": 1921,
       "century": "20世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/144467",
-      "image": "https://www.artic.edu/iiif/2/b8ca5039-1d0c-648d-ad46-838ecea3e14c/full/843,/0/default.jpg",
+      "museumUrl": "https://www.artic.edu/artworks/109819",
+      "image": "https://www.artic.edu/iiif/2/25f660ee-f1db-d13b-42a5-56df97c98ba7/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-8991",
+      "title": "即興第30番（大砲）",
+      "artist": "Vasily Kandinsky",
+      "year": 1913,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/8991",
+      "image": "https://www.artic.edu/iiif/2/b5bc6b66-9e6e-fe57-dcec-fc49e820e904/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-191183",
+      "title": "Madame Paul Escudier (Louise Lefevre)",
+      "artist": "ジョン・シンガー・サージェント",
+      "year": 1882,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/191183",
+      "image": "https://www.artic.edu/iiif/2/c6da9f8c-643b-f331-0f8f-a9b6a844caf6/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-69780",
+      "title": "イタリア、フラスカーティのヴィラ・トルロニアの噴水",
+      "artist": "ジョン・シンガー・サージェント",
+      "year": 1907,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/69780",
+      "image": "https://www.artic.edu/iiif/2/3f9aa9db-61e1-7060-fdb0-bfd7e41ddd08/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1086,17 +1163,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-111442",
-      "title": "子供の入浴",
-      "artist": "メアリー・カサット",
-      "year": 1893,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/111442",
-      "image": "https://www.artic.edu/iiif/2/3b885ae0-4d46-5fe4-d70a-00474827f02c/full/843,/0/default.jpg",
-      "wikiUrl": "https://ja.wikipedia.org/wiki/子供の入浴_(カサット)"
-    },
-    {
       "id": "artic-154235",
       "title": "窓辺の少女",
       "artist": "Edvard Munch",
@@ -1128,17 +1194,6 @@
       "museumUrl": "https://www.artic.edu/artworks/14655",
       "image": "https://www.artic.edu/iiif/2/3a608f55-d76e-fa96-d0b1-0789fbc48f1e/full/843,/0/default.jpg",
       "wikiUrl": "https://ja.wikipedia.org/wiki/二人の姉妹_(ルノワール)"
-    },
-    {
-      "id": "artic-69780",
-      "title": "イタリア、フラスカーティのヴィラ・トルロニアの噴水",
-      "artist": "ジョン・シンガー・サージェント",
-      "year": 1907,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/69780",
-      "image": "https://www.artic.edu/iiif/2/3f9aa9db-61e1-7060-fdb0-bfd7e41ddd08/full/843,/0/default.jpg",
-      "wikiUrl": null
     },
     {
       "id": "artic-64818",
@@ -1185,28 +1240,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-8991",
-      "title": "即興第30番（大砲）",
-      "artist": "Vasily Kandinsky",
-      "year": 1913,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/8991",
-      "image": "https://www.artic.edu/iiif/2/b5bc6b66-9e6e-fe57-dcec-fc49e820e904/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-109819",
-      "title": "黄色・黒・青・赤・灰色の菱形コンポジション",
-      "artist": "Piet Mondrian",
-      "year": 1921,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/109819",
-      "image": "https://www.artic.edu/iiif/2/25f660ee-f1db-d13b-42a5-56df97c98ba7/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-14620",
       "title": "プールヴィルの断崖の散歩道",
       "artist": "クロード・モネ",
@@ -1240,17 +1273,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-191183",
-      "title": "Madame Paul Escudier (Louise Lefevre)",
-      "artist": "ジョン・シンガー・サージェント",
-      "year": 1882,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/191183",
-      "image": "https://www.artic.edu/iiif/2/c6da9f8c-643b-f331-0f8f-a9b6a844caf6/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-94840",
       "title": "半開きの扉のそばの若い女性",
       "artist": "レンブラント・ファン・レイン",
@@ -1270,17 +1292,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/100351",
       "image": "https://www.artic.edu/iiif/2/488e2088-06a5-6811-78b4-56d736a25019/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-64001",
-      "title": "りんご",
-      "artist": "Henri Matisse",
-      "year": 1916,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/64001",
-      "image": "https://www.artic.edu/iiif/2/b2bc0fc2-8d17-1fcd-8cae-8626421c11ef/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1413,17 +1424,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/876",
       "image": "https://www.artic.edu/iiif/2/3ef69544-a84c-dfa4-df6a-346b4b59c351/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-27281",
-      "title": "ポンパドゥール夫人",
-      "artist": "Amedeo Modigliani",
-      "year": 1915,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/27281",
-      "image": "https://www.artic.edu/iiif/2/fdc1a755-ff86-487d-f16b-f03c40a30bee/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1581,6 +1581,39 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-65916",
+      "title": "動き",
+      "artist": "Marsden Hartley",
+      "year": 1913,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/65916",
+      "image": "https://www.artic.edu/iiif/2/173ec65a-bc7e-067c-fed1-1677bf5f26a9/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-8980",
+      "title": "二本のポプラのある風景",
+      "artist": "Vasily Kandinsky",
+      "year": 1912,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/8980",
+      "image": "https://www.artic.edu/iiif/2/9694ca0c-c4c4-e48d-566f-4d248990cff4/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-87643",
+      "title": "墓の前の二人の弟子",
+      "artist": "Henry Ossawa Tanner",
+      "year": 1906,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/87643",
+      "image": "https://www.artic.edu/iiif/2/46ff0699-8905-a7d7-92f3-5210c2cc5e51/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-79349",
       "title": "The Drinkers",
       "artist": "フィンセント・ファン・ゴッホ",
@@ -1622,17 +1655,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/193664",
       "image": "https://www.artic.edu/iiif/2/5490fd49-dd52-4fd7-7d41-d871dcffae55/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-87643",
-      "title": "墓の前の二人の弟子",
-      "artist": "Henry Ossawa Tanner",
-      "year": 1906,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/87643",
-      "image": "https://www.artic.edu/iiif/2/46ff0699-8905-a7d7-92f3-5210c2cc5e51/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1988,28 +2010,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-65916",
-      "title": "動き",
-      "artist": "Marsden Hartley",
-      "year": 1913,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/65916",
-      "image": "https://www.artic.edu/iiif/2/173ec65a-bc7e-067c-fed1-1677bf5f26a9/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-8980",
-      "title": "二本のポプラのある風景",
-      "artist": "Vasily Kandinsky",
-      "year": 1912,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/8980",
-      "image": "https://www.artic.edu/iiif/2/9694ca0c-c4c4-e48d-566f-4d248990cff4/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-109314",
       "title": "Fishing in Spring, the Pont de Clichy (Asnières)",
       "artist": "フィンセント・ファン・ゴッホ",
@@ -2117,6 +2117,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/44017",
       "image": "https://www.artic.edu/iiif/2/c4648834-49dd-3589-6ac3-66d41fd574ef/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-4749",
+      "title": "ジョージ・スウィントン夫人（エリザベス・エブズワース）",
+      "artist": "ジョン・シンガー・サージェント",
+      "year": 1897,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/4749",
+      "image": "https://www.artic.edu/iiif/2/074c1b1b-fe92-01ce-9e62-cc99369142dd/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2260,17 +2271,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/62371",
       "image": "https://www.artic.edu/iiif/2/4822cd01-44ac-041a-36b8-c0542377b750/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-4749",
-      "title": "ジョージ・スウィントン夫人（エリザベス・エブズワース）",
-      "artist": "ジョン・シンガー・サージェント",
-      "year": 1897,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/4749",
-      "image": "https://www.artic.edu/iiif/2/074c1b1b-fe92-01ce-9e62-cc99369142dd/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2670,6 +2670,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-867",
+      "title": "衛兵所",
+      "artist": "David Teniers the Younger",
+      "year": 1650,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/867",
+      "image": "https://www.artic.edu/iiif/2/18adfd19-6c76-989e-36ae-1343aa15701b/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-100342",
       "title": "Saint Francis",
       "artist": "ピーテル・パウル・ルーベンス",
@@ -2857,17 +2868,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-867",
-      "title": "衛兵所",
-      "artist": "David Teniers the Younger",
-      "year": 1650,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/867",
-      "image": "https://www.artic.edu/iiif/2/18adfd19-6c76-989e-36ae-1343aa15701b/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-21682",
       "title": "静物",
       "artist": "Pieter Claesz",
@@ -2920,6 +2920,61 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/16484",
       "image": "https://www.artic.edu/iiif/2/9acdda40-25d6-1df9-939a-93ca898e9667/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-26650",
+      "title": "On a Balcony",
+      "artist": "メアリー・カサット",
+      "year": 1879,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/26650",
+      "image": "https://www.artic.edu/iiif/2/f0150d21-33ab-f6ea-0d4d-32d459f091fe/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-65821",
+      "title": "Composition (No. 1) Gray-Red",
+      "artist": "Piet Mondrian",
+      "year": 1935,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/65821",
+      "image": "https://www.artic.edu/iiif/2/254c654f-354a-0f4f-28b5-8eb01a02e95c/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-8987",
+      "title": "Painting with Green Center",
+      "artist": "Vasily Kandinsky",
+      "year": 1913,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/8987",
+      "image": "https://www.artic.edu/iiif/2/c68f33ec-feb1-5277-334b-b71ac15ae394/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-80499",
+      "title": "Dorothea and Francesca",
+      "artist": "Cecilia Beaux",
+      "year": 1898,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/80499",
+      "image": "https://www.artic.edu/iiif/2/ed1b3063-8ce3-d4bc-50cb-b96f13f015e2/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-44018",
+      "title": "Croquet Scene",
+      "artist": "ウィンスロー・ホーマー",
+      "year": 1866,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/44018",
+      "image": "https://www.artic.edu/iiif/2/f7b2db45-f393-653c-07ef-84319b0cdb92/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -3019,17 +3074,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/76571",
       "image": "https://www.artic.edu/iiif/2/33fc29fc-097b-576b-c9e6-c3352d9d3f15/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-26650",
-      "title": "On a Balcony",
-      "artist": "メアリー・カサット",
-      "year": 1879,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/26650",
-      "image": "https://www.artic.edu/iiif/2/f0150d21-33ab-f6ea-0d4d-32d459f091fe/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -3198,17 +3242,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-80499",
-      "title": "Dorothea and Francesca",
-      "artist": "Cecilia Beaux",
-      "year": 1898,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/80499",
-      "image": "https://www.artic.edu/iiif/2/ed1b3063-8ce3-d4bc-50cb-b96f13f015e2/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-5349",
       "title": "ニューイングランドの岬",
       "artist": "Childe Hassam",
@@ -3228,17 +3261,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/81512",
       "image": "https://www.artic.edu/iiif/2/1c2d32a7-790c-501a-e124-00f28cf5052d/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-44018",
-      "title": "Croquet Scene",
-      "artist": "ウィンスロー・ホーマー",
-      "year": 1866,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/44018",
-      "image": "https://www.artic.edu/iiif/2/f7b2db45-f393-653c-07ef-84319b0cdb92/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -3264,17 +3286,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-8987",
-      "title": "Painting with Green Center",
-      "artist": "Vasily Kandinsky",
-      "year": 1913,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/8987",
-      "image": "https://www.artic.edu/iiif/2/c68f33ec-feb1-5277-334b-b71ac15ae394/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-81505",
       "title": "Lion Hunt",
       "artist": "ウジェーヌ・ドラクロワ",
@@ -3283,17 +3294,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/81505",
       "image": "https://www.artic.edu/iiif/2/1299b0e5-6a3d-8039-087b-35bf03caea1a/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-65821",
-      "title": "Composition (No. 1) Gray-Red",
-      "artist": "Piet Mondrian",
-      "year": 1935,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/65821",
-      "image": "https://www.artic.edu/iiif/2/254c654f-354a-0f4f-28b5-8eb01a02e95c/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -3415,6 +3415,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/93394",
       "image": "https://www.artic.edu/iiif/2/a5274397-409c-1f76-866f-17d55cf31933/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-27987",
+      "title": "ジャック・リプシッツとベルト・リプシッツ",
+      "artist": "Amedeo Modigliani",
+      "year": 1916,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/27987",
+      "image": "https://www.artic.edu/iiif/2/7e649536-b186-c3f5-3e6d-0d22d5d798ef/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -3569,17 +3580,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/111623",
       "image": "https://www.artic.edu/iiif/2/4339f21a-5a1c-8f40-931c-32686eefd8d5/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-27987",
-      "title": "ジャック・リプシッツとベルト・リプシッツ",
-      "artist": "Amedeo Modigliani",
-      "year": 1916,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/27987",
-      "image": "https://www.artic.edu/iiif/2/7e649536-b186-c3f5-3e6d-0d22d5d798ef/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
