@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-31T02:09:18.140Z",
+  "generated": "2026-09-01T02:29:12.579Z",
   "total": 907,
   "sources": {
     "artic": 356,
@@ -525,17 +525,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-84088",
-      "title": "紫と銀——深海",
-      "artist": "ジェームズ・マクニール・ホイッスラー",
-      "year": 1893,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/84088",
-      "image": "https://www.artic.edu/iiif/2/5f663d6c-0121-a8ca-e875-896d9857a3f3/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-81574",
       "title": "グレーと銀：バタシーの渡し場",
       "artist": "ジェームズ・マクニール・ホイッスラー",
@@ -544,6 +533,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/81574",
       "image": "https://www.artic.edu/iiif/2/f0b3ff64-d68e-3fd2-ffc9-5470eb9fea6e/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-84088",
+      "title": "紫と銀——深海",
+      "artist": "ジェームズ・マクニール・ホイッスラー",
+      "year": 1893,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/84088",
+      "image": "https://www.artic.edu/iiif/2/5f663d6c-0121-a8ca-e875-896d9857a3f3/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1053,6 +1053,28 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-111442",
+      "title": "子供の入浴",
+      "artist": "メアリー・カサット",
+      "year": 1893,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/111442",
+      "image": "https://www.artic.edu/iiif/2/3b885ae0-4d46-5fe4-d70a-00474827f02c/full/843,/0/default.jpg",
+      "wikiUrl": "https://ja.wikipedia.org/wiki/子供の入浴_(カサット)"
+    },
+    {
+      "id": "artic-8991",
+      "title": "即興第30番（大砲）",
+      "artist": "Vasily Kandinsky",
+      "year": 1913,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/8991",
+      "image": "https://www.artic.edu/iiif/2/b5bc6b66-9e6e-fe57-dcec-fc49e820e904/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-64001",
       "title": "りんご",
       "artist": "Henri Matisse",
@@ -1075,17 +1097,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-111442",
-      "title": "子供の入浴",
-      "artist": "メアリー・カサット",
-      "year": 1893,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/111442",
-      "image": "https://www.artic.edu/iiif/2/3b885ae0-4d46-5fe4-d70a-00474827f02c/full/843,/0/default.jpg",
-      "wikiUrl": "https://ja.wikipedia.org/wiki/子供の入浴_(カサット)"
-    },
-    {
       "id": "artic-109819",
       "title": "黄色・黒・青・赤・灰色の菱形コンポジション",
       "artist": "Piet Mondrian",
@@ -1094,17 +1105,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/109819",
       "image": "https://www.artic.edu/iiif/2/25f660ee-f1db-d13b-42a5-56df97c98ba7/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-8991",
-      "title": "即興第30番（大砲）",
-      "artist": "Vasily Kandinsky",
-      "year": 1913,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/8991",
-      "image": "https://www.artic.edu/iiif/2/b5bc6b66-9e6e-fe57-dcec-fc49e820e904/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1614,6 +1614,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-27949",
+      "title": "ゆりかごを揺らすルーラン夫人",
+      "artist": "フィンセント・ファン・ゴッホ",
+      "year": 1889,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/27949",
+      "image": "https://www.artic.edu/iiif/2/6f3ca8b9-fef6-edfc-a71c-3e7b471d5f6c/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-79349",
       "title": "The Drinkers",
       "artist": "フィンセント・ファン・ゴッホ",
@@ -2029,17 +2040,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/28862",
       "image": "https://www.artic.edu/iiif/2/1d3a275d-45dd-6026-b6ed-d7d8df417a3d/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-27949",
-      "title": "ゆりかごを揺らすルーラン夫人",
-      "artist": "フィンセント・ファン・ゴッホ",
-      "year": 1889,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/27949",
-      "image": "https://www.artic.edu/iiif/2/6f3ca8b9-fef6-edfc-a71c-3e7b471d5f6c/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2934,17 +2934,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-65821",
-      "title": "Composition (No. 1) Gray-Red",
-      "artist": "Piet Mondrian",
-      "year": 1935,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/65821",
-      "image": "https://www.artic.edu/iiif/2/254c654f-354a-0f4f-28b5-8eb01a02e95c/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-8987",
       "title": "Painting with Green Center",
       "artist": "Vasily Kandinsky",
@@ -2953,6 +2942,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/8987",
       "image": "https://www.artic.edu/iiif/2/c68f33ec-feb1-5277-334b-b71ac15ae394/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-65821",
+      "title": "Composition (No. 1) Gray-Red",
+      "artist": "Piet Mondrian",
+      "year": 1935,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/65821",
+      "image": "https://www.artic.edu/iiif/2/254c654f-354a-0f4f-28b5-8eb01a02e95c/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -5046,6 +5046,17 @@
       "wikiUrl": null
     },
     {
+      "id": "cma-97770",
+      "title": "The Blue Feather",
+      "artist": "William J. Edmondson",
+      "year": 1917,
+      "century": "20世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/1917.400",
+      "image": "https://openaccess-cdn.clevelandart.org/1917.400/1917.400_web.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "cma-97421",
       "title": "\"Old Pat,\" The Independent Beggar",
       "artist": "Samuel Lovett Waldo",
@@ -5087,6 +5098,28 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/1945.38",
       "image": "https://openaccess-cdn.clevelandart.org/1945.38/1945.38_web.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "cma-145298",
+      "title": "Winged Fortune",
+      "artist": "William Morris Hunt",
+      "year": 1878,
+      "century": "18〜19世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/1970.54",
+      "image": "https://openaccess-cdn.clevelandart.org/1970.54/1970.54_web.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "cma-139815",
+      "title": "湖の眺め",
+      "artist": "Thomas Doughty",
+      "year": 1830,
+      "century": "18〜19世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/1963.574",
+      "image": "https://openaccess-cdn.clevelandart.org/1963.574/1963.574_web.jpg",
       "wikiUrl": null
     },
     {
@@ -5233,17 +5266,6 @@
       "wikiUrl": null
     },
     {
-      "id": "cma-173181",
-      "title": "Autumn Scene in the Adirondacks",
-      "artist": "William Hart",
-      "year": 1877,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1915.685",
-      "image": "https://openaccess-cdn.clevelandart.org/1915.685/1915.685_web.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "cma-95288",
       "title": "The Blessed Mother",
       "artist": "George Hitchcock",
@@ -5252,6 +5274,17 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/1916.1057",
       "image": "https://openaccess-cdn.clevelandart.org/1916.1057/1916.1057_web.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "cma-173181",
+      "title": "Autumn Scene in the Adirondacks",
+      "artist": "William Hart",
+      "year": 1877,
+      "century": "18〜19世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/1915.685",
+      "image": "https://openaccess-cdn.clevelandart.org/1915.685/1915.685_web.jpg",
       "wikiUrl": null
     },
     {
@@ -5288,17 +5321,6 @@
       "wikiUrl": null
     },
     {
-      "id": "cma-97770",
-      "title": "The Blue Feather",
-      "artist": "William J. Edmondson",
-      "year": 1917,
-      "century": "20世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1917.400",
-      "image": "https://openaccess-cdn.clevelandart.org/1917.400/1917.400_web.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "cma-172929",
       "title": "George Washington",
       "artist": "作者不詳",
@@ -5332,6 +5354,17 @@
       "wikiUrl": null
     },
     {
+      "id": "cma-150968",
+      "title": "モミの木と嵐雲",
+      "artist": "アルバート・ビアスタット",
+      "year": 1865,
+      "century": "18〜19世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/1982.37",
+      "image": "https://openaccess-cdn.clevelandart.org/1982.37/1982.37_web.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "cma-171154",
       "title": "エズラ・ダヴェンポートの肖像",
       "artist": "Clarence Holbrook Carter",
@@ -5351,28 +5384,6 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/1919.1005",
       "image": "https://openaccess-cdn.clevelandart.org/1919.1005/1919.1005_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-145298",
-      "title": "Winged Fortune",
-      "artist": "William Morris Hunt",
-      "year": 1878,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1970.54",
-      "image": "https://openaccess-cdn.clevelandart.org/1970.54/1970.54_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-139815",
-      "title": "湖の眺め",
-      "artist": "Thomas Doughty",
-      "year": 1830,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1963.574",
-      "image": "https://openaccess-cdn.clevelandart.org/1963.574/1963.574_web.jpg",
       "wikiUrl": null
     },
     {
@@ -5868,17 +5879,6 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/1915.694",
       "image": "https://openaccess-cdn.clevelandart.org/1915.694/1915.694_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-150968",
-      "title": "モミの木と嵐雲",
-      "artist": "アルバート・ビアスタット",
-      "year": 1865,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1982.37",
-      "image": "https://openaccess-cdn.clevelandart.org/1982.37/1982.37_web.jpg",
       "wikiUrl": null
     },
     {
@@ -7015,17 +7015,6 @@
       "wikiUrl": null
     },
     {
-      "id": "cma-135185",
-      "title": "Mount Sainte-Victoire",
-      "artist": "Paul Cezanne",
-      "year": 1899,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1958.21",
-      "image": "https://openaccess-cdn.clevelandart.org/1958.21/1958.21_web.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "cma-121188",
       "title": "Romaine Lacaux",
       "artist": "ピエール＝オーギュスト・ルノワール",
@@ -7243,6 +7232,17 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/1951.358",
       "image": "https://openaccess-cdn.clevelandart.org/1951.358/1951.358_web.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "cma-135185",
+      "title": "Mount Sainte-Victoire",
+      "artist": "Paul Cezanne",
+      "year": 1899,
+      "century": "18〜19世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/1958.21",
+      "image": "https://openaccess-cdn.clevelandart.org/1958.21/1958.21_web.jpg",
       "wikiUrl": null
     },
     {
