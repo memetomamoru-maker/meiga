@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-09T02:00:03.229Z",
+  "generated": "2026-09-10T01:56:57.414Z",
   "total": 907,
   "sources": {
     "artic": 356,
@@ -1053,6 +1053,39 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-16571",
+      "title": "サン＝ラザール駅、ノルマンディー行き列車の到着",
+      "artist": "クロード・モネ",
+      "year": 1877,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/16571",
+      "image": "https://www.artic.edu/iiif/2/0f1cc0e0-e42e-be16-3f71-2022da38cb93/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-154235",
+      "title": "窓辺の少女",
+      "artist": "Edvard Munch",
+      "year": 1893,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/154235",
+      "image": "https://www.artic.edu/iiif/2/d7df2633-3b40-f570-c906-211503a37cde/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-100351",
+      "title": "オダリスク",
+      "artist": "Jules Joseph Lefebvre",
+      "year": 1874,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/100351",
+      "image": "https://www.artic.edu/iiif/2/488e2088-06a5-6811-78b4-56d736a25019/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-9021",
       "title": "魅惑の水車小屋",
       "artist": "Franz Marc",
@@ -1083,28 +1116,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/100476",
       "image": "https://www.artic.edu/iiif/2/16e53257-ade2-4f5d-3521-2bc9666bc4cf/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-154235",
-      "title": "窓辺の少女",
-      "artist": "Edvard Munch",
-      "year": 1893,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/154235",
-      "image": "https://www.artic.edu/iiif/2/d7df2633-3b40-f570-c906-211503a37cde/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-16571",
-      "title": "サン＝ラザール駅、ノルマンディー行き列車の到着",
-      "artist": "クロード・モネ",
-      "year": 1877,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/16571",
-      "image": "https://www.artic.edu/iiif/2/0f1cc0e0-e42e-be16-3f71-2022da38cb93/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1303,17 +1314,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/94840",
       "image": "https://www.artic.edu/iiif/2/91c51644-871f-cda9-82bb-94f4973ae339/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-100351",
-      "title": "オダリスク",
-      "artist": "Jules Joseph Lefebvre",
-      "year": 1874,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/100351",
-      "image": "https://www.artic.edu/iiif/2/488e2088-06a5-6811-78b4-56d736a25019/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2670,6 +2670,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-27764",
+      "title": "来たる嵐",
+      "artist": "Eugène-Louis Boudin",
+      "year": 1864,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/27764",
+      "image": "https://www.artic.edu/iiif/2/04cb7292-b20b-b313-2c08-19e685b70e7e/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-111649",
       "title": "イサクを献げるアブラハム",
       "artist": "David Teniers the Younger",
@@ -2744,17 +2755,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/81503",
       "image": "https://www.artic.edu/iiif/2/c4b0d9da-e89a-df7f-904a-9550697c11f5/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-27764",
-      "title": "来たる嵐",
-      "artist": "Eugène-Louis Boudin",
-      "year": 1864,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/27764",
-      "image": "https://www.artic.edu/iiif/2/04cb7292-b20b-b313-2c08-19e685b70e7e/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2920,6 +2920,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/16484",
       "image": "https://www.artic.edu/iiif/2/9acdda40-25d6-1df9-939a-93ca898e9667/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-21934",
+      "title": "Kitchen Scene",
+      "artist": "ディエゴ・ベラスケス",
+      "year": 1622,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/21934",
+      "image": "https://www.artic.edu/iiif/2/68452725-eba5-06e3-46d2-50c678a5d672/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -3129,17 +3140,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/16398",
       "image": "https://www.artic.edu/iiif/2/c6c6a21a-b985-35d9-b0ef-a2b798ad9fba/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-21934",
-      "title": "Kitchen Scene",
-      "artist": "ディエゴ・ベラスケス",
-      "year": 1622,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/21934",
-      "image": "https://www.artic.edu/iiif/2/68452725-eba5-06e3-46d2-50c678a5d672/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
