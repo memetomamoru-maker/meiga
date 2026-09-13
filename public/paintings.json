@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-12T01:59:52.233Z",
+  "generated": "2026-09-13T01:54:18.838Z",
   "total": 907,
   "sources": {
     "artic": 356,
@@ -1053,17 +1053,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-16487",
-      "title": "レスタックから見たマルセイユ湾",
-      "artist": "Paul Cezanne",
-      "year": 1890,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/16487",
-      "image": "https://www.artic.edu/iiif/2/d4ca6321-8656-3d3f-a362-2ee297b2b813/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-9021",
       "title": "魅惑の水車小屋",
       "artist": "Franz Marc",
@@ -1105,6 +1094,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/100476",
       "image": "https://www.artic.edu/iiif/2/16e53257-ade2-4f5d-3521-2bc9666bc4cf/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-16487",
+      "title": "レスタックから見たマルセイユ湾",
+      "artist": "Paul Cezanne",
+      "year": 1890,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/16487",
+      "image": "https://www.artic.edu/iiif/2/d4ca6321-8656-3d3f-a362-2ee297b2b813/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
