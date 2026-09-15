@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-14T02:11:53.394Z",
+  "generated": "2026-09-15T02:18:25.441Z",
   "total": 907,
   "sources": {
     "artic": 356,
@@ -1053,6 +1053,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-154235",
+      "title": "窓辺の少女",
+      "artist": "Edvard Munch",
+      "year": 1893,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/154235",
+      "image": "https://www.artic.edu/iiif/2/d7df2633-3b40-f570-c906-211503a37cde/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-9021",
       "title": "魅惑の水車小屋",
       "artist": "Franz Marc",
@@ -1105,17 +1116,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/16487",
       "image": "https://www.artic.edu/iiif/2/d4ca6321-8656-3d3f-a362-2ee297b2b813/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-154235",
-      "title": "窓辺の少女",
-      "artist": "Edvard Munch",
-      "year": 1893,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/154235",
-      "image": "https://www.artic.edu/iiif/2/d7df2633-3b40-f570-c906-211503a37cde/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
