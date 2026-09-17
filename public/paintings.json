@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-16T02:11:22.944Z",
+  "generated": "2026-09-17T02:15:18.870Z",
   "total": 907,
   "sources": {
     "artic": 356,
@@ -404,6 +404,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-21907",
+      "title": "瞑想にひざまずく聖フランチェスコ",
+      "artist": "エル・グレコ",
+      "year": 1605,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/21907",
+      "image": "https://www.artic.edu/iiif/2/b703b636-976c-b35b-8a8e-f8df3f5ba003/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-20684",
       "title": "パリの街路、雨の日",
       "artist": "ギュスターヴ・カイユボット",
@@ -467,17 +478,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/153194",
       "image": "https://www.artic.edu/iiif/2/4a99abd8-4f62-3482-3670-c783892e4a41/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-21907",
-      "title": "瞑想にひざまずく聖フランチェスコ",
-      "artist": "エル・グレコ",
-      "year": 1605,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/21907",
-      "image": "https://www.artic.edu/iiif/2/b703b636-976c-b35b-8a8e-f8df3f5ba003/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1053,6 +1053,39 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-111442",
+      "title": "子供の入浴",
+      "artist": "メアリー・カサット",
+      "year": 1893,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/111442",
+      "image": "https://www.artic.edu/iiif/2/3b885ae0-4d46-5fe4-d70a-00474827f02c/full/843,/0/default.jpg",
+      "wikiUrl": "https://ja.wikipedia.org/wiki/子供の入浴_(カサット)"
+    },
+    {
+      "id": "artic-109780",
+      "title": "冬の愛",
+      "artist": "George Wesley Bellows",
+      "year": 1914,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/109780",
+      "image": "https://www.artic.edu/iiif/2/18ab0c35-e35c-0216-9afd-f93357920db1/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-8991",
+      "title": "即興第30番（大砲）",
+      "artist": "Vasily Kandinsky",
+      "year": 1913,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/8991",
+      "image": "https://www.artic.edu/iiif/2/b5bc6b66-9e6e-fe57-dcec-fc49e820e904/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-64001",
       "title": "りんご",
       "artist": "Henri Matisse",
@@ -1075,17 +1108,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-111442",
-      "title": "子供の入浴",
-      "artist": "メアリー・カサット",
-      "year": 1893,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/111442",
-      "image": "https://www.artic.edu/iiif/2/3b885ae0-4d46-5fe4-d70a-00474827f02c/full/843,/0/default.jpg",
-      "wikiUrl": "https://ja.wikipedia.org/wiki/子供の入浴_(カサット)"
-    },
-    {
       "id": "artic-109819",
       "title": "黄色・黒・青・赤・灰色の菱形コンポジション",
       "artist": "Piet Mondrian",
@@ -1094,17 +1116,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/109819",
       "image": "https://www.artic.edu/iiif/2/25f660ee-f1db-d13b-42a5-56df97c98ba7/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-8991",
-      "title": "即興第30番（大砲）",
-      "artist": "Vasily Kandinsky",
-      "year": 1913,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/8991",
-      "image": "https://www.artic.edu/iiif/2/b5bc6b66-9e6e-fe57-dcec-fc49e820e904/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1215,17 +1226,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/64818",
       "image": "https://www.artic.edu/iiif/2/a38e2828-ec6f-ece1-a30f-70243449197b/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-109780",
-      "title": "冬の愛",
-      "artist": "George Wesley Bellows",
-      "year": 1914,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/109780",
-      "image": "https://www.artic.edu/iiif/2/18ab0c35-e35c-0216-9afd-f93357920db1/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1581,6 +1581,28 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-14586",
+      "title": "詩人の庭",
+      "artist": "フィンセント・ファン・ゴッホ",
+      "year": 1888,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/14586",
+      "image": "https://www.artic.edu/iiif/2/d4bc1723-7cbc-d36d-a9cb-f84553f2a6f6/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-79349",
+      "title": "The Drinkers",
+      "artist": "フィンセント・ファン・ゴッホ",
+      "year": 1890,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/79349",
+      "image": "https://www.artic.edu/iiif/2/107958b1-8367-df7c-be17-bb3a076479d8/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-65916",
       "title": "動き",
       "artist": "Marsden Hartley",
@@ -1845,17 +1867,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-79349",
-      "title": "The Drinkers",
-      "artist": "フィンセント・ファン・ゴッホ",
-      "year": 1890,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/79349",
-      "image": "https://www.artic.edu/iiif/2/107958b1-8367-df7c-be17-bb3a076479d8/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-44739",
       "title": "娘に口述するミルトン",
       "artist": "Henry Fuseli",
@@ -1919,17 +1930,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/25865",
       "image": "https://www.artic.edu/iiif/2/5dca7347-c6dc-24dd-d073-d705b9cdc575/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-14586",
-      "title": "詩人の庭",
-      "artist": "フィンセント・ファン・ゴッホ",
-      "year": 1888,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/14586",
-      "image": "https://www.artic.edu/iiif/2/d4bc1723-7cbc-d36d-a9cb-f84553f2a6f6/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2120,6 +2120,28 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-110782",
+      "title": "Diana and Actaeon",
+      "artist": "Jacopo Bassano",
+      "year": 1590,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/110782",
+      "image": "https://www.artic.edu/iiif/2/7ee5e05c-9dfa-ef87-2dd9-2696da7dbc74/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-15401",
+      "title": "ムカン亭にて",
+      "artist": "William Glackens",
+      "year": 1905,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/15401",
+      "image": "https://www.artic.edu/iiif/2/b146368d-a855-63ac-6115-04b835c60bb0/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-4749",
       "title": "ジョージ・スウィントン夫人（エリザベス・エブズワース）",
       "artist": "ジョン・シンガー・サージェント",
@@ -2205,17 +2227,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/111318",
       "image": "https://www.artic.edu/iiif/2/27c1d720-8ca5-79a4-5e51-530bf75c1591/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-15401",
-      "title": "ムカン亭にて",
-      "artist": "William Glackens",
-      "year": 1905,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/15401",
-      "image": "https://www.artic.edu/iiif/2/b146368d-a855-63ac-6115-04b835c60bb0/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2615,17 +2626,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-110782",
-      "title": "Diana and Actaeon",
-      "artist": "Jacopo Bassano",
-      "year": 1590,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/110782",
-      "image": "https://www.artic.edu/iiif/2/7ee5e05c-9dfa-ef87-2dd9-2696da7dbc74/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-133859",
       "title": "エロイーズとアベラールの手紙を読む貴婦人",
       "artist": "Bernard d'Agesci",
@@ -2667,6 +2667,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/53495",
       "image": "https://www.artic.edu/iiif/2/8cd4328f-da34-dec3-00f5-5810a747c8e8/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-64920",
+      "title": "タルクィニウスとルクレティア",
+      "artist": "ティントレット",
+      "year": 1580,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/64920",
+      "image": "https://www.artic.edu/iiif/2/84bc6762-6a64-dde5-5dc3-ec31c75aa32b/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2846,17 +2857,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-64920",
-      "title": "タルクィニウスとルクレティア",
-      "artist": "ティントレット",
-      "year": 1580,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/64920",
-      "image": "https://www.artic.edu/iiif/2/84bc6762-6a64-dde5-5dc3-ec31c75aa32b/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-111441",
       "title": "東方三博士の礼拝",
       "artist": "Workshop of Cornelis Engebrechtsz.",
@@ -2923,6 +2923,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-65509",
+      "title": "The Feast in the House of Simon",
+      "artist": "エル・グレコ",
+      "year": 1614,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/65509",
+      "image": "https://www.artic.edu/iiif/2/75886aaa-002a-2047-a05c-baf73f0ac093/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-26650",
       "title": "On a Balcony",
       "artist": "メアリー・カサット",
@@ -2934,17 +2945,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-65821",
-      "title": "Composition (No. 1) Gray-Red",
-      "artist": "Piet Mondrian",
-      "year": 1935,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/65821",
-      "image": "https://www.artic.edu/iiif/2/254c654f-354a-0f4f-28b5-8eb01a02e95c/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-8987",
       "title": "Painting with Green Center",
       "artist": "Vasily Kandinsky",
@@ -2953,6 +2953,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/8987",
       "image": "https://www.artic.edu/iiif/2/c68f33ec-feb1-5277-334b-b71ac15ae394/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-65821",
+      "title": "Composition (No. 1) Gray-Red",
+      "artist": "Piet Mondrian",
+      "year": 1935,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/65821",
+      "image": "https://www.artic.edu/iiif/2/254c654f-354a-0f4f-28b5-8eb01a02e95c/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -3209,17 +3220,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-65509",
-      "title": "The Feast in the House of Simon",
-      "artist": "エル・グレコ",
-      "year": 1614,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/65509",
-      "image": "https://www.artic.edu/iiif/2/75886aaa-002a-2047-a05c-baf73f0ac093/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-97910",
       "title": "The Advance-Guard, or The Military Sacrifice (The Ambush)",
       "artist": "Frederic Remington",
@@ -3418,6 +3418,28 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-67362",
+      "title": "聖マルタンと乞食",
+      "artist": "エル・グレコ",
+      "year": 1605,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/67362",
+      "image": "https://www.artic.edu/iiif/2/52098776-6e2e-9683-e258-7b1cec8660dd/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-153798",
+      "title": "庭の女性",
+      "artist": "ベルト・モリゾ",
+      "year": 1883,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/153798",
+      "image": "https://www.artic.edu/iiif/2/5edb357d-2e8f-8673-d9e8-4b1150af3895/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-27987",
       "title": "ジャック・リプシッツとベルト・リプシッツ",
       "artist": "Amedeo Modigliani",
@@ -3437,17 +3459,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/110867",
       "image": "https://www.artic.edu/iiif/2/f67d49b0-90a6-7aa3-29ab-77e5d1e9fd9c/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-153798",
-      "title": "庭の女性",
-      "artist": "ベルト・モリゾ",
-      "year": 1883,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/153798",
-      "image": "https://www.artic.edu/iiif/2/5edb357d-2e8f-8673-d9e8-4b1150af3895/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -3635,17 +3646,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/17161",
       "image": "https://www.artic.edu/iiif/2/2cdaa4b6-c9d0-7230-952b-690b8e1cf4df/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-67362",
-      "title": "聖マルタンと乞食",
-      "artist": "エル・グレコ",
-      "year": 1605,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/67362",
-      "image": "https://www.artic.edu/iiif/2/52098776-6e2e-9683-e258-7b1cec8660dd/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
