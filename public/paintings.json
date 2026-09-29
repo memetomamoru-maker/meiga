@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-28T02:25:35.126Z",
+  "generated": "2026-09-29T03:08:54.362Z",
   "total": 905,
   "sources": {
     "artic": 356,
@@ -4815,17 +4815,6 @@
       "wikiUrl": null
     },
     {
-      "id": "cma-173665",
-      "title": "蘭の花",
-      "artist": "Martin Johnson Heade",
-      "year": 1873,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1915.461",
-      "image": "https://openaccess-cdn.clevelandart.org/1915.461/1915.461_web.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "cma-109973",
       "title": "知恵と運命",
       "artist": "Henry Keller",
@@ -4834,6 +4823,17 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/1928.580",
       "image": "https://openaccess-cdn.clevelandart.org/1928.580/1928.580_web.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "cma-173665",
+      "title": "蘭の花",
+      "artist": "Martin Johnson Heade",
+      "year": 1873,
+      "century": "18〜19世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/1915.461",
+      "image": "https://openaccess-cdn.clevelandart.org/1915.461/1915.461_web.jpg",
       "wikiUrl": null
     },
     {
