@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-05T02:52:24.306Z",
+  "generated": "2026-10-06T03:42:46.845Z",
   "total": 905,
   "sources": {
     "artic": 356,
@@ -1053,6 +1053,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-64476",
+      "title": "冬の太陽",
+      "artist": "George Gardner Symons",
+      "year": 1909,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/64476",
+      "image": "https://www.artic.edu/iiif/2/d1cda60c-c21d-9fbc-8195-4e7c3d6e9650/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-9021",
       "title": "魅惑の水車小屋",
       "artist": "Franz Marc",
@@ -1270,17 +1281,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/60294",
       "image": "https://www.artic.edu/iiif/2/8ed7e389-dbe7-ed35-ade2-fe7743943479/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-64476",
-      "title": "冬の太陽",
-      "artist": "George Gardner Symons",
-      "year": 1909,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/64476",
-      "image": "https://www.artic.edu/iiif/2/d1cda60c-c21d-9fbc-8195-4e7c3d6e9650/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -7807,6 +7807,17 @@
       "wikiUrl": null
     },
     {
+      "id": "cma-150055",
+      "title": "自画像",
+      "artist": "Armand Guillaumin",
+      "year": 1872,
+      "century": "18〜19世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/1980.266",
+      "image": "https://openaccess-cdn.clevelandart.org/1980.266/1980.266_web.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "cma-111470",
       "title": "Outskirts of Paris",
       "artist": "Henri Rousseau",
@@ -7851,17 +7862,6 @@
       "wikiUrl": null
     },
     {
-      "id": "cma-83635",
-      "title": "Breton Landscape",
-      "artist": "Jan Verkade",
-      "year": 1891,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/2020.117",
-      "image": "https://openaccess-cdn.clevelandart.org/2020.117/2020.117_web.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "cma-162195",
       "title": "Aurora and Cephalus",
       "artist": "Anne-Louis Girodet de Roucy-Trioson",
@@ -7870,6 +7870,17 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/2002.101",
       "image": "https://openaccess-cdn.clevelandart.org/2002.101/2002.101_web.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "cma-83635",
+      "title": "Breton Landscape",
+      "artist": "Jan Verkade",
+      "year": 1891,
+      "century": "18〜19世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/2020.117",
+      "image": "https://openaccess-cdn.clevelandart.org/2020.117/2020.117_web.jpg",
       "wikiUrl": null
     },
     {
@@ -8101,17 +8112,6 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/1958.57",
       "image": "https://openaccess-cdn.clevelandart.org/1958.57/1958.57_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-444535",
-      "title": "Portrait of Renoir",
-      "artist": "Frédéric Bazille",
-      "year": 1867,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/2021.134",
-      "image": "https://openaccess-cdn.clevelandart.org/2021.134/2021.134_web.jpg",
       "wikiUrl": null
     },
     {
@@ -8522,17 +8522,6 @@
       "wikiUrl": null
     },
     {
-      "id": "cma-150055",
-      "title": "自画像",
-      "artist": "Armand Guillaumin",
-      "year": 1872,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1980.266",
-      "image": "https://openaccess-cdn.clevelandart.org/1980.266/1980.266_web.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "cma-150051",
       "title": "Alpine Landscape:  The Handegg, Switzerland",
       "artist": "Jean-Léon Gérôme",
@@ -8684,6 +8673,17 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/2010.19",
       "image": "https://openaccess-cdn.clevelandart.org/2010.19/2010.19_web.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "cma-444535",
+      "title": "Portrait of Renoir",
+      "artist": "Frédéric Bazille",
+      "year": 1867,
+      "century": "18〜19世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/2021.134",
+      "image": "https://openaccess-cdn.clevelandart.org/2021.134/2021.134_web.jpg",
       "wikiUrl": null
     },
     {
