@@ -1,10 +1,10 @@
 {
-  "generated": "2026-10-07T03:09:51.249Z",
-  "total": 905,
+  "generated": "2026-10-08T03:25:31.885Z",
+  "total": 898,
   "sources": {
     "artic": 356,
     "met": 26,
-    "cma": 523
+    "cma": 516
   },
   "paintings": [
     {
@@ -404,6 +404,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-153194",
+      "title": "ホロフェルネスの遺体を発見する兵士たち",
+      "artist": "Master of the Liechtenstein Adoration",
+      "year": 1555,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/153194",
+      "image": "https://www.artic.edu/iiif/2/4a99abd8-4f62-3482-3670-c783892e4a41/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-217536",
       "title": "馬小屋（キリスト降誕）",
       "artist": "Neapolitan",
@@ -435,17 +446,6 @@
       "museumUrl": "https://www.artic.edu/artworks/20684",
       "image": "https://www.artic.edu/iiif/2/f8fd76e9-c396-5678-36ed-6a348c904d27/full/843,/0/default.jpg",
       "wikiUrl": "https://ja.wikipedia.org/wiki/パリの街路、雨の日"
-    },
-    {
-      "id": "artic-153194",
-      "title": "ホロフェルネスの遺体を発見する兵士たち",
-      "artist": "Master of the Liechtenstein Adoration",
-      "year": 1555,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/153194",
-      "image": "https://www.artic.edu/iiif/2/4a99abd8-4f62-3482-3670-c783892e4a41/full/843,/0/default.jpg",
-      "wikiUrl": null
     },
     {
       "id": "artic-25825",
@@ -525,6 +525,28 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-2848",
+      "title": "ボヘミアン生活の一場面",
+      "artist": "ジェームズ・マクニール・ホイッスラー",
+      "year": 1857,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/2848",
+      "image": "https://www.artic.edu/iiif/2/15c13ae6-7fe8-d06b-7462-aee0c985b220/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-111478",
+      "title": "ウィリアム・マクニール・ホイッスラー博士の肖像",
+      "artist": "ジェームズ・マクニール・ホイッスラー",
+      "year": 1873,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/111478",
+      "image": "https://www.artic.edu/iiif/2/f9aacbc6-191c-3725-85bf-198612a51d25/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-14511",
       "title": "蝶",
       "artist": "ジェームズ・マクニール・ホイッスラー",
@@ -566,28 +588,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/14523",
       "image": "https://www.artic.edu/iiif/2/4b1708db-deeb-1e5a-c409-4b1cb5f2cd25/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-2848",
-      "title": "ボヘミアン生活の一場面",
-      "artist": "ジェームズ・マクニール・ホイッスラー",
-      "year": 1857,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/2848",
-      "image": "https://www.artic.edu/iiif/2/15c13ae6-7fe8-d06b-7462-aee0c985b220/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-111478",
-      "title": "ウィリアム・マクニール・ホイッスラー博士の肖像",
-      "artist": "ジェームズ・マクニール・ホイッスラー",
-      "year": 1873,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/111478",
-      "image": "https://www.artic.edu/iiif/2/f9aacbc6-191c-3725-85bf-198612a51d25/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -4265,17 +4265,6 @@
       "wikiUrl": null
     },
     {
-      "id": "cma-149112",
-      "title": "Church Street El",
-      "artist": "Charles Sheeler",
-      "year": 1920,
-      "century": "20世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1977.43",
-      "image": "https://openaccess-cdn.clevelandart.org/1977.43/1977.43_web.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "cma-93014",
       "title": "View of Schroon Mountain, Essex County, New York, After a Storm",
       "artist": "トマス・コール",
@@ -4537,17 +4526,6 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/1946.164",
       "image": "https://openaccess-cdn.clevelandart.org/1946.164/1946.164_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-156813",
-      "title": "ボースンの丘にて",
-      "artist": "Edmund C. Tarbell",
-      "year": 1901,
-      "century": "20世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1992.398",
-      "image": "https://openaccess-cdn.clevelandart.org/1992.398/1992.398_web.jpg",
       "wikiUrl": null
     },
     {
@@ -4914,6 +4892,17 @@
       "wikiUrl": null
     },
     {
+      "id": "cma-143221",
+      "title": "The Devil and Tom Walker",
+      "artist": "John Quidor",
+      "year": 1856,
+      "century": "18〜19世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/1967.18",
+      "image": "https://openaccess-cdn.clevelandart.org/1967.18/1967.18_web.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "cma-93100",
       "title": "ジャンヌ・バルザックの肖像",
       "artist": "Eugene Speicher",
@@ -4922,17 +4911,6 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/1924.1424",
       "image": "https://openaccess-cdn.clevelandart.org/1924.1424/1924.1424_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-153606",
-      "title": "White Pansy",
-      "artist": "Georgia O'Keeffe",
-      "year": 1927,
-      "century": "20世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1987.139",
-      "image": "https://openaccess-cdn.clevelandart.org/1987.139/1987.139_web.jpg",
       "wikiUrl": null
     },
     {
@@ -4988,6 +4966,17 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/1915.689",
       "image": "https://openaccess-cdn.clevelandart.org/1915.689/1915.689_web.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "cma-109240",
+      "title": "アークヴィルの風景",
+      "artist": "Alexander H. Wyant",
+      "year": 1889,
+      "century": "18〜19世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/1927.389",
+      "image": "https://openaccess-cdn.clevelandart.org/1927.389/1927.389_web.jpg",
       "wikiUrl": null
     },
     {
@@ -5222,28 +5211,6 @@
       "wikiUrl": null
     },
     {
-      "id": "cma-143221",
-      "title": "The Devil and Tom Walker",
-      "artist": "John Quidor",
-      "year": 1856,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1967.18",
-      "image": "https://openaccess-cdn.clevelandart.org/1967.18/1967.18_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-162088",
-      "title": "In the Surf (recto); Beach Study (verso)",
-      "artist": "Edward H. Potthast",
-      "year": 1905,
-      "century": "20世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/2001.41",
-      "image": "https://openaccess-cdn.clevelandart.org/2001.41/2001.41_web.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "cma-96264",
       "title": "メアリー・シカール・デヴィッドの肖像",
       "artist": "Thomas Sully",
@@ -5255,14 +5222,14 @@
       "wikiUrl": null
     },
     {
-      "id": "cma-162089",
-      "title": "In the Surf (recto)",
-      "artist": "Edward H. Potthast",
-      "year": 1905,
-      "century": "20世紀",
+      "id": "cma-144496",
+      "title": "Still Life with Cantaloupe",
+      "artist": "William Mason Brown",
+      "year": 1875,
+      "century": "18〜19世紀",
       "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/2001.41.a",
-      "image": "https://openaccess-cdn.clevelandart.org/2001.41.a/2001.41.a_web.jpg",
+      "museumUrl": "https://clevelandart.org/art/1969.20",
+      "image": "https://openaccess-cdn.clevelandart.org/1969.20/1969.20_web.jpg",
       "wikiUrl": null
     },
     {
@@ -5274,17 +5241,6 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/2001.41.b",
       "image": "https://openaccess-cdn.clevelandart.org/2001.41.b/2001.41.b_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-144496",
-      "title": "Still Life with Cantaloupe",
-      "artist": "William Mason Brown",
-      "year": 1875,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1969.20",
-      "image": "https://openaccess-cdn.clevelandart.org/1969.20/1969.20_web.jpg",
       "wikiUrl": null
     },
     {
@@ -5307,28 +5263,6 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/1929.1976",
       "image": "https://openaccess-cdn.clevelandart.org/1929.1976/1929.1976_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-146924",
-      "title": "エリー湖の模様",
-      "artist": "Clarence Holbrook Carter",
-      "year": 1930,
-      "century": "20世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1972.326",
-      "image": "https://openaccess-cdn.clevelandart.org/1972.326/1972.326_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-150100",
-      "title": "サーカスの馬",
-      "artist": "Clarence Holbrook Carter",
-      "year": 1933,
-      "century": "20世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1980.302",
-      "image": "https://openaccess-cdn.clevelandart.org/1980.302/1980.302_web.jpg",
       "wikiUrl": null
     },
     {
@@ -5593,17 +5527,6 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/1977.118",
       "image": "https://openaccess-cdn.clevelandart.org/1977.118/1977.118_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-109240",
-      "title": "アークヴィルの風景",
-      "artist": "Alexander H. Wyant",
-      "year": 1880,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1927.389",
-      "image": "https://openaccess-cdn.clevelandart.org/1927.389/1927.389_web.jpg",
       "wikiUrl": null
     },
     {
@@ -6322,6 +6245,28 @@
       "wikiUrl": null
     },
     {
+      "id": "cma-96334",
+      "title": "Tompkins Matteson",
+      "artist": "Charles Loring Elliott",
+      "year": 1835,
+      "century": "18〜19世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/1916.2062",
+      "image": "https://openaccess-cdn.clevelandart.org/1916.2062/1916.2062_web.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "cma-97636",
+      "title": "ゴス夫人（毛皮の女）",
+      "artist": "Caroline L. Ransom",
+      "year": 1849,
+      "century": "18〜19世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/1917.279",
+      "image": "https://openaccess-cdn.clevelandart.org/1917.279/1917.279_web.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "cma-101158",
       "title": "キリスト",
       "artist": "Kenyon Cox",
@@ -6330,6 +6275,28 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/1920.150",
       "image": "https://openaccess-cdn.clevelandart.org/1920.150/1920.150_web.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "cma-109354",
+      "title": "A Summer Afternoon",
+      "artist": "R. Way Smith",
+      "year": 1882,
+      "century": "18〜19世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/1927.5",
+      "image": "https://openaccess-cdn.clevelandart.org/1927.5/1927.5_web.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "cma-148202",
+      "title": "The White Mists of Keel",
+      "artist": "Grace V. Kelly",
+      "year": 1929,
+      "century": "20世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/1929.1975",
+      "image": "https://openaccess-cdn.clevelandart.org/1929.1975/1929.1975_web.jpg",
       "wikiUrl": null
     },
     {
@@ -6366,50 +6333,6 @@
       "wikiUrl": null
     },
     {
-      "id": "cma-96334",
-      "title": "Tompkins Matteson",
-      "artist": "Charles Loring Elliott",
-      "year": 1835,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1916.2062",
-      "image": "https://openaccess-cdn.clevelandart.org/1916.2062/1916.2062_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-97636",
-      "title": "ゴス夫人（毛皮の女）",
-      "artist": "Caroline L. Ransom",
-      "year": 1849,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1917.279",
-      "image": "https://openaccess-cdn.clevelandart.org/1917.279/1917.279_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-109354",
-      "title": "A Summer Afternoon",
-      "artist": "R. Way Smith",
-      "year": 1882,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1927.5",
-      "image": "https://openaccess-cdn.clevelandart.org/1927.5/1927.5_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-148202",
-      "title": "The White Mists of Keel",
-      "artist": "Grace V. Kelly",
-      "year": 1929,
-      "century": "20世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1929.1975",
-      "image": "https://openaccess-cdn.clevelandart.org/1929.1975/1929.1975_web.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "cma-149422",
       "title": "The Wheat Field",
       "artist": "George Inness",
@@ -6432,6 +6355,17 @@
       "wikiUrl": null
     },
     {
+      "id": "cma-101471",
+      "title": "Early Spring, California",
+      "artist": "Edward B. Butler",
+      "year": 1918,
+      "century": "20世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/1920.262",
+      "image": "https://openaccess-cdn.clevelandart.org/1920.262/1920.262_web.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "cma-173640",
       "title": "Autumn in the Catskills",
       "artist": "Jervis McEntee",
@@ -6451,17 +6385,6 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/1915.693",
       "image": "https://openaccess-cdn.clevelandart.org/1915.693/1915.693_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-101471",
-      "title": "Early Spring, California",
-      "artist": "Edward B. Butler",
-      "year": 1918,
-      "century": "20世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1920.262",
-      "image": "https://openaccess-cdn.clevelandart.org/1920.262/1920.262_web.jpg",
       "wikiUrl": null
     },
     {
