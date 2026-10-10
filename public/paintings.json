@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-09T03:31:10.200Z",
+  "generated": "2026-10-10T03:11:24.383Z",
   "total": 896,
   "sources": {
     "artic": 356,
@@ -536,6 +536,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-111478",
+      "title": "ウィリアム・マクニール・ホイッスラー博士の肖像",
+      "artist": "ジェームズ・マクニール・ホイッスラー",
+      "year": 1873,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/111478",
+      "image": "https://www.artic.edu/iiif/2/f9aacbc6-191c-3725-85bf-198612a51d25/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-113070",
       "title": "「黒のアレンジメント第2番」習作（表）／「肉色とピンクのシンフォニー」習作（裏）",
       "artist": "ジェームズ・マクニール・ホイッスラー",
@@ -555,17 +566,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/113084",
       "image": "https://www.artic.edu/iiif/2/f31bbec3-0228-ab8e-ce4a-2029cd5f654f/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-111478",
-      "title": "ウィリアム・マクニール・ホイッスラー博士の肖像",
-      "artist": "ジェームズ・マクニール・ホイッスラー",
-      "year": 1873,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/111478",
-      "image": "https://www.artic.edu/iiif/2/f9aacbc6-191c-3725-85bf-198612a51d25/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2120,6 +2120,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-4575",
+      "title": "Judith",
+      "artist": "Jan Sanders van Hemessen",
+      "year": 1545,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/4575",
+      "image": "https://www.artic.edu/iiif/2/5b9758c9-24ef-8661-fac0-c9a4229eefd4/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-24684",
       "title": "フランチェスコ・デ・メディチ",
       "artist": "Attributed to Alessandro Allori",
@@ -2505,17 +2516,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-4575",
-      "title": "Judith",
-      "artist": "Jan Sanders van Hemessen",
-      "year": 1545,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/4575",
-      "image": "https://www.artic.edu/iiif/2/5b9758c9-24ef-8661-fac0-c9a4229eefd4/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-13487",
       "title": "少年に挑む若きスパルタの少女たち",
       "artist": "エドガー・ドガ",
@@ -2667,6 +2667,28 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/160030",
       "image": "https://www.artic.edu/iiif/2/107dd824-9ae2-b091-9787-5901d5e300da/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-111441",
+      "title": "東方三博士の礼拝",
+      "artist": "Workshop of Cornelis Engebrechtsz.",
+      "year": 1525,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/111441",
+      "image": "https://www.artic.edu/iiif/2/d4167bca-367c-481b-a5df-2f5aa51e7280/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-864",
+      "title": "カーネーションを持つ男の肖像",
+      "artist": "Quentin Massys",
+      "year": 1510,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/864",
+      "image": "https://www.artic.edu/iiif/2/f731615e-ee25-f8e5-b957-69635e1e2d60/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2824,17 +2846,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-111441",
-      "title": "東方三博士の礼拝",
-      "artist": "Workshop of Cornelis Engebrechtsz.",
-      "year": 1525,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/111441",
-      "image": "https://www.artic.edu/iiif/2/d4167bca-367c-481b-a5df-2f5aa51e7280/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-111649",
       "title": "イサクを献げるアブラハム",
       "artist": "David Teniers the Younger",
@@ -2887,17 +2898,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/119264",
       "image": "https://www.artic.edu/iiif/2/2b1cba5a-f194-266b-5357-b437fada0b3b/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-864",
-      "title": "カーネーションを持つ男の肖像",
-      "artist": "Quentin Massys",
-      "year": 1510,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/864",
-      "image": "https://www.artic.edu/iiif/2/f731615e-ee25-f8e5-b957-69635e1e2d60/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -6784,17 +6784,6 @@
       "wikiUrl": null
     },
     {
-      "id": "cma-136510",
-      "title": "Water Lilies (Agapanthus)",
-      "artist": "クロード・モネ",
-      "year": 1915,
-      "century": "20世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1960.81",
-      "image": "https://openaccess-cdn.clevelandart.org/1960.81/1960.81_web.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "cma-125249",
       "title": "The Large Plane Trees (Road Menders at Saint-Rémy)",
       "artist": "フィンセント・ファン・ゴッホ",
@@ -6803,6 +6792,17 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/1947.209",
       "image": "https://openaccess-cdn.clevelandart.org/1947.209/1947.209_web.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "cma-136510",
+      "title": "Water Lilies (Agapanthus)",
+      "artist": "クロード・モネ",
+      "year": 1915,
+      "century": "20世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/1960.81",
+      "image": "https://openaccess-cdn.clevelandart.org/1960.81/1960.81_web.jpg",
       "wikiUrl": null
     },
     {
@@ -7587,6 +7587,17 @@
       "wikiUrl": null
     },
     {
+      "id": "cma-154283",
+      "title": "Symbolic Head",
+      "artist": "Odilon Redon",
+      "year": 1885,
+      "century": "18〜19世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/1988.91",
+      "image": "https://openaccess-cdn.clevelandart.org/1988.91/1988.91_web.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "cma-149421",
       "title": "The Farm at the Entrance of the Wood",
       "artist": "Rosa Bonheur",
@@ -7683,17 +7694,6 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/1994.198",
       "image": "https://openaccess-cdn.clevelandart.org/1994.198/1994.198_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-154283",
-      "title": "Symbolic Head",
-      "artist": "Odilon Redon",
-      "year": 1885,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1988.91",
-      "image": "https://openaccess-cdn.clevelandart.org/1988.91/1988.91_web.jpg",
       "wikiUrl": null
     },
     {
