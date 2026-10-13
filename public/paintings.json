@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-12T03:07:18.243Z",
+  "generated": "2026-10-13T04:23:09.910Z",
   "total": 896,
   "sources": {
     "artic": 356,
@@ -3418,6 +3418,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-109220",
+      "title": "羊飼いへの告知",
+      "artist": "After Jacobo Bassano",
+      "year": 1715,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/109220",
+      "image": "https://www.artic.edu/iiif/2/ec272cba-5f5c-dcc1-00e3-00dfdb042a52/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-67362",
       "title": "聖マルタンと乞食",
       "artist": "エル・グレコ",
@@ -3690,17 +3701,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/65845",
       "image": "https://www.artic.edu/iiif/2/901da649-8816-41da-07e2-6140dd52d67a/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-109220",
-      "title": "羊飼いへの告知",
-      "artist": "After Jacobo Bassano",
-      "year": 1715,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/109220",
-      "image": "https://www.artic.edu/iiif/2/ec272cba-5f5c-dcc1-00e3-00dfdb042a52/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -5398,6 +5398,17 @@
       "wikiUrl": null
     },
     {
+      "id": "cma-106093",
+      "title": "刈り跡の畑",
+      "artist": "Henry Golden Dearth",
+      "year": 1904,
+      "century": "20世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/1924.198",
+      "image": "https://openaccess-cdn.clevelandart.org/1924.198/1924.198_web.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "cma-93017",
       "title": "神秘の薔薇",
       "artist": "Augustus Vincent Tack",
@@ -5989,17 +6000,6 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/1982.162",
       "image": "https://openaccess-cdn.clevelandart.org/1982.162/1982.162_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-106093",
-      "title": "刈り跡の畑",
-      "artist": "Henry Golden Dearth",
-      "year": 1904,
-      "century": "20世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1924.198",
-      "image": "https://openaccess-cdn.clevelandart.org/1924.198/1924.198_web.jpg",
       "wikiUrl": null
     },
     {
