@@ -1,10 +1,10 @@
 {
-  "generated": "2026-10-13T04:23:09.910Z",
-  "total": 896,
+  "generated": "2026-10-14T02:33:40.939Z",
+  "total": 894,
   "sources": {
     "artic": 356,
     "met": 26,
-    "cma": 514
+    "cma": 512
   },
   "paintings": [
     {
@@ -404,6 +404,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-561",
+      "title": "家族の演奏会",
+      "artist": "ヤン・ステーン",
+      "year": 1666,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/561",
+      "image": "https://www.artic.edu/iiif/2/7f1ea423-7538-3bc7-3d4a-0766522ab62f/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-21907",
       "title": "瞑想にひざまずく聖フランチェスコ",
       "artist": "エル・グレコ",
@@ -478,17 +489,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/81558",
       "image": "https://www.artic.edu/iiif/2/321c45f5-22a3-84a2-44cc-cf66642d4cf2/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-561",
-      "title": "家族の演奏会",
-      "artist": "ヤン・ステーン",
-      "year": 1666,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/561",
-      "image": "https://www.artic.edu/iiif/2/7f1ea423-7538-3bc7-3d4a-0766522ab62f/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2120,6 +2120,28 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-65920",
+      "title": "プロビンスタウン",
+      "artist": "Marsden Hartley",
+      "year": 1916,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/65920",
+      "image": "https://www.artic.edu/iiif/2/f534bce3-4746-cba6-6c46-c37a7c9199fb/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-65925",
+      "title": "ニューイングランドの終わり——ニューメキシコの始まり",
+      "artist": "Marsden Hartley",
+      "year": 1919,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/65925",
+      "image": "https://www.artic.edu/iiif/2/75fc3e47-9b94-5838-25ea-6c24620765d0/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-4575",
       "title": "Judith",
       "artist": "Jan Sanders van Hemessen",
@@ -2307,17 +2329,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-65920",
-      "title": "プロビンスタウン",
-      "artist": "Marsden Hartley",
-      "year": 1916,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/65920",
-      "image": "https://www.artic.edu/iiif/2/f534bce3-4746-cba6-6c46-c37a7c9199fb/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-111617",
       "title": "綿畑の小屋",
       "artist": "Horace Pippin",
@@ -2359,17 +2370,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/27984",
       "image": "https://www.artic.edu/iiif/2/d0e36029-27fc-bf4e-357a-55cfbaf7bdfd/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-65925",
-      "title": "ニューイングランドの終わり——ニューメキシコの始まり",
-      "artist": "Marsden Hartley",
-      "year": 1919,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/65925",
-      "image": "https://www.artic.edu/iiif/2/75fc3e47-9b94-5838-25ea-6c24620765d0/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -4408,17 +4408,6 @@
       "wikiUrl": null
     },
     {
-      "id": "cma-135420",
-      "title": "黒との朝顔",
-      "artist": "Georgia O'Keeffe",
-      "year": 1926,
-      "century": "20世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1958.42",
-      "image": "https://openaccess-cdn.clevelandart.org/1958.42/1958.42_web.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "cma-129300",
       "title": "ジョージ3世の肖像",
       "artist": "Benjamin West",
@@ -5266,17 +5255,6 @@
       "wikiUrl": null
     },
     {
-      "id": "cma-95288",
-      "title": "The Blessed Mother",
-      "artist": "George Hitchcock",
-      "year": 1892,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1916.1057",
-      "image": "https://openaccess-cdn.clevelandart.org/1916.1057/1916.1057_web.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "cma-173181",
       "title": "Autumn Scene in the Adirondacks",
       "artist": "William Hart",
@@ -5285,6 +5263,17 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/1915.685",
       "image": "https://openaccess-cdn.clevelandart.org/1915.685/1915.685_web.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "cma-95288",
+      "title": "The Blessed Mother",
+      "artist": "George Hitchcock",
+      "year": 1892,
+      "century": "18〜19世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/1916.1057",
+      "image": "https://openaccess-cdn.clevelandart.org/1916.1057/1916.1057_web.jpg",
       "wikiUrl": null
     },
     {
@@ -6333,6 +6322,17 @@
       "wikiUrl": null
     },
     {
+      "id": "cma-173640",
+      "title": "Autumn in the Catskills",
+      "artist": "Jervis McEntee",
+      "year": 1873,
+      "century": "18〜19世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/1915.692",
+      "image": "https://openaccess-cdn.clevelandart.org/1915.692/1915.692_web.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "cma-101471",
       "title": "Early Spring, California",
       "artist": "Edward B. Butler",
@@ -6366,17 +6366,6 @@
       "wikiUrl": null
     },
     {
-      "id": "cma-173640",
-      "title": "Autumn in the Catskills",
-      "artist": "Jervis McEntee",
-      "year": 1873,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1915.692",
-      "image": "https://openaccess-cdn.clevelandart.org/1915.692/1915.692_web.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "cma-173656",
       "title": "Maternal Solicitude",
       "artist": "Arthur Fitzwilliam Tait",
@@ -6396,17 +6385,6 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/1925.126",
       "image": "https://openaccess-cdn.clevelandart.org/1925.126/1925.126_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-135085",
-      "title": "The Appian Way",
-      "artist": "Edward Bruce",
-      "year": 1924,
-      "century": "20世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1958.128",
-      "image": "https://openaccess-cdn.clevelandart.org/1958.128/1958.128_web.jpg",
       "wikiUrl": null
     },
     {
