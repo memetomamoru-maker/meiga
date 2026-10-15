@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-14T02:33:40.939Z",
+  "generated": "2026-10-15T02:14:15.707Z",
   "total": 894,
   "sources": {
     "artic": 356,
@@ -272,6 +272,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-74967",
+      "title": "星を集める運命の女神たち",
+      "artist": "Elihu Vedder",
+      "year": 1887,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/74967",
+      "image": "https://www.artic.edu/iiif/2/94105fa4-8d1c-cbbd-bd02-80d77e8f0a84/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-28560",
       "title": "寝室",
       "artist": "フィンセント・ファン・ゴッホ",
@@ -313,17 +324,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/111377",
       "image": "https://www.artic.edu/iiif/2/3cea045a-92d6-36cf-1508-2c99ea740218/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-74967",
-      "title": "星を集める運命の女神たち",
-      "artist": "Elihu Vedder",
-      "year": 1887,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/74967",
-      "image": "https://www.artic.edu/iiif/2/94105fa4-8d1c-cbbd-bd02-80d77e8f0a84/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1581,6 +1581,28 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-5848",
+      "title": "パトモス島の聖ヨハネのいる風景",
+      "artist": "ニコラ・プッサン",
+      "year": 1640,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/5848",
+      "image": "https://www.artic.edu/iiif/2/aa870b0d-5a1b-660a-6dc6-56c12109cf6e/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-64996",
+      "title": "ヴィーナスに叱られるユピテル",
+      "artist": "Abraham Janssens",
+      "year": 1617,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/64996",
+      "image": "https://www.artic.edu/iiif/2/06f3c07e-c180-00ef-1f0e-5f1325461459/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-57996",
       "title": "ヴェスヴィオ火山の噴火",
       "artist": "Pierre-Jacques Volaire",
@@ -1600,17 +1622,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/16499",
       "image": "https://www.artic.edu/iiif/2/4d03ba14-a01a-d003-404a-cf3f9fb40ede/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-5848",
-      "title": "パトモス島の聖ヨハネのいる風景",
-      "artist": "ニコラ・プッサン",
-      "year": 1640,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/5848",
-      "image": "https://www.artic.edu/iiif/2/aa870b0d-5a1b-660a-6dc6-56c12109cf6e/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2043,17 +2054,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-64996",
-      "title": "ヴィーナスに叱られるユピテル",
-      "artist": "Abraham Janssens",
-      "year": 1617,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/64996",
-      "image": "https://www.artic.edu/iiif/2/06f3c07e-c180-00ef-1f0e-5f1325461459/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-15705",
       "title": "休息",
       "artist": "Antonio Mancini",
@@ -2117,6 +2117,39 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/28862",
       "image": "https://www.artic.edu/iiif/2/1d3a275d-45dd-6026-b6ed-d7d8df417a3d/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-117700",
+      "title": "On the Bank",
+      "artist": "Frederick Carl Frieseke",
+      "year": 1915,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/117700",
+      "image": "https://www.artic.edu/iiif/2/be266c25-27f7-38fd-69fa-8efd1b985af2/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-71573",
+      "title": "休日",
+      "artist": "Edward Henry Potthast",
+      "year": 1915,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/71573",
+      "image": "https://www.artic.edu/iiif/2/a67c4473-57a4-9807-a94e-1136d3daf876/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-62042",
+      "title": "Still Life with Dead Game, Fruits, and Vegetables in a Market",
+      "artist": "Frans Snyders",
+      "year": 1614,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/62042",
+      "image": "https://www.artic.edu/iiif/2/d9bde524-38b2-4262-3338-e4d06a50746d/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2494,17 +2527,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-71573",
-      "title": "休日",
-      "artist": "Edward Henry Potthast",
-      "year": 1915,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/71573",
-      "image": "https://www.artic.edu/iiif/2/a67c4473-57a4-9807-a94e-1136d3daf876/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-64957",
       "title": "Grapes, Lemons, Pears, and Apples",
       "artist": "フィンセント・ファン・ゴッホ",
@@ -2593,17 +2615,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-117700",
-      "title": "On the Bank",
-      "artist": "Frederick Carl Frieseke",
-      "year": 1915,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/117700",
-      "image": "https://www.artic.edu/iiif/2/be266c25-27f7-38fd-69fa-8efd1b985af2/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-100350",
       "title": "戦車競走",
       "artist": "Jean Léon Gérôme",
@@ -2637,17 +2648,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-62042",
-      "title": "Still Life with Dead Game, Fruits, and Vegetables in a Market",
-      "artist": "Frans Snyders",
-      "year": 1614,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/62042",
-      "image": "https://www.artic.edu/iiif/2/d9bde524-38b2-4262-3338-e4d06a50746d/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-62460",
       "title": "テラス",
       "artist": "Dutch; Delft",
@@ -2667,6 +2667,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/160030",
       "image": "https://www.artic.edu/iiif/2/107dd824-9ae2-b091-9787-5901d5e300da/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-16340",
+      "title": "旅人のいる山道",
+      "artist": "Joos de Momper",
+      "year": 1625,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/16340",
+      "image": "https://www.artic.edu/iiif/2/5f1fda6c-f116-c251-1cee-c6bad53d8d18/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2865,17 +2876,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/897",
       "image": "https://www.artic.edu/iiif/2/5ae91cbf-66c5-cf9b-f355-629e458cb063/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-16340",
-      "title": "旅人のいる山道",
-      "artist": "Joos de Momper",
-      "year": 1625,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/16340",
-      "image": "https://www.artic.edu/iiif/2/5f1fda6c-f116-c251-1cee-c6bad53d8d18/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -5134,6 +5134,17 @@
       "wikiUrl": null
     },
     {
+      "id": "cma-101496",
+      "title": "ゴワイヤンの洗濯女たち",
+      "artist": "Abel George Warshawsky",
+      "year": 1917,
+      "century": "20世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/1920.277",
+      "image": "https://openaccess-cdn.clevelandart.org/1920.277/1920.277_web.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "cma-139815",
       "title": "湖の眺め",
       "artist": "Thomas Doughty",
@@ -5255,17 +5266,6 @@
       "wikiUrl": null
     },
     {
-      "id": "cma-173181",
-      "title": "Autumn Scene in the Adirondacks",
-      "artist": "William Hart",
-      "year": 1877,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1915.685",
-      "image": "https://openaccess-cdn.clevelandart.org/1915.685/1915.685_web.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "cma-95288",
       "title": "The Blessed Mother",
       "artist": "George Hitchcock",
@@ -5274,6 +5274,17 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/1916.1057",
       "image": "https://openaccess-cdn.clevelandart.org/1916.1057/1916.1057_web.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "cma-173181",
+      "title": "Autumn Scene in the Adirondacks",
+      "artist": "William Hart",
+      "year": 1877,
+      "century": "18〜19世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/1915.685",
+      "image": "https://openaccess-cdn.clevelandart.org/1915.685/1915.685_web.jpg",
       "wikiUrl": null
     },
     {
@@ -5868,17 +5879,6 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/1919.240",
       "image": "https://openaccess-cdn.clevelandart.org/1919.240/1919.240_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-101496",
-      "title": "ゴワイヤンの洗濯女たち",
-      "artist": "Abel George Warshawsky",
-      "year": 1917,
-      "century": "20世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1920.277",
-      "image": "https://openaccess-cdn.clevelandart.org/1920.277/1920.277_web.jpg",
       "wikiUrl": null
     },
     {
