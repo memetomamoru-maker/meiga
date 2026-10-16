@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-15T02:14:15.707Z",
+  "generated": "2026-10-16T02:05:12.665Z",
   "total": 894,
   "sources": {
     "artic": 356,
@@ -2670,6 +2670,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-81503",
+      "title": "ライオンに襲われるアラブの騎手",
+      "artist": "ウジェーヌ・ドラクロワ",
+      "year": 1850,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/81503",
+      "image": "https://www.artic.edu/iiif/2/c4b0d9da-e89a-df7f-904a-9550697c11f5/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-16340",
       "title": "旅人のいる山道",
       "artist": "Joos de Momper",
@@ -2744,17 +2755,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/23972",
       "image": "https://www.artic.edu/iiif/2/d63b9402-c42b-cce3-aa63-6d213ad621cd/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-81503",
-      "title": "ライオンに襲われるアラブの騎手",
-      "artist": "ウジェーヌ・ドラクロワ",
-      "year": 1850,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/81503",
-      "image": "https://www.artic.edu/iiif/2/c4b0d9da-e89a-df7f-904a-9550697c11f5/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2923,6 +2923,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-81505",
+      "title": "Lion Hunt",
+      "artist": "ウジェーヌ・ドラクロワ",
+      "year": 1861,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/81505",
+      "image": "https://www.artic.edu/iiif/2/1299b0e5-6a3d-8039-087b-35bf03caea1a/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-65509",
       "title": "The Feast in the House of Simon",
       "artist": "エル・グレコ",
@@ -3085,17 +3096,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/16398",
       "image": "https://www.artic.edu/iiif/2/c6c6a21a-b985-35d9-b0ef-a2b798ad9fba/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-81505",
-      "title": "Lion Hunt",
-      "artist": "ウジェーヌ・ドラクロワ",
-      "year": 1861,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/81505",
-      "image": "https://www.artic.edu/iiif/2/1299b0e5-6a3d-8039-087b-35bf03caea1a/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -5178,6 +5178,17 @@
       "wikiUrl": null
     },
     {
+      "id": "cma-106093",
+      "title": "刈り跡の畑",
+      "artist": "Henry Golden Dearth",
+      "year": 1904,
+      "century": "20世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/1924.198",
+      "image": "https://openaccess-cdn.clevelandart.org/1924.198/1924.198_web.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "cma-144976",
       "title": "自画像",
       "artist": "Abbott Handerson Thayer",
@@ -5266,17 +5277,6 @@
       "wikiUrl": null
     },
     {
-      "id": "cma-95288",
-      "title": "The Blessed Mother",
-      "artist": "George Hitchcock",
-      "year": 1892,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1916.1057",
-      "image": "https://openaccess-cdn.clevelandart.org/1916.1057/1916.1057_web.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "cma-173181",
       "title": "Autumn Scene in the Adirondacks",
       "artist": "William Hart",
@@ -5285,6 +5285,17 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/1915.685",
       "image": "https://openaccess-cdn.clevelandart.org/1915.685/1915.685_web.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "cma-95288",
+      "title": "The Blessed Mother",
+      "artist": "George Hitchcock",
+      "year": 1892,
+      "century": "18〜19世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/1916.1057",
+      "image": "https://openaccess-cdn.clevelandart.org/1916.1057/1916.1057_web.jpg",
       "wikiUrl": null
     },
     {
@@ -5395,17 +5406,6 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/1946.255",
       "image": "https://openaccess-cdn.clevelandart.org/1946.255/1946.255_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-106093",
-      "title": "刈り跡の畑",
-      "artist": "Henry Golden Dearth",
-      "year": 1904,
-      "century": "20世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1924.198",
-      "image": "https://openaccess-cdn.clevelandart.org/1924.198/1924.198_web.jpg",
       "wikiUrl": null
     },
     {
