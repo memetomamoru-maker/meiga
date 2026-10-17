@@ -1,10 +1,10 @@
 {
-  "generated": "2026-10-16T02:05:12.665Z",
-  "total": 894,
+  "generated": "2026-10-17T01:59:23.552Z",
+  "total": 891,
   "sources": {
     "artic": 356,
     "met": 26,
-    "cma": 512
+    "cma": 509
   },
   "paintings": [
     {
@@ -4496,17 +4496,6 @@
       "wikiUrl": null
     },
     {
-      "id": "cma-124679",
-      "title": "地下居酒屋",
-      "artist": "John Sloan",
-      "year": 1901,
-      "century": "20世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1946.164",
-      "image": "https://openaccess-cdn.clevelandart.org/1946.164/1946.164_web.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "cma-96263",
       "title": "ジャン・テルフォード・デヴィッドの肖像",
       "artist": "Thomas Sully",
@@ -4856,17 +4845,6 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/1916.1979",
       "image": "https://openaccess-cdn.clevelandart.org/1916.1979/1916.1979_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-130656",
-      "title": "The Pie Wagon",
-      "artist": "Carl Gaertner",
-      "year": 1921,
-      "century": "20世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1953.371",
-      "image": "https://openaccess-cdn.clevelandart.org/1953.371/1953.371_web.jpg",
       "wikiUrl": null
     },
     {
@@ -5549,17 +5527,6 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/1992.305",
       "image": "https://openaccess-cdn.clevelandart.org/1992.305/1992.305_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-127739",
-      "title": "六月（表）",
-      "artist": "William Sommer",
-      "year": 1921,
-      "century": "20世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1950.397.a",
-      "image": "https://openaccess-cdn.clevelandart.org/1950.397.a/1950.397.a_web.jpg",
       "wikiUrl": null
     },
     {
@@ -6333,6 +6300,17 @@
       "wikiUrl": null
     },
     {
+      "id": "cma-173656",
+      "title": "Maternal Solicitude",
+      "artist": "Arthur Fitzwilliam Tait",
+      "year": 1873,
+      "century": "18〜19世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/1915.693",
+      "image": "https://openaccess-cdn.clevelandart.org/1915.693/1915.693_web.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "cma-101471",
       "title": "Early Spring, California",
       "artist": "Edward B. Butler",
@@ -6341,6 +6319,17 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/1920.262",
       "image": "https://openaccess-cdn.clevelandart.org/1920.262/1920.262_web.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "cma-107283",
+      "title": "Alvan Clark",
+      "artist": "作者不詳",
+      "year": 1870,
+      "century": "18〜19世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/1925.126",
+      "image": "https://openaccess-cdn.clevelandart.org/1925.126/1925.126_web.jpg",
       "wikiUrl": null
     },
     {
@@ -6363,28 +6352,6 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/1927.394.1",
       "image": "https://openaccess-cdn.clevelandart.org/1927.394.1/1927.394.1_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-173656",
-      "title": "Maternal Solicitude",
-      "artist": "Arthur Fitzwilliam Tait",
-      "year": 1873,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1915.693",
-      "image": "https://openaccess-cdn.clevelandart.org/1915.693/1915.693_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-107283",
-      "title": "Alvan Clark",
-      "artist": "作者不詳",
-      "year": 1870,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1925.126",
-      "image": "https://openaccess-cdn.clevelandart.org/1925.126/1925.126_web.jpg",
       "wikiUrl": null
     },
     {
@@ -6685,17 +6652,6 @@
       "wikiUrl": null
     },
     {
-      "id": "cma-137259",
-      "title": "Mme L . . . (Laure Borreau)",
-      "artist": "ギュスターヴ・クールベ",
-      "year": 1863,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1962.2",
-      "image": "https://openaccess-cdn.clevelandart.org/1962.2/1962.2_web.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "cma-135299",
       "title": "Adeline Ravoux",
       "artist": "フィンセント・ファン・ゴッホ",
@@ -6726,6 +6682,17 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/1946.83",
       "image": "https://openaccess-cdn.clevelandart.org/1946.83/1946.83_web.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "cma-137259",
+      "title": "Mme L . . . (Laure Borreau)",
+      "artist": "ギュスターヴ・クールベ",
+      "year": 1863,
+      "century": "18〜19世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/1962.2",
+      "image": "https://openaccess-cdn.clevelandart.org/1962.2/1962.2_web.jpg",
       "wikiUrl": null
     },
     {
@@ -6927,6 +6894,17 @@
       "wikiUrl": null
     },
     {
+      "id": "cma-130391",
+      "title": "Spring Flowers",
+      "artist": "クロード・モネ",
+      "year": 1864,
+      "century": "18〜19世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/1953.155",
+      "image": "https://openaccess-cdn.clevelandart.org/1953.155/1953.155_web.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "cma-146416",
       "title": "Noah:  The Eve of the Deluge",
       "artist": "John Linnell",
@@ -7012,6 +6990,17 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/1958.20",
       "image": "https://openaccess-cdn.clevelandart.org/1958.20/1958.20_web.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "cma-150693",
+      "title": "Pine Tree",
+      "artist": "Giovanni Segantini",
+      "year": 1892,
+      "century": "18〜19世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/1982.124",
+      "image": "https://openaccess-cdn.clevelandart.org/1982.124/1982.124_web.jpg",
       "wikiUrl": null
     },
     {
@@ -7224,17 +7213,6 @@
       "wikiUrl": null
     },
     {
-      "id": "cma-130391",
-      "title": "Spring Flowers",
-      "artist": "クロード・モネ",
-      "year": 1864,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1953.155",
-      "image": "https://openaccess-cdn.clevelandart.org/1953.155/1953.155_web.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "cma-151969",
       "title": "Mary Walker Waugh",
       "artist": "William Holman Hunt",
@@ -7408,17 +7386,6 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/1972.17.2",
       "image": "https://openaccess-cdn.clevelandart.org/1972.17.2/1972.17.2_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-150693",
-      "title": "Pine Tree",
-      "artist": "Giovanni Segantini",
-      "year": 1892,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1982.124",
-      "image": "https://openaccess-cdn.clevelandart.org/1982.124/1982.124_web.jpg",
       "wikiUrl": null
     },
     {
@@ -8346,17 +8313,6 @@
       "wikiUrl": null
     },
     {
-      "id": "cma-142659",
-      "title": "The Cliffs at Beg-ar-Fry, Saint-Jean-du-Doigt",
-      "artist": "Maxime Maufra",
-      "year": 1895,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1966.382",
-      "image": "https://openaccess-cdn.clevelandart.org/1966.382/1966.382_web.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "cma-150023",
       "title": "Arion on a Sea Horse",
       "artist": "William Adolphe Bouguereau",
@@ -8761,6 +8717,17 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/1980.264",
       "image": "https://openaccess-cdn.clevelandart.org/1980.264/1980.264_web.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "cma-142659",
+      "title": "The Cliffs at Beg-ar-Fry, Saint-Jean-du-Doigt",
+      "artist": "Maxime Maufra",
+      "year": 1895,
+      "century": "18〜19世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/1966.382",
+      "image": "https://openaccess-cdn.clevelandart.org/1966.382/1966.382_web.jpg",
       "wikiUrl": null
     },
     {
