@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-19T02:15:29.114Z",
+  "generated": "2026-10-20T02:29:56.671Z",
   "total": 874,
   "sources": {
     "artic": 356,
@@ -1581,6 +1581,28 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-14586",
+      "title": "詩人の庭",
+      "artist": "フィンセント・ファン・ゴッホ",
+      "year": 1888,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/14586",
+      "image": "https://www.artic.edu/iiif/2/91cfa20b-2fc4-8999-4a19-0975b78013ec/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-25865",
+      "title": "ニシンの網",
+      "artist": "ウィンスロー・ホーマー",
+      "year": 1885,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/25865",
+      "image": "https://www.artic.edu/iiif/2/5dca7347-c6dc-24dd-d073-d705b9cdc575/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-5848",
       "title": "パトモス島の聖ヨハネのいる風景",
       "artist": "ニコラ・プッサン",
@@ -1636,17 +1658,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-25865",
-      "title": "ニシンの網",
-      "artist": "ウィンスロー・ホーマー",
-      "year": 1885,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/25865",
-      "image": "https://www.artic.edu/iiif/2/5dca7347-c6dc-24dd-d073-d705b9cdc575/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-103139",
       "title": "ウォータールー橋、曇天",
       "artist": "クロード・モネ",
@@ -1655,17 +1666,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/103139",
       "image": "https://www.artic.edu/iiif/2/6f61a6fc-dcd8-e801-0ad8-5f7e561d91b6/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-14586",
-      "title": "詩人の庭",
-      "artist": "フィンセント・ファン・ゴッホ",
-      "year": 1888,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/14586",
-      "image": "https://www.artic.edu/iiif/2/d4bc1723-7cbc-d36d-a9cb-f84553f2a6f6/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2923,6 +2923,28 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-28849",
+      "title": "A City Park",
+      "artist": "William Merritt Chase",
+      "year": 1887,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/28849",
+      "image": "https://www.artic.edu/iiif/2/72a76270-d6f4-e744-d47b-307873a8e8ff/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-76571",
+      "title": "View of Cotopaxi",
+      "artist": "フレデリック・エドウィン・チャーチ",
+      "year": 1857,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/76571",
+      "image": "https://www.artic.edu/iiif/2/33fc29fc-097b-576b-c9e6-c3352d9d3f15/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-81505",
       "title": "Lion Hunt",
       "artist": "ウジェーヌ・ドラクロワ",
@@ -3132,17 +3154,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-28849",
-      "title": "A City Park",
-      "artist": "William Merritt Chase",
-      "year": 1887,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/28849",
-      "image": "https://www.artic.edu/iiif/2/72a76270-d6f4-e744-d47b-307873a8e8ff/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-65821",
       "title": "Composition (No. 1) Gray-Red",
       "artist": "Piet Mondrian",
@@ -3151,17 +3162,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/65821",
       "image": "https://www.artic.edu/iiif/2/254c654f-354a-0f4f-28b5-8eb01a02e95c/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-76571",
-      "title": "View of Cotopaxi",
-      "artist": "フレデリック・エドウィン・チャーチ",
-      "year": 1857,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/76571",
-      "image": "https://www.artic.edu/iiif/2/33fc29fc-097b-576b-c9e6-c3352d9d3f15/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -3418,6 +3418,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-64729",
+      "title": "ターポンスプリングスの早朝",
+      "artist": "George Inness",
+      "year": 1892,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/64729",
+      "image": "https://www.artic.edu/iiif/2/ef96e79b-f481-8114-0804-4bd39c101983/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-109220",
       "title": "羊飼いへの告知",
       "artist": "After Jacobo Bassano",
@@ -3624,17 +3635,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/16488",
       "image": "https://www.artic.edu/iiif/2/633f464c-203f-f7b9-a251-7a2073f4b05d/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-64729",
-      "title": "ターポンスプリングスの早朝",
-      "artist": "George Inness",
-      "year": 1892,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/64729",
-      "image": "https://www.artic.edu/iiif/2/ef96e79b-f481-8114-0804-4bd39c101983/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -6256,17 +6256,6 @@
       "wikiUrl": null
     },
     {
-      "id": "cma-99750",
-      "title": "ナイアガラの滝",
-      "artist": "Augustin Satra",
-      "year": 1906,
-      "century": "20世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1919.32",
-      "image": "https://openaccess-cdn.clevelandart.org/1919.32/1919.32_web.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "cma-103625",
       "title": "Diving Cormorant",
       "artist": "Otto H. Bacher",
@@ -6366,6 +6355,28 @@
       "wikiUrl": null
     },
     {
+      "id": "cma-160938",
+      "title": "View of Niagara Falls",
+      "artist": "John Frederick Kensett",
+      "year": 1846,
+      "century": "18〜19世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/1999.210",
+      "image": "https://openaccess-cdn.clevelandart.org/1999.210/1999.210_web.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "cma-99750",
+      "title": "ナイアガラの滝",
+      "artist": "Augustin Satra",
+      "year": 1906,
+      "century": "20世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/1919.32",
+      "image": "https://openaccess-cdn.clevelandart.org/1919.32/1919.32_web.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "cma-108445",
       "title": "静物",
       "artist": "Adam Lehr",
@@ -6451,17 +6462,6 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/1995.24",
       "image": "https://openaccess-cdn.clevelandart.org/1995.24/1995.24_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-160938",
-      "title": "View of Niagara Falls",
-      "artist": "John Frederick Kensett",
-      "year": 1846,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1999.210",
-      "image": "https://openaccess-cdn.clevelandart.org/1999.210/1999.210_web.jpg",
       "wikiUrl": null
     },
     {
