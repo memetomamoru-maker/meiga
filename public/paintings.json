@@ -1,10 +1,10 @@
 {
-  "generated": "2026-10-20T02:29:56.671Z",
-  "total": 874,
+  "generated": "2026-10-21T02:23:53.529Z",
+  "total": 851,
   "sources": {
     "artic": 356,
     "met": 26,
-    "cma": 492
+    "cma": 469
   },
   "paintings": [
     {
@@ -1053,6 +1053,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-109819",
+      "title": "黄色・黒・青・赤・灰色の菱形コンポジション",
+      "artist": "Piet Mondrian",
+      "year": 1921,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/109819",
+      "image": "https://www.artic.edu/iiif/2/25f660ee-f1db-d13b-42a5-56df97c98ba7/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-9021",
       "title": "魅惑の水車小屋",
       "artist": "Franz Marc",
@@ -1171,17 +1182,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/8991",
       "image": "https://www.artic.edu/iiif/2/b5bc6b66-9e6e-fe57-dcec-fc49e820e904/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-109819",
-      "title": "黄色・黒・青・赤・灰色の菱形コンポジション",
-      "artist": "Piet Mondrian",
-      "year": 1921,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/109819",
-      "image": "https://www.artic.edu/iiif/2/25f660ee-f1db-d13b-42a5-56df97c98ba7/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1588,7 +1588,7 @@
       "century": "18〜19世紀",
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/14586",
-      "image": "https://www.artic.edu/iiif/2/91cfa20b-2fc4-8999-4a19-0975b78013ec/full/843,/0/default.jpg",
+      "image": "https://www.artic.edu/iiif/2/fa5aaa98-8095-07d6-3b7d-3dfccc518191/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2923,6 +2923,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-65821",
+      "title": "Composition (No. 1) Gray-Red",
+      "artist": "Piet Mondrian",
+      "year": 1935,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/65821",
+      "image": "https://www.artic.edu/iiif/2/254c654f-354a-0f4f-28b5-8eb01a02e95c/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-28849",
       "title": "A City Park",
       "artist": "William Merritt Chase",
@@ -3151,17 +3162,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/81512",
       "image": "https://www.artic.edu/iiif/2/1c2d32a7-790c-501a-e124-00f28cf5052d/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-65821",
-      "title": "Composition (No. 1) Gray-Red",
-      "artist": "Piet Mondrian",
-      "year": 1935,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/65821",
-      "image": "https://www.artic.edu/iiif/2/254c654f-354a-0f4f-28b5-8eb01a02e95c/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -4430,17 +4430,6 @@
       "wikiUrl": null
     },
     {
-      "id": "cma-92936",
-      "title": "メイン海岸",
-      "artist": "Rockwell Kent",
-      "year": 1907,
-      "century": "20世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1922.1132",
-      "image": "https://openaccess-cdn.clevelandart.org/1922.1132/1922.1132_web.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "cma-99443",
       "title": "ジェレマイア・ベルナップの肖像",
       "artist": "Joseph Badger",
@@ -4526,17 +4515,6 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/1915.682",
       "image": "https://openaccess-cdn.clevelandart.org/1915.682/1915.682_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-108809",
-      "title": "森の内部",
-      "artist": "Emil Carlsen",
-      "year": 1905,
-      "century": "20世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1926.488",
-      "image": "https://openaccess-cdn.clevelandart.org/1926.488/1926.488_web.jpg",
       "wikiUrl": null
     },
     {
@@ -4661,28 +4639,6 @@
       "wikiUrl": null
     },
     {
-      "id": "cma-93015",
-      "title": "公園——冬",
-      "artist": "Leon Kroll",
-      "year": 1923,
-      "century": "20世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1923.1339",
-      "image": "https://openaccess-cdn.clevelandart.org/1923.1339/1923.1339_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-93239",
-      "title": "静物",
-      "artist": "Preston Dickinson",
-      "year": 1919,
-      "century": "20世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1926.1664",
-      "image": "https://openaccess-cdn.clevelandart.org/1926.1664/1926.1664_web.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "cma-147520",
       "title": "ハートのジャックのカードラック",
       "artist": "John F. Peto",
@@ -4760,17 +4716,6 @@
       "wikiUrl": null
     },
     {
-      "id": "cma-105224",
-      "title": "The Ghost Story",
-      "artist": "Walter MacEwen",
-      "year": 1887,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1923.416",
-      "image": "https://openaccess-cdn.clevelandart.org/1923.416/1923.416_web.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "cma-142665",
       "title": "Mary Holland Bacher",
       "artist": "Otto H. Bacher",
@@ -4826,28 +4771,6 @@
       "wikiUrl": null
     },
     {
-      "id": "cma-93100",
-      "title": "ジャンヌ・バルザックの肖像",
-      "artist": "Eugene Speicher",
-      "year": 1923,
-      "century": "20世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1924.1424",
-      "image": "https://openaccess-cdn.clevelandart.org/1924.1424/1924.1424_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-108806",
-      "title": "The Apple Gatherers",
-      "artist": "Karl Anderson",
-      "year": 1912,
-      "century": "20世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1926.485",
-      "image": "https://openaccess-cdn.clevelandart.org/1926.485/1926.485_web.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "cma-117843",
       "title": "Boy in a Blue Coat",
       "artist": "George Bellows",
@@ -4878,17 +4801,6 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/1927.388",
       "image": "https://openaccess-cdn.clevelandart.org/1927.388/1927.388_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-173631",
-      "title": "フロリダ州ジョージ要塞島",
-      "artist": "Thomas Moran",
-      "year": 1878,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1915.689",
-      "image": "https://openaccess-cdn.clevelandart.org/1915.689/1915.689_web.jpg",
       "wikiUrl": null
     },
     {
@@ -4925,6 +4837,17 @@
       "wikiUrl": null
     },
     {
+      "id": "cma-98215",
+      "title": "Tradition",
+      "artist": "Kenyon Cox",
+      "year": 1916,
+      "century": "20世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/1917.9",
+      "image": "https://openaccess-cdn.clevelandart.org/1917.9/1917.9_web.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "cma-101461",
       "title": "Portrait of My Daughter Alice",
       "artist": "William Merritt Chase",
@@ -4947,17 +4870,6 @@
       "wikiUrl": null
     },
     {
-      "id": "cma-95196",
-      "title": "The Umbrian Valley, Italy",
-      "artist": "Frederick Gottwald",
-      "year": 1914,
-      "century": "20世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1915.88",
-      "image": "https://openaccess-cdn.clevelandart.org/1915.88/1915.88_web.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "cma-699644",
       "title": "A Mountain Stream",
       "artist": "Julie H. Beers",
@@ -4966,17 +4878,6 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/2025.199",
       "image": "https://openaccess-cdn.clevelandart.org/2025.199/2025.199_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-97770",
-      "title": "The Blue Feather",
-      "artist": "William J. Edmondson",
-      "year": 1917,
-      "century": "20世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1917.400",
-      "image": "https://openaccess-cdn.clevelandart.org/1917.400/1917.400_web.jpg",
       "wikiUrl": null
     },
     {
@@ -5068,14 +4969,14 @@
       "wikiUrl": null
     },
     {
-      "id": "cma-101496",
-      "title": "ゴワイヤンの洗濯女たち",
-      "artist": "Abel George Warshawsky",
-      "year": 1917,
-      "century": "20世紀",
+      "id": "cma-134863",
+      "title": "湾の灰色の日",
+      "artist": "William Merritt Chase",
+      "year": 1881,
+      "century": "18〜19世紀",
       "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1920.277",
-      "image": "https://openaccess-cdn.clevelandart.org/1920.277/1920.277_web.jpg",
+      "museumUrl": "https://clevelandart.org/art/1957.423",
+      "image": "https://openaccess-cdn.clevelandart.org/1957.423/1957.423_web.jpg",
       "wikiUrl": null
     },
     {
@@ -5145,6 +5046,17 @@
       "wikiUrl": null
     },
     {
+      "id": "cma-134862",
+      "title": "海景",
+      "artist": "William Merritt Chase",
+      "year": 1883,
+      "century": "18〜19世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/1957.422",
+      "image": "https://openaccess-cdn.clevelandart.org/1957.422/1957.422_web.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "cma-96264",
       "title": "メアリー・シカール・デヴィッドの肖像",
       "artist": "Thomas Sully",
@@ -5164,17 +5076,6 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/1969.20",
       "image": "https://openaccess-cdn.clevelandart.org/1969.20/1969.20_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-98215",
-      "title": "Tradition",
-      "artist": "Kenyon Cox",
-      "year": 1916,
-      "century": "20世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1917.9",
-      "image": "https://openaccess-cdn.clevelandart.org/1917.9/1917.9_web.jpg",
       "wikiUrl": null
     },
     {
@@ -5244,17 +5145,6 @@
       "wikiUrl": null
     },
     {
-      "id": "cma-173316",
-      "title": "Eddyville",
-      "artist": "Samuel Halpert",
-      "year": 1917,
-      "century": "20世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1925.1408",
-      "image": "https://openaccess-cdn.clevelandart.org/1925.1408/1925.1408_web.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "cma-148215",
       "title": "Landscape with Haywain",
       "artist": "Worthington Whittredge",
@@ -5321,17 +5211,6 @@
       "wikiUrl": null
     },
     {
-      "id": "cma-93017",
-      "title": "神秘の薔薇",
-      "artist": "Augustus Vincent Tack",
-      "year": 1918,
-      "century": "20世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1923.1340",
-      "image": "https://openaccess-cdn.clevelandart.org/1923.1340/1923.1340_web.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "cma-146071",
       "title": "三本の木：イタリア",
       "artist": "Elihu Vedder",
@@ -5340,6 +5219,17 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/1971.263",
       "image": "https://openaccess-cdn.clevelandart.org/1971.263/1971.263_web.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "cma-95195",
+      "title": "Portrait of an \"Old Sea Captain\"",
+      "artist": "Samuel Isham",
+      "year": 1800,
+      "century": "18〜19世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/1915.87",
+      "image": "https://openaccess-cdn.clevelandart.org/1915.87/1915.87_web.jpg",
       "wikiUrl": null
     },
     {
@@ -5486,17 +5376,6 @@
       "wikiUrl": null
     },
     {
-      "id": "cma-108010",
-      "title": "象牙の聖母",
-      "artist": "Henry Keller",
-      "year": 1900,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1925.632",
-      "image": "https://openaccess-cdn.clevelandart.org/1925.632/1925.632_web.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "cma-173173",
       "title": "釣りをする少年",
       "artist": "Eastman Johnson",
@@ -5516,17 +5395,6 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/1927.394.2",
       "image": "https://openaccess-cdn.clevelandart.org/1927.394.2/1927.394.2_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-108180",
-      "title": "港へ下る",
-      "artist": "George G. Adomeit",
-      "year": 1925,
-      "century": "20世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1925.801",
-      "image": "https://openaccess-cdn.clevelandart.org/1925.801/1925.801_web.jpg",
       "wikiUrl": null
     },
     {
@@ -5739,50 +5607,6 @@
       "wikiUrl": null
     },
     {
-      "id": "cma-92964",
-      "title": "Antonia",
-      "artist": "Louise B. Maloney",
-      "year": 1923,
-      "century": "20世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1924.1240",
-      "image": "https://openaccess-cdn.clevelandart.org/1924.1240/1924.1240_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-106641",
-      "title": "カプリのイタリアの夜",
-      "artist": "William Joseph Eastman",
-      "year": 1924,
-      "century": "20世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1924.682",
-      "image": "https://openaccess-cdn.clevelandart.org/1924.682/1924.682_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-93169",
-      "title": "St. Servan",
-      "artist": "Frank Wilcox",
-      "year": 1926,
-      "century": "20世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1926.1546",
-      "image": "https://openaccess-cdn.clevelandart.org/1926.1546/1926.1546_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-134863",
-      "title": "湾の灰色の日",
-      "artist": "William Merritt Chase",
-      "year": 1881,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1957.423",
-      "image": "https://openaccess-cdn.clevelandart.org/1957.423/1957.423_web.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "cma-143272",
       "title": "Seascape",
       "artist": "Henry Ward Ranger",
@@ -5824,28 +5648,6 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/1982.162",
       "image": "https://openaccess-cdn.clevelandart.org/1982.162/1982.162_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-95195",
-      "title": "Portrait of an \"Old Sea Captain\"",
-      "artist": "Samuel Isham",
-      "year": 1800,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1915.87",
-      "image": "https://openaccess-cdn.clevelandart.org/1915.87/1915.87_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-97134",
-      "title": "砂場にて",
-      "artist": "Henry Keller",
-      "year": 1901,
-      "century": "20世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1916.773",
-      "image": "https://openaccess-cdn.clevelandart.org/1916.773/1916.773_web.jpg",
       "wikiUrl": null
     },
     {
@@ -5926,28 +5728,6 @@
       "wikiUrl": null
     },
     {
-      "id": "cma-103837",
-      "title": "動揺",
-      "artist": "Henry Keller",
-      "year": 1908,
-      "century": "20世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1921.925",
-      "image": "https://openaccess-cdn.clevelandart.org/1921.925/1921.925_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-173242",
-      "title": "哲学者",
-      "artist": "Walter Gay",
-      "year": 1882,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1915.686",
-      "image": "https://openaccess-cdn.clevelandart.org/1915.686/1915.686_web.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "cma-122644",
       "title": "羊毛のような雲",
       "artist": "George Inness",
@@ -5967,17 +5747,6 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/1947.206",
       "image": "https://openaccess-cdn.clevelandart.org/1947.206/1947.206_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-134862",
-      "title": "海景",
-      "artist": "William Merritt Chase",
-      "year": 1883,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1957.422",
-      "image": "https://openaccess-cdn.clevelandart.org/1957.422/1957.422_web.jpg",
       "wikiUrl": null
     },
     {
@@ -6124,17 +5893,6 @@
       "wikiUrl": null
     },
     {
-      "id": "cma-101471",
-      "title": "Early Spring, California",
-      "artist": "Edward B. Butler",
-      "year": 1918,
-      "century": "20世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1920.262",
-      "image": "https://openaccess-cdn.clevelandart.org/1920.262/1920.262_web.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "cma-107283",
       "title": "Alvan Clark",
       "artist": "作者不詳",
@@ -6176,17 +5934,6 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/1961.171",
       "image": "https://openaccess-cdn.clevelandart.org/1961.171/1961.171_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-98442",
-      "title": "夕暮れ",
-      "artist": "Hugh Huntington Howard",
-      "year": 1880,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1918.175",
-      "image": "https://openaccess-cdn.clevelandart.org/1918.175/1918.175_web.jpg",
       "wikiUrl": null
     },
     {
@@ -6256,6 +6003,17 @@
       "wikiUrl": null
     },
     {
+      "id": "cma-99750",
+      "title": "ナイアガラの滝",
+      "artist": "Augustin Satra",
+      "year": 1906,
+      "century": "20世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/1919.32",
+      "image": "https://openaccess-cdn.clevelandart.org/1919.32/1919.32_web.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "cma-103625",
       "title": "Diving Cormorant",
       "artist": "Otto H. Bacher",
@@ -6278,6 +6036,50 @@
       "wikiUrl": null
     },
     {
+      "id": "cma-108445",
+      "title": "静物",
+      "artist": "Adam Lehr",
+      "year": 1923,
+      "century": "20世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/1926.165",
+      "image": "https://openaccess-cdn.clevelandart.org/1926.165/1926.165_web.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "cma-117873",
+      "title": "A Bather",
+      "artist": "Robert Loftin Newman",
+      "year": 1800,
+      "century": "18〜19世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/1938.47",
+      "image": "https://openaccess-cdn.clevelandart.org/1938.47/1938.47_web.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "cma-124991",
+      "title": "Julia Hulbert Hubbard",
+      "artist": "Anonymous",
+      "year": 1800,
+      "century": "18〜19世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/1946.432",
+      "image": "https://openaccess-cdn.clevelandart.org/1946.432/1946.432_web.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "cma-133151",
+      "title": "Cows in a Field",
+      "artist": "George Inness",
+      "year": 1900,
+      "century": "18〜19世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/1955.544",
+      "image": "https://openaccess-cdn.clevelandart.org/1955.544/1955.544_web.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "cma-133296",
       "title": "Gray Day on the Esopus",
       "artist": "Jasper F. Cropsey",
@@ -6289,6 +6091,28 @@
       "wikiUrl": null
     },
     {
+      "id": "cma-136692",
+      "title": "Natural Bridge, Sorrento",
+      "artist": "William Stanley Haseltine",
+      "year": 1856,
+      "century": "18〜19世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/1961.228",
+      "image": "https://openaccess-cdn.clevelandart.org/1961.228/1961.228_web.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "cma-142018",
+      "title": "Frederic W. Lincoln, Jr.",
+      "artist": "James Harvey Young",
+      "year": 1889,
+      "century": "18〜19世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/1965.547",
+      "image": "https://openaccess-cdn.clevelandart.org/1965.547/1965.547_web.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "cma-155821",
       "title": "Sally Avery Olds",
       "artist": "Jeptha Homer Wade",
@@ -6297,6 +6121,17 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/1991.134.1",
       "image": "https://openaccess-cdn.clevelandart.org/1991.134.1/1991.134.1_web.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "cma-157240",
+      "title": "Frederic Betts; Mary Ward Betts",
+      "artist": "Henry Inman",
+      "year": 1830,
+      "century": "18〜19世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/1994.116",
+      "image": "https://openaccess-cdn.clevelandart.org/1994.116/1994.116_web.jpg",
       "wikiUrl": null
     },
     {
@@ -6355,105 +6190,6 @@
       "wikiUrl": null
     },
     {
-      "id": "cma-160938",
-      "title": "View of Niagara Falls",
-      "artist": "John Frederick Kensett",
-      "year": 1846,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1999.210",
-      "image": "https://openaccess-cdn.clevelandart.org/1999.210/1999.210_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-99750",
-      "title": "ナイアガラの滝",
-      "artist": "Augustin Satra",
-      "year": 1906,
-      "century": "20世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1919.32",
-      "image": "https://openaccess-cdn.clevelandart.org/1919.32/1919.32_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-108445",
-      "title": "静物",
-      "artist": "Adam Lehr",
-      "year": 1923,
-      "century": "20世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1926.165",
-      "image": "https://openaccess-cdn.clevelandart.org/1926.165/1926.165_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-117873",
-      "title": "A Bather",
-      "artist": "Robert Loftin Newman",
-      "year": 1800,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1938.47",
-      "image": "https://openaccess-cdn.clevelandart.org/1938.47/1938.47_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-124991",
-      "title": "Julia Hulbert Hubbard",
-      "artist": "Anonymous",
-      "year": 1800,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1946.432",
-      "image": "https://openaccess-cdn.clevelandart.org/1946.432/1946.432_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-133151",
-      "title": "Cows in a Field",
-      "artist": "George Inness",
-      "year": 1900,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1955.544",
-      "image": "https://openaccess-cdn.clevelandart.org/1955.544/1955.544_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-136692",
-      "title": "Natural Bridge, Sorrento",
-      "artist": "William Stanley Haseltine",
-      "year": 1856,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1961.228",
-      "image": "https://openaccess-cdn.clevelandart.org/1961.228/1961.228_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-142018",
-      "title": "Frederic W. Lincoln, Jr.",
-      "artist": "James Harvey Young",
-      "year": 1889,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1965.547",
-      "image": "https://openaccess-cdn.clevelandart.org/1965.547/1965.547_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-157240",
-      "title": "Frederic Betts; Mary Ward Betts",
-      "artist": "Henry Inman",
-      "year": 1830,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1994.116",
-      "image": "https://openaccess-cdn.clevelandart.org/1994.116/1994.116_web.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "cma-159034",
       "title": "Hunter and Indian Guide",
       "artist": "C. L. Woodhouse",
@@ -6462,6 +6198,17 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/1995.24",
       "image": "https://openaccess-cdn.clevelandart.org/1995.24/1995.24_web.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "cma-160938",
+      "title": "View of Niagara Falls",
+      "artist": "John Frederick Kensett",
+      "year": 1846,
+      "century": "18〜19世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/1999.210",
+      "image": "https://openaccess-cdn.clevelandart.org/1999.210/1999.210_web.jpg",
       "wikiUrl": null
     },
     {
