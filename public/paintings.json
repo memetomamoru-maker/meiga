@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22T02:19:03.165Z",
+  "generated": "2026-10-23T02:24:31.641Z",
   "total": 495,
   "sources": {
     "artic": 0,
@@ -1152,6 +1152,28 @@
       "wikiUrl": null
     },
     {
+      "id": "cma-173656",
+      "title": "Maternal Solicitude",
+      "artist": "Arthur Fitzwilliam Tait",
+      "year": 1873,
+      "century": "18〜19世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/1915.693",
+      "image": "https://openaccess-cdn.clevelandart.org/1915.693/1915.693_web.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "cma-136610",
+      "title": "Portrait of William Leete Stone",
+      "artist": "William Page",
+      "year": 1839,
+      "century": "18〜19世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/1961.171",
+      "image": "https://openaccess-cdn.clevelandart.org/1961.171/1961.171_web.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "cma-144496",
       "title": "Still Life with Cantaloupe",
       "artist": "William Mason Brown",
@@ -1966,17 +1988,6 @@
       "wikiUrl": null
     },
     {
-      "id": "cma-173656",
-      "title": "Maternal Solicitude",
-      "artist": "Arthur Fitzwilliam Tait",
-      "year": 1873,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1915.693",
-      "image": "https://openaccess-cdn.clevelandart.org/1915.693/1915.693_web.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "cma-107283",
       "title": "Alvan Clark",
       "artist": "作者不詳",
@@ -2007,17 +2018,6 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/1927.394.1",
       "image": "https://openaccess-cdn.clevelandart.org/1927.394.1/1927.394.1_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-136610",
-      "title": "Colonel William Leete Stone",
-      "artist": "William Page",
-      "year": 1839,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1961.171",
-      "image": "https://openaccess-cdn.clevelandart.org/1961.171/1961.171_web.jpg",
       "wikiUrl": null
     },
     {
