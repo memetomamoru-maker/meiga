@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-24T02:22:15.765Z",
+  "generated": "2026-10-25T02:09:39.016Z",
   "total": 850,
   "sources": {
     "artic": 355,
@@ -514,17 +514,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-84088",
-      "title": "紫と銀——深海",
-      "artist": "ジェームズ・マクニール・ホイッスラー",
-      "year": 1893,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/84088",
-      "image": "https://www.artic.edu/iiif/2/5f663d6c-0121-a8ca-e875-896d9857a3f3/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-2848",
       "title": "ボヘミアン生活の一場面",
       "artist": "ジェームズ・マクニール・ホイッスラー",
@@ -544,6 +533,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/111478",
       "image": "https://www.artic.edu/iiif/2/f9aacbc6-191c-3725-85bf-198612a51d25/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-84088",
+      "title": "紫と銀——深海",
+      "artist": "ジェームズ・マクニール・ホイッスラー",
+      "year": 1893,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/84088",
+      "image": "https://www.artic.edu/iiif/2/5f663d6c-0121-a8ca-e875-896d9857a3f3/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1042,6 +1042,50 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-9021",
+      "title": "魅惑の水車小屋",
+      "artist": "Franz Marc",
+      "year": 1913,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/9021",
+      "image": "https://www.artic.edu/iiif/2/6829aab0-8d0e-9438-aebf-a1a379572951/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-16571",
+      "title": "サン＝ラザール駅、ノルマンディー行き列車の到着",
+      "artist": "クロード・モネ",
+      "year": 1877,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/16571",
+      "image": "https://www.artic.edu/iiif/2/0f1cc0e0-e42e-be16-3f71-2022da38cb93/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-80084",
+      "title": "磔刑",
+      "artist": "Francisco de Zurbarán",
+      "year": 1627,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/80084",
+      "image": "https://www.artic.edu/iiif/2/c8ee825f-bc8c-c76b-1f05-5d692d9a6b47/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-100476",
+      "title": "カバッソンの海岸（バーニュ・キュル）",
+      "artist": "Henri Edmond Cross",
+      "year": 1892,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/100476",
+      "image": "https://www.artic.edu/iiif/2/16e53257-ade2-4f5d-3521-2bc9666bc4cf/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-8991",
       "title": "即興第30番（大砲）",
       "artist": "Vasily Kandinsky",
@@ -1116,50 +1160,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/69780",
       "image": "https://www.artic.edu/iiif/2/3f9aa9db-61e1-7060-fdb0-bfd7e41ddd08/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-9021",
-      "title": "魅惑の水車小屋",
-      "artist": "Franz Marc",
-      "year": 1913,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/9021",
-      "image": "https://www.artic.edu/iiif/2/6829aab0-8d0e-9438-aebf-a1a379572951/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-16571",
-      "title": "サン＝ラザール駅、ノルマンディー行き列車の到着",
-      "artist": "クロード・モネ",
-      "year": 1877,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/16571",
-      "image": "https://www.artic.edu/iiif/2/0f1cc0e0-e42e-be16-3f71-2022da38cb93/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-80084",
-      "title": "磔刑",
-      "artist": "Francisco de Zurbarán",
-      "year": 1627,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/80084",
-      "image": "https://www.artic.edu/iiif/2/c8ee825f-bc8c-c76b-1f05-5d692d9a6b47/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-100476",
-      "title": "カバッソンの海岸（バーニュ・キュル）",
-      "artist": "Henri Edmond Cross",
-      "year": 1892,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/100476",
-      "image": "https://www.artic.edu/iiif/2/16e53257-ade2-4f5d-3521-2bc9666bc4cf/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
