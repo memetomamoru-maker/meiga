@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-26T02:10:08.278Z",
+  "generated": "2026-10-27T02:47:22.302Z",
   "total": 850,
   "sources": {
     "artic": 355,
@@ -5167,6 +5167,17 @@
       "wikiUrl": null
     },
     {
+      "id": "cma-173657",
+      "title": "ニューイングランドの朝",
+      "artist": "James McDougal Hart",
+      "year": 1873,
+      "century": "18〜19世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/1915.694",
+      "image": "https://openaccess-cdn.clevelandart.org/1915.694/1915.694_web.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "cma-148215",
       "title": "Landscape with Haywain",
       "artist": "Worthington Whittredge",
@@ -5549,17 +5560,6 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/1963.501",
       "image": "https://openaccess-cdn.clevelandart.org/1963.501/1963.501_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-173657",
-      "title": "ニューイングランドの朝",
-      "artist": "James McDougal Hart",
-      "year": 1873,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1915.694",
-      "image": "https://openaccess-cdn.clevelandart.org/1915.694/1915.694_web.jpg",
       "wikiUrl": null
     },
     {
