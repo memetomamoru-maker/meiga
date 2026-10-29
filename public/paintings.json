@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-28T02:55:48.909Z",
+  "generated": "2026-10-29T03:20:27.824Z",
   "total": 850,
   "sources": {
     "artic": 355,
@@ -1042,6 +1042,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-64001",
+      "title": "りんご",
+      "artist": "Henri Matisse",
+      "year": 1916,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/64001",
+      "image": "https://www.artic.edu/iiif/2/b2bc0fc2-8d17-1fcd-8cae-8626421c11ef/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-109780",
       "title": "冬の愛",
       "artist": "George Wesley Bellows",
@@ -1105,17 +1116,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/8991",
       "image": "https://www.artic.edu/iiif/2/b5bc6b66-9e6e-fe57-dcec-fc49e820e904/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-64001",
-      "title": "りんご",
-      "artist": "Henri Matisse",
-      "year": 1916,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/64001",
-      "image": "https://www.artic.edu/iiif/2/b2bc0fc2-8d17-1fcd-8cae-8626421c11ef/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2109,14 +2109,14 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-44892",
-      "title": "魚（静物）",
-      "artist": "エドゥアール・マネ",
-      "year": 1864,
-      "century": "18〜19世紀",
+      "id": "artic-15401",
+      "title": "ムカン亭にて",
+      "artist": "William Glackens",
+      "year": 1905,
+      "century": "20世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/44892",
-      "image": "https://www.artic.edu/iiif/2/0cbe27e8-2fec-3445-bc48-ce40a8f2dc25/full/843,/0/default.jpg",
+      "museumUrl": "https://www.artic.edu/artworks/15401",
+      "image": "https://www.artic.edu/iiif/2/b146368d-a855-63ac-6115-04b835c60bb0/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2131,14 +2131,14 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-15401",
-      "title": "ムカン亭にて",
-      "artist": "William Glackens",
-      "year": 1905,
-      "century": "20世紀",
+      "id": "artic-44892",
+      "title": "魚（静物）",
+      "artist": "エドゥアール・マネ",
+      "year": 1864,
+      "century": "18〜19世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/15401",
-      "image": "https://www.artic.edu/iiif/2/b146368d-a855-63ac-6115-04b835c60bb0/full/843,/0/default.jpg",
+      "museumUrl": "https://www.artic.edu/artworks/44892",
+      "image": "https://www.artic.edu/iiif/2/0cbe27e8-2fec-3445-bc48-ce40a8f2dc25/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
