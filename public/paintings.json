@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-04T03:46:28.332Z",
+  "generated": "2026-11-05T04:04:10.693Z",
   "total": 850,
   "sources": {
     "artic": 355,
@@ -118,17 +118,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-87088",
-      "title": "睡蓮の池",
-      "artist": "クロード・モネ",
-      "year": 1900,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/87088",
-      "image": "https://www.artic.edu/iiif/2/8534685d-1102-e1e3-e194-94f6e925e8b0/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-95654",
       "title": "湖のほとり",
       "artist": "ピエール＝オーギュスト・ルノワール",
@@ -137,6 +126,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/95654",
       "image": "https://www.artic.edu/iiif/2/26e1c560-acca-3148-46dc-c144ac22bd3e/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-87088",
+      "title": "睡蓮の池",
+      "artist": "クロード・モネ",
+      "year": 1900,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/87088",
+      "image": "https://www.artic.edu/iiif/2/8534685d-1102-e1e3-e194-94f6e925e8b0/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1042,6 +1042,61 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-27980",
+      "title": "ばら色の長椅子の女",
+      "artist": "Henri Matisse",
+      "year": 1921,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/27980",
+      "image": "https://www.artic.edu/iiif/2/65e58fc4-4dd1-7149-b76b-94547745bece/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-9021",
+      "title": "魅惑の水車小屋",
+      "artist": "Franz Marc",
+      "year": 1913,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/9021",
+      "image": "https://www.artic.edu/iiif/2/6829aab0-8d0e-9438-aebf-a1a379572951/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-16571",
+      "title": "サン＝ラザール駅、ノルマンディー行き列車の到着",
+      "artist": "クロード・モネ",
+      "year": 1877,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/16571",
+      "image": "https://www.artic.edu/iiif/2/0f1cc0e0-e42e-be16-3f71-2022da38cb93/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-80084",
+      "title": "磔刑",
+      "artist": "Francisco de Zurbarán",
+      "year": 1627,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/80084",
+      "image": "https://www.artic.edu/iiif/2/c8ee825f-bc8c-c76b-1f05-5d692d9a6b47/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-100476",
+      "title": "カバッソンの海岸（バーニュ・キュル）",
+      "artist": "Henri Edmond Cross",
+      "year": 1892,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/100476",
+      "image": "https://www.artic.edu/iiif/2/16e53257-ade2-4f5d-3521-2bc9666bc4cf/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-81537",
       "title": "Bordighera",
       "artist": "クロード・モネ",
@@ -1061,17 +1116,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/64818",
       "image": "https://www.artic.edu/iiif/2/a38e2828-ec6f-ece1-a30f-70243449197b/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-16571",
-      "title": "サン＝ラザール駅、ノルマンディー行き列車の到着",
-      "artist": "クロード・モネ",
-      "year": 1877,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/16571",
-      "image": "https://www.artic.edu/iiif/2/0f1cc0e0-e42e-be16-3f71-2022da38cb93/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1105,50 +1149,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/14598",
       "image": "https://www.artic.edu/iiif/2/95be2572-b53d-8e7b-abc9-10eb48d4fa5d/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-9021",
-      "title": "魅惑の水車小屋",
-      "artist": "Franz Marc",
-      "year": 1913,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/9021",
-      "image": "https://www.artic.edu/iiif/2/6829aab0-8d0e-9438-aebf-a1a379572951/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-80084",
-      "title": "磔刑",
-      "artist": "Francisco de Zurbarán",
-      "year": 1627,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/80084",
-      "image": "https://www.artic.edu/iiif/2/c8ee825f-bc8c-c76b-1f05-5d692d9a6b47/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-100476",
-      "title": "カバッソンの海岸（バーニュ・キュル）",
-      "artist": "Henri Edmond Cross",
-      "year": 1892,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/100476",
-      "image": "https://www.artic.edu/iiif/2/16e53257-ade2-4f5d-3521-2bc9666bc4cf/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-27980",
-      "title": "ばら色の長椅子の女",
-      "artist": "Henri Matisse",
-      "year": 1921,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/27980",
-      "image": "https://www.artic.edu/iiif/2/65e58fc4-4dd1-7149-b76b-94547745bece/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1570,6 +1570,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-6005",
+      "title": "The Banks of the Marne in Winter",
+      "artist": "カミーユ・ピサロ",
+      "year": 1866,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/6005",
+      "image": "https://www.artic.edu/iiif/2/3d950ecc-73f4-c28a-f216-0940b23fa5e8/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-103139",
       "title": "ウォータールー橋、曇天",
       "artist": "クロード・モネ",
@@ -1666,17 +1677,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/4783",
       "image": "https://www.artic.edu/iiif/2/db94c894-a24c-c2e0-9db9-0506567a0152/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-6005",
-      "title": "The Banks of the Marne in Winter",
-      "artist": "カミーユ・ピサロ",
-      "year": 1866,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/6005",
-      "image": "https://www.artic.edu/iiif/2/3d950ecc-73f4-c28a-f216-0940b23fa5e8/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2109,6 +2109,50 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-27984",
+      "title": "Woman before an Aquarium",
+      "artist": "Henri Matisse",
+      "year": 1923,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/27984",
+      "image": "https://www.artic.edu/iiif/2/d0e36029-27fc-bf4e-357a-55cfbaf7bdfd/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-65925",
+      "title": "ニューイングランドの終わり——ニューメキシコの始まり",
+      "artist": "Marsden Hartley",
+      "year": 1919,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/65925",
+      "image": "https://www.artic.edu/iiif/2/75fc3e47-9b94-5838-25ea-6c24620765d0/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-65920",
+      "title": "プロビンスタウン",
+      "artist": "Marsden Hartley",
+      "year": 1916,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/65920",
+      "image": "https://www.artic.edu/iiif/2/f534bce3-4746-cba6-6c46-c37a7c9199fb/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-65930",
+      "title": "静物第15番",
+      "artist": "Marsden Hartley",
+      "year": 1917,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/65930",
+      "image": "https://www.artic.edu/iiif/2/2a328b12-cb68-19e8-3843-b2160f007813/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-111318",
       "title": "積み藁",
       "artist": "クロード・モネ",
@@ -2183,50 +2227,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/4887",
       "image": "https://www.artic.edu/iiif/2/1f925e43-ff81-5ad7-da75-b28ea651c09f/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-65925",
-      "title": "ニューイングランドの終わり——ニューメキシコの始まり",
-      "artist": "Marsden Hartley",
-      "year": 1919,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/65925",
-      "image": "https://www.artic.edu/iiif/2/75fc3e47-9b94-5838-25ea-6c24620765d0/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-65920",
-      "title": "プロビンスタウン",
-      "artist": "Marsden Hartley",
-      "year": 1916,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/65920",
-      "image": "https://www.artic.edu/iiif/2/f534bce3-4746-cba6-6c46-c37a7c9199fb/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-65930",
-      "title": "静物第15番",
-      "artist": "Marsden Hartley",
-      "year": 1917,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/65930",
-      "image": "https://www.artic.edu/iiif/2/2a328b12-cb68-19e8-3843-b2160f007813/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-27984",
-      "title": "Woman before an Aquarium",
-      "artist": "Henri Matisse",
-      "year": 1923,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/27984",
-      "image": "https://www.artic.edu/iiif/2/d0e36029-27fc-bf4e-357a-55cfbaf7bdfd/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2912,6 +2912,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-153799",
+      "title": "Woman Bathing Her Feet in a Brook",
+      "artist": "カミーユ・ピサロ",
+      "year": 1895,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/153799",
+      "image": "https://www.artic.edu/iiif/2/5ccaee46-a1a0-5035-821c-0547aa35c070/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-100191",
       "title": "Stack of Wheat (Thaw, Sunset)",
       "artist": "クロード・モネ",
@@ -2964,17 +2975,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/14647",
       "image": "https://www.artic.edu/iiif/2/147e3ce7-1c08-fa84-57f7-f59d4ec90d3c/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-153799",
-      "title": "Woman Bathing Her Feet in a Brook",
-      "artist": "カミーユ・ピサロ",
-      "year": 1895,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/153799",
-      "image": "https://www.artic.edu/iiif/2/5ccaee46-a1a0-5035-821c-0547aa35c070/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
