@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-05T04:04:10.693Z",
+  "generated": "2026-11-06T04:01:38.190Z",
   "total": 850,
   "sources": {
     "artic": 355,
@@ -1042,15 +1042,15 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-27980",
-      "title": "ばら色の長椅子の女",
-      "artist": "Henri Matisse",
-      "year": 1921,
-      "century": "20世紀",
+      "id": "artic-27992",
+      "title": "グランド・ジャット島の日曜日の午後　1884年",
+      "artist": "ジョルジュ・スーラ",
+      "year": 1886,
+      "century": "18〜19世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/27980",
-      "image": "https://www.artic.edu/iiif/2/65e58fc4-4dd1-7149-b76b-94547745bece/full/843,/0/default.jpg",
-      "wikiUrl": null
+      "museumUrl": "https://www.artic.edu/artworks/27992",
+      "image": "https://www.artic.edu/iiif/2/2d484387-2509-5e8e-2c43-22f9981972eb/full/843,/0/default.jpg",
+      "wikiUrl": "https://ja.wikipedia.org/wiki/グラン・ジャット島の日曜日の午後"
     },
     {
       "id": "artic-9021",
@@ -1094,6 +1094,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/100476",
       "image": "https://www.artic.edu/iiif/2/16e53257-ade2-4f5d-3521-2bc9666bc4cf/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-27980",
+      "title": "ばら色の長椅子の女",
+      "artist": "Henri Matisse",
+      "year": 1921,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/27980",
+      "image": "https://www.artic.edu/iiif/2/65e58fc4-4dd1-7149-b76b-94547745bece/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1183,17 +1194,6 @@
       "museumUrl": "https://www.artic.edu/artworks/69780",
       "image": "https://www.artic.edu/iiif/2/3f9aa9db-61e1-7060-fdb0-bfd7e41ddd08/full/843,/0/default.jpg",
       "wikiUrl": null
-    },
-    {
-      "id": "artic-27992",
-      "title": "グランド・ジャット島の日曜日の午後　1884年",
-      "artist": "ジョルジュ・スーラ",
-      "year": 1886,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/27992",
-      "image": "https://www.artic.edu/iiif/2/2d484387-2509-5e8e-2c43-22f9981972eb/full/843,/0/default.jpg",
-      "wikiUrl": "https://ja.wikipedia.org/wiki/グラン・ジャット島の日曜日の午後"
     },
     {
       "id": "artic-111442",
@@ -1570,6 +1570,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-15708",
+      "title": "白髪の男の肖像",
+      "artist": "Henry Raeburn",
+      "year": 1820,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/15708",
+      "image": "https://www.artic.edu/iiif/2/51a56e7e-ffa2-bb9e-7f16-99bc0b4b4d66/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-6005",
       "title": "The Banks of the Marne in Winter",
       "artist": "カミーユ・ピサロ",
@@ -1889,17 +1900,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-15708",
-      "title": "白髪の男の肖像",
-      "artist": "Henry Raeburn",
-      "year": 1820,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/15708",
-      "image": "https://www.artic.edu/iiif/2/51a56e7e-ffa2-bb9e-7f16-99bc0b4b4d66/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-44739",
       "title": "娘に口述するミルトン",
       "artist": "Henry Fuseli",
@@ -2109,14 +2109,14 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-27984",
-      "title": "Woman before an Aquarium",
-      "artist": "Henri Matisse",
-      "year": 1923,
-      "century": "20世紀",
+      "id": "artic-887",
+      "title": "人物のいる風景",
+      "artist": "Narcisse Virgile Diaz de la Peña",
+      "year": 1875,
+      "century": "18〜19世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/27984",
-      "image": "https://www.artic.edu/iiif/2/d0e36029-27fc-bf4e-357a-55cfbaf7bdfd/full/843,/0/default.jpg",
+      "museumUrl": "https://www.artic.edu/artworks/887",
+      "image": "https://www.artic.edu/iiif/2/ad3280c6-611a-c136-29b8-8f303a02f416/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2150,6 +2150,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/65930",
       "image": "https://www.artic.edu/iiif/2/2a328b12-cb68-19e8-3843-b2160f007813/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-27984",
+      "title": "Woman before an Aquarium",
+      "artist": "Henri Matisse",
+      "year": 1923,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/27984",
+      "image": "https://www.artic.edu/iiif/2/d0e36029-27fc-bf4e-357a-55cfbaf7bdfd/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2527,17 +2538,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-887",
-      "title": "人物のいる風景",
-      "artist": "Narcisse Virgile Diaz de la Peña",
-      "year": 1875,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/887",
-      "image": "https://www.artic.edu/iiif/2/ad3280c6-611a-c136-29b8-8f303a02f416/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-497",
       "title": "子に授乳する母（幸せな母）",
       "artist": "Willem van Mieris",
@@ -2912,6 +2912,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-5304",
+      "title": "Homer Dictating",
+      "artist": "Pier Francesco Mola",
+      "year": 1665,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/5304",
+      "image": "https://www.artic.edu/iiif/2/8eed2fbf-5090-4fb2-8f7a-74e97c8e6eaf/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-153799",
       "title": "Woman Bathing Her Feet in a Brook",
       "artist": "カミーユ・ピサロ",
@@ -3165,17 +3176,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-5304",
-      "title": "Homer Dictating",
-      "artist": "Pier Francesco Mola",
-      "year": 1665,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/5304",
-      "image": "https://www.artic.edu/iiif/2/8eed2fbf-5090-4fb2-8f7a-74e97c8e6eaf/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-120172",
       "title": "Penitent Saint Peter",
       "artist": "Jusepe de Ribera",
@@ -3407,6 +3407,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-2179",
+      "title": "男性の肖像",
+      "artist": "Antonio Maria Esquivel",
+      "year": 1843,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/2179",
+      "image": "https://www.artic.edu/iiif/2/371ba960-c86a-ec5b-d5aa-40b510917c4c/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-81540",
       "title": "エトルタ、船の出発",
       "artist": "クロード・モネ",
@@ -3569,17 +3580,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/111428",
       "image": "https://www.artic.edu/iiif/2/43325575-c0a1-67c2-4eb5-5fcabafd098e/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-2179",
-      "title": "男性の肖像",
-      "artist": "Antonio Maria Esquivel",
-      "year": 1843,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/2179",
-      "image": "https://www.artic.edu/iiif/2/371ba960-c86a-ec5b-d5aa-40b510917c4c/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
