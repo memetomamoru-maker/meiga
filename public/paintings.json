@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-06T04:01:38.190Z",
+  "generated": "2026-11-07T03:38:05.028Z",
   "total": 850,
   "sources": {
     "artic": 355,
@@ -1042,17 +1042,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-27992",
-      "title": "グランド・ジャット島の日曜日の午後　1884年",
-      "artist": "ジョルジュ・スーラ",
-      "year": 1886,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/27992",
-      "image": "https://www.artic.edu/iiif/2/2d484387-2509-5e8e-2c43-22f9981972eb/full/843,/0/default.jpg",
-      "wikiUrl": "https://ja.wikipedia.org/wiki/グラン・ジャット島の日曜日の午後"
-    },
-    {
       "id": "artic-9021",
       "title": "魅惑の水車小屋",
       "artist": "Franz Marc",
@@ -1095,6 +1084,17 @@
       "museumUrl": "https://www.artic.edu/artworks/100476",
       "image": "https://www.artic.edu/iiif/2/16e53257-ade2-4f5d-3521-2bc9666bc4cf/full/843,/0/default.jpg",
       "wikiUrl": null
+    },
+    {
+      "id": "artic-27992",
+      "title": "グランド・ジャット島の日曜日の午後　1884年",
+      "artist": "ジョルジュ・スーラ",
+      "year": 1886,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/27992",
+      "image": "https://www.artic.edu/iiif/2/2d484387-2509-5e8e-2c43-22f9981972eb/full/843,/0/default.jpg",
+      "wikiUrl": "https://ja.wikipedia.org/wiki/グラン・ジャット島の日曜日の午後"
     },
     {
       "id": "artic-27980",
@@ -2109,28 +2109,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-887",
-      "title": "人物のいる風景",
-      "artist": "Narcisse Virgile Diaz de la Peña",
-      "year": 1875,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/887",
-      "image": "https://www.artic.edu/iiif/2/ad3280c6-611a-c136-29b8-8f303a02f416/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-65925",
-      "title": "ニューイングランドの終わり——ニューメキシコの始まり",
-      "artist": "Marsden Hartley",
-      "year": 1919,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/65925",
-      "image": "https://www.artic.edu/iiif/2/75fc3e47-9b94-5838-25ea-6c24620765d0/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-65920",
       "title": "プロビンスタウン",
       "artist": "Marsden Hartley",
@@ -2150,6 +2128,28 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/65930",
       "image": "https://www.artic.edu/iiif/2/2a328b12-cb68-19e8-3843-b2160f007813/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-65925",
+      "title": "ニューイングランドの終わり——ニューメキシコの始まり",
+      "artist": "Marsden Hartley",
+      "year": 1919,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/65925",
+      "image": "https://www.artic.edu/iiif/2/75fc3e47-9b94-5838-25ea-6c24620765d0/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-887",
+      "title": "人物のいる風景",
+      "artist": "Narcisse Virgile Diaz de la Peña",
+      "year": 1875,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/887",
+      "image": "https://www.artic.edu/iiif/2/ad3280c6-611a-c136-29b8-8f303a02f416/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
