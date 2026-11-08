@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-07T03:38:05.028Z",
+  "generated": "2026-11-08T03:09:32.710Z",
   "total": 850,
   "sources": {
     "artic": 355,
@@ -6619,17 +6619,6 @@
       "wikiUrl": null
     },
     {
-      "id": "cma-95272",
-      "title": "Gardener's House at Antibes",
-      "artist": "クロード・モネ",
-      "year": 1888,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1916.1044",
-      "image": "https://openaccess-cdn.clevelandart.org/1916.1044/1916.1044_web.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "cma-135336",
       "title": "Berthe Morisot with a Muff",
       "artist": "エドゥアール・マネ",
@@ -6638,6 +6627,17 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/1958.34",
       "image": "https://openaccess-cdn.clevelandart.org/1958.34/1958.34_web.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "cma-95272",
+      "title": "Gardener's House at Antibes",
+      "artist": "クロード・モネ",
+      "year": 1888,
+      "century": "18〜19世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/1916.1044",
+      "image": "https://openaccess-cdn.clevelandart.org/1916.1044/1916.1044_web.jpg",
       "wikiUrl": null
     },
     {
@@ -7983,6 +7983,17 @@
       "wikiUrl": null
     },
     {
+      "id": "cma-444535",
+      "title": "Portrait of Renoir",
+      "artist": "Frédéric Bazille",
+      "year": 1867,
+      "century": "18〜19世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/2021.134",
+      "image": "https://openaccess-cdn.clevelandart.org/2021.134/2021.134_web.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "cma-148967",
       "title": "Young Woman with a Mandolin, Portrait of Louison Köhler",
       "artist": "François Bonvin",
@@ -8057,17 +8068,6 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/2010.19",
       "image": "https://openaccess-cdn.clevelandart.org/2010.19/2010.19_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-444535",
-      "title": "Portrait of Renoir",
-      "artist": "Frédéric Bazille",
-      "year": 1867,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/2021.134",
-      "image": "https://openaccess-cdn.clevelandart.org/2021.134/2021.134_web.jpg",
       "wikiUrl": null
     },
     {
