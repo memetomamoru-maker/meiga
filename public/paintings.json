@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-12T04:46:22.902Z",
+  "generated": "2026-11-13T03:57:48.162Z",
   "total": 850,
   "sources": {
     "artic": 355,
@@ -7,6 +7,17 @@
     "cma": 469
   },
   "paintings": [
+    {
+      "id": "artic-20530",
+      "title": "ポントワーズの雪のウサギ小屋",
+      "artist": "カミーユ・ピサロ",
+      "year": 1879,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/20530",
+      "image": "https://www.artic.edu/iiif/2/053f9be8-3617-c4ef-36cd-1deb5e13b288/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
     {
       "id": "artic-16568",
       "title": "睡蓮",
@@ -27,17 +38,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/14630",
       "image": "https://www.artic.edu/iiif/2/64c38f6d-f0d5-b553-a27e-3552550f351a/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-20530",
-      "title": "ポントワーズの雪のウサギ小屋",
-      "artist": "カミーユ・ピサロ",
-      "year": 1879,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/20530",
-      "image": "https://www.artic.edu/iiif/2/053f9be8-3617-c4ef-36cd-1deb5e13b288/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1042,17 +1042,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-869",
-      "title": "赤い大屋根の水車小屋",
-      "artist": "Meindert Hobbema",
-      "year": 1670,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/869",
-      "image": "https://www.artic.edu/iiif/2/237c25a2-6051-a8e7-1610-a01938d4deab/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-9021",
       "title": "魅惑の水車小屋",
       "artist": "Franz Marc",
@@ -1094,6 +1083,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/100476",
       "image": "https://www.artic.edu/iiif/2/16e53257-ade2-4f5d-3521-2bc9666bc4cf/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-869",
+      "title": "赤い大屋根の水車小屋",
+      "artist": "Meindert Hobbema",
+      "year": 1670,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/869",
+      "image": "https://www.artic.edu/iiif/2/237c25a2-6051-a8e7-1610-a01938d4deab/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1570,14 +1570,14 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-15708",
-      "title": "白髪の男の肖像",
-      "artist": "Henry Raeburn",
-      "year": 1820,
+      "id": "artic-15705",
+      "title": "休息",
+      "artist": "Antonio Mancini",
+      "year": 1892,
       "century": "18〜19世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/15708",
-      "image": "https://www.artic.edu/iiif/2/51a56e7e-ffa2-bb9e-7f16-99bc0b4b4d66/full/843,/0/default.jpg",
+      "museumUrl": "https://www.artic.edu/artworks/15705",
+      "image": "https://www.artic.edu/iiif/2/f117b976-3897-fbbd-7a1f-ac8a5ccbfa51/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1589,6 +1589,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/6005",
       "image": "https://www.artic.edu/iiif/2/3d950ecc-73f4-c28a-f216-0940b23fa5e8/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-15708",
+      "title": "白髪の男の肖像",
+      "artist": "Henry Raeburn",
+      "year": 1820,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/15708",
+      "image": "https://www.artic.edu/iiif/2/51a56e7e-ffa2-bb9e-7f16-99bc0b4b4d66/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2062,17 +2073,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/111656",
       "image": "https://www.artic.edu/iiif/2/3fa3855e-d7e7-d2a4-0f95-a38268026bad/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-15705",
-      "title": "休息",
-      "artist": "Antonio Mancini",
-      "year": 1892,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/15705",
-      "image": "https://www.artic.edu/iiif/2/f117b976-3897-fbbd-7a1f-ac8a5ccbfa51/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2659,17 +2659,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-27310",
-      "title": "エリザベスと洗礼者ヨハネを伴う聖家族",
-      "artist": "ピーテル・パウル・ルーベンス",
-      "year": 1620,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/27310",
-      "image": "https://www.artic.edu/iiif/2/caac7478-b78f-a94d-a36c-fc5dde17e7c9/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-100342",
       "title": "Saint Francis",
       "artist": "ピーテル・パウル・ルーベンス",
@@ -2678,6 +2667,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/100342",
       "image": "https://www.artic.edu/iiif/2/fa4dd0f2-382c-076c-ff20-c59a2774400c/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-27310",
+      "title": "エリザベスと洗礼者ヨハネを伴う聖家族",
+      "artist": "ピーテル・パウル・ルーベンス",
+      "year": 1620,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/27310",
+      "image": "https://www.artic.edu/iiif/2/caac7478-b78f-a94d-a36c-fc5dde17e7c9/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2912,6 +2912,50 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-111317",
+      "title": "アメデー・ダヴィッド、パストレ伯爵",
+      "artist": "ジャン＝オーギュスト＝ドミニク・アングル",
+      "year": 1826,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/111317",
+      "image": "https://www.artic.edu/iiif/2/8d119fd0-2f57-f20e-a3f5-a573904001e9/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-153799",
+      "title": "Woman Bathing Her Feet in a Brook",
+      "artist": "カミーユ・ピサロ",
+      "year": 1895,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/153799",
+      "image": "https://www.artic.edu/iiif/2/5ccaee46-a1a0-5035-821c-0547aa35c070/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-81546",
+      "title": "The Petite Creuse River",
+      "artist": "クロード・モネ",
+      "year": 1889,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/81546",
+      "image": "https://www.artic.edu/iiif/2/ec1f6262-09c2-8f7e-baa9-9c0b267337ff/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-81566",
+      "title": "芸術とミューズに愛された聖なる森",
+      "artist": "Pierre Puvis de Chavannes",
+      "year": 1889,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/81566",
+      "image": "https://www.artic.edu/iiif/2/94bfb508-31cc-7c9f-63a9-5478c826129a/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-8987",
       "title": "Painting with Green Center",
       "artist": "Vasily Kandinsky",
@@ -2934,17 +2978,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-153799",
-      "title": "Woman Bathing Her Feet in a Brook",
-      "artist": "カミーユ・ピサロ",
-      "year": 1895,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/153799",
-      "image": "https://www.artic.edu/iiif/2/5ccaee46-a1a0-5035-821c-0547aa35c070/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-100191",
       "title": "Stack of Wheat (Thaw, Sunset)",
       "artist": "クロード・モネ",
@@ -2953,17 +2986,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/100191",
       "image": "https://www.artic.edu/iiif/2/8bd40b36-43ea-8b02-d76a-b325962b86db/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-81546",
-      "title": "The Petite Creuse River",
-      "artist": "クロード・モネ",
-      "year": 1889,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/81546",
-      "image": "https://www.artic.edu/iiif/2/ec1f6262-09c2-8f7e-baa9-9c0b267337ff/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -3063,28 +3085,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/109926",
       "image": "https://www.artic.edu/iiif/2/a1dc6109-6e0c-7801-ebe8-8c95fec2c4e4/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-111317",
-      "title": "アメデー・ダヴィッド、パストレ伯爵",
-      "artist": "ジャン＝オーギュスト＝ドミニク・アングル",
-      "year": 1826,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/111317",
-      "image": "https://www.artic.edu/iiif/2/8d119fd0-2f57-f20e-a3f5-a573904001e9/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-81566",
-      "title": "芸術とミューズに愛された聖なる森",
-      "artist": "Pierre Puvis de Chavannes",
-      "year": 1889,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/81566",
-      "image": "https://www.artic.edu/iiif/2/94bfb508-31cc-7c9f-63a9-5478c826129a/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -3407,6 +3407,72 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-222002",
+      "title": "A Woman at the Élysée Montmartre (Femme à l’Élysée Montmartre)",
+      "artist": "Louis Anquetin",
+      "year": 1888,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/222002",
+      "image": "https://www.artic.edu/iiif/2/a7638f95-22e3-5fff-8605-49fd6d8aac79/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-87515",
+      "title": "ヨブ",
+      "artist": "Spanish",
+      "year": 1630,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/87515",
+      "image": "https://www.artic.edu/iiif/2/5403c6fd-fb8b-c22c-abaa-9c30eb3710f4/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-109938",
+      "title": "アオスタの谷：吹雪、雪崩、嵐",
+      "artist": "Joseph Mallord William Turner",
+      "year": 1837,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/109938",
+      "image": "https://www.artic.edu/iiif/2/564e2e3f-eb93-88a7-d265-8fea006facff/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-11434",
+      "title": "洗礼者ヨハネの首を持つサロメ",
+      "artist": "Guido Reni",
+      "year": 1642,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/11434",
+      "image": "https://www.artic.edu/iiif/2/8eccb189-92f3-353a-3337-c0778c2680d9/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-81548",
+      "title": "コーヒーを飲む若い農婦",
+      "artist": "カミーユ・ピサロ",
+      "year": 1881,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/81548",
+      "image": "https://www.artic.edu/iiif/2/335a59a4-3f5b-b9db-b8e8-861467d211ef/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-81552",
+      "title": "井戸のそばの女と子",
+      "artist": "カミーユ・ピサロ",
+      "year": 1882,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/81552",
+      "image": "https://www.artic.edu/iiif/2/a2ddbd89-d864-8877-37bc-cd3dce12c37c/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-2179",
       "title": "男性の肖像",
       "artist": "Antonio Maria Esquivel",
@@ -3462,28 +3528,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-81552",
-      "title": "井戸のそばの女と子",
-      "artist": "カミーユ・ピサロ",
-      "year": 1882,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/81552",
-      "image": "https://www.artic.edu/iiif/2/a2ddbd89-d864-8877-37bc-cd3dce12c37c/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-81548",
-      "title": "コーヒーを飲む若い農婦",
-      "artist": "カミーユ・ピサロ",
-      "year": 1881,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/81548",
-      "image": "https://www.artic.edu/iiif/2/335a59a4-3f5b-b9db-b8e8-861467d211ef/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-16629",
       "title": "南仏の果物",
       "artist": "ピエール＝オーギュスト・ルノワール",
@@ -3525,17 +3569,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/27987",
       "image": "https://www.artic.edu/iiif/2/7e649536-b186-c3f5-3e6d-0d22d5d798ef/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-11434",
-      "title": "洗礼者ヨハネの首を持つサロメ",
-      "artist": "Guido Reni",
-      "year": 1642,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/11434",
-      "image": "https://www.artic.edu/iiif/2/8eccb189-92f3-353a-3337-c0778c2680d9/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -3602,39 +3635,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/65845",
       "image": "https://www.artic.edu/iiif/2/901da649-8816-41da-07e2-6140dd52d67a/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-87515",
-      "title": "ヨブ",
-      "artist": "Spanish",
-      "year": 1630,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/87515",
-      "image": "https://www.artic.edu/iiif/2/5403c6fd-fb8b-c22c-abaa-9c30eb3710f4/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-109938",
-      "title": "アオスタの谷：吹雪、雪崩、嵐",
-      "artist": "Joseph Mallord William Turner",
-      "year": 1837,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/109938",
-      "image": "https://www.artic.edu/iiif/2/564e2e3f-eb93-88a7-d265-8fea006facff/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-222002",
-      "title": "A Woman at the Élysée Montmartre (Femme à l’Élysée Montmartre)",
-      "artist": "Louis Anquetin",
-      "year": 1888,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/222002",
-      "image": "https://www.artic.edu/iiif/2/a7638f95-22e3-5fff-8605-49fd6d8aac79/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
