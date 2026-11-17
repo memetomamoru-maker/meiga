@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-15T03:40:05.851Z",
+  "generated": "2026-11-17T05:36:29.019Z",
   "total": 850,
   "sources": {
     "artic": 355,
@@ -1086,6 +1086,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-94840",
+      "title": "半開きの扉のそばの若い女性",
+      "artist": "レンブラント・ファン・レイン",
+      "year": 1645,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/94840",
+      "image": "https://www.artic.edu/iiif/2/91c51644-871f-cda9-82bb-94f4973ae339/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-869",
       "title": "赤い大屋根の水車小屋",
       "artist": "Meindert Hobbema",
@@ -1358,17 +1369,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/863",
       "image": "https://www.artic.edu/iiif/2/a34d9d72-c4ec-0750-389e-a01215c9aab0/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-94840",
-      "title": "半開きの扉のそばの若い女性",
-      "artist": "レンブラント・ファン・レイン",
-      "year": 1645,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/94840",
-      "image": "https://www.artic.edu/iiif/2/91c51644-871f-cda9-82bb-94f4973ae339/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2120,6 +2120,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-65925",
+      "title": "ニューイングランドの終わり——ニューメキシコの始まり",
+      "artist": "Marsden Hartley",
+      "year": 1919,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/65925",
+      "image": "https://www.artic.edu/iiif/2/75fc3e47-9b94-5838-25ea-6c24620765d0/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-65930",
       "title": "静物第15番",
       "artist": "Marsden Hartley",
@@ -2131,14 +2142,14 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-65925",
-      "title": "ニューイングランドの終わり——ニューメキシコの始まり",
-      "artist": "Marsden Hartley",
-      "year": 1919,
-      "century": "20世紀",
+      "id": "artic-95998",
+      "title": "金の鎖を持つ老人",
+      "artist": "レンブラント・ファン・レイン",
+      "year": 1631,
+      "century": "〜17世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/65925",
-      "image": "https://www.artic.edu/iiif/2/75fc3e47-9b94-5838-25ea-6c24620765d0/full/843,/0/default.jpg",
+      "museumUrl": "https://www.artic.edu/artworks/95998",
+      "image": "https://www.artic.edu/iiif/2/3eaab3a3-2b47-9fdd-121c-050f6b8d9ccb/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2337,17 +2348,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/62042",
       "image": "https://www.artic.edu/iiif/2/d9bde524-38b2-4262-3338-e4d06a50746d/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-95998",
-      "title": "金の鎖を持つ老人",
-      "artist": "レンブラント・ファン・レイン",
-      "year": 1631,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/95998",
-      "image": "https://www.artic.edu/iiif/2/3eaab3a3-2b47-9fdd-121c-050f6b8d9ccb/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
