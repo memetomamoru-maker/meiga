@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-18T05:00:19.474Z",
+  "generated": "2026-11-19T04:55:18.136Z",
   "total": 906,
   "sources": {
     "artic": 355,
@@ -393,6 +393,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-217536",
+      "title": "馬小屋（キリスト降誕）",
+      "artist": "Neapolitan",
+      "year": 1775,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/217536",
+      "image": "https://www.artic.edu/iiif/2/8b73e4fa-c454-3744-3c11-81ada02ac978/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-20684",
       "title": "パリの街路、雨の日",
       "artist": "ギュスターヴ・カイユボット",
@@ -423,17 +434,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/25825",
       "image": "https://www.artic.edu/iiif/2/8f06717c-9ede-f22b-d13b-327a50c22f9c/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-217536",
-      "title": "馬小屋（キリスト降誕）",
-      "artist": "Neapolitan",
-      "year": 1775,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/217536",
-      "image": "https://www.artic.edu/iiif/2/8b73e4fa-c454-3744-3c11-81ada02ac978/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1042,14 +1042,14 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-109819",
-      "title": "黄色・黒・青・赤・灰色の菱形コンポジション",
-      "artist": "Piet Mondrian",
-      "year": 1921,
-      "century": "20世紀",
+      "id": "artic-16571",
+      "title": "サン＝ラザール駅、ノルマンディー行き列車の到着",
+      "artist": "クロード・モネ",
+      "year": 1877,
+      "century": "18〜19世紀",
       "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/109819",
-      "image": "https://www.artic.edu/iiif/2/25f660ee-f1db-d13b-42a5-56df97c98ba7/full/843,/0/default.jpg",
+      "museumUrl": "https://www.artic.edu/artworks/16571",
+      "image": "https://www.artic.edu/iiif/2/0f1cc0e0-e42e-be16-3f71-2022da38cb93/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1061,17 +1061,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/9021",
       "image": "https://www.artic.edu/iiif/2/6829aab0-8d0e-9438-aebf-a1a379572951/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-16571",
-      "title": "サン＝ラザール駅、ノルマンディー行き列車の到着",
-      "artist": "クロード・モネ",
-      "year": 1877,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/16571",
-      "image": "https://www.artic.edu/iiif/2/0f1cc0e0-e42e-be16-3f71-2022da38cb93/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1094,6 +1083,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/100476",
       "image": "https://www.artic.edu/iiif/2/16e53257-ade2-4f5d-3521-2bc9666bc4cf/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-109819",
+      "title": "黄色・黒・青・赤・灰色の菱形コンポジション",
+      "artist": "Piet Mondrian",
+      "year": 1921,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/109819",
+      "image": "https://www.artic.edu/iiif/2/25f660ee-f1db-d13b-42a5-56df97c98ba7/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2142,6 +2142,28 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-27984",
+      "title": "Woman before an Aquarium",
+      "artist": "Henri Matisse",
+      "year": 1923,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/27984",
+      "image": "https://www.artic.edu/iiif/2/d0e36029-27fc-bf4e-357a-55cfbaf7bdfd/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-2166",
+      "title": "カナの婚礼",
+      "artist": "Giuseppe Maria Crespi",
+      "year": 1691,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/2166",
+      "image": "https://www.artic.edu/iiif/2/0b0b5c15-0633-376b-278e-2660f09b582a/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-95998",
       "title": "金の鎖を持つ老人",
       "artist": "レンブラント・ファン・レイン",
@@ -2161,17 +2183,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/887",
       "image": "https://www.artic.edu/iiif/2/ad3280c6-611a-c136-29b8-8f303a02f416/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-27984",
-      "title": "Woman before an Aquarium",
-      "artist": "Henri Matisse",
-      "year": 1923,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/27984",
-      "image": "https://www.artic.edu/iiif/2/d0e36029-27fc-bf4e-357a-55cfbaf7bdfd/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2392,17 +2403,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/4575",
       "image": "https://www.artic.edu/iiif/2/5b9758c9-24ef-8661-fac0-c9a4229eefd4/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-2166",
-      "title": "カナの婚礼",
-      "artist": "Giuseppe Maria Crespi",
-      "year": 1691,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/2166",
-      "image": "https://www.artic.edu/iiif/2/0b0b5c15-0633-376b-278e-2660f09b582a/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -3407,6 +3407,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-16488",
+      "title": "眠るリナルドに出会うアルミーダ",
+      "artist": "ジョヴァンニ・バッティスタ・ティエポロ",
+      "year": 1745,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/16488",
+      "image": "https://www.artic.edu/iiif/2/633f464c-203f-f7b9-a251-7a2073f4b05d/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-64729",
       "title": "ターポンスプリングスの早朝",
       "artist": "George Inness",
@@ -3591,17 +3602,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/88632",
       "image": "https://www.artic.edu/iiif/2/77f1c8e3-16c6-1147-f4aa-4cfc8bd3eb8b/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-16488",
-      "title": "眠るリナルドに出会うアルミーダ",
-      "artist": "ジョヴァンニ・バッティスタ・ティエポロ",
-      "year": 1745,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/16488",
-      "image": "https://www.artic.edu/iiif/2/633f464c-203f-f7b9-a251-7a2073f4b05d/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -5475,6 +5475,17 @@
       "wikiUrl": null
     },
     {
+      "id": "cma-160938",
+      "title": "View of Niagara Falls",
+      "artist": "John Frederick Kensett",
+      "year": 1846,
+      "century": "18〜19世紀",
+      "museum": "クリーブランド美術館",
+      "museumUrl": "https://clevelandart.org/art/1999.210",
+      "image": "https://openaccess-cdn.clevelandart.org/1999.210/1999.210_web.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "cma-162745",
       "title": "Moses Seymour Jr.",
       "artist": "Ralph Earl",
@@ -6803,17 +6814,6 @@
       "museum": "クリーブランド美術館",
       "museumUrl": "https://clevelandart.org/art/1995.24",
       "image": "https://openaccess-cdn.clevelandart.org/1995.24/1995.24_web.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "cma-160938",
-      "title": "View of Niagara Falls",
-      "artist": "John Frederick Kensett",
-      "year": 1846,
-      "century": "18〜19世紀",
-      "museum": "クリーブランド美術館",
-      "museumUrl": "https://clevelandart.org/art/1999.210",
-      "image": "https://openaccess-cdn.clevelandart.org/1999.210/1999.210_web.jpg",
       "wikiUrl": null
     },
     {
