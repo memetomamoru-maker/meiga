@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-20T04:45:32.774Z",
+  "generated": "2026-11-21T04:40:31.483Z",
   "total": 906,
   "sources": {
     "artic": 355,
@@ -7,6 +7,17 @@
     "cma": 525
   },
   "paintings": [
+    {
+      "id": "artic-11723",
+      "title": "化粧する女",
+      "artist": "ベルト・モリゾ",
+      "year": 1880,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/11723",
+      "image": "https://www.artic.edu/iiif/2/78c80988-6524-cec7-c661-a4c0a706d06f/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
     {
       "id": "artic-20530",
       "title": "ポントワーズの雪のウサギ小屋",
@@ -49,17 +60,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/14591",
       "image": "https://www.artic.edu/iiif/2/fd991fea-0c13-8444-7879-aba467f1d9db/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-11723",
-      "title": "化粧する女",
-      "artist": "ベルト・モリゾ",
-      "year": 1880,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/11723",
-      "image": "https://www.artic.edu/iiif/2/78c80988-6524-cec7-c661-a4c0a706d06f/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -800,6 +800,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-216794",
+      "title": "読書する若い聖職者",
+      "artist": "Martin Rørbye",
+      "year": 1836,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/216794",
+      "image": "https://www.artic.edu/iiif/2/462bae40-e526-294c-4639-a3c360dfa94e/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-110663",
       "title": "ジャウルとハッサンの格闘",
       "artist": "ウジェーヌ・ドラクロワ",
@@ -819,17 +830,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/181478",
       "image": "https://www.artic.edu/iiif/2/399332e9-94a4-64ac-4ed2-040647b2ca80/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-216794",
-      "title": "読書する若い聖職者",
-      "artist": "Martin Rørbye",
-      "year": 1836,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/216794",
-      "image": "https://www.artic.edu/iiif/2/462bae40-e526-294c-4639-a3c360dfa94e/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1570,6 +1570,39 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-81539",
+      "title": "セーヌ河畔、ベンヌクール",
+      "artist": "クロード・モネ",
+      "year": 1868,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/81539",
+      "image": "https://www.artic.edu/iiif/2/66f95ea3-a11a-1cf4-6599-d0a49bb25744/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-81533",
+      "title": "ロンシャンの競馬",
+      "artist": "エドゥアール・マネ",
+      "year": 1866,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/81533",
+      "image": "https://www.artic.edu/iiif/2/e9ce5aca-4c34-c8dd-b8a1-91b3e3197211/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-15708",
+      "title": "白髪の男の肖像",
+      "artist": "Henry Raeburn",
+      "year": 1820,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/15708",
+      "image": "https://www.artic.edu/iiif/2/51a56e7e-ffa2-bb9e-7f16-99bc0b4b4d66/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-15705",
       "title": "休息",
       "artist": "Antonio Mancini",
@@ -1592,17 +1625,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-15708",
-      "title": "白髪の男の肖像",
-      "artist": "Henry Raeburn",
-      "year": 1820,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/15708",
-      "image": "https://www.artic.edu/iiif/2/51a56e7e-ffa2-bb9e-7f16-99bc0b4b4d66/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-103139",
       "title": "ウォータールー橋、曇天",
       "artist": "クロード・モネ",
@@ -1622,17 +1644,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/97933",
       "image": "https://www.artic.edu/iiif/2/7a23ad22-2044-6d7d-6315-9b101dadc559/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-81539",
-      "title": "セーヌ河畔、ベンヌクール",
-      "artist": "クロード・モネ",
-      "year": 1868,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/81539",
-      "image": "https://www.artic.edu/iiif/2/66f95ea3-a11a-1cf4-6599-d0a49bb25744/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -1710,17 +1721,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/154121",
       "image": "https://www.artic.edu/iiif/2/0274aa9e-95d1-2a8e-12e3-2b09d7749b4f/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-81533",
-      "title": "ロンシャンの競馬",
-      "artist": "エドゥアール・マネ",
-      "year": 1866,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/81533",
-      "image": "https://www.artic.edu/iiif/2/e9ce5aca-4c34-c8dd-b8a1-91b3e3197211/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2912,6 +2912,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-120172",
+      "title": "Penitent Saint Peter",
+      "artist": "Jusepe de Ribera",
+      "year": 1632,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/120172",
+      "image": "https://www.artic.edu/iiif/2/d51eb11c-da63-0888-0a59-6a5ef0631142/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-84076",
       "title": "カフェの歌手",
       "artist": "エドガー・ドガ",
@@ -3187,17 +3198,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-120172",
-      "title": "Penitent Saint Peter",
-      "artist": "Jusepe de Ribera",
-      "year": 1632,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/120172",
-      "image": "https://www.artic.edu/iiif/2/d51eb11c-da63-0888-0a59-6a5ef0631142/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-111620",
       "title": "The Abduction of the Sabine Women",
       "artist": "Luca Giordano",
@@ -3407,6 +3407,28 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-81548",
+      "title": "コーヒーを飲む若い農婦",
+      "artist": "カミーユ・ピサロ",
+      "year": 1881,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/81548",
+      "image": "https://www.artic.edu/iiif/2/335a59a4-3f5b-b9db-b8e8-861467d211ef/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-11434",
+      "title": "洗礼者ヨハネの首を持つサロメ",
+      "artist": "Guido Reni",
+      "year": 1642,
+      "century": "〜17世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/11434",
+      "image": "https://www.artic.edu/iiif/2/8eccb189-92f3-353a-3337-c0778c2680d9/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-16488",
       "title": "眠るリナルドに出会うアルミーダ",
       "artist": "ジョヴァンニ・バッティスタ・ティエポロ",
@@ -3459,28 +3481,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/222002",
       "image": "https://www.artic.edu/iiif/2/a7638f95-22e3-5fff-8605-49fd6d8aac79/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-11434",
-      "title": "洗礼者ヨハネの首を持つサロメ",
-      "artist": "Guido Reni",
-      "year": 1642,
-      "century": "〜17世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/11434",
-      "image": "https://www.artic.edu/iiif/2/8eccb189-92f3-353a-3337-c0778c2680d9/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-81548",
-      "title": "コーヒーを飲む若い農婦",
-      "artist": "カミーユ・ピサロ",
-      "year": 1881,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/81548",
-      "image": "https://www.artic.edu/iiif/2/335a59a4-3f5b-b9db-b8e8-861467d211ef/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
