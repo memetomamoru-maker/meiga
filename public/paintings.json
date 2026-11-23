@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-22T03:55:12.517Z",
+  "generated": "2026-11-23T04:35:32.032Z",
   "total": 906,
   "sources": {
     "artic": 355,
@@ -2120,17 +2120,6 @@
       "wikiUrl": null
     },
     {
-      "id": "artic-65930",
-      "title": "静物第15番",
-      "artist": "Marsden Hartley",
-      "year": 1917,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/65930",
-      "image": "https://www.artic.edu/iiif/2/2a328b12-cb68-19e8-3843-b2160f007813/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
       "id": "artic-65925",
       "title": "ニューイングランドの終わり——ニューメキシコの始まり",
       "artist": "Marsden Hartley",
@@ -2139,6 +2128,17 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/65925",
       "image": "https://www.artic.edu/iiif/2/75fc3e47-9b94-5838-25ea-6c24620765d0/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
+      "id": "artic-65930",
+      "title": "静物第15番",
+      "artist": "Marsden Hartley",
+      "year": 1917,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/65930",
+      "image": "https://www.artic.edu/iiif/2/2a328b12-cb68-19e8-3843-b2160f007813/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
