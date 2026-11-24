@@ -1040,7 +1040,28 @@ const ARTIC_IDS = [
 
 // MET固定ID方式に変更（ランダム取得廃止）
 
-function fetchJson(url,ms){if(!ms)ms=10000;return new Promise(function(resolve){var t=setTimeout(function(){resolve(null);},ms);var req=https.get(url,{headers:{'User-Agent':'meiga-bot/35.0'}},function(res){if(res.statusCode!==200){clearTimeout(t);res.resume();resolve(null);return;}var body='';res.on('data',function(d){body+=d;});res.on('end',function(){clearTimeout(t);try{resolve(JSON.parse(body));}catch(e){resolve(null);}});res.on('error',function(){clearTimeout(t);resolve(null);});});req.on('error',function(){clearTimeout(t);resolve(null);});});}
+function fetchJson(url, ms, allowNotFound = false) {
+  return new Promise(resolve => {
+    const req = https.get(url, { headers: { 'User-Agent': 'meiga-bot/35.0' } }, res => {
+      if (res.statusCode !== 200) {
+        res.resume();
+        resolve(allowNotFound && res.statusCode === 404 ? undefined : null);
+        return;
+      }
+      let body = '';
+      res.setEncoding('utf8');
+      res.on('data', chunk => { body += chunk; });
+      res.on('end', () => {
+        try { resolve(JSON.parse(body)); }
+        catch { resolve(null); }
+      });
+      res.on('error', () => resolve(null));
+    });
+    const timeout = setTimeout(() => req.destroy(new Error('Request timed out')), ms);
+    req.on('error', () => resolve(null));
+    req.on('close', () => clearTimeout(timeout));
+  });
+}
 function sleep(ms){return new Promise(function(r){setTimeout(r,ms);});}
 function shuffle(a){return a.slice().sort(function(){return Math.random()-0.5;});}
 function jt(en){return TITLE_JA[en]||en;}
@@ -1102,6 +1123,7 @@ function toCMA(d) {
 
 async function fetchCMA() {
   var results = [];
+  let complete = true;
   var LIMIT = 100;
   var DEPTS = ['European Paintings', 'American Painting and Sculpture', 'Modern European Painting and Sculpture'];
   for (var di = 0; di < DEPTS.length; di++) {
@@ -1109,7 +1131,12 @@ async function fetchCMA() {
     for (var skip = 0; skip < 300; skip += LIMIT) {
       var url = CMA + '/?type=Painting&has_image=1&cc0=1&limit=' + LIMIT + '&skip=' + skip + '&department=' + encodeURIComponent(dept);
       var r = await fetchJson(url, 15000);
-      if (!r || !r.data || r.data.length === 0) break;
+      if (!Array.isArray(r?.data)) {
+        complete = false;
+        console.warn('[CMA] 取得失敗: ' + dept + ' skip' + skip);
+        break;
+      }
+      if (r.data.length === 0) break;
       var items = r.data.map(toCMA).filter(Boolean);
       results = results.concat(items);
       console.log('[CMA] ' + dept + ' skip' + skip + ': ' + items.length + '件 累計:' + results.length);
@@ -1118,7 +1145,7 @@ async function fetchCMA() {
     }
   }
   console.log('[CMA] 合計: ' + results.length + '件');
-  return results;
+  return { paintings: results, complete };
 }
 
 function isMediumOk(medium) {
@@ -1149,13 +1176,29 @@ function toARTIC(d){
 
 async function main(){
   console.log('=== fetch-paintings.js v35 ===');
+  const output = path.join(__dirname, '..', 'public', 'paintings.json');
+  const previous = fs.existsSync(output) ? JSON.parse(fs.readFileSync(output, 'utf8')).paintings : [];
+  const keepPrevious = (source, paintings, failedIds) => {
+    const records = previous.filter(p => p.id.startsWith(source + '-'));
+    const missing = failedIds && new Set(failedIds.map(id => source + '-' + id));
+    const merged = new Map(paintings.map(p => [p.id, p]));
+    for (const record of records) {
+      if ((!missing || missing.has(record.id)) && !merged.has(record.id)) merged.set(record.id, record);
+    }
+    if (merged.size > new Set(paintings.map(p => p.id)).size) {
+      console.warn('[' + source + '] 取得できなかった作品の前回データを維持');
+    }
+    return [...merged.values()];
+  };
   var flds='id,title,artist_display,date_end,image_id,is_public_domain,medium_display';
   var artic=[];
+  const articFailed = [];
   var uniqueIds=[...new Set(ARTIC_IDS)];
   console.log('[ARTIC] ユニークID: '+uniqueIds.length+'件');
   for(var a=0;a<uniqueIds.length;a+=50){
     var ids=uniqueIds.slice(a,a+50);
     var r=await fetchJson(ARTIC+'/artworks?ids='+ids.join(',')+'&fields='+flds+'&limit=50',15000);
+    if (!Array.isArray(r?.data)) articFailed.push(...ids);
     var v=((r&&r.data)||[]).map(toARTIC).filter(Boolean);
     artic=artic.concat(v);
     console.log('[ARTIC] バッチ'+(Math.floor(a/50)+1)+': '+v.length+'件 累計:'+artic.length);
@@ -1170,20 +1213,16 @@ async function main(){
     90048,  // コール（ニアガラの滝）
   ];
   var articFamousData=await Promise.all(ARTIC_FAMOUS.map(function(id){
-    return fetchJson(ARTIC+'/artworks/'+id+'?fields=id,title,artist_display,date_end,image_id,is_public_domain,medium_display',8000)
-      .then(function(r){return r&&r.data?r.data:null;});
+    return fetchJson(ARTIC+'/artworks/'+id+'?fields='+flds,8000,true);
   }));
-  var articFamousFiltered=articFamousData.map(toARTIC).filter(Boolean);
+  articFamousData.forEach((result, index) => {
+    if (result !== undefined && !result?.data?.id) articFailed.push(ARTIC_FAMOUS[index]);
+  });
+  var articFamousFiltered=articFamousData.map(result => toARTIC(result?.data)).filter(Boolean);
   console.log('[ARTIC Famous] '+articFamousFiltered.length+'件');
   artic=artic.concat(articFamousFiltered);
 
-  // MET有名作家固定ID（確認済み: pd=true, 画像あり）
-  var met=[];
   var MET_FAMOUS=[435876,435877,435878,435879,435880,437879,437878];
-  var metFamousData=await Promise.all(MET_FAMOUS.map(function(id){return fetchJson(MET+'/objects/'+id,8000);}));
-  var metFamous=metFamousData.map(toMET).filter(Boolean);
-  console.log('[MET Famous] '+metFamous.length+'件');
-  met=met.concat(metFamous);
 
   // MET追加確認済みID（classification=Paintings または medium確認済み）
   var MET_EXTRA=[
@@ -1193,19 +1232,28 @@ async function main(){
     // 追加: Gauguin, Van Gogh (確認済み: pd=true, 画像あり)
     438821, 436529,
   ];
-  var metExtraData=await Promise.all(MET_EXTRA.map(function(id){return fetchJson(MET+'/objects/'+id,8000);}));
-  met=met.concat(metExtraData.map(toMET).filter(Boolean));
-  console.log('[MET] '+met.length+'件');
+  const metIds = MET_FAMOUS.concat(MET_EXTRA);
+  const metData = [];
+  for (let i = 0; i < metIds.length; i += 7) {
+    const batch = await Promise.all(metIds.slice(i, i + 7).map(id => fetchJson(MET+'/objects/'+id,8000,true)));
+    metData.push(...batch);
+  }
+  const metFailed = metIds.filter((id, index) => metData[index] !== undefined && !metData[index]?.objectID);
+  const met = keepPrevious('met', metData.map(toMET).filter(Boolean), metFailed);
 
-  var cma = await fetchCMA();
-  var seen=new Set();
-  var all=artic.concat(met).concat(cma).filter(function(p){if(seen.has(p.id))return false;seen.add(p.id);return true;});
-  console.log('=== 合計: '+all.length+'件 (ARTIC:'+artic.length+' MET:'+met.length+' CMA:'+cma.length+') ===');
+  const cmaResult = await fetchCMA();
+  const cma = keepPrevious('cma', cmaResult.paintings,
+    cmaResult.complete && cmaResult.paintings.length ? [] : null);
+  artic = keepPrevious('artic', artic, articFailed);
+  const all = [...artic, ...met, ...cma];
+  if (!all.length) throw new Error('作品を取得できませんでした');
+  const sources = { artic: artic.length, met: met.length, cma: cma.length };
+  console.log('=== 合計: '+all.length+'件', sources);
 
-  var od=path.join(__dirname,'..','public');
-  if(!fs.existsSync(od))fs.mkdirSync(od,{recursive:true});
-  var op=path.join(od,'paintings.json');
-  fs.writeFileSync(op,JSON.stringify({generated:new Date().toISOString(),total:all.length,sources:{artic:artic.length,met:met.length,cma:cma.length},paintings:all},null,2),'utf8');
-  console.log('OK '+op+' ('+(fs.statSync(op).size/1024).toFixed(1)+' KB)');
+  fs.mkdirSync(path.dirname(output), { recursive: true });
+  fs.writeFileSync(output + '.tmp', JSON.stringify({
+    generated: new Date().toISOString(), total: all.length, sources, paintings: all,
+  }, null, 2), 'utf8');
+  fs.renameSync(output + '.tmp', output);
 }
 main().catch(function(e){console.error(e);process.exit(1);});
