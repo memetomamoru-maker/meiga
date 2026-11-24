@@ -1,34 +1,94 @@
-name: Update Paintings JSON
+name: Import licensed Chicago images
 
 on:
-  schedule:
-    - cron: '0 0 * * *'
-  workflow_dispatch:
+  push:
+    branches: [fix/chicago-archived-images]
+    paths: [.github/workflows/update-paintings.yml]
 
 jobs:
-  fetch:
+  import-images:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
-
+    timeout-minutes: 15
     permissions:
       contents: write
-
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+      - uses: actions/checkout@v4
         with:
-          node-version: '20'
-
-      - name: Fetch paintings
-        run: node scripts/fetch-paintings.js
-
-      - name: Commit paintings.json
+          ref: ${{ github.ref_name }}
+      - name: Store verified images from the public CC BY archive
+        shell: bash
         run: |
-          git config user.name  "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add public/paintings.json
-          git diff --cached --quiet && echo "no changes" || git commit -m "chore: update paintings.json [$(date -u '+%Y-%m-%d')]"
-          git push
+          python3 - <<'PYTHON'
+          import json
+          import time
+          from pathlib import Path
+          from urllib.parse import urlencode, urlparse
+          from urllib.request import Request, urlopen
+
+          # The Art Institute of Chicago (CC0) via LINKS Foundation (CC BY 4.0).
+          # https://huggingface.co/datasets/links-ads/artic-dataset
+          records = [[11, 3, 1, "7b7a6f39-1cd8-ea2f-9811-18b0e23edac0"], [2848, 811, 1, "15c13ae6-7fe8-d06b-7462-aee0c985b220"], [4887, 1838, 1, "1f925e43-ff81-5ad7-da75-b28ea651c09f"], [9637, 3637, 1, "462c6fe2-40a4-ed8d-772c-4fb9ae78265f"], [14313, 5282, 1, "258cd64d-9d9a-f878-ffd5-aa017ca05300"], [14493, 5371, 1, "50cc85c9-142d-1208-3a74-9e846c4bc961"], [14506, 5375, 1, "dffd03a4-6c3c-c6c8-6f28-af538d3b74c2"], [14511, 5376, 1, "8da8c187-5064-621a-abbb-319d81f02fb0"], [14523, 5379, 1, "4b1708db-deeb-1e5a-c409-4b1cb5f2cd25"], [14630, 5410, 1, "64c38f6d-f0d5-b553-a27e-3552550f351a"], [14634, 5411, 1, "d39b1026-7d8d-6e6a-738e-8a136b1a0033"], [16484, 5971, 1, "9acdda40-25d6-1df9-939a-93ca898e9667"], [16542, 5989, 1, "2b30e687-4526-f487-cedc-448b3188fd19"], [16544, 5991, 1, "e9179922-f68d-34c5-481d-abf49e046863"], [16564, 5999, 1, "838d8c33-a3b4-68ea-587b-87ceec2011af"], [20701, 7335, 1, "827d02ef-6765-9728-c07e-52ad22b73fd3"], [26720, 10513, 1, "5bbc0c4b-ace9-38ef-460f-4a9efedad60a"], [60426, 22559, 1, "5e7b5f3a-1c5d-6331-a34a-2155197fc06e"], [62808, 23570, 1, "2f25b476-f5a5-7353-5d21-c67207eb1c39", "1948.185", "Khosrow and Shirin in a Garden, a Scene from the Khamsa of Nizami", "Islamic"], [64001, 23992, 1, "b2bc0fc2-8d17-1fcd-8cae-8626421c11ef", "1948.563", "Apples", "Henri Matisse"], [64476, 24057, 47, "d1cda60c-c21d-9fbc-8195-4e7c3d6e9650", "1910.313", "The Winter Sun", "George Gardner Symons"], [64489, 24067, 47, "3edec075-6e0b-0ccc-0036-5328de3e064c", "1910.317", "Young Woman in Black", "Robert Henri"], [65920, 24548, 1, "f534bce3-4746-cba6-6c46-c37a7c9199fb"], [65925, 24550, 1, "63692198-8ab4-4747-7038-6d5278cff867"], [65930, 24553, 1, "adc650d5-4de1-6a0b-f2b1-53f0cd941cf6"], [71573, 25943, 47, "a67c4473-57a4-9807-a94e-1136d3daf876", "1915.560", "A Holiday", "Edward Henry Potthast"], [75557, 27328, 1, "6d216d21-f35a-770a-071c-e0304f23b84f"], [81546, 29929, 1, "ec1f6262-09c2-8f7e-baa9-9c0b267337ff"], [83613, 31209, 1, "2efb0b9d-04a4-390e-752b-fdb9602e017f"], [84092, 31481, 1, "99c8eeea-f07a-af30-c79e-1da4d55243a3"], [87515, 33735, 1, "5403c6fd-fb8b-c22c-abaa-9c30eb3710f4"], [88793, 34108, 1, "97908967-4d35-cde9-6d90-7e90d3fa1dd6"], [94131, 36369, 1, "e406e261-8d27-d3b5-658d-751d79d03ff2"], [97933, 37170, 1, "7a23ad22-2044-6d7d-6315-9b101dadc559"], [103139, 37720, 1, "6f61a6fc-dcd8-e801-0ad8-5f7e561d91b6"], [108853, 38962, 1, "8045eed0-3dce-6fc4-5df0-766ce5750b69"], [111617, 39923, 1, "18dd28cc-ae57-b852-cbc4-d184c6f0555d"], [111656, 39945, 1, "3fa3855e-d7e7-d2a4-0f95-a38268026bad"], [113070, 40630, 1, "7f401f24-8877-e887-53cb-880663ed8907"], [113084, 40648, 1, "f31bbec3-0228-ab8e-ce4a-2029cd5f654f"], [117700, 42455, 47, "be266c25-27f7-38fd-69fa-8efd1b985af2", "1916.439", "On the Bank", "Frederick Carl Frieseke"], [130724, 45304, 47, "384aca18-6efc-e76c-5e1e-20fa5f35baca", "1951.236a", "Page from a Manuscript of Kulliyat (Complete Works) by Sa'di", "Islamic"], [130725, 45305, 47, "fa298f62-bdfe-67b4-e473-65ad9f656dc1", "1951.236b", "Page from a Manuscript of Kulliyat (Complete Works) by Sa'di", "Islamic"], [131827, 45707, 47, "5744228e-f41d-f2ae-b67c-94ec7959766c", "1998.202", "Divan of Hafiz", "Islamic"], [131900, 45757, 1, "8013d2b1-a3e3-bf7f-b28e-510b0a3efee5"], [131901, 45758, 1, "af55c636-a584-e216-f785-f2c43fdf68a9"], [149537, 50745, 1, "16b381b7-e7bc-570b-6abf-66151eb058e2"], [153194, 51453, 47, "4a99abd8-4f62-3482-3670-c783892e4a41", "1999.683", "Soldiers Discovering the Body of Holofernes", "Master of the Liechtenstein Adoration"], [158382, 53099, 1, "d8e45c48-6109-6fe1-e0fc-ba528eeea822"], [181460, 54089, 47, "ba6ef7ee-677c-0bcd-8150-ef7487f17a36", "2003.119", "Day (Truth)", "Ferdinand Hodler"], [182381, 54181, 47, "12f32e59-cba2-0a32-972e-cf4d7856560c", "2004.2", "An Abundance of Fruit", "Severin Roesen"], [183293, 54329, 47, "63e18e3e-35a6-699c-a824-d75228c2f1fa", "2004.489", "Solitude", "Joshua Shaw"], [186418, 54741, 1, "560ff8f8-8932-6114-54d5-8174144615e5", "2013.1039", "Mussooree and the Dhoon from Landour", "Joseph Mallord William Turner"], [187050, 54783, 47, "cd74179e-f331-ebfa-5fa5-ef505d81af0e", "2006.91.1", "Orchids", "Kim Eung-won"], [198126, 56344, 47, "6e78c48f-72a1-121e-4dad-a176a0b78e78", "2018.1", "Lady Filmer in her Drawing Room", "Mary Georgiana Caroline, Lady Filmer"], [217536, 58121, 47, "8b73e4fa-c454-3744-3c11-81ada02ac978", "2013.59", "Cr\u00e8che", "Neapolitan"], [250450, 60540, 47, "0b7a4670-30f1-1232-b53c-bddf1ebf3e8a", "2019.187", "Staircase in the Park of Villa Chigi di Ariccia", "Alexandre Calame"], [250451, 60540, 47, "d3cf298a-1868-3274-1b50-a484ce1462c9", "2019.188", "Landscape near Chiusi, Tuscany", "Alexandre Desgoffe"], [250453, 60540, 47, "5e02eebd-547f-28d1-508e-5a6d56453110", "2019.193", "The Sand Pits, Hampstead Heath", "John Linnell"], [260424, 60719, 47, "8bf9b3a3-cb6f-3e13-f817-a3964dd5cb3c", "2021.54", "The Shadow of Death", "William Holman Hunt"], [265263, 61124, 47, "3279f256-4430-5657-ab3e-15c985ae291f", "2023.3112", "Still Life with Grapes and Flowers", "M\u00e9lanie de Comol\u00e9ra"]]
+          origin = 'https://datasets-server.huggingface.co'
+          directory = Path('images/chicago')
+          directory.mkdir(parents=True, exist_ok=True)
+          downloaded = []
+
+          def open_source(url):
+              time.sleep(1)
+              return urlopen(Request(url, headers={'User-Agent': 'Meiga/1.0 (https://meiga.vercel.app/)'}), timeout=20)
+
+          for artwork_id, offset, length, expected_image_id, *identity in records:
+              params = urlencode({
+                  'dataset': 'links-ads/artic-dataset', 'config': 'default',
+                  'split': 'train', 'offset': offset, 'length': length,
+              })
+              try:
+                  with open_source(origin + '/rows?' + params) as response:
+                      rows = json.load(response)['rows']
+                  candidates = []
+                  for item in rows:
+                      row = item['row']
+                      if row['id'] != artwork_id or not row.get('image'):
+                          continue
+                      detail = row['metadata']
+                      if detail['is_public_domain'] is not True:
+                          continue
+                      if length == 1:
+                          assert detail['image_id'] == expected_image_id
+                          candidates.append((0, 0, item['row_idx'], row))
+                          continue
+                      same_image = detail.get('image_id') == expected_image_id
+                      if not same_image and [detail.get(k) for k in ['main_reference_number', 'title', 'artist_title']] != identity:
+                          continue
+                      size = detail.get('thumbnail') or {}
+                      if not (size.get('width') and size.get('height')):
+                          continue
+                      image = row['image']
+                      ratio = abs((image['width']/image['height'])/(size['width']/size['height'])-1)
+                      if ratio <= 0.005:
+                          candidates.append((not same_image, ratio, item['row_idx'], row))
+                  if not candidates:
+                      raise LookupError('The archive range contains no confirmed image')
+                  row = min(candidates)[3]
+                  source = row['image']['src']
+                  assert urlparse(source).netloc == urlparse(origin).netloc
+                  with open_source(source) as response:
+                      assert response.headers.get_content_type() == 'image/jpeg'
+                      jpeg = response.read(3_000_001)
+                  assert 3 < len(jpeg) <= 3_000_000 and jpeg.startswith(b'\xff\xd8\xff') and jpeg.endswith(b'\xff\xd9')
+                  (directory / f'{artwork_id}.jpg').write_bytes(jpeg)
+                  downloaded.append(f'artic-{artwork_id}')
+                  print('Verified and downloaded', artwork_id, flush=True)
+              except Exception as error:
+                  print('Unable to download', artwork_id, type(error).__name__, flush=True)
+
+          if not downloaded:
+              raise SystemExit('No archive images were downloaded')
+          Path('data/chicago-archived-ids.json').write_text(json.dumps(downloaded, indent=2) + '\n')
+          print(len(downloaded), 'of', len(records), 'images ready', flush=True)
+          PYTHON
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add images/chicago data/chicago-archived-ids.json
+          git commit -m "Add verified Art Institute of Chicago archive images"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
