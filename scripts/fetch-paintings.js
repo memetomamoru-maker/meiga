@@ -1117,6 +1117,7 @@ function toCMA(d) {
     museum: 'クリーブランド美術館',
     museumUrl: d.url || ('https://clevelandart.org/art/' + (d.accession_number || d.id)),
     image: d.images.web.url,
+    printImage: d.images.print?.url || null,
     wikiUrl: null,
   };
 }
