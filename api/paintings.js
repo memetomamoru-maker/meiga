@@ -4,12 +4,11 @@
 
 const fs   = require('fs');
 const path = require('path');
+// Wikimedia Commons のパブリックドメイン・CC0画像を収蔵館の作品IDで照合。
+const imageFallbacks = require('../data/painting-image-fallbacks.json');
 
 module.exports = (req, res) => {
   res.setHeader('Access-Control-Allow-Origin', '*');
-  // 静的JSONなのでキャッシュを長めに（1時間）
-  res.setHeader('Cache-Control', 's-maxage=3600, stale-while-revalidate=86400');
-
   try {
     const filePath = path.join(process.cwd(), 'public', 'paintings.json');
 
@@ -23,6 +22,11 @@ module.exports = (req, res) => {
     }
 
     const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+    data.paintings = data.paintings.map(painting => {
+      const fallbackImage = imageFallbacks[painting.id];
+      return fallbackImage ? { ...painting, fallbackImage } : painting;
+    });
+    res.setHeader('Cache-Control', 's-maxage=3600, stale-while-revalidate=86400');
     return res.status(200).json(data);
 
   } catch (e) {
