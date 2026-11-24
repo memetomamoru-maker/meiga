@@ -13,7 +13,8 @@
   let queue = [];
   let cursor = 0;
   let liked  = [];
-  let filter = { century: 'all', style: 'all', mood: 'all' };
+  const allFilters = { century: 'all', style: 'all', mood: 'all' };
+  let filter = allFilters;
   let centuries = [], styles = [], moods = [];
   let curCard = null, nextCard = null, prevCard = null;
   let isAnimating = false;
@@ -92,22 +93,10 @@
   }
 
   // ── 今日の一枚 ────────────────────────────────────────────
-  // buildQueue() は内部で cursor=0 にリセットしてしまうため、
-  // 今日の一枚は cursor を先に確定してから直接デッキを組む
   document.getElementById('btn-today').addEventListener('click', () => {
-    fd.classList.remove('open');
-    if (!allPaintings.length) return;
-    const d = new Date();
-    const seed = d.getFullYear() * 10000 + (d.getMonth() + 1) * 100 + d.getDate();
-    // seedで決定論的シャッフル：毎日違う順番、同じ日は同じ順番
-    let s = seed;
-    filter = { century: 'all', style: 'all', mood: 'all' };
-    queue = [...allPaintings].sort(() => {
-      s = (s * 1664525 + 1013904223) & 0xffffffff;
-      return (s >>> 1) - 0x3fffffff;
-    });
-    cursor = 0;
-    _renderDeckAt(cursor);
+    const painting = getTodayPainting();
+    if (!painting) return;
+    openTodayPainting(painting);
     const btn = document.getElementById('btn-today');
     btn.classList.add('active');
     setTimeout(() => btn.classList.remove('active'), 1200);
@@ -329,32 +318,30 @@ function updateFilterOptions() {
     return items;
   }
 
-  // ── キュー構築 ──────────────────────────────────────────────
-  function buildQueue() {
-    const filtered = allPaintings.filter(p => {
-      if (filter.century !== 'all' && p.century !== filter.century) return false;
-      if (filter.style   !== 'all' && p.style   !== filter.style)   return false;
-      if (filter.mood !== 'all' && getMood(p) !== filter.mood) return false;
+  function filterPaintings(selection) {
+    return allPaintings.filter(p => {
+      if (selection.century !== 'all' && p.century !== selection.century) return false;
+      if (selection.style   !== 'all' && p.style   !== selection.style)   return false;
+      if (selection.mood !== 'all' && getMood(p) !== selection.mood) return false;
       return true;
     });
-    if (!filtered.length) { showToast('該当する作品がありません'); return false; }
+  }
+
+  function renderDeck(selection = filter) {
+    const filtered = filterPaintings(selection);
+    if (!filtered.length) {
+      document.getElementById('fd-cnt-label').textContent = 'この組み合わせは0件です';
+      return false;
+    }
+    filter = selection;
     // famous作品を先頭20枚に、残りはその後にシャッフルして続ける
     const famous = shuffle(filtered.filter(p => p.isFamous));
     queue = [
       ...famous.slice(0, 20),
       ...shuffle([...filtered.filter(p => !p.isFamous), ...famous.slice(20)]),
     ];
-    cursor = 0;
+    _renderDeckAt(0);
     return true;
-  }
-
-  // ── デッキ描画（renderDeckはbuildQueueを呼ぶ通常フロー用）──
-  function renderDeck() {
-    dw.querySelectorAll('.card').forEach(c => c.remove());
-    curCard = prevCard = nextCard = null;
-    isAnimating = false;
-    if (!buildQueue()) return;
-    _renderDeckAt(cursor);
   }
 
   // 2〜4枚先の画像をバックグラウンドでプリフェッチ
@@ -794,28 +781,25 @@ function updateFilterOptions() {
 
   // ── フィルタードロワー ──────────────────────────────────────
   const fd = document.getElementById('fd');
+  function closeFilterDrawer() {
+    fd.classList.remove('open');
+    document.getElementById('app').style.overflow = '';
+  }
+
   document.getElementById('btn-filter').addEventListener('click', () => {
     fd.classList.add('open');
     document.getElementById('app').style.overflow = 'visible';
     buildTodayCard();
     buildFilterUI();
   });
-  document.getElementById('fdb').addEventListener('click', () => { fd.classList.remove('open'); document.getElementById('app').style.overflow = ''; });
-  document.getElementById('fdb2').addEventListener('click', () => { fd.classList.remove('open'); document.getElementById('app').style.overflow = ''; });
+  document.getElementById('fdb').addEventListener('click', closeFilterDrawer);
+  document.getElementById('fdb2').addEventListener('click', closeFilterDrawer);
   document.getElementById('fd-reset-btn').addEventListener('click', () => {
-    filter = { century: 'all', style: 'all', mood: 'all' };
-    renderDeck();
-    fd.classList.remove('open');
-    document.getElementById('app').style.overflow = '';
+    if (renderDeck(allFilters)) closeFilterDrawer();
   });
 
   function updateFilterFooter() {
-    const count = allPaintings.filter(p => {
-      if (filter.century !== 'all' && p.century !== filter.century) return false;
-      if (filter.style   !== 'all' && p.style   !== filter.style)   return false;
-      if (filter.mood !== 'all' && getMood(p) !== filter.mood) return false;
-      return true;
-    }).length;
+    const count = filterPaintings(filter).length;
     const lbl = document.getElementById('fd-cnt-label');
     const rst = document.getElementById('fd-reset-btn');
     if (lbl) lbl.textContent = `${count} 作品が対象`;
@@ -851,13 +835,17 @@ function updateFilterOptions() {
       const allBtn = document.createElement('button');
       allBtn.className = 'pill' + (filter[key] === 'all' ? ' on' : '');
       allBtn.textContent = 'すべて';
-      allBtn.onclick = () => { filter[key] = 'all'; renderDeck(); updateFilterFooter(); buildFilterUI(); };
+      allBtn.onclick = () => {
+        if (renderDeck({ ...filter, [key]: 'all' })) buildFilterUI();
+      };
       pw.appendChild(allBtn);
       vals.forEach(v => {
         const pill = document.createElement('button');
         pill.className = 'pill' + (filter[key] === v ? ' on' : '');
         pill.textContent = v;
-        pill.onclick = () => { filter[key] = v; renderDeck(); fd.classList.remove('open'); document.getElementById('app').style.overflow = ''; };
+        pill.onclick = () => {
+          if (renderDeck({ ...filter, [key]: v })) closeFilterDrawer();
+        };
         pw.appendChild(pill);
       });
 
@@ -976,12 +964,26 @@ function updateFilterOptions() {
     hideGuide();
   }, true);
 
+  function getTodayPainting(date = new Date()) {
+    if (!allPaintings.length) return;
+    const seed = date.getFullYear() * 10000 + (date.getMonth() + 1) * 100 + date.getDate();
+    return allPaintings[seed % allPaintings.length];
+  }
+
+  function openTodayPainting(painting) {
+    const index = allPaintings.indexOf(painting);
+    if (index < 0) return;
+    closeFilterDrawer();
+    filter = allFilters;
+    queue = [...allPaintings];
+    _renderDeckAt(index);
+  }
+
   // ── 今日の一枚カード（フィルタードロワー内）────────────────
   function buildTodayCard() {
-    if (!allPaintings.length) return;
     const d = new Date();
-    const seed = d.getFullYear() * 10000 + (d.getMonth() + 1) * 100 + d.getDate();
-    const p = allPaintings[seed % allPaintings.length];
+    const p = getTodayPainting(d);
+    if (!p) return;
     const months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
     const dateStr = `${months[d.getMonth()]} ${d.getDate()}, ${d.getFullYear()}`;
     const elDate   = document.getElementById('fd-today-date');
@@ -991,21 +993,7 @@ function updateFilterOptions() {
     if (elTitle)  elTitle.textContent  = p.title;
     if (elArtist) elArtist.textContent = `${p.artist}（${p.year || '年代不明'}）`;
     const btn = document.getElementById('fd-today-btn');
-    if (btn) {
-      btn.onclick = () => {
-        fd.classList.remove('open');
-        document.getElementById('app').style.overflow = '';
-        if (!allPaintings.length) return;
-        const d = new Date();
-        const seed = d.getFullYear() * 10000 + (d.getMonth() + 1) * 100 + d.getDate();
-        const target = allPaintings[seed % allPaintings.length];
-        filter = { century: 'all', style: 'all', mood: 'all' };
-        queue = [...allPaintings];
-        const idx = queue.findIndex(p => p.id === target.id);
-        cursor = idx >= 0 ? idx : 0;
-        _renderDeckAt(cursor);
-      };
-    }
+    if (btn) btn.onclick = () => openTodayPainting(p);
   }
 
   // ── Copyright年を動的にセット ──────────────────────────────
