@@ -1,5 +1,5 @@
-// sw.js — 名画収集館 Service Worker v1
-const CACHE = 'meiga-v2';
+// sw.js — 名画収集館 Service Worker
+const CACHE = 'meiga-v3';
 
 const STATIC = [
   '/',
@@ -13,48 +13,57 @@ const STATIC = [
 ];
 
 self.addEventListener('install', e => {
-  e.waitUntil(caches.open(CACHE).then(c => c.addAll(STATIC)));
-  self.skipWaiting();
+  e.waitUntil(caches.open(CACHE)
+    .then(c => c.addAll(STATIC.map(url => new Request(url, { cache: 'reload' }))))
+    .then(() => self.skipWaiting()));
 });
 
 self.addEventListener('activate', e => {
-  e.waitUntil(
-    caches.keys().then(keys =>
-      Promise.all(keys.filter(k => k !== CACHE).map(k => caches.delete(k)))
-    )
-  );
-  self.clients.claim();
+  e.waitUntil(caches.keys()
+    .then(keys => Promise.all(keys.filter(k => k.startsWith('meiga-') && k !== CACHE)
+      .map(k => caches.delete(k))))
+    .then(() => self.clients.claim()));
 });
+
+async function cacheResponse(request, response) {
+  if (response.ok) {
+    try {
+      const cache = await caches.open(CACHE);
+      await cache.put(request, response.clone());
+    } catch (error) {
+      console.warn('キャッシュに保存できませんでした', error);
+    }
+  }
+  return response;
+}
+
+async function networkFirst(request) {
+  try {
+    const response = await fetch(request);
+    if (response.status >= 500) return (await caches.match(request)) || response;
+    return cacheResponse(request, response);
+  } catch (error) {
+    const cached = await caches.match(request);
+    if (cached) return cached;
+    throw error;
+  }
+}
 
 self.addEventListener('fetch', e => {
   const url = new URL(e.request.url);
+  if (e.request.method !== 'GET' || url.origin !== self.location.origin) return;
 
-  // APIはネットワーク優先（オフライン時はキャッシュにフォールバック）
-  if (url.pathname.startsWith('/api/')) {
-    e.respondWith(
-      fetch(e.request)
-        .then(res => {
-          caches.open(CACHE).then(c => c.put(e.request, res.clone()));
-          return res;
-        })
-        .catch(() => caches.match(e.request))
-    );
+  // 次回起動時に新しいコードと作品一覧を取得。オフライン時は前回の成功分を使う。
+  if (e.request.mode === 'navigate' || url.pathname === '/app.js' || url.pathname.startsWith('/api/')) {
+    e.respondWith(networkFirst(e.request));
     return;
   }
 
   // 画像はstale-while-revalidate
   if (url.pathname.startsWith('/images/')) {
-    e.respondWith(
-      caches.open(CACHE).then(c =>
-        c.match(e.request).then(cached => {
-          const fresh = fetch(e.request).then(res => {
-            c.put(e.request, res.clone());
-            return res;
-          });
-          return cached || fresh;
-        })
-      )
-    );
+    const fresh = fetch(e.request).then(response => cacheResponse(e.request, response));
+    e.waitUntil(fresh.catch(() => {}));
+    e.respondWith(caches.match(e.request).then(cached => cached || fresh));
     return;
   }
 
