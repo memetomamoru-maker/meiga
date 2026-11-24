@@ -6,6 +6,7 @@ const fs   = require('fs');
 const path = require('path');
 // Wikimedia Commons のパブリックドメイン・CC0画像を収蔵館の作品IDで照合。
 const imageFallbacks = require('../data/painting-image-fallbacks.json');
+const archivedChicagoIds = new Set(require('../data/chicago-archived-ids.json'));
 
 module.exports = (req, res) => {
   res.setHeader('Access-Control-Allow-Origin', '*');
@@ -22,10 +23,21 @@ module.exports = (req, res) => {
     }
 
     const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
-    data.paintings = data.paintings.map(painting => {
-      const fallbackImage = imageFallbacks[painting.id];
-      return fallbackImage ? { ...painting, fallbackImage } : painting;
-    });
+    data.paintings = data.paintings
+      .filter(({ id }) => !id.startsWith('artic-') || archivedChicagoIds.has(id) || imageFallbacks[id])
+      .map(painting => {
+        if (archivedChicagoIds.has(painting.id)) {
+          return {
+            ...painting,
+            image: `/images/chicago/${painting.id.slice('artic-'.length)}.jpg`,
+            fallbackImage: painting.image,
+          };
+        }
+        const fallbackImage = imageFallbacks[painting.id];
+        return fallbackImage ? { ...painting, fallbackImage } : painting;
+      });
+    data.total = data.paintings.length;
+    data.sources.artic = data.paintings.filter(({ id }) => id.startsWith('artic-')).length;
     res.setHeader('Cache-Control', 's-maxage=3600, stale-while-revalidate=86400');
     return res.status(200).json(data);
 
