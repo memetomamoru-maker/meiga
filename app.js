@@ -247,16 +247,15 @@ function updateFilterOptions() {
       const timeout = setTimeout(() => controller.abort(), timeoutMs);
       try {
         const res = await fetch('/api/paintings', { signal: controller.signal });
-        clearTimeout(timeout);
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
         const data = await res.json();
-        if (data.paintings && data.paintings.length > 0) {
+        if (Array.isArray(data.paintings) && data.paintings.length > 0) {
           allPaintings = data.paintings;
           updateFilterOptions();
           return true;
         }
+        throw new Error('作品データが空です');
       } catch(e) {
-        clearTimeout(timeout);
         console.error(`API fetch error (attempt ${attempt}/${MAX_RETRY}):`, e);
         if (attempt < MAX_RETRY) {
           const loadingCard = document.getElementById('loading-card');
@@ -266,6 +265,8 @@ function updateFilterOptions() {
           }
           await new Promise(r => setTimeout(r, 1000));
         }
+      } finally {
+        clearTimeout(timeout);
       }
     }
     return false;
@@ -274,7 +275,7 @@ function updateFilterOptions() {
   // ── 起動 ────────────────────────────────────────────────────
   async function initialLoad() {
     showLoadingCard();
-    const [famousResult, apiOk] = await Promise.all([fetchFamous(), fetchPaintings()]);
+    const [famousResult] = await Promise.all([fetchFamous(), fetchPaintings()]);
 
     if (famousResult.length > 0) {
       const existingIds   = new Set(allPaintings.map(p => p.id));
@@ -283,7 +284,7 @@ function updateFilterOptions() {
         const key = `${(p.title||'').trim()}__${(p.artist||'').trim()}`;
         return !existingIds.has(p.id) && !existingKeys.has(key);
       });
-      allPaintings = [...allPaintings, ...newFamous.sort(() => Math.random() - 0.5)];
+      allPaintings = [...allPaintings, ...newFamous];
       updateFilterOptions();
     }
 
@@ -302,7 +303,6 @@ function updateFilterOptions() {
       });
       return;
     }
-    buildQueue();
     renderDeck();
   }
 
@@ -321,6 +321,14 @@ function updateFilterOptions() {
     if (c) c.remove();
   }
 
+  function shuffle(items) {
+    for (let i = items.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [items[i], items[j]] = [items[j], items[i]];
+    }
+    return items;
+  }
+
   // ── キュー構築 ──────────────────────────────────────────────
   function buildQueue() {
     const filtered = allPaintings.filter(p => {
@@ -331,11 +339,11 @@ function updateFilterOptions() {
     });
     if (!filtered.length) { showToast('該当する作品がありません'); return false; }
     // famous作品を先頭20枚に、残りはその後にシャッフルして続ける
-    const famousFiltered = filtered.filter(p => p.isFamous);
-    const othersFiltered = filtered.filter(p => !p.isFamous);
-    const famousShuffled = famousFiltered.sort(() => Math.random() - .5).slice(0, 20);
-    const othersShuffled = othersFiltered.sort(() => Math.random() - .5);
-    queue = [...famousShuffled, ...othersShuffled];
+    const famous = shuffle(filtered.filter(p => p.isFamous));
+    queue = [
+      ...famous.slice(0, 20),
+      ...shuffle([...filtered.filter(p => !p.isFamous), ...famous.slice(20)]),
+    ];
     cursor = 0;
     return true;
   }
@@ -361,6 +369,20 @@ function updateFilterOptions() {
         }
       }
     }
+  }
+
+  function loadArtworkImage(img, urls, onError) {
+    const candidates = [...new Set(urls.filter(Boolean))];
+    const next = () => {
+      const url = candidates.shift();
+      if (url) img.src = url;
+      else {
+        img.onerror = null;
+        onError();
+      }
+    };
+    img.onerror = next;
+    next();
   }
 
   // cursor が決まった状態でカードを組み立てる内部関数
@@ -409,15 +431,34 @@ function updateFilterOptions() {
     fw.className = 'frame-wrap';
     const ph = document.createElement('div');
     ph.className = 'painting-placeholder';
-    ph.innerHTML = `<div class="ph-spinner"></div><div class="ph-title">${p.title}</div>`;
+    const spinner = document.createElement('div');
+    spinner.className = 'ph-spinner';
+    const caption = document.createElement('div');
+    caption.className = 'ph-title';
+    caption.textContent = p.title;
+    ph.append(spinner, caption);
     fw.appendChild(ph);
     const img = document.createElement('img');
     img.className = 'painting-img';
     img.alt = p.title;
     img.decoding = 'async';
     img.onload = () => { img.classList.add('loaded'); ph.style.display = 'none'; };
-    img.onerror = () => { ph.innerHTML = `<div class="ph-title" style="opacity:.5">${p.title}</div>`; };
-    img.src = p.image;
+    const load = () => loadArtworkImage(img, [p.image, p.fallbackImage], () => {
+      const message = document.createElement('div');
+      message.className = 'ph-title';
+      message.textContent = '画像を表示できませんでした';
+      const retry = document.createElement('button');
+      retry.className = 'fd-today-btn';
+      retry.type = 'button';
+      retry.textContent = '画像を再読み込み';
+      retry.addEventListener('click', event => {
+        event.stopPropagation();
+        ph.replaceChildren(spinner, caption);
+        load();
+      });
+      ph.replaceChildren(message, retry);
+    });
+    load();
     // キャッシュ済み画像はonloadが発火しないためsrc設定後にチェック
     if (img.complete && img.naturalWidth > 0) {
       img.classList.add('loaded');
@@ -823,13 +864,14 @@ function updateFilterOptions() {
     grid.innerHTML = '';
     if (!liked.length) { empty.style.display = 'block'; grid.style.display = 'none'; return; }
     empty.style.display = 'none'; grid.style.display = 'grid';
-    liked.forEach((p, i) => {
+    liked.forEach((saved, i) => {
+      const p = allPaintings.find(painting => painting.id === saved.id) || saved;
       const item  = document.createElement('div'); item.className = 'gi'; item.style.animationDelay = `${i * 0.04}s`;
       const wire  = document.createElement('div'); wire.className = 'giwire';
       const frame = document.createElement('div'); frame.className = 'gif';
       const inner = document.createElement('div'); inner.className = 'gif-inner';
-      const img   = document.createElement('img'); img.alt = p.title; img.loading = 'lazy'; img.src = p.image;
-      img.addEventListener('error', () => {
+      const img   = document.createElement('img'); img.alt = p.title; img.loading = 'lazy';
+      loadArtworkImage(img, [p.image, p.fallbackImage], () => {
         img.style.display = 'none';
         const ph2 = document.createElement('div');
         ph2.style.cssText = 'width:100%;height:100%;display:flex;align-items:center;justify-content:center;font-size:9px;color:var(--ink-l);padding:4px;text-align:center;font-style:italic;background:var(--parchment);';
@@ -871,12 +913,15 @@ function updateFilterOptions() {
     const fromGallery = opts && opts.fromGallery;
     // gallery-modeクラス制御（額縁表示/非表示）
     lb.classList.toggle('gallery-mode', fromGallery);
-    lbImg.src = '';
     const bigUrl = p.image
       .replace('/web-large/', '/original/')
       .replace('/full/843,/', '/full/1200,/');
-    lbImg.src = bigUrl;
-    lbImg.onerror = () => { lbImg.src = p.image; };
+    lbImg.alt = p.title;
+    lbImg.style.display = '';
+    loadArtworkImage(lbImg, [bigUrl, p.image, p.fallbackImage], () => {
+      lbImg.style.display = 'none';
+      showToast('画像を表示できませんでした');
+    });
     lbTitle.textContent = p.title;
     lbSub.textContent = `${p.artist} · ${p.year || '年代不明'} · ${p.museum}`;
     // 詳細リンク: famousはwikiUrl優先、それ以外はmuseumUrl優先
