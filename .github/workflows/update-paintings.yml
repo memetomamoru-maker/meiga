@@ -8,7 +8,7 @@ on:
 jobs:
   import-images:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
     permissions:
       contents: write
     steps:
@@ -23,6 +23,7 @@ jobs:
           import time
           from pathlib import Path
           from urllib.parse import urlencode, urlparse
+          from urllib.error import HTTPError
           from urllib.request import Request, urlopen
 
           # The Art Institute of Chicago (CC0) via LINKS Foundation (CC BY 4.0).
@@ -32,10 +33,22 @@ jobs:
           directory = Path('images/chicago')
           directory.mkdir(parents=True, exist_ok=True)
           downloaded = []
+          priority = [14493, 14511, 14630, 65930]
+          records.sort(key=lambda record: priority.index(record[0]) if record[0] in priority else len(priority))
 
           def open_source(url):
-              time.sleep(1)
-              return urlopen(Request(url, headers={'User-Agent': 'Meiga/1.0 (https://meiga.vercel.app/)'}), timeout=20)
+              for attempt in range(2):
+                  time.sleep(2.2)
+                  try:
+                      return urlopen(Request(url, headers={'User-Agent': 'Meiga/1.0 (https://meiga.vercel.app/)'}), timeout=20)
+                  except HTTPError as error:
+                      if error.code != 429 or attempt:
+                          raise
+                      retry_after = error.headers.get('Retry-After', '')
+                      if not retry_after.isdecimal() or int(retry_after) > 300:
+                          raise
+                      print('Archive rate limit, waiting', retry_after, 'seconds', flush=True)
+                      time.sleep(max(5, int(retry_after)))
 
           for artwork_id, offset, length, expected_image_id, *identity in records:
               params = urlencode({
@@ -73,12 +86,15 @@ jobs:
                   source = row['image']['src']
                   assert urlparse(source).netloc == urlparse(origin).netloc
                   with open_source(source) as response:
-                      assert response.headers.get_content_type() == 'image/jpeg'
                       jpeg = response.read(3_000_001)
                   assert 3 < len(jpeg) <= 3_000_000 and jpeg.startswith(b'\xff\xd8\xff') and jpeg.endswith(b'\xff\xd9')
                   (directory / f'{artwork_id}.jpg').write_bytes(jpeg)
                   downloaded.append(f'artic-{artwork_id}')
                   print('Verified and downloaded', artwork_id, flush=True)
+              except HTTPError as error:
+                  print('Archive HTTP status', error.code, 'for', artwork_id, flush=True)
+                  if error.code in {403, 429}:
+                      break
               except Exception as error:
                   print('Unable to download', artwork_id, type(error).__name__, flush=True)
 
