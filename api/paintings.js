@@ -6,7 +6,9 @@ const fs   = require('fs');
 const path = require('path');
 // Wikimedia Commons のパブリックドメイン・CC0画像を収蔵館の作品IDで照合。
 const imageFallbacks = require('../data/painting-image-fallbacks.json');
+const clevelandFallbacks = require('../data/cleveland-image-fallbacks.json');
 const archivedChicagoIds = new Set(require('../data/chicago-archived-ids.json'));
+const clevelandWebImage = /^(https:\/\/openaccess-cdn\.clevelandart\.org\/[^/]+\/[^/]+)_web\.jpg$/;
 
 module.exports = (req, res) => {
   res.setHeader('Access-Control-Allow-Origin', '*');
@@ -32,6 +34,13 @@ module.exports = (req, res) => {
             image: `/images/chicago/${painting.id.slice('artic-'.length)}.jpg`,
             fallbackImage: painting.image,
           };
+        }
+        if (painting.id.startsWith('cma-')) {
+          // 旧データのWeb版URLからも、同じ作品の公式プリント版を補完する。
+          const printImage = painting.printImage || (clevelandWebImage.test(painting.image)
+            ? painting.image.replace(clevelandWebImage, '$1_print.jpg')
+            : null);
+          return { ...painting, printImage, fallbackImage: clevelandFallbacks[painting.id] || null };
         }
         const fallbackImage = imageFallbacks[painting.id];
         return fallbackImage ? { ...painting, fallbackImage } : painting;
