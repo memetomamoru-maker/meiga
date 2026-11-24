@@ -371,17 +371,38 @@ function updateFilterOptions() {
     }
   }
 
+  const imageRequests = new WeakMap();
+
   function loadArtworkImage(img, urls, onError) {
+    imageRequests.get(img)?.();
     const candidates = [...new Set(urls.filter(Boolean))];
-    const next = () => {
-      const url = candidates.shift();
-      if (url) img.src = url;
-      else {
-        img.onerror = null;
-        onError();
-      }
+    const useTimeout = candidates.length > 1 && img.loading !== 'lazy';
+    let timeout;
+
+    const finish = () => {
+      clearTimeout(timeout);
+      img.removeEventListener('load', finish);
+      img.removeEventListener('error', next);
+      imageRequests.delete(img);
     };
-    img.onerror = next;
+
+    const next = () => {
+      clearTimeout(timeout);
+      const url = candidates.shift();
+      if (!url) {
+        finish();
+        onError();
+        return;
+      }
+      img.src = url;
+      if (useTimeout) timeout = setTimeout(() => {
+        if (img.isConnected) next();
+        else finish();
+      }, 10000);
+    };
+    imageRequests.set(img, finish);
+    img.addEventListener('load', finish);
+    img.addEventListener('error', next);
     next();
   }
 
@@ -443,7 +464,7 @@ function updateFilterOptions() {
     img.alt = p.title;
     img.decoding = 'async';
     img.onload = () => { img.classList.add('loaded'); ph.style.display = 'none'; };
-    const load = () => loadArtworkImage(img, [p.image, p.fallbackImage], () => {
+    const load = () => loadArtworkImage(img, [p.image, p.fallbackImage, p.printImage], () => {
       const message = document.createElement('div');
       message.className = 'ph-title';
       message.textContent = '画像を表示できませんでした';
@@ -871,7 +892,7 @@ function updateFilterOptions() {
       const frame = document.createElement('div'); frame.className = 'gif';
       const inner = document.createElement('div'); inner.className = 'gif-inner';
       const img   = document.createElement('img'); img.alt = p.title; img.loading = 'lazy';
-      loadArtworkImage(img, [p.image, p.fallbackImage], () => {
+      loadArtworkImage(img, [p.image, p.fallbackImage, p.printImage], () => {
         img.style.display = 'none';
         const ph2 = document.createElement('div');
         ph2.style.cssText = 'width:100%;height:100%;display:flex;align-items:center;justify-content:center;font-size:9px;color:var(--ink-l);padding:4px;text-align:center;font-style:italic;background:var(--parchment);';
@@ -918,7 +939,7 @@ function updateFilterOptions() {
       .replace('/full/843,/', '/full/1200,/');
     lbImg.alt = p.title;
     lbImg.style.display = '';
-    loadArtworkImage(lbImg, [bigUrl, p.image, p.fallbackImage], () => {
+    loadArtworkImage(lbImg, [bigUrl, p.image, p.fallbackImage, p.printImage], () => {
       lbImg.style.display = 'none';
       showToast('画像を表示できませんでした');
     });
