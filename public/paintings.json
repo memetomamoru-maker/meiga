@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-25T05:58:07.926Z",
+  "generated": "2026-11-26T05:51:31.540Z",
   "total": 906,
   "sources": {
     "artic": 355,
@@ -2109,6 +2109,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-65925",
+      "title": "ニューイングランドの終わり——ニューメキシコの始まり",
+      "artist": "Marsden Hartley",
+      "year": 1919,
+      "century": "20世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/65925",
+      "image": "https://www.artic.edu/iiif/2/75fc3e47-9b94-5838-25ea-6c24620765d0/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-65920",
       "title": "プロビンスタウン",
       "artist": "Marsden Hartley",
@@ -2128,17 +2139,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/65930",
       "image": "https://www.artic.edu/iiif/2/2a328b12-cb68-19e8-3843-b2160f007813/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-65925",
-      "title": "ニューイングランドの終わり——ニューメキシコの始まり",
-      "artist": "Marsden Hartley",
-      "year": 1919,
-      "century": "20世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/65925",
-      "image": "https://www.artic.edu/iiif/2/75fc3e47-9b94-5838-25ea-6c24620765d0/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
@@ -2912,6 +2912,17 @@
       "wikiUrl": null
     },
     {
+      "id": "artic-100352",
+      "title": "African Chief",
+      "artist": "Mariano Fortuny y Marsal",
+      "year": 1870,
+      "century": "18〜19世紀",
+      "museum": "シカゴ美術館",
+      "museumUrl": "https://www.artic.edu/artworks/100352",
+      "image": "https://www.artic.edu/iiif/2/c54a8b04-9034-37cf-6dbc-13a4f6f17706/full/843,/0/default.jpg",
+      "wikiUrl": null
+    },
+    {
       "id": "artic-120172",
       "title": "Penitent Saint Peter",
       "artist": "Jusepe de Ribera",
@@ -3228,17 +3239,6 @@
       "museum": "シカゴ美術館",
       "museumUrl": "https://www.artic.edu/artworks/27307",
       "image": "https://www.artic.edu/iiif/2/72227c9e-413c-8930-477d-5a90e0a2123c/full/843,/0/default.jpg",
-      "wikiUrl": null
-    },
-    {
-      "id": "artic-100352",
-      "title": "African Chief",
-      "artist": "Mariano Fortuny y Marsal",
-      "year": 1870,
-      "century": "18〜19世紀",
-      "museum": "シカゴ美術館",
-      "museumUrl": "https://www.artic.edu/artworks/100352",
-      "image": "https://www.artic.edu/iiif/2/c54a8b04-9034-37cf-6dbc-13a4f6f17706/full/843,/0/default.jpg",
       "wikiUrl": null
     },
     {
